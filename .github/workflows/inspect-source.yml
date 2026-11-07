@@ -5,6 +5,7 @@ on:
     paths:
       - "scripts/inspect-source.py"
       - "scripts/build-data.py"
+      - "scripts/resolve-icons.py"
       - ".github/workflows/inspect-source.yml"
 permissions:
   contents: write
@@ -18,6 +19,8 @@ jobs:
           python-version: '3.12'
       - run: python scripts/inspect-source.py
       - run: python scripts/build-data.py
+      - name: Resolve item icons from WoW FileDataIDs
+        run: python3 scripts/resolve-icons.py
       - name: Commit data shape
         run: |
           git config user.name "github-actions[bot]"

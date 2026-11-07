@@ -35,7 +35,9 @@ with urllib.request.urlopen(request,timeout=60) as response:
 parser=LinkReader();parser.feed(markup)
 recipes=json.loads(INPUT.read_text(encoding="utf-8"))["recipes"]
 byname=defaultdict(list)
-for r in recipes:byname[norm(r["name"])].append(r)
+for r in recipes:
+    if r.get("category")=="SEASON OF DISCOVERY":continue  # Historical duplicate spells are not evidence for Forever crafting requirements
+    byname[norm(r["name"])].append(r)
 candidate=[]
 for link in parser.links:
     m=re.match(r"^(.*?)\s*[★◆]?\s+(\d{1,3})(?:\s+(\d{1,3}))?$",link)

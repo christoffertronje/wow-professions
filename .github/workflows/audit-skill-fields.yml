@@ -4,6 +4,7 @@ on:
   push:
     paths:
       - "scripts/audit-skill-fields.py"
+      - ".github/workflows/audit-skill-fields.yml"
 permissions:
   contents: write
 jobs:

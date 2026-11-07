@@ -1,0 +1,2224 @@
+{
+  "source": "https://guildloot.de/en/beruf/forever/leatherworking/",
+  "matchedCount": 369,
+  "sourceRows": 424,
+  "disagreements": [],
+  "matchedWithCurrentUnknown": 12,
+  "unmatchedCount": 55,
+  "matches": [
+    {
+      "spellId": "2881",
+      "name": "Light Leather",
+      "craftingSkillReference": 1,
+      "currentRecordedLearnSkill": null
+    },
+    {
+      "spellId": "2152",
+      "name": "Light Armor Kit",
+      "craftingSkillReference": 1,
+      "currentRecordedLearnSkill": null
+    },
+    {
+      "spellId": "2149",
+      "name": "Handstitched Leather Boots",
+      "craftingSkillReference": 1,
+      "currentRecordedLearnSkill": null
+    },
+    {
+      "spellId": "7126",
+      "name": "Handstitched Leather Vest",
+      "craftingSkillReference": 1,
+      "currentRecordedLearnSkill": null
+    },
+    {
+      "spellId": "9058",
+      "name": "Handstitched Leather Cloak",
+      "craftingSkillReference": 1,
+      "currentRecordedLearnSkill": null
+    },
+    {
+      "spellId": "9059",
+      "name": "Handstitched Leather Bracers",
+      "craftingSkillReference": 1,
+      "currentRecordedLearnSkill": null
+    },
+    {
+      "spellId": "1302604",
+      "name": "Light Leather Reagent Bag",
+      "craftingSkillReference": 30,
+      "currentRecordedLearnSkill": 30
+    },
+    {
+      "spellId": "9064",
+      "name": "Rugged Leather Pants",
+      "craftingSkillReference": 30,
+      "currentRecordedLearnSkill": 30
+    },
+    {
+      "spellId": "1255143",
+      "name": "Moonglow Boots",
+      "craftingSkillReference": 35,
+      "currentRecordedLearnSkill": 35
+    },
+    {
+      "spellId": "1255144",
+      "name": "Murloc Scale Shoes",
+      "craftingSkillReference": 35,
+      "currentRecordedLearnSkill": 35
+    },
+    {
+      "spellId": "1255145",
+      "name": "Dark Leather Boots",
+      "craftingSkillReference": 35,
+      "currentRecordedLearnSkill": 35
+    },
+    {
+      "spellId": "1255146",
+      "name": "Black Whelp Slippers",
+      "craftingSkillReference": 35,
+      "currentRecordedLearnSkill": 35
+    },
+    {
+      "spellId": "5244",
+      "name": "Kodo Hide Bag",
+      "craftingSkillReference": 35,
+      "currentRecordedLearnSkill": 35
+    },
+    {
+      "spellId": "2163",
+      "name": "White Leather Jerkin",
+      "craftingSkillReference": 40,
+      "currentRecordedLearnSkill": 40
+    },
+    {
+      "spellId": "1301428",
+      "name": "Cloudy Gustwoven Bracers",
+      "craftingSkillReference": 50,
+      "currentRecordedLearnSkill": 50
+    },
+    {
+      "spellId": "1301430",
+      "name": "Cloudy Gustwoven Belt",
+      "craftingSkillReference": 50,
+      "currentRecordedLearnSkill": 50
+    },
+    {
+      "spellId": "1301434",
+      "name": "Cloudy Windraveled Armguards",
+      "craftingSkillReference": 50,
+      "currentRecordedLearnSkill": 50
+    },
+    {
+      "spellId": "1301436",
+      "name": "Cloudy Windraveled Strap",
+      "craftingSkillReference": 50,
+      "currentRecordedLearnSkill": 50
+    },
+    {
+      "spellId": "1301452",
+      "name": "Azure Gustwoven Bracers",
+      "craftingSkillReference": 50,
+      "currentRecordedLearnSkill": 50
+    },
+    {
+      "spellId": "1301454",
+      "name": "Azure Gustwoven Belt",
+      "craftingSkillReference": 50,
+      "currentRecordedLearnSkill": 50
+    },
+    {
+      "spellId": "1301458",
+      "name": "Azure Windraveled Armguards",
+      "craftingSkillReference": 50,
+      "currentRecordedLearnSkill": 50
+    },
+    {
+      "spellId": "1301460",
+      "name": "Azure Windraveled Strap",
+      "craftingSkillReference": 50,
+      "currentRecordedLearnSkill": 50
+    },
+    {
+      "spellId": "2164",
+      "name": "Fine Leather Gloves",
+      "craftingSkillReference": 50,
+      "currentRecordedLearnSkill": 50
+    },
+    {
+      "spellId": "1301429",
+      "name": "Cloudy Gustwoven Gloves",
+      "craftingSkillReference": 55,
+      "currentRecordedLearnSkill": 55
+    },
+    {
+      "spellId": "1301432",
+      "name": "Cloudy Gustwoven Boots",
+      "craftingSkillReference": 55,
+      "currentRecordedLearnSkill": 55
+    },
+    {
+      "spellId": "1301435",
+      "name": "Cloudy Windraveled Mitts",
+      "craftingSkillReference": 55,
+      "currentRecordedLearnSkill": 55
+    },
+    {
+      "spellId": "1301438",
+      "name": "Cloudy Windraveled Footwraps",
+      "craftingSkillReference": 55,
+      "currentRecordedLearnSkill": 55
+    },
+    {
+      "spellId": "1301453",
+      "name": "Azure Gustwoven Gloves",
+      "craftingSkillReference": 55,
+      "currentRecordedLearnSkill": 55
+    },
+    {
+      "spellId": "1301456",
+      "name": "Azure Gustwoven Boots",
+      "craftingSkillReference": 55,
+      "currentRecordedLearnSkill": 55
+    },
+    {
+      "spellId": "1301459",
+      "name": "Azure Windraveled Mitts",
+      "craftingSkillReference": 55,
+      "currentRecordedLearnSkill": 55
+    },
+    {
+      "spellId": "1301462",
+      "name": "Azure Windraveled Footwraps",
+      "craftingSkillReference": 55,
+      "currentRecordedLearnSkill": 55
+    },
+    {
+      "spellId": "1301427",
+      "name": "Cloudy Gustwoven Harness",
+      "craftingSkillReference": 60,
+      "currentRecordedLearnSkill": 60
+    },
+    {
+      "spellId": "1301431",
+      "name": "Cloudy Gustwoven Trousers",
+      "craftingSkillReference": 60,
+      "currentRecordedLearnSkill": 60
+    },
+    {
+      "spellId": "1301433",
+      "name": "Cloudy Windraveled Jerkin",
+      "craftingSkillReference": 60,
+      "currentRecordedLearnSkill": 60
+    },
+    {
+      "spellId": "1301437",
+      "name": "Cloudy Windraveled Pants",
+      "craftingSkillReference": 60,
+      "currentRecordedLearnSkill": 60
+    },
+    {
+      "spellId": "1301451",
+      "name": "Azure Gustwoven Harness",
+      "craftingSkillReference": 60,
+      "currentRecordedLearnSkill": 60
+    },
+    {
+      "spellId": "1301455",
+      "name": "Azure Gustwoven Trousers",
+      "craftingSkillReference": 60,
+      "currentRecordedLearnSkill": 60
+    },
+    {
+      "spellId": "1301457",
+      "name": "Azure Windraveled Jerkin",
+      "craftingSkillReference": 60,
+      "currentRecordedLearnSkill": 60
+    },
+    {
+      "spellId": "1301461",
+      "name": "Azure Windraveled Pants",
+      "craftingSkillReference": 60,
+      "currentRecordedLearnSkill": 60
+    },
+    {
+      "spellId": "1255137",
+      "name": "Wisdom's Leather Belt",
+      "craftingSkillReference": 60,
+      "currentRecordedLearnSkill": 60
+    },
+    {
+      "spellId": "1255138",
+      "name": "Stormrider's Leather Belt",
+      "craftingSkillReference": 60,
+      "currentRecordedLearnSkill": 60
+    },
+    {
+      "spellId": "1255139",
+      "name": "Totemic Leather Belt",
+      "craftingSkillReference": 60,
+      "currentRecordedLearnSkill": 60
+    },
+    {
+      "spellId": "1255140",
+      "name": "Defender's Leather Belt",
+      "craftingSkillReference": 60,
+      "currentRecordedLearnSkill": 60
+    },
+    {
+      "spellId": "1255141",
+      "name": "Trapper's Leather Belt",
+      "craftingSkillReference": 60,
+      "currentRecordedLearnSkill": 60
+    },
+    {
+      "spellId": "1255142",
+      "name": "Brawler's Leather Belt",
+      "craftingSkillReference": 60,
+      "currentRecordedLearnSkill": 60
+    },
+    {
+      "spellId": "8322",
+      "name": "Moonglow Vest",
+      "craftingSkillReference": 65,
+      "currentRecordedLearnSkill": 65
+    },
+    {
+      "spellId": "2158",
+      "name": "Fine Leather Boots",
+      "craftingSkillReference": 65,
+      "currentRecordedLearnSkill": 65
+    },
+    {
+      "spellId": "6702",
+      "name": "Murloc Scale Belt",
+      "craftingSkillReference": 65,
+      "currentRecordedLearnSkill": 65
+    },
+    {
+      "spellId": "7953",
+      "name": "Deviate Scale Cloak",
+      "craftingSkillReference": 65,
+      "currentRecordedLearnSkill": 65
+    },
+    {
+      "spellId": "6703",
+      "name": "Murloc Scale Breastplate",
+      "craftingSkillReference": 70,
+      "currentRecordedLearnSkill": 70
+    },
+    {
+      "spellId": "2169",
+      "name": "Dark Leather Tunic",
+      "craftingSkillReference": 75,
+      "currentRecordedLearnSkill": 75
+    },
+    {
+      "spellId": "3762",
+      "name": "Hillman's Leather Vest",
+      "craftingSkillReference": 75,
+      "currentRecordedLearnSkill": 75
+    },
+    {
+      "spellId": "9070",
+      "name": "Black Whelp Cloak",
+      "craftingSkillReference": 75,
+      "currentRecordedLearnSkill": 75
+    },
+    {
+      "spellId": "24940",
+      "name": "Black Whelp Tunic",
+      "craftingSkillReference": 75,
+      "currentRecordedLearnSkill": 75
+    },
+    {
+      "spellId": "1255125",
+      "name": "Wisdom's Leather Gloves",
+      "craftingSkillReference": 75,
+      "currentRecordedLearnSkill": 75
+    },
+    {
+      "spellId": "1255126",
+      "name": "Stormrider's Leather Gloves",
+      "craftingSkillReference": 75,
+      "currentRecordedLearnSkill": 75
+    },
+    {
+      "spellId": "1255127",
+      "name": "Totemic Leather Gloves",
+      "craftingSkillReference": 75,
+      "currentRecordedLearnSkill": 75
+    },
+    {
+      "spellId": "1255128",
+      "name": "Defender's Leather Gloves",
+      "craftingSkillReference": 75,
+      "currentRecordedLearnSkill": 75
+    },
+    {
+      "spellId": "1255129",
+      "name": "Trapper's Leather Gloves",
+      "craftingSkillReference": 75,
+      "currentRecordedLearnSkill": 75
+    },
+    {
+      "spellId": "1255130",
+      "name": "Brawler's Leather Gloves",
+      "craftingSkillReference": 75,
+      "currentRecordedLearnSkill": 75
+    },
+    {
+      "spellId": "1255123",
+      "name": "Forceful Medium Armor Kit",
+      "craftingSkillReference": 80,
+      "currentRecordedLearnSkill": 80
+    },
+    {
+      "spellId": "1255124",
+      "name": "Mystic Medium Armor Kit",
+      "craftingSkillReference": 80,
+      "currentRecordedLearnSkill": 80
+    },
+    {
+      "spellId": "7133",
+      "name": "Fine Leather Pants",
+      "craftingSkillReference": 80,
+      "currentRecordedLearnSkill": 80
+    },
+    {
+      "spellId": "7954",
+      "name": "Deviate Scale Gloves",
+      "craftingSkillReference": 80,
+      "currentRecordedLearnSkill": 80
+    },
+    {
+      "spellId": "1255116",
+      "name": "Wisdom's Leather Boots",
+      "craftingSkillReference": 85,
+      "currentRecordedLearnSkill": 85
+    },
+    {
+      "spellId": "1255117",
+      "name": "Stormrider's Leather Boots",
+      "craftingSkillReference": 85,
+      "currentRecordedLearnSkill": 85
+    },
+    {
+      "spellId": "1255118",
+      "name": "Totemic Leather Boots",
+      "craftingSkillReference": 85,
+      "currentRecordedLearnSkill": 85
+    },
+    {
+      "spellId": "1255119",
+      "name": "Defender's Leather Boots",
+      "craftingSkillReference": 85,
+      "currentRecordedLearnSkill": 85
+    },
+    {
+      "spellId": "1255120",
+      "name": "Trapper's Leather Boots",
+      "craftingSkillReference": 85,
+      "currentRecordedLearnSkill": 85
+    },
+    {
+      "spellId": "1255121",
+      "name": "Brawler's Leather Boots",
+      "craftingSkillReference": 85,
+      "currentRecordedLearnSkill": 85
+    },
+    {
+      "spellId": "7955",
+      "name": "Deviate Scale Belt",
+      "craftingSkillReference": 90,
+      "currentRecordedLearnSkill": 90
+    },
+    {
+      "spellId": "9072",
+      "name": "Red Whelp Gloves",
+      "craftingSkillReference": 95,
+      "currentRecordedLearnSkill": 95
+    },
+    {
+      "spellId": "3767",
+      "name": "Hillman's Belt",
+      "craftingSkillReference": 95,
+      "currentRecordedLearnSkill": 95
+    },
+    {
+      "spellId": "3765",
+      "name": "Dark Leather Gloves",
+      "craftingSkillReference": 95,
+      "currentRecordedLearnSkill": 95
+    },
+    {
+      "spellId": "1255104",
+      "name": "Wisdom's Leather Hood",
+      "craftingSkillReference": 100,
+      "currentRecordedLearnSkill": 100
+    },
+    {
+      "spellId": "1255105",
+      "name": "Stormrider's Leather Hood",
+      "craftingSkillReference": 100,
+      "currentRecordedLearnSkill": 100
+    },
+    {
+      "spellId": "1255106",
+      "name": "Totemic Leather Hood",
+      "craftingSkillReference": 100,
+      "currentRecordedLearnSkill": 100
+    },
+    {
+      "spellId": "1255107",
+      "name": "Defender's Leather Hood",
+      "craftingSkillReference": 100,
+      "currentRecordedLearnSkill": 100
+    },
+    {
+      "spellId": "1255108",
+      "name": "Trapper's Leather Hood",
+      "craftingSkillReference": 100,
+      "currentRecordedLearnSkill": 100
+    },
+    {
+      "spellId": "1255109",
+      "name": "Brawler's Leather Hood",
+      "craftingSkillReference": 100,
+      "currentRecordedLearnSkill": 100
+    },
+    {
+      "spellId": "9146",
+      "name": "Herbalist's Gloves",
+      "craftingSkillReference": 110,
+      "currentRecordedLearnSkill": 110
+    },
+    {
+      "spellId": "9147",
+      "name": "Earthen Leather Shoulders",
+      "craftingSkillReference": 110,
+      "currentRecordedLearnSkill": 110
+    },
+    {
+      "spellId": "1255097",
+      "name": "Wisdom's Leather Tunic",
+      "craftingSkillReference": 110,
+      "currentRecordedLearnSkill": 110
+    },
+    {
+      "spellId": "1255098",
+      "name": "Stormrider's Leather Tunic",
+      "craftingSkillReference": 110,
+      "currentRecordedLearnSkill": 110
+    },
+    {
+      "spellId": "1255099",
+      "name": "Totemic Leather Tunic",
+      "craftingSkillReference": 110,
+      "currentRecordedLearnSkill": 110
+    },
+    {
+      "spellId": "1255100",
+      "name": "Defender's Leather Tunic",
+      "craftingSkillReference": 110,
+      "currentRecordedLearnSkill": 110
+    },
+    {
+      "spellId": "1255101",
+      "name": "Trapper's Leather Tunic",
+      "craftingSkillReference": 110,
+      "currentRecordedLearnSkill": 110
+    },
+    {
+      "spellId": "1255102",
+      "name": "Brawler's Leather Tunic",
+      "craftingSkillReference": 110,
+      "currentRecordedLearnSkill": 110
+    },
+    {
+      "spellId": "1255103",
+      "name": "Hillman's Leather Boots",
+      "craftingSkillReference": 110,
+      "currentRecordedLearnSkill": 110
+    },
+    {
+      "spellId": "3769",
+      "name": "Dark Leather Shoulders",
+      "craftingSkillReference": 115,
+      "currentRecordedLearnSkill": 115
+    },
+    {
+      "spellId": "9148",
+      "name": "Pilferer's Gloves",
+      "craftingSkillReference": 115,
+      "currentRecordedLearnSkill": 115
+    },
+    {
+      "spellId": "9149",
+      "name": "Heavy Earthen Gloves",
+      "craftingSkillReference": 120,
+      "currentRecordedLearnSkill": 120
+    },
+    {
+      "spellId": "23190",
+      "name": "Heavy Leather Ball",
+      "craftingSkillReference": 125,
+      "currentRecordedLearnSkill": 125
+    },
+    {
+      "spellId": "3771",
+      "name": "Barbaric Gloves",
+      "craftingSkillReference": 125,
+      "currentRecordedLearnSkill": 125
+    },
+    {
+      "spellId": "1255082",
+      "name": "Wisdom's Leather Leggings",
+      "craftingSkillReference": 125,
+      "currentRecordedLearnSkill": 125
+    },
+    {
+      "spellId": "1255083",
+      "name": "Stormrider's Leather Kilt",
+      "craftingSkillReference": 125,
+      "currentRecordedLearnSkill": 125
+    },
+    {
+      "spellId": "1255084",
+      "name": "Totemic Leather Leggings",
+      "craftingSkillReference": 125,
+      "currentRecordedLearnSkill": 125
+    },
+    {
+      "spellId": "1255085",
+      "name": "Defender's Leather Kilt",
+      "craftingSkillReference": 125,
+      "currentRecordedLearnSkill": 125
+    },
+    {
+      "spellId": "1255086",
+      "name": "Trapper's Leather Legguards",
+      "craftingSkillReference": 125,
+      "currentRecordedLearnSkill": 125
+    },
+    {
+      "spellId": "1255087",
+      "name": "Brawler's Leather Legguards",
+      "craftingSkillReference": 125,
+      "currentRecordedLearnSkill": 125
+    },
+    {
+      "spellId": "7153",
+      "name": "Guardian Cloak",
+      "craftingSkillReference": 125,
+      "currentRecordedLearnSkill": null
+    },
+    {
+      "spellId": "3772",
+      "name": "Green Leather Armor",
+      "craftingSkillReference": 130,
+      "currentRecordedLearnSkill": 130
+    },
+    {
+      "spellId": "23399",
+      "name": "Barbaric Bracers",
+      "craftingSkillReference": 130,
+      "currentRecordedLearnSkill": 130
+    },
+    {
+      "spellId": "1255095",
+      "name": "Forceful Heavy Armor Kit",
+      "craftingSkillReference": 135,
+      "currentRecordedLearnSkill": 135
+    },
+    {
+      "spellId": "1255096",
+      "name": "Mystic Heavy Armor Kit",
+      "craftingSkillReference": 135,
+      "currentRecordedLearnSkill": 135
+    },
+    {
+      "spellId": "1263031",
+      "name": "Tanning Rack",
+      "craftingSkillReference": 140,
+      "currentRecordedLearnSkill": 140
+    },
+    {
+      "spellId": "4096",
+      "name": "Raptor Hide Harness",
+      "craftingSkillReference": 140,
+      "currentRecordedLearnSkill": 140
+    },
+    {
+      "spellId": "4097",
+      "name": "Raptor Hide Belt",
+      "craftingSkillReference": 140,
+      "currentRecordedLearnSkill": 140
+    },
+    {
+      "spellId": "9195",
+      "name": "Dusky Leather Leggings",
+      "craftingSkillReference": 140,
+      "currentRecordedLearnSkill": 140
+    },
+    {
+      "spellId": "6704",
+      "name": "Thick Murloc Armor",
+      "craftingSkillReference": 145,
+      "currentRecordedLearnSkill": 145
+    },
+    {
+      "spellId": "7149",
+      "name": "Barbaric Leggings",
+      "craftingSkillReference": 145,
+      "currentRecordedLearnSkill": 145
+    },
+    {
+      "spellId": "1255075",
+      "name": "Mender's Leather Belt",
+      "craftingSkillReference": 150,
+      "currentRecordedLearnSkill": 150
+    },
+    {
+      "spellId": "1255076",
+      "name": "Skycaller's Leather Belt",
+      "craftingSkillReference": 150,
+      "currentRecordedLearnSkill": 150
+    },
+    {
+      "spellId": "1255077",
+      "name": "Skirmisher's Leather Belt",
+      "craftingSkillReference": 150,
+      "currentRecordedLearnSkill": 150
+    },
+    {
+      "spellId": "1255078",
+      "name": "Warden's Leather Belt",
+      "craftingSkillReference": 150,
+      "currentRecordedLearnSkill": 150
+    },
+    {
+      "spellId": "1255079",
+      "name": "Stalker's Leather Belt",
+      "craftingSkillReference": 150,
+      "currentRecordedLearnSkill": 150
+    },
+    {
+      "spellId": "1255080",
+      "name": "Skulker's Leather Belt",
+      "craftingSkillReference": 150,
+      "currentRecordedLearnSkill": 150
+    },
+    {
+      "spellId": "1255081",
+      "name": "Prowler's Leather Belt",
+      "craftingSkillReference": 150,
+      "currentRecordedLearnSkill": 150
+    },
+    {
+      "spellId": "3773",
+      "name": "Guardian Armor",
+      "craftingSkillReference": 150,
+      "currentRecordedLearnSkill": 150
+    },
+    {
+      "spellId": "9197",
+      "name": "Green Whelp Armor",
+      "craftingSkillReference": 150,
+      "currentRecordedLearnSkill": 150
+    },
+    {
+      "spellId": "3778",
+      "name": "Gem-studded Leather Belt",
+      "craftingSkillReference": 160,
+      "currentRecordedLearnSkill": 160
+    },
+    {
+      "spellId": "6705",
+      "name": "Murloc Scale Bracers",
+      "craftingSkillReference": 165,
+      "currentRecordedLearnSkill": 165
+    },
+    {
+      "spellId": "9202",
+      "name": "Green Whelp Bracers",
+      "craftingSkillReference": 165,
+      "currentRecordedLearnSkill": 165
+    },
+    {
+      "spellId": "21943",
+      "name": "Gloves of the Greatfather",
+      "craftingSkillReference": 165,
+      "currentRecordedLearnSkill": 165
+    },
+    {
+      "spellId": "22711",
+      "name": "Shadowskin Gloves",
+      "craftingSkillReference": 175,
+      "currentRecordedLearnSkill": 175
+    },
+    {
+      "spellId": "1301528",
+      "name": "Cloudy Gustwoven Hood",
+      "craftingSkillReference": 175,
+      "currentRecordedLearnSkill": 175
+    },
+    {
+      "spellId": "1301529",
+      "name": "Cloudy Gustwoven Spaulders",
+      "craftingSkillReference": 175,
+      "currentRecordedLearnSkill": 175
+    },
+    {
+      "spellId": "1301530",
+      "name": "Cloudy Windraveled Cover",
+      "craftingSkillReference": 175,
+      "currentRecordedLearnSkill": 175
+    },
+    {
+      "spellId": "1301531",
+      "name": "Cloudy Windraveled Drapes",
+      "craftingSkillReference": 175,
+      "currentRecordedLearnSkill": 175
+    },
+    {
+      "spellId": "1301536",
+      "name": "Azure Gustwoven Hood",
+      "craftingSkillReference": 175,
+      "currentRecordedLearnSkill": 175
+    },
+    {
+      "spellId": "1301537",
+      "name": "Azure Gustwoven Spaulders",
+      "craftingSkillReference": 175,
+      "currentRecordedLearnSkill": 175
+    },
+    {
+      "spellId": "1301538",
+      "name": "Azure Windraveled Cover",
+      "craftingSkillReference": 175,
+      "currentRecordedLearnSkill": 175
+    },
+    {
+      "spellId": "1301539",
+      "name": "Azure Windraveled Drapes",
+      "craftingSkillReference": 175,
+      "currentRecordedLearnSkill": 175
+    },
+    {
+      "spellId": "3779",
+      "name": "Barbaric Belt",
+      "craftingSkillReference": 175,
+      "currentRecordedLearnSkill": 175
+    },
+    {
+      "spellId": "9207",
+      "name": "Dusky Boots",
+      "craftingSkillReference": 175,
+      "currentRecordedLearnSkill": null
+    },
+    {
+      "spellId": "9208",
+      "name": "Swift Boots",
+      "craftingSkillReference": 175,
+      "currentRecordedLearnSkill": 175
+    },
+    {
+      "spellId": "10490",
+      "name": "Comfortable Leather Hat",
+      "craftingSkillReference": 175,
+      "currentRecordedLearnSkill": 175
+    },
+    {
+      "spellId": "1255065",
+      "name": "Mender's Leather Gloves",
+      "craftingSkillReference": 175,
+      "currentRecordedLearnSkill": 175
+    },
+    {
+      "spellId": "1255066",
+      "name": "Skycaller's Leather Gloves",
+      "craftingSkillReference": 175,
+      "currentRecordedLearnSkill": 175
+    },
+    {
+      "spellId": "1255067",
+      "name": "Skirmisher's Leather Gloves",
+      "craftingSkillReference": 175,
+      "currentRecordedLearnSkill": 175
+    },
+    {
+      "spellId": "1255068",
+      "name": "Warden's Leather Gloves",
+      "craftingSkillReference": 175,
+      "currentRecordedLearnSkill": 175
+    },
+    {
+      "spellId": "1255069",
+      "name": "Stalker's Leather Gloves",
+      "craftingSkillReference": 175,
+      "currentRecordedLearnSkill": 175
+    },
+    {
+      "spellId": "1255070",
+      "name": "Skulker's Leather Gloves",
+      "craftingSkillReference": 175,
+      "currentRecordedLearnSkill": 175
+    },
+    {
+      "spellId": "1255071",
+      "name": "Prowler's Leather Gloves",
+      "craftingSkillReference": 175,
+      "currentRecordedLearnSkill": 175
+    },
+    {
+      "spellId": "10516",
+      "name": "Nightscape Shoulders",
+      "craftingSkillReference": 185,
+      "currentRecordedLearnSkill": 185
+    },
+    {
+      "spellId": "1255073",
+      "name": "Forceful Thick Armor Kit",
+      "craftingSkillReference": 185,
+      "currentRecordedLearnSkill": 185
+    },
+    {
+      "spellId": "1255074",
+      "name": "Mystic Thick Armor Kit",
+      "craftingSkillReference": 185,
+      "currentRecordedLearnSkill": 185
+    },
+    {
+      "spellId": "10525",
+      "name": "Tough Scorpid Breastplate",
+      "craftingSkillReference": 195,
+      "currentRecordedLearnSkill": 195
+    },
+    {
+      "spellId": "10529",
+      "name": "Wild Leather Shoulders",
+      "craftingSkillReference": 195,
+      "currentRecordedLearnSkill": 195
+    },
+    {
+      "spellId": "10533",
+      "name": "Tough Scorpid Bracers",
+      "craftingSkillReference": 195,
+      "currentRecordedLearnSkill": 195
+    },
+    {
+      "spellId": "1255008",
+      "name": "Mender's Mail Boots",
+      "craftingSkillReference": 200,
+      "currentRecordedLearnSkill": 200
+    },
+    {
+      "spellId": "1255009",
+      "name": "Skirmisher's Mail Boots",
+      "craftingSkillReference": 200,
+      "currentRecordedLearnSkill": 200
+    },
+    {
+      "spellId": "1255010",
+      "name": "Skycaller's Mail Boots",
+      "craftingSkillReference": 200,
+      "currentRecordedLearnSkill": 200
+    },
+    {
+      "spellId": "1255011",
+      "name": "Stalker's Mail Boots",
+      "craftingSkillReference": 200,
+      "currentRecordedLearnSkill": 200
+    },
+    {
+      "spellId": "1255060",
+      "name": "Mender's Leather Shoes",
+      "craftingSkillReference": 200,
+      "currentRecordedLearnSkill": 200
+    },
+    {
+      "spellId": "1255061",
+      "name": "Skycaller's Leather Shoes",
+      "craftingSkillReference": 200,
+      "currentRecordedLearnSkill": 200
+    },
+    {
+      "spellId": "1255062",
+      "name": "Warden's Leather Shoes",
+      "craftingSkillReference": 200,
+      "currentRecordedLearnSkill": 200
+    },
+    {
+      "spellId": "1255063",
+      "name": "Skulker's Leather Shoes",
+      "craftingSkillReference": 200,
+      "currentRecordedLearnSkill": 200
+    },
+    {
+      "spellId": "1255064",
+      "name": "Prowler's Leather Shoes",
+      "craftingSkillReference": 200,
+      "currentRecordedLearnSkill": 200
+    },
+    {
+      "spellId": "10542",
+      "name": "Tough Scorpid Gloves",
+      "craftingSkillReference": 200,
+      "currentRecordedLearnSkill": 200
+    },
+    {
+      "spellId": "10544",
+      "name": "Wild Leather Vest",
+      "craftingSkillReference": 200,
+      "currentRecordedLearnSkill": 200
+    },
+    {
+      "spellId": "10546",
+      "name": "Wild Leather Helmet",
+      "craftingSkillReference": 200,
+      "currentRecordedLearnSkill": 200
+    },
+    {
+      "spellId": "10550",
+      "name": "Nightscape Cloak",
+      "craftingSkillReference": 205,
+      "currentRecordedLearnSkill": 205
+    },
+    {
+      "spellId": "1255004",
+      "name": "Mender's Mail Shoulders",
+      "craftingSkillReference": 210,
+      "currentRecordedLearnSkill": 210
+    },
+    {
+      "spellId": "1255005",
+      "name": "Skirmisher's Mail Shoulders",
+      "craftingSkillReference": 210,
+      "currentRecordedLearnSkill": 210
+    },
+    {
+      "spellId": "1255006",
+      "name": "Skycaller's Mail Shoulders",
+      "craftingSkillReference": 210,
+      "currentRecordedLearnSkill": 210
+    },
+    {
+      "spellId": "1255007",
+      "name": "Stalker's Mail Shoulders",
+      "craftingSkillReference": 210,
+      "currentRecordedLearnSkill": 210
+    },
+    {
+      "spellId": "10554",
+      "name": "Tough Scorpid Boots",
+      "craftingSkillReference": 210,
+      "currentRecordedLearnSkill": 210
+    },
+    {
+      "spellId": "1255055",
+      "name": "Mender's Leather Shoulders",
+      "craftingSkillReference": 210,
+      "currentRecordedLearnSkill": 210
+    },
+    {
+      "spellId": "1255056",
+      "name": "Skycaller's Leather Shoulders",
+      "craftingSkillReference": 210,
+      "currentRecordedLearnSkill": 210
+    },
+    {
+      "spellId": "1255057",
+      "name": "Warden's Leather Shoulders",
+      "craftingSkillReference": 210,
+      "currentRecordedLearnSkill": 210
+    },
+    {
+      "spellId": "1255059",
+      "name": "Prowler's Leather Shoulders",
+      "craftingSkillReference": 210,
+      "currentRecordedLearnSkill": 210
+    },
+    {
+      "spellId": "10560",
+      "name": "Big Voodoo Pants",
+      "craftingSkillReference": 215,
+      "currentRecordedLearnSkill": 215
+    },
+    {
+      "spellId": "10562",
+      "name": "Big Voodoo Cloak",
+      "craftingSkillReference": 215,
+      "currentRecordedLearnSkill": 215
+    },
+    {
+      "spellId": "10564",
+      "name": "Tough Scorpid Shoulders",
+      "craftingSkillReference": 215,
+      "currentRecordedLearnSkill": 215
+    },
+    {
+      "spellId": "10566",
+      "name": "Wild Leather Boots",
+      "craftingSkillReference": 220,
+      "currentRecordedLearnSkill": 220
+    },
+    {
+      "spellId": "10568",
+      "name": "Tough Scorpid Leggings",
+      "craftingSkillReference": 220,
+      "currentRecordedLearnSkill": 220
+    },
+    {
+      "spellId": "1255000",
+      "name": "Mender's Mail Bracers",
+      "craftingSkillReference": 225,
+      "currentRecordedLearnSkill": 225
+    },
+    {
+      "spellId": "1255001",
+      "name": "Skirmisher's Mail Bracers",
+      "craftingSkillReference": 225,
+      "currentRecordedLearnSkill": 225
+    },
+    {
+      "spellId": "1255002",
+      "name": "Skycaller's Mail Bracers",
+      "craftingSkillReference": 225,
+      "currentRecordedLearnSkill": 225
+    },
+    {
+      "spellId": "1255003",
+      "name": "Stalker's Mail Bracers",
+      "craftingSkillReference": 225,
+      "currentRecordedLearnSkill": 225
+    },
+    {
+      "spellId": "10570",
+      "name": "Tough Scorpid Helm",
+      "craftingSkillReference": 225,
+      "currentRecordedLearnSkill": 225
+    },
+    {
+      "spellId": "10572",
+      "name": "Wild Leather Leggings",
+      "craftingSkillReference": 225,
+      "currentRecordedLearnSkill": 225
+    },
+    {
+      "spellId": "10574",
+      "name": "Wild Leather Cloak",
+      "craftingSkillReference": 225,
+      "currentRecordedLearnSkill": 225
+    },
+    {
+      "spellId": "1255050",
+      "name": "Mender's Leather Bracers",
+      "craftingSkillReference": 225,
+      "currentRecordedLearnSkill": 225
+    },
+    {
+      "spellId": "1255051",
+      "name": "Skycaller's Leather Bracers",
+      "craftingSkillReference": 225,
+      "currentRecordedLearnSkill": 225
+    },
+    {
+      "spellId": "1255052",
+      "name": "Warden's Leather Bracers",
+      "craftingSkillReference": 225,
+      "currentRecordedLearnSkill": 225
+    },
+    {
+      "spellId": "1255053",
+      "name": "Skulker's Leather Bracers",
+      "craftingSkillReference": 225,
+      "currentRecordedLearnSkill": 225
+    },
+    {
+      "spellId": "1255054",
+      "name": "Prowler's Leather Bracers",
+      "craftingSkillReference": 225,
+      "currentRecordedLearnSkill": 225
+    },
+    {
+      "spellId": "1254998",
+      "name": "Charged Scorpid Belt",
+      "craftingSkillReference": 230,
+      "currentRecordedLearnSkill": 230
+    },
+    {
+      "spellId": "1254999",
+      "name": "Supple Scorpid Boots",
+      "craftingSkillReference": 230,
+      "currentRecordedLearnSkill": 230
+    },
+    {
+      "spellId": "1254965",
+      "name": "Forceful Rugged Armor Kit",
+      "craftingSkillReference": 235,
+      "currentRecordedLearnSkill": 235
+    },
+    {
+      "spellId": "1254966",
+      "name": "Mystic Rugged Armor Kit",
+      "craftingSkillReference": 235,
+      "currentRecordedLearnSkill": 235
+    },
+    {
+      "spellId": "19049",
+      "name": "Wicked Leather Gauntlets",
+      "craftingSkillReference": 235,
+      "currentRecordedLearnSkill": 235
+    },
+    {
+      "spellId": "19050",
+      "name": "Green Dragonscale Breastplate",
+      "craftingSkillReference": 235,
+      "currentRecordedLearnSkill": 235
+    },
+    {
+      "spellId": "1254994",
+      "name": "Mender's Mail Sabatons",
+      "craftingSkillReference": 235,
+      "currentRecordedLearnSkill": 235
+    },
+    {
+      "spellId": "1254995",
+      "name": "Skirmisher's Mail Sabatons",
+      "craftingSkillReference": 235,
+      "currentRecordedLearnSkill": 235
+    },
+    {
+      "spellId": "1254996",
+      "name": "Skycaller's Mail Sabatons",
+      "craftingSkillReference": 235,
+      "currentRecordedLearnSkill": 235
+    },
+    {
+      "spellId": "1254997",
+      "name": "Stalker's Mail Sabatons",
+      "craftingSkillReference": 235,
+      "currentRecordedLearnSkill": 235
+    },
+    {
+      "spellId": "1255043",
+      "name": "Mender's Leather Boots",
+      "craftingSkillReference": 235,
+      "currentRecordedLearnSkill": 235
+    },
+    {
+      "spellId": "1255044",
+      "name": "Skycaller's Leather Boots",
+      "craftingSkillReference": 235,
+      "currentRecordedLearnSkill": 235
+    },
+    {
+      "spellId": "1255045",
+      "name": "Warden's Leather Boots",
+      "craftingSkillReference": 235,
+      "currentRecordedLearnSkill": 235
+    },
+    {
+      "spellId": "1255046",
+      "name": "Skulker's Leather Boots",
+      "craftingSkillReference": 235,
+      "currentRecordedLearnSkill": 235
+    },
+    {
+      "spellId": "1255047",
+      "name": "Prowler's Leather Boots",
+      "craftingSkillReference": 235,
+      "currentRecordedLearnSkill": 235
+    },
+    {
+      "spellId": "1255048",
+      "name": "Blue Suede Shoes",
+      "craftingSkillReference": 235,
+      "currentRecordedLearnSkill": 235
+    },
+    {
+      "spellId": "1255049",
+      "name": "Tooled Leather Belt",
+      "craftingSkillReference": 235,
+      "currentRecordedLearnSkill": 235
+    },
+    {
+      "spellId": "19051",
+      "name": "Heavy Scorpid Vest",
+      "craftingSkillReference": 240,
+      "currentRecordedLearnSkill": 240
+    },
+    {
+      "spellId": "19052",
+      "name": "Wicked Leather Bracers",
+      "craftingSkillReference": 240,
+      "currentRecordedLearnSkill": 240
+    },
+    {
+      "spellId": "19053",
+      "name": "Chimeric Gloves",
+      "craftingSkillReference": 240,
+      "currentRecordedLearnSkill": 240
+    },
+    {
+      "spellId": "1254992",
+      "name": "Charged Scorpid Helm",
+      "craftingSkillReference": 240,
+      "currentRecordedLearnSkill": 240
+    },
+    {
+      "spellId": "1254993",
+      "name": "Supple Scorpid Leggings",
+      "craftingSkillReference": 240,
+      "currentRecordedLearnSkill": 240
+    },
+    {
+      "spellId": "1255041",
+      "name": "Blue Suede Gloves",
+      "craftingSkillReference": 240,
+      "currentRecordedLearnSkill": 240
+    },
+    {
+      "spellId": "1255042",
+      "name": "Tooled Leather Boots",
+      "craftingSkillReference": 240,
+      "currentRecordedLearnSkill": 240
+    },
+    {
+      "spellId": "16650",
+      "name": "Wildthorn Mail",
+      "craftingSkillReference": 245,
+      "currentRecordedLearnSkill": 245
+    },
+    {
+      "spellId": "19055",
+      "name": "Runic Leather Gauntlets",
+      "craftingSkillReference": 245,
+      "currentRecordedLearnSkill": 245
+    },
+    {
+      "spellId": "19059",
+      "name": "Volcanic Leggings",
+      "craftingSkillReference": 245,
+      "currentRecordedLearnSkill": 245
+    },
+    {
+      "spellId": "19060",
+      "name": "Green Dragonscale Leggings",
+      "craftingSkillReference": 245,
+      "currentRecordedLearnSkill": 245
+    },
+    {
+      "spellId": "19061",
+      "name": "Living Shoulders",
+      "craftingSkillReference": 245,
+      "currentRecordedLearnSkill": 245
+    },
+    {
+      "spellId": "19062",
+      "name": "Ironfeather Shoulders",
+      "craftingSkillReference": 245,
+      "currentRecordedLearnSkill": 245
+    },
+    {
+      "spellId": "1254986",
+      "name": "Mender's Mail Gauntlets",
+      "craftingSkillReference": 250,
+      "currentRecordedLearnSkill": 250
+    },
+    {
+      "spellId": "1254987",
+      "name": "Skirmisher's Mail Gauntlets",
+      "craftingSkillReference": 250,
+      "currentRecordedLearnSkill": 250
+    },
+    {
+      "spellId": "1254988",
+      "name": "Skycaller's Mail Gauntlets",
+      "craftingSkillReference": 250,
+      "currentRecordedLearnSkill": 250
+    },
+    {
+      "spellId": "1254989",
+      "name": "Stalker's Mail Gauntlets",
+      "craftingSkillReference": 250,
+      "currentRecordedLearnSkill": 250
+    },
+    {
+      "spellId": "1255036",
+      "name": "Mender's Leather Gauntlets",
+      "craftingSkillReference": 250,
+      "currentRecordedLearnSkill": 250
+    },
+    {
+      "spellId": "1255037",
+      "name": "Skycaller's Leather Gauntlets",
+      "craftingSkillReference": 250,
+      "currentRecordedLearnSkill": 250
+    },
+    {
+      "spellId": "1255038",
+      "name": "Warden's Leather Gauntlets",
+      "craftingSkillReference": 250,
+      "currentRecordedLearnSkill": 250
+    },
+    {
+      "spellId": "1255039",
+      "name": "Skulker's Leather Gauntlets",
+      "craftingSkillReference": 250,
+      "currentRecordedLearnSkill": 250
+    },
+    {
+      "spellId": "1255040",
+      "name": "Prowler's Leather Gauntlets",
+      "craftingSkillReference": 250,
+      "currentRecordedLearnSkill": 250
+    },
+    {
+      "spellId": "19063",
+      "name": "Chimeric Boots",
+      "craftingSkillReference": 250,
+      "currentRecordedLearnSkill": 250
+    },
+    {
+      "spellId": "19065",
+      "name": "Runic Leather Bracers",
+      "craftingSkillReference": 250,
+      "currentRecordedLearnSkill": 250
+    },
+    {
+      "spellId": "19066",
+      "name": "Frostsaber Boots",
+      "craftingSkillReference": 250,
+      "currentRecordedLearnSkill": 250
+    },
+    {
+      "spellId": "19067",
+      "name": "Stormshroud Pants",
+      "craftingSkillReference": 250,
+      "currentRecordedLearnSkill": 250
+    },
+    {
+      "spellId": "19068",
+      "name": "Warbear Harness",
+      "craftingSkillReference": 250,
+      "currentRecordedLearnSkill": 250
+    },
+    {
+      "spellId": "1254982",
+      "name": "Mender's Mail Belt",
+      "craftingSkillReference": 250,
+      "currentRecordedLearnSkill": 250
+    },
+    {
+      "spellId": "1254983",
+      "name": "Skirmisher's Mail Belt",
+      "craftingSkillReference": 250,
+      "currentRecordedLearnSkill": 250
+    },
+    {
+      "spellId": "1254984",
+      "name": "Skycaller's Mail Belt",
+      "craftingSkillReference": 250,
+      "currentRecordedLearnSkill": 250
+    },
+    {
+      "spellId": "1254985",
+      "name": "Stalker's Mail Belt",
+      "craftingSkillReference": 250,
+      "currentRecordedLearnSkill": 250
+    },
+    {
+      "spellId": "1254990",
+      "name": "Charged Scorpid Shoulders",
+      "craftingSkillReference": 250,
+      "currentRecordedLearnSkill": 250
+    },
+    {
+      "spellId": "1254991",
+      "name": "Supple Scorpid Bracers",
+      "craftingSkillReference": 250,
+      "currentRecordedLearnSkill": 250
+    },
+    {
+      "spellId": "1255031",
+      "name": "Mender's Leather Waistguard",
+      "craftingSkillReference": 250,
+      "currentRecordedLearnSkill": 250
+    },
+    {
+      "spellId": "1255032",
+      "name": "Skycaller's Leather Waistguard",
+      "craftingSkillReference": 250,
+      "currentRecordedLearnSkill": 250
+    },
+    {
+      "spellId": "1255033",
+      "name": "Warden's Leather Waistguard",
+      "craftingSkillReference": 250,
+      "currentRecordedLearnSkill": 250
+    },
+    {
+      "spellId": "1255034",
+      "name": "Skulker's Leather Waistguard",
+      "craftingSkillReference": 250,
+      "currentRecordedLearnSkill": 250
+    },
+    {
+      "spellId": "1255035",
+      "name": "Prowler's Leather Waistguard",
+      "craftingSkillReference": 250,
+      "currentRecordedLearnSkill": 250
+    },
+    {
+      "spellId": "19048",
+      "name": "Heavy Scorpid Bracers",
+      "craftingSkillReference": 255,
+      "currentRecordedLearnSkill": 255
+    },
+    {
+      "spellId": "19070",
+      "name": "Heavy Scorpid Belt",
+      "craftingSkillReference": 255,
+      "currentRecordedLearnSkill": 255
+    },
+    {
+      "spellId": "19071",
+      "name": "Wicked Leather Headband",
+      "craftingSkillReference": 255,
+      "currentRecordedLearnSkill": 255
+    },
+    {
+      "spellId": "19072",
+      "name": "Runic Leather Belt",
+      "craftingSkillReference": 255,
+      "currentRecordedLearnSkill": 255
+    },
+    {
+      "spellId": "19073",
+      "name": "Chimeric Leggings",
+      "craftingSkillReference": 255,
+      "currentRecordedLearnSkill": 255
+    },
+    {
+      "spellId": "1254977",
+      "name": "Charged Scorpid Gauntlets",
+      "craftingSkillReference": 255,
+      "currentRecordedLearnSkill": 255
+    },
+    {
+      "spellId": "1254978",
+      "name": "Supple Scorpid Belt",
+      "craftingSkillReference": 255,
+      "currentRecordedLearnSkill": 255
+    },
+    {
+      "spellId": "1254979",
+      "name": "Heavy Scorpid Boots",
+      "craftingSkillReference": 255,
+      "currentRecordedLearnSkill": 255
+    },
+    {
+      "spellId": "1254980",
+      "name": "Charged Scorpid Bracers",
+      "craftingSkillReference": 255,
+      "currentRecordedLearnSkill": 255
+    },
+    {
+      "spellId": "1254981",
+      "name": "Supple Scorpid Shoulders",
+      "craftingSkillReference": 255,
+      "currentRecordedLearnSkill": 255
+    },
+    {
+      "spellId": "1255029",
+      "name": "Blue Suede Pants",
+      "craftingSkillReference": 255,
+      "currentRecordedLearnSkill": 255
+    },
+    {
+      "spellId": "1255030",
+      "name": "Tooled Leather Armor",
+      "craftingSkillReference": 255,
+      "currentRecordedLearnSkill": 255
+    },
+    {
+      "spellId": "19074",
+      "name": "Frostsaber Leggings",
+      "craftingSkillReference": 260,
+      "currentRecordedLearnSkill": 260
+    },
+    {
+      "spellId": "19075",
+      "name": "Heavy Scorpid Leggings",
+      "craftingSkillReference": 260,
+      "currentRecordedLearnSkill": 260
+    },
+    {
+      "spellId": "19076",
+      "name": "Volcanic Breastplate",
+      "craftingSkillReference": 260,
+      "currentRecordedLearnSkill": 260
+    },
+    {
+      "spellId": "19077",
+      "name": "Blue Dragonscale Breastplate",
+      "craftingSkillReference": 260,
+      "currentRecordedLearnSkill": 260
+    },
+    {
+      "spellId": "19078",
+      "name": "Living Leggings",
+      "craftingSkillReference": 260,
+      "currentRecordedLearnSkill": 260
+    },
+    {
+      "spellId": "19079",
+      "name": "Stormshroud Armor",
+      "craftingSkillReference": 260,
+      "currentRecordedLearnSkill": 260
+    },
+    {
+      "spellId": "19080",
+      "name": "Warbear Woolies",
+      "craftingSkillReference": 260,
+      "currentRecordedLearnSkill": 260
+    },
+    {
+      "spellId": "1254975",
+      "name": "Charged Scorpid Vest",
+      "craftingSkillReference": 260,
+      "currentRecordedLearnSkill": 260
+    },
+    {
+      "spellId": "1254976",
+      "name": "Supple Scorpid Helm",
+      "craftingSkillReference": 260,
+      "currentRecordedLearnSkill": 260
+    },
+    {
+      "spellId": "1255026",
+      "name": "Blue Suede Shoulders",
+      "craftingSkillReference": 260,
+      "currentRecordedLearnSkill": 260
+    },
+    {
+      "spellId": "1255027",
+      "name": "Tooled Leather Gauntlets",
+      "craftingSkillReference": 260,
+      "currentRecordedLearnSkill": 260
+    },
+    {
+      "spellId": "1255028",
+      "name": "Wicked Leather Boots",
+      "craftingSkillReference": 260,
+      "currentRecordedLearnSkill": 260
+    },
+    {
+      "spellId": "19081",
+      "name": "Chimeric Vest",
+      "craftingSkillReference": 265,
+      "currentRecordedLearnSkill": 265
+    },
+    {
+      "spellId": "19082",
+      "name": "Runic Leather Headband",
+      "craftingSkillReference": 265,
+      "currentRecordedLearnSkill": 265
+    },
+    {
+      "spellId": "19083",
+      "name": "Wicked Leather Pants",
+      "craftingSkillReference": 265,
+      "currentRecordedLearnSkill": 265
+    },
+    {
+      "spellId": "19084",
+      "name": "Devilsaur Gauntlets",
+      "craftingSkillReference": 265,
+      "currentRecordedLearnSkill": 265
+    },
+    {
+      "spellId": "19085",
+      "name": "Black Dragonscale Breastplate",
+      "craftingSkillReference": 265,
+      "currentRecordedLearnSkill": 265
+    },
+    {
+      "spellId": "19086",
+      "name": "Ironfeather Breastplate",
+      "craftingSkillReference": 265,
+      "currentRecordedLearnSkill": 265
+    },
+    {
+      "spellId": "23628",
+      "name": "Heavy Timbermaw Belt",
+      "craftingSkillReference": 265,
+      "currentRecordedLearnSkill": 265
+    },
+    {
+      "spellId": "23703",
+      "name": "Might of the Timbermaw",
+      "craftingSkillReference": 265,
+      "currentRecordedLearnSkill": 265
+    },
+    {
+      "spellId": "23705",
+      "name": "Dawn Treaders",
+      "craftingSkillReference": 265,
+      "currentRecordedLearnSkill": null
+    },
+    {
+      "spellId": "1255024",
+      "name": "Blue Suede Armor",
+      "craftingSkillReference": 265,
+      "currentRecordedLearnSkill": 265
+    },
+    {
+      "spellId": "1255025",
+      "name": "Tooled Leather Crown",
+      "craftingSkillReference": 265,
+      "currentRecordedLearnSkill": 265
+    },
+    {
+      "spellId": "16661",
+      "name": "Storm Gauntlets",
+      "craftingSkillReference": 270,
+      "currentRecordedLearnSkill": 270
+    },
+    {
+      "spellId": "19087",
+      "name": "Frostsaber Gloves",
+      "craftingSkillReference": 270,
+      "currentRecordedLearnSkill": 270
+    },
+    {
+      "spellId": "19088",
+      "name": "Heavy Scorpid Helm",
+      "craftingSkillReference": 270,
+      "currentRecordedLearnSkill": 270
+    },
+    {
+      "spellId": "19089",
+      "name": "Blue Dragonscale Shoulders",
+      "craftingSkillReference": 270,
+      "currentRecordedLearnSkill": 270
+    },
+    {
+      "spellId": "19090",
+      "name": "Stormshroud Shoulders",
+      "craftingSkillReference": 270,
+      "currentRecordedLearnSkill": 270
+    },
+    {
+      "spellId": "1254973",
+      "name": "Charged Scorpid Leggings",
+      "craftingSkillReference": 270,
+      "currentRecordedLearnSkill": 270
+    },
+    {
+      "spellId": "1254974",
+      "name": "Supple Scorpid Vest",
+      "craftingSkillReference": 270,
+      "currentRecordedLearnSkill": 270
+    },
+    {
+      "spellId": "1255021",
+      "name": "Blue Suede Belt",
+      "craftingSkillReference": 270,
+      "currentRecordedLearnSkill": 270
+    },
+    {
+      "spellId": "1255022",
+      "name": "Tooled Leather Bracers",
+      "craftingSkillReference": 270,
+      "currentRecordedLearnSkill": 270
+    },
+    {
+      "spellId": "1255023",
+      "name": "Wicked Leather Shoulders",
+      "craftingSkillReference": 270,
+      "currentRecordedLearnSkill": 270
+    },
+    {
+      "spellId": "19094",
+      "name": "Black Dragonscale Shoulders",
+      "craftingSkillReference": 270,
+      "currentRecordedLearnSkill": 270
+    },
+    {
+      "spellId": "19091",
+      "name": "Runic Leather Pants",
+      "craftingSkillReference": 275,
+      "currentRecordedLearnSkill": 275
+    },
+    {
+      "spellId": "19092",
+      "name": "Wicked Leather Belt",
+      "craftingSkillReference": 275,
+      "currentRecordedLearnSkill": 275
+    },
+    {
+      "spellId": "1255019",
+      "name": "Blue Suede Bracers",
+      "craftingSkillReference": 275,
+      "currentRecordedLearnSkill": 275
+    },
+    {
+      "spellId": "1255020",
+      "name": "Tooled Leather Epaulets",
+      "craftingSkillReference": 275,
+      "currentRecordedLearnSkill": 275
+    },
+    {
+      "spellId": "19098",
+      "name": "Wicked Leather Armor",
+      "craftingSkillReference": 280,
+      "currentRecordedLearnSkill": 280
+    },
+    {
+      "spellId": "19100",
+      "name": "Heavy Scorpid Shoulders",
+      "craftingSkillReference": 280,
+      "currentRecordedLearnSkill": 280
+    },
+    {
+      "spellId": "19101",
+      "name": "Volcanic Shoulders",
+      "craftingSkillReference": 280,
+      "currentRecordedLearnSkill": 280
+    },
+    {
+      "spellId": "1254971",
+      "name": "Charged Scorpid Boots",
+      "craftingSkillReference": 280,
+      "currentRecordedLearnSkill": 280
+    },
+    {
+      "spellId": "1254972",
+      "name": "Supple Scorpid Sabatons",
+      "craftingSkillReference": 280,
+      "currentRecordedLearnSkill": 280
+    },
+    {
+      "spellId": "1255017",
+      "name": "Blue Suede Hat",
+      "craftingSkillReference": 280,
+      "currentRecordedLearnSkill": 280
+    },
+    {
+      "spellId": "1255018",
+      "name": "Tooled Leather Pants",
+      "craftingSkillReference": 280,
+      "currentRecordedLearnSkill": 280
+    },
+    {
+      "spellId": "44953",
+      "name": "Winter Boots",
+      "craftingSkillReference": 285,
+      "currentRecordedLearnSkill": 285
+    },
+    {
+      "spellId": "1297126",
+      "name": "Bileblister Claws",
+      "craftingSkillReference": 285,
+      "currentRecordedLearnSkill": 285
+    },
+    {
+      "spellId": "1297129",
+      "name": "Hivethrasher's Claws",
+      "craftingSkillReference": 285,
+      "currentRecordedLearnSkill": 285
+    },
+    {
+      "spellId": "1297132",
+      "name": "Scalegut Clenchers",
+      "craftingSkillReference": 285,
+      "currentRecordedLearnSkill": 285
+    },
+    {
+      "spellId": "1297135",
+      "name": "Broodwatcher's Clenchers",
+      "craftingSkillReference": 285,
+      "currentRecordedLearnSkill": 285
+    },
+    {
+      "spellId": "19102",
+      "name": "Runic Leather Armor",
+      "craftingSkillReference": 285,
+      "currentRecordedLearnSkill": 285
+    },
+    {
+      "spellId": "19103",
+      "name": "Runic Leather Shoulders",
+      "craftingSkillReference": 285,
+      "currentRecordedLearnSkill": 285
+    },
+    {
+      "spellId": "16728",
+      "name": "Helm of the Great Chief",
+      "craftingSkillReference": 290,
+      "currentRecordedLearnSkill": 290
+    },
+    {
+      "spellId": "1297127",
+      "name": "Bileblister Girdle",
+      "craftingSkillReference": 290,
+      "currentRecordedLearnSkill": 290
+    },
+    {
+      "spellId": "1297130",
+      "name": "Hivethrasher's Girdle",
+      "craftingSkillReference": 290,
+      "currentRecordedLearnSkill": 290
+    },
+    {
+      "spellId": "1297133",
+      "name": "Scalegut Belt",
+      "craftingSkillReference": 290,
+      "currentRecordedLearnSkill": 290
+    },
+    {
+      "spellId": "1297136",
+      "name": "Broodwatcher's Belt",
+      "craftingSkillReference": 290,
+      "currentRecordedLearnSkill": 290
+    },
+    {
+      "spellId": "19054",
+      "name": "Red Dragonscale Breastplate",
+      "craftingSkillReference": 290,
+      "currentRecordedLearnSkill": 290
+    },
+    {
+      "spellId": "19095",
+      "name": "Living Breastplate",
+      "craftingSkillReference": 290,
+      "currentRecordedLearnSkill": 290
+    },
+    {
+      "spellId": "19097",
+      "name": "Devilsaur Leggings",
+      "craftingSkillReference": 290,
+      "currentRecordedLearnSkill": 290
+    },
+    {
+      "spellId": "19104",
+      "name": "Frostsaber Tunic",
+      "craftingSkillReference": 290,
+      "currentRecordedLearnSkill": 290
+    },
+    {
+      "spellId": "19107",
+      "name": "Black Dragonscale Leggings",
+      "craftingSkillReference": 290,
+      "currentRecordedLearnSkill": 290
+    },
+    {
+      "spellId": "22921",
+      "name": "Girdle of Insight",
+      "craftingSkillReference": 290,
+      "currentRecordedLearnSkill": 290
+    },
+    {
+      "spellId": "22922",
+      "name": "Mongoose Boots",
+      "craftingSkillReference": 290,
+      "currentRecordedLearnSkill": 290
+    },
+    {
+      "spellId": "22923",
+      "name": "Swift Flight Bracers",
+      "craftingSkillReference": 290,
+      "currentRecordedLearnSkill": 290
+    },
+    {
+      "spellId": "26279",
+      "name": "Stormshroud Gloves",
+      "craftingSkillReference": 290,
+      "currentRecordedLearnSkill": 290
+    },
+    {
+      "spellId": "16746",
+      "name": "Invulnerable Mail",
+      "craftingSkillReference": 295,
+      "currentRecordedLearnSkill": 295
+    },
+    {
+      "spellId": "1297128",
+      "name": "Bileblister Boots",
+      "craftingSkillReference": 295,
+      "currentRecordedLearnSkill": 295
+    },
+    {
+      "spellId": "1297131",
+      "name": "Hivethrasher's Boots",
+      "craftingSkillReference": 295,
+      "currentRecordedLearnSkill": 295
+    },
+    {
+      "spellId": "1297134",
+      "name": "Scalegut Treaders",
+      "craftingSkillReference": 295,
+      "currentRecordedLearnSkill": 295
+    },
+    {
+      "spellId": "1297137",
+      "name": "Broodwatcher's Treaders",
+      "craftingSkillReference": 295,
+      "currentRecordedLearnSkill": 295
+    },
+    {
+      "spellId": "23629",
+      "name": "Heavy Timbermaw Boots",
+      "craftingSkillReference": 295,
+      "currentRecordedLearnSkill": 295
+    },
+    {
+      "spellId": "20853",
+      "name": "Corehound Boots",
+      "craftingSkillReference": 295,
+      "currentRecordedLearnSkill": 295
+    },
+    {
+      "spellId": "23704",
+      "name": "Timbermaw Brawlers",
+      "craftingSkillReference": 295,
+      "currentRecordedLearnSkill": 295
+    },
+    {
+      "spellId": "23706",
+      "name": "Golden Mantle of the Dawn",
+      "craftingSkillReference": 295,
+      "currentRecordedLearnSkill": null
+    },
+    {
+      "spellId": "1263079",
+      "name": "Sewing Machine",
+      "craftingSkillReference": 300,
+      "currentRecordedLearnSkill": 300
+    },
+    {
+      "spellId": "1306526",
+      "name": "Elderwild Waistcord",
+      "craftingSkillReference": 300,
+      "currentRecordedLearnSkill": 300
+    },
+    {
+      "spellId": "1306527",
+      "name": "Outlaw's Collar",
+      "craftingSkillReference": 300,
+      "currentRecordedLearnSkill": 300
+    },
+    {
+      "spellId": "1306528",
+      "name": "Elderwild Pants",
+      "craftingSkillReference": 300,
+      "currentRecordedLearnSkill": 300
+    },
+    {
+      "spellId": "1306529",
+      "name": "Eternity Pauldrons",
+      "craftingSkillReference": 300,
+      "currentRecordedLearnSkill": 300
+    },
+    {
+      "spellId": "1306530",
+      "name": "Tranquil Wristguards",
+      "craftingSkillReference": 300,
+      "currentRecordedLearnSkill": 300
+    },
+    {
+      "spellId": "1306531",
+      "name": "Mourning Handguards",
+      "craftingSkillReference": 300,
+      "currentRecordedLearnSkill": 300
+    },
+    {
+      "spellId": "1306532",
+      "name": "Wild Leather Armor Kit",
+      "craftingSkillReference": 300,
+      "currentRecordedLearnSkill": 300
+    },
+    {
+      "spellId": "19093",
+      "name": "Onyxia Scale Cloak",
+      "craftingSkillReference": 300,
+      "currentRecordedLearnSkill": null
+    },
+    {
+      "spellId": "19106",
+      "name": "Onyxia Scale Breastplate",
+      "craftingSkillReference": 300,
+      "currentRecordedLearnSkill": null
+    },
+    {
+      "spellId": "20854",
+      "name": "Molten Helm",
+      "craftingSkillReference": 300,
+      "currentRecordedLearnSkill": 300
+    },
+    {
+      "spellId": "20855",
+      "name": "Black Dragonscale Boots",
+      "craftingSkillReference": 300,
+      "currentRecordedLearnSkill": 300
+    },
+    {
+      "spellId": "22727",
+      "name": "Core Armor Kit",
+      "craftingSkillReference": 300,
+      "currentRecordedLearnSkill": 300
+    },
+    {
+      "spellId": "22926",
+      "name": "Chromatic Cloak",
+      "craftingSkillReference": 300,
+      "currentRecordedLearnSkill": 300
+    },
+    {
+      "spellId": "22927",
+      "name": "Hide of the Wild",
+      "craftingSkillReference": 300,
+      "currentRecordedLearnSkill": 300
+    },
+    {
+      "spellId": "22928",
+      "name": "Shifting Cloak",
+      "craftingSkillReference": 300,
+      "currentRecordedLearnSkill": 300
+    },
+    {
+      "spellId": "23707",
+      "name": "Lava Belt",
+      "craftingSkillReference": 300,
+      "currentRecordedLearnSkill": 300
+    },
+    {
+      "spellId": "23708",
+      "name": "Chromatic Gauntlets",
+      "craftingSkillReference": 300,
+      "currentRecordedLearnSkill": 300
+    },
+    {
+      "spellId": "23709",
+      "name": "Corehound Belt",
+      "craftingSkillReference": 300,
+      "currentRecordedLearnSkill": 300
+    },
+    {
+      "spellId": "23710",
+      "name": "Molten Belt",
+      "craftingSkillReference": 300,
+      "currentRecordedLearnSkill": 300
+    },
+    {
+      "spellId": "24121",
+      "name": "Primal Batskin Jerkin",
+      "craftingSkillReference": 300,
+      "currentRecordedLearnSkill": 300
+    },
+    {
+      "spellId": "24122",
+      "name": "Primal Batskin Gloves",
+      "craftingSkillReference": 300,
+      "currentRecordedLearnSkill": 300
+    },
+    {
+      "spellId": "24123",
+      "name": "Primal Batskin Bracers",
+      "craftingSkillReference": 300,
+      "currentRecordedLearnSkill": 300
+    },
+    {
+      "spellId": "24124",
+      "name": "Blood Tiger Breastplate",
+      "craftingSkillReference": 300,
+      "currentRecordedLearnSkill": 300
+    },
+    {
+      "spellId": "24125",
+      "name": "Blood Tiger Shoulders",
+      "craftingSkillReference": 300,
+      "currentRecordedLearnSkill": 300
+    },
+    {
+      "spellId": "1254967",
+      "name": "Pristine Scorpid Leggings",
+      "craftingSkillReference": 300,
+      "currentRecordedLearnSkill": 300
+    },
+    {
+      "spellId": "1254968",
+      "name": "Black Dragonscale Helm",
+      "craftingSkillReference": 300,
+      "currentRecordedLearnSkill": 300
+    },
+    {
+      "spellId": "1254969",
+      "name": "Blue Dragonscale Helm",
+      "craftingSkillReference": 300,
+      "currentRecordedLearnSkill": 300
+    },
+    {
+      "spellId": "1254970",
+      "name": "Red Dragonscale Leggings",
+      "craftingSkillReference": 300,
+      "currentRecordedLearnSkill": 300
+    },
+    {
+      "spellId": "1255012",
+      "name": "Ironfeather Leggings",
+      "craftingSkillReference": 300,
+      "currentRecordedLearnSkill": 300
+    },
+    {
+      "spellId": "1255013",
+      "name": "Warbear Helm",
+      "craftingSkillReference": 300,
+      "currentRecordedLearnSkill": 300
+    },
+    {
+      "spellId": "1255014",
+      "name": "Timbermaw Tunic",
+      "craftingSkillReference": 300,
+      "currentRecordedLearnSkill": 300
+    },
+    {
+      "spellId": "1255015",
+      "name": "Dawn Armor",
+      "craftingSkillReference": 300,
+      "currentRecordedLearnSkill": 300
+    },
+    {
+      "spellId": "1255016",
+      "name": "Living Crown",
+      "craftingSkillReference": 300,
+      "currentRecordedLearnSkill": 300
+    },
+    {
+      "spellId": "1299914",
+      "name": "Spiritcaller Kilt",
+      "craftingSkillReference": 300,
+      "currentRecordedLearnSkill": 300
+    },
+    {
+      "spellId": "1299915",
+      "name": "Spiritcaller Gloves",
+      "craftingSkillReference": 300,
+      "currentRecordedLearnSkill": 300
+    },
+    {
+      "spellId": "1299916",
+      "name": "Spiritcaller Mantle",
+      "craftingSkillReference": 300,
+      "currentRecordedLearnSkill": 300
+    },
+    {
+      "spellId": "1299917",
+      "name": "Spiritcaller Boots",
+      "craftingSkillReference": 300,
+      "currentRecordedLearnSkill": 300
+    }
+  ]
+}

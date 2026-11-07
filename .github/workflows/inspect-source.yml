@@ -5,6 +5,7 @@ on:
     paths:
       - "scripts/inspect-source.py"
       - "scripts/build-data.py"
+      - "scripts/import-learning-skills.py"
       - "scripts/resolve-icons.py"
       - ".github/workflows/inspect-source.yml"
 permissions:
@@ -18,6 +19,7 @@ jobs:
         with:
           python-version: '3.12'
       - run: python scripts/inspect-source.py
+      - run: python scripts/import-learning-skills.py
       - run: python scripts/build-data.py
       - name: Resolve item icons from WoW FileDataIDs
         run: python3 scripts/resolve-icons.py
@@ -25,5 +27,5 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add docs/source-shape.json data/leatherworking.json
+          git add docs/source-shape.json data/leatherworking.json data/leatherworking-skills.json
           git diff --cached --quiet || (git commit -m "data: refresh client-derived Leatherworking catalog" && git push)

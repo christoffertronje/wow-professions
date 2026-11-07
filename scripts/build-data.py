@@ -35,7 +35,8 @@ for r in all_recipes:
         "name":r.get("name") or (output or {}).get("name") or "Unnamed recipe",
         "quality":quality,
         "qualityVerified":quality!="unknown",
-        "required":r.get("skillRequired"),
+        "required":None,  # Source client field is 1 for every LW recipe; not a valid minimum skill
+        "clientMinimumRaw":r.get("skillRequired"),
         "mats":mats,
         "matsKnown":bool(r.get("reagentsKnown")),
         "source":"Unknown",

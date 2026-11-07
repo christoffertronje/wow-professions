@@ -16,9 +16,10 @@ jobs:
         with:
           python-version: '3.12'
       - run: python scripts/inspect-source.py
+      - run: python scripts/build-data.py
       - name: Commit data shape
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add docs/source-shape.json
-          git diff --cached --quiet || (git commit -m "chore: inspect downloadable recipe snapshot schema" && git push)
+          git add docs/source-shape.json data/leatherworking.json
+          git diff --cached --quiet || (git commit -m "data: refresh client-derived Leatherworking catalog" && git push)

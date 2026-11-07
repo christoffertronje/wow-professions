@@ -14,7 +14,7 @@ def describe(value,depth=0):
     if isinstance(value,list):
         return {"type":"array","length":len(value),"first":describe(value[0],depth+1) if value else None}
     return {"type":type(value).__name__,"example":str(value)[:130]}
-report={"source":URL,"bytes":len(content),"structure":describe(data)}
+report={"source":URL,"bytes":len(content),"structure":describe(data),"recipes_detail":describe(data.get("recipes",[]),depth=0),"first_recipes":data.get("recipes",[])[:3],"profession_examples":[p for p in data.get("professions",[]) if p.get("slug")=="leatherworking"],"item_quality_values":sorted(set(i.get("quality") for i in data.get("items",[]) if isinstance(i.get("quality"),int)))}
 path=pathlib.Path("docs/source-shape.json")
 path.parent.mkdir(exist_ok=True)
 path.write_text(json.dumps(report,indent=2,ensure_ascii=False)+"\n")

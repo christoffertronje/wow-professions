@@ -16,6 +16,9 @@ OUTPUT = pathlib.Path("data/leatherworking.json")
 request=urllib.request.Request(SOURCE_URL,headers={"User-Agent":"wow-professions/0.1 (fan project; static data snapshot importer)"})
 with urllib.request.urlopen(request,timeout=90) as response:
     snapshot=json.load(response)
+skill_file=pathlib.Path("data/leatherworking-skills.json")
+skills=json.loads(skill_file.read_text(encoding="utf-8")) if skill_file.exists() else None
+skill_lookup=skills["skillBySpellId"] if skills else {}
 items={row["id"]:row for row in snapshot["items"] if isinstance(row,dict) and "id" in row}
 all_recipes=[r for r in snapshot["recipes"] if r.get("professionId")==165 or 165 in r.get("professionIds",[])]
 result=[]
@@ -35,8 +38,9 @@ for r in all_recipes:
         "name":r.get("name") or (output or {}).get("name") or "Unnamed recipe",
         "quality":quality,
         "qualityVerified":quality!="unknown",
-        "required":None,  # Source client field is 1 for every LW recipe; not a valid minimum skill
+        "required":skill_lookup.get(str(r["id"])),  # Recorded learning skill, matched by exact spell ID
         "clientMinimumRaw":r.get("skillRequired"),
+        "learningRequirementSource":"wowforevertalent" if skill_lookup.get(str(r["id"])) is not None else None,
         "mats":mats,
         "matsKnown":bool(r.get("reagentsKnown")),
         "source":"Unknown",
@@ -49,5 +53,8 @@ result.sort(key=lambda r:((r["required"] if isinstance(r["required"],int) else 9
 assert len(result)>=450,f"unexpectedly few Leatherworking recipes: {len(result)}"
 assert len(set(r["id"] for r in result))==len(result),"duplicate recipe IDs"
 OUTPUT.parent.mkdir(exist_ok=True)
-OUTPUT.write_text(json.dumps({"meta":{"source":SOURCE_URL,"build":snapshot.get("build"),"profession":"Leatherworking","count":len(result),"qualityUnknown":sum(x["quality"]=="unknown" for x in result),"materialsUnknown":sum(not x["matsKnown"] for x in result),"warning":"Client data is not proof of live availability. Required skill values are raw client fields, not verified training requirements."},"recipes":result},ensure_ascii=False,separators=(",",":"))+"\n",encoding="utf-8")
+OUTPUT.write_text(json.dumps({"meta":{"source":SOURCE_URL,"build":snapshot.get("build"),"profession":"Leatherworking","count":len(result),"qualityUnknown":sum(x["quality"]=="unknown" for x in result),"materialsUnknown":sum(not x["matsKnown"] for x in result),
+        "skillsKnown":sum(x["required"] is not None for x in result),
+        "skillsUnknown":sum(x["required"] is None for x in result),
+        "skillsReference":(skills or {}).get("meta",{}).get("source"),"warning":"Client data is not proof of live availability. Learning requirements from the reference may be recipe item requirements, not verified trainer unlocks."},"recipes":result},ensure_ascii=False,separators=(",",":"))+"\n",encoding="utf-8")
 print(f"Wrote {len(result)} Leatherworking recipes; missing qualities {sum(x['quality']=='unknown' for x in result)}")

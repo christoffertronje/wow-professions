@@ -20,8 +20,13 @@ def norm(value):
     return re.sub(r"[^a-z0-9]+", "", value.casefold())
 
 request=urllib.request.Request(URL,headers={"User-Agent":"Mozilla/5.0 (compatible; wow-professions-project/0.1)"})
-with urllib.request.urlopen(request,timeout=80) as response:
-    soup=BeautifulSoup(response.read(),"html.parser")
+try:
+    with urllib.request.urlopen(request,timeout=25) as response:
+        soup=BeautifulSoup(response.read(),"html.parser")
+except Exception as exc:
+    pathlib.Path("docs").mkdir(exist_ok=True)
+    pathlib.Path("docs/playfulls-parse-diagnostic.json").write_text(json.dumps({"fetchError":str(exc)},indent=2)+"\\n")
+    raise SystemExit(0)
 print("tables",len(soup.select("table")),"rows",len(soup.select("tr")))
 rows=[]
 for tr in soup.select("tr"):

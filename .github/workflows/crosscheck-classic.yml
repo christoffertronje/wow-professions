@@ -1,0 +1,22 @@
+name: Cross-check Classic Leatherworking
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - "scripts/crosscheck-classic.py"
+      - ".github/workflows/crosscheck-classic.yml"
+permissions:
+  contents: write
+jobs:
+  compare:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Compare Classic source with Forever data
+        run: python3 scripts/crosscheck-classic.py
+      - name: Commit comparison report
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs/classic-leatherworking-crosscheck.json
+          git diff --cached --quiet || (git commit -m "docs: compare Classic and Forever Leatherworking" && git push)

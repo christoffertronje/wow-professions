@@ -1,0 +1,412 @@
+{
+  "count": 605,
+  "rawSkillRequired": {
+    "1": 605
+  },
+  "minimums": {
+    "1": 605
+  },
+  "sampleFirst": [
+    {
+      "id": 2149,
+      "name": "Handstitched Leather Boots",
+      "skillRequired": 1,
+      "skillTrivial": 70,
+      "skillUpStart": 40,
+      "minimums": [
+        1
+      ],
+      "trivialLow": [
+        40
+      ],
+      "trivialHigh": [
+        70
+      ]
+    },
+    {
+      "id": 2152,
+      "name": "Light Armor Kit",
+      "skillRequired": 1,
+      "skillTrivial": 60,
+      "skillUpStart": 30,
+      "minimums": [
+        1
+      ],
+      "trivialLow": [
+        30
+      ],
+      "trivialHigh": [
+        60
+      ]
+    },
+    {
+      "id": 2153,
+      "name": "Handstitched Leather Pants",
+      "skillRequired": 1,
+      "skillTrivial": 75,
+      "skillUpStart": 45,
+      "minimums": [
+        1
+      ],
+      "trivialLow": [
+        45
+      ],
+      "trivialHigh": [
+        75
+      ]
+    },
+    {
+      "id": 2158,
+      "name": "Fine Leather Boots",
+      "skillRequired": 1,
+      "skillTrivial": 125,
+      "skillUpStart": 95,
+      "minimums": [
+        1
+      ],
+      "trivialLow": [
+        95
+      ],
+      "trivialHigh": [
+        125
+      ]
+    },
+    {
+      "id": 2159,
+      "name": "Fine Leather Cloak",
+      "skillRequired": 1,
+      "skillTrivial": 100,
+      "skillUpStart": 70,
+      "minimums": [
+        1
+      ],
+      "trivialLow": [
+        70
+      ],
+      "trivialHigh": [
+        100
+      ]
+    },
+    {
+      "id": 2160,
+      "name": "Embossed Leather Vest",
+      "skillRequired": 1,
+      "skillTrivial": 95,
+      "skillUpStart": 65,
+      "minimums": [
+        1
+      ],
+      "trivialLow": [
+        65
+      ],
+      "trivialHigh": [
+        95
+      ]
+    },
+    {
+      "id": 2161,
+      "name": "Embossed Leather Boots",
+      "skillRequired": 1,
+      "skillTrivial": 110,
+      "skillUpStart": 80,
+      "minimums": [
+        1
+      ],
+      "trivialLow": [
+        80
+      ],
+      "trivialHigh": [
+        110
+      ]
+    },
+    {
+      "id": 2162,
+      "name": "Embossed Leather Cloak",
+      "skillRequired": 1,
+      "skillTrivial": 100,
+      "skillUpStart": 70,
+      "minimums": [
+        1
+      ],
+      "trivialLow": [
+        70
+      ],
+      "trivialHigh": [
+        100
+      ]
+    },
+    {
+      "id": 2163,
+      "name": "White Leather Jerkin",
+      "skillRequired": 1,
+      "skillTrivial": 100,
+      "skillUpStart": 70,
+      "minimums": [
+        1
+      ],
+      "trivialLow": [
+        70
+      ],
+      "trivialHigh": [
+        100
+      ]
+    },
+    {
+      "id": 2164,
+      "name": "Fine Leather Gloves",
+      "skillRequired": 1,
+      "skillTrivial": 110,
+      "skillUpStart": 80,
+      "minimums": [
+        1
+      ],
+      "trivialLow": [
+        80
+      ],
+      "trivialHigh": [
+        110
+      ]
+    },
+    {
+      "id": 2165,
+      "name": "Medium Armor Kit",
+      "skillRequired": 1,
+      "skillTrivial": 105,
+      "skillUpStart": 90,
+      "minimums": [
+        1
+      ],
+      "trivialLow": [
+        90
+      ],
+      "trivialHigh": [
+        105
+      ]
+    },
+    {
+      "id": 2166,
+      "name": "Toughened Leather Armor",
+      "skillRequired": 1,
+      "skillTrivial": 145,
+      "skillUpStart": 120,
+      "minimums": [
+        1
+      ],
+      "trivialLow": [
+        120
+      ],
+      "trivialHigh": [
+        145
+      ]
+    },
+    {
+      "id": 2167,
+      "name": "Gray Leather Boots",
+      "skillRequired": 1,
+      "skillTrivial": 125,
+      "skillUpStart": 100,
+      "minimums": [
+        1
+      ],
+      "trivialLow": [
+        100
+      ],
+      "trivialHigh": [
+        125
+      ]
+    },
+    {
+      "id": 2168,
+      "name": "Dark Leather Cloak",
+      "skillRequired": 1,
+      "skillTrivial": 135,
+      "skillUpStart": 110,
+      "minimums": [
+        1
+      ],
+      "trivialLow": [
+        110
+      ],
+      "trivialHigh": [
+        135
+      ]
+    },
+    {
+      "id": 2169,
+      "name": "Dark Leather Tunic",
+      "skillRequired": 1,
+      "skillTrivial": 125,
+      "skillUpStart": 100,
+      "minimums": [
+        1
+      ],
+      "trivialLow": [
+        100
+      ],
+      "trivialHigh": [
+        125
+      ]
+    },
+    {
+      "id": 2881,
+      "name": "Light Leather",
+      "skillRequired": 1,
+      "skillTrivial": 40,
+      "skillUpStart": 20,
+      "minimums": [
+        1
+      ],
+      "trivialLow": [
+        20
+      ],
+      "trivialHigh": [
+        40
+      ]
+    },
+    {
+      "id": 3753,
+      "name": "Handstitched Leather Belt",
+      "skillRequired": 1,
+      "skillTrivial": 85,
+      "skillUpStart": 55,
+      "minimums": [
+        1
+      ],
+      "trivialLow": [
+        55
+      ],
+      "trivialHigh": [
+        85
+      ]
+    },
+    {
+      "id": 3756,
+      "name": "Embossed Leather Gloves",
+      "skillRequired": 1,
+      "skillTrivial": 100,
+      "skillUpStart": 70,
+      "minimums": [
+        1
+      ],
+      "trivialLow": [
+        70
+      ],
+      "trivialHigh": [
+        100
+      ]
+    },
+    {
+      "id": 3759,
+      "name": "Embossed Leather Pants",
+      "skillRequired": 1,
+      "skillTrivial": 110,
+      "skillUpStart": 80,
+      "minimums": [
+        1
+      ],
+      "trivialLow": [
+        80
+      ],
+      "trivialHigh": [
+        110
+      ]
+    },
+    {
+      "id": 3760,
+      "name": "Hillman's Cloak",
+      "skillRequired": 1,
+      "skillTrivial": 165,
+      "skillUpStart": 145,
+      "minimums": [
+        1
+      ],
+      "trivialLow": [
+        145
+      ],
+      "trivialHigh": [
+        165
+      ]
+    },
+    {
+      "id": 3761,
+      "name": "Fine Leather Tunic",
+      "skillRequired": 1,
+      "skillTrivial": 120,
+      "skillUpStart": 90,
+      "minimums": [
+        1
+      ],
+      "trivialLow": [
+        90
+      ],
+      "trivialHigh": [
+        120
+      ]
+    },
+    {
+      "id": 3762,
+      "name": "Hillman's Leather Vest",
+      "skillRequired": 1,
+      "skillTrivial": 125,
+      "skillUpStart": 100,
+      "minimums": [
+        1
+      ],
+      "trivialLow": [
+        100
+      ],
+      "trivialHigh": [
+        125
+      ]
+    },
+    {
+      "id": 3763,
+      "name": "Fine Leather Belt",
+      "skillRequired": 1,
+      "skillTrivial": 115,
+      "skillUpStart": 85,
+      "minimums": [
+        1
+      ],
+      "trivialLow": [
+        85
+      ],
+      "trivialHigh": [
+        115
+      ]
+    },
+    {
+      "id": 3764,
+      "name": "Hillman's Leather Gloves",
+      "skillRequired": 1,
+      "skillTrivial": 170,
+      "skillUpStart": 145,
+      "minimums": [
+        1
+      ],
+      "trivialLow": [
+        145
+      ],
+      "trivialHigh": [
+        170
+      ]
+    },
+    {
+      "id": 3765,
+      "name": "Dark Leather Gloves",
+      "skillRequired": 1,
+      "skillTrivial": 165,
+      "skillUpStart": 140,
+      "minimums": [
+        1
+      ],
+      "trivialLow": [
+        140
+      ],
+      "trivialHigh": [
+        165
+      ]
+    }
+  ],
+  "sampleHigher": []
+}

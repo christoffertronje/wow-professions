@@ -219,5 +219,284 @@
         }
       }
     }
-  }
+  },
+  "recipes_detail": {
+    "type": "array",
+    "length": 2561,
+    "first": {
+      "type": "object",
+      "count": 29,
+      "keys": [
+        "id",
+        "name",
+        "professionId",
+        "professionIds",
+        "classMask",
+        "restrictedClasses",
+        "skillRequired",
+        "skillTrivial",
+        "skillUpStart",
+        "skillUps",
+        "category",
+        "categoryId",
+        "description",
+        "rawDescription",
+        "descriptionStatus",
+        "iconFileDataId",
+        "reagents",
+        "outputs",
+        "reagentsKnown",
+        "recipeItemIds",
+        "tools",
+        "learnedAt",
+        "cooldownSeconds",
+        "castTimeSeconds",
+        "kind",
+        "availability",
+        "dataStatus",
+        "issues",
+        "skillLines"
+      ],
+      "children": {
+        "id": {
+          "type": "int",
+          "example": "818"
+        },
+        "name": {
+          "type": "str",
+          "example": "Basic Campfire"
+        },
+        "professionId": {
+          "type": "int",
+          "example": "185"
+        },
+        "professionIds": {
+          "type": "array",
+          "length": 1,
+          "first": {
+            "type": "int",
+            "example": "185"
+          }
+        },
+        "classMask": {
+          "type": "int",
+          "example": "0"
+        },
+        "restrictedClasses": {
+          "type": "array",
+          "length": 0,
+          "first": null
+        },
+        "skillRequired": {
+          "type": "int",
+          "example": "1"
+        },
+        "skillTrivial": {
+          "type": "int",
+          "example": "75"
+        }
+      }
+    }
+  },
+  "first_recipes": [
+    {
+      "id": 818,
+      "name": "Basic Campfire",
+      "professionId": 185,
+      "professionIds": [
+        185
+      ],
+      "classMask": 0,
+      "restrictedClasses": [],
+      "skillRequired": 1,
+      "skillTrivial": 75,
+      "skillUpStart": 25,
+      "skillUps": 1,
+      "category": "Campfires",
+      "categoryId": 0,
+      "description": "Builds a campfire that increases the spirits of those nearby by 4 and allows cooking.",
+      "rawDescription": "Builds a campfire that increases the spirits of those nearby by 4 and allows cooking.",
+      "descriptionStatus": "literal",
+      "iconFileDataId": 135805,
+      "reagents": [
+        {
+          "itemId": 4470,
+          "quantity": 1
+        }
+      ],
+      "outputs": [],
+      "reagentsKnown": true,
+      "recipeItemIds": [],
+      "tools": [
+        "Flint and Tinder"
+      ],
+      "learnedAt": null,
+      "cooldownSeconds": 300.0,
+      "castTimeSeconds": 10.0,
+      "kind": "campfire",
+      "availability": "unverified",
+      "dataStatus": "complete",
+      "issues": [],
+      "skillLines": [
+        {
+          "id": 8676,
+          "professionId": 185,
+          "skillLineId": 185,
+          "skillUpSkillLineId": 0,
+          "categoryId": 0,
+          "minimum": 1,
+          "trivialLow": 25,
+          "trivialHigh": 75,
+          "acquireMethod": 3,
+          "classMask": 0,
+          "raceMasksRaw": [
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2149,
+      "name": "Handstitched Leather Boots",
+      "professionId": 165,
+      "professionIds": [
+        165
+      ],
+      "classMask": 0,
+      "restrictedClasses": [],
+      "skillRequired": 1,
+      "skillTrivial": 70,
+      "skillUpStart": 40,
+      "skillUps": 1,
+      "category": "Leather Boots",
+      "categoryId": 2560,
+      "description": "Creates Handstitched Leather Boots.",
+      "rawDescription": "",
+      "descriptionStatus": "literal",
+      "iconFileDataId": 136235,
+      "reagents": [
+        {
+          "itemId": 2318,
+          "quantity": 2
+        },
+        {
+          "itemId": 2320,
+          "quantity": 1
+        }
+      ],
+      "outputs": [
+        {
+          "itemId": 2302,
+          "quantityMin": 1,
+          "quantityMax": 1
+        }
+      ],
+      "reagentsKnown": true,
+      "recipeItemIds": [],
+      "tools": [],
+      "learnedAt": null,
+      "cooldownSeconds": 0.0,
+      "castTimeSeconds": 5.125,
+      "kind": "item",
+      "availability": "unverified",
+      "dataStatus": "complete",
+      "issues": [],
+      "skillLines": [
+        {
+          "id": 1353,
+          "professionId": 165,
+          "skillLineId": 165,
+          "skillUpSkillLineId": 2945,
+          "categoryId": 2560,
+          "minimum": 1,
+          "trivialLow": 40,
+          "trivialHigh": 70,
+          "acquireMethod": 1,
+          "classMask": 0,
+          "raceMasksRaw": [
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2152,
+      "name": "Light Armor Kit",
+      "professionId": 165,
+      "professionIds": [
+        165
+      ],
+      "classMask": 0,
+      "restrictedClasses": [],
+      "skillRequired": 1,
+      "skillTrivial": 60,
+      "skillUpStart": 30,
+      "skillUps": 1,
+      "category": "Armor Kits",
+      "categoryId": 2569,
+      "description": "Creates Light Armor Kit.",
+      "rawDescription": "",
+      "descriptionStatus": "literal",
+      "iconFileDataId": 136235,
+      "reagents": [
+        {
+          "itemId": 2318,
+          "quantity": 1
+        }
+      ],
+      "outputs": [
+        {
+          "itemId": 2304,
+          "quantityMin": 1,
+          "quantityMax": 1
+        }
+      ],
+      "reagentsKnown": true,
+      "recipeItemIds": [],
+      "tools": [],
+      "learnedAt": null,
+      "cooldownSeconds": 0.0,
+      "castTimeSeconds": 5.125,
+      "kind": "item",
+      "availability": "unverified",
+      "dataStatus": "complete",
+      "issues": [],
+      "skillLines": [
+        {
+          "id": 1356,
+          "professionId": 165,
+          "skillLineId": 165,
+          "skillUpSkillLineId": 2945,
+          "categoryId": 2569,
+          "minimum": 1,
+          "trivialLow": 30,
+          "trivialHigh": 60,
+          "acquireMethod": 1,
+          "classMask": 0,
+          "raceMasksRaw": [
+            0,
+            0
+          ]
+        }
+      ]
+    }
+  ],
+  "profession_examples": [
+    {
+      "id": 165,
+      "slug": "leatherworking",
+      "name": "Leatherworking",
+      "iconFileDataId": 136247,
+      "description": "Higher leatherworking skill allows you to learn higher level leatherworking patterns.  Leatherworking patterns can be found on trainers around the world as well as from quests and monsters."
+    }
+  ],
+  "item_quality_values": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ]
 }

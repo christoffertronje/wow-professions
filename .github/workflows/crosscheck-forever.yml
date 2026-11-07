@@ -5,6 +5,7 @@ on:
     paths:
       - "scripts/crosscheck-forever.py"
       - ".github/workflows/crosscheck-forever.yml"
+      - ".github/workflows/crosscheck-forever.yml"
 permissions:
   contents: write
 jobs:

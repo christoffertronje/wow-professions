@@ -38,10 +38,10 @@ byname=defaultdict(list)
 for r in recipes:byname[norm(r["name"])].append(r)
 candidate=[]
 for link in parser.links:
-    m=re.match(r"^(.*?)\s*[★◆]?\s+(\d{1,3})(?:\s+\d{1,3})?$",link)
+    m=re.match(r"^(.*?)\s*[★◆]?\s+(\d{1,3})(?:\s+(\d{1,3}))?$",link)
     if not m:continue
     name=m.group(1).strip(" ★◆")
-    level=int(m.group(2))
+    level=int(m.group(3) or m.group(2))
     if 1<=level<=450 and len(name)>=3:candidate.append((name,level))
 counts=Counter(norm(name) for name,_ in candidate)
 accepted={};conflicts=[];matched=0

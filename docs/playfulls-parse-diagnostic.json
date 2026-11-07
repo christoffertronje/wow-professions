@@ -1,0 +1,80 @@
+{
+  "htmlLength": 179061,
+  "tables": 1,
+  "tableRows": 31,
+  "parsed": 30,
+  "sampleRows": [
+    [
+      "Recipe",
+      "Skill",
+      "Reagents",
+      "How it\u2019s learned"
+    ],
+    [
+      "Handstitched Leather Boots",
+      "1 40 55 70",
+      "2",
+      "Trainer"
+    ],
+    [
+      "Handstitched Leather Bracers",
+      "1 40 55 70",
+      "2 3",
+      "Trainer"
+    ],
+    [
+      "Handstitched Leather Cloak",
+      "1 40 55 70",
+      "2",
+      "Trainer"
+    ],
+    [
+      "Handstitched Leather Vest",
+      "1 40 55 70",
+      "3",
+      "Trainer"
+    ],
+    [
+      "Light Armor Kit",
+      "1 30 45 60",
+      "",
+      "Trainer"
+    ],
+    [
+      "Light Leather",
+      "1 20 30 40",
+      "3",
+      "Trainer"
+    ],
+    [
+      "Handstitched Leather Pants",
+      "15 45 60 75",
+      "4",
+      "Trainer"
+    ],
+    [
+      "Camp Tent new in Forever",
+      "20 20 22 25",
+      "5",
+      "Trainer"
+    ],
+    [
+      "Handstitched Leather Belt",
+      "25 55 70 85",
+      "6",
+      "Trainer"
+    ],
+    [
+      "Light Leather Quiver",
+      "30 55 70 85",
+      "4 2",
+      "Trainer"
+    ],
+    [
+      "Light Leather Reagent Bag new in Forever",
+      "30 40 45 50",
+      "8 3",
+      "Vendor"
+    ]
+  ]
+}\n

@@ -1,0 +1,2075 @@
+{
+  "reference": "https://warcraft.wiki.gg/wiki/Classic_leatherworking_patterns",
+  "note": "Classic comparison only: NOT proof of Forever requirements or sources. Never auto-merge.",
+  "classicRows": 486,
+  "uniqueNameMatches": 205,
+  "ambiguousMatches": 23,
+  "unmatchedClassicRows": 258,
+  "matchedWithUnknownForeverSkill": 71,
+  "matchedWithDifferentKnownSkill": 116,
+  "matches": [
+    {
+      "spellId": "2881",
+      "name": "Light Leather",
+      "classicSkill": 1,
+      "foreverLearningSkill": null,
+      "classicSource": "Trainer",
+      "skillMatches": null
+    },
+    {
+      "spellId": "2152",
+      "name": "Light Armor Kit",
+      "classicSkill": 1,
+      "foreverLearningSkill": null,
+      "classicSource": "Trainer",
+      "skillMatches": null
+    },
+    {
+      "spellId": "2149",
+      "name": "Handstitched Leather Boots",
+      "classicSkill": 1,
+      "foreverLearningSkill": null,
+      "classicSource": "Trainer",
+      "skillMatches": null
+    },
+    {
+      "spellId": "9059",
+      "name": "Handstitched Leather Bracers",
+      "classicSkill": 1,
+      "foreverLearningSkill": null,
+      "classicSource": "Trainer",
+      "skillMatches": null
+    },
+    {
+      "spellId": "9058",
+      "name": "Handstitched Leather Cloak",
+      "classicSkill": 1,
+      "foreverLearningSkill": null,
+      "classicSource": "Trainer",
+      "skillMatches": null
+    },
+    {
+      "spellId": "7126",
+      "name": "Handstitched Leather Vest",
+      "classicSkill": 1,
+      "foreverLearningSkill": null,
+      "classicSource": "Trainer",
+      "skillMatches": null
+    },
+    {
+      "spellId": "2153",
+      "name": "Handstitched Leather Pants",
+      "classicSkill": 15,
+      "foreverLearningSkill": null,
+      "classicSource": "Trainer",
+      "skillMatches": null
+    },
+    {
+      "spellId": "3753",
+      "name": "Handstitched Leather Belt",
+      "classicSkill": 25,
+      "foreverLearningSkill": null,
+      "classicSource": "Trainer",
+      "skillMatches": null
+    },
+    {
+      "spellId": "3816",
+      "name": "Cured Light Hide",
+      "classicSkill": 35,
+      "foreverLearningSkill": null,
+      "classicSource": "Trainer",
+      "skillMatches": null
+    },
+    {
+      "spellId": "9064",
+      "name": "Rugged Leather Pants",
+      "classicSkill": 35,
+      "foreverLearningSkill": 30,
+      "classicSource": "[Pattern: Rugged Leather Pants]",
+      "skillMatches": false
+    },
+    {
+      "spellId": "2160",
+      "name": "Embossed Leather Vest",
+      "classicSkill": 40,
+      "foreverLearningSkill": null,
+      "classicSource": "Trainer",
+      "skillMatches": null
+    },
+    {
+      "spellId": "5244",
+      "name": "Kodo Hide Bag",
+      "classicSkill": 40,
+      "foreverLearningSkill": 35,
+      "classicSource": "[Pattern: Kodo Hide Bag]",
+      "skillMatches": false
+    },
+    {
+      "spellId": "2161",
+      "name": "Embossed Leather Boots",
+      "classicSkill": 55,
+      "foreverLearningSkill": null,
+      "classicSource": "Trainer",
+      "skillMatches": null
+    },
+    {
+      "spellId": "3756",
+      "name": "Embossed Leather Gloves",
+      "classicSkill": 55,
+      "foreverLearningSkill": null,
+      "classicSource": "Trainer",
+      "skillMatches": null
+    },
+    {
+      "spellId": "2162",
+      "name": "Embossed Leather Cloak",
+      "classicSkill": 60,
+      "foreverLearningSkill": null,
+      "classicSource": "Trainer",
+      "skillMatches": null
+    },
+    {
+      "spellId": "2163",
+      "name": "White Leather Jerkin",
+      "classicSkill": 60,
+      "foreverLearningSkill": 40,
+      "classicSource": "[Pattern: White Leather Jerkin]",
+      "skillMatches": false
+    },
+    {
+      "spellId": "9065",
+      "name": "Light Leather Bracers",
+      "classicSkill": 70,
+      "foreverLearningSkill": null,
+      "classicSource": "Trainer",
+      "skillMatches": null
+    },
+    {
+      "spellId": "3759",
+      "name": "Embossed Leather Pants",
+      "classicSkill": 75,
+      "foreverLearningSkill": null,
+      "classicSource": "Trainer",
+      "skillMatches": null
+    },
+    {
+      "spellId": "2164",
+      "name": "Fine Leather Gloves",
+      "classicSkill": 75,
+      "foreverLearningSkill": 50,
+      "classicSource": "[Pattern: Fine Leather Gloves]",
+      "skillMatches": false
+    },
+    {
+      "spellId": "3763",
+      "name": "Fine Leather Belt",
+      "classicSkill": 80,
+      "foreverLearningSkill": null,
+      "classicSource": "Trainer",
+      "skillMatches": null
+    },
+    {
+      "spellId": "2159",
+      "name": "Fine Leather Cloak",
+      "classicSkill": 85,
+      "foreverLearningSkill": null,
+      "classicSource": "Trainer",
+      "skillMatches": null
+    },
+    {
+      "spellId": "3761",
+      "name": "Fine Leather Tunic",
+      "classicSkill": 85,
+      "foreverLearningSkill": null,
+      "classicSource": "Trainer",
+      "skillMatches": null
+    },
+    {
+      "spellId": "8322",
+      "name": "Moonglow Vest",
+      "classicSkill": 90,
+      "foreverLearningSkill": 65,
+      "classicSource": "[Pattern: Moonglow Vest]",
+      "skillMatches": false
+    },
+    {
+      "spellId": "7953",
+      "name": "Deviate Scale Cloak",
+      "classicSkill": 90,
+      "foreverLearningSkill": 65,
+      "classicSource": "[Pattern: Deviate Scale Cloak]",
+      "skillMatches": false
+    },
+    {
+      "spellId": "2158",
+      "name": "Fine Leather Boots",
+      "classicSkill": 90,
+      "foreverLearningSkill": 65,
+      "classicSource": "[Pattern: Fine Leather Boots]",
+      "skillMatches": false
+    },
+    {
+      "spellId": "6702",
+      "name": "Murloc Scale Belt",
+      "classicSkill": 90,
+      "foreverLearningSkill": 65,
+      "classicSource": "[Pattern: Murloc Scale Belt]",
+      "skillMatches": false
+    },
+    {
+      "spellId": "9068",
+      "name": "Light Leather Pants",
+      "classicSkill": 95,
+      "foreverLearningSkill": null,
+      "classicSource": "Trainer",
+      "skillMatches": null
+    },
+    {
+      "spellId": "6703",
+      "name": "Murloc Scale Breastplate",
+      "classicSkill": 95,
+      "foreverLearningSkill": 70,
+      "classicSource": "[Pattern: Murloc Scale Breastplate]",
+      "skillMatches": false
+    },
+    {
+      "spellId": "20648",
+      "name": "Medium Leather",
+      "classicSkill": 100,
+      "foreverLearningSkill": null,
+      "classicSource": "Trainer",
+      "skillMatches": null
+    },
+    {
+      "spellId": "3817",
+      "name": "Cured Medium Hide",
+      "classicSkill": 100,
+      "foreverLearningSkill": null,
+      "classicSource": "Trainer",
+      "skillMatches": null
+    },
+    {
+      "spellId": "2165",
+      "name": "Medium Armor Kit",
+      "classicSkill": 100,
+      "foreverLearningSkill": null,
+      "classicSource": "Trainer",
+      "skillMatches": null
+    },
+    {
+      "spellId": "9070",
+      "name": "Black Whelp Cloak",
+      "classicSkill": 100,
+      "foreverLearningSkill": 75,
+      "classicSource": "[Pattern: Black Whelp Cloak]",
+      "skillMatches": false
+    },
+    {
+      "spellId": "24940",
+      "name": "Black Whelp Tunic",
+      "classicSkill": 100,
+      "foreverLearningSkill": 75,
+      "classicSource": "[Pattern: Black Whelp Tunic]",
+      "skillMatches": false
+    },
+    {
+      "spellId": "1255145",
+      "name": "Dark Leather Boots",
+      "classicSkill": 100,
+      "foreverLearningSkill": 35,
+      "classicSource": "Trainer",
+      "skillMatches": false
+    },
+    {
+      "spellId": "2169",
+      "name": "Dark Leather Tunic",
+      "classicSkill": 100,
+      "foreverLearningSkill": 75,
+      "classicSource": "[Pattern: Dark Leather Tunic]",
+      "skillMatches": false
+    },
+    {
+      "spellId": "3762",
+      "name": "Hillman's Leather Vest",
+      "classicSkill": 100,
+      "foreverLearningSkill": 75,
+      "classicSource": "[Pattern: Hillman's Leather Vest]",
+      "skillMatches": false
+    },
+    {
+      "spellId": "7954",
+      "name": "Deviate Scale Gloves",
+      "classicSkill": 105,
+      "foreverLearningSkill": 80,
+      "classicSource": "[Pattern: Deviate Scale Gloves]",
+      "skillMatches": false
+    },
+    {
+      "spellId": "7133",
+      "name": "Fine Leather Pants",
+      "classicSkill": 105,
+      "foreverLearningSkill": 80,
+      "classicSource": "[Pattern: Fine Leather Pants]",
+      "skillMatches": false
+    },
+    {
+      "spellId": "2168",
+      "name": "Dark Leather Cloak",
+      "classicSkill": 110,
+      "foreverLearningSkill": null,
+      "classicSource": "Trainer",
+      "skillMatches": null
+    },
+    {
+      "spellId": "7135",
+      "name": "Dark Leather Pants",
+      "classicSkill": 115,
+      "foreverLearningSkill": null,
+      "classicSource": "Trainer",
+      "skillMatches": null
+    },
+    {
+      "spellId": "7955",
+      "name": "Deviate Scale Belt",
+      "classicSkill": 115,
+      "foreverLearningSkill": 90,
+      "classicSource": "[Pattern: Deviate Scale Belt]",
+      "skillMatches": false
+    },
+    {
+      "spellId": "3767",
+      "name": "Hillman's Belt",
+      "classicSkill": 120,
+      "foreverLearningSkill": 95,
+      "classicSource": "[Pattern: Hillman's Belt]",
+      "skillMatches": false
+    },
+    {
+      "spellId": "9074",
+      "name": "Nimble Leather Gloves",
+      "classicSkill": 120,
+      "foreverLearningSkill": null,
+      "classicSource": "Trainer",
+      "skillMatches": null
+    },
+    {
+      "spellId": "9072",
+      "name": "Red Whelp Gloves",
+      "classicSkill": 120,
+      "foreverLearningSkill": 95,
+      "classicSource": "[Pattern: Red Whelp Gloves]",
+      "skillMatches": false
+    },
+    {
+      "spellId": "2166",
+      "name": "Toughened Leather Armor",
+      "classicSkill": 120,
+      "foreverLearningSkill": null,
+      "classicSource": "Trainer",
+      "skillMatches": null
+    },
+    {
+      "spellId": "3765",
+      "name": "Dark Leather Gloves",
+      "classicSkill": 120,
+      "foreverLearningSkill": 95,
+      "classicSource": "[Pattern: Dark Leather Gloves]",
+      "skillMatches": false
+    },
+    {
+      "spellId": "3766",
+      "name": "Dark Leather Belt",
+      "classicSkill": 125,
+      "foreverLearningSkill": null,
+      "classicSource": "Trainer",
+      "skillMatches": null
+    },
+    {
+      "spellId": "9145",
+      "name": "Fletcher's Gloves",
+      "classicSkill": 125,
+      "foreverLearningSkill": null,
+      "classicSource": "Trainer",
+      "skillMatches": null
+    },
+    {
+      "spellId": "3768",
+      "name": "Hillman's Shoulders",
+      "classicSkill": 130,
+      "foreverLearningSkill": null,
+      "classicSource": "Trainer",
+      "skillMatches": null
+    },
+    {
+      "spellId": "9147",
+      "name": "Earthen Leather Shoulders",
+      "classicSkill": 135,
+      "foreverLearningSkill": 110,
+      "classicSource": "[Pattern: Earthen Leather Shoulders]",
+      "skillMatches": false
+    },
+    {
+      "spellId": "9146",
+      "name": "Herbalist's Gloves",
+      "classicSkill": 135,
+      "foreverLearningSkill": 110,
+      "classicSource": "[Pattern: Herbalist's Gloves]",
+      "skillMatches": false
+    },
+    {
+      "spellId": "3770",
+      "name": "Toughened Leather Gloves",
+      "classicSkill": 135,
+      "foreverLearningSkill": null,
+      "classicSource": "Trainer",
+      "skillMatches": null
+    },
+    {
+      "spellId": "3769",
+      "name": "Dark Leather Shoulders",
+      "classicSkill": 140,
+      "foreverLearningSkill": 115,
+      "classicSource": "[Pattern: Dark Leather Shoulders]",
+      "skillMatches": false
+    },
+    {
+      "spellId": "9148",
+      "name": "Pilferer's Gloves",
+      "classicSkill": 140,
+      "foreverLearningSkill": 115,
+      "classicSource": "[Pattern: Pilferer's Gloves]",
+      "skillMatches": false
+    },
+    {
+      "spellId": "9149",
+      "name": "Heavy Earthen Gloves",
+      "classicSkill": 145,
+      "foreverLearningSkill": 120,
+      "classicSource": "[Pattern: Heavy Earthen Gloves]",
+      "skillMatches": false
+    },
+    {
+      "spellId": "3764",
+      "name": "Hillman's Leather Gloves",
+      "classicSkill": 145,
+      "foreverLearningSkill": null,
+      "classicSource": "Trainer",
+      "skillMatches": null
+    },
+    {
+      "spellId": "20649",
+      "name": "Heavy Leather",
+      "classicSkill": 150,
+      "foreverLearningSkill": null,
+      "classicSource": "Trainer",
+      "skillMatches": null
+    },
+    {
+      "spellId": "23190",
+      "name": "Heavy Leather Ball",
+      "classicSkill": 150,
+      "foreverLearningSkill": 125,
+      "classicSource": "[Pattern: Heavy Leather Ball]",
+      "skillMatches": false
+    },
+    {
+      "spellId": "3818",
+      "name": "Cured Heavy Hide",
+      "classicSkill": 150,
+      "foreverLearningSkill": null,
+      "classicSource": "Trainer",
+      "skillMatches": null
+    },
+    {
+      "spellId": "3771",
+      "name": "Barbaric Gloves",
+      "classicSkill": 150,
+      "foreverLearningSkill": 125,
+      "classicSource": "[Pattern: Barbaric Gloves]",
+      "skillMatches": false
+    },
+    {
+      "spellId": "3780",
+      "name": "Heavy Armor Kit",
+      "classicSkill": 150,
+      "foreverLearningSkill": null,
+      "classicSource": "Trainer",
+      "skillMatches": null
+    },
+    {
+      "spellId": "3760",
+      "name": "Hillman's Cloak",
+      "classicSkill": 150,
+      "foreverLearningSkill": null,
+      "classicSource": "Trainer",
+      "skillMatches": null
+    },
+    {
+      "spellId": "23399",
+      "name": "Barbaric Bracers",
+      "classicSkill": 155,
+      "foreverLearningSkill": 130,
+      "classicSource": "[Pattern: Barbaric Bracers]",
+      "skillMatches": false
+    },
+    {
+      "spellId": "3772",
+      "name": "Green Leather Armor",
+      "classicSkill": 155,
+      "foreverLearningSkill": 130,
+      "classicSource": "[Pattern: Green Leather Armor]",
+      "skillMatches": false
+    },
+    {
+      "spellId": "3774",
+      "name": "Green Leather Belt",
+      "classicSkill": 160,
+      "foreverLearningSkill": null,
+      "classicSource": "Trainer",
+      "skillMatches": null
+    },
+    {
+      "spellId": "9195",
+      "name": "Dusky Leather Leggings",
+      "classicSkill": 165,
+      "foreverLearningSkill": 140,
+      "classicSource": "[Pattern: Dusky Leather Leggings]",
+      "skillMatches": false
+    },
+    {
+      "spellId": "4097",
+      "name": "Raptor Hide Belt",
+      "classicSkill": 165,
+      "foreverLearningSkill": 140,
+      "classicSource": "[Pattern: Raptor Hide Belt]",
+      "skillMatches": false
+    },
+    {
+      "spellId": "4096",
+      "name": "Raptor Hide Harness",
+      "classicSkill": 165,
+      "foreverLearningSkill": 140,
+      "classicSource": "[Pattern: Raptor Hide Harness]",
+      "skillMatches": false
+    },
+    {
+      "spellId": "7149",
+      "name": "Barbaric Leggings",
+      "classicSkill": 170,
+      "foreverLearningSkill": 145,
+      "classicSource": "[Pattern: Barbaric Leggings]",
+      "skillMatches": false
+    },
+    {
+      "spellId": "6704",
+      "name": "Thick Murloc Armor",
+      "classicSkill": 170,
+      "foreverLearningSkill": 145,
+      "classicSource": "[Pattern: Thick Murloc Armor]",
+      "skillMatches": false
+    },
+    {
+      "spellId": "7151",
+      "name": "Barbaric Shoulders",
+      "classicSkill": 175,
+      "foreverLearningSkill": null,
+      "classicSource": "Trainer",
+      "skillMatches": null
+    },
+    {
+      "spellId": "9196",
+      "name": "Dusky Leather Armor",
+      "classicSkill": 175,
+      "foreverLearningSkill": null,
+      "classicSource": "Trainer",
+      "skillMatches": null
+    },
+    {
+      "spellId": "9197",
+      "name": "Green Whelp Armor",
+      "classicSkill": 175,
+      "foreverLearningSkill": 150,
+      "classicSource": "[Pattern: Green Whelp Armor]",
+      "skillMatches": false
+    },
+    {
+      "spellId": "3773",
+      "name": "Guardian Armor",
+      "classicSkill": 175,
+      "foreverLearningSkill": 150,
+      "classicSource": "[Pattern: Guardian Armor]",
+      "skillMatches": false
+    },
+    {
+      "spellId": "9198",
+      "name": "Frost Leather Cloak",
+      "classicSkill": 180,
+      "foreverLearningSkill": null,
+      "classicSource": "Trainer",
+      "skillMatches": null
+    },
+    {
+      "spellId": "3776",
+      "name": "Green Leather Bracers",
+      "classicSkill": 180,
+      "foreverLearningSkill": null,
+      "classicSource": "Trainer",
+      "skillMatches": null
+    },
+    {
+      "spellId": "9201",
+      "name": "Dusky Bracers",
+      "classicSkill": 185,
+      "foreverLearningSkill": null,
+      "classicSource": "Trainer",
+      "skillMatches": null
+    },
+    {
+      "spellId": "3778",
+      "name": "Gem-studded Leather Belt",
+      "classicSkill": 185,
+      "foreverLearningSkill": 160,
+      "classicSource": "[Pattern: Gem-Studded Leather Belt]",
+      "skillMatches": false
+    },
+    {
+      "spellId": "7153",
+      "name": "Guardian Cloak",
+      "classicSkill": 185,
+      "foreverLearningSkill": null,
+      "classicSource": "[Pattern: Guardian Cloak]",
+      "skillMatches": null
+    },
+    {
+      "spellId": "6661",
+      "name": "Barbaric Harness",
+      "classicSkill": 190,
+      "foreverLearningSkill": null,
+      "classicSource": "Trainer",
+      "skillMatches": null
+    },
+    {
+      "spellId": "21943",
+      "name": "Gloves of the Greatfather",
+      "classicSkill": 190,
+      "foreverLearningSkill": 165,
+      "classicSource": "[Pattern: Gloves of the Greatfather]",
+      "skillMatches": false
+    },
+    {
+      "spellId": "9202",
+      "name": "Green Whelp Bracers",
+      "classicSkill": 190,
+      "foreverLearningSkill": 165,
+      "classicSource": "[Pattern: Green Whelp Bracers]",
+      "skillMatches": false
+    },
+    {
+      "spellId": "7156",
+      "name": "Guardian Gloves",
+      "classicSkill": 190,
+      "foreverLearningSkill": null,
+      "classicSource": "Trainer",
+      "skillMatches": null
+    },
+    {
+      "spellId": "6705",
+      "name": "Murloc Scale Bracers",
+      "classicSkill": 190,
+      "foreverLearningSkill": 165,
+      "classicSource": "[Pattern: Murloc Scale Bracers]",
+      "skillMatches": false
+    },
+    {
+      "spellId": "9206",
+      "name": "Dusky Belt",
+      "classicSkill": 195,
+      "foreverLearningSkill": null,
+      "classicSource": "Trainer",
+      "skillMatches": null
+    },
+    {
+      "spellId": "10482",
+      "name": "Cured Thick Hide",
+      "classicSkill": 200,
+      "foreverLearningSkill": null,
+      "classicSource": "Trainer",
+      "skillMatches": null
+    },
+    {
+      "spellId": "20650",
+      "name": "Thick Leather",
+      "classicSkill": 200,
+      "foreverLearningSkill": null,
+      "classicSource": "Trainer",
+      "skillMatches": null
+    },
+    {
+      "spellId": "22711",
+      "name": "Shadowskin Gloves",
+      "classicSkill": 200,
+      "foreverLearningSkill": 175,
+      "classicSource": "[Pattern: Shadowskin Gloves]",
+      "skillMatches": false
+    },
+    {
+      "spellId": "3779",
+      "name": "Barbaric Belt",
+      "classicSkill": 200,
+      "foreverLearningSkill": 175,
+      "classicSource": "[Pattern: Barbaric Belt]",
+      "skillMatches": false
+    },
+    {
+      "spellId": "10490",
+      "name": "Comfortable Leather Hat",
+      "classicSkill": 200,
+      "foreverLearningSkill": 175,
+      "classicSource": "[Pattern: Comfortable Leather Hat]",
+      "skillMatches": false
+    },
+    {
+      "spellId": "9207",
+      "name": "Dusky Boots",
+      "classicSkill": 200,
+      "foreverLearningSkill": null,
+      "classicSource": "[Pattern: Dusky Boots]",
+      "skillMatches": null
+    },
+    {
+      "spellId": "9208",
+      "name": "Swift Boots",
+      "classicSkill": 200,
+      "foreverLearningSkill": 175,
+      "classicSource": "[Pattern: Swift Boots]",
+      "skillMatches": false
+    },
+    {
+      "spellId": "10487",
+      "name": "Thick Armor Kit",
+      "classicSkill": 200,
+      "foreverLearningSkill": null,
+      "classicSource": "Trainer",
+      "skillMatches": null
+    },
+    {
+      "spellId": "10507",
+      "name": "Nightscape Headband",
+      "classicSkill": 205,
+      "foreverLearningSkill": null,
+      "classicSource": "Trainer",
+      "skillMatches": null
+    },
+    {
+      "spellId": "10499",
+      "name": "Nightscape Tunic",
+      "classicSkill": 205,
+      "foreverLearningSkill": null,
+      "classicSource": "Trainer",
+      "skillMatches": null
+    },
+    {
+      "spellId": "10516",
+      "name": "Nightscape Shoulders",
+      "classicSkill": 210,
+      "foreverLearningSkill": 185,
+      "classicSource": "[Pattern: Nightscape Shoulders]",
+      "skillMatches": false
+    },
+    {
+      "spellId": "10518",
+      "name": "Turtle Scale Bracers",
+      "classicSkill": 210,
+      "foreverLearningSkill": null,
+      "classicSource": "Trainer",
+      "skillMatches": null
+    },
+    {
+      "spellId": "10533",
+      "name": "Tough Scorpid Bracers",
+      "classicSkill": 220,
+      "foreverLearningSkill": 195,
+      "classicSource": "[Pattern: Tough Scorpid Bracers]",
+      "skillMatches": false
+    },
+    {
+      "spellId": "10525",
+      "name": "Tough Scorpid Breastplate",
+      "classicSkill": 220,
+      "foreverLearningSkill": 195,
+      "classicSource": "[Pattern: Tough Scorpid Breastplate]",
+      "skillMatches": false
+    },
+    {
+      "spellId": "10529",
+      "name": "Wild Leather Shoulders",
+      "classicSkill": 220,
+      "foreverLearningSkill": 195,
+      "classicSource": "[Pattern: Wild Leather Shoulders]",
+      "skillMatches": false
+    },
+    {
+      "spellId": "10619",
+      "name": "Dragonscale Gauntlets",
+      "classicSkill": 225,
+      "foreverLearningSkill": null,
+      "classicSource": "Trainer",
+      "skillMatches": null
+    },
+    {
+      "spellId": "10542",
+      "name": "Tough Scorpid Gloves",
+      "classicSkill": 225,
+      "foreverLearningSkill": 200,
+      "classicSource": "[Pattern: Tough Scorpid Gloves]",
+      "skillMatches": false
+    },
+    {
+      "spellId": "10546",
+      "name": "Wild Leather Helmet",
+      "classicSkill": 225,
+      "foreverLearningSkill": 200,
+      "classicSource": "[Pattern: Wild Leather Helmet]",
+      "skillMatches": false
+    },
+    {
+      "spellId": "10544",
+      "name": "Wild Leather Vest",
+      "classicSkill": 225,
+      "foreverLearningSkill": 200,
+      "classicSource": "[Pattern: Wild Leather Vest]",
+      "skillMatches": false
+    },
+    {
+      "spellId": "10621",
+      "name": "Wolfshead Helm",
+      "classicSkill": 225,
+      "foreverLearningSkill": null,
+      "classicSource": "Trainer",
+      "skillMatches": null
+    },
+    {
+      "spellId": "10630",
+      "name": "Gauntlets of the Sea",
+      "classicSkill": 230,
+      "foreverLearningSkill": null,
+      "classicSource": "Trainer",
+      "skillMatches": null
+    },
+    {
+      "spellId": "10548",
+      "name": "Nightscape Pants",
+      "classicSkill": 230,
+      "foreverLearningSkill": null,
+      "classicSource": "Trainer",
+      "skillMatches": null
+    },
+    {
+      "spellId": "10552",
+      "name": "Turtle Scale Helm",
+      "classicSkill": 230,
+      "foreverLearningSkill": null,
+      "classicSource": "Trainer",
+      "skillMatches": null
+    },
+    {
+      "spellId": "10558",
+      "name": "Nightscape Boots",
+      "classicSkill": 235,
+      "foreverLearningSkill": null,
+      "classicSource": "Trainer",
+      "skillMatches": null
+    },
+    {
+      "spellId": "10554",
+      "name": "Tough Scorpid Boots",
+      "classicSkill": 235,
+      "foreverLearningSkill": 210,
+      "classicSource": "[Pattern: Tough Scorpid Boots]",
+      "skillMatches": false
+    },
+    {
+      "spellId": "10556",
+      "name": "Turtle Scale Leggings",
+      "classicSkill": 235,
+      "foreverLearningSkill": null,
+      "classicSource": "Trainer",
+      "skillMatches": null
+    },
+    {
+      "spellId": "10562",
+      "name": "Big Voodoo Cloak",
+      "classicSkill": 240,
+      "foreverLearningSkill": 215,
+      "classicSource": "[Pattern: Big Voodoo Cloak]",
+      "skillMatches": false
+    },
+    {
+      "spellId": "10560",
+      "name": "Big Voodoo Pants",
+      "classicSkill": 240,
+      "foreverLearningSkill": 215,
+      "classicSource": "[Pattern: Big Voodoo Pants]",
+      "skillMatches": false
+    },
+    {
+      "spellId": "10564",
+      "name": "Tough Scorpid Shoulders",
+      "classicSkill": 240,
+      "foreverLearningSkill": 215,
+      "classicSource": "[Pattern: Tough Scorpid Shoulders]",
+      "skillMatches": false
+    },
+    {
+      "spellId": "10568",
+      "name": "Tough Scorpid Leggings",
+      "classicSkill": 245,
+      "foreverLearningSkill": 220,
+      "classicSource": "[Pattern: Tough Scorpid Leggings]",
+      "skillMatches": false
+    },
+    {
+      "spellId": "10566",
+      "name": "Wild Leather Boots",
+      "classicSkill": 245,
+      "foreverLearningSkill": 220,
+      "classicSource": "[Pattern: Wild Leather Boots]",
+      "skillMatches": false
+    },
+    {
+      "spellId": "22331",
+      "name": "Rugged Leather",
+      "classicSkill": 250,
+      "foreverLearningSkill": null,
+      "classicSource": "Trainer",
+      "skillMatches": null
+    },
+    {
+      "spellId": "19047",
+      "name": "Cured Rugged Hide",
+      "classicSkill": 250,
+      "foreverLearningSkill": null,
+      "classicSource": "Trainer",
+      "skillMatches": null
+    },
+    {
+      "spellId": "19058",
+      "name": "Rugged Armor Kit",
+      "classicSkill": 250,
+      "foreverLearningSkill": null,
+      "classicSource": "Trainer",
+      "skillMatches": null
+    },
+    {
+      "spellId": "10647",
+      "name": "Feathered Breastplate",
+      "classicSkill": 250,
+      "foreverLearningSkill": null,
+      "classicSource": "Trainer",
+      "skillMatches": null
+    },
+    {
+      "spellId": "10632",
+      "name": "Helm of Fire",
+      "classicSkill": 250,
+      "foreverLearningSkill": null,
+      "classicSource": "Trainer",
+      "skillMatches": null
+    },
+    {
+      "spellId": "10570",
+      "name": "Tough Scorpid Helm",
+      "classicSkill": 250,
+      "foreverLearningSkill": 225,
+      "classicSource": "[Pattern: Tough Scorpid Helm]",
+      "skillMatches": false
+    },
+    {
+      "spellId": "10574",
+      "name": "Wild Leather Cloak",
+      "classicSkill": 250,
+      "foreverLearningSkill": 225,
+      "classicSource": "[Pattern: Wild Leather Cloak]",
+      "skillMatches": false
+    },
+    {
+      "spellId": "10572",
+      "name": "Wild Leather Leggings",
+      "classicSkill": 250,
+      "foreverLearningSkill": 225,
+      "classicSource": "[Pattern: Wild Leather Leggings]",
+      "skillMatches": false
+    },
+    {
+      "spellId": "10650",
+      "name": "Dragonscale Breastplate",
+      "classicSkill": 255,
+      "foreverLearningSkill": null,
+      "classicSource": "Trainer",
+      "skillMatches": null
+    },
+    {
+      "spellId": "19048",
+      "name": "Heavy Scorpid Bracers",
+      "classicSkill": 255,
+      "foreverLearningSkill": 255,
+      "classicSource": "[Pattern: Heavy Scorpid Bracers]",
+      "skillMatches": true
+    },
+    {
+      "spellId": "19050",
+      "name": "Green Dragonscale Breastplate",
+      "classicSkill": 260,
+      "foreverLearningSkill": 235,
+      "classicSource": "[Pattern: Green Dragonscale Breastplate]",
+      "skillMatches": false
+    },
+    {
+      "spellId": "19049",
+      "name": "Wicked Leather Gauntlets",
+      "classicSkill": 260,
+      "foreverLearningSkill": 235,
+      "classicSource": "[Pattern: Wicked Leather Gauntlets]",
+      "skillMatches": false
+    },
+    {
+      "spellId": "19053",
+      "name": "Chimeric Gloves",
+      "classicSkill": 265,
+      "foreverLearningSkill": 240,
+      "classicSource": "[Pattern: Chimeric Gloves]",
+      "skillMatches": false
+    },
+    {
+      "spellId": "19051",
+      "name": "Heavy Scorpid Vest",
+      "classicSkill": 265,
+      "foreverLearningSkill": 240,
+      "classicSource": "[Pattern: Heavy Scorpid Vest]",
+      "skillMatches": false
+    },
+    {
+      "spellId": "19052",
+      "name": "Wicked Leather Bracers",
+      "classicSkill": 265,
+      "foreverLearningSkill": 240,
+      "classicSource": "Trainer",
+      "skillMatches": false
+    },
+    {
+      "spellId": "19060",
+      "name": "Green Dragonscale Leggings",
+      "classicSkill": 270,
+      "foreverLearningSkill": 245,
+      "classicSource": "[Pattern: Green Dragonscale Leggings]",
+      "skillMatches": false
+    },
+    {
+      "spellId": "19062",
+      "name": "Ironfeather Shoulders",
+      "classicSkill": 270,
+      "foreverLearningSkill": 245,
+      "classicSource": "[Pattern: Ironfeather Shoulders]",
+      "skillMatches": false
+    },
+    {
+      "spellId": "19061",
+      "name": "Living Shoulders",
+      "classicSkill": 270,
+      "foreverLearningSkill": 245,
+      "classicSource": "[Pattern: Living Shoulders]",
+      "skillMatches": false
+    },
+    {
+      "spellId": "19055",
+      "name": "Runic Leather Gauntlets",
+      "classicSkill": 270,
+      "foreverLearningSkill": 245,
+      "classicSource": "Trainer",
+      "skillMatches": false
+    },
+    {
+      "spellId": "19059",
+      "name": "Volcanic Leggings",
+      "classicSkill": 270,
+      "foreverLearningSkill": 245,
+      "classicSource": "[Pattern: Volcanic Leggings]",
+      "skillMatches": false
+    },
+    {
+      "spellId": "22815",
+      "name": "Gordok Ogre Suit",
+      "classicSkill": 275,
+      "foreverLearningSkill": null,
+      "classicSource": "Learned from quest: [15-30D] The Gordok Ogre Suit",
+      "skillMatches": null
+    },
+    {
+      "spellId": "19063",
+      "name": "Chimeric Boots",
+      "classicSkill": 275,
+      "foreverLearningSkill": 250,
+      "classicSource": "[Pattern: Chimeric Boots]",
+      "skillMatches": false
+    },
+    {
+      "spellId": "19066",
+      "name": "Frostsaber Boots",
+      "classicSkill": 275,
+      "foreverLearningSkill": 250,
+      "classicSource": "[Pattern: Frostsaber Boots]",
+      "skillMatches": false
+    },
+    {
+      "spellId": "19064",
+      "name": "Heavy Scorpid Gauntlets",
+      "classicSkill": 275,
+      "foreverLearningSkill": 250,
+      "classicSource": "[Pattern: Heavy Scorpid Gauntlets]",
+      "skillMatches": false
+    },
+    {
+      "spellId": "19065",
+      "name": "Runic Leather Bracers",
+      "classicSkill": 275,
+      "foreverLearningSkill": 250,
+      "classicSource": "Trainer",
+      "skillMatches": false
+    },
+    {
+      "spellId": "19067",
+      "name": "Stormshroud Pants",
+      "classicSkill": 275,
+      "foreverLearningSkill": 250,
+      "classicSource": "[Pattern: Stormshroud Pants]",
+      "skillMatches": false
+    },
+    {
+      "spellId": "19068",
+      "name": "Warbear Harness",
+      "classicSkill": 275,
+      "foreverLearningSkill": 250,
+      "classicSource": "[Pattern: Warbear Harness]",
+      "skillMatches": false
+    },
+    {
+      "spellId": "19073",
+      "name": "Chimeric Leggings",
+      "classicSkill": 280,
+      "foreverLearningSkill": 255,
+      "classicSource": "[Pattern: Chimeric Leggings]",
+      "skillMatches": false
+    },
+    {
+      "spellId": "24655",
+      "name": "Green Dragonscale Gauntlets",
+      "classicSkill": 280,
+      "foreverLearningSkill": null,
+      "classicSource": "Trainer",
+      "skillMatches": null
+    },
+    {
+      "spellId": "19070",
+      "name": "Heavy Scorpid Belt",
+      "classicSkill": 280,
+      "foreverLearningSkill": 255,
+      "classicSource": "[Pattern: Heavy Scorpid Belt]",
+      "skillMatches": false
+    },
+    {
+      "spellId": "19072",
+      "name": "Runic Leather Belt",
+      "classicSkill": 280,
+      "foreverLearningSkill": 255,
+      "classicSource": "Trainer",
+      "skillMatches": false
+    },
+    {
+      "spellId": "19071",
+      "name": "Wicked Leather Headband",
+      "classicSkill": 280,
+      "foreverLearningSkill": 255,
+      "classicSource": "Trainer",
+      "skillMatches": false
+    },
+    {
+      "spellId": "44953",
+      "name": "Winter Boots",
+      "classicSkill": 285,
+      "foreverLearningSkill": 285,
+      "classicSource": "[Pattern: Winter Boots]",
+      "skillMatches": true
+    },
+    {
+      "spellId": "19077",
+      "name": "Blue Dragonscale Breastplate",
+      "classicSkill": 285,
+      "foreverLearningSkill": 260,
+      "classicSource": "[Pattern: Blue Dragonscale Breastplate]",
+      "skillMatches": false
+    },
+    {
+      "spellId": "19074",
+      "name": "Frostsaber Leggings",
+      "classicSkill": 285,
+      "foreverLearningSkill": 260,
+      "classicSource": "[Pattern: Frostsaber Leggings]",
+      "skillMatches": false
+    },
+    {
+      "spellId": "19075",
+      "name": "Heavy Scorpid Leggings",
+      "classicSkill": 285,
+      "foreverLearningSkill": 260,
+      "classicSource": "[Pattern: Heavy Scorpid Leggings]",
+      "skillMatches": false
+    },
+    {
+      "spellId": "19078",
+      "name": "Living Leggings",
+      "classicSkill": 285,
+      "foreverLearningSkill": 260,
+      "classicSource": "[Pattern: Living Leggings]",
+      "skillMatches": false
+    },
+    {
+      "spellId": "19079",
+      "name": "Stormshroud Armor",
+      "classicSkill": 285,
+      "foreverLearningSkill": 260,
+      "classicSource": "[Pattern: Stormshroud Armor]",
+      "skillMatches": false
+    },
+    {
+      "spellId": "19076",
+      "name": "Volcanic Breastplate",
+      "classicSkill": 285,
+      "foreverLearningSkill": 260,
+      "classicSource": "[Pattern: Volcanic Breastplate]",
+      "skillMatches": false
+    },
+    {
+      "spellId": "19080",
+      "name": "Warbear Woolies",
+      "classicSkill": 285,
+      "foreverLearningSkill": 260,
+      "classicSource": "[Pattern: Warbear Woolies]",
+      "skillMatches": false
+    },
+    {
+      "spellId": "19085",
+      "name": "Black Dragonscale Breastplate",
+      "classicSkill": 290,
+      "foreverLearningSkill": 265,
+      "classicSource": "[Pattern: Black Dragonscale Breastplate]",
+      "skillMatches": false
+    },
+    {
+      "spellId": "19081",
+      "name": "Chimeric Vest",
+      "classicSkill": 290,
+      "foreverLearningSkill": 265,
+      "classicSource": "[Pattern: Chimeric Vest]",
+      "skillMatches": false
+    },
+    {
+      "spellId": "23705",
+      "name": "Dawn Treaders",
+      "classicSkill": 290,
+      "foreverLearningSkill": null,
+      "classicSource": "[Pattern: Dawn Treaders]",
+      "skillMatches": null
+    },
+    {
+      "spellId": "19084",
+      "name": "Devilsaur Gauntlets",
+      "classicSkill": 290,
+      "foreverLearningSkill": 265,
+      "classicSource": "[Pattern: Devilsaur Gauntlets]",
+      "skillMatches": false
+    },
+    {
+      "spellId": "19086",
+      "name": "Ironfeather Breastplate",
+      "classicSkill": 290,
+      "foreverLearningSkill": 265,
+      "classicSource": "[Pattern: Ironfeather Breastplate]",
+      "skillMatches": false
+    },
+    {
+      "spellId": "23703",
+      "name": "Might of the Timbermaw",
+      "classicSkill": 290,
+      "foreverLearningSkill": 265,
+      "classicSource": "[Pattern: Might of the Timbermaw]",
+      "skillMatches": false
+    },
+    {
+      "spellId": "19082",
+      "name": "Runic Leather Headband",
+      "classicSkill": 290,
+      "foreverLearningSkill": 265,
+      "classicSource": "Trainer",
+      "skillMatches": false
+    },
+    {
+      "spellId": "19083",
+      "name": "Wicked Leather Pants",
+      "classicSkill": 290,
+      "foreverLearningSkill": 265,
+      "classicSource": "Trainer",
+      "skillMatches": false
+    },
+    {
+      "spellId": "19089",
+      "name": "Blue Dragonscale Shoulders",
+      "classicSkill": 295,
+      "foreverLearningSkill": 270,
+      "classicSource": "[Pattern: Blue Dragonscale Shoulders]",
+      "skillMatches": false
+    },
+    {
+      "spellId": "20853",
+      "name": "Corehound Boots",
+      "classicSkill": 295,
+      "foreverLearningSkill": 295,
+      "classicSource": "[Pattern: Corehound Boots]",
+      "skillMatches": true
+    },
+    {
+      "spellId": "19087",
+      "name": "Frostsaber Gloves",
+      "classicSkill": 295,
+      "foreverLearningSkill": 270,
+      "classicSource": "[Pattern: Frostsaber Gloves]",
+      "skillMatches": false
+    },
+    {
+      "spellId": "19088",
+      "name": "Heavy Scorpid Helm",
+      "classicSkill": 295,
+      "foreverLearningSkill": 270,
+      "classicSource": "[Pattern: Heavy Scorpid Helm]",
+      "skillMatches": false
+    },
+    {
+      "spellId": "19090",
+      "name": "Stormshroud Shoulders",
+      "classicSkill": 295,
+      "foreverLearningSkill": 270,
+      "classicSource": "[Pattern: Stormshroud Shoulders]",
+      "skillMatches": false
+    },
+    {
+      "spellId": "20855",
+      "name": "Black Dragonscale Boots",
+      "classicSkill": 300,
+      "foreverLearningSkill": 300,
+      "classicSource": "[Pattern: Black Dragonscale Boots]",
+      "skillMatches": true
+    },
+    {
+      "spellId": "19107",
+      "name": "Black Dragonscale Leggings",
+      "classicSkill": 300,
+      "foreverLearningSkill": 290,
+      "classicSource": "[Pattern: Black Dragonscale Leggings]",
+      "skillMatches": false
+    },
+    {
+      "spellId": "19094",
+      "name": "Black Dragonscale Shoulders",
+      "classicSkill": 300,
+      "foreverLearningSkill": 270,
+      "classicSource": "[Pattern: Black Dragonscale Shoulders]",
+      "skillMatches": false
+    },
+    {
+      "spellId": "24124",
+      "name": "Blood Tiger Breastplate",
+      "classicSkill": 300,
+      "foreverLearningSkill": 300,
+      "classicSource": "[Pattern: Blood Tiger Breastplate]",
+      "skillMatches": true
+    },
+    {
+      "spellId": "24125",
+      "name": "Blood Tiger Shoulders",
+      "classicSkill": 300,
+      "foreverLearningSkill": 300,
+      "classicSource": "[Pattern: Blood Tiger Shoulders]",
+      "skillMatches": true
+    },
+    {
+      "spellId": "24654",
+      "name": "Blue Dragonscale Leggings",
+      "classicSkill": 300,
+      "foreverLearningSkill": null,
+      "classicSource": "Trainer",
+      "skillMatches": null
+    },
+    {
+      "spellId": "22926",
+      "name": "Chromatic Cloak",
+      "classicSkill": 300,
+      "foreverLearningSkill": 300,
+      "classicSource": "[Pattern: Chromatic Cloak]",
+      "skillMatches": true
+    },
+    {
+      "spellId": "23708",
+      "name": "Chromatic Gauntlets",
+      "classicSkill": 300,
+      "foreverLearningSkill": 300,
+      "classicSource": "[Pattern: Chromatic Gauntlets]",
+      "skillMatches": true
+    },
+    {
+      "spellId": "22727",
+      "name": "Core Armor Kit",
+      "classicSkill": 300,
+      "foreverLearningSkill": 300,
+      "classicSource": "[Pattern: Core Armor Kit]",
+      "skillMatches": true
+    },
+    {
+      "spellId": "23709",
+      "name": "Corehound Belt",
+      "classicSkill": 300,
+      "foreverLearningSkill": 300,
+      "classicSource": "[Pattern: Corehound Belt]",
+      "skillMatches": true
+    },
+    {
+      "spellId": "19097",
+      "name": "Devilsaur Leggings",
+      "classicSkill": 300,
+      "foreverLearningSkill": 290,
+      "classicSource": "[Pattern: Devilsaur Leggings]",
+      "skillMatches": false
+    },
+    {
+      "spellId": "19104",
+      "name": "Frostsaber Tunic",
+      "classicSkill": 300,
+      "foreverLearningSkill": 290,
+      "classicSource": "[Pattern: Frostsaber Tunic]",
+      "skillMatches": false
+    },
+    {
+      "spellId": "22921",
+      "name": "Girdle of Insight",
+      "classicSkill": 300,
+      "foreverLearningSkill": 290,
+      "classicSource": "[Pattern: Girdle of Insight]",
+      "skillMatches": false
+    },
+    {
+      "spellId": "23706",
+      "name": "Golden Mantle of the Dawn",
+      "classicSkill": 300,
+      "foreverLearningSkill": null,
+      "classicSource": "[Pattern: Golden Mantle of the Dawn]",
+      "skillMatches": null
+    },
+    {
+      "spellId": "19100",
+      "name": "Heavy Scorpid Shoulders",
+      "classicSkill": 300,
+      "foreverLearningSkill": 280,
+      "classicSource": "[Pattern: Heavy Scorpid Shoulders]",
+      "skillMatches": false
+    },
+    {
+      "spellId": "22927",
+      "name": "Hide of the Wild",
+      "classicSkill": 300,
+      "foreverLearningSkill": 300,
+      "classicSource": "[Pattern: Hide of the Wild]",
+      "skillMatches": true
+    },
+    {
+      "spellId": "23707",
+      "name": "Lava Belt",
+      "classicSkill": 300,
+      "foreverLearningSkill": 300,
+      "classicSource": "[Pattern: Lava Belt]",
+      "skillMatches": true
+    },
+    {
+      "spellId": "19095",
+      "name": "Living Breastplate",
+      "classicSkill": 300,
+      "foreverLearningSkill": 290,
+      "classicSource": "[Pattern: Living Breastplate]",
+      "skillMatches": false
+    },
+    {
+      "spellId": "23710",
+      "name": "Molten Belt",
+      "classicSkill": 300,
+      "foreverLearningSkill": 300,
+      "classicSource": "[Pattern: Molten Belt]",
+      "skillMatches": true
+    },
+    {
+      "spellId": "20854",
+      "name": "Molten Helm",
+      "classicSkill": 300,
+      "foreverLearningSkill": 300,
+      "classicSource": "[Pattern: Molten Helm]",
+      "skillMatches": true
+    },
+    {
+      "spellId": "22922",
+      "name": "Mongoose Boots",
+      "classicSkill": 300,
+      "foreverLearningSkill": 290,
+      "classicSource": "[Pattern: Mongoose Boots]",
+      "skillMatches": false
+    },
+    {
+      "spellId": "19093",
+      "name": "Onyxia Scale Cloak",
+      "classicSkill": 300,
+      "foreverLearningSkill": null,
+      "classicSource": "Learned from quest: [30] The Journey Has Just Begun or [30] The Journey Has Just Begun",
+      "skillMatches": null
+    },
+    {
+      "spellId": "24123",
+      "name": "Primal Batskin Bracers",
+      "classicSkill": 300,
+      "foreverLearningSkill": 300,
+      "classicSource": "[Pattern: Primal Batskin Bracers]",
+      "skillMatches": true
+    },
+    {
+      "spellId": "24122",
+      "name": "Primal Batskin Gloves",
+      "classicSkill": 300,
+      "foreverLearningSkill": 300,
+      "classicSource": "[Pattern: Primal Batskin Gloves]",
+      "skillMatches": true
+    },
+    {
+      "spellId": "24121",
+      "name": "Primal Batskin Jerkin",
+      "classicSkill": 300,
+      "foreverLearningSkill": 300,
+      "classicSource": "[Pattern: Primal Batskin Jerkin]",
+      "skillMatches": true
+    },
+    {
+      "spellId": "19054",
+      "name": "Red Dragonscale Breastplate",
+      "classicSkill": 300,
+      "foreverLearningSkill": 290,
+      "classicSource": "[Pattern: Red Dragonscale Breastplate]",
+      "skillMatches": false
+    },
+    {
+      "spellId": "19102",
+      "name": "Runic Leather Armor",
+      "classicSkill": 300,
+      "foreverLearningSkill": 285,
+      "classicSource": "Trainer",
+      "skillMatches": false
+    },
+    {
+      "spellId": "19091",
+      "name": "Runic Leather Pants",
+      "classicSkill": 300,
+      "foreverLearningSkill": 275,
+      "classicSource": "Trainer",
+      "skillMatches": false
+    },
+    {
+      "spellId": "19103",
+      "name": "Runic Leather Shoulders",
+      "classicSkill": 300,
+      "foreverLearningSkill": 285,
+      "classicSource": "Trainer",
+      "skillMatches": false
+    },
+    {
+      "spellId": "22928",
+      "name": "Shifting Cloak",
+      "classicSkill": 300,
+      "foreverLearningSkill": 300,
+      "classicSource": "[Pattern: Shifting Cloak]",
+      "skillMatches": true
+    },
+    {
+      "spellId": "26279",
+      "name": "Stormshroud Gloves",
+      "classicSkill": 300,
+      "foreverLearningSkill": 290,
+      "classicSource": "[Pattern: Stormshroud Gloves]",
+      "skillMatches": false
+    },
+    {
+      "spellId": "22923",
+      "name": "Swift Flight Bracers",
+      "classicSkill": 300,
+      "foreverLearningSkill": 290,
+      "classicSource": "[Pattern: Swift Flight Bracers]",
+      "skillMatches": false
+    },
+    {
+      "spellId": "23704",
+      "name": "Timbermaw Brawlers",
+      "classicSkill": 300,
+      "foreverLearningSkill": 295,
+      "classicSource": "[Pattern: Timbermaw Brawlers]",
+      "skillMatches": false
+    },
+    {
+      "spellId": "19101",
+      "name": "Volcanic Shoulders",
+      "classicSkill": 300,
+      "foreverLearningSkill": 280,
+      "classicSource": "[Pattern: Volcanic Shoulders]",
+      "skillMatches": false
+    },
+    {
+      "spellId": "19098",
+      "name": "Wicked Leather Armor",
+      "classicSkill": 300,
+      "foreverLearningSkill": 280,
+      "classicSource": "Trainer",
+      "skillMatches": false
+    },
+    {
+      "spellId": "19092",
+      "name": "Wicked Leather Belt",
+      "classicSkill": 300,
+      "foreverLearningSkill": 275,
+      "classicSource": "Trainer",
+      "skillMatches": false
+    }
+  ],
+  "ambiguous": [
+    {
+      "name": "[Guardian Pants]",
+      "candidateSpellIds": [
+        "439114",
+        "7147"
+      ]
+    },
+    {
+      "name": "[Guardian Belt]",
+      "candidateSpellIds": [
+        "3775",
+        "439112"
+      ]
+    },
+    {
+      "name": "[Guardian Leather Bracers]",
+      "candidateSpellIds": [
+        "3777",
+        "439110"
+      ]
+    },
+    {
+      "name": "[Turtle Scale Gloves]",
+      "candidateSpellIds": [
+        "10509",
+        "439118"
+      ]
+    },
+    {
+      "name": "[Turtle Scale Breastplate]",
+      "candidateSpellIds": [
+        "10511",
+        "439116"
+      ]
+    },
+    {
+      "name": "[Big Voodoo Robe]",
+      "candidateSpellIds": [
+        "10520",
+        "439108"
+      ]
+    },
+    {
+      "name": "[Big Voodoo Mask]",
+      "candidateSpellIds": [
+        "10531",
+        "439105"
+      ]
+    },
+    {
+      "name": "[Bramblewood Belt]",
+      "candidateSpellIds": [
+        "1213734",
+        "28474"
+      ]
+    },
+    {
+      "name": "[Bramblewood Boots]",
+      "candidateSpellIds": [
+        "1213736",
+        "28473"
+      ]
+    },
+    {
+      "name": "[Bramblewood Helm]",
+      "candidateSpellIds": [
+        "1213738",
+        "28472"
+      ]
+    },
+    {
+      "name": "[Dreamscale Breastplate]",
+      "candidateSpellIds": [
+        "1213751",
+        "24703"
+      ]
+    },
+    {
+      "name": "[Icy Scale Bracers]",
+      "candidateSpellIds": [
+        "1223778",
+        "28224"
+      ]
+    },
+    {
+      "name": "[Icy Scale Breastplate]",
+      "candidateSpellIds": [
+        "1223774",
+        "28222"
+      ]
+    },
+    {
+      "name": "[Icy Scale Gauntlets]",
+      "candidateSpellIds": [
+        "1223776",
+        "28223"
+      ]
+    },
+    {
+      "name": "[Polar Bracers]",
+      "candidateSpellIds": [
+        "1223784",
+        "28221"
+      ]
+    },
+    {
+      "name": "[Polar Gloves]",
+      "candidateSpellIds": [
+        "1223782",
+        "28220"
+      ]
+    },
+    {
+      "name": "[Polar Tunic]",
+      "candidateSpellIds": [
+        "1223780",
+        "28219"
+      ]
+    },
+    {
+      "name": "[Sandstalker Bracers]",
+      "candidateSpellIds": [
+        "1213717",
+        "24849"
+      ]
+    },
+    {
+      "name": "[Sandstalker Breastplate]",
+      "candidateSpellIds": [
+        "1213723",
+        "24851"
+      ]
+    },
+    {
+      "name": "[Sandstalker Gauntlets]",
+      "candidateSpellIds": [
+        "1213720",
+        "24850"
+      ]
+    },
+    {
+      "name": "[Spitfire Bracers]",
+      "candidateSpellIds": [
+        "1213726",
+        "24846"
+      ]
+    },
+    {
+      "name": "[Spitfire Breastplate]",
+      "candidateSpellIds": [
+        "1213731",
+        "24848"
+      ]
+    },
+    {
+      "name": "[Spitfire Gauntlets]",
+      "candidateSpellIds": [
+        "1213728",
+        "24847"
+      ]
+    }
+  ],
+  "notInForeverByName": [
+    "[Blackstorm Leggings]",
+    "[Dragonstrike Leggings]",
+    "[Wildfeather Leggings]",
+    "[Comfortable Insoles]",
+    "[Knothide Leather]",
+    "[Felscale Gloves]",
+    "[Leatherworker's Satchel]",
+    "[Scaled Draenic Pants]",
+    "[Thick Draenic Gloves]",
+    "[Wild Draenish Boots]",
+    "[Knothide Armor Kit]",
+    "1x [Camp Narache Rug]",
+    "1x [Loch Modan Bearskin Rug]",
+    "1x [Nerubian Persuader]",
+    "1x [Animist's Footwraps]",
+    "1x [Animist's Legguards]",
+    "1x [Cord of Shriveled Heads]",
+    "1x [Displacement Boots]",
+    "1x [Gloves of the Tormentor]",
+    "1x [Gurubashi's Grasp]",
+    "1x [Helm of Lingering Power]",
+    "1x [Junglefury Gauntlets]",
+    "1x [Junglefury Leggings]",
+    "1x [Sanctified Leather Hat]",
+    "1x [Skyfury Headdress]",
+    "1x [Lucien's Lost Soles]",
+    "1x [Icy Scale Bracers]",
+    "1x [Polar Bracers]",
+    "1x [Primal Batskin Bracers]",
+    "1x [Sandstalker Bracers]",
+    "1x [Spitfire Bracers]",
+    "1x [Swift Flight Bracers]",
+    "1x [Runic Leather Bracers]",
+    "1x [Wicked Leather Bracers]",
+    "1x [Heavy Scorpid Bracers]",
+    "1x [Tough Scorpid Bracers]",
+    "1x [Guardian Leather Bracers]",
+    "1x [Green Whelp Bracers]",
+    "1x [Murloc Scale Bracers]",
+    "1x [Dusky Bracers]",
+    "1x [Green Leather Bracers]",
+    "1x [Barbaric Bracers]",
+    "1x [Chain Bracers]",
+    "1x [Light Leather Bracers]",
+    "1x [Handstitched Leather Bracers]",
+    "1x [Relic of the Past I]",
+    "1x [Relic of the Past II]",
+    "1x [Relic of the Past III]",
+    "1x [Relic of the Past IV]",
+    "1x [Relic of the Past V]",
+    "1x [Kodo Hide Bag]",
+    "1x [Bramblewood Belt]",
+    "1x [Corehound Belt]",
+    "1x [Girdle of Insight]",
+    "1x [Icy Scale Waistwrap]",
+    "1x [Lava Belt]",
+    "1x [Molten Belt]",
+    "1x [Polar Belt]",
+    "1x [Might of the Timbermaw]",
+    "1x [Heavy Scorpid Belt]",
+    "1x [Runic Leather Belt]",
+    "1x [Barbaric Belt]",
+    "1x [Dusky Belt]",
+    "1x [Gem-Studded Leather Belt]",
+    "1x [Guardian Belt]",
+    "1x [Raptor Hide Belt]",
+    "1x [Green Leather Belt]",
+    "1x [Chain Belt]",
+    "1x [Dark Leather Belt]",
+    "1x [Hillman's Belt]",
+    "1x [Deviate Scale Belt]",
+    "1x [Murloc Scale Belt]",
+    "1x [Fine Leather Belt]",
+    "1x [Handstitched Leather Belt]",
+    "1x [Chromatic Cloak]",
+    "1x [Hide of the Wild]",
+    "1x [Onyxia Scale Cloak]",
+    "1x [Shifting Cloak]",
+    "1x [Wild Leather Cloak]",
+    "1x [Big Voodoo Cloak]",
+    "1x [Guardian Cloak]",
+    "1x [Frost Leather Cloak]",
+    "1x [Dark Leather Cloak]",
+    "1x [Black Whelp Cloak]",
+    "1x [Deviate Scale Cloak]",
+    "1x [Fine Leather Cloak]",
+    "1x [Embossed Leather Cloak]",
+    "1x [Handstitched Leather Cloak]",
+    "1x [Blood Tiger Breastplate]",
+    "1x [Dreamscale Breastplate]",
+    "1x [Frostsaber Tunic]",
+    "1x [Icy Scale Breastplate]",
+    "1x [Living Breastplate]",
+    "1x [Polar Tunic]",
+    "1x [Primal Batskin Jerkin]",
+    "1x [Red Dragonscale Breastplate]",
+    "1x [Runic Leather Armor]",
+    "1x [Sandstalker Breastplate]",
+    "1x [Spitfire Breastplate]",
+    "1x [Wicked Leather Armor]",
+    "1x [Black Dragonscale Breastplate]",
+    "1x [Chimeric Vest]",
+    "1x [Ironfeather Breastplate]",
+    "1x [Blue Dragonscale Breastplate]",
+    "1x [Stormshroud Armor]",
+    "1x [Volcanic Breastplate]",
+    "1x [Warbear Harness]",
+    "1x [Heavy Scorpid Vest]",
+    "1x [Green Dragonscale Breastplate]",
+    "1x [Dragonscale Breastplate]",
+    "1x [Feathered Breastplate]",
+    "1x [Wild Leather Vest]",
+    "1x [Tough Scorpid Breastplate]",
+    "1x [Big Voodoo Robe]",
+    "1x [Dusky Leather Armor]",
+    "1x [Green Whelp Armor]",
+    "1x [Guardian Armor]",
+    "1x [Spritescale Jerkin]",
+    "1x [Thick Murloc Armor]",
+    "1x [Raptor Hide Harness]",
+    "1x [Green Leather Armor]",
+    "1x [Murloc Scale Breastplate]",
+    "1x [Black Whelp Tunic]",
+    "1x [Chain Hauberk]",
+    "1x [Dark Leather Tunic]",
+    "1x [Hillman's Leather Vest]",
+    "1x [Moonglow Vest]",
+    "1x [Fine Leather Tunic]",
+    "1x [White Leather Jerkin]",
+    "1x [Embossed Leather Vest]",
+    "1x [Handstitched Leather Vest]",
+    "1x [Chromatic Gauntlets]",
+    "1x [Icy Scale Gauntlets]",
+    "1x [Polar Gloves]",
+    "1x [Primal Batskin Gloves]",
+    "1x [Sandstalker Gauntlets]",
+    "1x [Spitfire Gauntlets]",
+    "1x [Timbermaw Brawlers]",
+    "1x [Stormshroud Gloves]",
+    "1x [Frostsaber Gloves]",
+    "1x [Devilsaur Gauntlets]",
+    "1x [Green Dragonscale Gauntlets]",
+    "1x [Heavy Scorpid Gauntlets]",
+    "1x [Runic Leather Gauntlets]",
+    "1x [Chimeric Gloves]",
+    "1x [Wicked Leather Gauntlets]",
+    "1x [Gauntlets of the Sea]",
+    "1x [Dragonscale Gauntlets]",
+    "1x [Tough Scorpid Gloves]",
+    "1x [Shadowskin Gloves]",
+    "1x [Gloves of the Greatfather]",
+    "1x [Guardian Gloves]",
+    "1x [Spritescale Gloves]",
+    "1x [Heavy Earthen Gloves]",
+    "1x [Hillman's Leather Gloves]",
+    "1x [Barbaric Gloves]",
+    "1x [Pilferer's Gloves]",
+    "1x [Toughened Leather Gloves]",
+    "1x [Herbalist's Gloves]",
+    "1x [Dark Leather Gloves]",
+    "1x [Fletcher's Gloves]",
+    "1x [Nimble Leather Gloves]",
+    "1x [Red Whelp Gloves]",
+    "1x [Deviate Scale Gloves]",
+    "1x [Embossed Leather Gloves]",
+    "1x [Languished Leather]",
+    "1x [Scourged Scales]",
+    "1x [Cured Thick Hide]",
+    "1x [Cured Heavy Hide]",
+    "1x [Heavy Leather]",
+    "1x [Medium Leather]",
+    "1x [Cured Light Hide]",
+    "1x [Light Leather]",
+    "1x [Black Dragonscale Leggings]",
+    "1x [Blue Dragonscale Leggings]",
+    "1x [Devilsaur Leggings]",
+    "1x [Icy Scale Leggings]",
+    "1x [Polar Leggings]",
+    "1x [Runic Leather Pants]",
+    "1x [Wicked Leather Pants]",
+    "1x [Frostsaber Leggings]",
+    "1x [Heavy Scorpid Leggings]",
+    "1x [Living Leggings]",
+    "1x [Warbear Woolies]",
+    "1x [Chimeric Leggings]",
+    "1x [Stormshroud Pants]",
+    "1x [Green Dragonscale Leggings]",
+    "1x [Volcanic Leggings]",
+    "1x [Blackstorm Leggings]",
+    "1x [Dragonstrike Leggings]",
+    "1x [Wildfeather Leggings]",
+    "1x [Wild Leather Leggings]",
+    "1x [Tough Scorpid Leggings]",
+    "1x [Big Voodoo Pants]",
+    "1x [Barbaric Leggings]",
+    "1x [Guardian Pants]",
+    "1x [Chain Leggings]",
+    "1x [Dark Leather Pants]",
+    "1x [Fine Leather Pants]",
+    "1x [Light Leather Pants]",
+    "1x [Embossed Leather Pants]",
+    "1x [Rugged Leather Pants]",
+    "1x [Handstitched Leather Pants]",
+    "1x [Bramblewood Helm]",
+    "1x [Icy Scale Crown]",
+    "1x [Molten Helm]",
+    "1x [Polar Helm]",
+    "1x [Heavy Scorpid Helm]",
+    "1x [Runic Leather Headband]",
+    "1x [Wicked Leather Headband]",
+    "1x [Helm of Fire]",
+    "1x [Tough Scorpid Helm]",
+    "1x [Wild Leather Helmet]",
+    "1x [Wolfshead Helm]",
+    "1x [Big Voodoo Mask]",
+    "1x [Comfortable Leather Hat]",
+    "1x [Black Dragonscale Boots]",
+    "1x [Bramblewood Boots]",
+    "1x [Icy Scale Stompers]",
+    "1x [Mongoose Boots]",
+    "1x [Polar Footwarmers]",
+    "1x [Corehound Boots]",
+    "1x [Dawn Treaders]",
+    "1x [Chimeric Boots]",
+    "1x [Frostsaber Boots]",
+    "1x [Wild Leather Boots]",
+    "1x [Tough Scorpid Boots]",
+    "1x [Dusky Boots]",
+    "1x [Spritescale Boots]",
+    "1x [Swift Boots]",
+    "1x [Chain Boots]",
+    "1x [Dark Leather Boots]",
+    "1x [Fine Leather Boots]",
+    "1x [Shamanic Treads]",
+    "1x [Handstitched Leather Boots]",
+    "1x [Black Dragonscale Shoulders]",
+    "1x [Blood Tiger Shoulders]",
+    "1x [Golden Mantle of the Dawn]",
+    "1x [Heavy Scorpid Shoulders]",
+    "1x [Icy Scale Shoulderpads]",
+    "1x [Polar Spaulders]",
+    "1x [Runic Leather Shoulders]",
+    "1x [Volcanic Shoulders]",
+    "1x [Blue Dragonscale Shoulders]",
+    "1x [Stormshroud Shoulders]",
+    "1x [Ironfeather Shoulders]",
+    "1x [Living Shoulders]",
+    "1x [Tough Scorpid Shoulders]",
+    "1x [Wild Leather Shoulders]",
+    "1x [Nightscape Shoulders]",
+    "1x [Barbaric Shoulders]",
+    "1x [Dark Leather Shoulders]",
+    "1x [Chain Pauldrons]",
+    "1x [Earthen Leather Shoulders]",
+    "1x [Spritescale Epaulets]",
+    "1x [Hillman's Shoulders]",
+    "1x [Core Armor Kit]",
+    "1x [Light Armor Kit]"
+  ]
+}

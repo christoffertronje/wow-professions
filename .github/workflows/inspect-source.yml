@@ -4,6 +4,7 @@ on:
   push:
     paths:
       - "scripts/inspect-source.py"
+      - "scripts/build-data.py"
       - ".github/workflows/inspect-source.yml"
 permissions:
   contents: write

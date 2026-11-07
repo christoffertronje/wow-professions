@@ -19,6 +19,8 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+      - name: Import recorded learning requirements
+        run: python3 scripts/import-learning-skills.py
       - name: Build static client recipe catalog
         run: python3 scripts/build-data.py
       - name: Resolve item icons from WoW FileDataIDs

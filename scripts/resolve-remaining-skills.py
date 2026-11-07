@@ -35,7 +35,16 @@ for tr in soup.select("tr"):
     if not name or len(nums)<4 or not (1<=nums[0]<=450):continue
     rows.append({"name":name,"required":nums[0],"bands":nums[:4]})
 if len(rows)<400:
-    raise RuntimeError(f"Only {len(rows)} parsed, expected 500+: page format changed. No import.")
+    pathlib.Path("docs").mkdir(exist_ok=True)
+    pathlib.Path("docs/playfulls-parse-diagnostic.json").write_text(json.dumps({
+        "htmlLength":len(str(soup)),
+        "tables":len(soup.select("table")),
+        "tableRows":len(soup.select("tr")),
+        "parsed":len(rows),
+        "sampleRows":[[x.get_text(" ",strip=True)[:140] for x in tr.find_all(["td","th"],recursive=False)[:4]] for tr in soup.select("tr")[:12]]
+    },indent=2)+"\\n")
+    print(f"Only {len(rows)} parsed; writing diagnostic instead of importing.")
+    raise SystemExit(0)
 catalog=json.loads(CATALOG.read_text(encoding="utf-8"))
 by_name=defaultdict(list)
 for r in catalog["recipes"]:by_name[norm(r["name"])].append(r)

@@ -28,7 +28,7 @@ with urllib.request.urlopen(req,timeout=120) as response:
             base=normalized.rsplit("/",1)[-1]
             if not base.endswith((".blp",".tga")):continue
             name=base.rsplit(".",1)[0]
-            if name and all(c.isascii() and (c.isalnum() or c=="_") for c in name):
+            if name and name not in {"temp","temporary","unknown","placeholder","inv_misc_questionmark"} and not name.startswith(("unknown_","placeholder_","temp_","autogen_")) and all(c.isascii() and (c.isalnum() or c=="_") for c in name):
                 matched[file_id]=name
         except (UnicodeDecodeError,ValueError):
             continue

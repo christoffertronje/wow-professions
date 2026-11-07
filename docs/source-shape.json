@@ -1,0 +1,223 @@
+{
+  "source": "https://forevertome.com/data/recipes.yafo0pc388.json",
+  "bytes": 5549576,
+  "structure": {
+    "type": "object",
+    "count": 9,
+    "keys": [
+      "schemaVersion",
+      "build",
+      "product",
+      "locale",
+      "generatedAt",
+      "source",
+      "professions",
+      "items",
+      "recipes"
+    ],
+    "children": {
+      "schemaVersion": {
+        "type": "int",
+        "example": "1"
+      },
+      "build": {
+        "type": "str",
+        "example": "1.60.1.70707"
+      },
+      "product": {
+        "type": "str",
+        "example": "wowf"
+      },
+      "locale": {
+        "type": "str",
+        "example": "enUS"
+      },
+      "generatedAt": {
+        "type": "str",
+        "example": "2026-10-31T05:48:04.8460276+00:00"
+      },
+      "source": {
+        "type": "object",
+        "count": 7,
+        "keys": [
+          "label",
+          "description",
+          "tables",
+          "limitations",
+          "hotfixesApplied",
+          "excludedMappings",
+          "itemSemantics"
+        ],
+        "children": {
+          "label": {
+            "type": "str",
+            "example": "WoW Forever client archive"
+          },
+          "description": {
+            "type": "str",
+            "example": "All decoded crafting records and unresolved recipe mappings in supported profession skill lines."
+          },
+          "tables": {
+            "type": "array",
+            "length": 39,
+            "first": {
+              "type": "object",
+              "count": 4,
+              "keys": [
+                "name",
+                "sha256",
+                "rows",
+                "encryptedRecords"
+              ],
+              "children": {
+                "name": {
+                  "type": "str"
+                },
+                "sha256": {
+                  "type": "str"
+                },
+                "rows": {
+                  "type": "int"
+                },
+                "encryptedRecords": {
+                  "type": "int"
+                }
+              }
+            }
+          },
+          "limitations": {
+            "type": "array",
+            "length": 6,
+            "first": {
+              "type": "str",
+              "example": "Client records include retained historical recipes. Presence does not confirm that a recipe can be learned or crafted on live Fore"
+            }
+          },
+          "hotfixesApplied": {
+            "type": "bool",
+            "example": "False"
+          },
+          "excludedMappings": {
+            "type": "object",
+            "count": 1,
+            "keys": [
+              "non-crafting-ability"
+            ],
+            "children": {
+              "non-crafting-ability": {
+                "type": "int",
+                "example": "137"
+              }
+            }
+          },
+          "itemSemantics": {
+            "type": "array",
+            "length": 6,
+            "first": {
+              "type": "str",
+              "example": "https://github.com/wowsims/forever/blob/376a6aa2886bddbd66784bfe3ba691e99abb9496/tools/database/dbc/item.go"
+            }
+          }
+        }
+      },
+      "professions": {
+        "type": "array",
+        "length": 15,
+        "first": {
+          "type": "object",
+          "count": 5,
+          "keys": [
+            "id",
+            "slug",
+            "name",
+            "iconFileDataId",
+            "description"
+          ],
+          "children": {
+            "id": {
+              "type": "int",
+              "example": "171"
+            },
+            "slug": {
+              "type": "str",
+              "example": "alchemy"
+            },
+            "name": {
+              "type": "str",
+              "example": "Alchemy"
+            },
+            "iconFileDataId": {
+              "type": "int",
+              "example": "136240"
+            },
+            "description": {
+              "type": "str",
+              "example": "Higher alchemy skill allows you to learn higher level alchemy recipes.  Alchemy recipes can be found on trainers around the world "
+            }
+          }
+        }
+      },
+      "items": {
+        "type": "array",
+        "length": 4779,
+        "first": {
+          "type": "object",
+          "count": 17,
+          "keys": [
+            "id",
+            "name",
+            "iconFileDataId",
+            "quality",
+            "dataStatus",
+            "itemLevel",
+            "requiredLevel",
+            "inventoryType",
+            "itemClass",
+            "itemSubclass",
+            "binding",
+            "stats",
+            "effects",
+            "description",
+            "statsStatus",
+            "statNotes",
+            "rawStats"
+          ],
+          "children": {
+            "id": {
+              "type": "int",
+              "example": "118"
+            },
+            "name": {
+              "type": "str",
+              "example": "Minor Healing Potion"
+            },
+            "iconFileDataId": {
+              "type": "int",
+              "example": "134829"
+            },
+            "quality": {
+              "type": "int",
+              "example": "1"
+            },
+            "dataStatus": {
+              "type": "str",
+              "example": "complete"
+            },
+            "itemLevel": {
+              "type": "int",
+              "example": "5"
+            },
+            "requiredLevel": {
+              "type": "int",
+              "example": "1"
+            },
+            "inventoryType": {
+              "type": "str",
+              "example": ""
+            }
+          }
+        }
+      }
+    }
+  }
+}

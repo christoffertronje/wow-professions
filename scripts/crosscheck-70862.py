@@ -53,7 +53,11 @@ for name,level in candidate:
     if len(records)!=1 or counts[key]!=1:continue
     matched+=1
     r=records[0]
-    if r["required"] is None:accepted[str(r["id"])]=level
+    if r["required"] is None or r.get("requirementEvidence")=="forever-70862-catalog":
+        if r["required"] is not None and r["required"]!=level:
+            conflicts.append({"name":name,"spellId":r["id"],"current":r["required"],"candidate":level})
+        else:
+            accepted[str(r["id"])]=level
     elif r["required"]!=level:conflicts.append({"name":name,"spellId":r["id"],"current":r["required"],"candidate":level})
 if len(candidate)<400 or matched<300:
     raise RuntimeError(f"Unexpected coverage: links {len(parser.links)}, extracted {len(candidate)}, unique matches {matched}. Abort.")

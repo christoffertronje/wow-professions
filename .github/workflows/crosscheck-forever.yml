@@ -1,0 +1,21 @@
+name: Cross-check Forever crafting levels
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - "scripts/crosscheck-forever.py"
+      - ".github/workflows/crosscheck-forever.yml"
+permissions:
+  contents: write
+jobs:
+  compare:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: python3 -m pip install --disable-pip-version-check beautifulsoup4
+      - run: python3 scripts/crosscheck-forever.py
+      - run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs/forever-skill-crosscheck.json
+          git diff --cached --quiet || (git commit -m "docs: cross-check Forever crafting skill requirements" && git push)

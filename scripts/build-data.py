@@ -22,10 +22,19 @@ skill_lookup=skills["skillBySpellId"] if skills else {}
 forever_crosscheck=pathlib.Path("docs/forever-skill-crosscheck.json")
 forever_rows=json.loads(forever_crosscheck.read_text(encoding="utf-8"))["matches"] if forever_crosscheck.exists() else []
 craft_skill_map={str(row["spellId"]):row["craftingSkillReference"] for row in forever_rows}
+newer_skill_path=pathlib.Path("data/forever-70862-skill-crosscheck.json")
+newer_skills=json.loads(newer_skill_path.read_text(encoding="utf-8"))["newSkillsBySpellId"] if newer_skill_path.exists() else {}
+
 for sid,craft in craft_skill_map.items():
     recorded=skill_lookup.get(sid)
     if recorded is not None and recorded != craft:
         raise RuntimeError(f"Conflict in requirements for spell {sid}: {recorded} vs {craft}")
+for sid,level in newer_skills.items():
+    if sid in craft_skill_map and craft_skill_map[sid]!=level:
+        raise RuntimeError(f"Conflict between Forever sources for {sid}: {level} vs {craft_skill_map[sid]}")
+    if skill_lookup.get(sid) is not None and skill_lookup[sid]!=level:
+        raise RuntimeError(f"Conflicting pattern-learning skill for {sid}")
+
 items={row["id"]:row for row in snapshot["items"] if isinstance(row,dict) and "id" in row}
 all_recipes=[r for r in snapshot["recipes"] if r.get("professionId")==165 or 165 in r.get("professionIds",[])]
 result=[]
@@ -45,10 +54,10 @@ for r in all_recipes:
         "name":r.get("name") or (output or {}).get("name") or "Unnamed recipe",
         "quality":quality,
         "qualityVerified":quality!="unknown",
-        "required":craft_skill_map.get(str(r["id"]),skill_lookup.get(str(r["id"]))),  # Prefer independently cross-checked Forever craft skill
+        "required":craft_skill_map.get(str(r["id"]),newer_skills.get(str(r["id"]),skill_lookup.get(str(r["id"])))),  # Preserve separate source evidence
         "clientMinimumRaw":r.get("skillRequired"),
         "learningRequirementSource":"wowforevertalent" if skill_lookup.get(str(r["id"])) is not None else None,
-        "requirementEvidence":"crosschecked-forever-crafting" if str(r["id"]) in craft_skill_map else ("recorded-pattern-learning" if skill_lookup.get(str(r["id"])) is not None else "unverified"),
+        "requirementEvidence":"crosschecked-forever-crafting" if str(r["id"]) in craft_skill_map else ("forever-70862-catalog" if str(r["id"]) in newer_skills else ("recorded-pattern-learning" if skill_lookup.get(str(r["id"])) is not None else "unverified")),
         "mats":mats,
         "matsKnown":bool(r.get("reagentsKnown")),
         "source":"Unknown",
@@ -65,5 +74,7 @@ OUTPUT.write_text(json.dumps({"meta":{"source":SOURCE_URL,"build":snapshot.get("
         "skillsKnown":sum(x["required"] is not None for x in result),
         "skillsUnknown":sum(x["required"] is None for x in result),
         "craftingCrosschecked":sum(x["requirementEvidence"]=="crosschecked-forever-crafting" for x in result),
+        "skillsRecovered70862":sum(x["requirementEvidence"]=="forever-70862-catalog" for x in result),
+        "skillsRecoveredReference":"https://wowforevertalents.com/professions/leatherworking/",
         "skillsReference":(skills or {}).get("meta",{}).get("source"),"warning":"Client data is not proof of live availability. Learning requirements from the reference may be recipe item requirements, not verified trainer unlocks."},"recipes":result},ensure_ascii=False,separators=(",",":"))+"\n",encoding="utf-8")
 print(f"Wrote {len(result)} Leatherworking recipes; missing qualities {sum(x['quality']=='unknown' for x in result)}")

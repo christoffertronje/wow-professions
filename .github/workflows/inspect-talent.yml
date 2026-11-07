@@ -3,6 +3,7 @@ on:
   push:
     paths:
       - scripts/inspect-talent.py
+      - .github/workflows/inspect-talent.yml
   workflow_dispatch:
 permissions:
   contents: write

@@ -1,0 +1,232 @@
+{
+  "meta": {
+    "method": "Exact unambiguous recipe name matched to spell ID; reported pattern-learning minimum equals Warcraft Wiki Skill value. Not in-game tested. Never use yellow threshold for trainers.",
+    "source1": "https://wowforevertalent.com/professions/leatherworking/",
+    "source2": "https://warcraft.wiki.gg/wiki/Forever_leatherworking_patterns",
+    "count": 37
+  },
+  "skillsBySpellId": {
+    "435819": {
+      "required": 200,
+      "source": "crosschecked-pattern-craft-minimum",
+      "reference": "https://warcraft.wiki.gg/wiki/Forever_leatherworking_patterns",
+      "wikiSource": "Vendor"
+    },
+    "435904": {
+      "required": 225,
+      "source": "crosschecked-pattern-craft-minimum",
+      "reference": "https://warcraft.wiki.gg/wiki/Forever_leatherworking_patterns",
+      "wikiSource": "Vendor"
+    },
+    "435949": {
+      "required": 225,
+      "source": "crosschecked-pattern-craft-minimum",
+      "reference": "https://warcraft.wiki.gg/wiki/Forever_leatherworking_patterns",
+      "wikiSource": "Vendor"
+    },
+    "435951": {
+      "required": 225,
+      "source": "crosschecked-pattern-craft-minimum",
+      "reference": "https://warcraft.wiki.gg/wiki/Forever_leatherworking_patterns",
+      "wikiSource": "Vendor"
+    },
+    "435953": {
+      "required": 225,
+      "source": "crosschecked-pattern-craft-minimum",
+      "reference": "https://warcraft.wiki.gg/wiki/Forever_leatherworking_patterns",
+      "wikiSource": "Vendor"
+    },
+    "461645": {
+      "required": 295,
+      "source": "crosschecked-pattern-craft-minimum",
+      "reference": "https://warcraft.wiki.gg/wiki/Forever_leatherworking_patterns",
+      "wikiSource": "Drop"
+    },
+    "461653": {
+      "required": 300,
+      "source": "crosschecked-pattern-craft-minimum",
+      "reference": "https://warcraft.wiki.gg/wiki/Forever_leatherworking_patterns",
+      "wikiSource": "Drop"
+    },
+    "461655": {
+      "required": 290,
+      "source": "crosschecked-pattern-craft-minimum",
+      "reference": "https://warcraft.wiki.gg/wiki/Forever_leatherworking_patterns",
+      "wikiSource": "Vendor"
+    },
+    "461657": {
+      "required": 300,
+      "source": "crosschecked-pattern-craft-minimum",
+      "reference": "https://warcraft.wiki.gg/wiki/Forever_leatherworking_patterns",
+      "wikiSource": "Drop"
+    },
+    "461659": {
+      "required": 300,
+      "source": "crosschecked-pattern-craft-minimum",
+      "reference": "https://warcraft.wiki.gg/wiki/Forever_leatherworking_patterns",
+      "wikiSource": "Drop"
+    },
+    "461661": {
+      "required": 285,
+      "source": "crosschecked-pattern-craft-minimum",
+      "reference": "https://warcraft.wiki.gg/wiki/Forever_leatherworking_patterns",
+      "wikiSource": "Drop"
+    },
+    "461663": {
+      "required": 300,
+      "source": "crosschecked-pattern-craft-minimum",
+      "reference": "https://warcraft.wiki.gg/wiki/Forever_leatherworking_patterns",
+      "wikiSource": "Drop"
+    },
+    "461665": {
+      "required": 270,
+      "source": "crosschecked-pattern-craft-minimum",
+      "reference": "https://warcraft.wiki.gg/wiki/Forever_leatherworking_patterns",
+      "wikiSource": "Drop"
+    },
+    "461673": {
+      "required": 285,
+      "source": "crosschecked-pattern-craft-minimum",
+      "reference": "https://warcraft.wiki.gg/wiki/Forever_leatherworking_patterns",
+      "wikiSource": "Vendor"
+    },
+    "461690": {
+      "required": 300,
+      "source": "crosschecked-pattern-craft-minimum",
+      "reference": "https://warcraft.wiki.gg/wiki/Forever_leatherworking_patterns",
+      "wikiSource": "Drop"
+    },
+    "461706": {
+      "required": 300,
+      "source": "crosschecked-pattern-craft-minimum",
+      "reference": "https://warcraft.wiki.gg/wiki/Forever_leatherworking_patterns",
+      "wikiSource": "Drop"
+    },
+    "461720": {
+      "required": 260,
+      "source": "crosschecked-pattern-craft-minimum",
+      "reference": "https://warcraft.wiki.gg/wiki/Forever_leatherworking_patterns",
+      "wikiSource": "Vendor"
+    },
+    "461722": {
+      "required": 290,
+      "source": "crosschecked-pattern-craft-minimum",
+      "reference": "https://warcraft.wiki.gg/wiki/Forever_leatherworking_patterns",
+      "wikiSource": "Drop"
+    },
+    "461724": {
+      "required": 300,
+      "source": "crosschecked-pattern-craft-minimum",
+      "reference": "https://warcraft.wiki.gg/wiki/Forever_leatherworking_patterns",
+      "wikiSource": "Drop"
+    },
+    "461754": {
+      "required": 300,
+      "source": "crosschecked-pattern-craft-minimum",
+      "reference": "https://warcraft.wiki.gg/wiki/Forever_leatherworking_patterns",
+      "wikiSource": "Drop"
+    },
+    "1224615": {
+      "required": 280,
+      "source": "crosschecked-pattern-craft-minimum",
+      "reference": "https://warcraft.wiki.gg/wiki/Forever_leatherworking_patterns",
+      "wikiSource": "Drop"
+    },
+    "1224616": {
+      "required": 280,
+      "source": "crosschecked-pattern-craft-minimum",
+      "reference": "https://warcraft.wiki.gg/wiki/Forever_leatherworking_patterns",
+      "wikiSource": "Drop"
+    },
+    "1224617": {
+      "required": 280,
+      "source": "crosschecked-pattern-craft-minimum",
+      "reference": "https://warcraft.wiki.gg/wiki/Forever_leatherworking_patterns",
+      "wikiSource": "Drop"
+    },
+    "1224618": {
+      "required": 250,
+      "source": "crosschecked-pattern-craft-minimum",
+      "reference": "https://warcraft.wiki.gg/wiki/Forever_leatherworking_patterns",
+      "wikiSource": "Drop"
+    },
+    "1224619": {
+      "required": 260,
+      "source": "crosschecked-pattern-craft-minimum",
+      "reference": "https://warcraft.wiki.gg/wiki/Forever_leatherworking_patterns",
+      "wikiSource": "Drop"
+    },
+    "1224620": {
+      "required": 250,
+      "source": "crosschecked-pattern-craft-minimum",
+      "reference": "https://warcraft.wiki.gg/wiki/Forever_leatherworking_patterns",
+      "wikiSource": "Drop"
+    },
+    "1224621": {
+      "required": 270,
+      "source": "crosschecked-pattern-craft-minimum",
+      "reference": "https://warcraft.wiki.gg/wiki/Forever_leatherworking_patterns",
+      "wikiSource": "Drop"
+    },
+    "1224622": {
+      "required": 260,
+      "source": "crosschecked-pattern-craft-minimum",
+      "reference": "https://warcraft.wiki.gg/wiki/Forever_leatherworking_patterns",
+      "wikiSource": "Drop"
+    },
+    "1224623": {
+      "required": 280,
+      "source": "crosschecked-pattern-craft-minimum",
+      "reference": "https://warcraft.wiki.gg/wiki/Forever_leatherworking_patterns",
+      "wikiSource": "Drop"
+    },
+    "1224624": {
+      "required": 280,
+      "source": "crosschecked-pattern-craft-minimum",
+      "reference": "https://warcraft.wiki.gg/wiki/Forever_leatherworking_patterns",
+      "wikiSource": "Drop"
+    },
+    "1224625": {
+      "required": 280,
+      "source": "crosschecked-pattern-craft-minimum",
+      "reference": "https://warcraft.wiki.gg/wiki/Forever_leatherworking_patterns",
+      "wikiSource": "Drop"
+    },
+    "1224626": {
+      "required": 250,
+      "source": "crosschecked-pattern-craft-minimum",
+      "reference": "https://warcraft.wiki.gg/wiki/Forever_leatherworking_patterns",
+      "wikiSource": "Drop"
+    },
+    "1224627": {
+      "required": 260,
+      "source": "crosschecked-pattern-craft-minimum",
+      "reference": "https://warcraft.wiki.gg/wiki/Forever_leatherworking_patterns",
+      "wikiSource": "Drop"
+    },
+    "1224628": {
+      "required": 250,
+      "source": "crosschecked-pattern-craft-minimum",
+      "reference": "https://warcraft.wiki.gg/wiki/Forever_leatherworking_patterns",
+      "wikiSource": "Drop"
+    },
+    "1224629": {
+      "required": 270,
+      "source": "crosschecked-pattern-craft-minimum",
+      "reference": "https://warcraft.wiki.gg/wiki/Forever_leatherworking_patterns",
+      "wikiSource": "Drop"
+    },
+    "1224630": {
+      "required": 260,
+      "source": "crosschecked-pattern-craft-minimum",
+      "reference": "https://warcraft.wiki.gg/wiki/Forever_leatherworking_patterns",
+      "wikiSource": "Drop"
+    },
+    "1255058": {
+      "required": 210,
+      "source": "crosschecked-pattern-craft-minimum",
+      "reference": "https://warcraft.wiki.gg/wiki/Forever_leatherworking_patterns",
+      "wikiSource": "Vendor"
+    }
+  }
+}

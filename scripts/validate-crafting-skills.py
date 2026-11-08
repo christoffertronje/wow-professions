@@ -31,9 +31,9 @@ main=[r for r in rows if r.get("category")!="SEASON OF DISCOVERY" and not r["nam
 assert len(main)==512 and all(r["craftSkillRequired"] is not None for r in main), "Main Forever recipe coverage regression"
 
 checks={"3770":110,"6661":190,"9060":25,"3780":150,"10487":200,"3766":125,"7151":150,"19047":250,"24703":300,"10548":210,
-"28474":300,"28473":300,"28472":300,"28224":300}
+"28474":300,"28473":300,"28472":300,"28224":300,"7153":160}
 byid={r["id"]:r for r in rows}
 for spell,skill in checks.items():
     assert byid[spell]["craftSkillRequired"]==skill, f"Regression of {byid[spell]['name']}"
-assert byid["7153"]["craftSkillRequired"] is None, "Guardian Cloak conflicting sources must remain unresolved"
+assert byid["7153"]["craftSkillRequired"]==160, "Guardian Cloak vetted Forever skill 160 must survive rebuild"
 print(f"PASS: {len(main)} named Forever recipes covered; {count}/{len(rows)} source-backed client records; {len(rows)-count} historical/unnamed unresolved")

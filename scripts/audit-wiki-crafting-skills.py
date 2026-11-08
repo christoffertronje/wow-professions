@@ -18,7 +18,7 @@ rows=[]
 for table in soup.select("table"):
   first=table.select_one("tr")
   headers=[x.get_text(" ",strip=True).lower() for x in first.find_all(["th","td"],recursive=False)] if first else []
-  if not (any(h.startswith("item") for h in headers) and any(h.startswith("skill") for h in headers)):continue
+  if len(table.select("tr"))<50:continue  # Four large recipe tables, identified by row count rather than sortable heading text
   for tr in table.select("tr")[1:]:
     td=tr.find_all("td",recursive=False)
     if len(td)<2:continue

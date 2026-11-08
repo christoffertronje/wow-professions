@@ -20,7 +20,7 @@ for table in soup.select("table"):
   headers=[x.get_text(" ",strip=True).lower() for x in first.find_all(["th","td"],recursive=False)] if first else []
   if len(table.select("tr"))<50:continue  # Four large recipe tables, identified by row count rather than sortable heading text
   for tr in table.select("tr")[1:]:
-    td=tr.find_all("td",recursive=False)
+    td=tr.find_all(["td","th"],recursive=False)
     if len(td)<2:continue
     name=td[0].get_text(" ",strip=True).strip("[] ")
     skill=td[1].get_text(" ",strip=True)

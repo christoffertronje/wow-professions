@@ -1,12 +1,1645 @@
 {
   "source": "https://warcraft.wiki.gg/wiki/Forever_leatherworking_patterns",
-  "wikiRows": 0,
-  "uniqueMatches": 0,
-  "newPotential": 0,
-  "disagreements": 0,
-  "duplicateOrAmbiguous": 0,
+  "wikiRows": 590,
+  "uniqueMatches": 544,
+  "newPotential": 142,
+  "disagreements": 14,
+  "duplicateOrAmbiguous": 46,
   "notMatched": 0,
-  "conflicts": [],
-  "newCandidates": [],
-  "sampleRowLinks": []
+  "conflicts": [
+    {
+      "id": "2152",
+      "name": "Light Armor Kit",
+      "skill": 30,
+      "ourSkill": 1,
+      "category": "Armor Kits",
+      "links": [
+        "/wiki/Light_Armor_Kit"
+      ]
+    },
+    {
+      "id": "2149",
+      "name": "Handstitched Leather Boots",
+      "skill": 40,
+      "ourSkill": 1,
+      "category": "Leather Boots",
+      "links": [
+        "/wiki/Handstitched_Leather_Boots"
+      ]
+    },
+    {
+      "id": "9059",
+      "name": "Handstitched Leather Bracers",
+      "skill": 40,
+      "ourSkill": 1,
+      "category": "Leather Bracers",
+      "links": [
+        "/wiki/Handstitched_Leather_Bracers"
+      ]
+    },
+    {
+      "id": "9058",
+      "name": "Handstitched Leather Cloak",
+      "skill": 40,
+      "ourSkill": 1,
+      "category": "Cloaks",
+      "links": [
+        "/wiki/Handstitched_Leather_Cloak"
+      ]
+    },
+    {
+      "id": "7126",
+      "name": "Handstitched Leather Vest",
+      "skill": 40,
+      "ourSkill": 1,
+      "category": "Leather Chestguards",
+      "links": [
+        "/wiki/Handstitched_Leather_Vest"
+      ]
+    },
+    {
+      "id": "23190",
+      "name": "Heavy Leather Ball",
+      "skill": 150,
+      "ourSkill": 125,
+      "category": "Miscellaneous",
+      "links": [
+        "/wiki/Heavy_Leather_Ball"
+      ]
+    },
+    {
+      "id": "16650",
+      "name": "Wildthorn Mail",
+      "skill": 270,
+      "ourSkill": 245,
+      "category": "Mail Chestguards",
+      "links": [
+        "/wiki/Wildthorn_Mail"
+      ]
+    },
+    {
+      "id": "23628",
+      "name": "Heavy Timbermaw Belt",
+      "skill": 290,
+      "ourSkill": 265,
+      "category": "Mail Belts",
+      "links": [
+        "/wiki/Heavy_Timbermaw_Belt"
+      ]
+    },
+    {
+      "id": "16661",
+      "name": "Storm Gauntlets",
+      "skill": 295,
+      "ourSkill": 270,
+      "category": "Mail Gauntlets",
+      "links": [
+        "/wiki/Storm_Gauntlets"
+      ]
+    },
+    {
+      "id": "16728",
+      "name": "Helm of the Great Chief",
+      "skill": 300,
+      "ourSkill": 290,
+      "category": "Mail Helmets",
+      "links": [
+        "/wiki/Helm_of_the_Great_Chief"
+      ]
+    },
+    {
+      "id": "16746",
+      "name": "Invulnerable Mail",
+      "skill": 300,
+      "ourSkill": 295,
+      "category": "Mail Chestguards",
+      "links": [
+        "/wiki/Invulnerable_Mail"
+      ]
+    },
+    {
+      "id": "23629",
+      "name": "Heavy Timbermaw Boots",
+      "skill": 300,
+      "ourSkill": 295,
+      "category": "Mail Boots",
+      "links": [
+        "/wiki/Heavy_Timbermaw_Boots"
+      ]
+    },
+    {
+      "id": "23706",
+      "name": "Golden Mantle of the Dawn",
+      "skill": 300,
+      "ourSkill": 295,
+      "category": "Leather Pauldrons",
+      "links": [
+        "/wiki/Golden_Mantle_of_the_Dawn"
+      ]
+    },
+    {
+      "id": "19093",
+      "name": "Onyxia Scale Cloak",
+      "skill": 320,
+      "ourSkill": 300,
+      "category": "Cloaks",
+      "links": [
+        "/wiki/Onyxia_Scale_Cloak"
+      ]
+    }
+  ],
+  "newCandidates": [
+    {
+      "id": "2153",
+      "name": "Handstitched Leather Pants",
+      "skill": 15,
+      "ourSkill": null,
+      "category": "Leather Legguards",
+      "links": [
+        "/wiki/Handstitched_Leather_Pants"
+      ]
+    },
+    {
+      "id": "3753",
+      "name": "Handstitched Leather Belt",
+      "skill": 25,
+      "ourSkill": null,
+      "category": "Leather Belts",
+      "links": [
+        "/wiki/Handstitched_Leather_Belt"
+      ]
+    },
+    {
+      "id": "9060",
+      "name": "Light Leather Quiver",
+      "skill": 25,
+      "ourSkill": null,
+      "category": "Quivers",
+      "links": [
+        "/wiki/Light_Leather_Quiver"
+      ]
+    },
+    {
+      "id": "9062",
+      "name": "Small Leather Ammo Pouch",
+      "skill": 25,
+      "ourSkill": null,
+      "category": "Ammo Pouches",
+      "links": [
+        "/wiki/Small_Leather_Ammo_Pouch"
+      ]
+    },
+    {
+      "id": "3816",
+      "name": "Cured Light Hide",
+      "skill": 30,
+      "ourSkill": null,
+      "category": "Reagents",
+      "links": [
+        "/wiki/Cured_Light_Hide"
+      ]
+    },
+    {
+      "id": "2160",
+      "name": "Embossed Leather Vest",
+      "skill": 35,
+      "ourSkill": null,
+      "category": "Leather Chestguards",
+      "links": [
+        "/wiki/Embossed_Leather_Vest"
+      ]
+    },
+    {
+      "id": "2162",
+      "name": "Embossed Leather Cloak",
+      "skill": 40,
+      "ourSkill": null,
+      "category": "Cloaks",
+      "links": [
+        "/wiki/Embossed_Leather_Cloak"
+      ]
+    },
+    {
+      "id": "3756",
+      "name": "Embossed Leather Gloves",
+      "skill": 40,
+      "ourSkill": null,
+      "category": "Leather Gauntlets",
+      "links": [
+        "/wiki/Embossed_Leather_Gloves"
+      ]
+    },
+    {
+      "id": "9065",
+      "name": "Light Leather Bracers",
+      "skill": 45,
+      "ourSkill": null,
+      "category": "Leather Bracers",
+      "links": [
+        "/wiki/Light_Leather_Bracers"
+      ]
+    },
+    {
+      "id": "2159",
+      "name": "Fine Leather Cloak",
+      "skill": 50,
+      "ourSkill": null,
+      "category": "Cloaks",
+      "links": [
+        "/wiki/Fine_Leather_Cloak"
+      ]
+    },
+    {
+      "id": "2161",
+      "name": "Embossed Leather Boots",
+      "skill": 50,
+      "ourSkill": null,
+      "category": "Leather Boots",
+      "links": [
+        "/wiki/Embossed_Leather_Boots"
+      ]
+    },
+    {
+      "id": "3759",
+      "name": "Embossed Leather Pants",
+      "skill": 50,
+      "ourSkill": null,
+      "category": "Leather Legguards",
+      "links": [
+        "/wiki/Embossed_Leather_Pants"
+      ]
+    },
+    {
+      "id": "3763",
+      "name": "Fine Leather Belt",
+      "skill": 55,
+      "ourSkill": null,
+      "category": "Leather Belts",
+      "links": [
+        "/wiki/Fine_Leather_Belt"
+      ]
+    },
+    {
+      "id": "3761",
+      "name": "Fine Leather Tunic",
+      "skill": 60,
+      "ourSkill": null,
+      "category": "Leather Chestguards",
+      "links": [
+        "/wiki/Fine_Leather_Tunic"
+      ]
+    },
+    {
+      "id": "9068",
+      "name": "Light Leather Pants",
+      "skill": 70,
+      "ourSkill": null,
+      "category": "Leather Legguards",
+      "links": [
+        "/wiki/Light_Leather_Pants"
+      ]
+    },
+    {
+      "id": "20648",
+      "name": "Medium Leather",
+      "skill": 75,
+      "ourSkill": null,
+      "category": "Reagents",
+      "links": [
+        "/wiki/Medium_Leather"
+      ]
+    },
+    {
+      "id": "3817",
+      "name": "Cured Medium Hide",
+      "skill": 75,
+      "ourSkill": null,
+      "category": "Reagents",
+      "links": [
+        "/wiki/Cured_Medium_Hide"
+      ]
+    },
+    {
+      "id": "2165",
+      "name": "Medium Armor Kit",
+      "skill": 75,
+      "ourSkill": null,
+      "category": "Armor Kits",
+      "links": [
+        "/wiki/Medium_Armor_Kit"
+      ]
+    },
+    {
+      "id": "2167",
+      "name": "Gray Leather Boots",
+      "skill": 75,
+      "ourSkill": null,
+      "category": "Leather Boots",
+      "links": [
+        "/wiki/Gray_Leather_Boots?action=edit&redlink=1"
+      ]
+    },
+    {
+      "id": "1255136",
+      "name": "Brawler's Leather Armor",
+      "skill": 80,
+      "ourSkill": null,
+      "category": "Leather Chestguards",
+      "links": [
+        "/wiki/Brawler%27s_Leather_Armor?action=edit&redlink=1"
+      ]
+    },
+    {
+      "id": "1255134",
+      "name": "Defender's Leather Armor",
+      "skill": 80,
+      "ourSkill": null,
+      "category": "Leather Chestguards",
+      "links": [
+        "/wiki/Defender%27s_Leather_Armor?action=edit&redlink=1"
+      ]
+    },
+    {
+      "id": "1255132",
+      "name": "Stormrider's Leather Armor",
+      "skill": 80,
+      "ourSkill": null,
+      "category": "Leather Chestguards",
+      "links": [
+        "/wiki/Stormrider%27s_Leather_Armor?action=edit&redlink=1"
+      ]
+    },
+    {
+      "id": "1255133",
+      "name": "Totemic Leather Armor",
+      "skill": 80,
+      "ourSkill": null,
+      "category": "Leather Chestguards",
+      "links": [
+        "/wiki/Totemic_Leather_Armor?action=edit&redlink=1"
+      ]
+    },
+    {
+      "id": "1255135",
+      "name": "Trapper's Leather Armor",
+      "skill": 80,
+      "ourSkill": null,
+      "category": "Leather Chestguards",
+      "links": [
+        "/wiki/Trapper%27s_Leather_Armor?action=edit&redlink=1"
+      ]
+    },
+    {
+      "id": "1255131",
+      "name": "Wisdom's Leather Armor",
+      "skill": 80,
+      "ourSkill": null,
+      "category": "Leather Chestguards",
+      "links": [
+        "/wiki/Wisdom%27s_Leather_Armor?action=edit&redlink=1"
+      ]
+    },
+    {
+      "id": "2168",
+      "name": "Dark Leather Cloak",
+      "skill": 85,
+      "ourSkill": null,
+      "category": "Cloaks",
+      "links": [
+        "/wiki/Dark_Leather_Cloak"
+      ]
+    },
+    {
+      "id": "7135",
+      "name": "Dark Leather Pants",
+      "skill": 90,
+      "ourSkill": null,
+      "category": "Leather Legguards",
+      "links": [
+        "/wiki/Dark_Leather_Pants"
+      ]
+    },
+    {
+      "id": "9074",
+      "name": "Nimble Leather Gloves",
+      "skill": 95,
+      "ourSkill": null,
+      "category": "Leather Gauntlets",
+      "links": [
+        "/wiki/Nimble_Leather_Gloves"
+      ]
+    },
+    {
+      "id": "2166",
+      "name": "Toughened Leather Armor",
+      "skill": 95,
+      "ourSkill": null,
+      "category": "Leather Chestguards",
+      "links": [
+        "/wiki/Toughened_Leather_Armor"
+      ]
+    },
+    {
+      "id": "3766",
+      "name": "Dark Leather Belt",
+      "skill": 100,
+      "ourSkill": null,
+      "category": "Leather Belts",
+      "links": [
+        "/wiki/Dark_Leather_Belt"
+      ]
+    },
+    {
+      "id": "9145",
+      "name": "Fletcher's Gloves",
+      "skill": 100,
+      "ourSkill": null,
+      "category": "Leather Gauntlets",
+      "links": [
+        "/wiki/Fletcher%27s_Gloves"
+      ]
+    },
+    {
+      "id": "1255115",
+      "name": "Brawler's Leather Pants",
+      "skill": 105,
+      "ourSkill": null,
+      "category": "Leather Legguards",
+      "links": [
+        "/wiki/Brawler%27s_Leather_Pants?action=edit&redlink=1"
+      ]
+    },
+    {
+      "id": "1255113",
+      "name": "Defender's Leather Pants",
+      "skill": 105,
+      "ourSkill": null,
+      "category": "Leather Legguards",
+      "links": [
+        "/wiki/Defender%27s_Leather_Pants?action=edit&redlink=1"
+      ]
+    },
+    {
+      "id": "1255111",
+      "name": "Stormrider's Leather Pants",
+      "skill": 105,
+      "ourSkill": null,
+      "category": "Leather Legguards",
+      "links": [
+        "/wiki/Stormrider%27s_Leather_Pants?action=edit&redlink=1"
+      ]
+    },
+    {
+      "id": "1255112",
+      "name": "Totemic Leather Pants",
+      "skill": 105,
+      "ourSkill": null,
+      "category": "Leather Legguards",
+      "links": [
+        "/wiki/Totemic_Leather_Pants?action=edit&redlink=1"
+      ]
+    },
+    {
+      "id": "1255114",
+      "name": "Trapper's Leather Pants",
+      "skill": 105,
+      "ourSkill": null,
+      "category": "Leather Legguards",
+      "links": [
+        "/wiki/Trapper%27s_Leather_Pants?action=edit&redlink=1"
+      ]
+    },
+    {
+      "id": "1255110",
+      "name": "Wisdom's Leather Pants",
+      "skill": 105,
+      "ourSkill": null,
+      "category": "Leather Legguards",
+      "links": [
+        "/wiki/Wisdom%27s_Leather_Pants?action=edit&redlink=1"
+      ]
+    },
+    {
+      "id": "3768",
+      "name": "Hillman's Shoulders",
+      "skill": 105,
+      "ourSkill": null,
+      "category": "Leather Pauldrons",
+      "links": [
+        "/wiki/Hillman%27s_Shoulders"
+      ]
+    },
+    {
+      "id": "3764",
+      "name": "Hillman's Leather Gloves",
+      "skill": 120,
+      "ourSkill": null,
+      "category": "Leather Gauntlets",
+      "links": [
+        "/wiki/Hillman%27s_Leather_Gloves"
+      ]
+    },
+    {
+      "id": "20649",
+      "name": "Heavy Leather",
+      "skill": 125,
+      "ourSkill": null,
+      "category": "Reagents",
+      "links": [
+        "/wiki/Heavy_Leather"
+      ]
+    },
+    {
+      "id": "3818",
+      "name": "Cured Heavy Hide",
+      "skill": 125,
+      "ourSkill": null,
+      "category": "Reagents",
+      "links": [
+        "/wiki/Cured_Heavy_Hide"
+      ]
+    },
+    {
+      "id": "3780",
+      "name": "Heavy Armor Kit",
+      "skill": 125,
+      "ourSkill": null,
+      "category": "Armor Kits",
+      "links": [
+        "/wiki/Heavy_Armor_Kit"
+      ]
+    },
+    {
+      "id": "9194",
+      "name": "Heavy Leather Ammo Pouch",
+      "skill": 125,
+      "ourSkill": null,
+      "category": "Ammo Pouches",
+      "links": [
+        "/wiki/Heavy_Leather_Ammo_Pouch"
+      ]
+    },
+    {
+      "id": "9193",
+      "name": "Heavy Quiver",
+      "skill": 125,
+      "ourSkill": null,
+      "category": "Quivers",
+      "links": [
+        "/wiki/Heavy_Quiver"
+      ]
+    },
+    {
+      "id": "3760",
+      "name": "Hillman's Cloak",
+      "skill": 125,
+      "ourSkill": null,
+      "category": "Cloaks",
+      "links": [
+        "/wiki/Hillman%27s_Cloak"
+      ]
+    },
+    {
+      "id": "1255093",
+      "name": "Brawler's Leather Helm",
+      "skill": 130,
+      "ourSkill": null,
+      "category": "Leather Helmets",
+      "links": [
+        "/wiki/Brawler%27s_Leather_Helm?action=edit&redlink=1"
+      ]
+    },
+    {
+      "id": "1255091",
+      "name": "Defender's Leather Helm",
+      "skill": 130,
+      "ourSkill": null,
+      "category": "Leather Helmets",
+      "links": [
+        "/wiki/Defender%27s_Leather_Helm?action=edit&redlink=1"
+      ]
+    },
+    {
+      "id": "1255089",
+      "name": "Stormrider's Leather Helm",
+      "skill": 130,
+      "ourSkill": null,
+      "category": "Leather Helmets",
+      "links": [
+        "/wiki/Stormrider%27s_Leather_Helm?action=edit&redlink=1"
+      ]
+    },
+    {
+      "id": "1255090",
+      "name": "Totemic Leather Helm",
+      "skill": 130,
+      "ourSkill": null,
+      "category": "Leather Helmets",
+      "links": [
+        "/wiki/Totemic_Leather_Helm?action=edit&redlink=1"
+      ]
+    },
+    {
+      "id": "1255092",
+      "name": "Trapper's Leather Helm",
+      "skill": 130,
+      "ourSkill": null,
+      "category": "Leather Helmets",
+      "links": [
+        "/wiki/Trapper%27s_Leather_Helm?action=edit&redlink=1"
+      ]
+    },
+    {
+      "id": "1255088",
+      "name": "Wisdom's Leather Helm",
+      "skill": 130,
+      "ourSkill": null,
+      "category": "Leather Helmets",
+      "links": [
+        "/wiki/Wisdom%27s_Leather_Helm?action=edit&redlink=1"
+      ]
+    },
+    {
+      "id": "3774",
+      "name": "Green Leather Belt",
+      "skill": 135,
+      "ourSkill": null,
+      "category": "Leather Belts",
+      "links": [
+        "/wiki/Green_Leather_Belt"
+      ]
+    },
+    {
+      "id": "7151",
+      "name": "Barbaric Shoulders",
+      "skill": 150,
+      "ourSkill": null,
+      "category": "Leather Pauldrons",
+      "links": [
+        "/wiki/Barbaric_Shoulders"
+      ]
+    },
+    {
+      "id": "9196",
+      "name": "Dusky Leather Armor",
+      "skill": 150,
+      "ourSkill": null,
+      "category": "Leather Chestguards",
+      "links": [
+        "/wiki/Dusky_Leather_Armor"
+      ]
+    },
+    {
+      "id": "9198",
+      "name": "Frost Leather Cloak",
+      "skill": 155,
+      "ourSkill": null,
+      "category": "Cloaks",
+      "links": [
+        "/wiki/Frost_Leather_Cloak"
+      ]
+    },
+    {
+      "id": "3776",
+      "name": "Green Leather Bracers",
+      "skill": 155,
+      "ourSkill": null,
+      "category": "Leather Bracers",
+      "links": [
+        "/wiki/Green_Leather_Bracers"
+      ]
+    },
+    {
+      "id": "429869",
+      "name": "Void-Touched Leather Gauntlets",
+      "skill": 160,
+      "ourSkill": null,
+      "category": "SEASON OF DISCOVERY",
+      "links": [
+        "/wiki/Void-Touched_Leather_Gauntlets"
+      ]
+    },
+    {
+      "id": "429354",
+      "name": "Void-Touched Leather Gloves",
+      "skill": 160,
+      "ourSkill": null,
+      "category": "SEASON OF DISCOVERY",
+      "links": [
+        "/wiki/Void-Touched_Leather_Gloves"
+      ]
+    },
+    {
+      "id": "9201",
+      "name": "Dusky Bracers",
+      "skill": 160,
+      "ourSkill": null,
+      "category": "Leather Bracers",
+      "links": [
+        "/wiki/Dusky_Bracers"
+      ]
+    },
+    {
+      "id": "7153",
+      "name": "Guardian Cloak",
+      "skill": 160,
+      "ourSkill": null,
+      "category": "Cloaks",
+      "links": [
+        "/wiki/Guardian_Cloak"
+      ]
+    },
+    {
+      "id": "6661",
+      "name": "Barbaric Harness",
+      "skill": 165,
+      "ourSkill": null,
+      "category": "Leather Chestguards",
+      "links": [
+        "/wiki/Barbaric_Harness"
+      ]
+    },
+    {
+      "id": "7156",
+      "name": "Guardian Gloves",
+      "skill": 165,
+      "ourSkill": null,
+      "category": "Leather Gauntlets",
+      "links": [
+        "/wiki/Guardian_Gloves"
+      ]
+    },
+    {
+      "id": "9206",
+      "name": "Dusky Belt",
+      "skill": 170,
+      "ourSkill": null,
+      "category": "Leather Belts",
+      "links": [
+        "/wiki/Dusky_Belt"
+      ]
+    },
+    {
+      "id": "10482",
+      "name": "Cured Thick Hide",
+      "skill": 175,
+      "ourSkill": null,
+      "category": "Reagents",
+      "links": [
+        "/wiki/Cured_Thick_Hide"
+      ]
+    },
+    {
+      "id": "20650",
+      "name": "Thick Leather",
+      "skill": 175,
+      "ourSkill": null,
+      "category": "Reagents",
+      "links": [
+        "/wiki/Thick_Leather"
+      ]
+    },
+    {
+      "id": "10487",
+      "name": "Thick Armor Kit",
+      "skill": 175,
+      "ourSkill": null,
+      "category": "Armor Kits",
+      "links": [
+        "/wiki/Thick_Armor_Kit"
+      ]
+    },
+    {
+      "id": "10507",
+      "name": "Nightscape Headband",
+      "skill": 180,
+      "ourSkill": null,
+      "category": "Leather Helmets",
+      "links": [
+        "/wiki/Nightscape_Headband"
+      ]
+    },
+    {
+      "id": "10499",
+      "name": "Nightscape Tunic",
+      "skill": 180,
+      "ourSkill": null,
+      "category": "Leather Chestguards",
+      "links": [
+        "/wiki/Nightscape_Tunic"
+      ]
+    },
+    {
+      "id": "10518",
+      "name": "Turtle Scale Bracers",
+      "skill": 185,
+      "ourSkill": null,
+      "category": "Mail Bracers",
+      "links": [
+        "/wiki/Turtle_Scale_Bracers"
+      ]
+    },
+    {
+      "id": "435819",
+      "name": "Faintly Glowing Leather",
+      "skill": 200,
+      "ourSkill": null,
+      "category": "SEASON OF DISCOVERY",
+      "links": [
+        "/wiki/Faintly_Glowing_Leather"
+      ]
+    },
+    {
+      "id": "14930",
+      "name": "Quickdraw Quiver",
+      "skill": 200,
+      "ourSkill": null,
+      "category": "Quivers",
+      "links": [
+        "/wiki/Quickdraw_Quiver"
+      ]
+    },
+    {
+      "id": "14932",
+      "name": "Thick Leather Ammo Pouch",
+      "skill": 200,
+      "ourSkill": null,
+      "category": "Ammo Pouches",
+      "links": [
+        "/wiki/Thick_Leather_Ammo_Pouch"
+      ]
+    },
+    {
+      "id": "10548",
+      "name": "Nightscape Pants",
+      "skill": 205,
+      "ourSkill": null,
+      "category": "Leather Legguards",
+      "links": [
+        "/wiki/Nightscape_Pants"
+      ]
+    },
+    {
+      "id": "10552",
+      "name": "Turtle Scale Helm",
+      "skill": 205,
+      "ourSkill": null,
+      "category": "Mail Helmets",
+      "links": [
+        "/wiki/Turtle_Scale_Helm"
+      ]
+    },
+    {
+      "id": "10558",
+      "name": "Nightscape Boots",
+      "skill": 210,
+      "ourSkill": null,
+      "category": "Leather Boots",
+      "links": [
+        "/wiki/Nightscape_Boots"
+      ]
+    },
+    {
+      "id": "1255058",
+      "name": "Skulker's Leather Shoulders",
+      "skill": 210,
+      "ourSkill": null,
+      "category": "Leather Pauldrons",
+      "links": [
+        "/wiki/Skulker%27s_Leather_Shoulders?action=edit&redlink=1"
+      ]
+    },
+    {
+      "id": "10556",
+      "name": "Turtle Scale Leggings",
+      "skill": 210,
+      "ourSkill": null,
+      "category": "Mail Legguards",
+      "links": [
+        "/wiki/Turtle_Scale_Leggings"
+      ]
+    },
+    {
+      "id": "10619",
+      "name": "Dragonscale Gauntlets",
+      "skill": 225,
+      "ourSkill": null,
+      "category": "Mail Gauntlets",
+      "links": [
+        "/wiki/Dragonscale_Gauntlets"
+      ]
+    },
+    {
+      "id": "10621",
+      "name": "Wolfshead Helm",
+      "skill": 225,
+      "ourSkill": null,
+      "category": "Leather Helmets",
+      "links": [
+        "/wiki/Wolfshead_Helm"
+      ]
+    },
+    {
+      "id": "22331",
+      "name": "Rugged Leather",
+      "skill": 225,
+      "ourSkill": null,
+      "category": "Reagents",
+      "links": [
+        "/wiki/Rugged_Leather"
+      ]
+    },
+    {
+      "id": "19047",
+      "name": "Cured Rugged Hide",
+      "skill": 225,
+      "ourSkill": null,
+      "category": "Reagents",
+      "links": [
+        "/wiki/Cured_Rugged_Hide"
+      ]
+    },
+    {
+      "id": "435904",
+      "name": "Glowing Gneuro-Linked Cowl",
+      "skill": 225,
+      "ourSkill": null,
+      "category": "SEASON OF DISCOVERY",
+      "links": [
+        "/wiki/Glowing_Gneuro-Linked_Cowl"
+      ]
+    },
+    {
+      "id": "435949",
+      "name": "Glowing Hyperconductive Scale Coif",
+      "skill": 225,
+      "ourSkill": null,
+      "category": "SEASON OF DISCOVERY",
+      "links": [
+        "/wiki/Glowing_Hyperconductive_Scale_Coif"
+      ]
+    },
+    {
+      "id": "435951",
+      "name": "Gneuro-Conductive Channeler's Hood",
+      "skill": 225,
+      "ourSkill": null,
+      "category": "SEASON OF DISCOVERY",
+      "links": [
+        "/wiki/Gneuro-Conductive_Channeler%27s_Hood"
+      ]
+    },
+    {
+      "id": "435953",
+      "name": "Rad-Resistant Scale Hood",
+      "skill": 225,
+      "ourSkill": null,
+      "category": "SEASON OF DISCOVERY",
+      "links": [
+        "/wiki/Rad-Resistant_Scale_Hood"
+      ]
+    },
+    {
+      "id": "19058",
+      "name": "Rugged Armor Kit",
+      "skill": 225,
+      "ourSkill": null,
+      "category": "Armor Kits",
+      "links": [
+        "/wiki/Rugged_Armor_Kit"
+      ]
+    },
+    {
+      "id": "10630",
+      "name": "Gauntlets of the Sea",
+      "skill": 230,
+      "ourSkill": null,
+      "category": "Leather Gauntlets",
+      "links": [
+        "/wiki/Gauntlets_of_the_Sea"
+      ]
+    },
+    {
+      "id": "446186",
+      "name": "Cacophonous Chain Shoulderguards",
+      "skill": 250,
+      "ourSkill": null,
+      "category": "SEASON OF DISCOVERY",
+      "links": [
+        "/wiki/Cacophonous_Chain_Shoulderguards"
+      ]
+    },
+    {
+      "id": "446192",
+      "name": "Membrane of Dark Neurosis",
+      "skill": 250,
+      "ourSkill": null,
+      "category": "SEASON OF DISCOVERY",
+      "links": [
+        "/wiki/Membrane_of_Dark_Neurosis"
+      ]
+    },
+    {
+      "id": "446183",
+      "name": "Paranoia Mantle",
+      "skill": 250,
+      "ourSkill": null,
+      "category": "SEASON OF DISCOVERY",
+      "links": [
+        "/wiki/Paranoia_Mantle"
+      ]
+    },
+    {
+      "id": "451706",
+      "name": "Screaming Chain Pauldrons",
+      "skill": 250,
+      "ourSkill": null,
+      "category": "SEASON OF DISCOVERY",
+      "links": [
+        "/wiki/Screaming_Chain_Pauldrons"
+      ]
+    },
+    {
+      "id": "446189",
+      "name": "Shoulderpads of Obsession",
+      "skill": 250,
+      "ourSkill": null,
+      "category": "SEASON OF DISCOVERY",
+      "links": [
+        "/wiki/Shoulderpads_of_Obsession"
+      ]
+    },
+    {
+      "id": "446185",
+      "name": "Shrieking Spaulders",
+      "skill": 250,
+      "ourSkill": null,
+      "category": "SEASON OF DISCOVERY",
+      "links": [
+        "/wiki/Shrieking_Spaulders"
+      ]
+    },
+    {
+      "id": "446190",
+      "name": "Wailing Chain Mantle",
+      "skill": 250,
+      "ourSkill": null,
+      "category": "SEASON OF DISCOVERY",
+      "links": [
+        "/wiki/Wailing_Chain_Mantle"
+      ]
+    },
+    {
+      "id": "10647",
+      "name": "Feathered Breastplate",
+      "skill": 250,
+      "ourSkill": null,
+      "category": "Leather Chestguards",
+      "links": [
+        "/wiki/Feathered_Breastplate"
+      ]
+    },
+    {
+      "id": "10632",
+      "name": "Helm of Fire",
+      "skill": 250,
+      "ourSkill": null,
+      "category": "Leather Helmets",
+      "links": [
+        "/wiki/Helm_of_Fire"
+      ]
+    },
+    {
+      "id": "1224628",
+      "name": "Scarlet Huntsman's Clasp",
+      "skill": 250,
+      "ourSkill": null,
+      "category": "SEASON OF DISCOVERY",
+      "links": [
+        "/wiki/Scarlet_Huntsman%27s_Clasp"
+      ]
+    },
+    {
+      "id": "1224626",
+      "name": "Scarlet Huntsman's Wristguards",
+      "skill": 250,
+      "ourSkill": null,
+      "category": "SEASON OF DISCOVERY",
+      "links": [
+        "/wiki/Scarlet_Huntsman%27s_Wristguards"
+      ]
+    },
+    {
+      "id": "1224620",
+      "name": "Scarlet Infiltrator's Belt",
+      "skill": 250,
+      "ourSkill": null,
+      "category": "SEASON OF DISCOVERY",
+      "links": [
+        "/wiki/Scarlet_Infiltrator%27s_Belt"
+      ]
+    },
+    {
+      "id": "1224618",
+      "name": "Scarlet Infiltrator's Bracers",
+      "skill": 250,
+      "ourSkill": null,
+      "category": "SEASON OF DISCOVERY",
+      "links": [
+        "/wiki/Scarlet_Infiltrator%27s_Bracers"
+      ]
+    },
+    {
+      "id": "10650",
+      "name": "Dragonscale Breastplate",
+      "skill": 255,
+      "ourSkill": null,
+      "category": "Mail Chestguards",
+      "links": [
+        "/wiki/Dragonscale_Breastplate"
+      ]
+    },
+    {
+      "id": "1224630",
+      "name": "Scarlet Huntsman's Boots",
+      "skill": 260,
+      "ourSkill": null,
+      "category": "SEASON OF DISCOVERY",
+      "links": [
+        "/wiki/Scarlet_Huntsman%27s_Boots"
+      ]
+    },
+    {
+      "id": "1224627",
+      "name": "Scarlet Huntsman's Handguards",
+      "skill": 260,
+      "ourSkill": null,
+      "category": "SEASON OF DISCOVERY",
+      "links": [
+        "/wiki/Scarlet_Huntsman%27s_Handguards"
+      ]
+    },
+    {
+      "id": "1224619",
+      "name": "Scarlet Infiltrator's Gloves",
+      "skill": 260,
+      "ourSkill": null,
+      "category": "SEASON OF DISCOVERY",
+      "links": [
+        "/wiki/Scarlet_Infiltrator%27s_Gloves"
+      ]
+    },
+    {
+      "id": "1224622",
+      "name": "Scarlet Infiltrator's Shoes",
+      "skill": 260,
+      "ourSkill": null,
+      "category": "SEASON OF DISCOVERY",
+      "links": [
+        "/wiki/Scarlet_Infiltrator%27s_Shoes"
+      ]
+    },
+    {
+      "id": "461720",
+      "name": "Living Green Dragonscale Breastplate",
+      "skill": 260,
+      "ourSkill": null,
+      "category": "SEASON OF DISCOVERY",
+      "links": [
+        "/wiki/Living_Green_Dragonscale_Breastplate"
+      ]
+    },
+    {
+      "id": "1224629",
+      "name": "Scarlet Huntsman's Legguards",
+      "skill": 270,
+      "ourSkill": null,
+      "category": "SEASON OF DISCOVERY",
+      "links": [
+        "/wiki/Scarlet_Huntsman%27s_Legguards"
+      ]
+    },
+    {
+      "id": "1224621",
+      "name": "Scarlet Infiltrator's Trousers",
+      "skill": 270,
+      "ourSkill": null,
+      "category": "SEASON OF DISCOVERY",
+      "links": [
+        "/wiki/Scarlet_Infiltrator%27s_Trousers"
+      ]
+    },
+    {
+      "id": "461649",
+      "name": "Living Green Dragonscale Leggings",
+      "skill": 270,
+      "ourSkill": null,
+      "category": "SEASON OF DISCOVERY",
+      "links": [
+        "/wiki/Living_Green_Dragonscale_Leggings"
+      ]
+    },
+    {
+      "id": "461665",
+      "name": "Masterwork Volcanic Leggings",
+      "skill": 270,
+      "ourSkill": null,
+      "category": "SEASON OF DISCOVERY",
+      "links": [
+        "/wiki/Masterwork_Volcanic_Leggings"
+      ]
+    },
+    {
+      "id": "461677",
+      "name": "Living Green Dragonscale Gauntlets",
+      "skill": 270,
+      "ourSkill": null,
+      "category": "SEASON OF DISCOVERY",
+      "links": [
+        "/wiki/Living_Green_Dragonscale_Gauntlets"
+      ]
+    },
+    {
+      "id": "1226690",
+      "name": "Scarlet Ammo Pouch",
+      "skill": 275,
+      "ourSkill": null,
+      "category": "SEASON OF DISCOVERY",
+      "links": [
+        "/wiki/Scarlet_Ammo_Pouch?action=edit&redlink=1"
+      ]
+    },
+    {
+      "id": "1226689",
+      "name": "Scarlet Quiver",
+      "skill": 275,
+      "ourSkill": null,
+      "category": "SEASON OF DISCOVERY",
+      "links": [
+        "/wiki/Scarlet_Quiver?action=edit&redlink=1"
+      ]
+    },
+    {
+      "id": "24655",
+      "name": "Green Dragonscale Gauntlets",
+      "skill": 280,
+      "ourSkill": null,
+      "category": "Mail Gauntlets",
+      "links": [
+        "/wiki/Green_Dragonscale_Gauntlets"
+      ]
+    },
+    {
+      "id": "1224625",
+      "name": "Scarlet Huntsman's Chain",
+      "skill": 280,
+      "ourSkill": null,
+      "category": "SEASON OF DISCOVERY",
+      "links": [
+        "/wiki/Scarlet_Huntsman%27s_Chain"
+      ]
+    },
+    {
+      "id": "1224623",
+      "name": "Scarlet Huntsman's Coif",
+      "skill": 280,
+      "ourSkill": null,
+      "category": "SEASON OF DISCOVERY",
+      "links": [
+        "/wiki/Scarlet_Huntsman%27s_Coif"
+      ]
+    },
+    {
+      "id": "1224624",
+      "name": "Scarlet Huntsman's Pauldrons",
+      "skill": 280,
+      "ourSkill": null,
+      "category": "SEASON OF DISCOVERY",
+      "links": [
+        "/wiki/Scarlet_Huntsman%27s_Pauldrons"
+      ]
+    },
+    {
+      "id": "1224615",
+      "name": "Scarlet Infiltrator's Bandana",
+      "skill": 280,
+      "ourSkill": null,
+      "category": "SEASON OF DISCOVERY",
+      "links": [
+        "/wiki/Scarlet_Infiltrator%27s_Bandana"
+      ]
+    },
+    {
+      "id": "1224616",
+      "name": "Scarlet Infiltrator's Shoulderpads",
+      "skill": 280,
+      "ourSkill": null,
+      "category": "SEASON OF DISCOVERY",
+      "links": [
+        "/wiki/Scarlet_Infiltrator%27s_Shoulderpads"
+      ]
+    },
+    {
+      "id": "1224617",
+      "name": "Scarlet Infiltrator's Vest",
+      "skill": 280,
+      "ourSkill": null,
+      "category": "SEASON OF DISCOVERY",
+      "links": [
+        "/wiki/Scarlet_Infiltrator%27s_Vest"
+      ]
+    },
+    {
+      "id": "461692",
+      "name": "Synthetic Gordok Ogre Suit",
+      "skill": 285,
+      "ourSkill": null,
+      "category": "SEASON OF DISCOVERY",
+      "links": [
+        "/wiki/Synthetic_Gordok_Ogre_Suit"
+      ]
+    },
+    {
+      "id": "461673",
+      "name": "Honed Blue Dragonscale Breastplate",
+      "skill": 285,
+      "ourSkill": null,
+      "category": "SEASON OF DISCOVERY",
+      "links": [
+        "/wiki/Honed_Blue_Dragonscale_Breastplate"
+      ]
+    },
+    {
+      "id": "461661",
+      "name": "Masterwork Volcanic Breastplate",
+      "skill": 285,
+      "ourSkill": null,
+      "category": "SEASON OF DISCOVERY",
+      "links": [
+        "/wiki/Masterwork_Volcanic_Breastplate"
+      ]
+    },
+    {
+      "id": "461722",
+      "name": "Devilcore Gauntlets",
+      "skill": 290,
+      "ourSkill": null,
+      "category": "SEASON OF DISCOVERY",
+      "links": [
+        "/wiki/Devilcore_Gauntlets"
+      ]
+    },
+    {
+      "id": "461655",
+      "name": "Hardened Black Dragonscale Breastplate",
+      "skill": 290,
+      "ourSkill": null,
+      "category": "SEASON OF DISCOVERY",
+      "links": [
+        "/wiki/Hardened_Black_Dragonscale_Breastplate"
+      ]
+    },
+    {
+      "id": "461645",
+      "name": "Honed Blue Dragonscale Shoulders",
+      "skill": 295,
+      "ourSkill": null,
+      "category": "SEASON OF DISCOVERY",
+      "links": [
+        "/wiki/Honed_Blue_Dragonscale_Shoulders"
+      ]
+    },
+    {
+      "id": "24654",
+      "name": "Blue Dragonscale Leggings",
+      "skill": 300,
+      "ourSkill": null,
+      "category": "Mail Legguards",
+      "links": [
+        "/wiki/Blue_Dragonscale_Leggings"
+      ]
+    },
+    {
+      "id": "461653",
+      "name": "Brilliant Chromatic Cloak",
+      "skill": 300,
+      "ourSkill": null,
+      "category": "SEASON OF DISCOVERY",
+      "links": [
+        "/wiki/Brilliant_Chromatic_Cloak"
+      ]
+    },
+    {
+      "id": "461724",
+      "name": "Devilcore Leggings",
+      "skill": 300,
+      "ourSkill": null,
+      "category": "SEASON OF DISCOVERY",
+      "links": [
+        "/wiki/Devilcore_Leggings"
+      ]
+    },
+    {
+      "id": "461754",
+      "name": "Girdle of Arcane Insight",
+      "skill": 300,
+      "ourSkill": null,
+      "category": "SEASON OF DISCOVERY",
+      "links": [
+        "/wiki/Girdle_of_Arcane_Insight"
+      ]
+    },
+    {
+      "id": "461657",
+      "name": "Hardened Black Dragonscale Leggings",
+      "skill": 300,
+      "ourSkill": null,
+      "category": "SEASON OF DISCOVERY",
+      "links": [
+        "/wiki/Hardened_Black_Dragonscale_Leggings"
+      ]
+    },
+    {
+      "id": "461659",
+      "name": "Hardened Black Dragonscale Shoulders",
+      "skill": 300,
+      "ourSkill": null,
+      "category": "SEASON OF DISCOVERY",
+      "links": [
+        "/wiki/Hardened_Black_Dragonscale_Shoulders"
+      ]
+    },
+    {
+      "id": "461690",
+      "name": "Mastercrafted Shifting Cloak",
+      "skill": 300,
+      "ourSkill": null,
+      "category": "SEASON OF DISCOVERY",
+      "links": [
+        "/wiki/Mastercrafted_Shifting_Cloak"
+      ]
+    },
+    {
+      "id": "461663",
+      "name": "Masterwork Volcanic Shoulders",
+      "skill": 300,
+      "ourSkill": null,
+      "category": "SEASON OF DISCOVERY",
+      "links": [
+        "/wiki/Masterwork_Volcanic_Shoulders"
+      ]
+    },
+    {
+      "id": "461706",
+      "name": "Swift Flight Vambraces",
+      "skill": 300,
+      "ourSkill": null,
+      "category": "SEASON OF DISCOVERY",
+      "links": [
+        "/wiki/Swift_Flight_Vambraces"
+      ]
+    },
+    {
+      "id": "1214303",
+      "name": "Dreamscale Kilt",
+      "skill": 320,
+      "ourSkill": null,
+      "category": "SEASON OF DISCOVERY",
+      "links": [
+        "/wiki/Dreamscale_Kilt"
+      ]
+    },
+    {
+      "id": "1213513",
+      "name": "Glowing Chitin Armor Kit",
+      "skill": 320,
+      "ourSkill": null,
+      "category": "SEASON OF DISCOVERY",
+      "links": [
+        "/wiki/Glowing_Chitin_Armor_Kit"
+      ]
+    },
+    {
+      "id": "462227",
+      "name": "Honed Blue Dragonscale Leggings",
+      "skill": 320,
+      "ourSkill": null,
+      "category": "SEASON OF DISCOVERY",
+      "links": [
+        "/wiki/Honed_Blue_Dragonscale_Leggings"
+      ]
+    },
+    {
+      "id": "1213521",
+      "name": "Razorbramble Cowl",
+      "skill": 320,
+      "ourSkill": null,
+      "category": "SEASON OF DISCOVERY",
+      "links": [
+        "/wiki/Razorbramble_Cowl"
+      ]
+    },
+    {
+      "id": "1213525",
+      "name": "Razorbramble Leathers",
+      "skill": 320,
+      "ourSkill": null,
+      "category": "SEASON OF DISCOVERY",
+      "links": [
+        "/wiki/Razorbramble_Leathers"
+      ]
+    },
+    {
+      "id": "1213523",
+      "name": "Razorbramble Shoulderpads",
+      "skill": 320,
+      "ourSkill": null,
+      "category": "SEASON OF DISCOVERY",
+      "links": [
+        "/wiki/Razorbramble_Shoulderpads"
+      ]
+    },
+    {
+      "id": "1213519",
+      "name": "Sharpened Chitin Armor Kit",
+      "skill": 320,
+      "ourSkill": null,
+      "category": "SEASON OF DISCOVERY",
+      "links": [
+        "/wiki/Sharpened_Chitin_Armor_Kit"
+      ]
+    }
+  ],
+  "sampleRowLinks": [
+    {
+      "name": "Light Leather",
+      "skill": 1,
+      "links": [
+        "/wiki/Light_Leather"
+      ]
+    },
+    {
+      "name": "Handstitched Leather Pants",
+      "skill": 15,
+      "links": [
+        "/wiki/Handstitched_Leather_Pants"
+      ]
+    },
+    {
+      "name": "Camp Tent",
+      "skill": 20,
+      "links": [
+        "/wiki/Camp_Tent"
+      ]
+    },
+    {
+      "name": "Handstitched Leather Belt",
+      "skill": 25,
+      "links": [
+        "/wiki/Handstitched_Leather_Belt"
+      ]
+    },
+    {
+      "name": "Light Leather Quiver",
+      "skill": 25,
+      "links": [
+        "/wiki/Light_Leather_Quiver"
+      ]
+    },
+    {
+      "name": "Small Leather Ammo Pouch",
+      "skill": 25,
+      "links": [
+        "/wiki/Small_Leather_Ammo_Pouch"
+      ]
+    },
+    {
+      "name": "Light Armor Kit",
+      "skill": 30,
+      "links": [
+        "/wiki/Light_Armor_Kit"
+      ]
+    },
+    {
+      "name": "Light Leather Reagent Bag",
+      "skill": 30,
+      "links": [
+        "/wiki/Light_Leather_Reagent_Bag?action=edit&redlink=1"
+      ]
+    },
+    {
+      "name": "Cured Light Hide",
+      "skill": 30,
+      "links": [
+        "/wiki/Cured_Light_Hide"
+      ]
+    },
+    {
+      "name": "Rugged Leather Pants",
+      "skill": 30,
+      "links": [
+        "/wiki/Rugged_Leather_Pants"
+      ]
+    }
+  ]
 }

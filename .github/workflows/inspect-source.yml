@@ -5,6 +5,7 @@ on:
     paths:
       - "scripts/inspect-source.py"
       - "scripts/build-data.py"
+      - "scripts/validate-crafting-skills.py"
       - "scripts/build-verified-crafting-skills.py"
       - "data/verified-skill-corrections.json"
       - "scripts/import-learning-skills.py"
@@ -24,6 +25,7 @@ jobs:
       - run: python scripts/import-learning-skills.py
       - run: python scripts/build-verified-crafting-skills.py
       - run: python scripts/build-data.py
+      - run: python scripts/validate-crafting-skills.py
       - name: Resolve item icons from WoW FileDataIDs
         run: python3 scripts/resolve-icons.py
       - name: Commit data shape

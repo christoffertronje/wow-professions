@@ -1,0 +1,90 @@
+{
+  "https://guide.wow4ever.se/en/professions": {
+    "bytes": 95506,
+    "title": "Professions – Forever Guide",
+    "skillPatterns": [
+      "ge\" href=\"/en/professions\">Professions</a><a class=\"z_c7GG_navLink z_c7GG_navExtra \" href=\"/en/trainers\">Trainers</a><a class=\"z_c7GG_navLink z_c7GG_navExtra \" href=\"/en/contribute\">Contribute</a><a class=\"z_c7GG_navLink z_c7GG_navExtra Zl1edq_navLeaderboard\" href=\"/en/",
+      "/en/professions\">Professions</a><a class=\"z_c7GG_navLink z_c7GG_navExtra \" href=\"/en/trainers\">Trainers</a><a class=\"z_c7GG_navLink z_c7GG_navExtra \" href=\"/en/contribute\">Contribute</a><a class=\"z_c7GG_navLink z_c7GG_navExtra Zl1edq_navLeaderboard\" href=\"/en/contribute",
+      "pan><span>skill up to 340</span></span></span></a><a class=\"mlv53G_card\" href=\"/en/professions/leatherworking\"><div class=\"mlv53G_cover\"><div class=\"yTXOjG_art \" data-size=\"card\" aria-hidden=\"true\"><picture><source type=\"image/avif\" srcSet=\"/img/profession/profession-le",
+      "card\" aria-hidden=\"true\"><picture><source type=\"image/avif\" srcSet=\"/img/profession/profession-leatherworking-800.avif 800w\" sizes=\"(max-width: 760px) 100vw, 400px\"/><source type=\"image/webp\" srcSet=\"/img/profession/profession-leatherworking-800.webp 800w\" sizes=\"(max-w",
+      "(max-width: 760px) 100vw, 400px\"/><source type=\"image/webp\" srcSet=\"/img/profession/profession-leatherworking-800.webp 800w\" sizes=\"(max-width: 760px) 100vw, 400px\"/><img class=\"yTXOjG_artImg\" src=\"/img/profession/profession-leatherworking-800.webp\" alt=\"\" width=\"800\" h",
+      "=\"(max-width: 760px) 100vw, 400px\"/><img class=\"yTXOjG_artImg\" src=\"/img/profession/profession-leatherworking-800.webp\" alt=\"\" width=\"800\" height=\"575\" loading=\"lazy\" fetchPriority=\"auto\" decoding=\"async\" style=\"object-position:60% 60%;background-image:url(&quot;data:im",
+      "height=\"44\" loading=\"lazy\"/></div><span class=\"mlv53G_cardBody\"><span class=\"mlv53G_cardTitle\">Leatherworking</span><span class=\"mlv53G_cardStats\"><span><strong>512</strong> <!-- -->recipes</span><span class=\"mlv53G_cardNew\"><strong>270</strong> <!-- -->new</span><span>",
+      "lient&#x27;s tables (SkillLineAbility, SpellReagents, SpellEffect). Where recipes are learned (trainer, cost and required skill) comes from EG Link&#x27;s trainer data – collected in Forever by EG Link&#x27;s users (CC BY 4.0) – and is marked EG Link. “New” = recipe IDs"
+    ],
+    "leatherLinks": [
+      {
+        "text": "Leatherworking 512 recipes 270 new skill up t",
+        "href": "/en/professions/leatherworking"
+      }
+    ],
+    "tableCount": 0,
+    "initialDataScripts": [
+      {
+        "id": "_R_",
+        "type": null,
+        "length": 243
+      }
+    ]
+  },
+  "https://guide.wow4ever.se/en/professions/leatherworking": {
+    "bytes": 200625,
+    "title": "Leatherworking – recipes and leveling – Forever Guide",
+    "skillPatterns": [
+      "/chunks/0wo109sx_56ad.js\" async=\"\"></script><meta name=\"theme-color\" content=\"#121013\"/><title>Leatherworking – recipes and leveling – Forever Guide</title><meta name=\"description\" content=\"512 Leatherworking recipes in WoW Forever: skill thresholds, reagents, leveling ",
+      "herworking – recipes and leveling – Forever Guide</title><meta name=\"description\" content=\"512 Leatherworking recipes in WoW Forever: skill thresholds, reagents, leveling plan and shopping list.\"/><link rel=\"manifest\" href=\"/img/brand/site.webmanifest\"/><link rel=\"canon",
+      "/brand/site.webmanifest\"/><link rel=\"canonical\" href=\"https://guide.wow4ever.se/en/professions/leatherworking\"/><link rel=\"alternate\" hrefLang=\"sv\" href=\"https://guide.wow4ever.se/yrken/leatherworking\"/><link rel=\"alternate\" hrefLang=\"en\" href=\"https://guide.wow4ever.se",
+      "ons/leatherworking\"/><link rel=\"alternate\" hrefLang=\"sv\" href=\"https://guide.wow4ever.se/yrken/leatherworking\"/><link rel=\"alternate\" hrefLang=\"en\" href=\"https://guide.wow4ever.se/en/professions/leatherworking\"/><link rel=\"alternate\" hrefLang=\"x-default\" href=\"https://g",
+      "erworking\"/><link rel=\"alternate\" hrefLang=\"en\" href=\"https://guide.wow4ever.se/en/professions/leatherworking\"/><link rel=\"alternate\" hrefLang=\"x-default\" href=\"https://guide.wow4ever.se/yrken/leatherworking\"/><meta property=\"og:title\" content=\"Leatherworking – recipes ",
+      "therworking\"/><link rel=\"alternate\" hrefLang=\"x-default\" href=\"https://guide.wow4ever.se/yrken/leatherworking\"/><meta property=\"og:title\" content=\"Leatherworking – recipes and leveling – Forever Guide\"/><meta property=\"og:description\" content=\"512 Leatherworking recipes",
+      "ult\" href=\"https://guide.wow4ever.se/yrken/leatherworking\"/><meta property=\"og:title\" content=\"Leatherworking – recipes and leveling – Forever Guide\"/><meta property=\"og:description\" content=\"512 Leatherworking recipes in WoW Forever: skill thresholds, reagents, levelin",
+      "rworking – recipes and leveling – Forever Guide\"/><meta property=\"og:description\" content=\"512 Leatherworking recipes in WoW Forever: skill thresholds, reagents, leveling plan and shopping list.\"/><meta property=\"og:locale\" content=\"en_GB\"/><meta property=\"og:locale:alt"
+    ],
+    "leatherLinks": [
+      {
+        "text": "All trainers →",
+        "href": "/en/trainers?yrke=leatherworking"
+      },
+      {
+        "text": "Svenska",
+        "href": "/yrken/leatherworking"
+      }
+    ],
+    "tableCount": 0,
+    "initialDataScripts": [
+      {
+        "id": "_R_",
+        "type": null,
+        "length": 243
+      }
+    ]
+  },
+  "https://guide.wow4ever.se/en/trainers": {
+    "bytes": 69788,
+    "title": "Trainers – Forever Guide",
+    "skillPatterns": [
+      "load\" as=\"image\" href=\"/icons/136245.webp\"/><meta name=\"theme-color\" content=\"#121013\"/><title>Trainers – Forever Guide</title><meta name=\"description\" content=\"Where are the class trainers, profession trainers, weapon masters and riding trainers in WoW Forever? Maps wi",
+      "/><title>Trainers – Forever Guide</title><meta name=\"description\" content=\"Where are the class trainers, profession trainers, weapon masters and riding trainers in WoW Forever? Maps with locations from players&#x27; reports, filtered by your faction.\"/><link rel=\"manife",
+      "orever Guide</title><meta name=\"description\" content=\"Where are the class trainers, profession trainers, weapon masters and riding trainers in WoW Forever? Maps with locations from players&#x27; reports, filtered by your faction.\"/><link rel=\"manifest\" href=\"/img/brand/",
+      "ription\" content=\"Where are the class trainers, profession trainers, weapon masters and riding trainers in WoW Forever? Maps with locations from players&#x27; reports, filtered by your faction.\"/><link rel=\"manifest\" href=\"/img/brand/site.webmanifest\"/><link rel=\"canoni",
+      "\" href=\"/img/brand/site.webmanifest\"/><link rel=\"canonical\" href=\"https://guide.wow4ever.se/en/trainers\"/><link rel=\"alternate\" hrefLang=\"sv\" href=\"https://guide.wow4ever.se/tranare\"/><link rel=\"alternate\" hrefLang=\"en\" href=\"https://guide.wow4ever.se/en/trainers\"/><lin",
+      "e.wow4ever.se/tranare\"/><link rel=\"alternate\" hrefLang=\"en\" href=\"https://guide.wow4ever.se/en/trainers\"/><link rel=\"alternate\" hrefLang=\"x-default\" href=\"https://guide.wow4ever.se/tranare\"/><meta property=\"og:title\" content=\"Trainers – Forever Guide\"/><meta property=\"o",
+      "fLang=\"x-default\" href=\"https://guide.wow4ever.se/tranare\"/><meta property=\"og:title\" content=\"Trainers – Forever Guide\"/><meta property=\"og:description\" content=\"Where are the class trainers, profession trainers, weapon masters and riding trainers in WoW Forever? Maps ",
+      "ntent=\"Trainers – Forever Guide\"/><meta property=\"og:description\" content=\"Where are the class trainers, profession trainers, weapon masters and riding trainers in WoW Forever? Maps with locations from players&#x27; reports, filtered by your faction.\"/><meta property=\"o"
+    ],
+    "leatherLinks": [
+      {
+        "text": "Leatherworking",
+        "href": "/en/trainers?yrke=leatherworking"
+      }
+    ],
+    "tableCount": 1,
+    "initialDataScripts": [
+      {
+        "id": "_R_",
+        "type": null,
+        "length": 243
+      }
+    ]
+  }
+}

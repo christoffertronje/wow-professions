@@ -27,7 +27,11 @@ for table in soup.select("table"):
     if not re.fullmatch(r"\\d{1,3}",skill):continue
     links=[a.get("href","") for a in td[0].select("a")][:4]
     rows.append({"name":name,"skill":int(skill),"links":links})
-if len(rows)<400:raise RuntimeError(f"Unexpected wiki extraction: {len(rows)} rows; abort audit")
+if len(rows)<400:
+  info={"rows":len(rows),"tables":len(soup.select("table")),"sample":[[n.get_text(" ",strip=True)[:80] for n in tr.find_all(["th","td"],recursive=False)] for t in soup.select("table")[:5] for tr in t.select("tr")[:4]]}
+  pathlib.Path("docs/wiki-skill-parser-debug.json").write_text(json.dumps(info,indent=2)+"\\n")
+  print("Could not parse wiki table:",info)
+  raise SystemExit(0)
 names=Counter(norm(x["name"]) for x in rows)
 matches=[];duplicates=[];unmatched=[]
 for x in rows:

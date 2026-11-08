@@ -24,7 +24,7 @@ for table in soup.select("table"):
     if len(td)<2:continue
     name=td[0].get_text(" ",strip=True).strip("[] ")
     skill=td[1].get_text(" ",strip=True)
-    if not re.fullmatch(r"\\d{1,3}",skill):continue
+    if not (skill.isdigit() and 1<=len(skill)<=3):continue
     links=[a.get("href","") for a in td[0].select("a")][:4]
     rows.append({"name":name,"skill":int(skill),"links":links})
 if len(rows)<400:

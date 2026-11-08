@@ -58,6 +58,17 @@
     ],
     "note": "Wowhead Forever spell page explicitly lists Requires Leatherworking (150) for Barbaric Shoulders; distinct from yellow skill-up threshold."
   },
+  "7153": {
+    "required": 160,
+    "source": "Pattern",
+    "requirementEvidence": "resolved-forever-source-disagreement",
+    "referenceUrls": [
+      "https://metabot.gg/en/wow-forever/items/guardian-cloak",
+      "https://questing.wiki/wow-forever/professions/leatherworking/",
+      "https://warcraft.wiki.gg/wiki/Forever_leatherworking_patterns"
+    ],
+    "note": "An older GuildLoot import had 125, but Forever-specific item index, Questing recipe and Warcraft Wiki corroborate minimum 160; the older record is superseded. Not independently crafted in-game."
+  },
   "9060": {
     "required": 25,
     "source": "Trainer",

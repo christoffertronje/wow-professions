@@ -36,8 +36,9 @@ if extra_path.exists():
     extra=json.loads(extra_path.read_text(encoding="utf-8"))
     conflict_ids={str(row["spellId"]) for row in extra.get("conflicts",[])}
     for sid in conflict_ids:
-        # Do not imply a disputed value is reliable.
-        records.pop(sid,None)
+        # A reviewed correction can resolve a previously disputed source row.
+        if sid not in overrides:
+            records.pop(sid,None)
     for sid,value in extra["skillsBySpellId"].items():
         if sid in conflict_ids:continue
         if sid in records:
@@ -90,7 +91,19 @@ checked_minimums={
     "3780":150, # Heavy Armor Kit
     "10487":200,# Thick Armor Kit
     "3766":125, # Dark Leather Belt
-    "7151":150  # Barbaric Shoulders
+    "7151":150, # Barbaric Shoulders
+    "7153":160, # Guardian Cloak — reviewed source disagreement
+    "19047":250, # Cured Rugged Hide
+    "24703":300, # Dreamscale Breastplate
+    "28221":300, # Polar Bracers
+    "28220":300, # Polar Gloves
+    "28219":300, # Polar Tunic
+    "28222":300, # Icy Scale Breastplate
+    "28223":300, # Icy Scale Gauntlets
+    "28224":300, # Icy Scale Bracers
+    "28474":300, # Bramblewood Belt
+    "28473":300, # Bramblewood Boots
+    "28472":300  # Bramblewood Helm
 }
 for spell, minimum in checked_minimums.items():
     if records.get(spell,{}).get("required")!=minimum:
@@ -99,7 +112,7 @@ for spell, minimum in checked_minimums.items():
 # Regression checks for a known skill-up-threshold mixup and a source conflict.
 if records.get("3770",{}).get("required")!=110:
     raise ValueError("Regression: Toughened Leather Gloves must require crafting skill 110")
-if "7153" in records:
-    raise ValueError("Guardian Cloak conflicting requirement must stay unresolved")
+if records.get("7153",{}).get("required")!=160:
+    raise ValueError("Guardian Cloak must keep reviewed Forever minimum 160; older GuildLoot 125 superseded")
 OUT.write_text(json.dumps({"meta":{"source":data["source"],"entries":len(records),"sourceConflictsExcluded":len(conflict_ids) if extra_path.exists() else 0,"method":"Only a stated minimum crafting skill, keyed by unique spell ID; no yellow/green/grey thresholds."},"skillsBySpellId":records},ensure_ascii=False,separators=(",",":"))+"\n",encoding="utf-8")
 print("Verified crafting skills:",len(records))

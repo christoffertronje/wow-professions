@@ -80,14 +80,19 @@ for spell_id, correction in corrections.items():
         if field in correction:
             entry[field]=correction[field]
     entry["requirementReferences"]=correction.get("referenceUrls",[])
-# Only explicit crafting-requirement checks count as verified.
-# Retain imported values in "required" as research data, never as guaranteed craft minimums.
+# Only the minimum skill required to CRAFT is displayed in the UI.
+# The source here explicitly labels its column as required skill.
+# Other imported values remain research-only; never use yellow/green/gray.
+verified_path=pathlib.Path("data/verified-crafting-skills.json")
+verified_skills=json.loads(verified_path.read_text(encoding="utf-8"))["skillsBySpellId"] if verified_path.exists() else {}
 for entry in result:
-    verified=entry.get("requirementEvidence")=="verified-forever-pattern-table"
-    entry["craftSkillRequired"]=entry.get("required") if verified else None
-    entry["craftSkillVerified"]=verified
+    lookup=verified_skills.get(entry["id"])
+    entry["craftSkillRequired"]=lookup["required"] if lookup else None
+    entry["craftSkillVerified"]=bool(lookup)
+    entry["craftSkillSource"]=lookup["source"] if lookup else None
+    entry["craftSkillReference"]=lookup["reference"] if lookup else None
 
-result.sort(key=lambda r:((r["required"] if isinstance(r["required"],int) else 9999),r["name"].casefold(),r["id"]))
+result.sort(key=lambda r:((r["craftSkillRequired"] if isinstance(r["craftSkillRequired"],int) else 9999),r["name"].casefold(),r["id"]))
 assert len(result)>=450,f"unexpectedly few Leatherworking recipes: {len(result)}"
 assert len(set(r["id"] for r in result))==len(result),"duplicate recipe IDs"
 OUTPUT.parent.mkdir(exist_ok=True)

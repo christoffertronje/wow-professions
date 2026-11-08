@@ -1,0 +1,147 @@
+{
+  "meta": {
+    "count": 23,
+    "method": "Skill needed to use the pattern item in Forever Talent matches independently stated first required skill on WCLBox; unique, non-Season-of-Discovery recipe name mapped to spell ID.",
+    "note": "Source-corroborated, not independently crafted in-game; no yellow/green/gray thresholds used."
+  },
+  "skillsBySpellId": {
+    "3775": {
+      "required": 145,
+      "source": "pattern-item-and-wclbox-minimum",
+      "reference": "https://wowforevertalent.com/professions/leatherworking/",
+      "corroboration": "https://wowforever.wclbox.com/en/zhuanye/leatherworking"
+    },
+    "3777": {
+      "required": 170,
+      "source": "pattern-item-and-wclbox-minimum",
+      "reference": "https://wowforevertalent.com/professions/leatherworking/",
+      "corroboration": "https://wowforever.wclbox.com/en/zhuanye/leatherworking"
+    },
+    "10509": {
+      "required": 180,
+      "source": "pattern-item-and-wclbox-minimum",
+      "reference": "https://wowforevertalent.com/professions/leatherworking/",
+      "corroboration": "https://wowforever.wclbox.com/en/zhuanye/leatherworking"
+    },
+    "10520": {
+      "required": 190,
+      "source": "pattern-item-and-wclbox-minimum",
+      "reference": "https://wowforevertalent.com/professions/leatherworking/",
+      "corroboration": "https://wowforever.wclbox.com/en/zhuanye/leatherworking"
+    },
+    "10531": {
+      "required": 195,
+      "source": "pattern-item-and-wclbox-minimum",
+      "reference": "https://wowforevertalent.com/professions/leatherworking/",
+      "corroboration": "https://wowforever.wclbox.com/en/zhuanye/leatherworking"
+    },
+    "1255088": {
+      "required": 125,
+      "source": "pattern-item-and-wclbox-minimum",
+      "reference": "https://wowforevertalent.com/professions/leatherworking/",
+      "corroboration": "https://wowforever.wclbox.com/en/zhuanye/leatherworking"
+    },
+    "1255089": {
+      "required": 125,
+      "source": "pattern-item-and-wclbox-minimum",
+      "reference": "https://wowforevertalent.com/professions/leatherworking/",
+      "corroboration": "https://wowforever.wclbox.com/en/zhuanye/leatherworking"
+    },
+    "1255090": {
+      "required": 125,
+      "source": "pattern-item-and-wclbox-minimum",
+      "reference": "https://wowforevertalent.com/professions/leatherworking/",
+      "corroboration": "https://wowforever.wclbox.com/en/zhuanye/leatherworking"
+    },
+    "1255091": {
+      "required": 125,
+      "source": "pattern-item-and-wclbox-minimum",
+      "reference": "https://wowforevertalent.com/professions/leatherworking/",
+      "corroboration": "https://wowforever.wclbox.com/en/zhuanye/leatherworking"
+    },
+    "1255092": {
+      "required": 125,
+      "source": "pattern-item-and-wclbox-minimum",
+      "reference": "https://wowforevertalent.com/professions/leatherworking/",
+      "corroboration": "https://wowforever.wclbox.com/en/zhuanye/leatherworking"
+    },
+    "1255093": {
+      "required": 125,
+      "source": "pattern-item-and-wclbox-minimum",
+      "reference": "https://wowforevertalent.com/professions/leatherworking/",
+      "corroboration": "https://wowforever.wclbox.com/en/zhuanye/leatherworking"
+    },
+    "1255110": {
+      "required": 100,
+      "source": "pattern-item-and-wclbox-minimum",
+      "reference": "https://wowforevertalent.com/professions/leatherworking/",
+      "corroboration": "https://wowforever.wclbox.com/en/zhuanye/leatherworking"
+    },
+    "1255111": {
+      "required": 100,
+      "source": "pattern-item-and-wclbox-minimum",
+      "reference": "https://wowforevertalent.com/professions/leatherworking/",
+      "corroboration": "https://wowforever.wclbox.com/en/zhuanye/leatherworking"
+    },
+    "1255112": {
+      "required": 100,
+      "source": "pattern-item-and-wclbox-minimum",
+      "reference": "https://wowforevertalent.com/professions/leatherworking/",
+      "corroboration": "https://wowforever.wclbox.com/en/zhuanye/leatherworking"
+    },
+    "1255113": {
+      "required": 100,
+      "source": "pattern-item-and-wclbox-minimum",
+      "reference": "https://wowforevertalent.com/professions/leatherworking/",
+      "corroboration": "https://wowforever.wclbox.com/en/zhuanye/leatherworking"
+    },
+    "1255114": {
+      "required": 100,
+      "source": "pattern-item-and-wclbox-minimum",
+      "reference": "https://wowforevertalent.com/professions/leatherworking/",
+      "corroboration": "https://wowforever.wclbox.com/en/zhuanye/leatherworking"
+    },
+    "1255115": {
+      "required": 100,
+      "source": "pattern-item-and-wclbox-minimum",
+      "reference": "https://wowforevertalent.com/professions/leatherworking/",
+      "corroboration": "https://wowforever.wclbox.com/en/zhuanye/leatherworking"
+    },
+    "1255131": {
+      "required": 75,
+      "source": "pattern-item-and-wclbox-minimum",
+      "reference": "https://wowforevertalent.com/professions/leatherworking/",
+      "corroboration": "https://wowforever.wclbox.com/en/zhuanye/leatherworking"
+    },
+    "1255132": {
+      "required": 75,
+      "source": "pattern-item-and-wclbox-minimum",
+      "reference": "https://wowforevertalent.com/professions/leatherworking/",
+      "corroboration": "https://wowforever.wclbox.com/en/zhuanye/leatherworking"
+    },
+    "1255133": {
+      "required": 75,
+      "source": "pattern-item-and-wclbox-minimum",
+      "reference": "https://wowforevertalent.com/professions/leatherworking/",
+      "corroboration": "https://wowforever.wclbox.com/en/zhuanye/leatherworking"
+    },
+    "1255134": {
+      "required": 75,
+      "source": "pattern-item-and-wclbox-minimum",
+      "reference": "https://wowforevertalent.com/professions/leatherworking/",
+      "corroboration": "https://wowforever.wclbox.com/en/zhuanye/leatherworking"
+    },
+    "1255135": {
+      "required": 75,
+      "source": "pattern-item-and-wclbox-minimum",
+      "reference": "https://wowforevertalent.com/professions/leatherworking/",
+      "corroboration": "https://wowforever.wclbox.com/en/zhuanye/leatherworking"
+    },
+    "1255136": {
+      "required": 75,
+      "source": "pattern-item-and-wclbox-minimum",
+      "reference": "https://wowforevertalent.com/professions/leatherworking/",
+      "corroboration": "https://wowforever.wclbox.com/en/zhuanye/leatherworking"
+    }
+  }
+}

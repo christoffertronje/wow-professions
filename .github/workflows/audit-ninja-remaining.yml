@@ -1,0 +1,21 @@
+name: Inspect unresolved Forever Ninja recipe requirements
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - scripts/audit-ninja-remaining.py
+      - .github/workflows/audit-ninja-remaining.yml
+permissions:
+  contents: write
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: python3 -m pip install beautifulsoup4
+      - run: python3 scripts/audit-ninja-remaining.py
+      - run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A docs
+          git diff --cached --quiet || (git commit -m "docs: audit unresolved minimums against Forever Ninja" && git push)

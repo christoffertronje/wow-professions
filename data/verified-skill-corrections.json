@@ -139,6 +139,51 @@
     ],
     "note": "Pattern for Sandstalker Breastplate requires Leatherworking 300. Do not substitute the later skill-up threshold."
   },
+  "28219": {
+    "required": 300,
+    "source": "Pattern",
+    "requirementEvidence": "verified-forever-pattern-item",
+    "referenceUrls": [
+      "https://www.wowhead.com/forever/item=22692"
+    ],
+    "note": "Forever pattern item for Polar Tunic explicitly requires Leatherworking 300. 320 is a later skill-up threshold in recipe tables. The pattern learning requirement is verified; no separate in-game craft test."
+  },
+  "28220": {
+    "required": 300,
+    "source": "Pattern",
+    "requirementEvidence": "verified-forever-pattern-item",
+    "referenceUrls": [
+      "https://www.wowhead.com/forever/item=22694"
+    ],
+    "note": "Forever pattern item for Polar Gloves explicitly requires Leatherworking 300. 320 is a later skill-up threshold in recipe tables. The pattern learning requirement is verified; no separate in-game craft test."
+  },
+  "28221": {
+    "required": 300,
+    "source": "Pattern",
+    "requirementEvidence": "verified-forever-pattern-item",
+    "referenceUrls": [
+      "https://www.wowhead.com/forever/item=22695"
+    ],
+    "note": "Forever pattern item for Polar Bracers explicitly requires Leatherworking 300. 320 is a later skill-up threshold in recipe tables. The pattern learning requirement is verified; no separate in-game craft test."
+  },
+  "28222": {
+    "required": 300,
+    "source": "Pattern",
+    "requirementEvidence": "verified-forever-pattern-item",
+    "referenceUrls": [
+      "https://www.wowhead.com/forever/item=22696"
+    ],
+    "note": "Forever pattern item for Icy Scale Breastplate explicitly requires Leatherworking 300. 320 is a later skill-up threshold in recipe tables. The pattern learning requirement is verified; no separate in-game craft test."
+  },
+  "28223": {
+    "required": 300,
+    "source": "Pattern",
+    "requirementEvidence": "verified-forever-pattern-item",
+    "referenceUrls": [
+      "https://www.wowhead.com/forever/item=22697"
+    ],
+    "note": "Forever pattern item for Icy Scale Gauntlets explicitly requires Leatherworking 300. 320 is a later skill-up threshold in recipe tables. The pattern learning requirement is verified; no separate in-game craft test."
+  },
   "1229432": {
     "required": 20,
     "source": "Trainer",

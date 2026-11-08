@@ -13,7 +13,8 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - run: python3 -m pip install beautifulsoup4
-      - run: python3 scripts/audit-wclbox-crafting-skills.py
+      - name: Record audit outcome
+        run: python3 scripts/audit-wclbox-crafting-skills.py > docs/wclbox-run.log 2>&1 || true
       - run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"

@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://www.wowhead.com/forever/spell=6661/barbaric-harness",
+    "http": 202,
+    "bytesCaptured": 0,
+    "requiresLeatherworking": [],
+    "preview": ""
+  },
+  {
+    "url": "https://warcraft.wiki.gg/wiki/Forever_leatherworking_patterns",
+    "http": 200,
+    "bytesCaptured": 356960,
+    "requiresLeatherworking": [],
+    "preview": "<!DOCTYPE html>\n<html class=\"client-nojs view-dark theme-dark skin-theme-clientpref-night\" lang=\"en\" dir=\"ltr\">\n<head>\n<meta charset=\"UTF-8\">\n<title>Forever leatherworking patterns"
+  },
+  {
+    "url": "https://www.warcraftforever.wiki/wiki/Leatherworking/Recipes",
+    "http": 200,
+    "bytesCaptured": 498255,
+    "requiresLeatherworking": [],
+    "preview": "<!DOCTYPE html>\n<html class=\"client-nojs skin-theme-clientpref-thumb-standard\" lang=\"en-GB\" dir=\"ltr\">\n<head>\n<meta charset=\"UTF-8\">\n<title>Leatherworking recipes - Warcraft Foreve"
+  },
+  {
+    "url": "https://foreverlfg.app/professions",
+    "http": 200,
+    "bytesCaptured": 988809,
+    "requiresLeatherworking": [],
+    "preview": "<!DOCTYPE html><html lang=\"en\" class=\"dark\"><head><meta charSet=\"utf-8\"/><meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"/><link rel=\"preload\" as=\"image\" href=\"/"
+  }
+]

@@ -1,0 +1,21 @@
+name: Audit Wowhead Leatherworking coverage
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - "scripts/audit-wowhead-coverage.py"
+      - ".github/workflows/audit-wowhead-coverage.yml"
+permissions:
+  contents: write
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: python3 scripts/audit-wowhead-coverage.py
+      - name: Commit audit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs/wowhead-leatherworking-coverage.json
+          git diff --cached --quiet || (git commit -m "docs: record Wowhead Leatherworking recipe coverage audit" && git push)

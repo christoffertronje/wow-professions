@@ -8,6 +8,15 @@
       "https://questing.wiki/wow-forever/professions/leatherworking/"
     ]
   },
+  "3766": {
+    "required": 125,
+    "source": "Trainer",
+    "requirementEvidence": "verified-wowhead-forever-spell",
+    "referenceUrls": [
+      "https://www.wowhead.com/forever/spell=3766/dark-leather-belt"
+    ],
+    "note": "Wowhead Forever spell page explicitly lists Requires Leatherworking (125) for Dark Leather Belt; distinct from yellow skill-up threshold."
+  },
   "3770": {
     "required": 110,
     "skillYellow": 135,
@@ -22,6 +31,15 @@
     ],
     "note": "Wowhead's 135 is the orange-to-yellow threshold, while Forever recipe guides list learning skill 110."
   },
+  "3780": {
+    "required": 150,
+    "source": "Trainer",
+    "requirementEvidence": "verified-wowhead-forever-spell",
+    "referenceUrls": [
+      "https://www.wowhead.com/forever/spell=3780/heavy-armor-kit"
+    ],
+    "note": "Wowhead Forever spell page explicitly lists Requires Leatherworking (150) for Heavy Armor Kit; distinct from yellow skill-up threshold."
+  },
   "6661": {
     "required": 190,
     "source": "Trainer",
@@ -30,6 +48,33 @@
       "https://www.wowhead.com/forever/spell=6661/barbaric-harness"
     ],
     "note": "Wowhead Forever spell quick facts explicitly state Requires Leatherworking (190); 185 is the distinct yellow threshold in client-derived tables."
+  },
+  "7151": {
+    "required": 150,
+    "source": "Trainer",
+    "requirementEvidence": "verified-wowhead-forever-spell",
+    "referenceUrls": [
+      "https://www.wowhead.com/forever/spell=7151/barbaric-shoulders"
+    ],
+    "note": "Wowhead Forever spell page explicitly lists Requires Leatherworking (150) for Barbaric Shoulders; distinct from yellow skill-up threshold."
+  },
+  "9060": {
+    "required": 25,
+    "source": "Trainer",
+    "requirementEvidence": "verified-wowhead-forever-spell",
+    "referenceUrls": [
+      "https://www.wowhead.com/forever/spell=9060/light-leather-quiver"
+    ],
+    "note": "Wowhead Forever spell page explicitly lists Requires Leatherworking (25) for Light Leather Quiver; distinct from yellow skill-up threshold."
+  },
+  "10487": {
+    "required": 200,
+    "source": "Trainer",
+    "requirementEvidence": "verified-wowhead-forever-spell",
+    "referenceUrls": [
+      "https://www.wowhead.com/forever/spell=10487/thick-armor-kit"
+    ],
+    "note": "Wowhead Forever spell page explicitly lists Requires Leatherworking (200) for Thick Armor Kit; distinct from yellow skill-up threshold."
   },
   "1229432": {
     "required": 20,

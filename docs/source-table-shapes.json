@@ -1,0 +1,114 @@
+{
+  "zockify": {
+    "error": "HTTP Error 403: Forbidden"
+  },
+  "wclbox": {
+    "bytes": 1035902,
+    "tables": [
+      {
+        "rows": 121,
+        "head": [
+          [
+            "Crafted Items",
+            "Materials",
+            "Skill",
+            "Source"
+          ],
+          [
+            "Light Leather",
+            "3",
+            "1 20 30 40",
+            "Trainer"
+          ],
+          [
+            "Light Armor Kit",
+            "",
+            "1 30 45 60",
+            "Trainer"
+          ],
+          [
+            "Handstitched Leather Boots",
+            "2",
+            "1 40 55 70",
+            "Trainer"
+          ],
+          [
+            "Handstitched Leather Vest",
+            "3",
+            "1 40 55 70",
+            "Trainer"
+          ],
+          [
+            "Handstitched Leather Cloak",
+            "2",
+            "1 40 55 70",
+            "Trainer"
+          ],
+          [
+            "Handstitched Leather Bracers",
+            "2 3",
+            "1 40 55 70",
+            "Trainer"
+          ]
+        ],
+        "classes": [
+          "zk-table",
+          "zk-recipes"
+        ]
+      },
+      {
+        "rows": 392,
+        "head": [
+          [
+            "Crafted Items",
+            "Materials",
+            "Skill",
+            "Source"
+          ],
+          [
+            "Herbalist's Gloves",
+            "8 4 2",
+            "110 135 147 160",
+            "Pattern: Herbalist's Gloves Vendor · A Harlown Darkweave · Ashenvale"
+          ],
+          [
+            "Earthen Leather Shoulders",
+            "6 2",
+            "110 135 147 160",
+            "Pattern: Earthen Leather Shoulders Vendor · Zixil · Hillsbrad Foothills"
+          ],
+          [
+            "Wisdom's Leather Tunic New",
+            "10 3 6 3 6",
+            "110 135 147 160",
+            "Pattern: Wisdom's Leather Tunic"
+          ],
+          [
+            "Stormrider's Leather Tunic New",
+            "10 3 6 3 6",
+            "110 135 147 160",
+            "Pattern: Stormrider's Leather Tunic"
+          ],
+          [
+            "Totemic Leather Tunic New",
+            "10 3 6 3 6",
+            "110 135 147 160",
+            "Pattern: Totemic Leather Tunic"
+          ],
+          [
+            "Defender's Leather Tunic New",
+            "10 3 6 3 6",
+            "110 135 147 160",
+            "Pattern: Defender's Leather Tunic"
+          ]
+        ],
+        "classes": [
+          "zk-table",
+          "zk-recipes"
+        ]
+      }
+    ],
+    "bodyRows": 513,
+    "links": 3520
+  }
+}

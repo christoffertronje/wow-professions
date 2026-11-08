@@ -66,6 +66,14 @@ if wclbox_path.exists():
                 raise ValueError(f"WCLBox/Wiki minimum disagrees with a vetted value for spell {sid}")
         else:
             records[sid]=value
+# Explicit pattern-item skill must match WCLBox's first required-skill field.
+pattern_wclbox_path=Path("data/pattern-wclbox-crafting-skills.json")
+if pattern_wclbox_path.exists():
+    extra=json.loads(pattern_wclbox_path.read_text(encoding="utf-8"))
+    for sid, value in extra["skillsBySpellId"].items():
+        if sid in records and records[sid]["required"] != value["required"]:
+            raise ValueError(f"Pattern/WCLBox conflicting craft minimum for spell {sid}")
+        records.setdefault(sid,value)
 # Source-backed spell-level regression checks. Do not substitute skill-up tiers.
 checked_minimums={
     "3770":110, # Toughened Leather Gloves

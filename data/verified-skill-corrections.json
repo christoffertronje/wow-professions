@@ -203,6 +203,46 @@
     ],
     "note": "Forever pattern item for Icy Scale Gauntlets explicitly requires Leatherworking 300. 320 is a later skill-up threshold in recipe tables. The pattern learning requirement is verified; no separate in-game craft test."
   },
+  "28224": {
+    "required": 300,
+    "source": "Pattern / specialization",
+    "requirementEvidence": "cross-version-client-and-classic-confirmed-minimum",
+    "referenceUrls": [
+      "https://metabot.gg/en/wow-forever/items/icy-scale-bracers",
+      "https://www.wowhead.com/classic/spell=28224/icy-scale-bracers"
+    ],
+    "note": "Forever-specific item index explicitly calls for crafting skill 300, corroborated by same recipe spell in Classic requiring Leatherworking (300). Other Forever tables show yellow at 320. No direct live in-game craft observation for Icy Scale Bracers."
+  },
+  "28472": {
+    "required": 300,
+    "source": "Pattern / specialization",
+    "requirementEvidence": "cross-version-client-and-classic-confirmed-minimum",
+    "referenceUrls": [
+      "https://metabot.gg/en/wow-forever/items/bramblewood-helm",
+      "https://www.wowhead.com/classic/spell=28472/bramblewood-helm"
+    ],
+    "note": "Forever-specific item index explicitly calls for crafting skill 300, corroborated by same recipe spell in Classic requiring Leatherworking (300). Other Forever tables show yellow at 320. No direct live in-game craft observation for Bramblewood Helm."
+  },
+  "28473": {
+    "required": 300,
+    "source": "Pattern / specialization",
+    "requirementEvidence": "cross-version-client-and-classic-confirmed-minimum",
+    "referenceUrls": [
+      "https://metabot.gg/en/wow-forever/items/bramblewood-boots",
+      "https://www.wowhead.com/classic/spell=28473/bramblewood-boots"
+    ],
+    "note": "Forever-specific item index explicitly calls for crafting skill 300, corroborated by same recipe spell in Classic requiring Leatherworking (300). Other Forever tables show yellow at 320. No direct live in-game craft observation for Bramblewood Boots."
+  },
+  "28474": {
+    "required": 300,
+    "source": "Pattern / specialization",
+    "requirementEvidence": "cross-version-client-and-classic-confirmed-minimum",
+    "referenceUrls": [
+      "https://metabot.gg/en/wow-forever/items/bramblewood-belt",
+      "https://www.wowhead.com/classic/spell=28474/bramblewood-belt"
+    ],
+    "note": "Forever-specific item index explicitly calls for crafting skill 300, corroborated by same recipe spell in Classic requiring Leatherworking (300). Other Forever tables show yellow at 320. No direct live in-game craft observation for Bramblewood Belt."
+  },
   "1229432": {
     "required": 20,
     "source": "Trainer",

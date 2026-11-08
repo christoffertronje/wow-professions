@@ -1,9 +1,10 @@
 {
+  "warning": "This page sometimes uses yellow skill-up thresholds where minimum craft requirements are unavailable (e.g. starting trainer recipes). Treat numbers as candidates only, never automatically import.",
   "source": "https://warcraft.wiki.gg/wiki/Forever_leatherworking_patterns",
   "wikiRows": 590,
   "uniqueMatches": 544,
-  "newPotential": 142,
-  "disagreements": 14,
+  "newPotential": 141,
+  "disagreements": 15,
   "duplicateOrAmbiguous": 46,
   "notMatched": 0,
   "conflicts": [
@@ -13,6 +14,7 @@
       "skill": 30,
       "ourSkill": 1,
       "category": "Armor Kits",
+      "wikiSource": "?",
       "links": [
         "/wiki/Light_Armor_Kit"
       ]
@@ -23,6 +25,7 @@
       "skill": 40,
       "ourSkill": 1,
       "category": "Leather Boots",
+      "wikiSource": "?",
       "links": [
         "/wiki/Handstitched_Leather_Boots"
       ]
@@ -33,6 +36,7 @@
       "skill": 40,
       "ourSkill": 1,
       "category": "Leather Bracers",
+      "wikiSource": "?",
       "links": [
         "/wiki/Handstitched_Leather_Bracers"
       ]
@@ -43,6 +47,7 @@
       "skill": 40,
       "ourSkill": 1,
       "category": "Cloaks",
+      "wikiSource": "?",
       "links": [
         "/wiki/Handstitched_Leather_Cloak"
       ]
@@ -53,6 +58,7 @@
       "skill": 40,
       "ourSkill": 1,
       "category": "Leather Chestguards",
+      "wikiSource": "?",
       "links": [
         "/wiki/Handstitched_Leather_Vest"
       ]
@@ -63,8 +69,20 @@
       "skill": 150,
       "ourSkill": 125,
       "category": "Miscellaneous",
+      "wikiSource": "Vendor",
       "links": [
         "/wiki/Heavy_Leather_Ball"
+      ]
+    },
+    {
+      "id": "6661",
+      "name": "Barbaric Harness",
+      "skill": 165,
+      "ourSkill": 190,
+      "category": "Leather Chestguards",
+      "wikiSource": "Trainer",
+      "links": [
+        "/wiki/Barbaric_Harness"
       ]
     },
     {
@@ -73,6 +91,7 @@
       "skill": 270,
       "ourSkill": 245,
       "category": "Mail Chestguards",
+      "wikiSource": "Drop",
       "links": [
         "/wiki/Wildthorn_Mail"
       ]
@@ -83,6 +102,7 @@
       "skill": 290,
       "ourSkill": 265,
       "category": "Mail Belts",
+      "wikiSource": "Vendor",
       "links": [
         "/wiki/Heavy_Timbermaw_Belt"
       ]
@@ -93,6 +113,7 @@
       "skill": 295,
       "ourSkill": 270,
       "category": "Mail Gauntlets",
+      "wikiSource": "Drop",
       "links": [
         "/wiki/Storm_Gauntlets"
       ]
@@ -103,6 +124,7 @@
       "skill": 300,
       "ourSkill": 290,
       "category": "Mail Helmets",
+      "wikiSource": "Drop",
       "links": [
         "/wiki/Helm_of_the_Great_Chief"
       ]
@@ -113,6 +135,7 @@
       "skill": 300,
       "ourSkill": 295,
       "category": "Mail Chestguards",
+      "wikiSource": "Drop",
       "links": [
         "/wiki/Invulnerable_Mail"
       ]
@@ -123,6 +146,7 @@
       "skill": 300,
       "ourSkill": 295,
       "category": "Mail Boots",
+      "wikiSource": "Vendor",
       "links": [
         "/wiki/Heavy_Timbermaw_Boots"
       ]
@@ -133,6 +157,7 @@
       "skill": 300,
       "ourSkill": 295,
       "category": "Leather Pauldrons",
+      "wikiSource": "Vendor",
       "links": [
         "/wiki/Golden_Mantle_of_the_Dawn"
       ]
@@ -143,6 +168,7 @@
       "skill": 320,
       "ourSkill": 300,
       "category": "Cloaks",
+      "wikiSource": "?",
       "links": [
         "/wiki/Onyxia_Scale_Cloak"
       ]
@@ -155,6 +181,7 @@
       "skill": 15,
       "ourSkill": null,
       "category": "Leather Legguards",
+      "wikiSource": "Trainer",
       "links": [
         "/wiki/Handstitched_Leather_Pants"
       ]
@@ -165,6 +192,7 @@
       "skill": 25,
       "ourSkill": null,
       "category": "Leather Belts",
+      "wikiSource": "Trainer",
       "links": [
         "/wiki/Handstitched_Leather_Belt"
       ]
@@ -175,6 +203,7 @@
       "skill": 25,
       "ourSkill": null,
       "category": "Quivers",
+      "wikiSource": "Trainer",
       "links": [
         "/wiki/Light_Leather_Quiver"
       ]
@@ -185,6 +214,7 @@
       "skill": 25,
       "ourSkill": null,
       "category": "Ammo Pouches",
+      "wikiSource": "Trainer",
       "links": [
         "/wiki/Small_Leather_Ammo_Pouch"
       ]
@@ -195,6 +225,7 @@
       "skill": 30,
       "ourSkill": null,
       "category": "Reagents",
+      "wikiSource": "Trainer",
       "links": [
         "/wiki/Cured_Light_Hide"
       ]
@@ -205,6 +236,7 @@
       "skill": 35,
       "ourSkill": null,
       "category": "Leather Chestguards",
+      "wikiSource": "Trainer",
       "links": [
         "/wiki/Embossed_Leather_Vest"
       ]
@@ -215,6 +247,7 @@
       "skill": 40,
       "ourSkill": null,
       "category": "Cloaks",
+      "wikiSource": "Trainer",
       "links": [
         "/wiki/Embossed_Leather_Cloak"
       ]
@@ -225,6 +258,7 @@
       "skill": 40,
       "ourSkill": null,
       "category": "Leather Gauntlets",
+      "wikiSource": "Trainer",
       "links": [
         "/wiki/Embossed_Leather_Gloves"
       ]
@@ -235,6 +269,7 @@
       "skill": 45,
       "ourSkill": null,
       "category": "Leather Bracers",
+      "wikiSource": "Trainer",
       "links": [
         "/wiki/Light_Leather_Bracers"
       ]
@@ -245,6 +280,7 @@
       "skill": 50,
       "ourSkill": null,
       "category": "Cloaks",
+      "wikiSource": "Trainer",
       "links": [
         "/wiki/Fine_Leather_Cloak"
       ]
@@ -255,6 +291,7 @@
       "skill": 50,
       "ourSkill": null,
       "category": "Leather Boots",
+      "wikiSource": "Trainer",
       "links": [
         "/wiki/Embossed_Leather_Boots"
       ]
@@ -265,6 +302,7 @@
       "skill": 50,
       "ourSkill": null,
       "category": "Leather Legguards",
+      "wikiSource": "Trainer",
       "links": [
         "/wiki/Embossed_Leather_Pants"
       ]
@@ -275,6 +313,7 @@
       "skill": 55,
       "ourSkill": null,
       "category": "Leather Belts",
+      "wikiSource": "Trainer",
       "links": [
         "/wiki/Fine_Leather_Belt"
       ]
@@ -285,6 +324,7 @@
       "skill": 60,
       "ourSkill": null,
       "category": "Leather Chestguards",
+      "wikiSource": "Trainer",
       "links": [
         "/wiki/Fine_Leather_Tunic"
       ]
@@ -295,6 +335,7 @@
       "skill": 70,
       "ourSkill": null,
       "category": "Leather Legguards",
+      "wikiSource": "Trainer",
       "links": [
         "/wiki/Light_Leather_Pants"
       ]
@@ -305,6 +346,7 @@
       "skill": 75,
       "ourSkill": null,
       "category": "Reagents",
+      "wikiSource": "Trainer",
       "links": [
         "/wiki/Medium_Leather"
       ]
@@ -315,6 +357,7 @@
       "skill": 75,
       "ourSkill": null,
       "category": "Reagents",
+      "wikiSource": "Trainer",
       "links": [
         "/wiki/Cured_Medium_Hide"
       ]
@@ -325,6 +368,7 @@
       "skill": 75,
       "ourSkill": null,
       "category": "Armor Kits",
+      "wikiSource": "Trainer",
       "links": [
         "/wiki/Medium_Armor_Kit"
       ]
@@ -335,6 +379,7 @@
       "skill": 75,
       "ourSkill": null,
       "category": "Leather Boots",
+      "wikiSource": "Trainer",
       "links": [
         "/wiki/Gray_Leather_Boots?action=edit&redlink=1"
       ]
@@ -345,6 +390,7 @@
       "skill": 80,
       "ourSkill": null,
       "category": "Leather Chestguards",
+      "wikiSource": "?",
       "links": [
         "/wiki/Brawler%27s_Leather_Armor?action=edit&redlink=1"
       ]
@@ -355,6 +401,7 @@
       "skill": 80,
       "ourSkill": null,
       "category": "Leather Chestguards",
+      "wikiSource": "?",
       "links": [
         "/wiki/Defender%27s_Leather_Armor?action=edit&redlink=1"
       ]
@@ -365,6 +412,7 @@
       "skill": 80,
       "ourSkill": null,
       "category": "Leather Chestguards",
+      "wikiSource": "?",
       "links": [
         "/wiki/Stormrider%27s_Leather_Armor?action=edit&redlink=1"
       ]
@@ -375,6 +423,7 @@
       "skill": 80,
       "ourSkill": null,
       "category": "Leather Chestguards",
+      "wikiSource": "?",
       "links": [
         "/wiki/Totemic_Leather_Armor?action=edit&redlink=1"
       ]
@@ -385,6 +434,7 @@
       "skill": 80,
       "ourSkill": null,
       "category": "Leather Chestguards",
+      "wikiSource": "?",
       "links": [
         "/wiki/Trapper%27s_Leather_Armor?action=edit&redlink=1"
       ]
@@ -395,6 +445,7 @@
       "skill": 80,
       "ourSkill": null,
       "category": "Leather Chestguards",
+      "wikiSource": "?",
       "links": [
         "/wiki/Wisdom%27s_Leather_Armor?action=edit&redlink=1"
       ]
@@ -405,6 +456,7 @@
       "skill": 85,
       "ourSkill": null,
       "category": "Cloaks",
+      "wikiSource": "Trainer",
       "links": [
         "/wiki/Dark_Leather_Cloak"
       ]
@@ -415,6 +467,7 @@
       "skill": 90,
       "ourSkill": null,
       "category": "Leather Legguards",
+      "wikiSource": "Trainer",
       "links": [
         "/wiki/Dark_Leather_Pants"
       ]
@@ -425,6 +478,7 @@
       "skill": 95,
       "ourSkill": null,
       "category": "Leather Gauntlets",
+      "wikiSource": "Trainer",
       "links": [
         "/wiki/Nimble_Leather_Gloves"
       ]
@@ -435,6 +489,7 @@
       "skill": 95,
       "ourSkill": null,
       "category": "Leather Chestguards",
+      "wikiSource": "Trainer",
       "links": [
         "/wiki/Toughened_Leather_Armor"
       ]
@@ -445,6 +500,7 @@
       "skill": 100,
       "ourSkill": null,
       "category": "Leather Belts",
+      "wikiSource": "Trainer",
       "links": [
         "/wiki/Dark_Leather_Belt"
       ]
@@ -455,6 +511,7 @@
       "skill": 100,
       "ourSkill": null,
       "category": "Leather Gauntlets",
+      "wikiSource": "Trainer",
       "links": [
         "/wiki/Fletcher%27s_Gloves"
       ]
@@ -465,6 +522,7 @@
       "skill": 105,
       "ourSkill": null,
       "category": "Leather Legguards",
+      "wikiSource": "?",
       "links": [
         "/wiki/Brawler%27s_Leather_Pants?action=edit&redlink=1"
       ]
@@ -475,6 +533,7 @@
       "skill": 105,
       "ourSkill": null,
       "category": "Leather Legguards",
+      "wikiSource": "?",
       "links": [
         "/wiki/Defender%27s_Leather_Pants?action=edit&redlink=1"
       ]
@@ -485,6 +544,7 @@
       "skill": 105,
       "ourSkill": null,
       "category": "Leather Legguards",
+      "wikiSource": "?",
       "links": [
         "/wiki/Stormrider%27s_Leather_Pants?action=edit&redlink=1"
       ]
@@ -495,6 +555,7 @@
       "skill": 105,
       "ourSkill": null,
       "category": "Leather Legguards",
+      "wikiSource": "?",
       "links": [
         "/wiki/Totemic_Leather_Pants?action=edit&redlink=1"
       ]
@@ -505,6 +566,7 @@
       "skill": 105,
       "ourSkill": null,
       "category": "Leather Legguards",
+      "wikiSource": "?",
       "links": [
         "/wiki/Trapper%27s_Leather_Pants?action=edit&redlink=1"
       ]
@@ -515,6 +577,7 @@
       "skill": 105,
       "ourSkill": null,
       "category": "Leather Legguards",
+      "wikiSource": "?",
       "links": [
         "/wiki/Wisdom%27s_Leather_Pants?action=edit&redlink=1"
       ]
@@ -525,6 +588,7 @@
       "skill": 105,
       "ourSkill": null,
       "category": "Leather Pauldrons",
+      "wikiSource": "Trainer",
       "links": [
         "/wiki/Hillman%27s_Shoulders"
       ]
@@ -535,6 +599,7 @@
       "skill": 120,
       "ourSkill": null,
       "category": "Leather Gauntlets",
+      "wikiSource": "Trainer",
       "links": [
         "/wiki/Hillman%27s_Leather_Gloves"
       ]
@@ -545,6 +610,7 @@
       "skill": 125,
       "ourSkill": null,
       "category": "Reagents",
+      "wikiSource": "Trainer",
       "links": [
         "/wiki/Heavy_Leather"
       ]
@@ -555,6 +621,7 @@
       "skill": 125,
       "ourSkill": null,
       "category": "Reagents",
+      "wikiSource": "Trainer",
       "links": [
         "/wiki/Cured_Heavy_Hide"
       ]
@@ -565,6 +632,7 @@
       "skill": 125,
       "ourSkill": null,
       "category": "Armor Kits",
+      "wikiSource": "Trainer",
       "links": [
         "/wiki/Heavy_Armor_Kit"
       ]
@@ -575,6 +643,7 @@
       "skill": 125,
       "ourSkill": null,
       "category": "Ammo Pouches",
+      "wikiSource": "Trainer",
       "links": [
         "/wiki/Heavy_Leather_Ammo_Pouch"
       ]
@@ -585,6 +654,7 @@
       "skill": 125,
       "ourSkill": null,
       "category": "Quivers",
+      "wikiSource": "Trainer",
       "links": [
         "/wiki/Heavy_Quiver"
       ]
@@ -595,6 +665,7 @@
       "skill": 125,
       "ourSkill": null,
       "category": "Cloaks",
+      "wikiSource": "Trainer",
       "links": [
         "/wiki/Hillman%27s_Cloak"
       ]
@@ -605,6 +676,7 @@
       "skill": 130,
       "ourSkill": null,
       "category": "Leather Helmets",
+      "wikiSource": "?",
       "links": [
         "/wiki/Brawler%27s_Leather_Helm?action=edit&redlink=1"
       ]
@@ -615,6 +687,7 @@
       "skill": 130,
       "ourSkill": null,
       "category": "Leather Helmets",
+      "wikiSource": "?",
       "links": [
         "/wiki/Defender%27s_Leather_Helm?action=edit&redlink=1"
       ]
@@ -625,6 +698,7 @@
       "skill": 130,
       "ourSkill": null,
       "category": "Leather Helmets",
+      "wikiSource": "?",
       "links": [
         "/wiki/Stormrider%27s_Leather_Helm?action=edit&redlink=1"
       ]
@@ -635,6 +709,7 @@
       "skill": 130,
       "ourSkill": null,
       "category": "Leather Helmets",
+      "wikiSource": "?",
       "links": [
         "/wiki/Totemic_Leather_Helm?action=edit&redlink=1"
       ]
@@ -645,6 +720,7 @@
       "skill": 130,
       "ourSkill": null,
       "category": "Leather Helmets",
+      "wikiSource": "?",
       "links": [
         "/wiki/Trapper%27s_Leather_Helm?action=edit&redlink=1"
       ]
@@ -655,6 +731,7 @@
       "skill": 130,
       "ourSkill": null,
       "category": "Leather Helmets",
+      "wikiSource": "?",
       "links": [
         "/wiki/Wisdom%27s_Leather_Helm?action=edit&redlink=1"
       ]
@@ -665,6 +742,7 @@
       "skill": 135,
       "ourSkill": null,
       "category": "Leather Belts",
+      "wikiSource": "Trainer",
       "links": [
         "/wiki/Green_Leather_Belt"
       ]
@@ -675,6 +753,7 @@
       "skill": 150,
       "ourSkill": null,
       "category": "Leather Pauldrons",
+      "wikiSource": "Trainer",
       "links": [
         "/wiki/Barbaric_Shoulders"
       ]
@@ -685,6 +764,7 @@
       "skill": 150,
       "ourSkill": null,
       "category": "Leather Chestguards",
+      "wikiSource": "Trainer",
       "links": [
         "/wiki/Dusky_Leather_Armor"
       ]
@@ -695,6 +775,7 @@
       "skill": 155,
       "ourSkill": null,
       "category": "Cloaks",
+      "wikiSource": "Trainer",
       "links": [
         "/wiki/Frost_Leather_Cloak"
       ]
@@ -705,6 +786,7 @@
       "skill": 155,
       "ourSkill": null,
       "category": "Leather Bracers",
+      "wikiSource": "Trainer",
       "links": [
         "/wiki/Green_Leather_Bracers"
       ]
@@ -715,6 +797,7 @@
       "skill": 160,
       "ourSkill": null,
       "category": "SEASON OF DISCOVERY",
+      "wikiSource": "?",
       "links": [
         "/wiki/Void-Touched_Leather_Gauntlets"
       ]
@@ -725,6 +808,7 @@
       "skill": 160,
       "ourSkill": null,
       "category": "SEASON OF DISCOVERY",
+      "wikiSource": "?",
       "links": [
         "/wiki/Void-Touched_Leather_Gloves"
       ]
@@ -735,6 +819,7 @@
       "skill": 160,
       "ourSkill": null,
       "category": "Leather Bracers",
+      "wikiSource": "Trainer",
       "links": [
         "/wiki/Dusky_Bracers"
       ]
@@ -745,18 +830,9 @@
       "skill": 160,
       "ourSkill": null,
       "category": "Cloaks",
+      "wikiSource": "Drop",
       "links": [
         "/wiki/Guardian_Cloak"
-      ]
-    },
-    {
-      "id": "6661",
-      "name": "Barbaric Harness",
-      "skill": 165,
-      "ourSkill": null,
-      "category": "Leather Chestguards",
-      "links": [
-        "/wiki/Barbaric_Harness"
       ]
     },
     {
@@ -765,6 +841,7 @@
       "skill": 165,
       "ourSkill": null,
       "category": "Leather Gauntlets",
+      "wikiSource": "Trainer",
       "links": [
         "/wiki/Guardian_Gloves"
       ]
@@ -775,6 +852,7 @@
       "skill": 170,
       "ourSkill": null,
       "category": "Leather Belts",
+      "wikiSource": "Trainer",
       "links": [
         "/wiki/Dusky_Belt"
       ]
@@ -785,6 +863,7 @@
       "skill": 175,
       "ourSkill": null,
       "category": "Reagents",
+      "wikiSource": "Trainer",
       "links": [
         "/wiki/Cured_Thick_Hide"
       ]
@@ -795,6 +874,7 @@
       "skill": 175,
       "ourSkill": null,
       "category": "Reagents",
+      "wikiSource": "Trainer",
       "links": [
         "/wiki/Thick_Leather"
       ]
@@ -805,6 +885,7 @@
       "skill": 175,
       "ourSkill": null,
       "category": "Armor Kits",
+      "wikiSource": "Trainer",
       "links": [
         "/wiki/Thick_Armor_Kit"
       ]
@@ -815,6 +896,7 @@
       "skill": 180,
       "ourSkill": null,
       "category": "Leather Helmets",
+      "wikiSource": "Trainer",
       "links": [
         "/wiki/Nightscape_Headband"
       ]
@@ -825,6 +907,7 @@
       "skill": 180,
       "ourSkill": null,
       "category": "Leather Chestguards",
+      "wikiSource": "Trainer",
       "links": [
         "/wiki/Nightscape_Tunic"
       ]
@@ -835,6 +918,7 @@
       "skill": 185,
       "ourSkill": null,
       "category": "Mail Bracers",
+      "wikiSource": "Trainer",
       "links": [
         "/wiki/Turtle_Scale_Bracers"
       ]
@@ -845,6 +929,7 @@
       "skill": 200,
       "ourSkill": null,
       "category": "SEASON OF DISCOVERY",
+      "wikiSource": "Vendor",
       "links": [
         "/wiki/Faintly_Glowing_Leather"
       ]
@@ -855,6 +940,7 @@
       "skill": 200,
       "ourSkill": null,
       "category": "Quivers",
+      "wikiSource": "Trainer",
       "links": [
         "/wiki/Quickdraw_Quiver"
       ]
@@ -865,6 +951,7 @@
       "skill": 200,
       "ourSkill": null,
       "category": "Ammo Pouches",
+      "wikiSource": "Trainer",
       "links": [
         "/wiki/Thick_Leather_Ammo_Pouch"
       ]
@@ -875,6 +962,7 @@
       "skill": 205,
       "ourSkill": null,
       "category": "Leather Legguards",
+      "wikiSource": "Trainer",
       "links": [
         "/wiki/Nightscape_Pants"
       ]
@@ -885,6 +973,7 @@
       "skill": 205,
       "ourSkill": null,
       "category": "Mail Helmets",
+      "wikiSource": "Trainer",
       "links": [
         "/wiki/Turtle_Scale_Helm"
       ]
@@ -895,6 +984,7 @@
       "skill": 210,
       "ourSkill": null,
       "category": "Leather Boots",
+      "wikiSource": "Trainer",
       "links": [
         "/wiki/Nightscape_Boots"
       ]
@@ -905,6 +995,7 @@
       "skill": 210,
       "ourSkill": null,
       "category": "Leather Pauldrons",
+      "wikiSource": "Vendor",
       "links": [
         "/wiki/Skulker%27s_Leather_Shoulders?action=edit&redlink=1"
       ]
@@ -915,6 +1006,7 @@
       "skill": 210,
       "ourSkill": null,
       "category": "Mail Legguards",
+      "wikiSource": "Trainer",
       "links": [
         "/wiki/Turtle_Scale_Leggings"
       ]
@@ -925,6 +1017,7 @@
       "skill": 225,
       "ourSkill": null,
       "category": "Mail Gauntlets",
+      "wikiSource": "Trainer",
       "links": [
         "/wiki/Dragonscale_Gauntlets"
       ]
@@ -935,6 +1028,7 @@
       "skill": 225,
       "ourSkill": null,
       "category": "Leather Helmets",
+      "wikiSource": "?",
       "links": [
         "/wiki/Wolfshead_Helm"
       ]
@@ -945,6 +1039,7 @@
       "skill": 225,
       "ourSkill": null,
       "category": "Reagents",
+      "wikiSource": "Trainer",
       "links": [
         "/wiki/Rugged_Leather"
       ]
@@ -955,6 +1050,7 @@
       "skill": 225,
       "ourSkill": null,
       "category": "Reagents",
+      "wikiSource": "Trainer",
       "links": [
         "/wiki/Cured_Rugged_Hide"
       ]
@@ -965,6 +1061,7 @@
       "skill": 225,
       "ourSkill": null,
       "category": "SEASON OF DISCOVERY",
+      "wikiSource": "Vendor",
       "links": [
         "/wiki/Glowing_Gneuro-Linked_Cowl"
       ]
@@ -975,6 +1072,7 @@
       "skill": 225,
       "ourSkill": null,
       "category": "SEASON OF DISCOVERY",
+      "wikiSource": "Vendor",
       "links": [
         "/wiki/Glowing_Hyperconductive_Scale_Coif"
       ]
@@ -985,6 +1083,7 @@
       "skill": 225,
       "ourSkill": null,
       "category": "SEASON OF DISCOVERY",
+      "wikiSource": "Vendor",
       "links": [
         "/wiki/Gneuro-Conductive_Channeler%27s_Hood"
       ]
@@ -995,6 +1094,7 @@
       "skill": 225,
       "ourSkill": null,
       "category": "SEASON OF DISCOVERY",
+      "wikiSource": "Vendor",
       "links": [
         "/wiki/Rad-Resistant_Scale_Hood"
       ]
@@ -1005,6 +1105,7 @@
       "skill": 225,
       "ourSkill": null,
       "category": "Armor Kits",
+      "wikiSource": "Trainer",
       "links": [
         "/wiki/Rugged_Armor_Kit"
       ]
@@ -1015,6 +1116,7 @@
       "skill": 230,
       "ourSkill": null,
       "category": "Leather Gauntlets",
+      "wikiSource": "?",
       "links": [
         "/wiki/Gauntlets_of_the_Sea"
       ]
@@ -1025,6 +1127,7 @@
       "skill": 250,
       "ourSkill": null,
       "category": "SEASON OF DISCOVERY",
+      "wikiSource": "?",
       "links": [
         "/wiki/Cacophonous_Chain_Shoulderguards"
       ]
@@ -1035,6 +1138,7 @@
       "skill": 250,
       "ourSkill": null,
       "category": "SEASON OF DISCOVERY",
+      "wikiSource": "?",
       "links": [
         "/wiki/Membrane_of_Dark_Neurosis"
       ]
@@ -1045,6 +1149,7 @@
       "skill": 250,
       "ourSkill": null,
       "category": "SEASON OF DISCOVERY",
+      "wikiSource": "?",
       "links": [
         "/wiki/Paranoia_Mantle"
       ]
@@ -1055,6 +1160,7 @@
       "skill": 250,
       "ourSkill": null,
       "category": "SEASON OF DISCOVERY",
+      "wikiSource": "?",
       "links": [
         "/wiki/Screaming_Chain_Pauldrons"
       ]
@@ -1065,6 +1171,7 @@
       "skill": 250,
       "ourSkill": null,
       "category": "SEASON OF DISCOVERY",
+      "wikiSource": "?",
       "links": [
         "/wiki/Shoulderpads_of_Obsession"
       ]
@@ -1075,6 +1182,7 @@
       "skill": 250,
       "ourSkill": null,
       "category": "SEASON OF DISCOVERY",
+      "wikiSource": "?",
       "links": [
         "/wiki/Shrieking_Spaulders"
       ]
@@ -1085,6 +1193,7 @@
       "skill": 250,
       "ourSkill": null,
       "category": "SEASON OF DISCOVERY",
+      "wikiSource": "?",
       "links": [
         "/wiki/Wailing_Chain_Mantle"
       ]
@@ -1095,6 +1204,7 @@
       "skill": 250,
       "ourSkill": null,
       "category": "Leather Chestguards",
+      "wikiSource": "?",
       "links": [
         "/wiki/Feathered_Breastplate"
       ]
@@ -1105,6 +1215,7 @@
       "skill": 250,
       "ourSkill": null,
       "category": "Leather Helmets",
+      "wikiSource": "?",
       "links": [
         "/wiki/Helm_of_Fire"
       ]
@@ -1115,6 +1226,7 @@
       "skill": 250,
       "ourSkill": null,
       "category": "SEASON OF DISCOVERY",
+      "wikiSource": "Drop",
       "links": [
         "/wiki/Scarlet_Huntsman%27s_Clasp"
       ]
@@ -1125,6 +1237,7 @@
       "skill": 250,
       "ourSkill": null,
       "category": "SEASON OF DISCOVERY",
+      "wikiSource": "Drop",
       "links": [
         "/wiki/Scarlet_Huntsman%27s_Wristguards"
       ]
@@ -1135,6 +1248,7 @@
       "skill": 250,
       "ourSkill": null,
       "category": "SEASON OF DISCOVERY",
+      "wikiSource": "Drop",
       "links": [
         "/wiki/Scarlet_Infiltrator%27s_Belt"
       ]
@@ -1145,6 +1259,7 @@
       "skill": 250,
       "ourSkill": null,
       "category": "SEASON OF DISCOVERY",
+      "wikiSource": "Drop",
       "links": [
         "/wiki/Scarlet_Infiltrator%27s_Bracers"
       ]
@@ -1155,6 +1270,7 @@
       "skill": 255,
       "ourSkill": null,
       "category": "Mail Chestguards",
+      "wikiSource": "Trainer",
       "links": [
         "/wiki/Dragonscale_Breastplate"
       ]
@@ -1165,6 +1281,7 @@
       "skill": 260,
       "ourSkill": null,
       "category": "SEASON OF DISCOVERY",
+      "wikiSource": "Drop",
       "links": [
         "/wiki/Scarlet_Huntsman%27s_Boots"
       ]
@@ -1175,6 +1292,7 @@
       "skill": 260,
       "ourSkill": null,
       "category": "SEASON OF DISCOVERY",
+      "wikiSource": "Drop",
       "links": [
         "/wiki/Scarlet_Huntsman%27s_Handguards"
       ]
@@ -1185,6 +1303,7 @@
       "skill": 260,
       "ourSkill": null,
       "category": "SEASON OF DISCOVERY",
+      "wikiSource": "Drop",
       "links": [
         "/wiki/Scarlet_Infiltrator%27s_Gloves"
       ]
@@ -1195,6 +1314,7 @@
       "skill": 260,
       "ourSkill": null,
       "category": "SEASON OF DISCOVERY",
+      "wikiSource": "Drop",
       "links": [
         "/wiki/Scarlet_Infiltrator%27s_Shoes"
       ]
@@ -1205,6 +1325,7 @@
       "skill": 260,
       "ourSkill": null,
       "category": "SEASON OF DISCOVERY",
+      "wikiSource": "Vendor",
       "links": [
         "/wiki/Living_Green_Dragonscale_Breastplate"
       ]
@@ -1215,6 +1336,7 @@
       "skill": 270,
       "ourSkill": null,
       "category": "SEASON OF DISCOVERY",
+      "wikiSource": "Drop",
       "links": [
         "/wiki/Scarlet_Huntsman%27s_Legguards"
       ]
@@ -1225,6 +1347,7 @@
       "skill": 270,
       "ourSkill": null,
       "category": "SEASON OF DISCOVERY",
+      "wikiSource": "Drop",
       "links": [
         "/wiki/Scarlet_Infiltrator%27s_Trousers"
       ]
@@ -1235,6 +1358,7 @@
       "skill": 270,
       "ourSkill": null,
       "category": "SEASON OF DISCOVERY",
+      "wikiSource": "?",
       "links": [
         "/wiki/Living_Green_Dragonscale_Leggings"
       ]
@@ -1245,6 +1369,7 @@
       "skill": 270,
       "ourSkill": null,
       "category": "SEASON OF DISCOVERY",
+      "wikiSource": "Drop",
       "links": [
         "/wiki/Masterwork_Volcanic_Leggings"
       ]
@@ -1255,6 +1380,7 @@
       "skill": 270,
       "ourSkill": null,
       "category": "SEASON OF DISCOVERY",
+      "wikiSource": "?",
       "links": [
         "/wiki/Living_Green_Dragonscale_Gauntlets"
       ]
@@ -1265,6 +1391,7 @@
       "skill": 275,
       "ourSkill": null,
       "category": "SEASON OF DISCOVERY",
+      "wikiSource": "?",
       "links": [
         "/wiki/Scarlet_Ammo_Pouch?action=edit&redlink=1"
       ]
@@ -1275,6 +1402,7 @@
       "skill": 275,
       "ourSkill": null,
       "category": "SEASON OF DISCOVERY",
+      "wikiSource": "?",
       "links": [
         "/wiki/Scarlet_Quiver?action=edit&redlink=1"
       ]
@@ -1285,6 +1413,7 @@
       "skill": 280,
       "ourSkill": null,
       "category": "Mail Gauntlets",
+      "wikiSource": "Trainer",
       "links": [
         "/wiki/Green_Dragonscale_Gauntlets"
       ]
@@ -1295,6 +1424,7 @@
       "skill": 280,
       "ourSkill": null,
       "category": "SEASON OF DISCOVERY",
+      "wikiSource": "Drop",
       "links": [
         "/wiki/Scarlet_Huntsman%27s_Chain"
       ]
@@ -1305,6 +1435,7 @@
       "skill": 280,
       "ourSkill": null,
       "category": "SEASON OF DISCOVERY",
+      "wikiSource": "Drop",
       "links": [
         "/wiki/Scarlet_Huntsman%27s_Coif"
       ]
@@ -1315,6 +1446,7 @@
       "skill": 280,
       "ourSkill": null,
       "category": "SEASON OF DISCOVERY",
+      "wikiSource": "Drop",
       "links": [
         "/wiki/Scarlet_Huntsman%27s_Pauldrons"
       ]
@@ -1325,6 +1457,7 @@
       "skill": 280,
       "ourSkill": null,
       "category": "SEASON OF DISCOVERY",
+      "wikiSource": "Drop",
       "links": [
         "/wiki/Scarlet_Infiltrator%27s_Bandana"
       ]
@@ -1335,6 +1468,7 @@
       "skill": 280,
       "ourSkill": null,
       "category": "SEASON OF DISCOVERY",
+      "wikiSource": "Drop",
       "links": [
         "/wiki/Scarlet_Infiltrator%27s_Shoulderpads"
       ]
@@ -1345,6 +1479,7 @@
       "skill": 280,
       "ourSkill": null,
       "category": "SEASON OF DISCOVERY",
+      "wikiSource": "Drop",
       "links": [
         "/wiki/Scarlet_Infiltrator%27s_Vest"
       ]
@@ -1355,6 +1490,7 @@
       "skill": 285,
       "ourSkill": null,
       "category": "SEASON OF DISCOVERY",
+      "wikiSource": "?",
       "links": [
         "/wiki/Synthetic_Gordok_Ogre_Suit"
       ]
@@ -1365,6 +1501,7 @@
       "skill": 285,
       "ourSkill": null,
       "category": "SEASON OF DISCOVERY",
+      "wikiSource": "Vendor",
       "links": [
         "/wiki/Honed_Blue_Dragonscale_Breastplate"
       ]
@@ -1375,6 +1512,7 @@
       "skill": 285,
       "ourSkill": null,
       "category": "SEASON OF DISCOVERY",
+      "wikiSource": "Drop",
       "links": [
         "/wiki/Masterwork_Volcanic_Breastplate"
       ]
@@ -1385,6 +1523,7 @@
       "skill": 290,
       "ourSkill": null,
       "category": "SEASON OF DISCOVERY",
+      "wikiSource": "Drop",
       "links": [
         "/wiki/Devilcore_Gauntlets"
       ]
@@ -1395,6 +1534,7 @@
       "skill": 290,
       "ourSkill": null,
       "category": "SEASON OF DISCOVERY",
+      "wikiSource": "Vendor",
       "links": [
         "/wiki/Hardened_Black_Dragonscale_Breastplate"
       ]
@@ -1405,6 +1545,7 @@
       "skill": 295,
       "ourSkill": null,
       "category": "SEASON OF DISCOVERY",
+      "wikiSource": "Drop",
       "links": [
         "/wiki/Honed_Blue_Dragonscale_Shoulders"
       ]
@@ -1415,6 +1556,7 @@
       "skill": 300,
       "ourSkill": null,
       "category": "Mail Legguards",
+      "wikiSource": "Trainer",
       "links": [
         "/wiki/Blue_Dragonscale_Leggings"
       ]
@@ -1425,6 +1567,7 @@
       "skill": 300,
       "ourSkill": null,
       "category": "SEASON OF DISCOVERY",
+      "wikiSource": "Drop",
       "links": [
         "/wiki/Brilliant_Chromatic_Cloak"
       ]
@@ -1435,6 +1578,7 @@
       "skill": 300,
       "ourSkill": null,
       "category": "SEASON OF DISCOVERY",
+      "wikiSource": "Drop",
       "links": [
         "/wiki/Devilcore_Leggings"
       ]
@@ -1445,6 +1589,7 @@
       "skill": 300,
       "ourSkill": null,
       "category": "SEASON OF DISCOVERY",
+      "wikiSource": "Drop",
       "links": [
         "/wiki/Girdle_of_Arcane_Insight"
       ]
@@ -1455,6 +1600,7 @@
       "skill": 300,
       "ourSkill": null,
       "category": "SEASON OF DISCOVERY",
+      "wikiSource": "Drop",
       "links": [
         "/wiki/Hardened_Black_Dragonscale_Leggings"
       ]
@@ -1465,6 +1611,7 @@
       "skill": 300,
       "ourSkill": null,
       "category": "SEASON OF DISCOVERY",
+      "wikiSource": "Drop",
       "links": [
         "/wiki/Hardened_Black_Dragonscale_Shoulders"
       ]
@@ -1475,6 +1622,7 @@
       "skill": 300,
       "ourSkill": null,
       "category": "SEASON OF DISCOVERY",
+      "wikiSource": "Drop",
       "links": [
         "/wiki/Mastercrafted_Shifting_Cloak"
       ]
@@ -1485,6 +1633,7 @@
       "skill": 300,
       "ourSkill": null,
       "category": "SEASON OF DISCOVERY",
+      "wikiSource": "Drop",
       "links": [
         "/wiki/Masterwork_Volcanic_Shoulders"
       ]
@@ -1495,6 +1644,7 @@
       "skill": 300,
       "ourSkill": null,
       "category": "SEASON OF DISCOVERY",
+      "wikiSource": "Drop",
       "links": [
         "/wiki/Swift_Flight_Vambraces"
       ]
@@ -1505,6 +1655,7 @@
       "skill": 320,
       "ourSkill": null,
       "category": "SEASON OF DISCOVERY",
+      "wikiSource": "?",
       "links": [
         "/wiki/Dreamscale_Kilt"
       ]
@@ -1515,6 +1666,7 @@
       "skill": 320,
       "ourSkill": null,
       "category": "SEASON OF DISCOVERY",
+      "wikiSource": "?",
       "links": [
         "/wiki/Glowing_Chitin_Armor_Kit"
       ]
@@ -1525,6 +1677,7 @@
       "skill": 320,
       "ourSkill": null,
       "category": "SEASON OF DISCOVERY",
+      "wikiSource": "?",
       "links": [
         "/wiki/Honed_Blue_Dragonscale_Leggings"
       ]
@@ -1535,6 +1688,7 @@
       "skill": 320,
       "ourSkill": null,
       "category": "SEASON OF DISCOVERY",
+      "wikiSource": "?",
       "links": [
         "/wiki/Razorbramble_Cowl"
       ]
@@ -1545,6 +1699,7 @@
       "skill": 320,
       "ourSkill": null,
       "category": "SEASON OF DISCOVERY",
+      "wikiSource": "?",
       "links": [
         "/wiki/Razorbramble_Leathers"
       ]
@@ -1555,6 +1710,7 @@
       "skill": 320,
       "ourSkill": null,
       "category": "SEASON OF DISCOVERY",
+      "wikiSource": "?",
       "links": [
         "/wiki/Razorbramble_Shoulderpads"
       ]
@@ -1565,6 +1721,7 @@
       "skill": 320,
       "ourSkill": null,
       "category": "SEASON OF DISCOVERY",
+      "wikiSource": "?",
       "links": [
         "/wiki/Sharpened_Chitin_Armor_Kit"
       ]
@@ -1574,6 +1731,7 @@
     {
       "name": "Light Leather",
       "skill": 1,
+      "source": "?",
       "links": [
         "/wiki/Light_Leather"
       ]
@@ -1581,6 +1739,7 @@
     {
       "name": "Handstitched Leather Pants",
       "skill": 15,
+      "source": "Trainer",
       "links": [
         "/wiki/Handstitched_Leather_Pants"
       ]
@@ -1588,6 +1747,7 @@
     {
       "name": "Camp Tent",
       "skill": 20,
+      "source": "Quest",
       "links": [
         "/wiki/Camp_Tent"
       ]
@@ -1595,6 +1755,7 @@
     {
       "name": "Handstitched Leather Belt",
       "skill": 25,
+      "source": "Trainer",
       "links": [
         "/wiki/Handstitched_Leather_Belt"
       ]
@@ -1602,6 +1763,7 @@
     {
       "name": "Light Leather Quiver",
       "skill": 25,
+      "source": "Trainer",
       "links": [
         "/wiki/Light_Leather_Quiver"
       ]
@@ -1609,6 +1771,7 @@
     {
       "name": "Small Leather Ammo Pouch",
       "skill": 25,
+      "source": "Trainer",
       "links": [
         "/wiki/Small_Leather_Ammo_Pouch"
       ]
@@ -1616,6 +1779,7 @@
     {
       "name": "Light Armor Kit",
       "skill": 30,
+      "source": "?",
       "links": [
         "/wiki/Light_Armor_Kit"
       ]
@@ -1623,6 +1787,7 @@
     {
       "name": "Light Leather Reagent Bag",
       "skill": 30,
+      "source": "Quest",
       "links": [
         "/wiki/Light_Leather_Reagent_Bag?action=edit&redlink=1"
       ]
@@ -1630,6 +1795,7 @@
     {
       "name": "Cured Light Hide",
       "skill": 30,
+      "source": "Trainer",
       "links": [
         "/wiki/Cured_Light_Hide"
       ]
@@ -1637,6 +1803,7 @@
     {
       "name": "Rugged Leather Pants",
       "skill": 30,
+      "source": "Drop",
       "links": [
         "/wiki/Rugged_Leather_Pants"
       ]

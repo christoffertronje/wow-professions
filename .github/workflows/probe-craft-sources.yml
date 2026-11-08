@@ -1,0 +1,20 @@
+name: Check exact crafting skill sources
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - scripts/probe-craft-sources.py
+      - .github/workflows/probe-craft-sources.yml
+permissions:
+  contents: write
+jobs:
+  inspect:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: python3 scripts/probe-craft-sources.py
+      - run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs/crafting-source-access.json
+          git diff --cached --quiet || (git commit -m "docs: audit availability of exact crafting requirement sources" && git push)

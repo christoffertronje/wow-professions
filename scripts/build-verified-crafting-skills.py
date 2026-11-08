@@ -45,5 +45,10 @@ if extra_path.exists():
                 raise ValueError(f"Unrecorded source disagreement for {sid}")
         else:
             records[sid]=value
+# Regression checks for a known skill-up-threshold mixup and a source conflict.
+if records.get("3770",{}).get("required")!=110:
+    raise ValueError("Regression: Toughened Leather Gloves must require crafting skill 110")
+if "7153" in records:
+    raise ValueError("Guardian Cloak conflicting requirement must stay unresolved")
 OUT.write_text(json.dumps({"meta":{"source":data["source"],"entries":len(records),"sourceConflictsExcluded":len(conflict_ids) if extra_path.exists() else 0,"method":"Only a stated minimum crafting skill, keyed by unique spell ID; no yellow/green/grey thresholds."},"skillsBySpellId":records},ensure_ascii=False,separators=(",",":"))+"\n",encoding="utf-8")
 print("Verified crafting skills:",len(records))

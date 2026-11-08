@@ -76,6 +76,15 @@
     ],
     "note": "Wowhead Forever spell page explicitly lists Requires Leatherworking (200) for Thick Armor Kit; distinct from yellow skill-up threshold."
   },
+  "19047": {
+    "required": 250,
+    "source": "Trainer",
+    "requirementEvidence": "verified-wowhead-forever-spell",
+    "referenceUrls": [
+      "https://www.wowhead.com/forever/spell=19047/cured-rugged-hide"
+    ],
+    "note": "Forever spell Quick Facts directly states Requires Leatherworking (250); separate skill-up thresholds must not replace this."
+  },
   "1229432": {
     "required": 20,
     "source": "Trainer",

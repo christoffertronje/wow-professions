@@ -1,4 +1,13 @@
 {
+  "2149": {
+    "required": 1,
+    "source": "Starter",
+    "requirementEvidence": "verified-forever-pattern-table",
+    "referenceUrls": [
+      "https://www.wowhead.com/forever/spell=2149/handstitched-leather-boots",
+      "https://questing.wiki/wow-forever/professions/leatherworking/"
+    ]
+  },
   "3770": {
     "required": 110,
     "skillYellow": 135,
@@ -12,6 +21,15 @@
       "https://www.wowhead.com/forever/spell=3770/toughened-leather-gloves"
     ],
     "note": "Wowhead's 135 is the orange-to-yellow threshold, while Forever recipe guides list learning skill 110."
+  },
+  "1229432": {
+    "required": 20,
+    "source": "Trainer",
+    "requirementEvidence": "verified-forever-pattern-table",
+    "referenceUrls": [
+      "https://www.wowhead.com/forever/guide/professions/leatherworking-overview-trainer-locations-recipes",
+      "https://www.warcrafttavern.com/forever/guides/camping-objects-buffs/"
+    ]
   },
   "description": "Verified overrides of learning requirements; skill-up thresholds are separate and MUST NOT replace required skill."
 }

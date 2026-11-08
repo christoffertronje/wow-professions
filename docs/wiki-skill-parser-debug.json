@@ -1,0 +1,79 @@
+{
+  "rows": 0,
+  "tables": 7,
+  "sample": [
+    [
+      "",
+      "This item is exclusive to World of Warcraft: Forever . It does not exist in reta"
+    ],
+    [
+      "",
+      "Leatherworking ( Profession )"
+    ],
+    [
+      "Ingredients \u2022 Quests \u2022 Patterns \u2022 Trainers \u2022 Equipment"
+    ],
+    [
+      "Leatherworking patterns"
+    ],
+    [
+      "Classic Outland Northrend Cataclysm Pandaria Draenor Legion Battle for Azeroth S"
+    ],
+    [
+      "Item",
+      "Skill",
+      "Type",
+      "New?",
+      "Source"
+    ],
+    [
+      "[ Light Leather ]",
+      "1",
+      "",
+      "Old",
+      "?"
+    ],
+    [
+      "[ Handstitched Leather Pants ]",
+      "15",
+      "",
+      "Old",
+      "Trainer"
+    ],
+    [
+      "[ Camp Tent ]",
+      "20",
+      "",
+      "NEW",
+      "Quest"
+    ],
+    [
+      "Item",
+      "Skill",
+      "Type",
+      "New?",
+      "Source"
+    ],
+    [
+      "Brawler's Leather Armor",
+      "80",
+      "",
+      "NEW",
+      "?"
+    ],
+    [
+      "Defender's Leather Armor",
+      "80",
+      "",
+      "NEW",
+      "?"
+    ],
+    [
+      "Stormrider's Leather Armor",
+      "80",
+      "",
+      "NEW",
+      "?"
+    ]
+  ]
+}\n

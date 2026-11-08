@@ -26,7 +26,7 @@ for table in soup.select("table"):
     skill=td[1].get_text(" ",strip=True)
     if not (skill.isdigit() and 1<=len(skill)<=3):continue
     links=[a.get("href","") for a in td[0].select("a")][:4]
-    rows.append({"name":name,"skill":int(skill),"links":links})
+    rows.append({"name":name,"skill":int(skill),"source":td[4].get_text(" ",strip=True) if len(td)>=5 else "Unknown","links":links})
 if len(rows)<400:
   info={"rows":len(rows),"tables":len(soup.select("table")),"sample":[[n.get_text(" ",strip=True)[:80] for n in tr.find_all(["th","td"],recursive=False)] for t in soup.select("table")[:5] for tr in t.select("tr")[:4]]}
   pathlib.Path("docs/wiki-skill-parser-debug.json").write_text(json.dumps(info,indent=2)+"\\n")
@@ -38,12 +38,12 @@ for x in rows:
   candidates=by_name.get(norm(x["name"]),[])
   if len(candidates)==1 and names[norm(x["name"])]==1:
     r=candidates[0]
-    matches.append({"id":r["id"],"name":r["name"],"skill":x["skill"],"ourSkill":r["craftSkillRequired"],"category":r["category"],"links":x["links"]})
+    matches.append({"id":r["id"],"name":r["name"],"skill":x["skill"],"ourSkill":r["craftSkillRequired"],"category":r["category"],"wikiSource":x["source"],"links":x["links"]})
   elif len(candidates)==0:unmatched.append(x)
   else:duplicates.append(x)
 disagree=[x for x in matches if x["ourSkill"] is not None and x["skill"]!=x["ourSkill"]]
 new=[x for x in matches if x["ourSkill"] is None]
-report={"source":URL,"wikiRows":len(rows),"uniqueMatches":len(matches),"newPotential":len(new),"disagreements":len(disagree),"duplicateOrAmbiguous":len(duplicates),"notMatched":len(unmatched),"conflicts":disagree,"newCandidates":new,"sampleRowLinks":rows[:10]}
+report={"warning":"This page sometimes uses yellow skill-up thresholds where minimum craft requirements are unavailable (e.g. starting trainer recipes). Treat numbers as candidates only, never automatically import.", "source":URL,"wikiRows":len(rows),"uniqueMatches":len(matches),"newPotential":len(new),"disagreements":len(disagree),"duplicateOrAmbiguous":len(duplicates),"notMatched":len(unmatched),"conflicts":disagree,"newCandidates":new,"sampleRowLinks":rows[:10]}
 pathlib.Path("docs/wiki-craft-skill-crosscheck.json").write_text(json.dumps(report,indent=2)+"\n")
 print({k:report[k] for k in ("wikiRows","uniqueMatches","newPotential","disagreements","duplicateOrAmbiguous","notMatched")})
 print("conflicts examples",disagree[:8])

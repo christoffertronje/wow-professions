@@ -55,6 +55,17 @@ if pattern_file.exists():
             raise ValueError(f"Wiki pattern mismatch for spell {sid}")
         if sid not in records:
             records[sid]=value
+# Unique named Forever recipes corroborated by TWO separate recipe tables.
+# WCLBox has craft/yellow/green/gray; only first is accepted, checked against Wiki.
+wclbox_path=Path("data/wclbox-wiki-crafting-skills.json")
+if wclbox_path.exists():
+    corroborated=json.loads(wclbox_path.read_text(encoding="utf-8"))
+    for sid, value in corroborated["skillsBySpellId"].items():
+        if sid in records:
+            if records[sid]["required"]!=value["required"]:
+                raise ValueError(f"WCLBox/Wiki minimum disagrees with a vetted value for spell {sid}")
+        else:
+            records[sid]=value
 # Source-backed spell-level regression checks. Do not substitute skill-up tiers.
 checked_minimums={
     "3770":110, # Toughened Leather Gloves

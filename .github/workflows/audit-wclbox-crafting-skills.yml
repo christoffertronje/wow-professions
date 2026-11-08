@@ -1,0 +1,21 @@
+name: Compare WCLBox crafting minima
+on:
+  push:
+    paths:
+      - "scripts/audit-wclbox-crafting-skills.py"
+      - ".github/workflows/audit-wclbox-crafting-skills.yml"
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  compare:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: python3 -m pip install beautifulsoup4
+      - run: python3 scripts/audit-wclbox-crafting-skills.py
+      - run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs/wclbox-crafting-comparison.json
+          git diff --cached --quiet || (git commit -m "docs: audit WCLBox minimum crafting skills and conflicts" && git push)

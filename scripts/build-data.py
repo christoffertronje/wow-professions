@@ -66,6 +66,20 @@ for r in all_recipes:
         "category":r.get("category") or "Miscellaneous",
         "dataStatus":r.get("dataStatus") or "unknown"
     })
+# Apply small, independently verified corrections last; keep skill-up thresholds separate.
+correction_file=pathlib.Path("data/verified-skill-corrections.json")
+corrections=json.loads(correction_file.read_text(encoding="utf-8")) if correction_file.exists() else {}
+by_spell={entry["id"]:entry for entry in result}
+for spell_id, correction in corrections.items():
+    if spell_id=="description":
+        continue
+    if spell_id not in by_spell:
+        raise RuntimeError(f"Correction references missing spell {spell_id}")
+    entry=by_spell[spell_id]
+    for field in ("required","skillYellow","skillGreen","skillGray","source","requirementEvidence"):
+        if field in correction:
+            entry[field]=correction[field]
+    entry["requirementReferences"]=correction.get("referenceUrls",[])
 result.sort(key=lambda r:((r["required"] if isinstance(r["required"],int) else 9999),r["name"].casefold(),r["id"]))
 assert len(result)>=450,f"unexpectedly few Leatherworking recipes: {len(result)}"
 assert len(set(r["id"] for r in result))==len(result),"duplicate recipe IDs"

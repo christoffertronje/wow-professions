@@ -74,6 +74,14 @@ if pattern_wclbox_path.exists():
         if sid in records and records[sid]["required"] != value["required"]:
             raise ValueError(f"Pattern/WCLBox conflicting craft minimum for spell {sid}")
         records.setdefault(sid,value)
+# Explicit 'Learnable at' vs 'Yellow at' from per-spell Forever Ninja pages,
+# corroborated by WCLBox first required-skill field or observed in-game.
+ninja_path=Path("data/ninja-wclbox-crafting-skills.json")
+if ninja_path.exists():
+    for sid, value in json.loads(ninja_path.read_text(encoding="utf-8"))["skillsBySpellId"].items():
+        if sid in records and records[sid]["required"]!=value["required"]:
+            raise ValueError(f"Forever Ninja minimum conflicts with existing record {sid}")
+        records.setdefault(sid,value)
 # Source-backed spell-level regression checks. Do not substitute skill-up tiers.
 checked_minimums={
     "3770":110, # Toughened Leather Gloves

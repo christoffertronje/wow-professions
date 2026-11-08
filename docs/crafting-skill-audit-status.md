@@ -1,30 +1,53 @@
-# Leatherworking minimum crafting skill audit
+# Leatherworking minimum crafting-skill audit
 
-Status: **incomplete — 449 / 605 source-backed, 156 unresolved** (2026-11-08).
+**Status (2026-11-08): Main named Forever catalog covered; historical client records still unverified.**
 
-This project displays the **minimum Leatherworking skill to craft a recipe**. Yellow/green/grey skill-up thresholds must never be used in the `SKILL TO CRAFT` field.
+This app shows the **minimum Leatherworking skill needed to craft the recipe**, never the yellow/green/grey skill-up cutoffs. A number is *source-backed*, not necessarily individually tested inside the live game. We preserve its exact reference and mark unknown values with `?`.
 
-## Current coverage
+## Coverage
 
-- Total client recipes retained: **605**
-- Recipes with a source-backed minimum: **449**
-- Unknown: **156**, comprising **99** regular named recipes, **44** Season of Discovery entries, and **13** unidentifiable client records.
-- `Toughened Leather Gloves` (spell 3770): **110**, not yellow threshold 135.
-- `Barbaric Harness` (spell 6661): **190**, not yellow threshold 185.
-- `Heavy Armor Kit` (spell 3780): **150**, not 125.
-- `Thick Armor Kit` (spell 10487): **200**, not 175.
+| Scope | Source-backed minimum | Unresolved | Total |
+|---|---:|---:|---:|
+| Named non-Season-of-Discovery Leatherworking | 512 | 0 | 512 |
+| Archived Season of Discovery client records | 36 | 44 | 80 |
+| Unidentified client records | 0 | 13 | 13 |
+| **All retained client recipes** | **548** | **57** | **605** |
 
-## Data and validation
+We have **not** verified that every archived Season of Discovery recipe is currently obtainable or craftable in WoW Forever. The 13 unidentified records do not expose enough information to assign a trustworthy minimum. All 605 are retained in the dataset.
 
-- `data/verified-crafting-skills.json` is the authoritative *display* lookup.
-- `scripts/build-verified-crafting-skills.py` builds it from explicit required-skill references and vetted corrections. It stops on known regressions and excludes disputed Guardian Cloak (spell 7153).
-- `data/verified-skill-corrections.json` contains direct Wowhead Forever spell checks and other reviewed corrections.
-- `data/wiki-pattern-crafting-skills.json` has 37 additional vendor/drop patterns where separately recorded pattern-learning skill agrees with Warcraft Wiki's skill entry. These are source-backed rather than confirmed by in-game crafting.
-- The Warcraft Wiki table has known exceptions where its `Skill` cell appears to reflect skill-up thresholds (e.g. starter items). It is **not** a safe bulk crafting-skill source.
-- `docs/foreverlfg-crafting-crosscheck.json` shows discrepancies with direct Wowhead Forever checks, e.g. Barbaric Harness; matching two secondary sites alone is not sufficient to establish a requirement.
+## Evidence and data provenance
 
-## Remaining work
+1. `data/verified-crafting-skills.json`: the only source used for the displayed minimum.
+2. `data/verified-skill-corrections.json`: specific reviewed values, particularly when a source's yellow threshold was initially mistaken for the crafting requirement.
+3. `data/wclbox-wiki-crafting-skills.json`: 48 minimums where the first skill in WCLBox agreed with Warcraft Wiki.
+4. `data/pattern-wclbox-crafting-skills.json`: 23 explicitly recorded pattern-learning requirements corroborated by WCLBox.
+5. `data/ninja-wclbox-crafting-skills.json`: 10 per-spell Forever Ninja learning minima, of which one has an in-game observation marker; nine match WCLBox.
+6. The additional 37 vendor/drop pattern crosschecks, GuildLoot's stated skill column, and Questing's explicit `Requires Leatherworking` entries are retained in earlier source files.
+7. `docs/wclbox-crafting-comparison.json` and `docs/wiki-craft-skill-crosscheck.json` retain **conflicting** measurements; conflicting values were not blindly merged.
+8. `docs/remaining-crafting-skills.json` lists all 57 unresolved client entries by spell ID and reason.
 
-Verify the 99 ordinary named unresolved recipes using the individual **Forever** spell's `Requires Leatherworking (N)` line or an equally explicit minimum crafting requirement. Then assess 44 retained Season of Discovery records and 13 unnamed client entries separately. Never assign a guessed value or relabel a yellow threshold as a crafting minimum.
+Examples of reviewed minima:
 
-Important: Source-backed does not mean independently tested inside the live game. Every known value links to its reference from the expanded recipe UI.
+| Spell | Recipe | Minimum craft skill | Evidence |
+|---|---|---:|---|
+| 3770 | Toughened Leather Gloves | 110 | Forever pattern source; yellow is 135 |
+| 6661 | Barbaric Harness | 190 | Wowhead Forever spell requirement; other sources disagree |
+| 3780 | Heavy Armor Kit | 150 | Wowhead Forever spell requirement |
+| 10487 | Thick Armor Kit | 200 | Wowhead Forever spell requirement |
+| 19047 | Cured Rugged Hide | 250 | Wowhead Forever spell requirement |
+| 24703 | Dreamscale Breastplate | 300 | Wowhead Forever pattern item |
+| 10548 | Nightscape Pants | 210 | Forever leveling guide and client comparison |
+| 28474 | Bramblewood Belt | 300 | Forever item index + corresponding Classic spell; not in-game tested |
+| 28224 | Icy Scale Bracers | 300 | Forever item index + corresponding Classic spell; not in-game tested |
+
+## What is still not proven
+
+- **44 Season of Discovery client records** lack an accepted minimum *in Forever*, and client presence does not establish that they exist as live crafts.
+- **13 nameless client records** have no resolved output/recipe name; we cannot establish their craft requirements.
+- Source-backed minimums and pattern-item requirements are not automatically the same as direct in-game verification. Further in-game trainer/recipe observations may reveal corrections.
+
+The app must not silently replace missing values with skill-up thresholds. All 605 entries remain searchable; unknown minima show `?`.
+
+## Rebuild and regression protection
+
+`scripts/build-verified-crafting-skills.py` builds the accepted minimums and fails for previously detected mixing errors (Toughened Leather Gloves, Barbaric Harness, etc.). `scripts/build-data.py` copies only the resulting `craftSkillRequired` field to the UI dataset. Any future source disagreements require human review.

@@ -85,6 +85,15 @@
     ],
     "note": "Forever spell Quick Facts directly states Requires Leatherworking (250); separate skill-up thresholds must not replace this."
   },
+  "24703": {
+    "required": 300,
+    "source": "Pattern",
+    "requirementEvidence": "verified-forever-pattern-item",
+    "referenceUrls": [
+      "https://www.wowhead.com/forever/item=20382/pattern-dreamscale-breastplate"
+    ],
+    "note": "Forever pattern item explicitly requires Leatherworking (300) and Dragonscale specialization; not yellow 320."
+  },
   "24846": {
     "required": 300,
     "source": "Pattern",

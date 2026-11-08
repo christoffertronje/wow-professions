@@ -1,0 +1,194 @@
+[
+  {
+    "n": 81,
+    "head": [
+      [
+        "Item",
+        "Skill",
+        "Type",
+        "New?",
+        "Source"
+      ],
+      [
+        "[ Light Leather ]",
+        "1",
+        "",
+        "Old",
+        "?"
+      ],
+      [
+        "[ Handstitched Leather Pants ]",
+        "15",
+        "",
+        "Old",
+        "Trainer"
+      ],
+      [
+        "[ Camp Tent ]",
+        "20",
+        "",
+        "NEW",
+        "Quest"
+      ],
+      [
+        "[ Handstitched Leather Belt ]",
+        "25",
+        "",
+        "Old",
+        "Trainer"
+      ]
+    ],
+    "classes": [
+      "darktable",
+      "zebra",
+      "sortable",
+      "bigtable",
+      "nohover",
+      "nosticky"
+    ]
+  },
+  {
+    "n": 98,
+    "head": [
+      [
+        "Item",
+        "Skill",
+        "Type",
+        "New?",
+        "Source"
+      ],
+      [
+        "Brawler's Leather Armor",
+        "80",
+        "",
+        "NEW",
+        "?"
+      ],
+      [
+        "Defender's Leather Armor",
+        "80",
+        "",
+        "NEW",
+        "?"
+      ],
+      [
+        "Stormrider's Leather Armor",
+        "80",
+        "",
+        "NEW",
+        "?"
+      ],
+      [
+        "Totemic Leather Armor",
+        "80",
+        "",
+        "NEW",
+        "?"
+      ]
+    ],
+    "classes": [
+      "darktable",
+      "zebra",
+      "sortable",
+      "bigtable",
+      "nohover",
+      "nosticky"
+    ]
+  },
+  {
+    "n": 113,
+    "head": [
+      [
+        "Item",
+        "Skill",
+        "Type",
+        "New?",
+        "Source"
+      ],
+      [
+        "[ Frost Leather Cloak ]",
+        "155",
+        "",
+        "Old",
+        "Trainer"
+      ],
+      [
+        "[ Green Leather Bracers ]",
+        "155",
+        "",
+        "Old",
+        "Trainer"
+      ],
+      [
+        "[ Void-Touched Leather Gauntlets ]",
+        "160",
+        "",
+        "Old",
+        "?"
+      ],
+      [
+        "[ Void-Touched Leather Gloves ]",
+        "160",
+        "",
+        "Old",
+        "?"
+      ]
+    ],
+    "classes": [
+      "darktable",
+      "zebra",
+      "sortable",
+      "bigtable",
+      "nohover",
+      "nosticky"
+    ]
+  },
+  {
+    "n": 302,
+    "head": [
+      [
+        "Item",
+        "Skill",
+        "Type",
+        "New?",
+        "Source"
+      ],
+      [
+        "[ Gauntlets of the Sea ]",
+        "230",
+        "",
+        "Old",
+        "?"
+      ],
+      [
+        "Charged Scorpid Belt",
+        "230",
+        "",
+        "NEW",
+        "?"
+      ],
+      [
+        "Supple Scorpid Boots",
+        "230",
+        "",
+        "NEW",
+        "?"
+      ],
+      [
+        "Forceful Rugged Armor Kit",
+        "235",
+        "",
+        "NEW",
+        "Vendor"
+      ]
+    ],
+    "classes": [
+      "darktable",
+      "zebra",
+      "sortable",
+      "bigtable",
+      "nohover",
+      "nosticky"
+    ]
+  }
+]

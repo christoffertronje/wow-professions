@@ -18,7 +18,7 @@ rows=[]
 for table in soup.select("table"):
   first=table.select_one("tr")
   headers=[x.get_text(" ",strip=True).lower() for x in first.find_all(["th","td"],recursive=False)] if first else []
-  if not ("item" in headers and "skill" in headers):continue
+  if not (any(h.startswith("item") for h in headers) and any(h.startswith("skill") for h in headers)):continue
   for tr in table.select("tr")[1:]:
     td=tr.find_all("td",recursive=False)
     if len(td)<2:continue
@@ -27,6 +27,7 @@ for table in soup.select("table"):
     if not re.fullmatch(r"\\d{1,3}",skill):continue
     links=[a.get("href","") for a in td[0].select("a")][:4]
     rows.append({"name":name,"skill":int(skill),"links":links})
+if len(rows)<400:raise RuntimeError(f"Unexpected wiki extraction: {len(rows)} rows; abort audit")
 names=Counter(norm(x["name"]) for x in rows)
 matches=[];duplicates=[];unmatched=[]
 for x in rows:

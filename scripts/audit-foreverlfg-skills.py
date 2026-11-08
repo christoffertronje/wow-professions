@@ -14,11 +14,15 @@ with urllib.request.urlopen(req,timeout=60) as response:soup=BeautifulSoup(respo
 texts=[x.strip() for x in soup.stripped_strings if x.strip()]
 norm=lambda s:re.sub(r"[^a-z0-9]+","",s.casefold())
 matched=[]
+catalog=json.loads(pathlib.Path("data/leatherworking.json").read_text())["recipes"]
+known_names={norm(r["name"]) for r in catalog if not r["name"].startswith("Unresolved recipe #")}
 for index,value in enumerate(texts):
-    if index+1>=len(texts):break
-    m=re.search(r"\bskill\s+(\d{1,3})\b",texts[index+1],re.I)
-    if m and len(value)<100:matched.append({"name":value,"skill":int(m.group(1))})
-if len(matched)<700:raise ValueError(f"Unexpected third-source coverage: {len(matched)}")
+    if norm(value) not in known_names:continue
+    window=" ".join(texts[index+1:index+9])
+    m=re.search("skill[ ]+([0-9]{1,3})",window,re.I)
+    if m and len(value)<100:
+        matched.append({"name":value,"skill":int(m.group(1))})
+if len(matched)<150:raise ValueError(f"Unexpected third-source coverage: {len(matched)}")
 catalog=json.loads(pathlib.Path("data/leatherworking.json").read_text())["recipes"]
 by_name=collections.defaultdict(list)
 for r in catalog:by_name[norm(r["name"])].append(r)

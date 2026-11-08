@@ -55,6 +55,20 @@ if pattern_file.exists():
             raise ValueError(f"Wiki pattern mismatch for spell {sid}")
         if sid not in records:
             records[sid]=value
+# Source-backed spell-level regression checks. Do not substitute skill-up tiers.
+checked_minimums={
+    "3770":110, # Toughened Leather Gloves
+    "6661":190, # Barbaric Harness
+    "9060":25,  # Light Leather Quiver
+    "3780":150, # Heavy Armor Kit
+    "10487":200,# Thick Armor Kit
+    "3766":125, # Dark Leather Belt
+    "7151":150  # Barbaric Shoulders
+}
+for spell, minimum in checked_minimums.items():
+    if records.get(spell,{}).get("required")!=minimum:
+        raise ValueError(f"Minimum crafting skill regression for {spell}: expected {minimum}")
+
 # Regression checks for a known skill-up-threshold mixup and a source conflict.
 if records.get("3770",{}).get("required")!=110:
     raise ValueError("Regression: Toughened Leather Gloves must require crafting skill 110")

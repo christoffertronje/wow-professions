@@ -37,6 +37,7 @@ Examples of reviewed minima:
 | 19047 | Cured Rugged Hide | 250 | Wowhead Forever spell requirement |
 | 24703 | Dreamscale Breastplate | 300 | Wowhead Forever pattern item |
 | 10548 | Nightscape Pants | 210 | Forever leveling guide and client comparison |
+| 7153 | Guardian Cloak | 160 | Forever item index + two recipe tables; older GuildLoot 125 superseded |
 | 28474 | Bramblewood Belt | 300 | Forever item index + corresponding Classic spell; not in-game tested |
 | 28224 | Icy Scale Bracers | 300 | Forever item index + corresponding Classic spell; not in-game tested |
 

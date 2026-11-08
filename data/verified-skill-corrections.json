@@ -76,6 +76,16 @@
     ],
     "note": "Wowhead Forever spell page explicitly lists Requires Leatherworking (200) for Thick Armor Kit; distinct from yellow skill-up threshold."
   },
+  "10548": {
+    "required": 210,
+    "source": "Trainer",
+    "requirementEvidence": "crosschecked-forever-trainer-minimum",
+    "referenceUrls": [
+      "https://www.icy-veins.com/wow-forever/leatherworking-leveling-guide",
+      "https://wowforever.ninja/professions/leatherworking/10548-nightscape-pants/"
+    ],
+    "note": "Icy Veins instructs learn at skill 210, and recipe-specific Forever client comparison marks Learnable at 210, Yellow at 225. Trainer observation not independently in-game confirmed."
+  },
   "19047": {
     "required": 250,
     "source": "Trainer",

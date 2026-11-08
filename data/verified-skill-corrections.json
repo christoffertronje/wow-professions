@@ -1,0 +1,17 @@
+{
+  "3770": {
+    "required": 110,
+    "skillYellow": 135,
+    "skillGreen": 147,
+    "skillGray": 160,
+    "source": "Trainer",
+    "requirementEvidence": "verified-forever-pattern-table",
+    "referenceUrls": [
+      "https://warcraft.wiki.gg/wiki/Forever_leatherworking_patterns",
+      "https://wowtbc.gg/warcraftforever/professions/leatherworking/",
+      "https://www.wowhead.com/forever/spell=3770/toughened-leather-gloves"
+    ],
+    "note": "Wowhead's 135 is the orange-to-yellow threshold, while Forever recipe guides list learning skill 110."
+  },
+  "description": "Verified overrides of learning requirements; skill-up thresholds are separate and MUST NOT replace required skill."
+}

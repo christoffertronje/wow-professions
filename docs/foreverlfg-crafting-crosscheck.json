@@ -1,0 +1,12 @@
+{
+  "source": "https://foreverlfg.app/professions",
+  "catalogRowsWithSkill": 2044,
+  "uniqueNameMatches": 0,
+  "conflictsWithConfirmedMinimums": 0,
+  "unknownWithThirdSource": 0,
+  "unknownWikiAgreement": 0,
+  "sourceConflicts": [],
+  "unverifiedCandidates": [],
+  "wikiAgreements": [],
+  "note": "Cross-check only. Do not automatically import sources without direct crafting evidence."
+}

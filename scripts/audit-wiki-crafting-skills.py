@@ -16,7 +16,8 @@ by_name=defaultdict(list)
 for x in catalog:by_name[norm(x["name"])].append(x)
 rows=[]
 for table in soup.select("table"):
-  headers=[x.get_text(" ",strip=True).lower() for x in table.select("tr:first-child th")]
+  first=table.select_one("tr")
+  headers=[x.get_text(" ",strip=True).lower() for x in first.find_all(["th","td"],recursive=False)] if first else []
   if not ("item" in headers and "skill" in headers):continue
   for tr in table.select("tr")[1:]:
     td=tr.find_all("td",recursive=False)

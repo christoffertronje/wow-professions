@@ -4,6 +4,7 @@ on:
     paths:
       - scripts/probe-two-skill-tables.py
       - .github/workflows/probe-two-skill-tables.yml
+      - .github/workflows/probe-two-skill-tables.yml
   workflow_dispatch:
 permissions:
   contents: write

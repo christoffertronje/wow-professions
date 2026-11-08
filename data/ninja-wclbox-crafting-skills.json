@@ -1,0 +1,80 @@
+{
+  "meta": {
+    "count": 10,
+    "inGameObserved": 1,
+    "method": "Direct Forever Ninja recipe 'Learnable at' separately from Yellow; nine match WCLBox first required skill, one has Forever Ninja in-game observation.",
+    "note": "Client-derived values are source-backed, not personally tested; no yellow thresholds imported."
+  },
+  "skillsBySpellId": {
+    "2161": {
+      "required": 50,
+      "source": "forever-ninja-observed",
+      "reference": "https://wowforever.ninja/professions/leatherworking/2161-embossed-leather-boots/",
+      "corroboration": "https://wow-forever.gg/professions/leatherworking/",
+      "inGameObserved": true
+    },
+    "9201": {
+      "required": 155,
+      "source": "forever-ninja-wclbox-crosscheck",
+      "reference": "https://wowforever.ninja/professions/leatherworking/9201-dusky-bracers/",
+      "corroboration": "https://wowforever.wclbox.com/en/zhuanye/leatherworking",
+      "inGameObserved": false
+    },
+    "10619": {
+      "required": 200,
+      "source": "forever-ninja-wclbox-crosscheck",
+      "reference": "https://wowforever.ninja/professions/leatherworking/10619-dragonscale-gauntlets/",
+      "corroboration": "https://wowforever.wclbox.com/en/zhuanye/leatherworking",
+      "inGameObserved": false
+    },
+    "10621": {
+      "required": 200,
+      "source": "forever-ninja-wclbox-crosscheck",
+      "reference": "https://wowforever.ninja/professions/leatherworking/10621-wolfshead-helm/",
+      "corroboration": "https://wowforever.wclbox.com/en/zhuanye/leatherworking",
+      "inGameObserved": false
+    },
+    "10630": {
+      "required": 205,
+      "source": "forever-ninja-wclbox-crosscheck",
+      "reference": "https://wowforever.ninja/professions/leatherworking/10630-gauntlets-of-the-sea/",
+      "corroboration": "https://wowforever.wclbox.com/en/zhuanye/leatherworking",
+      "inGameObserved": false
+    },
+    "10632": {
+      "required": 225,
+      "source": "forever-ninja-wclbox-crosscheck",
+      "reference": "https://wowforever.ninja/professions/leatherworking/10632-helm-of-fire/",
+      "corroboration": "https://wowforever.wclbox.com/en/zhuanye/leatherworking",
+      "inGameObserved": false
+    },
+    "10647": {
+      "required": 225,
+      "source": "forever-ninja-wclbox-crosscheck",
+      "reference": "https://wowforever.ninja/professions/leatherworking/10647-feathered-breastplate/",
+      "corroboration": "https://wowforever.wclbox.com/en/zhuanye/leatherworking",
+      "inGameObserved": false
+    },
+    "10650": {
+      "required": 230,
+      "source": "forever-ninja-wclbox-crosscheck",
+      "reference": "https://wowforever.ninja/professions/leatherworking/10650-dragonscale-breastplate/",
+      "corroboration": "https://wowforever.wclbox.com/en/zhuanye/leatherworking",
+      "inGameObserved": false
+    },
+    "24654": {
+      "required": 290,
+      "source": "forever-ninja-wclbox-crosscheck",
+      "reference": "https://wowforever.ninja/professions/leatherworking/24654-blue-dragonscale-leggings/",
+      "corroboration": "https://wowforever.wclbox.com/en/zhuanye/leatherworking",
+      "inGameObserved": false
+    },
+    "24655": {
+      "required": 255,
+      "source": "forever-ninja-wclbox-crosscheck",
+      "reference": "https://wowforever.ninja/professions/leatherworking/24655-green-dragonscale-gauntlets/",
+      "corroboration": "https://wowforever.wclbox.com/en/zhuanye/leatherworking",
+      "inGameObserved": false
+    }
+  }
+}

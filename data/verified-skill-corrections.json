@@ -22,6 +22,15 @@
     ],
     "note": "Wowhead's 135 is the orange-to-yellow threshold, while Forever recipe guides list learning skill 110."
   },
+  "6661": {
+    "required": 190,
+    "source": "Trainer",
+    "requirementEvidence": "verified-wowhead-forever-spell",
+    "referenceUrls": [
+      "https://www.wowhead.com/forever/spell=6661/barbaric-harness"
+    ],
+    "note": "Wowhead Forever spell quick facts explicitly state Requires Leatherworking (190); 185 is the distinct yellow threshold in client-derived tables."
+  },
   "1229432": {
     "required": 20,
     "source": "Trainer",

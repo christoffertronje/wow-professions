@@ -1,0 +1,855 @@
+{
+  "source": "https://wowforever.wclbox.com/en/zhuanye/leatherworking",
+  "recordCount": 505,
+  "uniqueMatches": 498,
+  "skippedAmbiguous": 7,
+  "unresolvedWithWclbox": 97,
+  "unresolvedWithWikiAgreement": 48,
+  "conflictsWithExisting": 8,
+  "conflicts": [
+    {
+      "spellId": "3766",
+      "name": "Dark Leather Belt",
+      "wclboxRequired": 100,
+      "currentCraftRequired": 125,
+      "currentRawRequired": 125,
+      "category": "Leather Belts"
+    },
+    {
+      "spellId": "3780",
+      "name": "Heavy Armor Kit",
+      "wclboxRequired": 125,
+      "currentCraftRequired": 150,
+      "currentRawRequired": 150,
+      "category": "Armor Kits"
+    },
+    {
+      "spellId": "7147",
+      "name": "Guardian Pants",
+      "wclboxRequired": 135,
+      "currentCraftRequired": 160,
+      "currentRawRequired": 155,
+      "category": "Leather Legguards"
+    },
+    {
+      "spellId": "6661",
+      "name": "Barbaric Harness",
+      "wclboxRequired": 165,
+      "currentCraftRequired": 190,
+      "currentRawRequired": 190,
+      "category": "Leather Chestguards"
+    },
+    {
+      "spellId": "10487",
+      "name": "Thick Armor Kit",
+      "wclboxRequired": 175,
+      "currentCraftRequired": 200,
+      "currentRawRequired": 200,
+      "category": "Armor Kits"
+    },
+    {
+      "spellId": "10511",
+      "name": "Turtle Scale Breastplate",
+      "wclboxRequired": 185,
+      "currentCraftRequired": 210,
+      "currentRawRequired": 205,
+      "category": "Mail Chestguards"
+    },
+    {
+      "spellId": "19093",
+      "name": "Onyxia Scale Cloak",
+      "wclboxRequired": 320,
+      "currentCraftRequired": 300,
+      "currentRawRequired": 300,
+      "category": "Cloaks"
+    },
+    {
+      "spellId": "19106",
+      "name": "Onyxia Scale Breastplate",
+      "wclboxRequired": 320,
+      "currentCraftRequired": 300,
+      "currentRawRequired": 300,
+      "category": "Mail Chestguards"
+    }
+  ],
+  "candidates": [
+    {
+      "spellId": "2153",
+      "name": "Handstitched Leather Pants",
+      "required": 15,
+      "wikiSource": "Trainer",
+      "sourceA": "https://wowforever.wclbox.com/en/zhuanye/leatherworking",
+      "sourceB": "https://warcraft.wiki.gg/wiki/Forever_leatherworking_patterns"
+    },
+    {
+      "spellId": "3753",
+      "name": "Handstitched Leather Belt",
+      "required": 25,
+      "wikiSource": "Trainer",
+      "sourceA": "https://wowforever.wclbox.com/en/zhuanye/leatherworking",
+      "sourceB": "https://warcraft.wiki.gg/wiki/Forever_leatherworking_patterns"
+    },
+    {
+      "spellId": "9062",
+      "name": "Small Leather Ammo Pouch",
+      "required": 25,
+      "wikiSource": "Trainer",
+      "sourceA": "https://wowforever.wclbox.com/en/zhuanye/leatherworking",
+      "sourceB": "https://warcraft.wiki.gg/wiki/Forever_leatherworking_patterns"
+    },
+    {
+      "spellId": "3816",
+      "name": "Cured Light Hide",
+      "required": 30,
+      "wikiSource": "Trainer",
+      "sourceA": "https://wowforever.wclbox.com/en/zhuanye/leatherworking",
+      "sourceB": "https://warcraft.wiki.gg/wiki/Forever_leatherworking_patterns"
+    },
+    {
+      "spellId": "2160",
+      "name": "Embossed Leather Vest",
+      "required": 35,
+      "wikiSource": "Trainer",
+      "sourceA": "https://wowforever.wclbox.com/en/zhuanye/leatherworking",
+      "sourceB": "https://warcraft.wiki.gg/wiki/Forever_leatherworking_patterns"
+    },
+    {
+      "spellId": "2162",
+      "name": "Embossed Leather Cloak",
+      "required": 40,
+      "wikiSource": "Trainer",
+      "sourceA": "https://wowforever.wclbox.com/en/zhuanye/leatherworking",
+      "sourceB": "https://warcraft.wiki.gg/wiki/Forever_leatherworking_patterns"
+    },
+    {
+      "spellId": "3756",
+      "name": "Embossed Leather Gloves",
+      "required": 40,
+      "wikiSource": "Trainer",
+      "sourceA": "https://wowforever.wclbox.com/en/zhuanye/leatherworking",
+      "sourceB": "https://warcraft.wiki.gg/wiki/Forever_leatherworking_patterns"
+    },
+    {
+      "spellId": "9065",
+      "name": "Light Leather Bracers",
+      "required": 45,
+      "wikiSource": "Trainer",
+      "sourceA": "https://wowforever.wclbox.com/en/zhuanye/leatherworking",
+      "sourceB": "https://warcraft.wiki.gg/wiki/Forever_leatherworking_patterns"
+    },
+    {
+      "spellId": "2159",
+      "name": "Fine Leather Cloak",
+      "required": 50,
+      "wikiSource": "Trainer",
+      "sourceA": "https://wowforever.wclbox.com/en/zhuanye/leatherworking",
+      "sourceB": "https://warcraft.wiki.gg/wiki/Forever_leatherworking_patterns"
+    },
+    {
+      "spellId": "3759",
+      "name": "Embossed Leather Pants",
+      "required": 50,
+      "wikiSource": "Trainer",
+      "sourceA": "https://wowforever.wclbox.com/en/zhuanye/leatherworking",
+      "sourceB": "https://warcraft.wiki.gg/wiki/Forever_leatherworking_patterns"
+    },
+    {
+      "spellId": "3763",
+      "name": "Fine Leather Belt",
+      "required": 55,
+      "wikiSource": "Trainer",
+      "sourceA": "https://wowforever.wclbox.com/en/zhuanye/leatherworking",
+      "sourceB": "https://warcraft.wiki.gg/wiki/Forever_leatherworking_patterns"
+    },
+    {
+      "spellId": "3761",
+      "name": "Fine Leather Tunic",
+      "required": 60,
+      "wikiSource": "Trainer",
+      "sourceA": "https://wowforever.wclbox.com/en/zhuanye/leatherworking",
+      "sourceB": "https://warcraft.wiki.gg/wiki/Forever_leatherworking_patterns"
+    },
+    {
+      "spellId": "9068",
+      "name": "Light Leather Pants",
+      "required": 70,
+      "wikiSource": "Trainer",
+      "sourceA": "https://wowforever.wclbox.com/en/zhuanye/leatherworking",
+      "sourceB": "https://warcraft.wiki.gg/wiki/Forever_leatherworking_patterns"
+    },
+    {
+      "spellId": "20648",
+      "name": "Medium Leather",
+      "required": 75,
+      "wikiSource": "Trainer",
+      "sourceA": "https://wowforever.wclbox.com/en/zhuanye/leatherworking",
+      "sourceB": "https://warcraft.wiki.gg/wiki/Forever_leatherworking_patterns"
+    },
+    {
+      "spellId": "2165",
+      "name": "Medium Armor Kit",
+      "required": 75,
+      "wikiSource": "Trainer",
+      "sourceA": "https://wowforever.wclbox.com/en/zhuanye/leatherworking",
+      "sourceB": "https://warcraft.wiki.gg/wiki/Forever_leatherworking_patterns"
+    },
+    {
+      "spellId": "3817",
+      "name": "Cured Medium Hide",
+      "required": 75,
+      "wikiSource": "Trainer",
+      "sourceA": "https://wowforever.wclbox.com/en/zhuanye/leatherworking",
+      "sourceB": "https://warcraft.wiki.gg/wiki/Forever_leatherworking_patterns"
+    },
+    {
+      "spellId": "2167",
+      "name": "Gray Leather Boots",
+      "required": 75,
+      "wikiSource": "Trainer",
+      "sourceA": "https://wowforever.wclbox.com/en/zhuanye/leatherworking",
+      "sourceB": "https://warcraft.wiki.gg/wiki/Forever_leatherworking_patterns"
+    },
+    {
+      "spellId": "2168",
+      "name": "Dark Leather Cloak",
+      "required": 85,
+      "wikiSource": "Trainer",
+      "sourceA": "https://wowforever.wclbox.com/en/zhuanye/leatherworking",
+      "sourceB": "https://warcraft.wiki.gg/wiki/Forever_leatherworking_patterns"
+    },
+    {
+      "spellId": "7135",
+      "name": "Dark Leather Pants",
+      "required": 90,
+      "wikiSource": "Trainer",
+      "sourceA": "https://wowforever.wclbox.com/en/zhuanye/leatherworking",
+      "sourceB": "https://warcraft.wiki.gg/wiki/Forever_leatherworking_patterns"
+    },
+    {
+      "spellId": "2166",
+      "name": "Toughened Leather Armor",
+      "required": 95,
+      "wikiSource": "Trainer",
+      "sourceA": "https://wowforever.wclbox.com/en/zhuanye/leatherworking",
+      "sourceB": "https://warcraft.wiki.gg/wiki/Forever_leatherworking_patterns"
+    },
+    {
+      "spellId": "9074",
+      "name": "Nimble Leather Gloves",
+      "required": 95,
+      "wikiSource": "Trainer",
+      "sourceA": "https://wowforever.wclbox.com/en/zhuanye/leatherworking",
+      "sourceB": "https://warcraft.wiki.gg/wiki/Forever_leatherworking_patterns"
+    },
+    {
+      "spellId": "9145",
+      "name": "Fletcher's Gloves",
+      "required": 100,
+      "wikiSource": "Trainer",
+      "sourceA": "https://wowforever.wclbox.com/en/zhuanye/leatherworking",
+      "sourceB": "https://warcraft.wiki.gg/wiki/Forever_leatherworking_patterns"
+    },
+    {
+      "spellId": "3768",
+      "name": "Hillman's Shoulders",
+      "required": 105,
+      "wikiSource": "Trainer",
+      "sourceA": "https://wowforever.wclbox.com/en/zhuanye/leatherworking",
+      "sourceB": "https://warcraft.wiki.gg/wiki/Forever_leatherworking_patterns"
+    },
+    {
+      "spellId": "3764",
+      "name": "Hillman's Leather Gloves",
+      "required": 120,
+      "wikiSource": "Trainer",
+      "sourceA": "https://wowforever.wclbox.com/en/zhuanye/leatherworking",
+      "sourceB": "https://warcraft.wiki.gg/wiki/Forever_leatherworking_patterns"
+    },
+    {
+      "spellId": "20649",
+      "name": "Heavy Leather",
+      "required": 125,
+      "wikiSource": "Trainer",
+      "sourceA": "https://wowforever.wclbox.com/en/zhuanye/leatherworking",
+      "sourceB": "https://warcraft.wiki.gg/wiki/Forever_leatherworking_patterns"
+    },
+    {
+      "spellId": "3818",
+      "name": "Cured Heavy Hide",
+      "required": 125,
+      "wikiSource": "Trainer",
+      "sourceA": "https://wowforever.wclbox.com/en/zhuanye/leatherworking",
+      "sourceB": "https://warcraft.wiki.gg/wiki/Forever_leatherworking_patterns"
+    },
+    {
+      "spellId": "3760",
+      "name": "Hillman's Cloak",
+      "required": 125,
+      "wikiSource": "Trainer",
+      "sourceA": "https://wowforever.wclbox.com/en/zhuanye/leatherworking",
+      "sourceB": "https://warcraft.wiki.gg/wiki/Forever_leatherworking_patterns"
+    },
+    {
+      "spellId": "9193",
+      "name": "Heavy Quiver",
+      "required": 125,
+      "wikiSource": "Trainer",
+      "sourceA": "https://wowforever.wclbox.com/en/zhuanye/leatherworking",
+      "sourceB": "https://warcraft.wiki.gg/wiki/Forever_leatherworking_patterns"
+    },
+    {
+      "spellId": "9194",
+      "name": "Heavy Leather Ammo Pouch",
+      "required": 125,
+      "wikiSource": "Trainer",
+      "sourceA": "https://wowforever.wclbox.com/en/zhuanye/leatherworking",
+      "sourceB": "https://warcraft.wiki.gg/wiki/Forever_leatherworking_patterns"
+    },
+    {
+      "spellId": "3774",
+      "name": "Green Leather Belt",
+      "required": 135,
+      "wikiSource": "Trainer",
+      "sourceA": "https://wowforever.wclbox.com/en/zhuanye/leatherworking",
+      "sourceB": "https://warcraft.wiki.gg/wiki/Forever_leatherworking_patterns"
+    },
+    {
+      "spellId": "9196",
+      "name": "Dusky Leather Armor",
+      "required": 150,
+      "wikiSource": "Trainer",
+      "sourceA": "https://wowforever.wclbox.com/en/zhuanye/leatherworking",
+      "sourceB": "https://warcraft.wiki.gg/wiki/Forever_leatherworking_patterns"
+    },
+    {
+      "spellId": "3776",
+      "name": "Green Leather Bracers",
+      "required": 155,
+      "wikiSource": "Trainer",
+      "sourceA": "https://wowforever.wclbox.com/en/zhuanye/leatherworking",
+      "sourceB": "https://warcraft.wiki.gg/wiki/Forever_leatherworking_patterns"
+    },
+    {
+      "spellId": "9198",
+      "name": "Frost Leather Cloak",
+      "required": 155,
+      "wikiSource": "Trainer",
+      "sourceA": "https://wowforever.wclbox.com/en/zhuanye/leatherworking",
+      "sourceB": "https://warcraft.wiki.gg/wiki/Forever_leatherworking_patterns"
+    },
+    {
+      "spellId": "7153",
+      "name": "Guardian Cloak",
+      "required": 160,
+      "wikiSource": "Drop",
+      "sourceA": "https://wowforever.wclbox.com/en/zhuanye/leatherworking",
+      "sourceB": "https://warcraft.wiki.gg/wiki/Forever_leatherworking_patterns"
+    },
+    {
+      "spellId": "7156",
+      "name": "Guardian Gloves",
+      "required": 165,
+      "wikiSource": "Trainer",
+      "sourceA": "https://wowforever.wclbox.com/en/zhuanye/leatherworking",
+      "sourceB": "https://warcraft.wiki.gg/wiki/Forever_leatherworking_patterns"
+    },
+    {
+      "spellId": "9206",
+      "name": "Dusky Belt",
+      "required": 170,
+      "wikiSource": "Trainer",
+      "sourceA": "https://wowforever.wclbox.com/en/zhuanye/leatherworking",
+      "sourceB": "https://warcraft.wiki.gg/wiki/Forever_leatherworking_patterns"
+    },
+    {
+      "spellId": "10482",
+      "name": "Cured Thick Hide",
+      "required": 175,
+      "wikiSource": "Trainer",
+      "sourceA": "https://wowforever.wclbox.com/en/zhuanye/leatherworking",
+      "sourceB": "https://warcraft.wiki.gg/wiki/Forever_leatherworking_patterns"
+    },
+    {
+      "spellId": "20650",
+      "name": "Thick Leather",
+      "required": 175,
+      "wikiSource": "Trainer",
+      "sourceA": "https://wowforever.wclbox.com/en/zhuanye/leatherworking",
+      "sourceB": "https://warcraft.wiki.gg/wiki/Forever_leatherworking_patterns"
+    },
+    {
+      "spellId": "10499",
+      "name": "Nightscape Tunic",
+      "required": 180,
+      "wikiSource": "Trainer",
+      "sourceA": "https://wowforever.wclbox.com/en/zhuanye/leatherworking",
+      "sourceB": "https://warcraft.wiki.gg/wiki/Forever_leatherworking_patterns"
+    },
+    {
+      "spellId": "10507",
+      "name": "Nightscape Headband",
+      "required": 180,
+      "wikiSource": "Trainer",
+      "sourceA": "https://wowforever.wclbox.com/en/zhuanye/leatherworking",
+      "sourceB": "https://warcraft.wiki.gg/wiki/Forever_leatherworking_patterns"
+    },
+    {
+      "spellId": "10518",
+      "name": "Turtle Scale Bracers",
+      "required": 185,
+      "wikiSource": "Trainer",
+      "sourceA": "https://wowforever.wclbox.com/en/zhuanye/leatherworking",
+      "sourceB": "https://warcraft.wiki.gg/wiki/Forever_leatherworking_patterns"
+    },
+    {
+      "spellId": "14930",
+      "name": "Quickdraw Quiver",
+      "required": 200,
+      "wikiSource": "Trainer",
+      "sourceA": "https://wowforever.wclbox.com/en/zhuanye/leatherworking",
+      "sourceB": "https://warcraft.wiki.gg/wiki/Forever_leatherworking_patterns"
+    },
+    {
+      "spellId": "14932",
+      "name": "Thick Leather Ammo Pouch",
+      "required": 200,
+      "wikiSource": "Trainer",
+      "sourceA": "https://wowforever.wclbox.com/en/zhuanye/leatherworking",
+      "sourceB": "https://warcraft.wiki.gg/wiki/Forever_leatherworking_patterns"
+    },
+    {
+      "spellId": "10552",
+      "name": "Turtle Scale Helm",
+      "required": 205,
+      "wikiSource": "Trainer",
+      "sourceA": "https://wowforever.wclbox.com/en/zhuanye/leatherworking",
+      "sourceB": "https://warcraft.wiki.gg/wiki/Forever_leatherworking_patterns"
+    },
+    {
+      "spellId": "10556",
+      "name": "Turtle Scale Leggings",
+      "required": 210,
+      "wikiSource": "Trainer",
+      "sourceA": "https://wowforever.wclbox.com/en/zhuanye/leatherworking",
+      "sourceB": "https://warcraft.wiki.gg/wiki/Forever_leatherworking_patterns"
+    },
+    {
+      "spellId": "10558",
+      "name": "Nightscape Boots",
+      "required": 210,
+      "wikiSource": "Trainer",
+      "sourceA": "https://wowforever.wclbox.com/en/zhuanye/leatherworking",
+      "sourceB": "https://warcraft.wiki.gg/wiki/Forever_leatherworking_patterns"
+    },
+    {
+      "spellId": "19058",
+      "name": "Rugged Armor Kit",
+      "required": 225,
+      "wikiSource": "Trainer",
+      "sourceA": "https://wowforever.wclbox.com/en/zhuanye/leatherworking",
+      "sourceB": "https://warcraft.wiki.gg/wiki/Forever_leatherworking_patterns"
+    },
+    {
+      "spellId": "22331",
+      "name": "Rugged Leather",
+      "required": 225,
+      "wikiSource": "Trainer",
+      "sourceA": "https://wowforever.wclbox.com/en/zhuanye/leatherworking",
+      "sourceB": "https://warcraft.wiki.gg/wiki/Forever_leatherworking_patterns"
+    }
+  ],
+  "notYetCorroborated": [
+    {
+      "spellId": "1255131",
+      "name": "Wisdom's Leather Armor",
+      "wclboxRequired": 75,
+      "currentCraftRequired": null,
+      "currentRawRequired": 75,
+      "category": "Leather Chestguards"
+    },
+    {
+      "spellId": "1255132",
+      "name": "Stormrider's Leather Armor",
+      "wclboxRequired": 75,
+      "currentCraftRequired": null,
+      "currentRawRequired": 75,
+      "category": "Leather Chestguards"
+    },
+    {
+      "spellId": "1255133",
+      "name": "Totemic Leather Armor",
+      "wclboxRequired": 75,
+      "currentCraftRequired": null,
+      "currentRawRequired": 75,
+      "category": "Leather Chestguards"
+    },
+    {
+      "spellId": "1255134",
+      "name": "Defender's Leather Armor",
+      "wclboxRequired": 75,
+      "currentCraftRequired": null,
+      "currentRawRequired": 75,
+      "category": "Leather Chestguards"
+    },
+    {
+      "spellId": "1255135",
+      "name": "Trapper's Leather Armor",
+      "wclboxRequired": 75,
+      "currentCraftRequired": null,
+      "currentRawRequired": 75,
+      "category": "Leather Chestguards"
+    },
+    {
+      "spellId": "1255136",
+      "name": "Brawler's Leather Armor",
+      "wclboxRequired": 75,
+      "currentCraftRequired": null,
+      "currentRawRequired": 75,
+      "category": "Leather Chestguards"
+    },
+    {
+      "spellId": "1255110",
+      "name": "Wisdom's Leather Pants",
+      "wclboxRequired": 100,
+      "currentCraftRequired": null,
+      "currentRawRequired": 100,
+      "category": "Leather Legguards"
+    },
+    {
+      "spellId": "1255111",
+      "name": "Stormrider's Leather Pants",
+      "wclboxRequired": 100,
+      "currentCraftRequired": null,
+      "currentRawRequired": 100,
+      "category": "Leather Legguards"
+    },
+    {
+      "spellId": "1255112",
+      "name": "Totemic Leather Pants",
+      "wclboxRequired": 100,
+      "currentCraftRequired": null,
+      "currentRawRequired": 100,
+      "category": "Leather Legguards"
+    },
+    {
+      "spellId": "1255113",
+      "name": "Defender's Leather Pants",
+      "wclboxRequired": 100,
+      "currentCraftRequired": null,
+      "currentRawRequired": 100,
+      "category": "Leather Legguards"
+    },
+    {
+      "spellId": "1255114",
+      "name": "Trapper's Leather Pants",
+      "wclboxRequired": 100,
+      "currentCraftRequired": null,
+      "currentRawRequired": 100,
+      "category": "Leather Legguards"
+    },
+    {
+      "spellId": "1255115",
+      "name": "Brawler's Leather Pants",
+      "wclboxRequired": 100,
+      "currentCraftRequired": null,
+      "currentRawRequired": 100,
+      "category": "Leather Legguards"
+    },
+    {
+      "spellId": "1255088",
+      "name": "Wisdom's Leather Helm",
+      "wclboxRequired": 125,
+      "currentCraftRequired": null,
+      "currentRawRequired": 125,
+      "category": "Leather Helmets"
+    },
+    {
+      "spellId": "1255089",
+      "name": "Stormrider's Leather Helm",
+      "wclboxRequired": 125,
+      "currentCraftRequired": null,
+      "currentRawRequired": 125,
+      "category": "Leather Helmets"
+    },
+    {
+      "spellId": "1255090",
+      "name": "Totemic Leather Helm",
+      "wclboxRequired": 125,
+      "currentCraftRequired": null,
+      "currentRawRequired": 125,
+      "category": "Leather Helmets"
+    },
+    {
+      "spellId": "1255091",
+      "name": "Defender's Leather Helm",
+      "wclboxRequired": 125,
+      "currentCraftRequired": null,
+      "currentRawRequired": 125,
+      "category": "Leather Helmets"
+    },
+    {
+      "spellId": "1255092",
+      "name": "Trapper's Leather Helm",
+      "wclboxRequired": 125,
+      "currentCraftRequired": null,
+      "currentRawRequired": 125,
+      "category": "Leather Helmets"
+    },
+    {
+      "spellId": "1255093",
+      "name": "Brawler's Leather Helm",
+      "wclboxRequired": 125,
+      "currentCraftRequired": null,
+      "currentRawRequired": 125,
+      "category": "Leather Helmets"
+    },
+    {
+      "spellId": "3775",
+      "name": "Guardian Belt",
+      "wclboxRequired": 145,
+      "currentCraftRequired": null,
+      "currentRawRequired": 145,
+      "category": "Leather Belts"
+    },
+    {
+      "spellId": "9201",
+      "name": "Dusky Bracers",
+      "wclboxRequired": 155,
+      "currentCraftRequired": null,
+      "currentRawRequired": 180,
+      "category": "Leather Bracers"
+    },
+    {
+      "spellId": "3777",
+      "name": "Guardian Leather Bracers",
+      "wclboxRequired": 170,
+      "currentCraftRequired": null,
+      "currentRawRequired": 170,
+      "category": "Leather Bracers"
+    },
+    {
+      "spellId": "10509",
+      "name": "Turtle Scale Gloves",
+      "wclboxRequired": 180,
+      "currentCraftRequired": null,
+      "currentRawRequired": 180,
+      "category": "Mail Gauntlets"
+    },
+    {
+      "spellId": "10520",
+      "name": "Big Voodoo Robe",
+      "wclboxRequired": 190,
+      "currentCraftRequired": null,
+      "currentRawRequired": 190,
+      "category": "Leather Chestguards"
+    },
+    {
+      "spellId": "10531",
+      "name": "Big Voodoo Mask",
+      "wclboxRequired": 195,
+      "currentCraftRequired": null,
+      "currentRawRequired": 195,
+      "category": "Leather Helmets"
+    },
+    {
+      "spellId": "10619",
+      "name": "Dragonscale Gauntlets",
+      "wclboxRequired": 200,
+      "currentCraftRequired": null,
+      "currentRawRequired": 220,
+      "category": "Mail Gauntlets"
+    },
+    {
+      "spellId": "10621",
+      "name": "Wolfshead Helm",
+      "wclboxRequired": 200,
+      "currentCraftRequired": null,
+      "currentRawRequired": 220,
+      "category": "Leather Helmets"
+    },
+    {
+      "spellId": "10630",
+      "name": "Gauntlets of the Sea",
+      "wclboxRequired": 205,
+      "currentCraftRequired": null,
+      "currentRawRequired": 225,
+      "category": "Leather Gauntlets"
+    },
+    {
+      "spellId": "10548",
+      "name": "Nightscape Pants",
+      "wclboxRequired": 210,
+      "currentCraftRequired": null,
+      "currentRawRequired": 225,
+      "category": "Leather Legguards"
+    },
+    {
+      "spellId": "10632",
+      "name": "Helm of Fire",
+      "wclboxRequired": 225,
+      "currentCraftRequired": null,
+      "currentRawRequired": 245,
+      "category": "Leather Helmets"
+    },
+    {
+      "spellId": "10647",
+      "name": "Feathered Breastplate",
+      "wclboxRequired": 225,
+      "currentCraftRequired": null,
+      "currentRawRequired": 245,
+      "category": "Leather Chestguards"
+    },
+    {
+      "spellId": "10650",
+      "name": "Dragonscale Breastplate",
+      "wclboxRequired": 230,
+      "currentCraftRequired": null,
+      "currentRawRequired": 250,
+      "category": "Mail Chestguards"
+    },
+    {
+      "spellId": "24655",
+      "name": "Green Dragonscale Gauntlets",
+      "wclboxRequired": 255,
+      "currentCraftRequired": null,
+      "currentRawRequired": 275,
+      "category": "Mail Gauntlets"
+    },
+    {
+      "spellId": "24654",
+      "name": "Blue Dragonscale Leggings",
+      "wclboxRequired": 290,
+      "currentCraftRequired": null,
+      "currentRawRequired": 310,
+      "category": "Mail Legguards"
+    },
+    {
+      "spellId": "24847",
+      "name": "Spitfire Gauntlets",
+      "wclboxRequired": 305,
+      "currentCraftRequired": null,
+      "currentRawRequired": 300,
+      "category": "Mail Gauntlets"
+    },
+    {
+      "spellId": "24846",
+      "name": "Spitfire Bracers",
+      "wclboxRequired": 310,
+      "currentCraftRequired": null,
+      "currentRawRequired": 300,
+      "category": "Mail Bracers"
+    },
+    {
+      "spellId": "24848",
+      "name": "Spitfire Breastplate",
+      "wclboxRequired": 310,
+      "currentCraftRequired": null,
+      "currentRawRequired": 300,
+      "category": "Mail Chestguards"
+    },
+    {
+      "spellId": "24849",
+      "name": "Sandstalker Bracers",
+      "wclboxRequired": 310,
+      "currentCraftRequired": null,
+      "currentRawRequired": 300,
+      "category": "Mail Bracers"
+    },
+    {
+      "spellId": "24850",
+      "name": "Sandstalker Gauntlets",
+      "wclboxRequired": 310,
+      "currentCraftRequired": null,
+      "currentRawRequired": 300,
+      "category": "Mail Gauntlets"
+    },
+    {
+      "spellId": "24851",
+      "name": "Sandstalker Breastplate",
+      "wclboxRequired": 310,
+      "currentCraftRequired": null,
+      "currentRawRequired": 300,
+      "category": "Mail Chestguards"
+    },
+    {
+      "spellId": "24703",
+      "name": "Dreamscale Breastplate",
+      "wclboxRequired": 320,
+      "currentCraftRequired": null,
+      "currentRawRequired": 300,
+      "category": "Mail Chestguards"
+    },
+    {
+      "spellId": "28219",
+      "name": "Polar Tunic",
+      "wclboxRequired": 320,
+      "currentCraftRequired": null,
+      "currentRawRequired": 300,
+      "category": "Leather Chestguards"
+    },
+    {
+      "spellId": "28220",
+      "name": "Polar Gloves",
+      "wclboxRequired": 320,
+      "currentCraftRequired": null,
+      "currentRawRequired": 300,
+      "category": "Leather Gauntlets"
+    },
+    {
+      "spellId": "28221",
+      "name": "Polar Bracers",
+      "wclboxRequired": 320,
+      "currentCraftRequired": null,
+      "currentRawRequired": 300,
+      "category": "Leather Bracers"
+    },
+    {
+      "spellId": "28222",
+      "name": "Icy Scale Breastplate",
+      "wclboxRequired": 320,
+      "currentCraftRequired": null,
+      "currentRawRequired": 300,
+      "category": "Mail Chestguards"
+    },
+    {
+      "spellId": "28223",
+      "name": "Icy Scale Gauntlets",
+      "wclboxRequired": 320,
+      "currentCraftRequired": null,
+      "currentRawRequired": 300,
+      "category": "Mail Gauntlets"
+    },
+    {
+      "spellId": "28224",
+      "name": "Icy Scale Bracers",
+      "wclboxRequired": 320,
+      "currentCraftRequired": null,
+      "currentRawRequired": 300,
+      "category": "Mail Bracers"
+    },
+    {
+      "spellId": "28472",
+      "name": "Bramblewood Helm",
+      "wclboxRequired": 320,
+      "currentCraftRequired": null,
+      "currentRawRequired": 300,
+      "category": "Leather Helmets"
+    },
+    {
+      "spellId": "28473",
+      "name": "Bramblewood Boots",
+      "wclboxRequired": 320,
+      "currentCraftRequired": null,
+      "currentRawRequired": 300,
+      "category": "Leather Boots"
+    },
+    {
+      "spellId": "28474",
+      "name": "Bramblewood Belt",
+      "wclboxRequired": 320,
+      "currentCraftRequired": null,
+      "currentRawRequired": 300,
+      "category": "Leather Belts"
+    }
+  ]
+}

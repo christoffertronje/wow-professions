@@ -1,12 +1,1028 @@
 {
   "source": "https://foreverlfg.app/professions",
-  "catalogRowsWithSkill": 2044,
-  "uniqueNameMatches": 0,
-  "conflictsWithConfirmedMinimums": 0,
-  "unknownWithThirdSource": 0,
-  "unknownWikiAgreement": 0,
-  "sourceConflicts": [],
-  "unverifiedCandidates": [],
-  "wikiAgreements": [],
+  "catalogRowsWithSkill": 492,
+  "uniqueNameMatches": 470,
+  "conflictsWithConfirmedMinimums": 3,
+  "unknownWithThirdSource": 80,
+  "unknownWikiAgreement": 48,
+  "sourceConflicts": [
+    {
+      "id": "6661",
+      "name": "Barbaric Harness",
+      "wikiCategory": "Leather Chestguards",
+      "lfgSkill": 165,
+      "ourSkill": 190
+    },
+    {
+      "id": "19106",
+      "name": "Onyxia Scale Breastplate",
+      "wikiCategory": "Mail Chestguards",
+      "lfgSkill": 180,
+      "ourSkill": 300
+    },
+    {
+      "id": "19093",
+      "name": "Onyxia Scale Cloak",
+      "wikiCategory": "Cloaks",
+      "lfgSkill": 180,
+      "ourSkill": 300
+    }
+  ],
+  "unverifiedCandidates": [
+    {
+      "id": "3780",
+      "name": "Heavy Armor Kit",
+      "wikiCategory": "Armor Kits",
+      "lfgSkill": 125,
+      "ourSkill": null
+    },
+    {
+      "id": "2165",
+      "name": "Medium Armor Kit",
+      "wikiCategory": "Armor Kits",
+      "lfgSkill": 75,
+      "ourSkill": null
+    },
+    {
+      "id": "19058",
+      "name": "Rugged Armor Kit",
+      "wikiCategory": "Armor Kits",
+      "lfgSkill": 175,
+      "ourSkill": null
+    },
+    {
+      "id": "10487",
+      "name": "Thick Armor Kit",
+      "wikiCategory": "Armor Kits",
+      "lfgSkill": 175,
+      "ourSkill": null
+    },
+    {
+      "id": "9194",
+      "name": "Heavy Leather Ammo Pouch",
+      "wikiCategory": "Ammo Pouches",
+      "lfgSkill": 125,
+      "ourSkill": null
+    },
+    {
+      "id": "9193",
+      "name": "Heavy Quiver",
+      "wikiCategory": "Quivers",
+      "lfgSkill": 125,
+      "ourSkill": null
+    },
+    {
+      "id": "9060",
+      "name": "Light Leather Quiver",
+      "wikiCategory": "Quivers",
+      "lfgSkill": 25,
+      "ourSkill": null
+    },
+    {
+      "id": "14930",
+      "name": "Quickdraw Quiver",
+      "wikiCategory": "Quivers",
+      "lfgSkill": 200,
+      "ourSkill": null
+    },
+    {
+      "id": "9062",
+      "name": "Small Leather Ammo Pouch",
+      "wikiCategory": "Ammo Pouches",
+      "lfgSkill": 25,
+      "ourSkill": null
+    },
+    {
+      "id": "14932",
+      "name": "Thick Leather Ammo Pouch",
+      "wikiCategory": "Ammo Pouches",
+      "lfgSkill": 200,
+      "ourSkill": null
+    },
+    {
+      "id": "7151",
+      "name": "Barbaric Shoulders",
+      "wikiCategory": "Leather Pauldrons",
+      "lfgSkill": 150,
+      "ourSkill": null
+    },
+    {
+      "id": "24654",
+      "name": "Blue Dragonscale Leggings",
+      "wikiCategory": "Mail Legguards",
+      "lfgSkill": 270,
+      "ourSkill": null
+    },
+    {
+      "id": "1255136",
+      "name": "Brawler's Leather Armor",
+      "wikiCategory": "Leather Chestguards",
+      "lfgSkill": 60,
+      "ourSkill": null
+    },
+    {
+      "id": "1255093",
+      "name": "Brawler's Leather Helm",
+      "wikiCategory": "Leather Helmets",
+      "lfgSkill": 100,
+      "ourSkill": null
+    },
+    {
+      "id": "1255115",
+      "name": "Brawler's Leather Pants",
+      "wikiCategory": "Leather Legguards",
+      "lfgSkill": 110,
+      "ourSkill": null
+    },
+    {
+      "id": "3818",
+      "name": "Cured Heavy Hide",
+      "wikiCategory": "Reagents",
+      "lfgSkill": 125,
+      "ourSkill": null
+    },
+    {
+      "id": "3816",
+      "name": "Cured Light Hide",
+      "wikiCategory": "Reagents",
+      "lfgSkill": 30,
+      "ourSkill": null
+    },
+    {
+      "id": "3817",
+      "name": "Cured Medium Hide",
+      "wikiCategory": "Reagents",
+      "lfgSkill": 75,
+      "ourSkill": null
+    },
+    {
+      "id": "19047",
+      "name": "Cured Rugged Hide",
+      "wikiCategory": "Reagents",
+      "lfgSkill": 175,
+      "ourSkill": null
+    },
+    {
+      "id": "10482",
+      "name": "Cured Thick Hide",
+      "wikiCategory": "Reagents",
+      "lfgSkill": 175,
+      "ourSkill": null
+    },
+    {
+      "id": "3766",
+      "name": "Dark Leather Belt",
+      "wikiCategory": "Leather Belts",
+      "lfgSkill": 100,
+      "ourSkill": null
+    },
+    {
+      "id": "2168",
+      "name": "Dark Leather Cloak",
+      "wikiCategory": "Cloaks",
+      "lfgSkill": 85,
+      "ourSkill": null
+    },
+    {
+      "id": "7135",
+      "name": "Dark Leather Pants",
+      "wikiCategory": "Leather Legguards",
+      "lfgSkill": 90,
+      "ourSkill": null
+    },
+    {
+      "id": "1255134",
+      "name": "Defender's Leather Armor",
+      "wikiCategory": "Leather Chestguards",
+      "lfgSkill": 60,
+      "ourSkill": null
+    },
+    {
+      "id": "1255091",
+      "name": "Defender's Leather Helm",
+      "wikiCategory": "Leather Helmets",
+      "lfgSkill": 100,
+      "ourSkill": null
+    },
+    {
+      "id": "1255113",
+      "name": "Defender's Leather Pants",
+      "wikiCategory": "Leather Legguards",
+      "lfgSkill": 110,
+      "ourSkill": null
+    },
+    {
+      "id": "9206",
+      "name": "Dusky Belt",
+      "wikiCategory": "Leather Belts",
+      "lfgSkill": 170,
+      "ourSkill": null
+    },
+    {
+      "id": "9201",
+      "name": "Dusky Bracers",
+      "wikiCategory": "Leather Bracers",
+      "lfgSkill": 160,
+      "ourSkill": null
+    },
+    {
+      "id": "9196",
+      "name": "Dusky Leather Armor",
+      "wikiCategory": "Leather Chestguards",
+      "lfgSkill": 150,
+      "ourSkill": null
+    },
+    {
+      "id": "2161",
+      "name": "Embossed Leather Boots",
+      "wikiCategory": "Leather Boots",
+      "lfgSkill": 50,
+      "ourSkill": null
+    },
+    {
+      "id": "2162",
+      "name": "Embossed Leather Cloak",
+      "wikiCategory": "Cloaks",
+      "lfgSkill": 40,
+      "ourSkill": null
+    },
+    {
+      "id": "3756",
+      "name": "Embossed Leather Gloves",
+      "wikiCategory": "Leather Gauntlets",
+      "lfgSkill": 40,
+      "ourSkill": null
+    },
+    {
+      "id": "3759",
+      "name": "Embossed Leather Pants",
+      "wikiCategory": "Leather Legguards",
+      "lfgSkill": 50,
+      "ourSkill": null
+    },
+    {
+      "id": "2160",
+      "name": "Embossed Leather Vest",
+      "wikiCategory": "Leather Chestguards",
+      "lfgSkill": 35,
+      "ourSkill": null
+    },
+    {
+      "id": "10647",
+      "name": "Feathered Breastplate",
+      "wikiCategory": "Leather Chestguards",
+      "lfgSkill": 300,
+      "ourSkill": null
+    },
+    {
+      "id": "3763",
+      "name": "Fine Leather Belt",
+      "wikiCategory": "Leather Belts",
+      "lfgSkill": 55,
+      "ourSkill": null
+    },
+    {
+      "id": "2159",
+      "name": "Fine Leather Cloak",
+      "wikiCategory": "Cloaks",
+      "lfgSkill": 50,
+      "ourSkill": null
+    },
+    {
+      "id": "3761",
+      "name": "Fine Leather Tunic",
+      "wikiCategory": "Leather Chestguards",
+      "lfgSkill": 60,
+      "ourSkill": null
+    },
+    {
+      "id": "9145",
+      "name": "Fletcher's Gloves",
+      "wikiCategory": "Leather Gauntlets",
+      "lfgSkill": 100,
+      "ourSkill": null
+    },
+    {
+      "id": "9198",
+      "name": "Frost Leather Cloak",
+      "wikiCategory": "Cloaks",
+      "lfgSkill": 155,
+      "ourSkill": null
+    },
+    {
+      "id": "10630",
+      "name": "Gauntlets of the Sea",
+      "wikiCategory": "Leather Gauntlets",
+      "lfgSkill": 160,
+      "ourSkill": null
+    },
+    {
+      "id": "24655",
+      "name": "Green Dragonscale Gauntlets",
+      "wikiCategory": "Mail Gauntlets",
+      "lfgSkill": 245,
+      "ourSkill": null
+    },
+    {
+      "id": "3774",
+      "name": "Green Leather Belt",
+      "wikiCategory": "Leather Belts",
+      "lfgSkill": 135,
+      "ourSkill": null
+    },
+    {
+      "id": "3776",
+      "name": "Green Leather Bracers",
+      "wikiCategory": "Leather Bracers",
+      "lfgSkill": 155,
+      "ourSkill": null
+    },
+    {
+      "id": "7153",
+      "name": "Guardian Cloak",
+      "wikiCategory": "Cloaks",
+      "lfgSkill": 125,
+      "ourSkill": null
+    },
+    {
+      "id": "7156",
+      "name": "Guardian Gloves",
+      "wikiCategory": "Leather Gauntlets",
+      "lfgSkill": 165,
+      "ourSkill": null
+    },
+    {
+      "id": "3753",
+      "name": "Handstitched Leather Belt",
+      "wikiCategory": "Leather Belts",
+      "lfgSkill": 25,
+      "ourSkill": null
+    },
+    {
+      "id": "2153",
+      "name": "Handstitched Leather Pants",
+      "wikiCategory": "Leather Legguards",
+      "lfgSkill": 15,
+      "ourSkill": null
+    },
+    {
+      "id": "20649",
+      "name": "Heavy Leather",
+      "wikiCategory": "Reagents",
+      "lfgSkill": 125,
+      "ourSkill": null
+    },
+    {
+      "id": "10632",
+      "name": "Helm of Fire",
+      "wikiCategory": "Leather Helmets",
+      "lfgSkill": 290,
+      "ourSkill": null
+    },
+    {
+      "id": "3760",
+      "name": "Hillman's Cloak",
+      "wikiCategory": "Cloaks",
+      "lfgSkill": 125,
+      "ourSkill": null
+    },
+    {
+      "id": "3764",
+      "name": "Hillman's Leather Gloves",
+      "wikiCategory": "Leather Gauntlets",
+      "lfgSkill": 120,
+      "ourSkill": null
+    },
+    {
+      "id": "3768",
+      "name": "Hillman's Shoulders",
+      "wikiCategory": "Leather Pauldrons",
+      "lfgSkill": 105,
+      "ourSkill": null
+    },
+    {
+      "id": "9065",
+      "name": "Light Leather Bracers",
+      "wikiCategory": "Leather Bracers",
+      "lfgSkill": 45,
+      "ourSkill": null
+    },
+    {
+      "id": "9068",
+      "name": "Light Leather Pants",
+      "wikiCategory": "Leather Legguards",
+      "lfgSkill": 70,
+      "ourSkill": null
+    },
+    {
+      "id": "20648",
+      "name": "Medium Leather",
+      "wikiCategory": "Reagents",
+      "lfgSkill": 75,
+      "ourSkill": null
+    },
+    {
+      "id": "10558",
+      "name": "Nightscape Boots",
+      "wikiCategory": "Leather Boots",
+      "lfgSkill": 205,
+      "ourSkill": null
+    },
+    {
+      "id": "10507",
+      "name": "Nightscape Headband",
+      "wikiCategory": "Leather Helmets",
+      "lfgSkill": 180,
+      "ourSkill": null
+    },
+    {
+      "id": "10548",
+      "name": "Nightscape Pants",
+      "wikiCategory": "Leather Legguards",
+      "lfgSkill": 185,
+      "ourSkill": null
+    },
+    {
+      "id": "10499",
+      "name": "Nightscape Tunic",
+      "wikiCategory": "Leather Chestguards",
+      "lfgSkill": 180,
+      "ourSkill": null
+    },
+    {
+      "id": "9074",
+      "name": "Nimble Leather Gloves",
+      "wikiCategory": "Leather Gauntlets",
+      "lfgSkill": 95,
+      "ourSkill": null
+    },
+    {
+      "id": "22331",
+      "name": "Rugged Leather",
+      "wikiCategory": "Reagents",
+      "lfgSkill": 30,
+      "ourSkill": null
+    },
+    {
+      "id": "1255132",
+      "name": "Stormrider's Leather Armor",
+      "wikiCategory": "Leather Chestguards",
+      "lfgSkill": 60,
+      "ourSkill": null
+    },
+    {
+      "id": "1255089",
+      "name": "Stormrider's Leather Helm",
+      "wikiCategory": "Leather Helmets",
+      "lfgSkill": 100,
+      "ourSkill": null
+    },
+    {
+      "id": "1255111",
+      "name": "Stormrider's Leather Pants",
+      "wikiCategory": "Leather Legguards",
+      "lfgSkill": 110,
+      "ourSkill": null
+    },
+    {
+      "id": "20650",
+      "name": "Thick Leather",
+      "wikiCategory": "Reagents",
+      "lfgSkill": 175,
+      "ourSkill": null
+    },
+    {
+      "id": "1255133",
+      "name": "Totemic Leather Armor",
+      "wikiCategory": "Leather Chestguards",
+      "lfgSkill": 60,
+      "ourSkill": null
+    },
+    {
+      "id": "1255090",
+      "name": "Totemic Leather Helm",
+      "wikiCategory": "Leather Helmets",
+      "lfgSkill": 100,
+      "ourSkill": null
+    },
+    {
+      "id": "1255112",
+      "name": "Totemic Leather Pants",
+      "wikiCategory": "Leather Legguards",
+      "lfgSkill": 110,
+      "ourSkill": null
+    },
+    {
+      "id": "2166",
+      "name": "Toughened Leather Armor",
+      "wikiCategory": "Leather Chestguards",
+      "lfgSkill": 95,
+      "ourSkill": null
+    },
+    {
+      "id": "1255135",
+      "name": "Trapper's Leather Armor",
+      "wikiCategory": "Leather Chestguards",
+      "lfgSkill": 60,
+      "ourSkill": null
+    },
+    {
+      "id": "1255092",
+      "name": "Trapper's Leather Helm",
+      "wikiCategory": "Leather Helmets",
+      "lfgSkill": 100,
+      "ourSkill": null
+    },
+    {
+      "id": "1255114",
+      "name": "Trapper's Leather Pants",
+      "wikiCategory": "Leather Legguards",
+      "lfgSkill": 110,
+      "ourSkill": null
+    },
+    {
+      "id": "10518",
+      "name": "Turtle Scale Bracers",
+      "wikiCategory": "Mail Bracers",
+      "lfgSkill": 185,
+      "ourSkill": null
+    },
+    {
+      "id": "10552",
+      "name": "Turtle Scale Helm",
+      "wikiCategory": "Mail Helmets",
+      "lfgSkill": 140,
+      "ourSkill": null
+    },
+    {
+      "id": "10556",
+      "name": "Turtle Scale Leggings",
+      "wikiCategory": "Mail Legguards",
+      "lfgSkill": 140,
+      "ourSkill": null
+    },
+    {
+      "id": "1255131",
+      "name": "Wisdom's Leather Armor",
+      "wikiCategory": "Leather Chestguards",
+      "lfgSkill": 60,
+      "ourSkill": null
+    },
+    {
+      "id": "1255088",
+      "name": "Wisdom's Leather Helm",
+      "wikiCategory": "Leather Helmets",
+      "lfgSkill": 100,
+      "ourSkill": null
+    },
+    {
+      "id": "1255110",
+      "name": "Wisdom's Leather Pants",
+      "wikiCategory": "Leather Legguards",
+      "lfgSkill": 110,
+      "ourSkill": null
+    },
+    {
+      "id": "10621",
+      "name": "Wolfshead Helm",
+      "wikiCategory": "Leather Helmets",
+      "lfgSkill": 70,
+      "ourSkill": null
+    }
+  ],
+  "wikiAgreements": [
+    {
+      "id": "3780",
+      "name": "Heavy Armor Kit",
+      "wikiCategory": "Armor Kits",
+      "lfgSkill": 125,
+      "ourSkill": null,
+      "wikiSkill": 125,
+      "wikiSource": "Trainer"
+    },
+    {
+      "id": "2165",
+      "name": "Medium Armor Kit",
+      "wikiCategory": "Armor Kits",
+      "lfgSkill": 75,
+      "ourSkill": null,
+      "wikiSkill": 75,
+      "wikiSource": "Trainer"
+    },
+    {
+      "id": "10487",
+      "name": "Thick Armor Kit",
+      "wikiCategory": "Armor Kits",
+      "lfgSkill": 175,
+      "ourSkill": null,
+      "wikiSkill": 175,
+      "wikiSource": "Trainer"
+    },
+    {
+      "id": "9194",
+      "name": "Heavy Leather Ammo Pouch",
+      "wikiCategory": "Ammo Pouches",
+      "lfgSkill": 125,
+      "ourSkill": null,
+      "wikiSkill": 125,
+      "wikiSource": "Trainer"
+    },
+    {
+      "id": "9193",
+      "name": "Heavy Quiver",
+      "wikiCategory": "Quivers",
+      "lfgSkill": 125,
+      "ourSkill": null,
+      "wikiSkill": 125,
+      "wikiSource": "Trainer"
+    },
+    {
+      "id": "9060",
+      "name": "Light Leather Quiver",
+      "wikiCategory": "Quivers",
+      "lfgSkill": 25,
+      "ourSkill": null,
+      "wikiSkill": 25,
+      "wikiSource": "Trainer"
+    },
+    {
+      "id": "14930",
+      "name": "Quickdraw Quiver",
+      "wikiCategory": "Quivers",
+      "lfgSkill": 200,
+      "ourSkill": null,
+      "wikiSkill": 200,
+      "wikiSource": "Trainer"
+    },
+    {
+      "id": "9062",
+      "name": "Small Leather Ammo Pouch",
+      "wikiCategory": "Ammo Pouches",
+      "lfgSkill": 25,
+      "ourSkill": null,
+      "wikiSkill": 25,
+      "wikiSource": "Trainer"
+    },
+    {
+      "id": "14932",
+      "name": "Thick Leather Ammo Pouch",
+      "wikiCategory": "Ammo Pouches",
+      "lfgSkill": 200,
+      "ourSkill": null,
+      "wikiSkill": 200,
+      "wikiSource": "Trainer"
+    },
+    {
+      "id": "7151",
+      "name": "Barbaric Shoulders",
+      "wikiCategory": "Leather Pauldrons",
+      "lfgSkill": 150,
+      "ourSkill": null,
+      "wikiSkill": 150,
+      "wikiSource": "Trainer"
+    },
+    {
+      "id": "3818",
+      "name": "Cured Heavy Hide",
+      "wikiCategory": "Reagents",
+      "lfgSkill": 125,
+      "ourSkill": null,
+      "wikiSkill": 125,
+      "wikiSource": "Trainer"
+    },
+    {
+      "id": "3816",
+      "name": "Cured Light Hide",
+      "wikiCategory": "Reagents",
+      "lfgSkill": 30,
+      "ourSkill": null,
+      "wikiSkill": 30,
+      "wikiSource": "Trainer"
+    },
+    {
+      "id": "3817",
+      "name": "Cured Medium Hide",
+      "wikiCategory": "Reagents",
+      "lfgSkill": 75,
+      "ourSkill": null,
+      "wikiSkill": 75,
+      "wikiSource": "Trainer"
+    },
+    {
+      "id": "10482",
+      "name": "Cured Thick Hide",
+      "wikiCategory": "Reagents",
+      "lfgSkill": 175,
+      "ourSkill": null,
+      "wikiSkill": 175,
+      "wikiSource": "Trainer"
+    },
+    {
+      "id": "3766",
+      "name": "Dark Leather Belt",
+      "wikiCategory": "Leather Belts",
+      "lfgSkill": 100,
+      "ourSkill": null,
+      "wikiSkill": 100,
+      "wikiSource": "Trainer"
+    },
+    {
+      "id": "2168",
+      "name": "Dark Leather Cloak",
+      "wikiCategory": "Cloaks",
+      "lfgSkill": 85,
+      "ourSkill": null,
+      "wikiSkill": 85,
+      "wikiSource": "Trainer"
+    },
+    {
+      "id": "7135",
+      "name": "Dark Leather Pants",
+      "wikiCategory": "Leather Legguards",
+      "lfgSkill": 90,
+      "ourSkill": null,
+      "wikiSkill": 90,
+      "wikiSource": "Trainer"
+    },
+    {
+      "id": "9206",
+      "name": "Dusky Belt",
+      "wikiCategory": "Leather Belts",
+      "lfgSkill": 170,
+      "ourSkill": null,
+      "wikiSkill": 170,
+      "wikiSource": "Trainer"
+    },
+    {
+      "id": "9201",
+      "name": "Dusky Bracers",
+      "wikiCategory": "Leather Bracers",
+      "lfgSkill": 160,
+      "ourSkill": null,
+      "wikiSkill": 160,
+      "wikiSource": "Trainer"
+    },
+    {
+      "id": "9196",
+      "name": "Dusky Leather Armor",
+      "wikiCategory": "Leather Chestguards",
+      "lfgSkill": 150,
+      "ourSkill": null,
+      "wikiSkill": 150,
+      "wikiSource": "Trainer"
+    },
+    {
+      "id": "2161",
+      "name": "Embossed Leather Boots",
+      "wikiCategory": "Leather Boots",
+      "lfgSkill": 50,
+      "ourSkill": null,
+      "wikiSkill": 50,
+      "wikiSource": "Trainer"
+    },
+    {
+      "id": "2162",
+      "name": "Embossed Leather Cloak",
+      "wikiCategory": "Cloaks",
+      "lfgSkill": 40,
+      "ourSkill": null,
+      "wikiSkill": 40,
+      "wikiSource": "Trainer"
+    },
+    {
+      "id": "3756",
+      "name": "Embossed Leather Gloves",
+      "wikiCategory": "Leather Gauntlets",
+      "lfgSkill": 40,
+      "ourSkill": null,
+      "wikiSkill": 40,
+      "wikiSource": "Trainer"
+    },
+    {
+      "id": "3759",
+      "name": "Embossed Leather Pants",
+      "wikiCategory": "Leather Legguards",
+      "lfgSkill": 50,
+      "ourSkill": null,
+      "wikiSkill": 50,
+      "wikiSource": "Trainer"
+    },
+    {
+      "id": "2160",
+      "name": "Embossed Leather Vest",
+      "wikiCategory": "Leather Chestguards",
+      "lfgSkill": 35,
+      "ourSkill": null,
+      "wikiSkill": 35,
+      "wikiSource": "Trainer"
+    },
+    {
+      "id": "3763",
+      "name": "Fine Leather Belt",
+      "wikiCategory": "Leather Belts",
+      "lfgSkill": 55,
+      "ourSkill": null,
+      "wikiSkill": 55,
+      "wikiSource": "Trainer"
+    },
+    {
+      "id": "2159",
+      "name": "Fine Leather Cloak",
+      "wikiCategory": "Cloaks",
+      "lfgSkill": 50,
+      "ourSkill": null,
+      "wikiSkill": 50,
+      "wikiSource": "Trainer"
+    },
+    {
+      "id": "3761",
+      "name": "Fine Leather Tunic",
+      "wikiCategory": "Leather Chestguards",
+      "lfgSkill": 60,
+      "ourSkill": null,
+      "wikiSkill": 60,
+      "wikiSource": "Trainer"
+    },
+    {
+      "id": "9145",
+      "name": "Fletcher's Gloves",
+      "wikiCategory": "Leather Gauntlets",
+      "lfgSkill": 100,
+      "ourSkill": null,
+      "wikiSkill": 100,
+      "wikiSource": "Trainer"
+    },
+    {
+      "id": "9198",
+      "name": "Frost Leather Cloak",
+      "wikiCategory": "Cloaks",
+      "lfgSkill": 155,
+      "ourSkill": null,
+      "wikiSkill": 155,
+      "wikiSource": "Trainer"
+    },
+    {
+      "id": "3774",
+      "name": "Green Leather Belt",
+      "wikiCategory": "Leather Belts",
+      "lfgSkill": 135,
+      "ourSkill": null,
+      "wikiSkill": 135,
+      "wikiSource": "Trainer"
+    },
+    {
+      "id": "3776",
+      "name": "Green Leather Bracers",
+      "wikiCategory": "Leather Bracers",
+      "lfgSkill": 155,
+      "ourSkill": null,
+      "wikiSkill": 155,
+      "wikiSource": "Trainer"
+    },
+    {
+      "id": "7156",
+      "name": "Guardian Gloves",
+      "wikiCategory": "Leather Gauntlets",
+      "lfgSkill": 165,
+      "ourSkill": null,
+      "wikiSkill": 165,
+      "wikiSource": "Trainer"
+    },
+    {
+      "id": "3753",
+      "name": "Handstitched Leather Belt",
+      "wikiCategory": "Leather Belts",
+      "lfgSkill": 25,
+      "ourSkill": null,
+      "wikiSkill": 25,
+      "wikiSource": "Trainer"
+    },
+    {
+      "id": "2153",
+      "name": "Handstitched Leather Pants",
+      "wikiCategory": "Leather Legguards",
+      "lfgSkill": 15,
+      "ourSkill": null,
+      "wikiSkill": 15,
+      "wikiSource": "Trainer"
+    },
+    {
+      "id": "20649",
+      "name": "Heavy Leather",
+      "wikiCategory": "Reagents",
+      "lfgSkill": 125,
+      "ourSkill": null,
+      "wikiSkill": 125,
+      "wikiSource": "Trainer"
+    },
+    {
+      "id": "3760",
+      "name": "Hillman's Cloak",
+      "wikiCategory": "Cloaks",
+      "lfgSkill": 125,
+      "ourSkill": null,
+      "wikiSkill": 125,
+      "wikiSource": "Trainer"
+    },
+    {
+      "id": "3764",
+      "name": "Hillman's Leather Gloves",
+      "wikiCategory": "Leather Gauntlets",
+      "lfgSkill": 120,
+      "ourSkill": null,
+      "wikiSkill": 120,
+      "wikiSource": "Trainer"
+    },
+    {
+      "id": "3768",
+      "name": "Hillman's Shoulders",
+      "wikiCategory": "Leather Pauldrons",
+      "lfgSkill": 105,
+      "ourSkill": null,
+      "wikiSkill": 105,
+      "wikiSource": "Trainer"
+    },
+    {
+      "id": "9065",
+      "name": "Light Leather Bracers",
+      "wikiCategory": "Leather Bracers",
+      "lfgSkill": 45,
+      "ourSkill": null,
+      "wikiSkill": 45,
+      "wikiSource": "Trainer"
+    },
+    {
+      "id": "9068",
+      "name": "Light Leather Pants",
+      "wikiCategory": "Leather Legguards",
+      "lfgSkill": 70,
+      "ourSkill": null,
+      "wikiSkill": 70,
+      "wikiSource": "Trainer"
+    },
+    {
+      "id": "20648",
+      "name": "Medium Leather",
+      "wikiCategory": "Reagents",
+      "lfgSkill": 75,
+      "ourSkill": null,
+      "wikiSkill": 75,
+      "wikiSource": "Trainer"
+    },
+    {
+      "id": "10507",
+      "name": "Nightscape Headband",
+      "wikiCategory": "Leather Helmets",
+      "lfgSkill": 180,
+      "ourSkill": null,
+      "wikiSkill": 180,
+      "wikiSource": "Trainer"
+    },
+    {
+      "id": "10499",
+      "name": "Nightscape Tunic",
+      "wikiCategory": "Leather Chestguards",
+      "lfgSkill": 180,
+      "ourSkill": null,
+      "wikiSkill": 180,
+      "wikiSource": "Trainer"
+    },
+    {
+      "id": "9074",
+      "name": "Nimble Leather Gloves",
+      "wikiCategory": "Leather Gauntlets",
+      "lfgSkill": 95,
+      "ourSkill": null,
+      "wikiSkill": 95,
+      "wikiSource": "Trainer"
+    },
+    {
+      "id": "20650",
+      "name": "Thick Leather",
+      "wikiCategory": "Reagents",
+      "lfgSkill": 175,
+      "ourSkill": null,
+      "wikiSkill": 175,
+      "wikiSource": "Trainer"
+    },
+    {
+      "id": "2166",
+      "name": "Toughened Leather Armor",
+      "wikiCategory": "Leather Chestguards",
+      "lfgSkill": 95,
+      "ourSkill": null,
+      "wikiSkill": 95,
+      "wikiSource": "Trainer"
+    },
+    {
+      "id": "10518",
+      "name": "Turtle Scale Bracers",
+      "wikiCategory": "Mail Bracers",
+      "lfgSkill": 185,
+      "ourSkill": null,
+      "wikiSkill": 185,
+      "wikiSource": "Trainer"
+    }
+  ],
   "note": "Cross-check only. Do not automatically import sources without direct crafting evidence."
 }

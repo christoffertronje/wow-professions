@@ -45,6 +45,16 @@ if extra_path.exists():
                 raise ValueError(f"Unrecorded source disagreement for {sid}")
         else:
             records[sid]=value
+# Also accept vendor/drop pattern requirements where two separate sources
+# agree on the minimum skill. Never infer a trainer minimum from skill-up bands.
+pattern_file=Path("data/wiki-pattern-crafting-skills.json")
+if pattern_file.exists():
+    pattern_data=json.loads(pattern_file.read_text(encoding="utf-8"))
+    for sid,value in pattern_data["skillsBySpellId"].items():
+        if sid in records and records[sid]["required"] != value["required"]:
+            raise ValueError(f"Wiki pattern mismatch for spell {sid}")
+        if sid not in records:
+            records[sid]=value
 # Regression checks for a known skill-up-threshold mixup and a source conflict.
 if records.get("3770",{}).get("required")!=110:
     raise ValueError("Regression: Toughened Leather Gloves must require crafting skill 110")

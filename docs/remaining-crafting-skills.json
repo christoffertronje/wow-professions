@@ -1,17 +1,13 @@
 {
   "meta": {
-    "generatedFrom": "data/leatherworking.json",
-    "catalogBuild": "1.60.1.70707",
+    "sourceBacked": 548,
     "total": 605,
-    "sourceBacked": 532,
-    "unresolved": 73,
-    "counts": {
-      "named": 16,
-      "historical": 44,
-      "unidentified": 13
-    },
-    "rule": "Only display craftSkillRequired when evidence supports the minimum needed to craft; neither pattern skill-up bands nor unverified client values are silently substituted.",
-    "status": "incomplete"
+    "unresolved": 57,
+    "ordinaryNamedUnknown": 0,
+    "seasonOfDiscoveryUnknown": 44,
+    "unnamedClientUnknown": 13,
+    "method": "Only minimum craft skill. All raw client and skill-up thresholds are excluded from craftSkillRequired. Historical records are retained but cannot be presumed live-craftable.",
+    "generatedFrom": "data/leatherworking.json"
   },
   "remaining": [
     {
@@ -19,803 +15,513 @@
       "name": "Big Voodoo Mask",
       "category": "SEASON OF DISCOVERY",
       "type": "season-of-discovery-record",
-      "reason": "Retained historical Season of Discovery record; live Forever availability and craft requirement not verified.",
-      "unverifiedImportedValue": 220,
-      "wclboxFirstValue": null,
-      "warcraftWikiSkillValue": null,
-      "notes": ""
+      "craftSkillRequired": null,
+      "reason": "Archived Season of Discovery record is preserved, but not confirmed craftable in live Forever.",
+      "previousImportedNumber": 220
     },
     {
       "spellId": "439108",
       "name": "Big Voodoo Robe",
       "category": "SEASON OF DISCOVERY",
       "type": "season-of-discovery-record",
-      "reason": "Retained historical Season of Discovery record; live Forever availability and craft requirement not verified.",
-      "unverifiedImportedValue": 215,
-      "wclboxFirstValue": null,
-      "warcraftWikiSkillValue": null,
-      "notes": ""
-    },
-    {
-      "spellId": "24654",
-      "name": "Blue Dragonscale Leggings",
-      "category": "Mail Legguards",
-      "type": "named-forever-recipe",
-      "reason": "Cannot prove exact minimum in Forever from independently supported evidence; do not use skill-up thresholds.",
-      "unverifiedImportedValue": 310,
-      "wclboxFirstValue": 290,
-      "warcraftWikiSkillValue": 300,
-      "notes": ""
+      "craftSkillRequired": null,
+      "reason": "Archived Season of Discovery record is preserved, but not confirmed craftable in live Forever.",
+      "previousImportedNumber": 215
     },
     {
       "spellId": "1213734",
       "name": "Bramblewood Belt",
       "category": "SEASON OF DISCOVERY",
       "type": "season-of-discovery-record",
-      "reason": "Retained historical Season of Discovery record; live Forever availability and craft requirement not verified.",
-      "unverifiedImportedValue": null,
-      "wclboxFirstValue": null,
-      "warcraftWikiSkillValue": null,
-      "notes": ""
-    },
-    {
-      "spellId": "28474",
-      "name": "Bramblewood Belt",
-      "category": "Leather Belts",
-      "type": "named-forever-recipe",
-      "reason": "Cannot prove exact minimum in Forever from independently supported evidence; do not use skill-up thresholds.",
-      "unverifiedImportedValue": 300,
-      "wclboxFirstValue": 320,
-      "warcraftWikiSkillValue": null,
-      "notes": ""
+      "craftSkillRequired": null,
+      "reason": "Archived Season of Discovery record is preserved, but not confirmed craftable in live Forever.",
+      "previousImportedNumber": null
     },
     {
       "spellId": "1213736",
       "name": "Bramblewood Boots",
       "category": "SEASON OF DISCOVERY",
       "type": "season-of-discovery-record",
-      "reason": "Retained historical Season of Discovery record; live Forever availability and craft requirement not verified.",
-      "unverifiedImportedValue": null,
-      "wclboxFirstValue": null,
-      "warcraftWikiSkillValue": null,
-      "notes": ""
-    },
-    {
-      "spellId": "28473",
-      "name": "Bramblewood Boots",
-      "category": "Leather Boots",
-      "type": "named-forever-recipe",
-      "reason": "Cannot prove exact minimum in Forever from independently supported evidence; do not use skill-up thresholds.",
-      "unverifiedImportedValue": 300,
-      "wclboxFirstValue": 320,
-      "warcraftWikiSkillValue": null,
-      "notes": ""
+      "craftSkillRequired": null,
+      "reason": "Archived Season of Discovery record is preserved, but not confirmed craftable in live Forever.",
+      "previousImportedNumber": null
     },
     {
       "spellId": "1213738",
       "name": "Bramblewood Helm",
       "category": "SEASON OF DISCOVERY",
       "type": "season-of-discovery-record",
-      "reason": "Retained historical Season of Discovery record; live Forever availability and craft requirement not verified.",
-      "unverifiedImportedValue": null,
-      "wclboxFirstValue": null,
-      "warcraftWikiSkillValue": null,
-      "notes": ""
-    },
-    {
-      "spellId": "28472",
-      "name": "Bramblewood Helm",
-      "category": "Leather Helmets",
-      "type": "named-forever-recipe",
-      "reason": "Cannot prove exact minimum in Forever from independently supported evidence; do not use skill-up thresholds.",
-      "unverifiedImportedValue": 300,
-      "wclboxFirstValue": 320,
-      "warcraftWikiSkillValue": null,
-      "notes": ""
+      "craftSkillRequired": null,
+      "reason": "Archived Season of Discovery record is preserved, but not confirmed craftable in live Forever.",
+      "previousImportedNumber": null
     },
     {
       "spellId": "446186",
       "name": "Cacophonous Chain Shoulderguards",
       "category": "SEASON OF DISCOVERY",
       "type": "season-of-discovery-record",
-      "reason": "Retained historical Season of Discovery record; live Forever availability and craft requirement not verified.",
-      "unverifiedImportedValue": null,
-      "wclboxFirstValue": null,
-      "warcraftWikiSkillValue": 250,
-      "notes": ""
-    },
-    {
-      "spellId": "10650",
-      "name": "Dragonscale Breastplate",
-      "category": "Mail Chestguards",
-      "type": "named-forever-recipe",
-      "reason": "Cannot prove exact minimum in Forever from independently supported evidence; do not use skill-up thresholds.",
-      "unverifiedImportedValue": 250,
-      "wclboxFirstValue": 230,
-      "warcraftWikiSkillValue": 255,
-      "notes": ""
-    },
-    {
-      "spellId": "10619",
-      "name": "Dragonscale Gauntlets",
-      "category": "Mail Gauntlets",
-      "type": "named-forever-recipe",
-      "reason": "Cannot prove exact minimum in Forever from independently supported evidence; do not use skill-up thresholds.",
-      "unverifiedImportedValue": 220,
-      "wclboxFirstValue": 200,
-      "warcraftWikiSkillValue": 225,
-      "notes": ""
+      "craftSkillRequired": null,
+      "reason": "Archived Season of Discovery record is preserved, but not confirmed craftable in live Forever.",
+      "previousImportedNumber": null
     },
     {
       "spellId": "1213751",
       "name": "Dreamscale Breastplate",
       "category": "SEASON OF DISCOVERY",
       "type": "season-of-discovery-record",
-      "reason": "Retained historical Season of Discovery record; live Forever availability and craft requirement not verified.",
-      "unverifiedImportedValue": null,
-      "wclboxFirstValue": null,
-      "warcraftWikiSkillValue": null,
-      "notes": ""
-    },
-    {
-      "spellId": "24703",
-      "name": "Dreamscale Breastplate",
-      "category": "Mail Chestguards",
-      "type": "named-forever-recipe",
-      "reason": "Cannot prove exact minimum in Forever from independently supported evidence; do not use skill-up thresholds.",
-      "unverifiedImportedValue": 300,
-      "wclboxFirstValue": 320,
-      "warcraftWikiSkillValue": null,
-      "notes": ""
+      "craftSkillRequired": null,
+      "reason": "Archived Season of Discovery record is preserved, but not confirmed craftable in live Forever.",
+      "previousImportedNumber": null
     },
     {
       "spellId": "1214303",
       "name": "Dreamscale Kilt",
       "category": "SEASON OF DISCOVERY",
       "type": "season-of-discovery-record",
-      "reason": "Retained historical Season of Discovery record; live Forever availability and craft requirement not verified.",
-      "unverifiedImportedValue": null,
-      "wclboxFirstValue": null,
-      "warcraftWikiSkillValue": 320,
-      "notes": ""
-    },
-    {
-      "spellId": "9201",
-      "name": "Dusky Bracers",
-      "category": "Leather Bracers",
-      "type": "named-forever-recipe",
-      "reason": "Cannot prove exact minimum in Forever from independently supported evidence; do not use skill-up thresholds.",
-      "unverifiedImportedValue": 180,
-      "wclboxFirstValue": 155,
-      "warcraftWikiSkillValue": 160,
-      "notes": ""
-    },
-    {
-      "spellId": "2161",
-      "name": "Embossed Leather Boots",
-      "category": "Leather Boots",
-      "type": "named-forever-recipe",
-      "reason": "Cannot prove exact minimum in Forever from independently supported evidence; do not use skill-up thresholds.",
-      "unverifiedImportedValue": 80,
-      "wclboxFirstValue": null,
-      "warcraftWikiSkillValue": 50,
-      "notes": ""
-    },
-    {
-      "spellId": "10647",
-      "name": "Feathered Breastplate",
-      "category": "Leather Chestguards",
-      "type": "named-forever-recipe",
-      "reason": "Cannot prove exact minimum in Forever from independently supported evidence; do not use skill-up thresholds.",
-      "unverifiedImportedValue": 245,
-      "wclboxFirstValue": 225,
-      "warcraftWikiSkillValue": 250,
-      "notes": ""
-    },
-    {
-      "spellId": "10630",
-      "name": "Gauntlets of the Sea",
-      "category": "Leather Gauntlets",
-      "type": "named-forever-recipe",
-      "reason": "Cannot prove exact minimum in Forever from independently supported evidence; do not use skill-up thresholds.",
-      "unverifiedImportedValue": 225,
-      "wclboxFirstValue": 205,
-      "warcraftWikiSkillValue": 230,
-      "notes": ""
+      "craftSkillRequired": null,
+      "reason": "Archived Season of Discovery record is preserved, but not confirmed craftable in live Forever.",
+      "previousImportedNumber": null
     },
     {
       "spellId": "1213513",
       "name": "Glowing Chitin Armor Kit",
       "category": "SEASON OF DISCOVERY",
       "type": "season-of-discovery-record",
-      "reason": "Retained historical Season of Discovery record; live Forever availability and craft requirement not verified.",
-      "unverifiedImportedValue": null,
-      "wclboxFirstValue": null,
-      "warcraftWikiSkillValue": 320,
-      "notes": ""
-    },
-    {
-      "spellId": "24655",
-      "name": "Green Dragonscale Gauntlets",
-      "category": "Mail Gauntlets",
-      "type": "named-forever-recipe",
-      "reason": "Cannot prove exact minimum in Forever from independently supported evidence; do not use skill-up thresholds.",
-      "unverifiedImportedValue": 275,
-      "wclboxFirstValue": 255,
-      "warcraftWikiSkillValue": 280,
-      "notes": ""
+      "craftSkillRequired": null,
+      "reason": "Archived Season of Discovery record is preserved, but not confirmed craftable in live Forever.",
+      "previousImportedNumber": null
     },
     {
       "spellId": "439112",
       "name": "Guardian Belt",
       "category": "SEASON OF DISCOVERY",
       "type": "season-of-discovery-record",
-      "reason": "Retained historical Season of Discovery record; live Forever availability and craft requirement not verified.",
-      "unverifiedImportedValue": 170,
-      "wclboxFirstValue": null,
-      "warcraftWikiSkillValue": null,
-      "notes": ""
+      "craftSkillRequired": null,
+      "reason": "Archived Season of Discovery record is preserved, but not confirmed craftable in live Forever.",
+      "previousImportedNumber": 170
     },
     {
       "spellId": "439110",
       "name": "Guardian Leather Bracers",
       "category": "SEASON OF DISCOVERY",
       "type": "season-of-discovery-record",
-      "reason": "Retained historical Season of Discovery record; live Forever availability and craft requirement not verified.",
-      "unverifiedImportedValue": 195,
-      "wclboxFirstValue": null,
-      "warcraftWikiSkillValue": null,
-      "notes": ""
+      "craftSkillRequired": null,
+      "reason": "Archived Season of Discovery record is preserved, but not confirmed craftable in live Forever.",
+      "previousImportedNumber": 195
     },
     {
       "spellId": "439114",
       "name": "Guardian Pants",
       "category": "SEASON OF DISCOVERY",
       "type": "season-of-discovery-record",
-      "reason": "Retained historical Season of Discovery record; live Forever availability and craft requirement not verified.",
-      "unverifiedImportedValue": null,
-      "wclboxFirstValue": null,
-      "warcraftWikiSkillValue": null,
-      "notes": ""
-    },
-    {
-      "spellId": "10632",
-      "name": "Helm of Fire",
-      "category": "Leather Helmets",
-      "type": "named-forever-recipe",
-      "reason": "Cannot prove exact minimum in Forever from independently supported evidence; do not use skill-up thresholds.",
-      "unverifiedImportedValue": 245,
-      "wclboxFirstValue": 225,
-      "warcraftWikiSkillValue": 250,
-      "notes": ""
+      "craftSkillRequired": null,
+      "reason": "Archived Season of Discovery record is preserved, but not confirmed craftable in live Forever.",
+      "previousImportedNumber": null
     },
     {
       "spellId": "462227",
       "name": "Honed Blue Dragonscale Leggings",
       "category": "SEASON OF DISCOVERY",
       "type": "season-of-discovery-record",
-      "reason": "Retained historical Season of Discovery record; live Forever availability and craft requirement not verified.",
-      "unverifiedImportedValue": null,
-      "wclboxFirstValue": null,
-      "warcraftWikiSkillValue": 320,
-      "notes": ""
+      "craftSkillRequired": null,
+      "reason": "Archived Season of Discovery record is preserved, but not confirmed craftable in live Forever.",
+      "previousImportedNumber": null
     },
     {
       "spellId": "1223778",
       "name": "Icy Scale Bracers",
       "category": "SEASON OF DISCOVERY",
       "type": "season-of-discovery-record",
-      "reason": "Retained historical Season of Discovery record; live Forever availability and craft requirement not verified.",
-      "unverifiedImportedValue": null,
-      "wclboxFirstValue": null,
-      "warcraftWikiSkillValue": null,
-      "notes": ""
-    },
-    {
-      "spellId": "28224",
-      "name": "Icy Scale Bracers",
-      "category": "Mail Bracers",
-      "type": "named-forever-recipe",
-      "reason": "Cannot prove exact minimum in Forever from independently supported evidence; do not use skill-up thresholds.",
-      "unverifiedImportedValue": 300,
-      "wclboxFirstValue": 320,
-      "warcraftWikiSkillValue": null,
-      "notes": ""
+      "craftSkillRequired": null,
+      "reason": "Archived Season of Discovery record is preserved, but not confirmed craftable in live Forever.",
+      "previousImportedNumber": null
     },
     {
       "spellId": "1223774",
       "name": "Icy Scale Breastplate",
       "category": "SEASON OF DISCOVERY",
       "type": "season-of-discovery-record",
-      "reason": "Retained historical Season of Discovery record; live Forever availability and craft requirement not verified.",
-      "unverifiedImportedValue": null,
-      "wclboxFirstValue": null,
-      "warcraftWikiSkillValue": null,
-      "notes": ""
+      "craftSkillRequired": null,
+      "reason": "Archived Season of Discovery record is preserved, but not confirmed craftable in live Forever.",
+      "previousImportedNumber": null
     },
     {
       "spellId": "1223776",
       "name": "Icy Scale Gauntlets",
       "category": "SEASON OF DISCOVERY",
       "type": "season-of-discovery-record",
-      "reason": "Retained historical Season of Discovery record; live Forever availability and craft requirement not verified.",
-      "unverifiedImportedValue": null,
-      "wclboxFirstValue": null,
-      "warcraftWikiSkillValue": null,
-      "notes": ""
+      "craftSkillRequired": null,
+      "reason": "Archived Season of Discovery record is preserved, but not confirmed craftable in live Forever.",
+      "previousImportedNumber": null
     },
     {
       "spellId": "461677",
       "name": "Living Green Dragonscale Gauntlets",
       "category": "SEASON OF DISCOVERY",
       "type": "season-of-discovery-record",
-      "reason": "Retained historical Season of Discovery record; live Forever availability and craft requirement not verified.",
-      "unverifiedImportedValue": 270,
-      "wclboxFirstValue": null,
-      "warcraftWikiSkillValue": 270,
-      "notes": ""
+      "craftSkillRequired": null,
+      "reason": "Archived Season of Discovery record is preserved, but not confirmed craftable in live Forever.",
+      "previousImportedNumber": 270
     },
     {
       "spellId": "461649",
       "name": "Living Green Dragonscale Leggings",
       "category": "SEASON OF DISCOVERY",
       "type": "season-of-discovery-record",
-      "reason": "Retained historical Season of Discovery record; live Forever availability and craft requirement not verified.",
-      "unverifiedImportedValue": 270,
-      "wclboxFirstValue": null,
-      "warcraftWikiSkillValue": 270,
-      "notes": ""
+      "craftSkillRequired": null,
+      "reason": "Archived Season of Discovery record is preserved, but not confirmed craftable in live Forever.",
+      "previousImportedNumber": 270
     },
     {
       "spellId": "446192",
       "name": "Membrane of Dark Neurosis",
       "category": "SEASON OF DISCOVERY",
       "type": "season-of-discovery-record",
-      "reason": "Retained historical Season of Discovery record; live Forever availability and craft requirement not verified.",
-      "unverifiedImportedValue": null,
-      "wclboxFirstValue": null,
-      "warcraftWikiSkillValue": 250,
-      "notes": ""
-    },
-    {
-      "spellId": "10548",
-      "name": "Nightscape Pants",
-      "category": "Leather Legguards",
-      "type": "named-forever-recipe",
-      "reason": "Cannot prove exact minimum in Forever from independently supported evidence; do not use skill-up thresholds.",
-      "unverifiedImportedValue": 225,
-      "wclboxFirstValue": 210,
-      "warcraftWikiSkillValue": 205,
-      "notes": ""
+      "craftSkillRequired": null,
+      "reason": "Archived Season of Discovery record is preserved, but not confirmed craftable in live Forever.",
+      "previousImportedNumber": null
     },
     {
       "spellId": "446183",
       "name": "Paranoia Mantle",
       "category": "SEASON OF DISCOVERY",
       "type": "season-of-discovery-record",
-      "reason": "Retained historical Season of Discovery record; live Forever availability and craft requirement not verified.",
-      "unverifiedImportedValue": null,
-      "wclboxFirstValue": null,
-      "warcraftWikiSkillValue": 250,
-      "notes": ""
+      "craftSkillRequired": null,
+      "reason": "Archived Season of Discovery record is preserved, but not confirmed craftable in live Forever.",
+      "previousImportedNumber": null
     },
     {
       "spellId": "1223784",
       "name": "Polar Bracers",
       "category": "SEASON OF DISCOVERY",
       "type": "season-of-discovery-record",
-      "reason": "Retained historical Season of Discovery record; live Forever availability and craft requirement not verified.",
-      "unverifiedImportedValue": null,
-      "wclboxFirstValue": null,
-      "warcraftWikiSkillValue": null,
-      "notes": ""
+      "craftSkillRequired": null,
+      "reason": "Archived Season of Discovery record is preserved, but not confirmed craftable in live Forever.",
+      "previousImportedNumber": null
     },
     {
       "spellId": "1223782",
       "name": "Polar Gloves",
       "category": "SEASON OF DISCOVERY",
       "type": "season-of-discovery-record",
-      "reason": "Retained historical Season of Discovery record; live Forever availability and craft requirement not verified.",
-      "unverifiedImportedValue": null,
-      "wclboxFirstValue": null,
-      "warcraftWikiSkillValue": null,
-      "notes": ""
+      "craftSkillRequired": null,
+      "reason": "Archived Season of Discovery record is preserved, but not confirmed craftable in live Forever.",
+      "previousImportedNumber": null
     },
     {
       "spellId": "1223780",
       "name": "Polar Tunic",
       "category": "SEASON OF DISCOVERY",
       "type": "season-of-discovery-record",
-      "reason": "Retained historical Season of Discovery record; live Forever availability and craft requirement not verified.",
-      "unverifiedImportedValue": null,
-      "wclboxFirstValue": null,
-      "warcraftWikiSkillValue": null,
-      "notes": ""
+      "craftSkillRequired": null,
+      "reason": "Archived Season of Discovery record is preserved, but not confirmed craftable in live Forever.",
+      "previousImportedNumber": null
     },
     {
       "spellId": "1213521",
       "name": "Razorbramble Cowl",
       "category": "SEASON OF DISCOVERY",
       "type": "season-of-discovery-record",
-      "reason": "Retained historical Season of Discovery record; live Forever availability and craft requirement not verified.",
-      "unverifiedImportedValue": null,
-      "wclboxFirstValue": null,
-      "warcraftWikiSkillValue": 320,
-      "notes": ""
+      "craftSkillRequired": null,
+      "reason": "Archived Season of Discovery record is preserved, but not confirmed craftable in live Forever.",
+      "previousImportedNumber": null
     },
     {
       "spellId": "1213525",
       "name": "Razorbramble Leathers",
       "category": "SEASON OF DISCOVERY",
       "type": "season-of-discovery-record",
-      "reason": "Retained historical Season of Discovery record; live Forever availability and craft requirement not verified.",
-      "unverifiedImportedValue": null,
-      "wclboxFirstValue": null,
-      "warcraftWikiSkillValue": 320,
-      "notes": ""
+      "craftSkillRequired": null,
+      "reason": "Archived Season of Discovery record is preserved, but not confirmed craftable in live Forever.",
+      "previousImportedNumber": null
     },
     {
       "spellId": "1213523",
       "name": "Razorbramble Shoulderpads",
       "category": "SEASON OF DISCOVERY",
       "type": "season-of-discovery-record",
-      "reason": "Retained historical Season of Discovery record; live Forever availability and craft requirement not verified.",
-      "unverifiedImportedValue": null,
-      "wclboxFirstValue": null,
-      "warcraftWikiSkillValue": 320,
-      "notes": ""
+      "craftSkillRequired": null,
+      "reason": "Archived Season of Discovery record is preserved, but not confirmed craftable in live Forever.",
+      "previousImportedNumber": null
     },
     {
       "spellId": "1213717",
       "name": "Sandstalker Bracers",
       "category": "SEASON OF DISCOVERY",
       "type": "season-of-discovery-record",
-      "reason": "Retained historical Season of Discovery record; live Forever availability and craft requirement not verified.",
-      "unverifiedImportedValue": null,
-      "wclboxFirstValue": null,
-      "warcraftWikiSkillValue": null,
-      "notes": ""
+      "craftSkillRequired": null,
+      "reason": "Archived Season of Discovery record is preserved, but not confirmed craftable in live Forever.",
+      "previousImportedNumber": null
     },
     {
       "spellId": "1213723",
       "name": "Sandstalker Breastplate",
       "category": "SEASON OF DISCOVERY",
       "type": "season-of-discovery-record",
-      "reason": "Retained historical Season of Discovery record; live Forever availability and craft requirement not verified.",
-      "unverifiedImportedValue": null,
-      "wclboxFirstValue": null,
-      "warcraftWikiSkillValue": null,
-      "notes": ""
+      "craftSkillRequired": null,
+      "reason": "Archived Season of Discovery record is preserved, but not confirmed craftable in live Forever.",
+      "previousImportedNumber": null
     },
     {
       "spellId": "1213720",
       "name": "Sandstalker Gauntlets",
       "category": "SEASON OF DISCOVERY",
       "type": "season-of-discovery-record",
-      "reason": "Retained historical Season of Discovery record; live Forever availability and craft requirement not verified.",
-      "unverifiedImportedValue": null,
-      "wclboxFirstValue": null,
-      "warcraftWikiSkillValue": null,
-      "notes": ""
+      "craftSkillRequired": null,
+      "reason": "Archived Season of Discovery record is preserved, but not confirmed craftable in live Forever.",
+      "previousImportedNumber": null
     },
     {
       "spellId": "1226690",
       "name": "Scarlet Ammo Pouch",
       "category": "SEASON OF DISCOVERY",
       "type": "season-of-discovery-record",
-      "reason": "Retained historical Season of Discovery record; live Forever availability and craft requirement not verified.",
-      "unverifiedImportedValue": 275,
-      "wclboxFirstValue": null,
-      "warcraftWikiSkillValue": 275,
-      "notes": ""
+      "craftSkillRequired": null,
+      "reason": "Archived Season of Discovery record is preserved, but not confirmed craftable in live Forever.",
+      "previousImportedNumber": 275
     },
     {
       "spellId": "1226689",
       "name": "Scarlet Quiver",
       "category": "SEASON OF DISCOVERY",
       "type": "season-of-discovery-record",
-      "reason": "Retained historical Season of Discovery record; live Forever availability and craft requirement not verified.",
-      "unverifiedImportedValue": 275,
-      "wclboxFirstValue": null,
-      "warcraftWikiSkillValue": 275,
-      "notes": ""
+      "craftSkillRequired": null,
+      "reason": "Archived Season of Discovery record is preserved, but not confirmed craftable in live Forever.",
+      "previousImportedNumber": 275
     },
     {
       "spellId": "451706",
       "name": "Screaming Chain Pauldrons",
       "category": "SEASON OF DISCOVERY",
       "type": "season-of-discovery-record",
-      "reason": "Retained historical Season of Discovery record; live Forever availability and craft requirement not verified.",
-      "unverifiedImportedValue": null,
-      "wclboxFirstValue": null,
-      "warcraftWikiSkillValue": 250,
-      "notes": ""
+      "craftSkillRequired": null,
+      "reason": "Archived Season of Discovery record is preserved, but not confirmed craftable in live Forever.",
+      "previousImportedNumber": null
     },
     {
       "spellId": "1213519",
       "name": "Sharpened Chitin Armor Kit",
       "category": "SEASON OF DISCOVERY",
       "type": "season-of-discovery-record",
-      "reason": "Retained historical Season of Discovery record; live Forever availability and craft requirement not verified.",
-      "unverifiedImportedValue": null,
-      "wclboxFirstValue": null,
-      "warcraftWikiSkillValue": 320,
-      "notes": ""
+      "craftSkillRequired": null,
+      "reason": "Archived Season of Discovery record is preserved, but not confirmed craftable in live Forever.",
+      "previousImportedNumber": null
     },
     {
       "spellId": "446189",
       "name": "Shoulderpads of Obsession",
       "category": "SEASON OF DISCOVERY",
       "type": "season-of-discovery-record",
-      "reason": "Retained historical Season of Discovery record; live Forever availability and craft requirement not verified.",
-      "unverifiedImportedValue": null,
-      "wclboxFirstValue": null,
-      "warcraftWikiSkillValue": 250,
-      "notes": ""
+      "craftSkillRequired": null,
+      "reason": "Archived Season of Discovery record is preserved, but not confirmed craftable in live Forever.",
+      "previousImportedNumber": null
     },
     {
       "spellId": "446185",
       "name": "Shrieking Spaulders",
       "category": "SEASON OF DISCOVERY",
       "type": "season-of-discovery-record",
-      "reason": "Retained historical Season of Discovery record; live Forever availability and craft requirement not verified.",
-      "unverifiedImportedValue": null,
-      "wclboxFirstValue": null,
-      "warcraftWikiSkillValue": 250,
-      "notes": ""
+      "craftSkillRequired": null,
+      "reason": "Archived Season of Discovery record is preserved, but not confirmed craftable in live Forever.",
+      "previousImportedNumber": null
     },
     {
       "spellId": "1213726",
       "name": "Spitfire Bracers",
       "category": "SEASON OF DISCOVERY",
       "type": "season-of-discovery-record",
-      "reason": "Retained historical Season of Discovery record; live Forever availability and craft requirement not verified.",
-      "unverifiedImportedValue": null,
-      "wclboxFirstValue": null,
-      "warcraftWikiSkillValue": null,
-      "notes": ""
+      "craftSkillRequired": null,
+      "reason": "Archived Season of Discovery record is preserved, but not confirmed craftable in live Forever.",
+      "previousImportedNumber": null
     },
     {
       "spellId": "1213731",
       "name": "Spitfire Breastplate",
       "category": "SEASON OF DISCOVERY",
       "type": "season-of-discovery-record",
-      "reason": "Retained historical Season of Discovery record; live Forever availability and craft requirement not verified.",
-      "unverifiedImportedValue": null,
-      "wclboxFirstValue": null,
-      "warcraftWikiSkillValue": null,
-      "notes": ""
+      "craftSkillRequired": null,
+      "reason": "Archived Season of Discovery record is preserved, but not confirmed craftable in live Forever.",
+      "previousImportedNumber": null
     },
     {
       "spellId": "1213728",
       "name": "Spitfire Gauntlets",
       "category": "SEASON OF DISCOVERY",
       "type": "season-of-discovery-record",
-      "reason": "Retained historical Season of Discovery record; live Forever availability and craft requirement not verified.",
-      "unverifiedImportedValue": null,
-      "wclboxFirstValue": null,
-      "warcraftWikiSkillValue": null,
-      "notes": ""
+      "craftSkillRequired": null,
+      "reason": "Archived Season of Discovery record is preserved, but not confirmed craftable in live Forever.",
+      "previousImportedNumber": null
     },
     {
       "spellId": "461692",
       "name": "Synthetic Gordok Ogre Suit",
       "category": "SEASON OF DISCOVERY",
       "type": "season-of-discovery-record",
-      "reason": "Retained historical Season of Discovery record; live Forever availability and craft requirement not verified.",
-      "unverifiedImportedValue": null,
-      "wclboxFirstValue": null,
-      "warcraftWikiSkillValue": 285,
-      "notes": ""
+      "craftSkillRequired": null,
+      "reason": "Archived Season of Discovery record is preserved, but not confirmed craftable in live Forever.",
+      "previousImportedNumber": null
     },
     {
       "spellId": "439116",
       "name": "Turtle Scale Breastplate",
       "category": "SEASON OF DISCOVERY",
       "type": "season-of-discovery-record",
-      "reason": "Retained historical Season of Discovery record; live Forever availability and craft requirement not verified.",
-      "unverifiedImportedValue": null,
-      "wclboxFirstValue": null,
-      "warcraftWikiSkillValue": null,
-      "notes": ""
+      "craftSkillRequired": null,
+      "reason": "Archived Season of Discovery record is preserved, but not confirmed craftable in live Forever.",
+      "previousImportedNumber": null
     },
     {
       "spellId": "439118",
       "name": "Turtle Scale Gloves",
       "category": "SEASON OF DISCOVERY",
       "type": "season-of-discovery-record",
-      "reason": "Retained historical Season of Discovery record; live Forever availability and craft requirement not verified.",
-      "unverifiedImportedValue": 205,
-      "wclboxFirstValue": null,
-      "warcraftWikiSkillValue": null,
-      "notes": ""
+      "craftSkillRequired": null,
+      "reason": "Archived Season of Discovery record is preserved, but not confirmed craftable in live Forever.",
+      "previousImportedNumber": 205
     },
     {
       "spellId": "1252982",
       "name": "Unresolved recipe #1252982",
       "category": "Leather Chestguards",
       "type": "unidentified-client-entry",
-      "reason": "Spell ID has no resolved recipe name or output; cannot prove that it is a usable craft.",
-      "unverifiedImportedValue": null,
-      "wclboxFirstValue": null,
-      "warcraftWikiSkillValue": null,
-      "notes": ""
+      "craftSkillRequired": null,
+      "reason": "Client archive has no resolved recipe name or output; cannot establish live craftability or its minimum.",
+      "previousImportedNumber": null
     },
     {
       "spellId": "1252983",
       "name": "Unresolved recipe #1252983",
       "category": "Leather Bracers",
       "type": "unidentified-client-entry",
-      "reason": "Spell ID has no resolved recipe name or output; cannot prove that it is a usable craft.",
-      "unverifiedImportedValue": null,
-      "wclboxFirstValue": null,
-      "warcraftWikiSkillValue": null,
-      "notes": ""
+      "craftSkillRequired": null,
+      "reason": "Client archive has no resolved recipe name or output; cannot establish live craftability or its minimum.",
+      "previousImportedNumber": null
     },
     {
       "spellId": "1252984",
       "name": "Unresolved recipe #1252984",
       "category": "Leather Belts",
       "type": "unidentified-client-entry",
-      "reason": "Spell ID has no resolved recipe name or output; cannot prove that it is a usable craft.",
-      "unverifiedImportedValue": null,
-      "wclboxFirstValue": null,
-      "warcraftWikiSkillValue": null,
-      "notes": ""
+      "craftSkillRequired": null,
+      "reason": "Client archive has no resolved recipe name or output; cannot establish live craftability or its minimum.",
+      "previousImportedNumber": null
     },
     {
       "spellId": "1252985",
       "name": "Unresolved recipe #1252985",
       "category": "Leather Chestguards",
       "type": "unidentified-client-entry",
-      "reason": "Spell ID has no resolved recipe name or output; cannot prove that it is a usable craft.",
-      "unverifiedImportedValue": null,
-      "wclboxFirstValue": null,
-      "warcraftWikiSkillValue": null,
-      "notes": ""
+      "craftSkillRequired": null,
+      "reason": "Client archive has no resolved recipe name or output; cannot establish live craftability or its minimum.",
+      "previousImportedNumber": null
     },
     {
       "spellId": "1252986",
       "name": "Unresolved recipe #1252986",
       "category": "Leather Bracers",
       "type": "unidentified-client-entry",
-      "reason": "Spell ID has no resolved recipe name or output; cannot prove that it is a usable craft.",
-      "unverifiedImportedValue": null,
-      "wclboxFirstValue": null,
-      "warcraftWikiSkillValue": null,
-      "notes": ""
+      "craftSkillRequired": null,
+      "reason": "Client archive has no resolved recipe name or output; cannot establish live craftability or its minimum.",
+      "previousImportedNumber": null
     },
     {
       "spellId": "1252987",
       "name": "Unresolved recipe #1252987",
       "category": "Leather Belts",
       "type": "unidentified-client-entry",
-      "reason": "Spell ID has no resolved recipe name or output; cannot prove that it is a usable craft.",
-      "unverifiedImportedValue": null,
-      "wclboxFirstValue": null,
-      "warcraftWikiSkillValue": null,
-      "notes": ""
+      "craftSkillRequired": null,
+      "reason": "Client archive has no resolved recipe name or output; cannot establish live craftability or its minimum.",
+      "previousImportedNumber": null
     },
     {
       "spellId": "1252995",
       "name": "Unresolved recipe #1252995",
       "category": "Mail Chestguards",
       "type": "unidentified-client-entry",
-      "reason": "Spell ID has no resolved recipe name or output; cannot prove that it is a usable craft.",
-      "unverifiedImportedValue": null,
-      "wclboxFirstValue": null,
-      "warcraftWikiSkillValue": null,
-      "notes": ""
+      "craftSkillRequired": null,
+      "reason": "Client archive has no resolved recipe name or output; cannot establish live craftability or its minimum.",
+      "previousImportedNumber": null
     },
     {
       "spellId": "1252996",
       "name": "Unresolved recipe #1252996",
       "category": "Mail Bracers",
       "type": "unidentified-client-entry",
-      "reason": "Spell ID has no resolved recipe name or output; cannot prove that it is a usable craft.",
-      "unverifiedImportedValue": null,
-      "wclboxFirstValue": null,
-      "warcraftWikiSkillValue": null,
-      "notes": ""
+      "craftSkillRequired": null,
+      "reason": "Client archive has no resolved recipe name or output; cannot establish live craftability or its minimum.",
+      "previousImportedNumber": null
     },
     {
       "spellId": "1252997",
       "name": "Unresolved recipe #1252997",
       "category": "Mail Belts",
       "type": "unidentified-client-entry",
-      "reason": "Spell ID has no resolved recipe name or output; cannot prove that it is a usable craft.",
-      "unverifiedImportedValue": null,
-      "wclboxFirstValue": null,
-      "warcraftWikiSkillValue": null,
-      "notes": ""
+      "craftSkillRequired": null,
+      "reason": "Client archive has no resolved recipe name or output; cannot establish live craftability or its minimum.",
+      "previousImportedNumber": null
     },
     {
       "spellId": "1252998",
       "name": "Unresolved recipe #1252998",
       "category": "Mail Chestguards",
       "type": "unidentified-client-entry",
-      "reason": "Spell ID has no resolved recipe name or output; cannot prove that it is a usable craft.",
-      "unverifiedImportedValue": null,
-      "wclboxFirstValue": null,
-      "warcraftWikiSkillValue": null,
-      "notes": ""
+      "craftSkillRequired": null,
+      "reason": "Client archive has no resolved recipe name or output; cannot establish live craftability or its minimum.",
+      "previousImportedNumber": null
     },
     {
       "spellId": "1252999",
       "name": "Unresolved recipe #1252999",
       "category": "Mail Bracers",
       "type": "unidentified-client-entry",
-      "reason": "Spell ID has no resolved recipe name or output; cannot prove that it is a usable craft.",
-      "unverifiedImportedValue": null,
-      "wclboxFirstValue": null,
-      "warcraftWikiSkillValue": null,
-      "notes": ""
+      "craftSkillRequired": null,
+      "reason": "Client archive has no resolved recipe name or output; cannot establish live craftability or its minimum.",
+      "previousImportedNumber": null
     },
     {
       "spellId": "1253000",
       "name": "Unresolved recipe #1253000",
       "category": "Mail Belts",
       "type": "unidentified-client-entry",
-      "reason": "Spell ID has no resolved recipe name or output; cannot prove that it is a usable craft.",
-      "unverifiedImportedValue": null,
-      "wclboxFirstValue": null,
-      "warcraftWikiSkillValue": null,
-      "notes": ""
+      "craftSkillRequired": null,
+      "reason": "Client archive has no resolved recipe name or output; cannot establish live craftability or its minimum.",
+      "previousImportedNumber": null
     },
     {
       "spellId": "1277783",
       "name": "Unresolved recipe #1277783",
       "category": "Reagents",
       "type": "unidentified-client-entry",
-      "reason": "Spell ID has no resolved recipe name or output; cannot prove that it is a usable craft.",
-      "unverifiedImportedValue": null,
-      "wclboxFirstValue": null,
-      "warcraftWikiSkillValue": null,
-      "notes": ""
+      "craftSkillRequired": null,
+      "reason": "Client archive has no resolved recipe name or output; cannot establish live craftability or its minimum.",
+      "previousImportedNumber": null
     },
     {
       "spellId": "429869",
       "name": "Void-Touched Leather Gauntlets",
       "category": "SEASON OF DISCOVERY",
       "type": "season-of-discovery-record",
-      "reason": "Retained historical Season of Discovery record; live Forever availability and craft requirement not verified.",
-      "unverifiedImportedValue": null,
-      "wclboxFirstValue": null,
-      "warcraftWikiSkillValue": 160,
-      "notes": ""
+      "craftSkillRequired": null,
+      "reason": "Archived Season of Discovery record is preserved, but not confirmed craftable in live Forever.",
+      "previousImportedNumber": null
     },
     {
       "spellId": "429354",
       "name": "Void-Touched Leather Gloves",
       "category": "SEASON OF DISCOVERY",
       "type": "season-of-discovery-record",
-      "reason": "Retained historical Season of Discovery record; live Forever availability and craft requirement not verified.",
-      "unverifiedImportedValue": null,
-      "wclboxFirstValue": null,
-      "warcraftWikiSkillValue": 160,
-      "notes": ""
+      "craftSkillRequired": null,
+      "reason": "Archived Season of Discovery record is preserved, but not confirmed craftable in live Forever.",
+      "previousImportedNumber": null
     },
     {
       "spellId": "446190",
       "name": "Wailing Chain Mantle",
       "category": "SEASON OF DISCOVERY",
       "type": "season-of-discovery-record",
-      "reason": "Retained historical Season of Discovery record; live Forever availability and craft requirement not verified.",
-      "unverifiedImportedValue": null,
-      "wclboxFirstValue": null,
-      "warcraftWikiSkillValue": 250,
-      "notes": ""
-    },
-    {
-      "spellId": "10621",
-      "name": "Wolfshead Helm",
-      "category": "Leather Helmets",
-      "type": "named-forever-recipe",
-      "reason": "Cannot prove exact minimum in Forever from independently supported evidence; do not use skill-up thresholds.",
-      "unverifiedImportedValue": 220,
-      "wclboxFirstValue": 200,
-      "warcraftWikiSkillValue": 225,
-      "notes": ""
+      "craftSkillRequired": null,
+      "reason": "Archived Season of Discovery record is preserved, but not confirmed craftable in live Forever.",
+      "previousImportedNumber": null
     }
   ]
 }

@@ -1,0 +1,348 @@
+{
+  "meta": {
+    "count": 48,
+    "matching": "unique non-Season-of-Discovery recipe name mapped to our spell ID",
+    "field": "minimum crafting skill (first number of WCLBox skill column), corroborated by Warcraft Wiki Skill",
+    "referenceA": "https://wowforever.wclbox.com/en/zhuanye/leatherworking",
+    "referenceB": "https://warcraft.wiki.gg/wiki/Forever_leatherworking_patterns",
+    "note": "Source-correlated, not individually tested in-game; conflicts are excluded."
+  },
+  "skillsBySpellId": {
+    "2153": {
+      "required": 15,
+      "source": "wclbox-wiki-crafting-minimum",
+      "reference": "https://wowforever.wclbox.com/en/zhuanye/leatherworking",
+      "corroboration": "https://warcraft.wiki.gg/wiki/Forever_leatherworking_patterns",
+      "acquisition": "Trainer"
+    },
+    "2159": {
+      "required": 50,
+      "source": "wclbox-wiki-crafting-minimum",
+      "reference": "https://wowforever.wclbox.com/en/zhuanye/leatherworking",
+      "corroboration": "https://warcraft.wiki.gg/wiki/Forever_leatherworking_patterns",
+      "acquisition": "Trainer"
+    },
+    "2160": {
+      "required": 35,
+      "source": "wclbox-wiki-crafting-minimum",
+      "reference": "https://wowforever.wclbox.com/en/zhuanye/leatherworking",
+      "corroboration": "https://warcraft.wiki.gg/wiki/Forever_leatherworking_patterns",
+      "acquisition": "Trainer"
+    },
+    "2162": {
+      "required": 40,
+      "source": "wclbox-wiki-crafting-minimum",
+      "reference": "https://wowforever.wclbox.com/en/zhuanye/leatherworking",
+      "corroboration": "https://warcraft.wiki.gg/wiki/Forever_leatherworking_patterns",
+      "acquisition": "Trainer"
+    },
+    "2165": {
+      "required": 75,
+      "source": "wclbox-wiki-crafting-minimum",
+      "reference": "https://wowforever.wclbox.com/en/zhuanye/leatherworking",
+      "corroboration": "https://warcraft.wiki.gg/wiki/Forever_leatherworking_patterns",
+      "acquisition": "Trainer"
+    },
+    "2166": {
+      "required": 95,
+      "source": "wclbox-wiki-crafting-minimum",
+      "reference": "https://wowforever.wclbox.com/en/zhuanye/leatherworking",
+      "corroboration": "https://warcraft.wiki.gg/wiki/Forever_leatherworking_patterns",
+      "acquisition": "Trainer"
+    },
+    "2167": {
+      "required": 75,
+      "source": "wclbox-wiki-crafting-minimum",
+      "reference": "https://wowforever.wclbox.com/en/zhuanye/leatherworking",
+      "corroboration": "https://warcraft.wiki.gg/wiki/Forever_leatherworking_patterns",
+      "acquisition": "Trainer"
+    },
+    "2168": {
+      "required": 85,
+      "source": "wclbox-wiki-crafting-minimum",
+      "reference": "https://wowforever.wclbox.com/en/zhuanye/leatherworking",
+      "corroboration": "https://warcraft.wiki.gg/wiki/Forever_leatherworking_patterns",
+      "acquisition": "Trainer"
+    },
+    "3753": {
+      "required": 25,
+      "source": "wclbox-wiki-crafting-minimum",
+      "reference": "https://wowforever.wclbox.com/en/zhuanye/leatherworking",
+      "corroboration": "https://warcraft.wiki.gg/wiki/Forever_leatherworking_patterns",
+      "acquisition": "Trainer"
+    },
+    "3756": {
+      "required": 40,
+      "source": "wclbox-wiki-crafting-minimum",
+      "reference": "https://wowforever.wclbox.com/en/zhuanye/leatherworking",
+      "corroboration": "https://warcraft.wiki.gg/wiki/Forever_leatherworking_patterns",
+      "acquisition": "Trainer"
+    },
+    "3759": {
+      "required": 50,
+      "source": "wclbox-wiki-crafting-minimum",
+      "reference": "https://wowforever.wclbox.com/en/zhuanye/leatherworking",
+      "corroboration": "https://warcraft.wiki.gg/wiki/Forever_leatherworking_patterns",
+      "acquisition": "Trainer"
+    },
+    "3760": {
+      "required": 125,
+      "source": "wclbox-wiki-crafting-minimum",
+      "reference": "https://wowforever.wclbox.com/en/zhuanye/leatherworking",
+      "corroboration": "https://warcraft.wiki.gg/wiki/Forever_leatherworking_patterns",
+      "acquisition": "Trainer"
+    },
+    "3761": {
+      "required": 60,
+      "source": "wclbox-wiki-crafting-minimum",
+      "reference": "https://wowforever.wclbox.com/en/zhuanye/leatherworking",
+      "corroboration": "https://warcraft.wiki.gg/wiki/Forever_leatherworking_patterns",
+      "acquisition": "Trainer"
+    },
+    "3763": {
+      "required": 55,
+      "source": "wclbox-wiki-crafting-minimum",
+      "reference": "https://wowforever.wclbox.com/en/zhuanye/leatherworking",
+      "corroboration": "https://warcraft.wiki.gg/wiki/Forever_leatherworking_patterns",
+      "acquisition": "Trainer"
+    },
+    "3764": {
+      "required": 120,
+      "source": "wclbox-wiki-crafting-minimum",
+      "reference": "https://wowforever.wclbox.com/en/zhuanye/leatherworking",
+      "corroboration": "https://warcraft.wiki.gg/wiki/Forever_leatherworking_patterns",
+      "acquisition": "Trainer"
+    },
+    "3768": {
+      "required": 105,
+      "source": "wclbox-wiki-crafting-minimum",
+      "reference": "https://wowforever.wclbox.com/en/zhuanye/leatherworking",
+      "corroboration": "https://warcraft.wiki.gg/wiki/Forever_leatherworking_patterns",
+      "acquisition": "Trainer"
+    },
+    "3774": {
+      "required": 135,
+      "source": "wclbox-wiki-crafting-minimum",
+      "reference": "https://wowforever.wclbox.com/en/zhuanye/leatherworking",
+      "corroboration": "https://warcraft.wiki.gg/wiki/Forever_leatherworking_patterns",
+      "acquisition": "Trainer"
+    },
+    "3776": {
+      "required": 155,
+      "source": "wclbox-wiki-crafting-minimum",
+      "reference": "https://wowforever.wclbox.com/en/zhuanye/leatherworking",
+      "corroboration": "https://warcraft.wiki.gg/wiki/Forever_leatherworking_patterns",
+      "acquisition": "Trainer"
+    },
+    "3816": {
+      "required": 30,
+      "source": "wclbox-wiki-crafting-minimum",
+      "reference": "https://wowforever.wclbox.com/en/zhuanye/leatherworking",
+      "corroboration": "https://warcraft.wiki.gg/wiki/Forever_leatherworking_patterns",
+      "acquisition": "Trainer"
+    },
+    "3817": {
+      "required": 75,
+      "source": "wclbox-wiki-crafting-minimum",
+      "reference": "https://wowforever.wclbox.com/en/zhuanye/leatherworking",
+      "corroboration": "https://warcraft.wiki.gg/wiki/Forever_leatherworking_patterns",
+      "acquisition": "Trainer"
+    },
+    "3818": {
+      "required": 125,
+      "source": "wclbox-wiki-crafting-minimum",
+      "reference": "https://wowforever.wclbox.com/en/zhuanye/leatherworking",
+      "corroboration": "https://warcraft.wiki.gg/wiki/Forever_leatherworking_patterns",
+      "acquisition": "Trainer"
+    },
+    "7135": {
+      "required": 90,
+      "source": "wclbox-wiki-crafting-minimum",
+      "reference": "https://wowforever.wclbox.com/en/zhuanye/leatherworking",
+      "corroboration": "https://warcraft.wiki.gg/wiki/Forever_leatherworking_patterns",
+      "acquisition": "Trainer"
+    },
+    "7153": {
+      "required": 160,
+      "source": "wclbox-wiki-crafting-minimum",
+      "reference": "https://wowforever.wclbox.com/en/zhuanye/leatherworking",
+      "corroboration": "https://warcraft.wiki.gg/wiki/Forever_leatherworking_patterns",
+      "acquisition": "Drop"
+    },
+    "7156": {
+      "required": 165,
+      "source": "wclbox-wiki-crafting-minimum",
+      "reference": "https://wowforever.wclbox.com/en/zhuanye/leatherworking",
+      "corroboration": "https://warcraft.wiki.gg/wiki/Forever_leatherworking_patterns",
+      "acquisition": "Trainer"
+    },
+    "9062": {
+      "required": 25,
+      "source": "wclbox-wiki-crafting-minimum",
+      "reference": "https://wowforever.wclbox.com/en/zhuanye/leatherworking",
+      "corroboration": "https://warcraft.wiki.gg/wiki/Forever_leatherworking_patterns",
+      "acquisition": "Trainer"
+    },
+    "9065": {
+      "required": 45,
+      "source": "wclbox-wiki-crafting-minimum",
+      "reference": "https://wowforever.wclbox.com/en/zhuanye/leatherworking",
+      "corroboration": "https://warcraft.wiki.gg/wiki/Forever_leatherworking_patterns",
+      "acquisition": "Trainer"
+    },
+    "9068": {
+      "required": 70,
+      "source": "wclbox-wiki-crafting-minimum",
+      "reference": "https://wowforever.wclbox.com/en/zhuanye/leatherworking",
+      "corroboration": "https://warcraft.wiki.gg/wiki/Forever_leatherworking_patterns",
+      "acquisition": "Trainer"
+    },
+    "9074": {
+      "required": 95,
+      "source": "wclbox-wiki-crafting-minimum",
+      "reference": "https://wowforever.wclbox.com/en/zhuanye/leatherworking",
+      "corroboration": "https://warcraft.wiki.gg/wiki/Forever_leatherworking_patterns",
+      "acquisition": "Trainer"
+    },
+    "9145": {
+      "required": 100,
+      "source": "wclbox-wiki-crafting-minimum",
+      "reference": "https://wowforever.wclbox.com/en/zhuanye/leatherworking",
+      "corroboration": "https://warcraft.wiki.gg/wiki/Forever_leatherworking_patterns",
+      "acquisition": "Trainer"
+    },
+    "9193": {
+      "required": 125,
+      "source": "wclbox-wiki-crafting-minimum",
+      "reference": "https://wowforever.wclbox.com/en/zhuanye/leatherworking",
+      "corroboration": "https://warcraft.wiki.gg/wiki/Forever_leatherworking_patterns",
+      "acquisition": "Trainer"
+    },
+    "9194": {
+      "required": 125,
+      "source": "wclbox-wiki-crafting-minimum",
+      "reference": "https://wowforever.wclbox.com/en/zhuanye/leatherworking",
+      "corroboration": "https://warcraft.wiki.gg/wiki/Forever_leatherworking_patterns",
+      "acquisition": "Trainer"
+    },
+    "9196": {
+      "required": 150,
+      "source": "wclbox-wiki-crafting-minimum",
+      "reference": "https://wowforever.wclbox.com/en/zhuanye/leatherworking",
+      "corroboration": "https://warcraft.wiki.gg/wiki/Forever_leatherworking_patterns",
+      "acquisition": "Trainer"
+    },
+    "9198": {
+      "required": 155,
+      "source": "wclbox-wiki-crafting-minimum",
+      "reference": "https://wowforever.wclbox.com/en/zhuanye/leatherworking",
+      "corroboration": "https://warcraft.wiki.gg/wiki/Forever_leatherworking_patterns",
+      "acquisition": "Trainer"
+    },
+    "9206": {
+      "required": 170,
+      "source": "wclbox-wiki-crafting-minimum",
+      "reference": "https://wowforever.wclbox.com/en/zhuanye/leatherworking",
+      "corroboration": "https://warcraft.wiki.gg/wiki/Forever_leatherworking_patterns",
+      "acquisition": "Trainer"
+    },
+    "10482": {
+      "required": 175,
+      "source": "wclbox-wiki-crafting-minimum",
+      "reference": "https://wowforever.wclbox.com/en/zhuanye/leatherworking",
+      "corroboration": "https://warcraft.wiki.gg/wiki/Forever_leatherworking_patterns",
+      "acquisition": "Trainer"
+    },
+    "10499": {
+      "required": 180,
+      "source": "wclbox-wiki-crafting-minimum",
+      "reference": "https://wowforever.wclbox.com/en/zhuanye/leatherworking",
+      "corroboration": "https://warcraft.wiki.gg/wiki/Forever_leatherworking_patterns",
+      "acquisition": "Trainer"
+    },
+    "10507": {
+      "required": 180,
+      "source": "wclbox-wiki-crafting-minimum",
+      "reference": "https://wowforever.wclbox.com/en/zhuanye/leatherworking",
+      "corroboration": "https://warcraft.wiki.gg/wiki/Forever_leatherworking_patterns",
+      "acquisition": "Trainer"
+    },
+    "10518": {
+      "required": 185,
+      "source": "wclbox-wiki-crafting-minimum",
+      "reference": "https://wowforever.wclbox.com/en/zhuanye/leatherworking",
+      "corroboration": "https://warcraft.wiki.gg/wiki/Forever_leatherworking_patterns",
+      "acquisition": "Trainer"
+    },
+    "10552": {
+      "required": 205,
+      "source": "wclbox-wiki-crafting-minimum",
+      "reference": "https://wowforever.wclbox.com/en/zhuanye/leatherworking",
+      "corroboration": "https://warcraft.wiki.gg/wiki/Forever_leatherworking_patterns",
+      "acquisition": "Trainer"
+    },
+    "10556": {
+      "required": 210,
+      "source": "wclbox-wiki-crafting-minimum",
+      "reference": "https://wowforever.wclbox.com/en/zhuanye/leatherworking",
+      "corroboration": "https://warcraft.wiki.gg/wiki/Forever_leatherworking_patterns",
+      "acquisition": "Trainer"
+    },
+    "10558": {
+      "required": 210,
+      "source": "wclbox-wiki-crafting-minimum",
+      "reference": "https://wowforever.wclbox.com/en/zhuanye/leatherworking",
+      "corroboration": "https://warcraft.wiki.gg/wiki/Forever_leatherworking_patterns",
+      "acquisition": "Trainer"
+    },
+    "14930": {
+      "required": 200,
+      "source": "wclbox-wiki-crafting-minimum",
+      "reference": "https://wowforever.wclbox.com/en/zhuanye/leatherworking",
+      "corroboration": "https://warcraft.wiki.gg/wiki/Forever_leatherworking_patterns",
+      "acquisition": "Trainer"
+    },
+    "14932": {
+      "required": 200,
+      "source": "wclbox-wiki-crafting-minimum",
+      "reference": "https://wowforever.wclbox.com/en/zhuanye/leatherworking",
+      "corroboration": "https://warcraft.wiki.gg/wiki/Forever_leatherworking_patterns",
+      "acquisition": "Trainer"
+    },
+    "19058": {
+      "required": 225,
+      "source": "wclbox-wiki-crafting-minimum",
+      "reference": "https://wowforever.wclbox.com/en/zhuanye/leatherworking",
+      "corroboration": "https://warcraft.wiki.gg/wiki/Forever_leatherworking_patterns",
+      "acquisition": "Trainer"
+    },
+    "20648": {
+      "required": 75,
+      "source": "wclbox-wiki-crafting-minimum",
+      "reference": "https://wowforever.wclbox.com/en/zhuanye/leatherworking",
+      "corroboration": "https://warcraft.wiki.gg/wiki/Forever_leatherworking_patterns",
+      "acquisition": "Trainer"
+    },
+    "20649": {
+      "required": 125,
+      "source": "wclbox-wiki-crafting-minimum",
+      "reference": "https://wowforever.wclbox.com/en/zhuanye/leatherworking",
+      "corroboration": "https://warcraft.wiki.gg/wiki/Forever_leatherworking_patterns",
+      "acquisition": "Trainer"
+    },
+    "20650": {
+      "required": 175,
+      "source": "wclbox-wiki-crafting-minimum",
+      "reference": "https://wowforever.wclbox.com/en/zhuanye/leatherworking",
+      "corroboration": "https://warcraft.wiki.gg/wiki/Forever_leatherworking_patterns",
+      "acquisition": "Trainer"
+    },
+    "22331": {
+      "required": 225,
+      "source": "wclbox-wiki-crafting-minimum",
+      "reference": "https://wowforever.wclbox.com/en/zhuanye/leatherworking",
+      "corroboration": "https://warcraft.wiki.gg/wiki/Forever_leatherworking_patterns",
+      "acquisition": "Trainer"
+    }
+  }
+}

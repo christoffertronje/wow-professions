@@ -85,6 +85,60 @@
     ],
     "note": "Forever spell Quick Facts directly states Requires Leatherworking (250); separate skill-up thresholds must not replace this."
   },
+  "24846": {
+    "required": 300,
+    "source": "Pattern",
+    "requirementEvidence": "forever-pattern-item-required-skill",
+    "referenceUrls": [
+      "https://www.wowhead.com/forever/item=20506/pattern-spitfire-bracers"
+    ],
+    "note": "Pattern for Spitfire Bracers requires Leatherworking 300. Do not substitute the later skill-up threshold."
+  },
+  "24847": {
+    "required": 300,
+    "source": "Pattern",
+    "requirementEvidence": "forever-pattern-item-required-skill",
+    "referenceUrls": [
+      "https://www.wowhead.com/forever/item=20507/pattern-spitfire-gauntlets"
+    ],
+    "note": "Pattern for Spitfire Gauntlets requires Leatherworking 300. Do not substitute the later skill-up threshold."
+  },
+  "24848": {
+    "required": 300,
+    "source": "Pattern",
+    "requirementEvidence": "forever-pattern-item-required-skill",
+    "referenceUrls": [
+      "https://www.wowhead.com/forever/item=20508/pattern-spitfire-breastplate"
+    ],
+    "note": "Pattern for Spitfire Breastplate requires Leatherworking 300. Do not substitute the later skill-up threshold."
+  },
+  "24849": {
+    "required": 300,
+    "source": "Pattern",
+    "requirementEvidence": "forever-pattern-item-required-skill",
+    "referenceUrls": [
+      "https://senseos.gg/wiki/wow-forever/items/20509/pattern-sandstalker-bracers/"
+    ],
+    "note": "Pattern for Sandstalker Bracers requires Leatherworking 300. Do not substitute the later skill-up threshold."
+  },
+  "24850": {
+    "required": 300,
+    "source": "Pattern",
+    "requirementEvidence": "forever-pattern-item-required-skill",
+    "referenceUrls": [
+      "https://www.wowhead.com/forever/item=20510/pattern-sandstalker-gauntlets"
+    ],
+    "note": "Pattern for Sandstalker Gauntlets requires Leatherworking 300. Do not substitute the later skill-up threshold."
+  },
+  "24851": {
+    "required": 300,
+    "source": "Pattern",
+    "requirementEvidence": "forever-pattern-item-required-skill",
+    "referenceUrls": [
+      "https://www.wowhead.com/forever/item=20511/pattern-sandstalker-breastplate"
+    ],
+    "note": "Pattern for Sandstalker Breastplate requires Leatherworking 300. Do not substitute the later skill-up threshold."
+  },
   "1229432": {
     "required": 20,
     "source": "Trainer",

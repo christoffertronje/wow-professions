@@ -5,6 +5,30 @@
     "notes": "Tooltip text from the newer Forever client takes precedence over missing old tooltip effects."
   },
   "byItemId": {
+    "2314": {
+      "armor": 84,
+      "binding": "BoE",
+      "stats": {
+        "Stamina": 2,
+        "Spirit": 7
+      },
+      "source": "https://foreverchanges.pro/item/2314/toughened-leather-armor",
+      "corroboration": [
+        "https://senseos.gg/wiki/wow-forever/items/2314/toughened-leather-armor/",
+        "https://raiddex.com/en/wow-forever/items/toughened-leather-armor"
+      ],
+      "reason": "WoW Forever changed this item from Classic 80 armor/no stats to 84 Armor, +2 Stamina and +7 Spirit; now binds when equipped."
+    },
+    "4265": {
+      "effects": [
+        "Use: Permanently increase the Stamina value by 3 and armor value by 24 of an item worn on the chest, legs, hands or feet. Only usable on items level 15 and above."
+      ],
+      "source": "https://foreverchanges.pro/item/4265/heavy-armor-kit",
+      "corroboration": [
+        "https://foreverchanges.pro/es/item/4265/heavy-armor-kit"
+      ],
+      "reason": "Recorded older tooltip contained unresolved zeros; client build 70862 resolves +3 Stamina/+24 armor, item level 15+."
+    },
     "7348": {
       "reviewFlag": "Parry-effekten skiljer sig mellan Forever-källor. Wowhead och vissa databaser anger -1% Parry, medan en nyare klientdatabas återger +1%. Kontrollera mot item-tooltip i spelet.",
       "source": "https://www.wowhead.com/forever/item=7348/fletchers-gloves",
@@ -14,6 +38,14 @@
       ],
       "reason": "Sign and wording of the parry effect disagree between client-based databases; keep previous sourced effect until in-game confirmation."
     },
+    "8173": {
+      "effects": [
+        "Use: Permanently increase the Stamina value by 4 and armor value by 32 of an item worn on the chest, legs, hands or feet. Only usable on items level 25 and above."
+      ],
+      "source": "https://foreverchanges.pro/es/item/8173/thick-armor-kit",
+      "corroboration": [],
+      "reason": "Client build 70862 resolves +4 Stamina/+32 armor on item level 25+."
+    },
     "8197": {
       "reviewFlag": "Stealth-effekten har olika värden i Forever-källor: +1 respektive +1.2. Nuvarande värde kommer från vår ursprungliga tooltipkälla; verifiera gärna i spelet.",
       "source": "https://www.wowhead.com/forever/item=8197/nightscape-boots",
@@ -22,6 +54,14 @@
         "https://senseos.gg/wiki/wow-forever/items/8197/nightscape-boots/"
       ],
       "reason": "Second client source displays +1.2 stealth where other Forever item sources show +1; no automatic replacement."
+    },
+    "15564": {
+      "effects": [
+        "Use: Permanently increase the Stamina value by 5 and armor value by 40 of an item worn on the chest, legs, hands or feet. Only usable on items level 35 and above."
+      ],
+      "source": "https://foreverchanges.pro/es/item/15564/rugged-armor-kit",
+      "corroboration": [],
+      "reason": "Client build 70862 resolves +5 Stamina/+40 armor on item level 35+."
     },
     "18251": {
       "reviewFlag": "Source conflict: Core Armor Kit's exact Defense bonus and minimum item level differ between Forever item databases. Verify the in-game tooltip before using this effect value.",

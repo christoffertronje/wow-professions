@@ -99,4 +99,17 @@ if audit_path.exists():
     assert audit["summary"]["source-unavailable"]==0
     assert audit["summary"]["disagreements"]==0, "Review second-source item stat conflicts before deployment"
     assert audit["summary"]["inconclusive"]==2, "Review changed spell-template coverage and update audit"
+# Remaining effect text differences reconciled against newer client sources.
+for iid in ("2304","2313","18662"):
+    assert "1 Sec Cooldown" in " ".join(lookup[iid]["effects"]), f"Missing newer client cooldown on {iid}"
+for iid in ("279941","279945","279978"):
+    assert "All camping features share a cooldown of 1 hour." in " ".join(lookup[iid]["effects"]), f"Missing shared camping cooldown on {iid}"
+assert "May be placed over a Camp Tent" in " ".join(lookup["279941"]["effects"])
+assert "May be placed over a Camp Tent" in " ".join(lookup["279945"]["effects"])
+assert "Requires a Campfire nearby" in " ".join(lookup["279978"]["effects"])
+assert lookup["7284"].get("statReviewWarning"), "Red Whelp Gloves proc chance conflict must stay flagged"
+assert "5% chance of dealing 30 to 50 Fire damage" in " ".join(lookup["7284"]["effects"])
+assert "Proc chance: 10%" not in " ".join(lookup["7284"]["effects"]), "Unverified proc metadata leaked into tooltip"
+assert "5% chance of being put to sleep" in " ".join(lookup["7375"]["effects"])
+assert "Proc chance:" not in " ".join(lookup["7375"]["effects"])
 print("PASS: 512 item tooltip records joined by produced item ID, with attributes/effects and source provenance")

@@ -20,21 +20,23 @@ GitHub Pages deploys on pushes to `main` via `.github/workflows/deploy.yml`.
 ## Interface
 
 - Compact expandable recipe cards with expand/collapse all
-- Search, profession selection and recipe filters
+- Search and recipe filters: all recipes or can craft now, using the actual minimum craft skill
+- Leatherworking only in the profession selector until other professions have verified data
 - WoW-inspired item tooltips, including armor, stats, effects and required character level when supported by item data
 - Responsive layout; no build step or external JS dependencies (open `index.html`)
 
 ## Outstanding manual verification
 
-Five item tooltip records have explicit `statReviewWarning` entries pending independent in-game confirmation:
+Four item tooltip records have explicit `statReviewWarning` entries pending independent in-game confirmation:
 
-1. **Red Whelp Gloves**: displayed 5% proc wording versus a separate 10% proc database field.
-2. **Fletcher's Gloves**: client-derived +14 Critical Strike / -15 Parry versus legacy percentage descriptions.
-3. **Nightscape Boots**: +1.2 stealth in later client records versus +1 in older records.
-4. **Core Armor Kit**: +3 Defense on item level 45+ is favored by multiple Forever sources versus conflicting Wowhead data.
-5. **Red Dragonscale Leggings**: newer client records indicate +32 Intellect, +20 Spell Power, +20 Healing versus older +31 / combined description. The app now consistently shows the newer values.
+1. **Fletcher's Gloves**: client-derived +14 Critical Strike / -15 Parry versus legacy percentage descriptions.
+2. **Nightscape Boots**: +1.2 stealth in later client records versus +1 in older records.
+3. **Core Armor Kit**: +3 Defense on item level 45+ is favored by multiple Forever sources versus conflicting Wowhead data.
+4. **Red Dragonscale Leggings**: newer client records indicate +32 Intellect, +20 Spell Power, +20 Healing versus older +31 / combined description. The app now consistently shows the newer values.
 
-These five are *warnings about source discrepancies*, not confirmed data errors. Keep warning metadata until checked against current live in-game tooltips.
+These four are *warnings about source discrepancies*, not confirmed data errors. Keep warning metadata until checked against current live in-game tooltips.
+
+Red Whelp Gloves was resolved using a ForeverChanges entry explicitly marked confirmed in-game: 5% proc chance for 30–50 Fire damage.
 
 ## Data files
 
@@ -47,6 +49,6 @@ These five are *warnings about source discrepancies*, not confirmed data errors.
 - Verify `craftSkillRequired` values, especially where source records disagree.
 - Compare rare and epic item materials and tooltip data with Forever-specific client sources.
 - Confirm search/filter and expand/collapse behavior on mobile and desktop.
-- Verify the five flagged tooltips against live in-game values before clearing their warnings.
+- Verify the four flagged tooltips against live in-game values before clearing their warnings.
 
 Not affiliated with Blizzard Entertainment.

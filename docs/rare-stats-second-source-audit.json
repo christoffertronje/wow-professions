@@ -8,17 +8,16 @@
   },
   "summary": {
     "totalRare": 201,
-    "match": 197,
-    "difference": 3,
-    "inconclusive": 0,
+    "match": 198,
+    "difference": 1,
+    "inconclusive": 2,
     "source-unavailable": 0,
-    "identity-mismatch": 1,
-    "sourcesFetched": 200,
-    "fullyMatching": 197,
-    "disagreements": 3,
+    "identity-mismatch": 0,
+    "sourcesFetched": 199,
+    "fullyMatching": 198,
+    "disagreements": 1,
     "fieldsWithDisagreements": {
-      "resistances": 1,
-      "effects": 3
+      "resistances": 1
     }
   },
   "results": [
@@ -350,22 +349,13 @@
             "Shadow": 13
           },
           "source": {
-            "Fire": 13,
-            "Holy": 13,
-            "Arcane": 13,
-            "Shadow": 13,
             "Nature": 13,
-            "Frost": 13
+            "Arcane": 13,
+            "Holy": 13,
+            "Shadow": 13,
+            "Frost": 13,
+            "Fire": 13
           }
-        },
-        {
-          "field": "effects",
-          "ours": [
-            "Use: Absorbs 600 magical damage. Lasts 2 min. (5 Min Cooldown)"
-          ],
-          "source": [
-            "Use: Absorbs 600 magical damage.  Lasts 2 min. (5 Min Cooldown)"
-          ]
         }
       ],
       "unresolvedEffectTemplate": false,
@@ -381,12 +371,12 @@
           "Stamina": 10
         },
         "resistances": {
-          "Fire": 13,
-          "Holy": 13,
-          "Arcane": 13,
-          "Shadow": 13,
           "Nature": 13,
-          "Frost": 13
+          "Arcane": 13,
+          "Holy": 13,
+          "Shadow": 13,
+          "Frost": 13,
+          "Fire": 13
         },
         "effects": [
           "Use: Absorbs 600 magical damage.  Lasts 2 min. (5 Min Cooldown)"
@@ -1352,27 +1342,17 @@
       "itemId": "18251",
       "name": "Core Armor Kit",
       "url": "https://bindonforever.com/item/18251",
-      "status": "difference",
+      "status": "inconclusive",
       "checkedFields": [
         "itemLevel",
         "requiredCharacterLevel",
         "armorType",
         "stats",
         "resistances",
-        "effects"
+        "effects (unresolved source template)"
       ],
-      "differences": [
-        {
-          "field": "effects",
-          "ours": [
-            "Use: Permanently increase the defense value of an item worn on the chest, legs, hands or feet by 4. Only usable on items level 0 and above."
-          ],
-          "source": [
-            "Use: Permanently increase the defense value of an item worn on the chest, legs, hands or feet by 0c1. Only usable on items level 0cim and above. (1 Sec Cooldown)"
-          ]
-        }
-      ],
-      "unresolvedEffectTemplate": false,
+      "differences": [],
+      "unresolvedEffectTemplate": true,
       "source": {
         "name": "Core Armor Kit",
         "itemLevel": 60,
@@ -5646,8 +5626,38 @@
       "itemId": "252535",
       "name": "Skulker's Leather Shoulders",
       "url": "https://bindonforever.com/item/252535",
-      "status": "identity-mismatch",
-      "sourceName": "Skulker's Leather Shoulder"
+      "status": "match",
+      "checkedFields": [
+        "itemLevel",
+        "requiredCharacterLevel",
+        "slot",
+        "armorType",
+        "armor",
+        "binding",
+        "stats",
+        "resistances"
+      ],
+      "differences": [],
+      "unresolvedEffectTemplate": false,
+      "source": {
+        "name": "Skulker's Leather Shoulder",
+        "itemLevel": 47,
+        "requiredCharacterLevel": 42,
+        "slot": "Shoulder",
+        "armorType": "Leather",
+        "armor": 104,
+        "binding": "BoP",
+        "stats": {
+          "Strength": 9,
+          "Agility": 11,
+          "Stamina": 7,
+          "Spirit": 6
+        },
+        "resistances": {},
+        "effects": []
+      },
+      "oldBuild": "2026-10-17",
+      "newBuild": "1.60.1.70862"
     },
     {
       "itemId": "252536",
@@ -7513,27 +7523,17 @@
       "itemId": "279258",
       "name": "Wild Leather Armor Kit",
       "url": "https://bindonforever.com/item/279258",
-      "status": "difference",
+      "status": "inconclusive",
       "checkedFields": [
         "itemLevel",
         "requiredCharacterLevel",
         "armorType",
         "stats",
         "resistances",
-        "effects"
+        "effects (unresolved source template)"
       ],
-      "differences": [
-        {
-          "field": "effects",
-          "ours": [
-            "Use: Permanently increase the Defense Skill by 4 and the Stamina value by 0 of an item worn on the chest, legs, hands, or feet. Only usable on items level 0 and above."
-          ],
-          "source": [
-            "Use: Permanently increase the Defense Skill by 0c1 and the Stamina value by 0c2 of an item worn on the chest, legs, hands, or feet. Only usable on items level 0cim and above. (1 Sec Cooldown)"
-          ]
-        }
-      ],
-      "unresolvedEffectTemplate": false,
+      "differences": [],
+      "unresolvedEffectTemplate": true,
       "source": {
         "name": "Wild Leather Armor Kit",
         "itemLevel": 65,

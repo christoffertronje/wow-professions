@@ -92,11 +92,19 @@ for entry in result:
     entry["craftSkillSource"]=lookup["source"] if lookup else None
     entry["craftSkillReference"]=lookup["reference"] if lookup else None
 
+# Publish only identifiable main-catalog WoW Forever recipes. The upstream
+# client snapshot also contains Season of Discovery leftovers and unresolved
+# spell records; their presence is not evidence of a live Forever craft.
+excluded_sod=sum(r["category"]=="SEASON OF DISCOVERY" for r in result)
+excluded_unidentified=sum(r["name"].startswith("Unresolved recipe #") or r["name"]=="Unnamed recipe" for r in result)
+result=[r for r in result if r["category"]!="SEASON OF DISCOVERY" and not r["name"].startswith("Unresolved recipe #") and r["name"]!="Unnamed recipe"]
+assert len(result)==512, f"Expected 512 named main-catalog recipes, got {len(result)}; review source changes"
+assert excluded_sod==80 and excluded_unidentified==13, f"Unexpected excluded records: SoD={excluded_sod}, unidentified={excluded_unidentified}"
 result.sort(key=lambda r:((r["craftSkillRequired"] if isinstance(r["craftSkillRequired"],int) else 9999),r["name"].casefold(),r["id"]))
-assert len(result)>=450,f"unexpectedly few Leatherworking recipes: {len(result)}"
+assert len(result)==512,f"unexpected main-catalog Leatherworking count: {len(result)}"
 assert len(set(r["id"] for r in result))==len(result),"duplicate recipe IDs"
 OUTPUT.parent.mkdir(exist_ok=True)
-OUTPUT.write_text(json.dumps({"meta":{"source":SOURCE_URL,"build":snapshot.get("build"),"profession":"Leatherworking","count":len(result),"qualityUnknown":sum(x["quality"]=="unknown" for x in result),"materialsUnknown":sum(not x["matsKnown"] for x in result),
+OUTPUT.write_text(json.dumps({"meta":{"source":SOURCE_URL,"build":snapshot.get("build"),"profession":"Leatherworking","count":len(result),"scope":"Identified main-catalog WoW Forever Leatherworking recipes; excludes Season of Discovery and unidentified client records","excludedSeasonOfDiscovery":excluded_sod,"excludedUnidentified":excluded_unidentified,"qualityUnknown":sum(x["quality"]=="unknown" for x in result),"materialsUnknown":sum(not x["matsKnown"] for x in result),
         "skillsKnown":sum(x["required"] is not None for x in result),
         "craftSkillsVerified":sum(x["craftSkillVerified"] for x in result),
         "craftSkillsUnverified":sum(not x["craftSkillVerified"] for x in result),
@@ -104,5 +112,5 @@ OUTPUT.write_text(json.dumps({"meta":{"source":SOURCE_URL,"build":snapshot.get("
         "craftingCrosschecked":sum(x["requirementEvidence"]=="crosschecked-forever-crafting" for x in result),
         "skillsRecovered70862":sum(x["requirementEvidence"]=="forever-70862-catalog" for x in result),
         "skillsRecoveredReference":"https://wowforevertalents.com/professions/leatherworking/",
-        "skillsReference":(skills or {}).get("meta",{}).get("source"),"warning":"Client data is not proof of live availability. Learning requirements from the reference may be recipe item requirements, not verified trainer unlocks."},"recipes":result},ensure_ascii=False,separators=(",",":"))+"\n",encoding="utf-8")
+        "skillsReference":(skills or {}).get("meta",{}).get("source"),"warning":"Catalog excludes known Season of Discovery and unidentified client records. Source-backed skill numbers do not independently prove a recipe is currently obtainable in live WoW Forever."},"recipes":result},ensure_ascii=False,separators=(",",":"))+"\n",encoding="utf-8")
 print(f"Wrote {len(result)} Leatherworking recipes; missing qualities {sum(x['quality']=='unknown' for x in result)}")

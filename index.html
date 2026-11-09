@@ -14,7 +14,7 @@
     .recipes{display:grid;gap:9px}.recipe{background:#15202d;border:1px solid #2b3a4c;border-radius:13px;overflow:hidden}.recipe.open{border-color:var(--quality-color,#7c613e)}.recipe{border-color:var(--quality-border,#2b3a4c);background:var(--quality-bg,#15202d)}.recipehead{background:var(--quality-bg,#15202d)!important;border-left:5px solid var(--quality-color,#8090a3)}.recipehead:hover{filter:brightness(1.12)}.recipe-name{color:var(--quality-color,#f2f4f8)}.quality-label{color:var(--quality-color,#f2f4f8);font-weight:750}.legacy-notice{color:#ffbf77;font-weight:750}.itemicon{border-color:var(--quality-color,#6e654c)!important}.skill-required{flex:none;display:flex;flex-direction:column;align-items:center;justify-content:center;min-width:56px;padding:6px 7px;border-radius:8px;background:var(--quality-badge,#253347);border:1px solid var(--quality-border,#3b4c60);color:#f6f3ec;font-weight:850;font-size:16px;font-variant-numeric:tabular-nums;line-height:1.1}.skill-required small{font-weight:750;font-size:9px;text-transform:uppercase;letter-spacing:.7px;color:#bcc7d4;margin-bottom:3px}.recipehead{display:flex;align-items:center;gap:13px;width:100%;background:none;border:0;text-align:left;color:inherit;padding:13px 14px;min-height:72px}.recipehead:hover{background:#1b2a39}.itemicon img{display:block;width:100%;height:100%;object-fit:cover;border-radius:7px}.itemicon{height:45px;width:45px;border:1px solid #6e654c;background:linear-gradient(140deg,#394452,#172331);border-radius:9px;display:grid;place-items:center;font-size:24px;flex:none;box-shadow:inset 0 0 12px #0008}.recipe-name{font-weight:750;font-size:14px;line-height:1.3}.recipe-sub{display:flex;gap:8px;align-items:center;color:#a0afbf;font-size:11px;margin-top:6px;flex-wrap:wrap}.dot{height:8px;width:8px;border-radius:50%;display:inline-block}.recipe-info{flex:1;min-width:0}.chevron{color:#b5c3d3;font-size:18px;padding-left:6px}.detail{padding:0 14px 15px 72px}.detail-inner{border-top:1px solid #344256;padding-top:13px}.detail-title{font-size:10px;color:#a2b3c5;letter-spacing:1.2px;font-weight:800;text-transform:uppercase;margin-bottom:9px}.mat{display:flex;justify-content:space-between;gap:12px;padding:7px 0;font-size:13px}.mat span:first-child{color:#d6e0ed}.mat strong{color:#f7ead6;font-variant-numeric:tabular-nums}.detail-footer{color:#8b9bad;border-top:1px solid #29384a;margin-top:9px;padding-top:11px;font-size:11px;line-height:1.6}.empty{text-align:center;color:#aebdce;background:#14202d;border:1px dashed #394b60;border-radius:13px;padding:40px 12px}.footer{margin-top:35px;color:#778a9f;font-size:12px;text-align:center;line-height:1.7}.footer a{color:#e3b86c}
     /* WoW tooltip-inspired item detail: visual only, no missing stats invented. */
     .wow-tooltip{position:relative;background:linear-gradient(145deg,#070d20 0%,#080d19 64%,#090d1c 100%);border:1px solid #6472b0;border-radius:5px;box-shadow:0 0 0 2px #05091c,0 0 0 3px #222e65,0 10px 26px #0009,inset 0 0 20px #10183c;margin:1px 0 22px;padding:15px 15px 13px;color:#f5f5f5;font-size:15px;line-height:1.48;overflow-wrap:anywhere}
-    .wow-item-name{font-size:clamp(19px,4.5vw,23px);line-height:1.25;font-weight:550;margin:0 0 4px;letter-spacing:.1px}.wow-item-rare{color:#5798ff}.wow-item-uncommon{color:#1eff00}
+    .wow-item-name{font-size:clamp(19px,4.5vw,23px);line-height:1.25;font-weight:550;margin:0 0 4px;letter-spacing:.1px}.wow-item-rare{color:#5798ff}.wow-item-uncommon{color:#1eff00}.wow-item-epic{color:#a335ee}
     .wow-item-level{color:#ffd100;margin:0 0 4px;font-size:15px}
     .wow-tooltip-line{margin:2px 0}.wow-slot-row{display:flex;justify-content:space-between;gap:10px;margin:2px 0}.wow-slot-row span:last-child{text-align:right}
     .wow-effect{color:#21e421;margin:8px 0 1px;line-height:1.5}
@@ -67,7 +67,7 @@
         tooltip.className="wow-tooltip";
         tooltip.setAttribute("aria-label","Item tooltip for "+r.name);
         const itemName=document.createElement("div");
-        itemName.className="wow-item-name "+(gear.quality==="uncommon"?"wow-item-uncommon":"wow-item-rare");
+        itemName.className="wow-item-name "+({uncommon:"wow-item-uncommon",rare:"wow-item-rare",epic:"wow-item-epic"}[gear.quality]||"");
         itemName.textContent=gear.name||r.name;
         tooltip.append(itemName);
         function tooltipLine(content,className="wow-tooltip-line"){
@@ -128,9 +128,9 @@
         if(!response.ok)throw Error("Item stats data unavailable");
         return response.json();
       }).then(stats=>{
-        if(stats.meta?.items!==414||Object.keys(stats.byItemId||{}).length!==414)throw Error("Incomplete item stats catalog");
-        const gearRecipes=payload.recipes.filter(r=>r.quality==="rare"||r.quality==="uncommon");
-        if(gearRecipes.length!==414||gearRecipes.some(r=>!stats.byItemId[String(r.itemId)]||stats.byItemId[String(r.itemId)].recipeSpellId!==r.id||stats.byItemId[String(r.itemId)].quality!==r.quality))
+        if(stats.meta?.items!==452||Object.keys(stats.byItemId||{}).length!==452)throw Error("Incomplete item stats catalog");
+        const gearRecipes=payload.recipes.filter(r=>r.quality==="epic"||r.quality==="rare"||r.quality==="uncommon");
+        if(gearRecipes.length!==452||gearRecipes.some(r=>!stats.byItemId[String(r.itemId)]||stats.byItemId[String(r.itemId)].recipeSpellId!==r.id||stats.byItemId[String(r.itemId)].quality!==r.quality))
           throw Error("Item stats/recipe ID mismatch");
         data.itemStats=stats.byItemId;
         render();

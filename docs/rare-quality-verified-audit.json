@@ -10,7 +10,8 @@
       "https://questing.wiki/wow-forever/professions/leatherworking/",
       "https://wowforevertalent.com/professions/leatherworking/?acquisition=favor"
     ],
-    "warning": "Do not treat missing source learning requirements as mismatches, nor yellow/green/grey thresholds as minimum craft skills."
+    "warning": "Do not treat missing source learning requirements as mismatches, nor yellow/green/grey thresholds as minimum craft skills.",
+    "note": "Onyxia Scale Cloak requires skill 300 per the Forever pattern; 320 in some tables is the yellow skill-up threshold."
   },
   "summary": {
     "totalRare": 201,
@@ -6492,8 +6493,8 @@
         "Forever Talent"
       ],
       "skillAudit": "supported-by-earlier-evidence",
-      "priorSkillSource": "guildloot-forever-required-skill",
-      "priorSkillReference": "https://guildloot.de/en/beruf/forever/leatherworking/",
+      "priorSkillSource": "checked-forever-correction",
+      "priorSkillReference": "https://www.wowhead.com/forever/item=15769/pattern-onyxia-scale-cloak",
       "questingSkill": null,
       "foreverTalentLearningRank": null
     },

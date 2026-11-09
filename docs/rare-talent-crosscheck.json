@@ -1,0 +1,9759 @@
+{
+  "source": "https://wowforevertalent.com/professions/leatherworking/?acquisition=favor",
+  "summary": {
+    "rareCount": 201,
+    "sourceSpellDetails": 595,
+    "matchedSpellIds": 201,
+    "materialMatches": 201,
+    "materialMismatches": 0,
+    "sourceMaterialsUnavailable": 0,
+    "learningRankMatches": 180,
+    "learningRankMismatches": 0,
+    "learningRankUnavailable": 21
+  },
+  "problems": [],
+  "results": [
+    {
+      "spellId": "1255146",
+      "name": "Black Whelp Slippers",
+      "found": true,
+      "materialMatch": true,
+      "learningRankMatch": true,
+      "ourRequired": 35,
+      "learningRank": 35,
+      "ourMaterials": [
+        [
+          "Light Leather",
+          12
+        ],
+        [
+          "Cured Light Hide",
+          2
+        ],
+        [
+          "Black Whelp Scale",
+          2
+        ]
+      ],
+      "referenceMaterials": [
+        [
+          "Light Leather",
+          12
+        ],
+        [
+          "Cured Light Hide",
+          2
+        ],
+        [
+          "Black Whelp Scale",
+          2
+        ]
+      ]
+    },
+    {
+      "spellId": "1255145",
+      "name": "Dark Leather Boots",
+      "found": true,
+      "materialMatch": true,
+      "learningRankMatch": true,
+      "ourRequired": 35,
+      "learningRank": 35,
+      "ourMaterials": [
+        [
+          "Light Leather",
+          24
+        ],
+        [
+          "Cured Light Hide",
+          2
+        ],
+        [
+          "Gray Dye",
+          1
+        ]
+      ],
+      "referenceMaterials": [
+        [
+          "Light Leather",
+          24
+        ],
+        [
+          "Cured Light Hide",
+          2
+        ],
+        [
+          "Gray Dye",
+          1
+        ]
+      ]
+    },
+    {
+      "spellId": "1255143",
+      "name": "Moonglow Boots",
+      "found": true,
+      "materialMatch": true,
+      "learningRankMatch": true,
+      "ourRequired": 35,
+      "learningRank": 35,
+      "ourMaterials": [
+        [
+          "Light Leather",
+          12
+        ],
+        [
+          "Cured Light Hide",
+          2
+        ],
+        [
+          "Small Lustrous Pearl",
+          1
+        ]
+      ],
+      "referenceMaterials": [
+        [
+          "Light Leather",
+          12
+        ],
+        [
+          "Cured Light Hide",
+          2
+        ],
+        [
+          "Small Lustrous Pearl",
+          1
+        ]
+      ]
+    },
+    {
+      "spellId": "1255144",
+      "name": "Murloc Scale Shoes",
+      "found": true,
+      "materialMatch": true,
+      "learningRankMatch": true,
+      "ourRequired": 35,
+      "learningRank": 35,
+      "ourMaterials": [
+        [
+          "Light Leather",
+          12
+        ],
+        [
+          "Cured Light Hide",
+          2
+        ],
+        [
+          "Slimy Murloc Scale",
+          4
+        ]
+      ],
+      "referenceMaterials": [
+        [
+          "Light Leather",
+          12
+        ],
+        [
+          "Cured Light Hide",
+          2
+        ],
+        [
+          "Slimy Murloc Scale",
+          4
+        ]
+      ]
+    },
+    {
+      "spellId": "1255142",
+      "name": "Brawler's Leather Belt",
+      "found": true,
+      "materialMatch": true,
+      "learningRankMatch": true,
+      "ourRequired": 60,
+      "learningRank": 60,
+      "ourMaterials": [
+        [
+          "Shadowgem",
+          1
+        ],
+        [
+          "Light Leather",
+          10
+        ],
+        [
+          "Coarse Thread",
+          1
+        ],
+        [
+          "Cured Light Hide",
+          2
+        ],
+        [
+          "Pristine Leather",
+          2
+        ]
+      ],
+      "referenceMaterials": [
+        [
+          "Light Leather",
+          10
+        ],
+        [
+          "Cured Light Hide",
+          2
+        ],
+        [
+          "Pristine Leather",
+          2
+        ],
+        [
+          "Coarse Thread",
+          1
+        ],
+        [
+          "Shadowgem",
+          1
+        ]
+      ]
+    },
+    {
+      "spellId": "1255140",
+      "name": "Defender's Leather Belt",
+      "found": true,
+      "materialMatch": true,
+      "learningRankMatch": true,
+      "ourRequired": 60,
+      "learningRank": 60,
+      "ourMaterials": [
+        [
+          "Light Leather",
+          10
+        ],
+        [
+          "Coarse Thread",
+          1
+        ],
+        [
+          "Elixir of Minor Fortitude",
+          1
+        ],
+        [
+          "Cured Light Hide",
+          2
+        ],
+        [
+          "Pristine Leather",
+          2
+        ]
+      ],
+      "referenceMaterials": [
+        [
+          "Light Leather",
+          10
+        ],
+        [
+          "Cured Light Hide",
+          2
+        ],
+        [
+          "Pristine Leather",
+          2
+        ],
+        [
+          "Coarse Thread",
+          1
+        ],
+        [
+          "Elixir of Minor Fortitude",
+          1
+        ]
+      ]
+    },
+    {
+      "spellId": "1255138",
+      "name": "Stormrider's Leather Belt",
+      "found": true,
+      "materialMatch": true,
+      "learningRankMatch": true,
+      "ourRequired": 60,
+      "learningRank": 60,
+      "ourMaterials": [
+        [
+          "Light Leather",
+          10
+        ],
+        [
+          "Coarse Thread",
+          1
+        ],
+        [
+          "Cured Light Hide",
+          2
+        ],
+        [
+          "Cerulean Dye",
+          1
+        ],
+        [
+          "Pristine Leather",
+          2
+        ]
+      ],
+      "referenceMaterials": [
+        [
+          "Light Leather",
+          10
+        ],
+        [
+          "Cured Light Hide",
+          2
+        ],
+        [
+          "Pristine Leather",
+          2
+        ],
+        [
+          "Coarse Thread",
+          1
+        ],
+        [
+          "Cerulean Dye",
+          1
+        ]
+      ]
+    },
+    {
+      "spellId": "1255139",
+      "name": "Totemic Leather Belt",
+      "found": true,
+      "materialMatch": true,
+      "learningRankMatch": true,
+      "ourRequired": 60,
+      "learningRank": 60,
+      "ourMaterials": [
+        [
+          "Light Leather",
+          10
+        ],
+        [
+          "Coarse Thread",
+          1
+        ],
+        [
+          "Cured Light Hide",
+          2
+        ],
+        [
+          "Sulfuric Acid",
+          1
+        ],
+        [
+          "Pristine Leather",
+          2
+        ]
+      ],
+      "referenceMaterials": [
+        [
+          "Light Leather",
+          10
+        ],
+        [
+          "Cured Light Hide",
+          2
+        ],
+        [
+          "Pristine Leather",
+          2
+        ],
+        [
+          "Coarse Thread",
+          1
+        ],
+        [
+          "Sulfuric Acid",
+          1
+        ]
+      ]
+    },
+    {
+      "spellId": "1255141",
+      "name": "Trapper's Leather Belt",
+      "found": true,
+      "materialMatch": true,
+      "learningRankMatch": true,
+      "ourRequired": 60,
+      "learningRank": 60,
+      "ourMaterials": [
+        [
+          "Light Leather",
+          10
+        ],
+        [
+          "Coarse Thread",
+          1
+        ],
+        [
+          "Cured Light Hide",
+          2
+        ],
+        [
+          "Deviate Scale",
+          1
+        ],
+        [
+          "Pristine Leather",
+          2
+        ]
+      ],
+      "referenceMaterials": [
+        [
+          "Light Leather",
+          10
+        ],
+        [
+          "Cured Light Hide",
+          2
+        ],
+        [
+          "Pristine Leather",
+          2
+        ],
+        [
+          "Coarse Thread",
+          1
+        ],
+        [
+          "Deviate Scale",
+          1
+        ]
+      ]
+    },
+    {
+      "spellId": "1255137",
+      "name": "Wisdom's Leather Belt",
+      "found": true,
+      "materialMatch": true,
+      "learningRankMatch": true,
+      "ourRequired": 60,
+      "learningRank": 60,
+      "ourMaterials": [
+        [
+          "Light Leather",
+          10
+        ],
+        [
+          "Coarse Thread",
+          1
+        ],
+        [
+          "Cured Light Hide",
+          2
+        ],
+        [
+          "Small Lustrous Pearl",
+          1
+        ],
+        [
+          "Pristine Leather",
+          2
+        ]
+      ],
+      "referenceMaterials": [
+        [
+          "Light Leather",
+          10
+        ],
+        [
+          "Cured Light Hide",
+          2
+        ],
+        [
+          "Pristine Leather",
+          2
+        ],
+        [
+          "Coarse Thread",
+          1
+        ],
+        [
+          "Small Lustrous Pearl",
+          1
+        ]
+      ]
+    },
+    {
+      "spellId": "1255136",
+      "name": "Brawler's Leather Armor",
+      "found": true,
+      "materialMatch": true,
+      "learningRankMatch": true,
+      "ourRequired": 75,
+      "learningRank": 75,
+      "ourMaterials": [
+        [
+          "Shadowgem",
+          1
+        ],
+        [
+          "Light Leather",
+          16
+        ],
+        [
+          "Cured Light Hide",
+          2
+        ]
+      ],
+      "referenceMaterials": [
+        [
+          "Light Leather",
+          16
+        ],
+        [
+          "Cured Light Hide",
+          2
+        ],
+        [
+          "Shadowgem",
+          1
+        ]
+      ]
+    },
+    {
+      "spellId": "1255130",
+      "name": "Brawler's Leather Gloves",
+      "found": true,
+      "materialMatch": true,
+      "learningRankMatch": true,
+      "ourRequired": 75,
+      "learningRank": 75,
+      "ourMaterials": [
+        [
+          "Shadowgem",
+          2
+        ],
+        [
+          "Light Leather",
+          12
+        ],
+        [
+          "Fine Thread",
+          1
+        ],
+        [
+          "Cured Light Hide",
+          3
+        ],
+        [
+          "Pristine Leather",
+          2
+        ]
+      ],
+      "referenceMaterials": [
+        [
+          "Light Leather",
+          12
+        ],
+        [
+          "Cured Light Hide",
+          3
+        ],
+        [
+          "Pristine Leather",
+          2
+        ],
+        [
+          "Fine Thread",
+          1
+        ],
+        [
+          "Shadowgem",
+          2
+        ]
+      ]
+    },
+    {
+      "spellId": "1255134",
+      "name": "Defender's Leather Armor",
+      "found": true,
+      "materialMatch": true,
+      "learningRankMatch": true,
+      "ourRequired": 75,
+      "learningRank": 75,
+      "ourMaterials": [
+        [
+          "Light Leather",
+          16
+        ],
+        [
+          "Elixir of Minor Fortitude",
+          1
+        ],
+        [
+          "Cured Light Hide",
+          2
+        ]
+      ],
+      "referenceMaterials": [
+        [
+          "Light Leather",
+          16
+        ],
+        [
+          "Cured Light Hide",
+          2
+        ],
+        [
+          "Elixir of Minor Fortitude",
+          1
+        ]
+      ]
+    },
+    {
+      "spellId": "1255128",
+      "name": "Defender's Leather Gloves",
+      "found": true,
+      "materialMatch": true,
+      "learningRankMatch": true,
+      "ourRequired": 75,
+      "learningRank": 75,
+      "ourMaterials": [
+        [
+          "Light Leather",
+          12
+        ],
+        [
+          "Fine Thread",
+          1
+        ],
+        [
+          "Elixir of Minor Fortitude",
+          2
+        ],
+        [
+          "Cured Light Hide",
+          3
+        ],
+        [
+          "Pristine Leather",
+          2
+        ]
+      ],
+      "referenceMaterials": [
+        [
+          "Light Leather",
+          12
+        ],
+        [
+          "Cured Light Hide",
+          3
+        ],
+        [
+          "Pristine Leather",
+          2
+        ],
+        [
+          "Fine Thread",
+          1
+        ],
+        [
+          "Elixir of Minor Fortitude",
+          2
+        ]
+      ]
+    },
+    {
+      "spellId": "1255132",
+      "name": "Stormrider's Leather Armor",
+      "found": true,
+      "materialMatch": true,
+      "learningRankMatch": true,
+      "ourRequired": 75,
+      "learningRank": 75,
+      "ourMaterials": [
+        [
+          "Light Leather",
+          16
+        ],
+        [
+          "Cured Light Hide",
+          2
+        ],
+        [
+          "Cerulean Dye",
+          1
+        ]
+      ],
+      "referenceMaterials": [
+        [
+          "Light Leather",
+          16
+        ],
+        [
+          "Cured Light Hide",
+          2
+        ],
+        [
+          "Cerulean Dye",
+          1
+        ]
+      ]
+    },
+    {
+      "spellId": "1255126",
+      "name": "Stormrider's Leather Gloves",
+      "found": true,
+      "materialMatch": true,
+      "learningRankMatch": true,
+      "ourRequired": 75,
+      "learningRank": 75,
+      "ourMaterials": [
+        [
+          "Light Leather",
+          12
+        ],
+        [
+          "Fine Thread",
+          1
+        ],
+        [
+          "Cured Light Hide",
+          3
+        ],
+        [
+          "Cerulean Dye",
+          2
+        ],
+        [
+          "Pristine Leather",
+          2
+        ]
+      ],
+      "referenceMaterials": [
+        [
+          "Light Leather",
+          12
+        ],
+        [
+          "Cured Light Hide",
+          3
+        ],
+        [
+          "Pristine Leather",
+          2
+        ],
+        [
+          "Fine Thread",
+          1
+        ],
+        [
+          "Cerulean Dye",
+          2
+        ]
+      ]
+    },
+    {
+      "spellId": "1255133",
+      "name": "Totemic Leather Armor",
+      "found": true,
+      "materialMatch": true,
+      "learningRankMatch": true,
+      "ourRequired": 75,
+      "learningRank": 75,
+      "ourMaterials": [
+        [
+          "Light Leather",
+          16
+        ],
+        [
+          "Cured Light Hide",
+          2
+        ],
+        [
+          "Sulfuric Acid",
+          1
+        ]
+      ],
+      "referenceMaterials": [
+        [
+          "Light Leather",
+          16
+        ],
+        [
+          "Cured Light Hide",
+          2
+        ],
+        [
+          "Sulfuric Acid",
+          1
+        ]
+      ]
+    },
+    {
+      "spellId": "1255127",
+      "name": "Totemic Leather Gloves",
+      "found": true,
+      "materialMatch": true,
+      "learningRankMatch": true,
+      "ourRequired": 75,
+      "learningRank": 75,
+      "ourMaterials": [
+        [
+          "Light Leather",
+          12
+        ],
+        [
+          "Fine Thread",
+          1
+        ],
+        [
+          "Cured Light Hide",
+          3
+        ],
+        [
+          "Sulfuric Acid",
+          2
+        ],
+        [
+          "Pristine Leather",
+          2
+        ]
+      ],
+      "referenceMaterials": [
+        [
+          "Light Leather",
+          12
+        ],
+        [
+          "Cured Light Hide",
+          3
+        ],
+        [
+          "Pristine Leather",
+          2
+        ],
+        [
+          "Fine Thread",
+          1
+        ],
+        [
+          "Sulfuric Acid",
+          2
+        ]
+      ]
+    },
+    {
+      "spellId": "1255135",
+      "name": "Trapper's Leather Armor",
+      "found": true,
+      "materialMatch": true,
+      "learningRankMatch": true,
+      "ourRequired": 75,
+      "learningRank": 75,
+      "ourMaterials": [
+        [
+          "Light Leather",
+          16
+        ],
+        [
+          "Cured Light Hide",
+          2
+        ],
+        [
+          "Deviate Scale",
+          1
+        ]
+      ],
+      "referenceMaterials": [
+        [
+          "Light Leather",
+          16
+        ],
+        [
+          "Cured Light Hide",
+          2
+        ],
+        [
+          "Deviate Scale",
+          1
+        ]
+      ]
+    },
+    {
+      "spellId": "1255129",
+      "name": "Trapper's Leather Gloves",
+      "found": true,
+      "materialMatch": true,
+      "learningRankMatch": true,
+      "ourRequired": 75,
+      "learningRank": 75,
+      "ourMaterials": [
+        [
+          "Light Leather",
+          12
+        ],
+        [
+          "Fine Thread",
+          1
+        ],
+        [
+          "Cured Light Hide",
+          3
+        ],
+        [
+          "Deviate Scale",
+          2
+        ],
+        [
+          "Pristine Leather",
+          2
+        ]
+      ],
+      "referenceMaterials": [
+        [
+          "Light Leather",
+          12
+        ],
+        [
+          "Cured Light Hide",
+          3
+        ],
+        [
+          "Pristine Leather",
+          2
+        ],
+        [
+          "Fine Thread",
+          1
+        ],
+        [
+          "Deviate Scale",
+          2
+        ]
+      ]
+    },
+    {
+      "spellId": "1255131",
+      "name": "Wisdom's Leather Armor",
+      "found": true,
+      "materialMatch": true,
+      "learningRankMatch": true,
+      "ourRequired": 75,
+      "learningRank": 75,
+      "ourMaterials": [
+        [
+          "Light Leather",
+          16
+        ],
+        [
+          "Cured Light Hide",
+          2
+        ],
+        [
+          "Small Lustrous Pearl",
+          1
+        ]
+      ],
+      "referenceMaterials": [
+        [
+          "Light Leather",
+          16
+        ],
+        [
+          "Cured Light Hide",
+          2
+        ],
+        [
+          "Small Lustrous Pearl",
+          1
+        ]
+      ]
+    },
+    {
+      "spellId": "1255125",
+      "name": "Wisdom's Leather Gloves",
+      "found": true,
+      "materialMatch": true,
+      "learningRankMatch": true,
+      "ourRequired": 75,
+      "learningRank": 75,
+      "ourMaterials": [
+        [
+          "Light Leather",
+          12
+        ],
+        [
+          "Fine Thread",
+          1
+        ],
+        [
+          "Cured Light Hide",
+          3
+        ],
+        [
+          "Small Lustrous Pearl",
+          2
+        ],
+        [
+          "Pristine Leather",
+          2
+        ]
+      ],
+      "referenceMaterials": [
+        [
+          "Light Leather",
+          12
+        ],
+        [
+          "Cured Light Hide",
+          3
+        ],
+        [
+          "Pristine Leather",
+          2
+        ],
+        [
+          "Fine Thread",
+          1
+        ],
+        [
+          "Small Lustrous Pearl",
+          2
+        ]
+      ]
+    },
+    {
+      "spellId": "1255121",
+      "name": "Brawler's Leather Boots",
+      "found": true,
+      "materialMatch": true,
+      "learningRankMatch": true,
+      "ourRequired": 85,
+      "learningRank": 85,
+      "ourMaterials": [
+        [
+          "Shadowgem",
+          3
+        ],
+        [
+          "Light Leather",
+          14
+        ],
+        [
+          "Fine Thread",
+          1
+        ],
+        [
+          "Cured Light Hide",
+          4
+        ],
+        [
+          "Pristine Leather",
+          3
+        ]
+      ],
+      "referenceMaterials": [
+        [
+          "Light Leather",
+          14
+        ],
+        [
+          "Cured Light Hide",
+          4
+        ],
+        [
+          "Pristine Leather",
+          3
+        ],
+        [
+          "Fine Thread",
+          1
+        ],
+        [
+          "Shadowgem",
+          3
+        ]
+      ]
+    },
+    {
+      "spellId": "1255119",
+      "name": "Defender's Leather Boots",
+      "found": true,
+      "materialMatch": true,
+      "learningRankMatch": true,
+      "ourRequired": 85,
+      "learningRank": 85,
+      "ourMaterials": [
+        [
+          "Light Leather",
+          14
+        ],
+        [
+          "Fine Thread",
+          1
+        ],
+        [
+          "Elixir of Minor Fortitude",
+          3
+        ],
+        [
+          "Cured Light Hide",
+          4
+        ],
+        [
+          "Pristine Leather",
+          3
+        ]
+      ],
+      "referenceMaterials": [
+        [
+          "Light Leather",
+          14
+        ],
+        [
+          "Cured Light Hide",
+          4
+        ],
+        [
+          "Pristine Leather",
+          3
+        ],
+        [
+          "Fine Thread",
+          1
+        ],
+        [
+          "Elixir of Minor Fortitude",
+          3
+        ]
+      ]
+    },
+    {
+      "spellId": "1255117",
+      "name": "Stormrider's Leather Boots",
+      "found": true,
+      "materialMatch": true,
+      "learningRankMatch": true,
+      "ourRequired": 85,
+      "learningRank": 85,
+      "ourMaterials": [
+        [
+          "Light Leather",
+          14
+        ],
+        [
+          "Fine Thread",
+          1
+        ],
+        [
+          "Cured Light Hide",
+          4
+        ],
+        [
+          "Cerulean Dye",
+          3
+        ],
+        [
+          "Pristine Leather",
+          3
+        ]
+      ],
+      "referenceMaterials": [
+        [
+          "Light Leather",
+          14
+        ],
+        [
+          "Cured Light Hide",
+          4
+        ],
+        [
+          "Pristine Leather",
+          3
+        ],
+        [
+          "Fine Thread",
+          1
+        ],
+        [
+          "Cerulean Dye",
+          3
+        ]
+      ]
+    },
+    {
+      "spellId": "1255118",
+      "name": "Totemic Leather Boots",
+      "found": true,
+      "materialMatch": true,
+      "learningRankMatch": true,
+      "ourRequired": 85,
+      "learningRank": 85,
+      "ourMaterials": [
+        [
+          "Light Leather",
+          14
+        ],
+        [
+          "Fine Thread",
+          1
+        ],
+        [
+          "Cured Light Hide",
+          4
+        ],
+        [
+          "Sulfuric Acid",
+          3
+        ],
+        [
+          "Pristine Leather",
+          3
+        ]
+      ],
+      "referenceMaterials": [
+        [
+          "Light Leather",
+          14
+        ],
+        [
+          "Cured Light Hide",
+          4
+        ],
+        [
+          "Pristine Leather",
+          3
+        ],
+        [
+          "Fine Thread",
+          1
+        ],
+        [
+          "Sulfuric Acid",
+          3
+        ]
+      ]
+    },
+    {
+      "spellId": "1255120",
+      "name": "Trapper's Leather Boots",
+      "found": true,
+      "materialMatch": true,
+      "learningRankMatch": true,
+      "ourRequired": 85,
+      "learningRank": 85,
+      "ourMaterials": [
+        [
+          "Light Leather",
+          14
+        ],
+        [
+          "Fine Thread",
+          1
+        ],
+        [
+          "Cured Light Hide",
+          4
+        ],
+        [
+          "Deviate Scale",
+          3
+        ],
+        [
+          "Pristine Leather",
+          3
+        ]
+      ],
+      "referenceMaterials": [
+        [
+          "Light Leather",
+          14
+        ],
+        [
+          "Cured Light Hide",
+          4
+        ],
+        [
+          "Pristine Leather",
+          3
+        ],
+        [
+          "Fine Thread",
+          1
+        ],
+        [
+          "Deviate Scale",
+          3
+        ]
+      ]
+    },
+    {
+      "spellId": "1255116",
+      "name": "Wisdom's Leather Boots",
+      "found": true,
+      "materialMatch": true,
+      "learningRankMatch": true,
+      "ourRequired": 85,
+      "learningRank": 85,
+      "ourMaterials": [
+        [
+          "Light Leather",
+          14
+        ],
+        [
+          "Fine Thread",
+          1
+        ],
+        [
+          "Cured Light Hide",
+          4
+        ],
+        [
+          "Small Lustrous Pearl",
+          3
+        ],
+        [
+          "Pristine Leather",
+          3
+        ]
+      ],
+      "referenceMaterials": [
+        [
+          "Light Leather",
+          14
+        ],
+        [
+          "Cured Light Hide",
+          4
+        ],
+        [
+          "Pristine Leather",
+          3
+        ],
+        [
+          "Fine Thread",
+          1
+        ],
+        [
+          "Small Lustrous Pearl",
+          3
+        ]
+      ]
+    },
+    {
+      "spellId": "7955",
+      "name": "Deviate Scale Belt",
+      "found": true,
+      "materialMatch": true,
+      "learningRankMatch": true,
+      "ourRequired": 90,
+      "learningRank": 90,
+      "ourMaterials": [
+        [
+          "Fine Thread",
+          2
+        ],
+        [
+          "Deviate Scale",
+          10
+        ],
+        [
+          "Perfect Deviate Scale",
+          10
+        ]
+      ],
+      "referenceMaterials": [
+        [
+          "Perfect Deviate Scale",
+          10
+        ],
+        [
+          "Deviate Scale",
+          10
+        ],
+        [
+          "Fine Thread",
+          2
+        ]
+      ]
+    },
+    {
+      "spellId": "1255109",
+      "name": "Brawler's Leather Hood",
+      "found": true,
+      "materialMatch": true,
+      "learningRankMatch": true,
+      "ourRequired": 100,
+      "learningRank": 100,
+      "ourMaterials": [
+        [
+          "Shadowgem",
+          4
+        ],
+        [
+          "Medium Leather",
+          8
+        ],
+        [
+          "Fine Thread",
+          2
+        ],
+        [
+          "Cured Medium Hide",
+          2
+        ],
+        [
+          "Pristine Leather",
+          4
+        ]
+      ],
+      "referenceMaterials": [
+        [
+          "Medium Leather",
+          8
+        ],
+        [
+          "Cured Medium Hide",
+          2
+        ],
+        [
+          "Pristine Leather",
+          4
+        ],
+        [
+          "Fine Thread",
+          2
+        ],
+        [
+          "Shadowgem",
+          4
+        ]
+      ]
+    },
+    {
+      "spellId": "1255115",
+      "name": "Brawler's Leather Pants",
+      "found": true,
+      "materialMatch": true,
+      "learningRankMatch": true,
+      "ourRequired": 100,
+      "learningRank": 100,
+      "ourMaterials": [
+        [
+          "Shadowgem",
+          2
+        ],
+        [
+          "Medium Leather",
+          8
+        ],
+        [
+          "Cured Light Hide",
+          4
+        ]
+      ],
+      "referenceMaterials": [
+        [
+          "Medium Leather",
+          8
+        ],
+        [
+          "Cured Light Hide",
+          4
+        ],
+        [
+          "Shadowgem",
+          2
+        ]
+      ]
+    },
+    {
+      "spellId": "1255107",
+      "name": "Defender's Leather Hood",
+      "found": true,
+      "materialMatch": true,
+      "learningRankMatch": true,
+      "ourRequired": 100,
+      "learningRank": 100,
+      "ourMaterials": [
+        [
+          "Medium Leather",
+          8
+        ],
+        [
+          "Fine Thread",
+          2
+        ],
+        [
+          "Elixir of Minor Fortitude",
+          4
+        ],
+        [
+          "Cured Medium Hide",
+          2
+        ],
+        [
+          "Pristine Leather",
+          4
+        ]
+      ],
+      "referenceMaterials": [
+        [
+          "Medium Leather",
+          8
+        ],
+        [
+          "Cured Medium Hide",
+          2
+        ],
+        [
+          "Pristine Leather",
+          4
+        ],
+        [
+          "Fine Thread",
+          2
+        ],
+        [
+          "Elixir of Minor Fortitude",
+          4
+        ]
+      ]
+    },
+    {
+      "spellId": "1255113",
+      "name": "Defender's Leather Pants",
+      "found": true,
+      "materialMatch": true,
+      "learningRankMatch": true,
+      "ourRequired": 100,
+      "learningRank": 100,
+      "ourMaterials": [
+        [
+          "Medium Leather",
+          8
+        ],
+        [
+          "Elixir of Minor Fortitude",
+          2
+        ],
+        [
+          "Cured Light Hide",
+          4
+        ]
+      ],
+      "referenceMaterials": [
+        [
+          "Medium Leather",
+          8
+        ],
+        [
+          "Cured Light Hide",
+          4
+        ],
+        [
+          "Elixir of Minor Fortitude",
+          2
+        ]
+      ]
+    },
+    {
+      "spellId": "1255105",
+      "name": "Stormrider's Leather Hood",
+      "found": true,
+      "materialMatch": true,
+      "learningRankMatch": true,
+      "ourRequired": 100,
+      "learningRank": 100,
+      "ourMaterials": [
+        [
+          "Medium Leather",
+          8
+        ],
+        [
+          "Fine Thread",
+          2
+        ],
+        [
+          "Cured Medium Hide",
+          2
+        ],
+        [
+          "Cerulean Dye",
+          4
+        ],
+        [
+          "Pristine Leather",
+          4
+        ]
+      ],
+      "referenceMaterials": [
+        [
+          "Medium Leather",
+          8
+        ],
+        [
+          "Cured Medium Hide",
+          2
+        ],
+        [
+          "Pristine Leather",
+          4
+        ],
+        [
+          "Fine Thread",
+          2
+        ],
+        [
+          "Cerulean Dye",
+          4
+        ]
+      ]
+    },
+    {
+      "spellId": "1255111",
+      "name": "Stormrider's Leather Pants",
+      "found": true,
+      "materialMatch": true,
+      "learningRankMatch": true,
+      "ourRequired": 100,
+      "learningRank": 100,
+      "ourMaterials": [
+        [
+          "Medium Leather",
+          8
+        ],
+        [
+          "Cured Light Hide",
+          4
+        ],
+        [
+          "Cerulean Dye",
+          2
+        ]
+      ],
+      "referenceMaterials": [
+        [
+          "Medium Leather",
+          8
+        ],
+        [
+          "Cured Light Hide",
+          4
+        ],
+        [
+          "Cerulean Dye",
+          2
+        ]
+      ]
+    },
+    {
+      "spellId": "1255106",
+      "name": "Totemic Leather Hood",
+      "found": true,
+      "materialMatch": true,
+      "learningRankMatch": true,
+      "ourRequired": 100,
+      "learningRank": 100,
+      "ourMaterials": [
+        [
+          "Medium Leather",
+          8
+        ],
+        [
+          "Fine Thread",
+          2
+        ],
+        [
+          "Cured Medium Hide",
+          2
+        ],
+        [
+          "Sulfuric Acid",
+          4
+        ],
+        [
+          "Pristine Leather",
+          4
+        ]
+      ],
+      "referenceMaterials": [
+        [
+          "Medium Leather",
+          8
+        ],
+        [
+          "Cured Medium Hide",
+          2
+        ],
+        [
+          "Pristine Leather",
+          4
+        ],
+        [
+          "Fine Thread",
+          2
+        ],
+        [
+          "Sulfuric Acid",
+          4
+        ]
+      ]
+    },
+    {
+      "spellId": "1255112",
+      "name": "Totemic Leather Pants",
+      "found": true,
+      "materialMatch": true,
+      "learningRankMatch": true,
+      "ourRequired": 100,
+      "learningRank": 100,
+      "ourMaterials": [
+        [
+          "Medium Leather",
+          8
+        ],
+        [
+          "Cured Light Hide",
+          4
+        ],
+        [
+          "Sulfuric Acid",
+          2
+        ]
+      ],
+      "referenceMaterials": [
+        [
+          "Medium Leather",
+          8
+        ],
+        [
+          "Cured Light Hide",
+          4
+        ],
+        [
+          "Sulfuric Acid",
+          2
+        ]
+      ]
+    },
+    {
+      "spellId": "1255108",
+      "name": "Trapper's Leather Hood",
+      "found": true,
+      "materialMatch": true,
+      "learningRankMatch": true,
+      "ourRequired": 100,
+      "learningRank": 100,
+      "ourMaterials": [
+        [
+          "Medium Leather",
+          8
+        ],
+        [
+          "Fine Thread",
+          2
+        ],
+        [
+          "Cured Medium Hide",
+          2
+        ],
+        [
+          "Deviate Scale",
+          4
+        ],
+        [
+          "Pristine Leather",
+          4
+        ]
+      ],
+      "referenceMaterials": [
+        [
+          "Medium Leather",
+          8
+        ],
+        [
+          "Cured Medium Hide",
+          2
+        ],
+        [
+          "Pristine Leather",
+          4
+        ],
+        [
+          "Fine Thread",
+          2
+        ],
+        [
+          "Deviate Scale",
+          4
+        ]
+      ]
+    },
+    {
+      "spellId": "1255114",
+      "name": "Trapper's Leather Pants",
+      "found": true,
+      "materialMatch": true,
+      "learningRankMatch": true,
+      "ourRequired": 100,
+      "learningRank": 100,
+      "ourMaterials": [
+        [
+          "Medium Leather",
+          8
+        ],
+        [
+          "Cured Light Hide",
+          4
+        ],
+        [
+          "Deviate Scale",
+          2
+        ]
+      ],
+      "referenceMaterials": [
+        [
+          "Medium Leather",
+          8
+        ],
+        [
+          "Cured Light Hide",
+          4
+        ],
+        [
+          "Deviate Scale",
+          2
+        ]
+      ]
+    },
+    {
+      "spellId": "1255104",
+      "name": "Wisdom's Leather Hood",
+      "found": true,
+      "materialMatch": true,
+      "learningRankMatch": true,
+      "ourRequired": 100,
+      "learningRank": 100,
+      "ourMaterials": [
+        [
+          "Medium Leather",
+          8
+        ],
+        [
+          "Fine Thread",
+          2
+        ],
+        [
+          "Cured Medium Hide",
+          2
+        ],
+        [
+          "Small Lustrous Pearl",
+          4
+        ],
+        [
+          "Pristine Leather",
+          4
+        ]
+      ],
+      "referenceMaterials": [
+        [
+          "Medium Leather",
+          8
+        ],
+        [
+          "Cured Medium Hide",
+          2
+        ],
+        [
+          "Pristine Leather",
+          4
+        ],
+        [
+          "Fine Thread",
+          2
+        ],
+        [
+          "Small Lustrous Pearl",
+          4
+        ]
+      ]
+    },
+    {
+      "spellId": "1255110",
+      "name": "Wisdom's Leather Pants",
+      "found": true,
+      "materialMatch": true,
+      "learningRankMatch": true,
+      "ourRequired": 100,
+      "learningRank": 100,
+      "ourMaterials": [
+        [
+          "Medium Leather",
+          8
+        ],
+        [
+          "Cured Light Hide",
+          4
+        ],
+        [
+          "Small Lustrous Pearl",
+          2
+        ]
+      ],
+      "referenceMaterials": [
+        [
+          "Medium Leather",
+          8
+        ],
+        [
+          "Cured Light Hide",
+          4
+        ],
+        [
+          "Small Lustrous Pearl",
+          2
+        ]
+      ]
+    },
+    {
+      "spellId": "1255102",
+      "name": "Brawler's Leather Tunic",
+      "found": true,
+      "materialMatch": true,
+      "learningRankMatch": true,
+      "ourRequired": 110,
+      "learningRank": 110,
+      "ourMaterials": [
+        [
+          "Shadowgem",
+          6
+        ],
+        [
+          "Medium Leather",
+          10
+        ],
+        [
+          "Fine Thread",
+          3
+        ],
+        [
+          "Cured Medium Hide",
+          3
+        ],
+        [
+          "Pristine Leather",
+          6
+        ]
+      ],
+      "referenceMaterials": [
+        [
+          "Medium Leather",
+          10
+        ],
+        [
+          "Cured Medium Hide",
+          3
+        ],
+        [
+          "Pristine Leather",
+          6
+        ],
+        [
+          "Fine Thread",
+          3
+        ],
+        [
+          "Shadowgem",
+          6
+        ]
+      ]
+    },
+    {
+      "spellId": "1255100",
+      "name": "Defender's Leather Tunic",
+      "found": true,
+      "materialMatch": true,
+      "learningRankMatch": true,
+      "ourRequired": 110,
+      "learningRank": 110,
+      "ourMaterials": [
+        [
+          "Medium Leather",
+          10
+        ],
+        [
+          "Fine Thread",
+          3
+        ],
+        [
+          "Elixir of Minor Fortitude",
+          6
+        ],
+        [
+          "Cured Medium Hide",
+          3
+        ],
+        [
+          "Pristine Leather",
+          6
+        ]
+      ],
+      "referenceMaterials": [
+        [
+          "Medium Leather",
+          10
+        ],
+        [
+          "Cured Medium Hide",
+          3
+        ],
+        [
+          "Pristine Leather",
+          6
+        ],
+        [
+          "Fine Thread",
+          3
+        ],
+        [
+          "Elixir of Minor Fortitude",
+          6
+        ]
+      ]
+    },
+    {
+      "spellId": "1255098",
+      "name": "Stormrider's Leather Tunic",
+      "found": true,
+      "materialMatch": true,
+      "learningRankMatch": true,
+      "ourRequired": 110,
+      "learningRank": 110,
+      "ourMaterials": [
+        [
+          "Medium Leather",
+          10
+        ],
+        [
+          "Fine Thread",
+          3
+        ],
+        [
+          "Cured Medium Hide",
+          3
+        ],
+        [
+          "Cerulean Dye",
+          6
+        ],
+        [
+          "Pristine Leather",
+          6
+        ]
+      ],
+      "referenceMaterials": [
+        [
+          "Medium Leather",
+          10
+        ],
+        [
+          "Cured Medium Hide",
+          3
+        ],
+        [
+          "Pristine Leather",
+          6
+        ],
+        [
+          "Fine Thread",
+          3
+        ],
+        [
+          "Cerulean Dye",
+          6
+        ]
+      ]
+    },
+    {
+      "spellId": "1255099",
+      "name": "Totemic Leather Tunic",
+      "found": true,
+      "materialMatch": true,
+      "learningRankMatch": true,
+      "ourRequired": 110,
+      "learningRank": 110,
+      "ourMaterials": [
+        [
+          "Medium Leather",
+          10
+        ],
+        [
+          "Fine Thread",
+          3
+        ],
+        [
+          "Cured Medium Hide",
+          3
+        ],
+        [
+          "Sulfuric Acid",
+          6
+        ],
+        [
+          "Pristine Leather",
+          6
+        ]
+      ],
+      "referenceMaterials": [
+        [
+          "Medium Leather",
+          10
+        ],
+        [
+          "Cured Medium Hide",
+          3
+        ],
+        [
+          "Pristine Leather",
+          6
+        ],
+        [
+          "Fine Thread",
+          3
+        ],
+        [
+          "Sulfuric Acid",
+          6
+        ]
+      ]
+    },
+    {
+      "spellId": "3770",
+      "name": "Toughened Leather Gloves",
+      "found": true,
+      "materialMatch": true,
+      "learningRankMatch": null,
+      "ourRequired": 110,
+      "learningRank": null,
+      "ourMaterials": [
+        [
+          "Medium Leather",
+          4
+        ],
+        [
+          "Fine Thread",
+          2
+        ],
+        [
+          "Spider's Silk",
+          2
+        ],
+        [
+          "Elixir of Lesser Defense",
+          2
+        ],
+        [
+          "Cured Medium Hide",
+          2
+        ]
+      ],
+      "referenceMaterials": [
+        [
+          "Medium Leather",
+          4
+        ],
+        [
+          "Cured Medium Hide",
+          2
+        ],
+        [
+          "Elixir of Lesser Defense",
+          2
+        ],
+        [
+          "Spider's Silk",
+          2
+        ],
+        [
+          "Fine Thread",
+          2
+        ]
+      ]
+    },
+    {
+      "spellId": "1255101",
+      "name": "Trapper's Leather Tunic",
+      "found": true,
+      "materialMatch": true,
+      "learningRankMatch": true,
+      "ourRequired": 110,
+      "learningRank": 110,
+      "ourMaterials": [
+        [
+          "Medium Leather",
+          10
+        ],
+        [
+          "Fine Thread",
+          3
+        ],
+        [
+          "Cured Medium Hide",
+          3
+        ],
+        [
+          "Deviate Scale",
+          6
+        ],
+        [
+          "Pristine Leather",
+          6
+        ]
+      ],
+      "referenceMaterials": [
+        [
+          "Medium Leather",
+          10
+        ],
+        [
+          "Cured Medium Hide",
+          3
+        ],
+        [
+          "Pristine Leather",
+          6
+        ],
+        [
+          "Fine Thread",
+          3
+        ],
+        [
+          "Deviate Scale",
+          6
+        ]
+      ]
+    },
+    {
+      "spellId": "1255097",
+      "name": "Wisdom's Leather Tunic",
+      "found": true,
+      "materialMatch": true,
+      "learningRankMatch": true,
+      "ourRequired": 110,
+      "learningRank": 110,
+      "ourMaterials": [
+        [
+          "Medium Leather",
+          10
+        ],
+        [
+          "Fine Thread",
+          3
+        ],
+        [
+          "Cured Medium Hide",
+          3
+        ],
+        [
+          "Small Lustrous Pearl",
+          6
+        ],
+        [
+          "Pristine Leather",
+          6
+        ]
+      ],
+      "referenceMaterials": [
+        [
+          "Medium Leather",
+          10
+        ],
+        [
+          "Cured Medium Hide",
+          3
+        ],
+        [
+          "Pristine Leather",
+          6
+        ],
+        [
+          "Fine Thread",
+          3
+        ],
+        [
+          "Small Lustrous Pearl",
+          6
+        ]
+      ]
+    },
+    {
+      "spellId": "1255093",
+      "name": "Brawler's Leather Helm",
+      "found": true,
+      "materialMatch": true,
+      "learningRankMatch": true,
+      "ourRequired": 125,
+      "learningRank": 125,
+      "ourMaterials": [
+        [
+          "Shadowgem",
+          3
+        ],
+        [
+          "Medium Leather",
+          12
+        ],
+        [
+          "Cured Medium Hide",
+          2
+        ]
+      ],
+      "referenceMaterials": [
+        [
+          "Medium Leather",
+          12
+        ],
+        [
+          "Cured Medium Hide",
+          2
+        ],
+        [
+          "Shadowgem",
+          3
+        ]
+      ]
+    },
+    {
+      "spellId": "1255087",
+      "name": "Brawler's Leather Legguards",
+      "found": true,
+      "materialMatch": true,
+      "learningRankMatch": true,
+      "ourRequired": 125,
+      "learningRank": 125,
+      "ourMaterials": [
+        [
+          "Shadowgem",
+          8
+        ],
+        [
+          "Medium Leather",
+          12
+        ],
+        [
+          "Fine Thread",
+          3
+        ],
+        [
+          "Cured Medium Hide",
+          4
+        ],
+        [
+          "Pristine Leather",
+          8
+        ]
+      ],
+      "referenceMaterials": [
+        [
+          "Medium Leather",
+          12
+        ],
+        [
+          "Cured Medium Hide",
+          4
+        ],
+        [
+          "Pristine Leather",
+          8
+        ],
+        [
+          "Fine Thread",
+          3
+        ],
+        [
+          "Shadowgem",
+          8
+        ]
+      ]
+    },
+    {
+      "spellId": "1255091",
+      "name": "Defender's Leather Helm",
+      "found": true,
+      "materialMatch": true,
+      "learningRankMatch": true,
+      "ourRequired": 125,
+      "learningRank": 125,
+      "ourMaterials": [
+        [
+          "Medium Leather",
+          12
+        ],
+        [
+          "Elixir of Minor Fortitude",
+          3
+        ],
+        [
+          "Cured Medium Hide",
+          2
+        ]
+      ],
+      "referenceMaterials": [
+        [
+          "Medium Leather",
+          12
+        ],
+        [
+          "Cured Medium Hide",
+          2
+        ],
+        [
+          "Elixir of Minor Fortitude",
+          3
+        ]
+      ]
+    },
+    {
+      "spellId": "1255085",
+      "name": "Defender's Leather Kilt",
+      "found": true,
+      "materialMatch": true,
+      "learningRankMatch": true,
+      "ourRequired": 125,
+      "learningRank": 125,
+      "ourMaterials": [
+        [
+          "Medium Leather",
+          12
+        ],
+        [
+          "Fine Thread",
+          3
+        ],
+        [
+          "Elixir of Minor Fortitude",
+          8
+        ],
+        [
+          "Cured Medium Hide",
+          4
+        ],
+        [
+          "Pristine Leather",
+          8
+        ]
+      ],
+      "referenceMaterials": [
+        [
+          "Medium Leather",
+          12
+        ],
+        [
+          "Cured Medium Hide",
+          4
+        ],
+        [
+          "Pristine Leather",
+          8
+        ],
+        [
+          "Fine Thread",
+          3
+        ],
+        [
+          "Elixir of Minor Fortitude",
+          8
+        ]
+      ]
+    },
+    {
+      "spellId": "1255089",
+      "name": "Stormrider's Leather Helm",
+      "found": true,
+      "materialMatch": true,
+      "learningRankMatch": true,
+      "ourRequired": 125,
+      "learningRank": 125,
+      "ourMaterials": [
+        [
+          "Medium Leather",
+          12
+        ],
+        [
+          "Cured Medium Hide",
+          2
+        ],
+        [
+          "Cerulean Dye",
+          3
+        ]
+      ],
+      "referenceMaterials": [
+        [
+          "Medium Leather",
+          12
+        ],
+        [
+          "Cured Medium Hide",
+          2
+        ],
+        [
+          "Cerulean Dye",
+          3
+        ]
+      ]
+    },
+    {
+      "spellId": "1255083",
+      "name": "Stormrider's Leather Kilt",
+      "found": true,
+      "materialMatch": true,
+      "learningRankMatch": true,
+      "ourRequired": 125,
+      "learningRank": 125,
+      "ourMaterials": [
+        [
+          "Medium Leather",
+          12
+        ],
+        [
+          "Fine Thread",
+          3
+        ],
+        [
+          "Cured Medium Hide",
+          4
+        ],
+        [
+          "Cerulean Dye",
+          8
+        ],
+        [
+          "Pristine Leather",
+          8
+        ]
+      ],
+      "referenceMaterials": [
+        [
+          "Medium Leather",
+          12
+        ],
+        [
+          "Cured Medium Hide",
+          4
+        ],
+        [
+          "Pristine Leather",
+          8
+        ],
+        [
+          "Fine Thread",
+          3
+        ],
+        [
+          "Cerulean Dye",
+          8
+        ]
+      ]
+    },
+    {
+      "spellId": "1255090",
+      "name": "Totemic Leather Helm",
+      "found": true,
+      "materialMatch": true,
+      "learningRankMatch": true,
+      "ourRequired": 125,
+      "learningRank": 125,
+      "ourMaterials": [
+        [
+          "Medium Leather",
+          12
+        ],
+        [
+          "Cured Medium Hide",
+          2
+        ],
+        [
+          "Sulfuric Acid",
+          3
+        ]
+      ],
+      "referenceMaterials": [
+        [
+          "Medium Leather",
+          12
+        ],
+        [
+          "Cured Medium Hide",
+          2
+        ],
+        [
+          "Sulfuric Acid",
+          3
+        ]
+      ]
+    },
+    {
+      "spellId": "1255084",
+      "name": "Totemic Leather Leggings",
+      "found": true,
+      "materialMatch": true,
+      "learningRankMatch": true,
+      "ourRequired": 125,
+      "learningRank": 125,
+      "ourMaterials": [
+        [
+          "Medium Leather",
+          12
+        ],
+        [
+          "Fine Thread",
+          3
+        ],
+        [
+          "Cured Medium Hide",
+          4
+        ],
+        [
+          "Sulfuric Acid",
+          8
+        ],
+        [
+          "Pristine Leather",
+          8
+        ]
+      ],
+      "referenceMaterials": [
+        [
+          "Medium Leather",
+          12
+        ],
+        [
+          "Cured Medium Hide",
+          4
+        ],
+        [
+          "Pristine Leather",
+          8
+        ],
+        [
+          "Fine Thread",
+          3
+        ],
+        [
+          "Sulfuric Acid",
+          8
+        ]
+      ]
+    },
+    {
+      "spellId": "1255092",
+      "name": "Trapper's Leather Helm",
+      "found": true,
+      "materialMatch": true,
+      "learningRankMatch": true,
+      "ourRequired": 125,
+      "learningRank": 125,
+      "ourMaterials": [
+        [
+          "Medium Leather",
+          12
+        ],
+        [
+          "Cured Medium Hide",
+          2
+        ],
+        [
+          "Deviate Scale",
+          3
+        ]
+      ],
+      "referenceMaterials": [
+        [
+          "Medium Leather",
+          12
+        ],
+        [
+          "Cured Medium Hide",
+          2
+        ],
+        [
+          "Deviate Scale",
+          3
+        ]
+      ]
+    },
+    {
+      "spellId": "1255086",
+      "name": "Trapper's Leather Legguards",
+      "found": true,
+      "materialMatch": true,
+      "learningRankMatch": true,
+      "ourRequired": 125,
+      "learningRank": 125,
+      "ourMaterials": [
+        [
+          "Medium Leather",
+          12
+        ],
+        [
+          "Fine Thread",
+          3
+        ],
+        [
+          "Cured Medium Hide",
+          4
+        ],
+        [
+          "Deviate Scale",
+          8
+        ],
+        [
+          "Pristine Leather",
+          8
+        ]
+      ],
+      "referenceMaterials": [
+        [
+          "Medium Leather",
+          12
+        ],
+        [
+          "Cured Medium Hide",
+          4
+        ],
+        [
+          "Pristine Leather",
+          8
+        ],
+        [
+          "Fine Thread",
+          3
+        ],
+        [
+          "Deviate Scale",
+          8
+        ]
+      ]
+    },
+    {
+      "spellId": "1255088",
+      "name": "Wisdom's Leather Helm",
+      "found": true,
+      "materialMatch": true,
+      "learningRankMatch": true,
+      "ourRequired": 125,
+      "learningRank": 125,
+      "ourMaterials": [
+        [
+          "Medium Leather",
+          12
+        ],
+        [
+          "Cured Medium Hide",
+          2
+        ],
+        [
+          "Small Lustrous Pearl",
+          3
+        ]
+      ],
+      "referenceMaterials": [
+        [
+          "Medium Leather",
+          12
+        ],
+        [
+          "Cured Medium Hide",
+          2
+        ],
+        [
+          "Small Lustrous Pearl",
+          3
+        ]
+      ]
+    },
+    {
+      "spellId": "1255082",
+      "name": "Wisdom's Leather Leggings",
+      "found": true,
+      "materialMatch": true,
+      "learningRankMatch": true,
+      "ourRequired": 125,
+      "learningRank": 125,
+      "ourMaterials": [
+        [
+          "Medium Leather",
+          12
+        ],
+        [
+          "Fine Thread",
+          3
+        ],
+        [
+          "Cured Medium Hide",
+          4
+        ],
+        [
+          "Small Lustrous Pearl",
+          8
+        ],
+        [
+          "Pristine Leather",
+          8
+        ]
+      ],
+      "referenceMaterials": [
+        [
+          "Medium Leather",
+          12
+        ],
+        [
+          "Cured Medium Hide",
+          4
+        ],
+        [
+          "Pristine Leather",
+          8
+        ],
+        [
+          "Fine Thread",
+          3
+        ],
+        [
+          "Small Lustrous Pearl",
+          8
+        ]
+      ]
+    },
+    {
+      "spellId": "23399",
+      "name": "Barbaric Bracers",
+      "found": true,
+      "materialMatch": true,
+      "learningRankMatch": true,
+      "ourRequired": 130,
+      "learningRank": 130,
+      "ourMaterials": [
+        [
+          "Heavy Leather",
+          8
+        ],
+        [
+          "Cured Heavy Hide",
+          2
+        ],
+        [
+          "Raptor Hide",
+          1
+        ],
+        [
+          "Small Lustrous Pearl",
+          4
+        ],
+        [
+          "Large Fang",
+          4
+        ]
+      ],
+      "referenceMaterials": [
+        [
+          "Heavy Leather",
+          8
+        ],
+        [
+          "Cured Heavy Hide",
+          2
+        ],
+        [
+          "Small Lustrous Pearl",
+          4
+        ],
+        [
+          "Raptor Hide",
+          1
+        ],
+        [
+          "Large Fang",
+          4
+        ]
+      ]
+    },
+    {
+      "spellId": "1255075",
+      "name": "Mender's Leather Belt",
+      "found": true,
+      "materialMatch": true,
+      "learningRankMatch": true,
+      "ourRequired": 150,
+      "learningRank": 150,
+      "ourMaterials": [
+        [
+          "Cured Medium Hide",
+          2
+        ],
+        [
+          "Heavy Leather",
+          8
+        ],
+        [
+          "Iridescent Pearl",
+          1
+        ]
+      ],
+      "referenceMaterials": [
+        [
+          "Heavy Leather",
+          8
+        ],
+        [
+          "Cured Medium Hide",
+          2
+        ],
+        [
+          "Iridescent Pearl",
+          1
+        ]
+      ]
+    },
+    {
+      "spellId": "1255081",
+      "name": "Prowler's Leather Belt",
+      "found": true,
+      "materialMatch": true,
+      "learningRankMatch": true,
+      "ourRequired": 150,
+      "learningRank": 150,
+      "ourMaterials": [
+        [
+          "Jade",
+          1
+        ],
+        [
+          "Cured Medium Hide",
+          2
+        ],
+        [
+          "Heavy Leather",
+          8
+        ]
+      ],
+      "referenceMaterials": [
+        [
+          "Heavy Leather",
+          8
+        ],
+        [
+          "Cured Medium Hide",
+          2
+        ],
+        [
+          "Jade",
+          1
+        ]
+      ]
+    },
+    {
+      "spellId": "1255077",
+      "name": "Skirmisher's Leather Belt",
+      "found": true,
+      "materialMatch": true,
+      "learningRankMatch": true,
+      "ourRequired": 150,
+      "learningRank": 150,
+      "ourMaterials": [
+        [
+          "Citrine",
+          1
+        ],
+        [
+          "Cured Medium Hide",
+          2
+        ],
+        [
+          "Heavy Leather",
+          8
+        ]
+      ],
+      "referenceMaterials": [
+        [
+          "Heavy Leather",
+          8
+        ],
+        [
+          "Cured Medium Hide",
+          2
+        ],
+        [
+          "Citrine",
+          1
+        ]
+      ]
+    },
+    {
+      "spellId": "1255080",
+      "name": "Skulker's Leather Belt",
+      "found": true,
+      "materialMatch": true,
+      "learningRankMatch": true,
+      "ourRequired": 150,
+      "learningRank": 150,
+      "ourMaterials": [
+        [
+          "Spider's Silk",
+          1
+        ],
+        [
+          "Cured Medium Hide",
+          2
+        ],
+        [
+          "Heavy Leather",
+          8
+        ]
+      ],
+      "referenceMaterials": [
+        [
+          "Heavy Leather",
+          8
+        ],
+        [
+          "Cured Medium Hide",
+          2
+        ],
+        [
+          "Spider's Silk",
+          1
+        ]
+      ]
+    },
+    {
+      "spellId": "1255076",
+      "name": "Skycaller's Leather Belt",
+      "found": true,
+      "materialMatch": true,
+      "learningRankMatch": true,
+      "ourRequired": 150,
+      "learningRank": 150,
+      "ourMaterials": [
+        [
+          "Cured Medium Hide",
+          2
+        ],
+        [
+          "Heavy Leather",
+          8
+        ],
+        [
+          "Elemental Water",
+          1
+        ]
+      ],
+      "referenceMaterials": [
+        [
+          "Heavy Leather",
+          8
+        ],
+        [
+          "Cured Medium Hide",
+          2
+        ],
+        [
+          "Elemental Water",
+          1
+        ]
+      ]
+    },
+    {
+      "spellId": "1255079",
+      "name": "Stalker's Leather Belt",
+      "found": true,
+      "materialMatch": true,
+      "learningRankMatch": true,
+      "ourRequired": 150,
+      "learningRank": 150,
+      "ourMaterials": [
+        [
+          "Cured Medium Hide",
+          2
+        ],
+        [
+          "Heavy Leather",
+          8
+        ],
+        [
+          "Elemental Air",
+          1
+        ]
+      ],
+      "referenceMaterials": [
+        [
+          "Heavy Leather",
+          8
+        ],
+        [
+          "Cured Medium Hide",
+          2
+        ],
+        [
+          "Elemental Air",
+          1
+        ]
+      ]
+    },
+    {
+      "spellId": "1255078",
+      "name": "Warden's Leather Belt",
+      "found": true,
+      "materialMatch": true,
+      "learningRankMatch": true,
+      "ourRequired": 150,
+      "learningRank": 150,
+      "ourMaterials": [
+        [
+          "Cured Medium Hide",
+          2
+        ],
+        [
+          "Heavy Leather",
+          8
+        ],
+        [
+          "Elemental Earth",
+          1
+        ]
+      ],
+      "referenceMaterials": [
+        [
+          "Heavy Leather",
+          8
+        ],
+        [
+          "Cured Medium Hide",
+          2
+        ],
+        [
+          "Elemental Earth",
+          1
+        ]
+      ]
+    },
+    {
+      "spellId": "3778",
+      "name": "Gem-studded Leather Belt",
+      "found": true,
+      "materialMatch": true,
+      "learningRankMatch": true,
+      "ourRequired": 160,
+      "learningRank": 160,
+      "ourMaterials": [
+        [
+          "Jade",
+          2
+        ],
+        [
+          "Fine Thread",
+          1
+        ],
+        [
+          "Citrine",
+          1
+        ],
+        [
+          "Cured Heavy Hide",
+          4
+        ],
+        [
+          "Iridescent Pearl",
+          2
+        ]
+      ],
+      "referenceMaterials": [
+        [
+          "Cured Heavy Hide",
+          4
+        ],
+        [
+          "Iridescent Pearl",
+          2
+        ],
+        [
+          "Jade",
+          2
+        ],
+        [
+          "Citrine",
+          1
+        ],
+        [
+          "Fine Thread",
+          1
+        ]
+      ]
+    },
+    {
+      "spellId": "1255065",
+      "name": "Mender's Leather Gloves",
+      "found": true,
+      "materialMatch": true,
+      "learningRankMatch": true,
+      "ourRequired": 175,
+      "learningRank": 175,
+      "ourMaterials": [
+        [
+          "Heavy Leather",
+          16
+        ],
+        [
+          "Cured Heavy Hide",
+          2
+        ],
+        [
+          "Silken Thread",
+          2
+        ],
+        [
+          "Iridescent Pearl",
+          2
+        ],
+        [
+          "Pristine Leather",
+          1
+        ],
+        [
+          "Pristine Hide",
+          2
+        ]
+      ],
+      "referenceMaterials": [
+        [
+          "Heavy Leather",
+          16
+        ],
+        [
+          "Cured Heavy Hide",
+          2
+        ],
+        [
+          "Pristine Hide",
+          2
+        ],
+        [
+          "Silken Thread",
+          2
+        ],
+        [
+          "Iridescent Pearl",
+          2
+        ],
+        [
+          "Pristine Leather",
+          1
+        ]
+      ]
+    },
+    {
+      "spellId": "1255071",
+      "name": "Prowler's Leather Gloves",
+      "found": true,
+      "materialMatch": true,
+      "learningRankMatch": true,
+      "ourRequired": 175,
+      "learningRank": 175,
+      "ourMaterials": [
+        [
+          "Jade",
+          2
+        ],
+        [
+          "Heavy Leather",
+          16
+        ],
+        [
+          "Cured Heavy Hide",
+          2
+        ],
+        [
+          "Silken Thread",
+          2
+        ],
+        [
+          "Pristine Leather",
+          1
+        ],
+        [
+          "Pristine Hide",
+          2
+        ]
+      ],
+      "referenceMaterials": [
+        [
+          "Heavy Leather",
+          16
+        ],
+        [
+          "Cured Heavy Hide",
+          2
+        ],
+        [
+          "Pristine Hide",
+          2
+        ],
+        [
+          "Silken Thread",
+          2
+        ],
+        [
+          "Jade",
+          2
+        ],
+        [
+          "Pristine Leather",
+          1
+        ]
+      ]
+    },
+    {
+      "spellId": "22711",
+      "name": "Shadowskin Gloves",
+      "found": true,
+      "materialMatch": true,
+      "learningRankMatch": true,
+      "ourRequired": 175,
+      "learningRank": 175,
+      "ourMaterials": [
+        [
+          "Shadowgem",
+          4
+        ],
+        [
+          "Cured Heavy Hide",
+          2
+        ],
+        [
+          "Thick Leather",
+          6
+        ],
+        [
+          "Shadowcat Hide",
+          8
+        ],
+        [
+          "Black Pearl",
+          2
+        ],
+        [
+          "Heavy Silken Thread",
+          1
+        ]
+      ],
+      "referenceMaterials": [
+        [
+          "Thick Leather",
+          6
+        ],
+        [
+          "Shadowcat Hide",
+          8
+        ],
+        [
+          "Black Pearl",
+          2
+        ],
+        [
+          "Cured Heavy Hide",
+          2
+        ],
+        [
+          "Shadowgem",
+          4
+        ],
+        [
+          "Heavy Silken Thread",
+          1
+        ]
+      ]
+    },
+    {
+      "spellId": "1255067",
+      "name": "Skirmisher's Leather Gloves",
+      "found": true,
+      "materialMatch": true,
+      "learningRankMatch": true,
+      "ourRequired": 175,
+      "learningRank": 175,
+      "ourMaterials": [
+        [
+          "Citrine",
+          2
+        ],
+        [
+          "Heavy Leather",
+          16
+        ],
+        [
+          "Cured Heavy Hide",
+          2
+        ],
+        [
+          "Silken Thread",
+          2
+        ],
+        [
+          "Pristine Leather",
+          1
+        ],
+        [
+          "Pristine Hide",
+          2
+        ]
+      ],
+      "referenceMaterials": [
+        [
+          "Heavy Leather",
+          16
+        ],
+        [
+          "Cured Heavy Hide",
+          2
+        ],
+        [
+          "Pristine Hide",
+          2
+        ],
+        [
+          "Silken Thread",
+          2
+        ],
+        [
+          "Citrine",
+          2
+        ],
+        [
+          "Pristine Leather",
+          1
+        ]
+      ]
+    },
+    {
+      "spellId": "1255070",
+      "name": "Skulker's Leather Gloves",
+      "found": true,
+      "materialMatch": true,
+      "learningRankMatch": true,
+      "ourRequired": 175,
+      "learningRank": 175,
+      "ourMaterials": [
+        [
+          "Spider's Silk",
+          2
+        ],
+        [
+          "Heavy Leather",
+          16
+        ],
+        [
+          "Cured Heavy Hide",
+          2
+        ],
+        [
+          "Silken Thread",
+          2
+        ],
+        [
+          "Pristine Leather",
+          1
+        ],
+        [
+          "Pristine Hide",
+          2
+        ]
+      ],
+      "referenceMaterials": [
+        [
+          "Heavy Leather",
+          16
+        ],
+        [
+          "Cured Heavy Hide",
+          2
+        ],
+        [
+          "Pristine Hide",
+          2
+        ],
+        [
+          "Silken Thread",
+          2
+        ],
+        [
+          "Spider's Silk",
+          2
+        ],
+        [
+          "Pristine Leather",
+          1
+        ]
+      ]
+    },
+    {
+      "spellId": "1255066",
+      "name": "Skycaller's Leather Gloves",
+      "found": true,
+      "materialMatch": true,
+      "learningRankMatch": true,
+      "ourRequired": 175,
+      "learningRank": 175,
+      "ourMaterials": [
+        [
+          "Heavy Leather",
+          16
+        ],
+        [
+          "Cured Heavy Hide",
+          2
+        ],
+        [
+          "Silken Thread",
+          2
+        ],
+        [
+          "Elemental Water",
+          2
+        ],
+        [
+          "Pristine Leather",
+          1
+        ],
+        [
+          "Pristine Hide",
+          2
+        ]
+      ],
+      "referenceMaterials": [
+        [
+          "Heavy Leather",
+          16
+        ],
+        [
+          "Cured Heavy Hide",
+          2
+        ],
+        [
+          "Pristine Hide",
+          2
+        ],
+        [
+          "Silken Thread",
+          2
+        ],
+        [
+          "Elemental Water",
+          2
+        ],
+        [
+          "Pristine Leather",
+          1
+        ]
+      ]
+    },
+    {
+      "spellId": "1255069",
+      "name": "Stalker's Leather Gloves",
+      "found": true,
+      "materialMatch": true,
+      "learningRankMatch": true,
+      "ourRequired": 175,
+      "learningRank": 175,
+      "ourMaterials": [
+        [
+          "Heavy Leather",
+          16
+        ],
+        [
+          "Cured Heavy Hide",
+          2
+        ],
+        [
+          "Silken Thread",
+          2
+        ],
+        [
+          "Elemental Air",
+          2
+        ],
+        [
+          "Pristine Leather",
+          1
+        ],
+        [
+          "Pristine Hide",
+          2
+        ]
+      ],
+      "referenceMaterials": [
+        [
+          "Heavy Leather",
+          16
+        ],
+        [
+          "Cured Heavy Hide",
+          2
+        ],
+        [
+          "Pristine Hide",
+          2
+        ],
+        [
+          "Silken Thread",
+          2
+        ],
+        [
+          "Elemental Air",
+          2
+        ],
+        [
+          "Pristine Leather",
+          1
+        ]
+      ]
+    },
+    {
+      "spellId": "1255068",
+      "name": "Warden's Leather Gloves",
+      "found": true,
+      "materialMatch": true,
+      "learningRankMatch": true,
+      "ourRequired": 175,
+      "learningRank": 175,
+      "ourMaterials": [
+        [
+          "Heavy Leather",
+          16
+        ],
+        [
+          "Cured Heavy Hide",
+          2
+        ],
+        [
+          "Silken Thread",
+          2
+        ],
+        [
+          "Elemental Earth",
+          2
+        ],
+        [
+          "Pristine Leather",
+          1
+        ],
+        [
+          "Pristine Hide",
+          2
+        ]
+      ],
+      "referenceMaterials": [
+        [
+          "Heavy Leather",
+          16
+        ],
+        [
+          "Cured Heavy Hide",
+          2
+        ],
+        [
+          "Pristine Hide",
+          2
+        ],
+        [
+          "Silken Thread",
+          2
+        ],
+        [
+          "Elemental Earth",
+          2
+        ],
+        [
+          "Pristine Leather",
+          1
+        ]
+      ]
+    },
+    {
+      "spellId": "10619",
+      "name": "Dragonscale Gauntlets",
+      "found": true,
+      "materialMatch": true,
+      "learningRankMatch": null,
+      "ourRequired": 200,
+      "learningRank": null,
+      "ourMaterials": [
+        [
+          "Thick Leather",
+          24
+        ],
+        [
+          "Worn Dragonscale",
+          12
+        ],
+        [
+          "Cured Thick Hide",
+          2
+        ],
+        [
+          "Heavy Silken Thread",
+          4
+        ]
+      ],
+      "referenceMaterials": [
+        [
+          "Thick Leather",
+          24
+        ],
+        [
+          "Worn Dragonscale",
+          12
+        ],
+        [
+          "Heavy Silken Thread",
+          4
+        ],
+        [
+          "Cured Thick Hide",
+          2
+        ]
+      ]
+    },
+    {
+      "spellId": "1255060",
+      "name": "Mender's Leather Shoes",
+      "found": true,
+      "materialMatch": true,
+      "learningRankMatch": true,
+      "ourRequired": 200,
+      "learningRank": 200,
+      "ourMaterials": [
+        [
+          "Cured Medium Hide",
+          2
+        ],
+        [
+          "Heavy Leather",
+          8
+        ],
+        [
+          "Iridescent Pearl",
+          2
+        ]
+      ],
+      "referenceMaterials": [
+        [
+          "Heavy Leather",
+          8
+        ],
+        [
+          "Cured Medium Hide",
+          2
+        ],
+        [
+          "Iridescent Pearl",
+          2
+        ]
+      ]
+    },
+    {
+      "spellId": "1255008",
+      "name": "Mender's Mail Boots",
+      "found": true,
+      "materialMatch": true,
+      "learningRankMatch": true,
+      "ourRequired": 200,
+      "learningRank": 200,
+      "ourMaterials": [
+        [
+          "Cured Medium Hide",
+          2
+        ],
+        [
+          "Heavy Leather",
+          8
+        ],
+        [
+          "Iridescent Pearl",
+          2
+        ]
+      ],
+      "referenceMaterials": [
+        [
+          "Heavy Leather",
+          8
+        ],
+        [
+          "Cured Medium Hide",
+          2
+        ],
+        [
+          "Iridescent Pearl",
+          2
+        ]
+      ]
+    },
+    {
+      "spellId": "1255064",
+      "name": "Prowler's Leather Shoes",
+      "found": true,
+      "materialMatch": true,
+      "learningRankMatch": true,
+      "ourRequired": 200,
+      "learningRank": 200,
+      "ourMaterials": [
+        [
+          "Jade",
+          2
+        ],
+        [
+          "Cured Medium Hide",
+          2
+        ],
+        [
+          "Heavy Leather",
+          8
+        ]
+      ],
+      "referenceMaterials": [
+        [
+          "Heavy Leather",
+          8
+        ],
+        [
+          "Cured Medium Hide",
+          2
+        ],
+        [
+          "Jade",
+          2
+        ]
+      ]
+    },
+    {
+      "spellId": "1255009",
+      "name": "Skirmisher's Mail Boots",
+      "found": true,
+      "materialMatch": true,
+      "learningRankMatch": true,
+      "ourRequired": 200,
+      "learningRank": 200,
+      "ourMaterials": [
+        [
+          "Citrine",
+          2
+        ],
+        [
+          "Cured Medium Hide",
+          2
+        ],
+        [
+          "Heavy Leather",
+          8
+        ]
+      ],
+      "referenceMaterials": [
+        [
+          "Heavy Leather",
+          8
+        ],
+        [
+          "Cured Medium Hide",
+          2
+        ],
+        [
+          "Citrine",
+          2
+        ]
+      ]
+    },
+    {
+      "spellId": "1255063",
+      "name": "Skulker's Leather Shoes",
+      "found": true,
+      "materialMatch": true,
+      "learningRankMatch": true,
+      "ourRequired": 200,
+      "learningRank": 200,
+      "ourMaterials": [
+        [
+          "Spider's Silk",
+          2
+        ],
+        [
+          "Cured Medium Hide",
+          2
+        ],
+        [
+          "Heavy Leather",
+          8
+        ]
+      ],
+      "referenceMaterials": [
+        [
+          "Heavy Leather",
+          8
+        ],
+        [
+          "Cured Medium Hide",
+          2
+        ],
+        [
+          "Spider's Silk",
+          2
+        ]
+      ]
+    },
+    {
+      "spellId": "1255061",
+      "name": "Skycaller's Leather Shoes",
+      "found": true,
+      "materialMatch": true,
+      "learningRankMatch": true,
+      "ourRequired": 200,
+      "learningRank": 200,
+      "ourMaterials": [
+        [
+          "Cured Medium Hide",
+          2
+        ],
+        [
+          "Heavy Leather",
+          8
+        ],
+        [
+          "Elemental Water",
+          2
+        ]
+      ],
+      "referenceMaterials": [
+        [
+          "Heavy Leather",
+          8
+        ],
+        [
+          "Cured Medium Hide",
+          2
+        ],
+        [
+          "Elemental Water",
+          2
+        ]
+      ]
+    },
+    {
+      "spellId": "1255010",
+      "name": "Skycaller's Mail Boots",
+      "found": true,
+      "materialMatch": true,
+      "learningRankMatch": true,
+      "ourRequired": 200,
+      "learningRank": 200,
+      "ourMaterials": [
+        [
+          "Cured Medium Hide",
+          2
+        ],
+        [
+          "Heavy Leather",
+          8
+        ],
+        [
+          "Elemental Water",
+          2
+        ]
+      ],
+      "referenceMaterials": [
+        [
+          "Heavy Leather",
+          8
+        ],
+        [
+          "Cured Medium Hide",
+          2
+        ],
+        [
+          "Elemental Water",
+          2
+        ]
+      ]
+    },
+    {
+      "spellId": "1255011",
+      "name": "Stalker's Mail Boots",
+      "found": true,
+      "materialMatch": true,
+      "learningRankMatch": true,
+      "ourRequired": 200,
+      "learningRank": 200,
+      "ourMaterials": [
+        [
+          "Cured Medium Hide",
+          2
+        ],
+        [
+          "Heavy Leather",
+          8
+        ],
+        [
+          "Elemental Air",
+          2
+        ]
+      ],
+      "referenceMaterials": [
+        [
+          "Heavy Leather",
+          8
+        ],
+        [
+          "Cured Medium Hide",
+          2
+        ],
+        [
+          "Elemental Air",
+          2
+        ]
+      ]
+    },
+    {
+      "spellId": "1255062",
+      "name": "Warden's Leather Shoes",
+      "found": true,
+      "materialMatch": true,
+      "learningRankMatch": true,
+      "ourRequired": 200,
+      "learningRank": 200,
+      "ourMaterials": [
+        [
+          "Cured Medium Hide",
+          2
+        ],
+        [
+          "Heavy Leather",
+          8
+        ],
+        [
+          "Elemental Earth",
+          2
+        ]
+      ],
+      "referenceMaterials": [
+        [
+          "Heavy Leather",
+          8
+        ],
+        [
+          "Cured Medium Hide",
+          2
+        ],
+        [
+          "Elemental Earth",
+          2
+        ]
+      ]
+    },
+    {
+      "spellId": "10621",
+      "name": "Wolfshead Helm",
+      "found": true,
+      "materialMatch": true,
+      "learningRankMatch": null,
+      "ourRequired": 200,
+      "learningRank": null,
+      "ourMaterials": [
+        [
+          "Thick Leather",
+          18
+        ],
+        [
+          "Wicked Claw",
+          8
+        ],
+        [
+          "Cured Thick Hide",
+          2
+        ],
+        [
+          "Heavy Silken Thread",
+          4
+        ],
+        [
+          "Thick Wolfhide",
+          2
+        ]
+      ],
+      "referenceMaterials": [
+        [
+          "Thick Leather",
+          18
+        ],
+        [
+          "Thick Wolfhide",
+          2
+        ],
+        [
+          "Wicked Claw",
+          8
+        ],
+        [
+          "Heavy Silken Thread",
+          4
+        ],
+        [
+          "Cured Thick Hide",
+          2
+        ]
+      ]
+    },
+    {
+      "spellId": "10630",
+      "name": "Gauntlets of the Sea",
+      "found": true,
+      "materialMatch": true,
+      "learningRankMatch": null,
+      "ourRequired": 205,
+      "learningRank": null,
+      "ourMaterials": [
+        [
+          "Thick Leather",
+          20
+        ],
+        [
+          "Core of Earth",
+          2
+        ],
+        [
+          "Globe of Water",
+          8
+        ],
+        [
+          "Cured Thick Hide",
+          1
+        ],
+        [
+          "Heavy Silken Thread",
+          4
+        ]
+      ],
+      "referenceMaterials": [
+        [
+          "Thick Leather",
+          20
+        ],
+        [
+          "Globe of Water",
+          8
+        ],
+        [
+          "Core of Earth",
+          2
+        ],
+        [
+          "Cured Thick Hide",
+          1
+        ],
+        [
+          "Heavy Silken Thread",
+          4
+        ]
+      ]
+    },
+    {
+      "spellId": "1255055",
+      "name": "Mender's Leather Shoulders",
+      "found": true,
+      "materialMatch": true,
+      "learningRankMatch": true,
+      "ourRequired": 210,
+      "learningRank": 210,
+      "ourMaterials": [
+        [
+          "Cured Heavy Hide",
+          3
+        ],
+        [
+          "Silken Thread",
+          2
+        ],
+        [
+          "Thick Leather",
+          10
+        ],
+        [
+          "Iridescent Pearl",
+          3
+        ],
+        [
+          "Pristine Leather",
+          2
+        ],
+        [
+          "Pristine Hide",
+          4
+        ]
+      ],
+      "referenceMaterials": [
+        [
+          "Thick Leather",
+          10
+        ],
+        [
+          "Cured Heavy Hide",
+          3
+        ],
+        [
+          "Pristine Hide",
+          4
+        ],
+        [
+          "Silken Thread",
+          2
+        ],
+        [
+          "Iridescent Pearl",
+          3
+        ],
+        [
+          "Pristine Leather",
+          2
+        ]
+      ]
+    },
+    {
+      "spellId": "1255004",
+      "name": "Mender's Mail Shoulders",
+      "found": true,
+      "materialMatch": true,
+      "learningRankMatch": true,
+      "ourRequired": 210,
+      "learningRank": 210,
+      "ourMaterials": [
+        [
+          "Cured Heavy Hide",
+          3
+        ],
+        [
+          "Silken Thread",
+          2
+        ],
+        [
+          "Thick Leather",
+          10
+        ],
+        [
+          "Iridescent Pearl",
+          3
+        ],
+        [
+          "Pristine Leather",
+          2
+        ],
+        [
+          "Pristine Hide",
+          4
+        ]
+      ],
+      "referenceMaterials": [
+        [
+          "Thick Leather",
+          10
+        ],
+        [
+          "Cured Heavy Hide",
+          3
+        ],
+        [
+          "Pristine Hide",
+          4
+        ],
+        [
+          "Silken Thread",
+          2
+        ],
+        [
+          "Iridescent Pearl",
+          3
+        ],
+        [
+          "Pristine Leather",
+          2
+        ]
+      ]
+    },
+    {
+      "spellId": "1255059",
+      "name": "Prowler's Leather Shoulders",
+      "found": true,
+      "materialMatch": true,
+      "learningRankMatch": true,
+      "ourRequired": 210,
+      "learningRank": 210,
+      "ourMaterials": [
+        [
+          "Jade",
+          3
+        ],
+        [
+          "Cured Heavy Hide",
+          3
+        ],
+        [
+          "Silken Thread",
+          2
+        ],
+        [
+          "Thick Leather",
+          10
+        ],
+        [
+          "Pristine Leather",
+          2
+        ],
+        [
+          "Pristine Hide",
+          4
+        ]
+      ],
+      "referenceMaterials": [
+        [
+          "Thick Leather",
+          10
+        ],
+        [
+          "Cured Heavy Hide",
+          3
+        ],
+        [
+          "Pristine Hide",
+          4
+        ],
+        [
+          "Silken Thread",
+          2
+        ],
+        [
+          "Jade",
+          3
+        ],
+        [
+          "Pristine Leather",
+          2
+        ]
+      ]
+    },
+    {
+      "spellId": "1255005",
+      "name": "Skirmisher's Mail Shoulders",
+      "found": true,
+      "materialMatch": true,
+      "learningRankMatch": true,
+      "ourRequired": 210,
+      "learningRank": 210,
+      "ourMaterials": [
+        [
+          "Citrine",
+          3
+        ],
+        [
+          "Cured Heavy Hide",
+          3
+        ],
+        [
+          "Silken Thread",
+          2
+        ],
+        [
+          "Thick Leather",
+          10
+        ],
+        [
+          "Pristine Leather",
+          2
+        ],
+        [
+          "Pristine Hide",
+          4
+        ]
+      ],
+      "referenceMaterials": [
+        [
+          "Thick Leather",
+          10
+        ],
+        [
+          "Cured Heavy Hide",
+          3
+        ],
+        [
+          "Pristine Hide",
+          4
+        ],
+        [
+          "Silken Thread",
+          2
+        ],
+        [
+          "Citrine",
+          3
+        ],
+        [
+          "Pristine Leather",
+          2
+        ]
+      ]
+    },
+    {
+      "spellId": "1255058",
+      "name": "Skulker's Leather Shoulders",
+      "found": true,
+      "materialMatch": true,
+      "learningRankMatch": true,
+      "ourRequired": 210,
+      "learningRank": 210,
+      "ourMaterials": [
+        [
+          "Spider's Silk",
+          3
+        ],
+        [
+          "Cured Heavy Hide",
+          3
+        ],
+        [
+          "Silken Thread",
+          2
+        ],
+        [
+          "Thick Leather",
+          10
+        ],
+        [
+          "Pristine Leather",
+          2
+        ],
+        [
+          "Pristine Hide",
+          4
+        ]
+      ],
+      "referenceMaterials": [
+        [
+          "Thick Leather",
+          10
+        ],
+        [
+          "Cured Heavy Hide",
+          3
+        ],
+        [
+          "Pristine Hide",
+          4
+        ],
+        [
+          "Silken Thread",
+          2
+        ],
+        [
+          "Spider's Silk",
+          3
+        ],
+        [
+          "Pristine Leather",
+          2
+        ]
+      ]
+    },
+    {
+      "spellId": "1255056",
+      "name": "Skycaller's Leather Shoulders",
+      "found": true,
+      "materialMatch": true,
+      "learningRankMatch": true,
+      "ourRequired": 210,
+      "learningRank": 210,
+      "ourMaterials": [
+        [
+          "Cured Heavy Hide",
+          3
+        ],
+        [
+          "Silken Thread",
+          2
+        ],
+        [
+          "Thick Leather",
+          10
+        ],
+        [
+          "Elemental Water",
+          3
+        ],
+        [
+          "Pristine Leather",
+          2
+        ],
+        [
+          "Pristine Hide",
+          4
+        ]
+      ],
+      "referenceMaterials": [
+        [
+          "Thick Leather",
+          10
+        ],
+        [
+          "Cured Heavy Hide",
+          3
+        ],
+        [
+          "Pristine Hide",
+          4
+        ],
+        [
+          "Silken Thread",
+          2
+        ],
+        [
+          "Elemental Water",
+          3
+        ],
+        [
+          "Pristine Leather",
+          2
+        ]
+      ]
+    },
+    {
+      "spellId": "1255006",
+      "name": "Skycaller's Mail Shoulders",
+      "found": true,
+      "materialMatch": true,
+      "learningRankMatch": true,
+      "ourRequired": 210,
+      "learningRank": 210,
+      "ourMaterials": [
+        [
+          "Cured Heavy Hide",
+          3
+        ],
+        [
+          "Silken Thread",
+          2
+        ],
+        [
+          "Thick Leather",
+          10
+        ],
+        [
+          "Elemental Water",
+          3
+        ],
+        [
+          "Pristine Leather",
+          2
+        ],
+        [
+          "Pristine Hide",
+          4
+        ]
+      ],
+      "referenceMaterials": [
+        [
+          "Thick Leather",
+          10
+        ],
+        [
+          "Cured Heavy Hide",
+          3
+        ],
+        [
+          "Pristine Hide",
+          4
+        ],
+        [
+          "Silken Thread",
+          2
+        ],
+        [
+          "Elemental Water",
+          3
+        ],
+        [
+          "Pristine Leather",
+          2
+        ]
+      ]
+    },
+    {
+      "spellId": "1255007",
+      "name": "Stalker's Mail Shoulders",
+      "found": true,
+      "materialMatch": true,
+      "learningRankMatch": true,
+      "ourRequired": 210,
+      "learningRank": 210,
+      "ourMaterials": [
+        [
+          "Cured Heavy Hide",
+          3
+        ],
+        [
+          "Silken Thread",
+          2
+        ],
+        [
+          "Thick Leather",
+          10
+        ],
+        [
+          "Elemental Air",
+          3
+        ],
+        [
+          "Pristine Leather",
+          2
+        ],
+        [
+          "Pristine Hide",
+          4
+        ]
+      ],
+      "referenceMaterials": [
+        [
+          "Thick Leather",
+          10
+        ],
+        [
+          "Cured Heavy Hide",
+          3
+        ],
+        [
+          "Pristine Hide",
+          4
+        ],
+        [
+          "Silken Thread",
+          2
+        ],
+        [
+          "Elemental Air",
+          3
+        ],
+        [
+          "Pristine Leather",
+          2
+        ]
+      ]
+    },
+    {
+      "spellId": "1255057",
+      "name": "Warden's Leather Shoulders",
+      "found": true,
+      "materialMatch": true,
+      "learningRankMatch": true,
+      "ourRequired": 210,
+      "learningRank": 210,
+      "ourMaterials": [
+        [
+          "Cured Heavy Hide",
+          3
+        ],
+        [
+          "Silken Thread",
+          2
+        ],
+        [
+          "Thick Leather",
+          10
+        ],
+        [
+          "Elemental Earth",
+          3
+        ],
+        [
+          "Pristine Leather",
+          2
+        ],
+        [
+          "Pristine Hide",
+          4
+        ]
+      ],
+      "referenceMaterials": [
+        [
+          "Thick Leather",
+          10
+        ],
+        [
+          "Cured Heavy Hide",
+          3
+        ],
+        [
+          "Pristine Hide",
+          4
+        ],
+        [
+          "Silken Thread",
+          2
+        ],
+        [
+          "Elemental Earth",
+          3
+        ],
+        [
+          "Pristine Leather",
+          2
+        ]
+      ]
+    },
+    {
+      "spellId": "10647",
+      "name": "Feathered Breastplate",
+      "found": true,
+      "materialMatch": true,
+      "learningRankMatch": null,
+      "ourRequired": 225,
+      "learningRank": null,
+      "ourMaterials": [
+        [
+          "Thick Leather",
+          40
+        ],
+        [
+          "Black Pearl",
+          2
+        ],
+        [
+          "Jet Black Feather",
+          40
+        ],
+        [
+          "Cured Thick Hide",
+          4
+        ],
+        [
+          "Heavy Silken Thread",
+          4
+        ]
+      ],
+      "referenceMaterials": [
+        [
+          "Thick Leather",
+          40
+        ],
+        [
+          "Jet Black Feather",
+          40
+        ],
+        [
+          "Black Pearl",
+          2
+        ],
+        [
+          "Cured Thick Hide",
+          4
+        ],
+        [
+          "Heavy Silken Thread",
+          4
+        ]
+      ]
+    },
+    {
+      "spellId": "10632",
+      "name": "Helm of Fire",
+      "found": true,
+      "materialMatch": true,
+      "learningRankMatch": null,
+      "ourRequired": 225,
+      "learningRank": null,
+      "ourMaterials": [
+        [
+          "Thick Leather",
+          40
+        ],
+        [
+          "Core of Earth",
+          4
+        ],
+        [
+          "Heart of Fire",
+          8
+        ],
+        [
+          "Cured Thick Hide",
+          2
+        ],
+        [
+          "Heavy Silken Thread",
+          4
+        ]
+      ],
+      "referenceMaterials": [
+        [
+          "Thick Leather",
+          40
+        ],
+        [
+          "Heart of Fire",
+          8
+        ],
+        [
+          "Core of Earth",
+          4
+        ],
+        [
+          "Cured Thick Hide",
+          2
+        ],
+        [
+          "Heavy Silken Thread",
+          4
+        ]
+      ]
+    },
+    {
+      "spellId": "1255050",
+      "name": "Mender's Leather Bracers",
+      "found": true,
+      "materialMatch": true,
+      "learningRankMatch": true,
+      "ourRequired": 225,
+      "learningRank": 225,
+      "ourMaterials": [
+        [
+          "Cured Heavy Hide",
+          4
+        ],
+        [
+          "Thick Leather",
+          12
+        ],
+        [
+          "Iridescent Pearl",
+          4
+        ],
+        [
+          "Heavy Silken Thread",
+          2
+        ],
+        [
+          "Pristine Leather",
+          3
+        ],
+        [
+          "Pristine Hide",
+          6
+        ]
+      ],
+      "referenceMaterials": [
+        [
+          "Thick Leather",
+          12
+        ],
+        [
+          "Cured Heavy Hide",
+          4
+        ],
+        [
+          "Pristine Hide",
+          6
+        ],
+        [
+          "Heavy Silken Thread",
+          2
+        ],
+        [
+          "Iridescent Pearl",
+          4
+        ],
+        [
+          "Pristine Leather",
+          3
+        ]
+      ]
+    },
+    {
+      "spellId": "1255000",
+      "name": "Mender's Mail Bracers",
+      "found": true,
+      "materialMatch": true,
+      "learningRankMatch": true,
+      "ourRequired": 225,
+      "learningRank": 225,
+      "ourMaterials": [
+        [
+          "Cured Heavy Hide",
+          4
+        ],
+        [
+          "Thick Leather",
+          12
+        ],
+        [
+          "Iridescent Pearl",
+          4
+        ],
+        [
+          "Heavy Silken Thread",
+          2
+        ],
+        [
+          "Pristine Leather",
+          3
+        ],
+        [
+          "Pristine Hide",
+          6
+        ]
+      ],
+      "referenceMaterials": [
+        [
+          "Thick Leather",
+          12
+        ],
+        [
+          "Cured Heavy Hide",
+          4
+        ],
+        [
+          "Pristine Hide",
+          6
+        ],
+        [
+          "Heavy Silken Thread",
+          2
+        ],
+        [
+          "Iridescent Pearl",
+          4
+        ],
+        [
+          "Pristine Leather",
+          3
+        ]
+      ]
+    },
+    {
+      "spellId": "1255054",
+      "name": "Prowler's Leather Bracers",
+      "found": true,
+      "materialMatch": true,
+      "learningRankMatch": true,
+      "ourRequired": 225,
+      "learningRank": 225,
+      "ourMaterials": [
+        [
+          "Jade",
+          4
+        ],
+        [
+          "Cured Heavy Hide",
+          4
+        ],
+        [
+          "Thick Leather",
+          12
+        ],
+        [
+          "Heavy Silken Thread",
+          2
+        ],
+        [
+          "Pristine Leather",
+          3
+        ],
+        [
+          "Pristine Hide",
+          6
+        ]
+      ],
+      "referenceMaterials": [
+        [
+          "Thick Leather",
+          12
+        ],
+        [
+          "Cured Heavy Hide",
+          4
+        ],
+        [
+          "Pristine Hide",
+          6
+        ],
+        [
+          "Heavy Silken Thread",
+          2
+        ],
+        [
+          "Jade",
+          4
+        ],
+        [
+          "Pristine Leather",
+          3
+        ]
+      ]
+    },
+    {
+      "spellId": "1255001",
+      "name": "Skirmisher's Mail Bracers",
+      "found": true,
+      "materialMatch": true,
+      "learningRankMatch": true,
+      "ourRequired": 225,
+      "learningRank": 225,
+      "ourMaterials": [
+        [
+          "Citrine",
+          4
+        ],
+        [
+          "Cured Heavy Hide",
+          4
+        ],
+        [
+          "Thick Leather",
+          12
+        ],
+        [
+          "Heavy Silken Thread",
+          2
+        ],
+        [
+          "Pristine Leather",
+          3
+        ],
+        [
+          "Pristine Hide",
+          6
+        ]
+      ],
+      "referenceMaterials": [
+        [
+          "Thick Leather",
+          12
+        ],
+        [
+          "Cured Heavy Hide",
+          4
+        ],
+        [
+          "Pristine Hide",
+          6
+        ],
+        [
+          "Heavy Silken Thread",
+          2
+        ],
+        [
+          "Citrine",
+          4
+        ],
+        [
+          "Pristine Leather",
+          3
+        ]
+      ]
+    },
+    {
+      "spellId": "1255053",
+      "name": "Skulker's Leather Bracers",
+      "found": true,
+      "materialMatch": true,
+      "learningRankMatch": true,
+      "ourRequired": 225,
+      "learningRank": 225,
+      "ourMaterials": [
+        [
+          "Spider's Silk",
+          4
+        ],
+        [
+          "Cured Heavy Hide",
+          4
+        ],
+        [
+          "Thick Leather",
+          12
+        ],
+        [
+          "Heavy Silken Thread",
+          2
+        ],
+        [
+          "Pristine Leather",
+          3
+        ],
+        [
+          "Pristine Hide",
+          6
+        ]
+      ],
+      "referenceMaterials": [
+        [
+          "Thick Leather",
+          12
+        ],
+        [
+          "Cured Heavy Hide",
+          4
+        ],
+        [
+          "Pristine Hide",
+          6
+        ],
+        [
+          "Heavy Silken Thread",
+          2
+        ],
+        [
+          "Spider's Silk",
+          4
+        ],
+        [
+          "Pristine Leather",
+          3
+        ]
+      ]
+    },
+    {
+      "spellId": "1255051",
+      "name": "Skycaller's Leather Bracers",
+      "found": true,
+      "materialMatch": true,
+      "learningRankMatch": true,
+      "ourRequired": 225,
+      "learningRank": 225,
+      "ourMaterials": [
+        [
+          "Cured Heavy Hide",
+          4
+        ],
+        [
+          "Thick Leather",
+          12
+        ],
+        [
+          "Elemental Water",
+          4
+        ],
+        [
+          "Heavy Silken Thread",
+          2
+        ],
+        [
+          "Pristine Leather",
+          3
+        ],
+        [
+          "Pristine Hide",
+          6
+        ]
+      ],
+      "referenceMaterials": [
+        [
+          "Thick Leather",
+          12
+        ],
+        [
+          "Cured Heavy Hide",
+          4
+        ],
+        [
+          "Pristine Hide",
+          6
+        ],
+        [
+          "Heavy Silken Thread",
+          2
+        ],
+        [
+          "Elemental Water",
+          4
+        ],
+        [
+          "Pristine Leather",
+          3
+        ]
+      ]
+    },
+    {
+      "spellId": "1255002",
+      "name": "Skycaller's Mail Bracers",
+      "found": true,
+      "materialMatch": true,
+      "learningRankMatch": true,
+      "ourRequired": 225,
+      "learningRank": 225,
+      "ourMaterials": [
+        [
+          "Cured Heavy Hide",
+          4
+        ],
+        [
+          "Thick Leather",
+          12
+        ],
+        [
+          "Elemental Water",
+          4
+        ],
+        [
+          "Heavy Silken Thread",
+          2
+        ],
+        [
+          "Pristine Leather",
+          3
+        ],
+        [
+          "Pristine Hide",
+          6
+        ]
+      ],
+      "referenceMaterials": [
+        [
+          "Thick Leather",
+          12
+        ],
+        [
+          "Cured Heavy Hide",
+          4
+        ],
+        [
+          "Pristine Hide",
+          6
+        ],
+        [
+          "Heavy Silken Thread",
+          2
+        ],
+        [
+          "Elemental Water",
+          4
+        ],
+        [
+          "Pristine Leather",
+          3
+        ]
+      ]
+    },
+    {
+      "spellId": "1255003",
+      "name": "Stalker's Mail Bracers",
+      "found": true,
+      "materialMatch": true,
+      "learningRankMatch": true,
+      "ourRequired": 225,
+      "learningRank": 225,
+      "ourMaterials": [
+        [
+          "Cured Heavy Hide",
+          4
+        ],
+        [
+          "Thick Leather",
+          12
+        ],
+        [
+          "Elemental Air",
+          4
+        ],
+        [
+          "Heavy Silken Thread",
+          2
+        ],
+        [
+          "Pristine Leather",
+          3
+        ],
+        [
+          "Pristine Hide",
+          6
+        ]
+      ],
+      "referenceMaterials": [
+        [
+          "Thick Leather",
+          12
+        ],
+        [
+          "Cured Heavy Hide",
+          4
+        ],
+        [
+          "Pristine Hide",
+          6
+        ],
+        [
+          "Heavy Silken Thread",
+          2
+        ],
+        [
+          "Elemental Air",
+          4
+        ],
+        [
+          "Pristine Leather",
+          3
+        ]
+      ]
+    },
+    {
+      "spellId": "1255052",
+      "name": "Warden's Leather Bracers",
+      "found": true,
+      "materialMatch": true,
+      "learningRankMatch": true,
+      "ourRequired": 225,
+      "learningRank": 225,
+      "ourMaterials": [
+        [
+          "Cured Heavy Hide",
+          4
+        ],
+        [
+          "Thick Leather",
+          12
+        ],
+        [
+          "Elemental Earth",
+          4
+        ],
+        [
+          "Heavy Silken Thread",
+          2
+        ],
+        [
+          "Pristine Leather",
+          3
+        ],
+        [
+          "Pristine Hide",
+          6
+        ]
+      ],
+      "referenceMaterials": [
+        [
+          "Thick Leather",
+          12
+        ],
+        [
+          "Cured Heavy Hide",
+          4
+        ],
+        [
+          "Pristine Hide",
+          6
+        ],
+        [
+          "Heavy Silken Thread",
+          2
+        ],
+        [
+          "Elemental Earth",
+          4
+        ],
+        [
+          "Pristine Leather",
+          3
+        ]
+      ]
+    },
+    {
+      "spellId": "10650",
+      "name": "Dragonscale Breastplate",
+      "found": true,
+      "materialMatch": true,
+      "learningRankMatch": null,
+      "ourRequired": 230,
+      "learningRank": null,
+      "ourMaterials": [
+        [
+          "Thick Leather",
+          40
+        ],
+        [
+          "Worn Dragonscale",
+          30
+        ],
+        [
+          "Cured Thick Hide",
+          4
+        ],
+        [
+          "Heavy Silken Thread",
+          4
+        ]
+      ],
+      "referenceMaterials": [
+        [
+          "Thick Leather",
+          40
+        ],
+        [
+          "Worn Dragonscale",
+          30
+        ],
+        [
+          "Heavy Silken Thread",
+          4
+        ],
+        [
+          "Cured Thick Hide",
+          4
+        ]
+      ]
+    },
+    {
+      "spellId": "19050",
+      "name": "Green Dragonscale Breastplate",
+      "found": true,
+      "materialMatch": true,
+      "learningRankMatch": true,
+      "ourRequired": 235,
+      "learningRank": 235,
+      "ourMaterials": [
+        [
+          "Rugged Leather",
+          20
+        ],
+        [
+          "Rune Thread",
+          2
+        ],
+        [
+          "Green Dragonscale",
+          25
+        ]
+      ],
+      "referenceMaterials": [
+        [
+          "Rugged Leather",
+          20
+        ],
+        [
+          "Green Dragonscale",
+          25
+        ],
+        [
+          "Rune Thread",
+          2
+        ]
+      ]
+    },
+    {
+      "spellId": "1255043",
+      "name": "Mender's Leather Boots",
+      "found": true,
+      "materialMatch": true,
+      "learningRankMatch": true,
+      "ourRequired": 235,
+      "learningRank": 235,
+      "ourMaterials": [
+        [
+          "Thick Leather",
+          16
+        ],
+        [
+          "Iridescent Pearl",
+          6
+        ],
+        [
+          "Cured Thick Hide",
+          2
+        ],
+        [
+          "Heavy Silken Thread",
+          2
+        ],
+        [
+          "Pristine Leather",
+          4
+        ],
+        [
+          "Pristine Hide",
+          8
+        ]
+      ],
+      "referenceMaterials": [
+        [
+          "Thick Leather",
+          16
+        ],
+        [
+          "Cured Thick Hide",
+          2
+        ],
+        [
+          "Pristine Hide",
+          8
+        ],
+        [
+          "Heavy Silken Thread",
+          2
+        ],
+        [
+          "Iridescent Pearl",
+          6
+        ],
+        [
+          "Pristine Leather",
+          4
+        ]
+      ]
+    },
+    {
+      "spellId": "1254994",
+      "name": "Mender's Mail Sabatons",
+      "found": true,
+      "materialMatch": true,
+      "learningRankMatch": true,
+      "ourRequired": 235,
+      "learningRank": 235,
+      "ourMaterials": [
+        [
+          "Thick Leather",
+          16
+        ],
+        [
+          "Iridescent Pearl",
+          6
+        ],
+        [
+          "Cured Thick Hide",
+          2
+        ],
+        [
+          "Heavy Silken Thread",
+          2
+        ],
+        [
+          "Pristine Leather",
+          4
+        ],
+        [
+          "Pristine Hide",
+          8
+        ]
+      ],
+      "referenceMaterials": [
+        [
+          "Thick Leather",
+          16
+        ],
+        [
+          "Cured Thick Hide",
+          2
+        ],
+        [
+          "Pristine Hide",
+          8
+        ],
+        [
+          "Heavy Silken Thread",
+          2
+        ],
+        [
+          "Iridescent Pearl",
+          6
+        ],
+        [
+          "Pristine Leather",
+          4
+        ]
+      ]
+    },
+    {
+      "spellId": "1255047",
+      "name": "Prowler's Leather Boots",
+      "found": true,
+      "materialMatch": true,
+      "learningRankMatch": true,
+      "ourRequired": 235,
+      "learningRank": 235,
+      "ourMaterials": [
+        [
+          "Jade",
+          6
+        ],
+        [
+          "Thick Leather",
+          16
+        ],
+        [
+          "Cured Thick Hide",
+          2
+        ],
+        [
+          "Heavy Silken Thread",
+          2
+        ],
+        [
+          "Pristine Leather",
+          4
+        ],
+        [
+          "Pristine Hide",
+          8
+        ]
+      ],
+      "referenceMaterials": [
+        [
+          "Thick Leather",
+          16
+        ],
+        [
+          "Cured Thick Hide",
+          2
+        ],
+        [
+          "Pristine Hide",
+          8
+        ],
+        [
+          "Heavy Silken Thread",
+          2
+        ],
+        [
+          "Jade",
+          6
+        ],
+        [
+          "Pristine Leather",
+          4
+        ]
+      ]
+    },
+    {
+      "spellId": "1254995",
+      "name": "Skirmisher's Mail Sabatons",
+      "found": true,
+      "materialMatch": true,
+      "learningRankMatch": true,
+      "ourRequired": 235,
+      "learningRank": 235,
+      "ourMaterials": [
+        [
+          "Citrine",
+          6
+        ],
+        [
+          "Thick Leather",
+          16
+        ],
+        [
+          "Cured Thick Hide",
+          2
+        ],
+        [
+          "Heavy Silken Thread",
+          2
+        ],
+        [
+          "Pristine Leather",
+          4
+        ],
+        [
+          "Pristine Hide",
+          8
+        ]
+      ],
+      "referenceMaterials": [
+        [
+          "Thick Leather",
+          16
+        ],
+        [
+          "Cured Thick Hide",
+          2
+        ],
+        [
+          "Pristine Hide",
+          8
+        ],
+        [
+          "Heavy Silken Thread",
+          2
+        ],
+        [
+          "Citrine",
+          6
+        ],
+        [
+          "Pristine Leather",
+          4
+        ]
+      ]
+    },
+    {
+      "spellId": "1255046",
+      "name": "Skulker's Leather Boots",
+      "found": true,
+      "materialMatch": true,
+      "learningRankMatch": true,
+      "ourRequired": 235,
+      "learningRank": 235,
+      "ourMaterials": [
+        [
+          "Spider's Silk",
+          6
+        ],
+        [
+          "Thick Leather",
+          16
+        ],
+        [
+          "Cured Thick Hide",
+          2
+        ],
+        [
+          "Heavy Silken Thread",
+          2
+        ],
+        [
+          "Pristine Leather",
+          4
+        ],
+        [
+          "Pristine Hide",
+          8
+        ]
+      ],
+      "referenceMaterials": [
+        [
+          "Thick Leather",
+          16
+        ],
+        [
+          "Cured Thick Hide",
+          2
+        ],
+        [
+          "Pristine Hide",
+          8
+        ],
+        [
+          "Heavy Silken Thread",
+          2
+        ],
+        [
+          "Spider's Silk",
+          6
+        ],
+        [
+          "Pristine Leather",
+          4
+        ]
+      ]
+    },
+    {
+      "spellId": "1255044",
+      "name": "Skycaller's Leather Boots",
+      "found": true,
+      "materialMatch": true,
+      "learningRankMatch": true,
+      "ourRequired": 235,
+      "learningRank": 235,
+      "ourMaterials": [
+        [
+          "Thick Leather",
+          16
+        ],
+        [
+          "Elemental Water",
+          6
+        ],
+        [
+          "Cured Thick Hide",
+          2
+        ],
+        [
+          "Heavy Silken Thread",
+          2
+        ],
+        [
+          "Pristine Leather",
+          4
+        ],
+        [
+          "Pristine Hide",
+          8
+        ]
+      ],
+      "referenceMaterials": [
+        [
+          "Thick Leather",
+          16
+        ],
+        [
+          "Cured Thick Hide",
+          2
+        ],
+        [
+          "Pristine Hide",
+          8
+        ],
+        [
+          "Heavy Silken Thread",
+          2
+        ],
+        [
+          "Elemental Water",
+          6
+        ],
+        [
+          "Pristine Leather",
+          4
+        ]
+      ]
+    },
+    {
+      "spellId": "1254996",
+      "name": "Skycaller's Mail Sabatons",
+      "found": true,
+      "materialMatch": true,
+      "learningRankMatch": true,
+      "ourRequired": 235,
+      "learningRank": 235,
+      "ourMaterials": [
+        [
+          "Thick Leather",
+          16
+        ],
+        [
+          "Elemental Water",
+          6
+        ],
+        [
+          "Cured Thick Hide",
+          2
+        ],
+        [
+          "Heavy Silken Thread",
+          2
+        ],
+        [
+          "Pristine Leather",
+          4
+        ],
+        [
+          "Pristine Hide",
+          8
+        ]
+      ],
+      "referenceMaterials": [
+        [
+          "Thick Leather",
+          16
+        ],
+        [
+          "Cured Thick Hide",
+          2
+        ],
+        [
+          "Pristine Hide",
+          8
+        ],
+        [
+          "Heavy Silken Thread",
+          2
+        ],
+        [
+          "Elemental Water",
+          6
+        ],
+        [
+          "Pristine Leather",
+          4
+        ]
+      ]
+    },
+    {
+      "spellId": "1254997",
+      "name": "Stalker's Mail Sabatons",
+      "found": true,
+      "materialMatch": true,
+      "learningRankMatch": true,
+      "ourRequired": 235,
+      "learningRank": 235,
+      "ourMaterials": [
+        [
+          "Thick Leather",
+          16
+        ],
+        [
+          "Elemental Air",
+          6
+        ],
+        [
+          "Cured Thick Hide",
+          2
+        ],
+        [
+          "Heavy Silken Thread",
+          2
+        ],
+        [
+          "Pristine Leather",
+          4
+        ],
+        [
+          "Pristine Hide",
+          8
+        ]
+      ],
+      "referenceMaterials": [
+        [
+          "Thick Leather",
+          16
+        ],
+        [
+          "Cured Thick Hide",
+          2
+        ],
+        [
+          "Pristine Hide",
+          8
+        ],
+        [
+          "Heavy Silken Thread",
+          2
+        ],
+        [
+          "Elemental Air",
+          6
+        ],
+        [
+          "Pristine Leather",
+          4
+        ]
+      ]
+    },
+    {
+      "spellId": "1255045",
+      "name": "Warden's Leather Boots",
+      "found": true,
+      "materialMatch": true,
+      "learningRankMatch": true,
+      "ourRequired": 235,
+      "learningRank": 235,
+      "ourMaterials": [
+        [
+          "Thick Leather",
+          16
+        ],
+        [
+          "Elemental Earth",
+          6
+        ],
+        [
+          "Cured Thick Hide",
+          2
+        ],
+        [
+          "Heavy Silken Thread",
+          2
+        ],
+        [
+          "Pristine Leather",
+          4
+        ],
+        [
+          "Pristine Hide",
+          8
+        ]
+      ],
+      "referenceMaterials": [
+        [
+          "Thick Leather",
+          16
+        ],
+        [
+          "Cured Thick Hide",
+          2
+        ],
+        [
+          "Pristine Hide",
+          8
+        ],
+        [
+          "Heavy Silken Thread",
+          2
+        ],
+        [
+          "Elemental Earth",
+          6
+        ],
+        [
+          "Pristine Leather",
+          4
+        ]
+      ]
+    },
+    {
+      "spellId": "19060",
+      "name": "Green Dragonscale Leggings",
+      "found": true,
+      "materialMatch": true,
+      "learningRankMatch": true,
+      "ourRequired": 245,
+      "learningRank": 245,
+      "ourMaterials": [
+        [
+          "Rugged Leather",
+          20
+        ],
+        [
+          "Rune Thread",
+          1
+        ],
+        [
+          "Green Dragonscale",
+          25
+        ]
+      ],
+      "referenceMaterials": [
+        [
+          "Rugged Leather",
+          20
+        ],
+        [
+          "Green Dragonscale",
+          25
+        ],
+        [
+          "Rune Thread",
+          1
+        ]
+      ]
+    },
+    {
+      "spellId": "19062",
+      "name": "Ironfeather Shoulders",
+      "found": true,
+      "materialMatch": true,
+      "learningRankMatch": true,
+      "ourRequired": 245,
+      "learningRank": 245,
+      "ourMaterials": [
+        [
+          "Jade",
+          2
+        ],
+        [
+          "Rugged Leather",
+          24
+        ],
+        [
+          "Rune Thread",
+          1
+        ],
+        [
+          "Ironfeather",
+          80
+        ]
+      ],
+      "referenceMaterials": [
+        [
+          "Rugged Leather",
+          24
+        ],
+        [
+          "Ironfeather",
+          80
+        ],
+        [
+          "Jade",
+          2
+        ],
+        [
+          "Rune Thread",
+          1
+        ]
+      ]
+    },
+    {
+      "spellId": "19061",
+      "name": "Living Shoulders",
+      "found": true,
+      "materialMatch": true,
+      "learningRankMatch": true,
+      "ourRequired": 245,
+      "learningRank": 245,
+      "ourMaterials": [
+        [
+          "Rugged Leather",
+          12
+        ],
+        [
+          "Living Essence",
+          4
+        ],
+        [
+          "Rune Thread",
+          1
+        ]
+      ],
+      "referenceMaterials": [
+        [
+          "Rugged Leather",
+          12
+        ],
+        [
+          "Living Essence",
+          4
+        ],
+        [
+          "Rune Thread",
+          1
+        ]
+      ]
+    },
+    {
+      "spellId": "16650",
+      "name": "Wildthorn Mail",
+      "found": true,
+      "materialMatch": true,
+      "learningRankMatch": true,
+      "ourRequired": 245,
+      "learningRank": 245,
+      "ourMaterials": [
+        [
+          "Wildvine",
+          4
+        ],
+        [
+          "Rugged Leather",
+          40
+        ],
+        [
+          "Huge Emerald",
+          1
+        ],
+        [
+          "Living Essence",
+          4
+        ],
+        [
+          "Enchanted Leather",
+          2
+        ],
+        [
+          "Rune Thread",
+          1
+        ]
+      ],
+      "referenceMaterials": [
+        [
+          "Rugged Leather",
+          40
+        ],
+        [
+          "Enchanted Leather",
+          2
+        ],
+        [
+          "Living Essence",
+          4
+        ],
+        [
+          "Wildvine",
+          4
+        ],
+        [
+          "Huge Emerald",
+          1
+        ],
+        [
+          "Rune Thread",
+          1
+        ]
+      ]
+    },
+    {
+      "spellId": "1255036",
+      "name": "Mender's Leather Gauntlets",
+      "found": true,
+      "materialMatch": true,
+      "learningRankMatch": true,
+      "ourRequired": 250,
+      "learningRank": 250,
+      "ourMaterials": [
+        [
+          "Thick Leather",
+          16
+        ],
+        [
+          "Iridescent Pearl",
+          4
+        ],
+        [
+          "Cured Thick Hide",
+          2
+        ]
+      ],
+      "referenceMaterials": [
+        [
+          "Thick Leather",
+          16
+        ],
+        [
+          "Cured Thick Hide",
+          2
+        ],
+        [
+          "Iridescent Pearl",
+          4
+        ]
+      ]
+    },
+    {
+      "spellId": "1255031",
+      "name": "Mender's Leather Waistguard",
+      "found": true,
+      "materialMatch": true,
+      "learningRankMatch": true,
+      "ourRequired": 250,
+      "learningRank": 250,
+      "ourMaterials": [
+        [
+          "Iridescent Pearl",
+          8
+        ],
+        [
+          "Rugged Leather",
+          12
+        ],
+        [
+          "Cured Thick Hide",
+          4
+        ],
+        [
+          "Heavy Silken Thread",
+          2
+        ],
+        [
+          "Pristine Leather",
+          5
+        ],
+        [
+          "Pristine Hide",
+          10
+        ]
+      ],
+      "referenceMaterials": [
+        [
+          "Rugged Leather",
+          12
+        ],
+        [
+          "Cured Thick Hide",
+          4
+        ],
+        [
+          "Pristine Hide",
+          10
+        ],
+        [
+          "Heavy Silken Thread",
+          2
+        ],
+        [
+          "Iridescent Pearl",
+          8
+        ],
+        [
+          "Pristine Leather",
+          5
+        ]
+      ]
+    },
+    {
+      "spellId": "1254982",
+      "name": "Mender's Mail Belt",
+      "found": true,
+      "materialMatch": true,
+      "learningRankMatch": true,
+      "ourRequired": 250,
+      "learningRank": 250,
+      "ourMaterials": [
+        [
+          "Iridescent Pearl",
+          8
+        ],
+        [
+          "Rugged Leather",
+          12
+        ],
+        [
+          "Cured Thick Hide",
+          4
+        ],
+        [
+          "Heavy Silken Thread",
+          2
+        ],
+        [
+          "Pristine Leather",
+          5
+        ],
+        [
+          "Pristine Hide",
+          10
+        ]
+      ],
+      "referenceMaterials": [
+        [
+          "Rugged Leather",
+          12
+        ],
+        [
+          "Cured Thick Hide",
+          4
+        ],
+        [
+          "Pristine Hide",
+          10
+        ],
+        [
+          "Heavy Silken Thread",
+          2
+        ],
+        [
+          "Iridescent Pearl",
+          8
+        ],
+        [
+          "Pristine Leather",
+          5
+        ]
+      ]
+    },
+    {
+      "spellId": "1254986",
+      "name": "Mender's Mail Gauntlets",
+      "found": true,
+      "materialMatch": true,
+      "learningRankMatch": true,
+      "ourRequired": 250,
+      "learningRank": 250,
+      "ourMaterials": [
+        [
+          "Thick Leather",
+          16
+        ],
+        [
+          "Iridescent Pearl",
+          4
+        ],
+        [
+          "Cured Thick Hide",
+          2
+        ]
+      ],
+      "referenceMaterials": [
+        [
+          "Thick Leather",
+          16
+        ],
+        [
+          "Cured Thick Hide",
+          2
+        ],
+        [
+          "Iridescent Pearl",
+          4
+        ]
+      ]
+    },
+    {
+      "spellId": "1255040",
+      "name": "Prowler's Leather Gauntlets",
+      "found": true,
+      "materialMatch": true,
+      "learningRankMatch": true,
+      "ourRequired": 250,
+      "learningRank": 250,
+      "ourMaterials": [
+        [
+          "Jade",
+          4
+        ],
+        [
+          "Thick Leather",
+          16
+        ],
+        [
+          "Cured Thick Hide",
+          2
+        ]
+      ],
+      "referenceMaterials": [
+        [
+          "Thick Leather",
+          16
+        ],
+        [
+          "Cured Thick Hide",
+          2
+        ],
+        [
+          "Jade",
+          4
+        ]
+      ]
+    },
+    {
+      "spellId": "1255035",
+      "name": "Prowler's Leather Waistguard",
+      "found": true,
+      "materialMatch": true,
+      "learningRankMatch": true,
+      "ourRequired": 250,
+      "learningRank": 250,
+      "ourMaterials": [
+        [
+          "Jade",
+          8
+        ],
+        [
+          "Rugged Leather",
+          12
+        ],
+        [
+          "Cured Thick Hide",
+          4
+        ],
+        [
+          "Heavy Silken Thread",
+          2
+        ],
+        [
+          "Pristine Leather",
+          5
+        ],
+        [
+          "Pristine Hide",
+          10
+        ]
+      ],
+      "referenceMaterials": [
+        [
+          "Rugged Leather",
+          12
+        ],
+        [
+          "Cured Thick Hide",
+          4
+        ],
+        [
+          "Pristine Hide",
+          10
+        ],
+        [
+          "Heavy Silken Thread",
+          2
+        ],
+        [
+          "Jade",
+          8
+        ],
+        [
+          "Pristine Leather",
+          5
+        ]
+      ]
+    },
+    {
+      "spellId": "1254983",
+      "name": "Skirmisher's Mail Belt",
+      "found": true,
+      "materialMatch": true,
+      "learningRankMatch": true,
+      "ourRequired": 250,
+      "learningRank": 250,
+      "ourMaterials": [
+        [
+          "Citrine",
+          8
+        ],
+        [
+          "Rugged Leather",
+          12
+        ],
+        [
+          "Cured Thick Hide",
+          4
+        ],
+        [
+          "Heavy Silken Thread",
+          2
+        ],
+        [
+          "Pristine Leather",
+          5
+        ],
+        [
+          "Pristine Hide",
+          10
+        ]
+      ],
+      "referenceMaterials": [
+        [
+          "Rugged Leather",
+          12
+        ],
+        [
+          "Cured Thick Hide",
+          4
+        ],
+        [
+          "Pristine Hide",
+          10
+        ],
+        [
+          "Heavy Silken Thread",
+          2
+        ],
+        [
+          "Citrine",
+          8
+        ],
+        [
+          "Pristine Leather",
+          5
+        ]
+      ]
+    },
+    {
+      "spellId": "1254987",
+      "name": "Skirmisher's Mail Gauntlets",
+      "found": true,
+      "materialMatch": true,
+      "learningRankMatch": true,
+      "ourRequired": 250,
+      "learningRank": 250,
+      "ourMaterials": [
+        [
+          "Citrine",
+          4
+        ],
+        [
+          "Thick Leather",
+          16
+        ],
+        [
+          "Cured Thick Hide",
+          2
+        ]
+      ],
+      "referenceMaterials": [
+        [
+          "Thick Leather",
+          16
+        ],
+        [
+          "Cured Thick Hide",
+          2
+        ],
+        [
+          "Citrine",
+          4
+        ]
+      ]
+    },
+    {
+      "spellId": "1255039",
+      "name": "Skulker's Leather Gauntlets",
+      "found": true,
+      "materialMatch": true,
+      "learningRankMatch": true,
+      "ourRequired": 250,
+      "learningRank": 250,
+      "ourMaterials": [
+        [
+          "Spider's Silk",
+          4
+        ],
+        [
+          "Thick Leather",
+          16
+        ],
+        [
+          "Cured Thick Hide",
+          2
+        ]
+      ],
+      "referenceMaterials": [
+        [
+          "Thick Leather",
+          16
+        ],
+        [
+          "Cured Thick Hide",
+          2
+        ],
+        [
+          "Spider's Silk",
+          4
+        ]
+      ]
+    },
+    {
+      "spellId": "1255034",
+      "name": "Skulker's Leather Waistguard",
+      "found": true,
+      "materialMatch": true,
+      "learningRankMatch": true,
+      "ourRequired": 250,
+      "learningRank": 250,
+      "ourMaterials": [
+        [
+          "Spider's Silk",
+          8
+        ],
+        [
+          "Rugged Leather",
+          12
+        ],
+        [
+          "Cured Thick Hide",
+          4
+        ],
+        [
+          "Heavy Silken Thread",
+          2
+        ],
+        [
+          "Pristine Leather",
+          5
+        ],
+        [
+          "Pristine Hide",
+          10
+        ]
+      ],
+      "referenceMaterials": [
+        [
+          "Rugged Leather",
+          12
+        ],
+        [
+          "Cured Thick Hide",
+          4
+        ],
+        [
+          "Pristine Hide",
+          10
+        ],
+        [
+          "Heavy Silken Thread",
+          2
+        ],
+        [
+          "Spider's Silk",
+          8
+        ],
+        [
+          "Pristine Leather",
+          5
+        ]
+      ]
+    },
+    {
+      "spellId": "1255037",
+      "name": "Skycaller's Leather Gauntlets",
+      "found": true,
+      "materialMatch": true,
+      "learningRankMatch": true,
+      "ourRequired": 250,
+      "learningRank": 250,
+      "ourMaterials": [
+        [
+          "Thick Leather",
+          16
+        ],
+        [
+          "Elemental Water",
+          4
+        ],
+        [
+          "Cured Thick Hide",
+          2
+        ]
+      ],
+      "referenceMaterials": [
+        [
+          "Thick Leather",
+          16
+        ],
+        [
+          "Cured Thick Hide",
+          2
+        ],
+        [
+          "Elemental Water",
+          4
+        ]
+      ]
+    },
+    {
+      "spellId": "1255032",
+      "name": "Skycaller's Leather Waistguard",
+      "found": true,
+      "materialMatch": true,
+      "learningRankMatch": true,
+      "ourRequired": 250,
+      "learningRank": 250,
+      "ourMaterials": [
+        [
+          "Elemental Water",
+          8
+        ],
+        [
+          "Rugged Leather",
+          12
+        ],
+        [
+          "Cured Thick Hide",
+          4
+        ],
+        [
+          "Heavy Silken Thread",
+          2
+        ],
+        [
+          "Pristine Leather",
+          5
+        ],
+        [
+          "Pristine Hide",
+          10
+        ]
+      ],
+      "referenceMaterials": [
+        [
+          "Rugged Leather",
+          12
+        ],
+        [
+          "Cured Thick Hide",
+          4
+        ],
+        [
+          "Pristine Hide",
+          10
+        ],
+        [
+          "Heavy Silken Thread",
+          2
+        ],
+        [
+          "Elemental Water",
+          8
+        ],
+        [
+          "Pristine Leather",
+          5
+        ]
+      ]
+    },
+    {
+      "spellId": "1254984",
+      "name": "Skycaller's Mail Belt",
+      "found": true,
+      "materialMatch": true,
+      "learningRankMatch": true,
+      "ourRequired": 250,
+      "learningRank": 250,
+      "ourMaterials": [
+        [
+          "Elemental Water",
+          8
+        ],
+        [
+          "Rugged Leather",
+          12
+        ],
+        [
+          "Cured Thick Hide",
+          4
+        ],
+        [
+          "Heavy Silken Thread",
+          2
+        ],
+        [
+          "Pristine Leather",
+          5
+        ],
+        [
+          "Pristine Hide",
+          10
+        ]
+      ],
+      "referenceMaterials": [
+        [
+          "Rugged Leather",
+          12
+        ],
+        [
+          "Cured Thick Hide",
+          4
+        ],
+        [
+          "Pristine Hide",
+          10
+        ],
+        [
+          "Heavy Silken Thread",
+          2
+        ],
+        [
+          "Elemental Water",
+          8
+        ],
+        [
+          "Pristine Leather",
+          5
+        ]
+      ]
+    },
+    {
+      "spellId": "1254988",
+      "name": "Skycaller's Mail Gauntlets",
+      "found": true,
+      "materialMatch": true,
+      "learningRankMatch": true,
+      "ourRequired": 250,
+      "learningRank": 250,
+      "ourMaterials": [
+        [
+          "Thick Leather",
+          16
+        ],
+        [
+          "Elemental Water",
+          4
+        ],
+        [
+          "Cured Thick Hide",
+          2
+        ]
+      ],
+      "referenceMaterials": [
+        [
+          "Thick Leather",
+          16
+        ],
+        [
+          "Cured Thick Hide",
+          2
+        ],
+        [
+          "Elemental Water",
+          4
+        ]
+      ]
+    },
+    {
+      "spellId": "1254985",
+      "name": "Stalker's Mail Belt",
+      "found": true,
+      "materialMatch": true,
+      "learningRankMatch": true,
+      "ourRequired": 250,
+      "learningRank": 250,
+      "ourMaterials": [
+        [
+          "Elemental Air",
+          8
+        ],
+        [
+          "Rugged Leather",
+          12
+        ],
+        [
+          "Cured Thick Hide",
+          4
+        ],
+        [
+          "Heavy Silken Thread",
+          2
+        ],
+        [
+          "Pristine Leather",
+          5
+        ],
+        [
+          "Pristine Hide",
+          10
+        ]
+      ],
+      "referenceMaterials": [
+        [
+          "Rugged Leather",
+          12
+        ],
+        [
+          "Cured Thick Hide",
+          4
+        ],
+        [
+          "Pristine Hide",
+          10
+        ],
+        [
+          "Heavy Silken Thread",
+          2
+        ],
+        [
+          "Elemental Air",
+          8
+        ],
+        [
+          "Pristine Leather",
+          5
+        ]
+      ]
+    },
+    {
+      "spellId": "1254989",
+      "name": "Stalker's Mail Gauntlets",
+      "found": true,
+      "materialMatch": true,
+      "learningRankMatch": true,
+      "ourRequired": 250,
+      "learningRank": 250,
+      "ourMaterials": [
+        [
+          "Thick Leather",
+          16
+        ],
+        [
+          "Elemental Air",
+          4
+        ],
+        [
+          "Cured Thick Hide",
+          2
+        ]
+      ],
+      "referenceMaterials": [
+        [
+          "Thick Leather",
+          16
+        ],
+        [
+          "Cured Thick Hide",
+          2
+        ],
+        [
+          "Elemental Air",
+          4
+        ]
+      ]
+    },
+    {
+      "spellId": "19067",
+      "name": "Stormshroud Pants",
+      "found": true,
+      "materialMatch": true,
+      "learningRankMatch": true,
+      "ourRequired": 250,
+      "learningRank": 250,
+      "ourMaterials": [
+        [
+          "Essence of Water",
+          2
+        ],
+        [
+          "Essence of Air",
+          2
+        ],
+        [
+          "Rugged Leather",
+          16
+        ],
+        [
+          "Rune Thread",
+          1
+        ]
+      ],
+      "referenceMaterials": [
+        [
+          "Rugged Leather",
+          16
+        ],
+        [
+          "Essence of Water",
+          2
+        ],
+        [
+          "Essence of Air",
+          2
+        ],
+        [
+          "Rune Thread",
+          1
+        ]
+      ]
+    },
+    {
+      "spellId": "19068",
+      "name": "Warbear Harness",
+      "found": true,
+      "materialMatch": true,
+      "learningRankMatch": true,
+      "ourRequired": 250,
+      "learningRank": 250,
+      "ourMaterials": [
+        [
+          "Rugged Leather",
+          28
+        ],
+        [
+          "Rune Thread",
+          1
+        ],
+        [
+          "Warbear Leather",
+          12
+        ]
+      ],
+      "referenceMaterials": [
+        [
+          "Rugged Leather",
+          28
+        ],
+        [
+          "Warbear Leather",
+          12
+        ],
+        [
+          "Rune Thread",
+          1
+        ]
+      ]
+    },
+    {
+      "spellId": "1255038",
+      "name": "Warden's Leather Gauntlets",
+      "found": true,
+      "materialMatch": true,
+      "learningRankMatch": true,
+      "ourRequired": 250,
+      "learningRank": 250,
+      "ourMaterials": [
+        [
+          "Thick Leather",
+          16
+        ],
+        [
+          "Elemental Earth",
+          4
+        ],
+        [
+          "Cured Thick Hide",
+          2
+        ]
+      ],
+      "referenceMaterials": [
+        [
+          "Thick Leather",
+          16
+        ],
+        [
+          "Cured Thick Hide",
+          2
+        ],
+        [
+          "Elemental Earth",
+          4
+        ]
+      ]
+    },
+    {
+      "spellId": "1255033",
+      "name": "Warden's Leather Waistguard",
+      "found": true,
+      "materialMatch": true,
+      "learningRankMatch": true,
+      "ourRequired": 250,
+      "learningRank": 250,
+      "ourMaterials": [
+        [
+          "Elemental Earth",
+          8
+        ],
+        [
+          "Rugged Leather",
+          12
+        ],
+        [
+          "Cured Thick Hide",
+          4
+        ],
+        [
+          "Heavy Silken Thread",
+          2
+        ],
+        [
+          "Pristine Leather",
+          5
+        ],
+        [
+          "Pristine Hide",
+          10
+        ]
+      ],
+      "referenceMaterials": [
+        [
+          "Rugged Leather",
+          12
+        ],
+        [
+          "Cured Thick Hide",
+          4
+        ],
+        [
+          "Pristine Hide",
+          10
+        ],
+        [
+          "Heavy Silken Thread",
+          2
+        ],
+        [
+          "Elemental Earth",
+          8
+        ],
+        [
+          "Pristine Leather",
+          5
+        ]
+      ]
+    },
+    {
+      "spellId": "24655",
+      "name": "Green Dragonscale Gauntlets",
+      "found": true,
+      "materialMatch": true,
+      "learningRankMatch": null,
+      "ourRequired": 255,
+      "learningRank": null,
+      "ourMaterials": [
+        [
+          "Rugged Leather",
+          20
+        ],
+        [
+          "Rune Thread",
+          2
+        ],
+        [
+          "Cured Rugged Hide",
+          1
+        ],
+        [
+          "Green Dragonscale",
+          30
+        ]
+      ],
+      "referenceMaterials": [
+        [
+          "Rugged Leather",
+          20
+        ],
+        [
+          "Green Dragonscale",
+          30
+        ],
+        [
+          "Cured Rugged Hide",
+          1
+        ],
+        [
+          "Rune Thread",
+          2
+        ]
+      ]
+    },
+    {
+      "spellId": "19077",
+      "name": "Blue Dragonscale Breastplate",
+      "found": true,
+      "materialMatch": true,
+      "learningRankMatch": true,
+      "ourRequired": 260,
+      "learningRank": 260,
+      "ourMaterials": [
+        [
+          "Rugged Leather",
+          28
+        ],
+        [
+          "Rune Thread",
+          1
+        ],
+        [
+          "Cured Rugged Hide",
+          1
+        ],
+        [
+          "Blue Dragonscale",
+          30
+        ]
+      ],
+      "referenceMaterials": [
+        [
+          "Rugged Leather",
+          28
+        ],
+        [
+          "Blue Dragonscale",
+          30
+        ],
+        [
+          "Cured Rugged Hide",
+          1
+        ],
+        [
+          "Rune Thread",
+          1
+        ]
+      ]
+    },
+    {
+      "spellId": "19078",
+      "name": "Living Leggings",
+      "found": true,
+      "materialMatch": true,
+      "learningRankMatch": true,
+      "ourRequired": 260,
+      "learningRank": 260,
+      "ourMaterials": [
+        [
+          "Rugged Leather",
+          16
+        ],
+        [
+          "Living Essence",
+          6
+        ],
+        [
+          "Rune Thread",
+          1
+        ],
+        [
+          "Cured Rugged Hide",
+          1
+        ]
+      ],
+      "referenceMaterials": [
+        [
+          "Rugged Leather",
+          16
+        ],
+        [
+          "Living Essence",
+          6
+        ],
+        [
+          "Cured Rugged Hide",
+          1
+        ],
+        [
+          "Rune Thread",
+          1
+        ]
+      ]
+    },
+    {
+      "spellId": "19079",
+      "name": "Stormshroud Armor",
+      "found": true,
+      "materialMatch": true,
+      "learningRankMatch": true,
+      "ourRequired": 260,
+      "learningRank": 260,
+      "ourMaterials": [
+        [
+          "Essence of Water",
+          3
+        ],
+        [
+          "Essence of Air",
+          3
+        ],
+        [
+          "Rugged Leather",
+          16
+        ],
+        [
+          "Rune Thread",
+          1
+        ],
+        [
+          "Cured Rugged Hide",
+          1
+        ]
+      ],
+      "referenceMaterials": [
+        [
+          "Rugged Leather",
+          16
+        ],
+        [
+          "Essence of Water",
+          3
+        ],
+        [
+          "Essence of Air",
+          3
+        ],
+        [
+          "Cured Rugged Hide",
+          1
+        ],
+        [
+          "Rune Thread",
+          1
+        ]
+      ]
+    },
+    {
+      "spellId": "19080",
+      "name": "Warbear Woolies",
+      "found": true,
+      "materialMatch": true,
+      "learningRankMatch": true,
+      "ourRequired": 260,
+      "learningRank": 260,
+      "ourMaterials": [
+        [
+          "Rugged Leather",
+          24
+        ],
+        [
+          "Rune Thread",
+          1
+        ],
+        [
+          "Warbear Leather",
+          14
+        ]
+      ],
+      "referenceMaterials": [
+        [
+          "Rugged Leather",
+          24
+        ],
+        [
+          "Warbear Leather",
+          14
+        ],
+        [
+          "Rune Thread",
+          1
+        ]
+      ]
+    },
+    {
+      "spellId": "19085",
+      "name": "Black Dragonscale Breastplate",
+      "found": true,
+      "materialMatch": true,
+      "learningRankMatch": true,
+      "ourRequired": 265,
+      "learningRank": 265,
+      "ourMaterials": [
+        [
+          "Rugged Leather",
+          40
+        ],
+        [
+          "Rune Thread",
+          2
+        ],
+        [
+          "Cured Rugged Hide",
+          1
+        ],
+        [
+          "Black Dragonscale",
+          60
+        ]
+      ],
+      "referenceMaterials": [
+        [
+          "Rugged Leather",
+          40
+        ],
+        [
+          "Black Dragonscale",
+          60
+        ],
+        [
+          "Cured Rugged Hide",
+          1
+        ],
+        [
+          "Rune Thread",
+          2
+        ]
+      ]
+    },
+    {
+      "spellId": "23705",
+      "name": "Dawn Treaders",
+      "found": true,
+      "materialMatch": true,
+      "learningRankMatch": null,
+      "ourRequired": 265,
+      "learningRank": null,
+      "ourMaterials": [
+        [
+          "Essence of Water",
+          4
+        ],
+        [
+          "Rugged Leather",
+          30
+        ],
+        [
+          "Guardian Stone",
+          2
+        ],
+        [
+          "Rune Thread",
+          2
+        ],
+        [
+          "Cured Rugged Hide",
+          2
+        ]
+      ],
+      "referenceMaterials": [
+        [
+          "Rugged Leather",
+          30
+        ],
+        [
+          "Guardian Stone",
+          2
+        ],
+        [
+          "Essence of Water",
+          4
+        ],
+        [
+          "Cured Rugged Hide",
+          2
+        ],
+        [
+          "Rune Thread",
+          2
+        ]
+      ]
+    },
+    {
+      "spellId": "19084",
+      "name": "Devilsaur Gauntlets",
+      "found": true,
+      "materialMatch": true,
+      "learningRankMatch": true,
+      "ourRequired": 265,
+      "learningRank": 265,
+      "ourMaterials": [
+        [
+          "Rugged Leather",
+          30
+        ],
+        [
+          "Rune Thread",
+          1
+        ],
+        [
+          "Devilsaur Leather",
+          8
+        ]
+      ],
+      "referenceMaterials": [
+        [
+          "Rugged Leather",
+          30
+        ],
+        [
+          "Devilsaur Leather",
+          8
+        ],
+        [
+          "Rune Thread",
+          1
+        ]
+      ]
+    },
+    {
+      "spellId": "23628",
+      "name": "Heavy Timbermaw Belt",
+      "found": true,
+      "materialMatch": true,
+      "learningRankMatch": true,
+      "ourRequired": 265,
+      "learningRank": 265,
+      "ourMaterials": [
+        [
+          "Essence of Earth",
+          3
+        ],
+        [
+          "Rugged Leather",
+          12
+        ],
+        [
+          "Living Essence",
+          3
+        ],
+        [
+          "Rune Thread",
+          1
+        ]
+      ],
+      "referenceMaterials": [
+        [
+          "Rugged Leather",
+          12
+        ],
+        [
+          "Essence of Earth",
+          3
+        ],
+        [
+          "Living Essence",
+          3
+        ],
+        [
+          "Rune Thread",
+          1
+        ]
+      ]
+    },
+    {
+      "spellId": "19086",
+      "name": "Ironfeather Breastplate",
+      "found": true,
+      "materialMatch": true,
+      "learningRankMatch": true,
+      "ourRequired": 265,
+      "learningRank": 265,
+      "ourMaterials": [
+        [
+          "Jade",
+          1
+        ],
+        [
+          "Rugged Leather",
+          40
+        ],
+        [
+          "Rune Thread",
+          1
+        ],
+        [
+          "Cured Rugged Hide",
+          1
+        ],
+        [
+          "Ironfeather",
+          120
+        ]
+      ],
+      "referenceMaterials": [
+        [
+          "Rugged Leather",
+          40
+        ],
+        [
+          "Ironfeather",
+          120
+        ],
+        [
+          "Jade",
+          1
+        ],
+        [
+          "Cured Rugged Hide",
+          1
+        ],
+        [
+          "Rune Thread",
+          1
+        ]
+      ]
+    },
+    {
+      "spellId": "23703",
+      "name": "Might of the Timbermaw",
+      "found": true,
+      "materialMatch": true,
+      "learningRankMatch": true,
+      "ourRequired": 265,
+      "learningRank": 265,
+      "ourMaterials": [
+        [
+          "Rugged Leather",
+          30
+        ],
+        [
+          "Living Essence",
+          4
+        ],
+        [
+          "Powerful Mojo",
+          2
+        ],
+        [
+          "Rune Thread",
+          2
+        ],
+        [
+          "Cured Rugged Hide",
+          2
+        ]
+      ],
+      "referenceMaterials": [
+        [
+          "Rugged Leather",
+          30
+        ],
+        [
+          "Powerful Mojo",
+          2
+        ],
+        [
+          "Living Essence",
+          4
+        ],
+        [
+          "Cured Rugged Hide",
+          2
+        ],
+        [
+          "Rune Thread",
+          2
+        ]
+      ]
+    },
+    {
+      "spellId": "19094",
+      "name": "Black Dragonscale Shoulders",
+      "found": true,
+      "materialMatch": true,
+      "learningRankMatch": true,
+      "ourRequired": 270,
+      "learningRank": 270,
+      "ourMaterials": [
+        [
+          "Rugged Leather",
+          44
+        ],
+        [
+          "Enchanted Leather",
+          2
+        ],
+        [
+          "Rune Thread",
+          1
+        ],
+        [
+          "Cured Rugged Hide",
+          1
+        ],
+        [
+          "Black Dragonscale",
+          45
+        ]
+      ],
+      "referenceMaterials": [
+        [
+          "Rugged Leather",
+          44
+        ],
+        [
+          "Black Dragonscale",
+          45
+        ],
+        [
+          "Enchanted Leather",
+          2
+        ],
+        [
+          "Cured Rugged Hide",
+          1
+        ],
+        [
+          "Rune Thread",
+          1
+        ]
+      ]
+    },
+    {
+      "spellId": "19089",
+      "name": "Blue Dragonscale Shoulders",
+      "found": true,
+      "materialMatch": true,
+      "learningRankMatch": true,
+      "ourRequired": 270,
+      "learningRank": 270,
+      "ourMaterials": [
+        [
+          "Rugged Leather",
+          28
+        ],
+        [
+          "Enchanted Leather",
+          2
+        ],
+        [
+          "Rune Thread",
+          1
+        ],
+        [
+          "Cured Rugged Hide",
+          1
+        ],
+        [
+          "Blue Dragonscale",
+          30
+        ]
+      ],
+      "referenceMaterials": [
+        [
+          "Rugged Leather",
+          28
+        ],
+        [
+          "Blue Dragonscale",
+          30
+        ],
+        [
+          "Enchanted Leather",
+          2
+        ],
+        [
+          "Cured Rugged Hide",
+          1
+        ],
+        [
+          "Rune Thread",
+          1
+        ]
+      ]
+    },
+    {
+      "spellId": "16661",
+      "name": "Storm Gauntlets",
+      "found": true,
+      "materialMatch": true,
+      "learningRankMatch": true,
+      "ourRequired": 270,
+      "learningRank": 270,
+      "ourMaterials": [
+        [
+          "Essence of Water",
+          4
+        ],
+        [
+          "Rugged Leather",
+          20
+        ],
+        [
+          "Blue Sapphire",
+          4
+        ],
+        [
+          "Enchanted Leather",
+          4
+        ],
+        [
+          "Rune Thread",
+          1
+        ]
+      ],
+      "referenceMaterials": [
+        [
+          "Rugged Leather",
+          20
+        ],
+        [
+          "Enchanted Leather",
+          4
+        ],
+        [
+          "Essence of Water",
+          4
+        ],
+        [
+          "Blue Sapphire",
+          4
+        ],
+        [
+          "Rune Thread",
+          1
+        ]
+      ]
+    },
+    {
+      "spellId": "19090",
+      "name": "Stormshroud Shoulders",
+      "found": true,
+      "materialMatch": true,
+      "learningRankMatch": true,
+      "ourRequired": 270,
+      "learningRank": 270,
+      "ourMaterials": [
+        [
+          "Essence of Water",
+          3
+        ],
+        [
+          "Essence of Air",
+          3
+        ],
+        [
+          "Rugged Leather",
+          12
+        ],
+        [
+          "Enchanted Leather",
+          2
+        ],
+        [
+          "Rune Thread",
+          1
+        ]
+      ],
+      "referenceMaterials": [
+        [
+          "Rugged Leather",
+          12
+        ],
+        [
+          "Essence of Water",
+          3
+        ],
+        [
+          "Essence of Air",
+          3
+        ],
+        [
+          "Enchanted Leather",
+          2
+        ],
+        [
+          "Rune Thread",
+          1
+        ]
+      ]
+    },
+    {
+      "spellId": "1297126",
+      "name": "Bileblister Claws",
+      "found": true,
+      "materialMatch": true,
+      "learningRankMatch": true,
+      "ourRequired": 285,
+      "learningRank": 285,
+      "ourMaterials": [
+        [
+          "Essence of Air",
+          3
+        ],
+        [
+          "Rugged Leather",
+          12
+        ],
+        [
+          "Enchanted Leather",
+          3
+        ],
+        [
+          "Rune Thread",
+          6
+        ]
+      ],
+      "referenceMaterials": [
+        [
+          "Rugged Leather",
+          12
+        ],
+        [
+          "Enchanted Leather",
+          3
+        ],
+        [
+          "Essence of Air",
+          3
+        ],
+        [
+          "Rune Thread",
+          6
+        ]
+      ]
+    },
+    {
+      "spellId": "1297135",
+      "name": "Broodwatcher's Clenchers",
+      "found": true,
+      "materialMatch": true,
+      "learningRankMatch": true,
+      "ourRequired": 285,
+      "learningRank": 285,
+      "ourMaterials": [
+        [
+          "Essence of Water",
+          3
+        ],
+        [
+          "Enchanted Leather",
+          3
+        ],
+        [
+          "Rune Thread",
+          6
+        ],
+        [
+          "Heavy Scorpid Scale",
+          5
+        ]
+      ],
+      "referenceMaterials": [
+        [
+          "Heavy Scorpid Scale",
+          5
+        ],
+        [
+          "Enchanted Leather",
+          3
+        ],
+        [
+          "Essence of Water",
+          3
+        ],
+        [
+          "Rune Thread",
+          6
+        ]
+      ]
+    },
+    {
+      "spellId": "1297129",
+      "name": "Hivethrasher's Claws",
+      "found": true,
+      "materialMatch": true,
+      "learningRankMatch": true,
+      "ourRequired": 285,
+      "learningRank": 285,
+      "ourMaterials": [
+        [
+          "Essence of Earth",
+          3
+        ],
+        [
+          "Rugged Leather",
+          12
+        ],
+        [
+          "Enchanted Leather",
+          3
+        ],
+        [
+          "Rune Thread",
+          6
+        ]
+      ],
+      "referenceMaterials": [
+        [
+          "Rugged Leather",
+          12
+        ],
+        [
+          "Enchanted Leather",
+          3
+        ],
+        [
+          "Essence of Earth",
+          3
+        ],
+        [
+          "Rune Thread",
+          6
+        ]
+      ]
+    },
+    {
+      "spellId": "1297132",
+      "name": "Scalegut Clenchers",
+      "found": true,
+      "materialMatch": true,
+      "learningRankMatch": true,
+      "ourRequired": 285,
+      "learningRank": 285,
+      "ourMaterials": [
+        [
+          "Essence of Fire",
+          3
+        ],
+        [
+          "Enchanted Leather",
+          3
+        ],
+        [
+          "Rune Thread",
+          6
+        ],
+        [
+          "Heavy Scorpid Scale",
+          5
+        ]
+      ],
+      "referenceMaterials": [
+        [
+          "Heavy Scorpid Scale",
+          5
+        ],
+        [
+          "Enchanted Leather",
+          3
+        ],
+        [
+          "Essence of Fire",
+          3
+        ],
+        [
+          "Rune Thread",
+          6
+        ]
+      ]
+    },
+    {
+      "spellId": "1297127",
+      "name": "Bileblister Girdle",
+      "found": true,
+      "materialMatch": true,
+      "learningRankMatch": true,
+      "ourRequired": 290,
+      "learningRank": 290,
+      "ourMaterials": [
+        [
+          "Essence of Air",
+          3
+        ],
+        [
+          "Rugged Leather",
+          18
+        ],
+        [
+          "Enchanted Leather",
+          3
+        ],
+        [
+          "Rune Thread",
+          6
+        ]
+      ],
+      "referenceMaterials": [
+        [
+          "Rugged Leather",
+          18
+        ],
+        [
+          "Enchanted Leather",
+          3
+        ],
+        [
+          "Essence of Air",
+          3
+        ],
+        [
+          "Rune Thread",
+          6
+        ]
+      ]
+    },
+    {
+      "spellId": "19107",
+      "name": "Black Dragonscale Leggings",
+      "found": true,
+      "materialMatch": true,
+      "learningRankMatch": true,
+      "ourRequired": 290,
+      "learningRank": 290,
+      "ourMaterials": [
+        [
+          "Rugged Leather",
+          40
+        ],
+        [
+          "Enchanted Leather",
+          4
+        ],
+        [
+          "Rune Thread",
+          2
+        ],
+        [
+          "Cured Rugged Hide",
+          1
+        ],
+        [
+          "Black Dragonscale",
+          60
+        ]
+      ],
+      "referenceMaterials": [
+        [
+          "Rugged Leather",
+          40
+        ],
+        [
+          "Black Dragonscale",
+          60
+        ],
+        [
+          "Enchanted Leather",
+          4
+        ],
+        [
+          "Cured Rugged Hide",
+          1
+        ],
+        [
+          "Rune Thread",
+          2
+        ]
+      ]
+    },
+    {
+      "spellId": "24654",
+      "name": "Blue Dragonscale Leggings",
+      "found": true,
+      "materialMatch": true,
+      "learningRankMatch": null,
+      "ourRequired": 290,
+      "learningRank": null,
+      "ourMaterials": [
+        [
+          "Rugged Leather",
+          28
+        ],
+        [
+          "Rune Thread",
+          2
+        ],
+        [
+          "Cured Rugged Hide",
+          2
+        ],
+        [
+          "Blue Dragonscale",
+          36
+        ]
+      ],
+      "referenceMaterials": [
+        [
+          "Rugged Leather",
+          28
+        ],
+        [
+          "Blue Dragonscale",
+          36
+        ],
+        [
+          "Cured Rugged Hide",
+          2
+        ],
+        [
+          "Rune Thread",
+          2
+        ]
+      ]
+    },
+    {
+      "spellId": "1297136",
+      "name": "Broodwatcher's Belt",
+      "found": true,
+      "materialMatch": true,
+      "learningRankMatch": true,
+      "ourRequired": 290,
+      "learningRank": 290,
+      "ourMaterials": [
+        [
+          "Essence of Water",
+          3
+        ],
+        [
+          "Enchanted Leather",
+          3
+        ],
+        [
+          "Rune Thread",
+          6
+        ],
+        [
+          "Heavy Scorpid Scale",
+          7
+        ]
+      ],
+      "referenceMaterials": [
+        [
+          "Heavy Scorpid Scale",
+          7
+        ],
+        [
+          "Enchanted Leather",
+          3
+        ],
+        [
+          "Essence of Water",
+          3
+        ],
+        [
+          "Rune Thread",
+          6
+        ]
+      ]
+    },
+    {
+      "spellId": "19097",
+      "name": "Devilsaur Leggings",
+      "found": true,
+      "materialMatch": true,
+      "learningRankMatch": true,
+      "ourRequired": 290,
+      "learningRank": 290,
+      "ourMaterials": [
+        [
+          "Rugged Leather",
+          30
+        ],
+        [
+          "Rune Thread",
+          1
+        ],
+        [
+          "Cured Rugged Hide",
+          1
+        ],
+        [
+          "Devilsaur Leather",
+          14
+        ]
+      ],
+      "referenceMaterials": [
+        [
+          "Rugged Leather",
+          30
+        ],
+        [
+          "Devilsaur Leather",
+          14
+        ],
+        [
+          "Cured Rugged Hide",
+          1
+        ],
+        [
+          "Rune Thread",
+          1
+        ]
+      ]
+    },
+    {
+      "spellId": "22921",
+      "name": "Girdle of Insight",
+      "found": true,
+      "materialMatch": true,
+      "learningRankMatch": true,
+      "ourRequired": 290,
+      "learningRank": 290,
+      "ourMaterials": [
+        [
+          "Rugged Leather",
+          12
+        ],
+        [
+          "Powerful Mojo",
+          12
+        ],
+        [
+          "Rune Thread",
+          4
+        ],
+        [
+          "Cured Rugged Hide",
+          2
+        ]
+      ],
+      "referenceMaterials": [
+        [
+          "Rugged Leather",
+          12
+        ],
+        [
+          "Powerful Mojo",
+          12
+        ],
+        [
+          "Cured Rugged Hide",
+          2
+        ],
+        [
+          "Rune Thread",
+          4
+        ]
+      ]
+    },
+    {
+      "spellId": "16728",
+      "name": "Helm of the Great Chief",
+      "found": true,
+      "materialMatch": true,
+      "learningRankMatch": true,
+      "ourRequired": 290,
+      "learningRank": 290,
+      "ourMaterials": [
+        [
+          "Jet Black Feather",
+          60
+        ],
+        [
+          "Rugged Leather",
+          40
+        ],
+        [
+          "Huge Emerald",
+          2
+        ],
+        [
+          "Large Opal",
+          6
+        ],
+        [
+          "Enchanted Leather",
+          4
+        ],
+        [
+          "Rune Thread",
+          1
+        ]
+      ],
+      "referenceMaterials": [
+        [
+          "Rugged Leather",
+          40
+        ],
+        [
+          "Enchanted Leather",
+          4
+        ],
+        [
+          "Jet Black Feather",
+          60
+        ],
+        [
+          "Large Opal",
+          6
+        ],
+        [
+          "Huge Emerald",
+          2
+        ],
+        [
+          "Rune Thread",
+          1
+        ]
+      ]
+    },
+    {
+      "spellId": "1297130",
+      "name": "Hivethrasher's Girdle",
+      "found": true,
+      "materialMatch": true,
+      "learningRankMatch": true,
+      "ourRequired": 290,
+      "learningRank": 290,
+      "ourMaterials": [
+        [
+          "Essence of Earth",
+          3
+        ],
+        [
+          "Rugged Leather",
+          18
+        ],
+        [
+          "Enchanted Leather",
+          3
+        ],
+        [
+          "Rune Thread",
+          6
+        ]
+      ],
+      "referenceMaterials": [
+        [
+          "Rugged Leather",
+          18
+        ],
+        [
+          "Enchanted Leather",
+          3
+        ],
+        [
+          "Essence of Earth",
+          3
+        ],
+        [
+          "Rune Thread",
+          6
+        ]
+      ]
+    },
+    {
+      "spellId": "19095",
+      "name": "Living Breastplate",
+      "found": true,
+      "materialMatch": true,
+      "learningRankMatch": true,
+      "ourRequired": 290,
+      "learningRank": 290,
+      "ourMaterials": [
+        [
+          "Rugged Leather",
+          16
+        ],
+        [
+          "Living Essence",
+          8
+        ],
+        [
+          "Rune Thread",
+          2
+        ],
+        [
+          "Mooncloth",
+          2
+        ],
+        [
+          "Cured Rugged Hide",
+          1
+        ]
+      ],
+      "referenceMaterials": [
+        [
+          "Rugged Leather",
+          16
+        ],
+        [
+          "Living Essence",
+          8
+        ],
+        [
+          "Mooncloth",
+          2
+        ],
+        [
+          "Cured Rugged Hide",
+          1
+        ],
+        [
+          "Rune Thread",
+          2
+        ]
+      ]
+    },
+    {
+      "spellId": "22922",
+      "name": "Mongoose Boots",
+      "found": true,
+      "materialMatch": true,
+      "learningRankMatch": true,
+      "ourRequired": 290,
+      "learningRank": 290,
+      "ourMaterials": [
+        [
+          "Essence of Air",
+          6
+        ],
+        [
+          "Rugged Leather",
+          12
+        ],
+        [
+          "Black Diamond",
+          4
+        ],
+        [
+          "Rune Thread",
+          4
+        ],
+        [
+          "Cured Rugged Hide",
+          2
+        ]
+      ],
+      "referenceMaterials": [
+        [
+          "Rugged Leather",
+          12
+        ],
+        [
+          "Essence of Air",
+          6
+        ],
+        [
+          "Black Diamond",
+          4
+        ],
+        [
+          "Cured Rugged Hide",
+          2
+        ],
+        [
+          "Rune Thread",
+          4
+        ]
+      ]
+    },
+    {
+      "spellId": "19054",
+      "name": "Red Dragonscale Breastplate",
+      "found": true,
+      "materialMatch": true,
+      "learningRankMatch": true,
+      "ourRequired": 290,
+      "learningRank": 290,
+      "ourMaterials": [
+        [
+          "Rugged Leather",
+          40
+        ],
+        [
+          "Rune Thread",
+          1
+        ],
+        [
+          "Red Dragonscale",
+          30
+        ]
+      ],
+      "referenceMaterials": [
+        [
+          "Rugged Leather",
+          40
+        ],
+        [
+          "Red Dragonscale",
+          30
+        ],
+        [
+          "Rune Thread",
+          1
+        ]
+      ]
+    },
+    {
+      "spellId": "1297133",
+      "name": "Scalegut Belt",
+      "found": true,
+      "materialMatch": true,
+      "learningRankMatch": true,
+      "ourRequired": 290,
+      "learningRank": 290,
+      "ourMaterials": [
+        [
+          "Essence of Fire",
+          3
+        ],
+        [
+          "Enchanted Leather",
+          3
+        ],
+        [
+          "Rune Thread",
+          6
+        ],
+        [
+          "Heavy Scorpid Scale",
+          7
+        ]
+      ],
+      "referenceMaterials": [
+        [
+          "Heavy Scorpid Scale",
+          7
+        ],
+        [
+          "Enchanted Leather",
+          3
+        ],
+        [
+          "Essence of Fire",
+          3
+        ],
+        [
+          "Rune Thread",
+          6
+        ]
+      ]
+    },
+    {
+      "spellId": "26279",
+      "name": "Stormshroud Gloves",
+      "found": true,
+      "materialMatch": true,
+      "learningRankMatch": true,
+      "ourRequired": 290,
+      "learningRank": 290,
+      "ourMaterials": [
+        [
+          "Essence of Water",
+          4
+        ],
+        [
+          "Essence of Air",
+          4
+        ],
+        [
+          "Enchanted Leather",
+          6
+        ],
+        [
+          "Ironweb Spider Silk",
+          2
+        ],
+        [
+          "Cured Rugged Hide",
+          2
+        ]
+      ],
+      "referenceMaterials": [
+        [
+          "Enchanted Leather",
+          6
+        ],
+        [
+          "Essence of Water",
+          4
+        ],
+        [
+          "Essence of Air",
+          4
+        ],
+        [
+          "Cured Rugged Hide",
+          2
+        ],
+        [
+          "Ironweb Spider Silk",
+          2
+        ]
+      ]
+    },
+    {
+      "spellId": "22923",
+      "name": "Swift Flight Bracers",
+      "found": true,
+      "materialMatch": true,
+      "learningRankMatch": true,
+      "ourRequired": 290,
+      "learningRank": 290,
+      "ourMaterials": [
+        [
+          "Rugged Leather",
+          12
+        ],
+        [
+          "Rune Thread",
+          4
+        ],
+        [
+          "Cured Rugged Hide",
+          4
+        ],
+        [
+          "Ironfeather",
+          60
+        ],
+        [
+          "Larval Acid",
+          8
+        ]
+      ],
+      "referenceMaterials": [
+        [
+          "Rugged Leather",
+          12
+        ],
+        [
+          "Larval Acid",
+          8
+        ],
+        [
+          "Ironfeather",
+          60
+        ],
+        [
+          "Cured Rugged Hide",
+          4
+        ],
+        [
+          "Rune Thread",
+          4
+        ]
+      ]
+    },
+    {
+      "spellId": "1297128",
+      "name": "Bileblister Boots",
+      "found": true,
+      "materialMatch": true,
+      "learningRankMatch": true,
+      "ourRequired": 295,
+      "learningRank": 295,
+      "ourMaterials": [
+        [
+          "Essence of Air",
+          3
+        ],
+        [
+          "Rugged Leather",
+          15
+        ],
+        [
+          "Enchanted Leather",
+          3
+        ],
+        [
+          "Rune Thread",
+          6
+        ]
+      ],
+      "referenceMaterials": [
+        [
+          "Rugged Leather",
+          15
+        ],
+        [
+          "Enchanted Leather",
+          3
+        ],
+        [
+          "Essence of Air",
+          3
+        ],
+        [
+          "Rune Thread",
+          6
+        ]
+      ]
+    },
+    {
+      "spellId": "1297137",
+      "name": "Broodwatcher's Treaders",
+      "found": true,
+      "materialMatch": true,
+      "learningRankMatch": true,
+      "ourRequired": 295,
+      "learningRank": 295,
+      "ourMaterials": [
+        [
+          "Essence of Water",
+          3
+        ],
+        [
+          "Enchanted Leather",
+          3
+        ],
+        [
+          "Rune Thread",
+          6
+        ],
+        [
+          "Heavy Scorpid Scale",
+          6
+        ]
+      ],
+      "referenceMaterials": [
+        [
+          "Heavy Scorpid Scale",
+          6
+        ],
+        [
+          "Enchanted Leather",
+          3
+        ],
+        [
+          "Essence of Water",
+          3
+        ],
+        [
+          "Rune Thread",
+          6
+        ]
+      ]
+    },
+    {
+      "spellId": "23706",
+      "name": "Golden Mantle of the Dawn",
+      "found": true,
+      "materialMatch": true,
+      "learningRankMatch": null,
+      "ourRequired": 295,
+      "learningRank": null,
+      "ourMaterials": [
+        [
+          "Living Essence",
+          4
+        ],
+        [
+          "Guardian Stone",
+          4
+        ],
+        [
+          "Enchanted Leather",
+          8
+        ],
+        [
+          "Rune Thread",
+          2
+        ],
+        [
+          "Cured Rugged Hide",
+          2
+        ]
+      ],
+      "referenceMaterials": [
+        [
+          "Enchanted Leather",
+          8
+        ],
+        [
+          "Living Essence",
+          4
+        ],
+        [
+          "Guardian Stone",
+          4
+        ],
+        [
+          "Cured Rugged Hide",
+          2
+        ],
+        [
+          "Rune Thread",
+          2
+        ]
+      ]
+    },
+    {
+      "spellId": "23629",
+      "name": "Heavy Timbermaw Boots",
+      "found": true,
+      "materialMatch": true,
+      "learningRankMatch": true,
+      "ourRequired": 295,
+      "learningRank": 295,
+      "ourMaterials": [
+        [
+          "Essence of Earth",
+          6
+        ],
+        [
+          "Rugged Leather",
+          20
+        ],
+        [
+          "Living Essence",
+          6
+        ],
+        [
+          "Rune Thread",
+          1
+        ]
+      ],
+      "referenceMaterials": [
+        [
+          "Rugged Leather",
+          20
+        ],
+        [
+          "Essence of Earth",
+          6
+        ],
+        [
+          "Living Essence",
+          6
+        ],
+        [
+          "Rune Thread",
+          1
+        ]
+      ]
+    },
+    {
+      "spellId": "1297131",
+      "name": "Hivethrasher's Boots",
+      "found": true,
+      "materialMatch": true,
+      "learningRankMatch": true,
+      "ourRequired": 295,
+      "learningRank": 295,
+      "ourMaterials": [
+        [
+          "Essence of Earth",
+          3
+        ],
+        [
+          "Rugged Leather",
+          15
+        ],
+        [
+          "Enchanted Leather",
+          3
+        ],
+        [
+          "Rune Thread",
+          6
+        ]
+      ],
+      "referenceMaterials": [
+        [
+          "Rugged Leather",
+          15
+        ],
+        [
+          "Enchanted Leather",
+          3
+        ],
+        [
+          "Essence of Earth",
+          3
+        ],
+        [
+          "Rune Thread",
+          6
+        ]
+      ]
+    },
+    {
+      "spellId": "1297134",
+      "name": "Scalegut Treaders",
+      "found": true,
+      "materialMatch": true,
+      "learningRankMatch": true,
+      "ourRequired": 295,
+      "learningRank": 295,
+      "ourMaterials": [
+        [
+          "Essence of Fire",
+          3
+        ],
+        [
+          "Enchanted Leather",
+          3
+        ],
+        [
+          "Rune Thread",
+          6
+        ],
+        [
+          "Heavy Scorpid Scale",
+          6
+        ]
+      ],
+      "referenceMaterials": [
+        [
+          "Heavy Scorpid Scale",
+          6
+        ],
+        [
+          "Enchanted Leather",
+          3
+        ],
+        [
+          "Essence of Fire",
+          3
+        ],
+        [
+          "Rune Thread",
+          6
+        ]
+      ]
+    },
+    {
+      "spellId": "23704",
+      "name": "Timbermaw Brawlers",
+      "found": true,
+      "materialMatch": true,
+      "learningRankMatch": true,
+      "ourRequired": 295,
+      "learningRank": 295,
+      "ourMaterials": [
+        [
+          "Living Essence",
+          6
+        ],
+        [
+          "Powerful Mojo",
+          6
+        ],
+        [
+          "Enchanted Leather",
+          8
+        ],
+        [
+          "Ironweb Spider Silk",
+          2
+        ],
+        [
+          "Cured Rugged Hide",
+          2
+        ]
+      ],
+      "referenceMaterials": [
+        [
+          "Enchanted Leather",
+          8
+        ],
+        [
+          "Powerful Mojo",
+          6
+        ],
+        [
+          "Living Essence",
+          6
+        ],
+        [
+          "Cured Rugged Hide",
+          2
+        ],
+        [
+          "Ironweb Spider Silk",
+          2
+        ]
+      ]
+    },
+    {
+      "spellId": "24124",
+      "name": "Blood Tiger Breastplate",
+      "found": true,
+      "materialMatch": true,
+      "learningRankMatch": true,
+      "ourRequired": 300,
+      "learningRank": 300,
+      "ourMaterials": [
+        [
+          "Rune Thread",
+          3
+        ],
+        [
+          "Cured Rugged Hide",
+          3
+        ],
+        [
+          "Bloodvine",
+          2
+        ],
+        [
+          "Primal Tiger Leather",
+          35
+        ]
+      ],
+      "referenceMaterials": [
+        [
+          "Primal Tiger Leather",
+          35
+        ],
+        [
+          "Bloodvine",
+          2
+        ],
+        [
+          "Cured Rugged Hide",
+          3
+        ],
+        [
+          "Rune Thread",
+          3
+        ]
+      ]
+    },
+    {
+      "spellId": "24125",
+      "name": "Blood Tiger Shoulders",
+      "found": true,
+      "materialMatch": true,
+      "learningRankMatch": true,
+      "ourRequired": 300,
+      "learningRank": 300,
+      "ourMaterials": [
+        [
+          "Rune Thread",
+          3
+        ],
+        [
+          "Cured Rugged Hide",
+          3
+        ],
+        [
+          "Bloodvine",
+          2
+        ],
+        [
+          "Primal Tiger Leather",
+          25
+        ]
+      ],
+      "referenceMaterials": [
+        [
+          "Primal Tiger Leather",
+          25
+        ],
+        [
+          "Bloodvine",
+          2
+        ],
+        [
+          "Cured Rugged Hide",
+          3
+        ],
+        [
+          "Rune Thread",
+          3
+        ]
+      ]
+    },
+    {
+      "spellId": "28474",
+      "name": "Bramblewood Belt",
+      "found": true,
+      "materialMatch": true,
+      "learningRankMatch": null,
+      "ourRequired": 300,
+      "learningRank": null,
+      "ourMaterials": [
+        [
+          "Living Essence",
+          2
+        ],
+        [
+          "Enchanted Leather",
+          4
+        ],
+        [
+          "Cured Rugged Hide",
+          1
+        ]
+      ],
+      "referenceMaterials": [
+        [
+          "Enchanted Leather",
+          4
+        ],
+        [
+          "Living Essence",
+          2
+        ],
+        [
+          "Cured Rugged Hide",
+          1
+        ]
+      ]
+    },
+    {
+      "spellId": "28473",
+      "name": "Bramblewood Boots",
+      "found": true,
+      "materialMatch": true,
+      "learningRankMatch": null,
+      "ourRequired": 300,
+      "learningRank": null,
+      "ourMaterials": [
+        [
+          "Living Essence",
+          2
+        ],
+        [
+          "Enchanted Leather",
+          6
+        ],
+        [
+          "Cured Rugged Hide",
+          2
+        ],
+        [
+          "Larval Acid",
+          2
+        ]
+      ],
+      "referenceMaterials": [
+        [
+          "Enchanted Leather",
+          6
+        ],
+        [
+          "Larval Acid",
+          2
+        ],
+        [
+          "Living Essence",
+          2
+        ],
+        [
+          "Cured Rugged Hide",
+          2
+        ]
+      ]
+    },
+    {
+      "spellId": "28472",
+      "name": "Bramblewood Helm",
+      "found": true,
+      "materialMatch": true,
+      "learningRankMatch": null,
+      "ourRequired": 300,
+      "learningRank": null,
+      "ourMaterials": [
+        [
+          "Living Essence",
+          2
+        ],
+        [
+          "Enchanted Leather",
+          12
+        ],
+        [
+          "Cured Rugged Hide",
+          2
+        ],
+        [
+          "Bloodvine",
+          2
+        ]
+      ],
+      "referenceMaterials": [
+        [
+          "Enchanted Leather",
+          12
+        ],
+        [
+          "Bloodvine",
+          2
+        ],
+        [
+          "Living Essence",
+          2
+        ],
+        [
+          "Cured Rugged Hide",
+          2
+        ]
+      ]
+    },
+    {
+      "spellId": "22727",
+      "name": "Core Armor Kit",
+      "found": true,
+      "materialMatch": true,
+      "learningRankMatch": true,
+      "ourRequired": 300,
+      "learningRank": 300,
+      "ourMaterials": [
+        [
+          "Rune Thread",
+          2
+        ],
+        [
+          "Core Leather",
+          3
+        ]
+      ],
+      "referenceMaterials": [
+        [
+          "Core Leather",
+          3
+        ],
+        [
+          "Rune Thread",
+          2
+        ]
+      ]
+    },
+    {
+      "spellId": "19093",
+      "name": "Onyxia Scale Cloak",
+      "found": true,
+      "materialMatch": true,
+      "learningRankMatch": null,
+      "ourRequired": 300,
+      "learningRank": null,
+      "ourMaterials": [
+        [
+          "Cindercloth Cloak",
+          1
+        ],
+        [
+          "Rune Thread",
+          1
+        ],
+        [
+          "Scale of Onyxia",
+          1
+        ]
+      ],
+      "referenceMaterials": [
+        [
+          "Scale of Onyxia",
+          1
+        ],
+        [
+          "Cindercloth Cloak",
+          1
+        ],
+        [
+          "Rune Thread",
+          1
+        ]
+      ]
+    },
+    {
+      "spellId": "24123",
+      "name": "Primal Batskin Bracers",
+      "found": true,
+      "materialMatch": true,
+      "learningRankMatch": true,
+      "ourRequired": 300,
+      "learningRank": 300,
+      "ourMaterials": [
+        [
+          "Living Essence",
+          4
+        ],
+        [
+          "Rune Thread",
+          3
+        ],
+        [
+          "Cured Rugged Hide",
+          3
+        ],
+        [
+          "Primal Bat Leather",
+          8
+        ]
+      ],
+      "referenceMaterials": [
+        [
+          "Primal Bat Leather",
+          8
+        ],
+        [
+          "Cured Rugged Hide",
+          3
+        ],
+        [
+          "Living Essence",
+          4
+        ],
+        [
+          "Rune Thread",
+          3
+        ]
+      ]
+    },
+    {
+      "spellId": "24122",
+      "name": "Primal Batskin Gloves",
+      "found": true,
+      "materialMatch": true,
+      "learningRankMatch": true,
+      "ourRequired": 300,
+      "learningRank": 300,
+      "ourMaterials": [
+        [
+          "Living Essence",
+          4
+        ],
+        [
+          "Rune Thread",
+          3
+        ],
+        [
+          "Cured Rugged Hide",
+          4
+        ],
+        [
+          "Primal Bat Leather",
+          10
+        ]
+      ],
+      "referenceMaterials": [
+        [
+          "Primal Bat Leather",
+          10
+        ],
+        [
+          "Cured Rugged Hide",
+          4
+        ],
+        [
+          "Living Essence",
+          4
+        ],
+        [
+          "Rune Thread",
+          3
+        ]
+      ]
+    },
+    {
+      "spellId": "24121",
+      "name": "Primal Batskin Jerkin",
+      "found": true,
+      "materialMatch": true,
+      "learningRankMatch": true,
+      "ourRequired": 300,
+      "learningRank": 300,
+      "ourMaterials": [
+        [
+          "Living Essence",
+          4
+        ],
+        [
+          "Rune Thread",
+          4
+        ],
+        [
+          "Cured Rugged Hide",
+          5
+        ],
+        [
+          "Primal Bat Leather",
+          14
+        ]
+      ],
+      "referenceMaterials": [
+        [
+          "Primal Bat Leather",
+          14
+        ],
+        [
+          "Cured Rugged Hide",
+          5
+        ],
+        [
+          "Living Essence",
+          4
+        ],
+        [
+          "Rune Thread",
+          4
+        ]
+      ]
+    },
+    {
+      "spellId": "24849",
+      "name": "Sandstalker Bracers",
+      "found": true,
+      "materialMatch": true,
+      "learningRankMatch": null,
+      "ourRequired": 300,
+      "learningRank": null,
+      "ourMaterials": [
+        [
+          "Larval Acid",
+          2
+        ],
+        [
+          "Silithid Chitin",
+          20
+        ],
+        [
+          "Heavy Silithid Carapace",
+          1
+        ]
+      ],
+      "referenceMaterials": [
+        [
+          "Heavy Silithid Carapace",
+          1
+        ],
+        [
+          "Silithid Chitin",
+          20
+        ],
+        [
+          "Larval Acid",
+          2
+        ]
+      ]
+    },
+    {
+      "spellId": "24851",
+      "name": "Sandstalker Breastplate",
+      "found": true,
+      "materialMatch": true,
+      "learningRankMatch": null,
+      "ourRequired": 300,
+      "learningRank": null,
+      "ourMaterials": [
+        [
+          "Cured Rugged Hide",
+          2
+        ],
+        [
+          "Larval Acid",
+          2
+        ],
+        [
+          "Silithid Chitin",
+          40
+        ],
+        [
+          "Heavy Silithid Carapace",
+          3
+        ]
+      ],
+      "referenceMaterials": [
+        [
+          "Heavy Silithid Carapace",
+          3
+        ],
+        [
+          "Silithid Chitin",
+          40
+        ],
+        [
+          "Larval Acid",
+          2
+        ],
+        [
+          "Cured Rugged Hide",
+          2
+        ]
+      ]
+    },
+    {
+      "spellId": "24850",
+      "name": "Sandstalker Gauntlets",
+      "found": true,
+      "materialMatch": true,
+      "learningRankMatch": null,
+      "ourRequired": 300,
+      "learningRank": null,
+      "ourMaterials": [
+        [
+          "Cured Rugged Hide",
+          1
+        ],
+        [
+          "Larval Acid",
+          2
+        ],
+        [
+          "Silithid Chitin",
+          30
+        ],
+        [
+          "Heavy Silithid Carapace",
+          2
+        ]
+      ],
+      "referenceMaterials": [
+        [
+          "Heavy Silithid Carapace",
+          2
+        ],
+        [
+          "Silithid Chitin",
+          30
+        ],
+        [
+          "Larval Acid",
+          2
+        ],
+        [
+          "Cured Rugged Hide",
+          1
+        ]
+      ]
+    },
+    {
+      "spellId": "24846",
+      "name": "Spitfire Bracers",
+      "found": true,
+      "materialMatch": true,
+      "learningRankMatch": null,
+      "ourRequired": 300,
+      "learningRank": null,
+      "ourMaterials": [
+        [
+          "Essence of Fire",
+          2
+        ],
+        [
+          "Silithid Chitin",
+          20
+        ],
+        [
+          "Light Silithid Carapace",
+          1
+        ]
+      ],
+      "referenceMaterials": [
+        [
+          "Light Silithid Carapace",
+          1
+        ],
+        [
+          "Silithid Chitin",
+          20
+        ],
+        [
+          "Essence of Fire",
+          2
+        ]
+      ]
+    },
+    {
+      "spellId": "24848",
+      "name": "Spitfire Breastplate",
+      "found": true,
+      "materialMatch": true,
+      "learningRankMatch": null,
+      "ourRequired": 300,
+      "learningRank": null,
+      "ourMaterials": [
+        [
+          "Essence of Fire",
+          2
+        ],
+        [
+          "Cured Rugged Hide",
+          2
+        ],
+        [
+          "Silithid Chitin",
+          40
+        ],
+        [
+          "Light Silithid Carapace",
+          3
+        ]
+      ],
+      "referenceMaterials": [
+        [
+          "Light Silithid Carapace",
+          3
+        ],
+        [
+          "Silithid Chitin",
+          40
+        ],
+        [
+          "Essence of Fire",
+          2
+        ],
+        [
+          "Cured Rugged Hide",
+          2
+        ]
+      ]
+    },
+    {
+      "spellId": "24847",
+      "name": "Spitfire Gauntlets",
+      "found": true,
+      "materialMatch": true,
+      "learningRankMatch": null,
+      "ourRequired": 300,
+      "learningRank": null,
+      "ourMaterials": [
+        [
+          "Essence of Fire",
+          2
+        ],
+        [
+          "Cured Rugged Hide",
+          1
+        ],
+        [
+          "Silithid Chitin",
+          30
+        ],
+        [
+          "Light Silithid Carapace",
+          2
+        ]
+      ],
+      "referenceMaterials": [
+        [
+          "Light Silithid Carapace",
+          2
+        ],
+        [
+          "Silithid Chitin",
+          30
+        ],
+        [
+          "Essence of Fire",
+          2
+        ],
+        [
+          "Cured Rugged Hide",
+          1
+        ]
+      ]
+    },
+    {
+      "spellId": "1306532",
+      "name": "Wild Leather Armor Kit",
+      "found": true,
+      "materialMatch": true,
+      "learningRankMatch": true,
+      "ourRequired": 300,
+      "learningRank": 300,
+      "ourMaterials": [
+        [
+          "Rune Thread",
+          3
+        ],
+        [
+          "Fel Leather",
+          22
+        ]
+      ],
+      "referenceMaterials": [
+        [
+          "Fel Leather",
+          22
+        ],
+        [
+          "Rune Thread",
+          3
+        ]
+      ]
+    }
+  ],
+  "note": "Learning requirement can differ from crafting minimum for trainer spells. Only explicit pattern-item learning ranks should be treated as an additional cross-check; colors are never used."
+}

@@ -1,0 +1,21 @@
+name: Inspect Forever rare stats markup
+on:
+  push:
+    paths:
+      - scripts/inspect-rare-stats-markup.py
+      - .github/workflows/inspect-rare-stats-markup.yml
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  inspect:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: python3 -m pip install beautifulsoup4
+      - run: python3 scripts/inspect-rare-stats-markup.py
+      - run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs/rare-stats-markup.json
+          git diff --cached --quiet || (git commit -m "docs: inspect Forever tooltip stats field structure" && git push)

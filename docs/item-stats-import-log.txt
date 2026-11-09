@@ -1,0 +1,7 @@
+Traceback (most recent call last):
+  File "/home/runner/work/wow-professions/wow-professions/scripts/build-item-stats.py", line 97, in <module>
+    raise RuntimeError("Rare item stats import requires full coverage; errors:\n"+"\n".join(errors[:25]))
+RuntimeError: Rare item stats import requires full coverage; errors:
+Essential item level/slot missing for Core Armor Kit: ['Rare', 'Item Level 60', 'Requires Level 50', 'Sell Price 50s']
+Essential item level/slot missing for Onyxia Scale Cloak: ['Rare', 'Back', 'Item Level 60', 'Requires Level 55', 'Binds when equipped', '43 Armor', '+7 Stamina', '+16 Fire Resistance', 'Sell Price 1g 49s 22c']
+Essential item level/slot missing for Wild Leather Armor Kit: ['Rare', 'Item Level 65', 'Requires Level 60', 'Sell Price 50s']

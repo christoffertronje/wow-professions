@@ -35,6 +35,11 @@ for sid,level in newer_skills.items():
     if skill_lookup.get(sid) is not None and skill_lookup[sid]!=level:
         raise RuntimeError(f"Conflicting pattern-learning skill for {sid}")
 
+# Output item quality corrections are verified from explicit Forever item
+# tooltips. Keep the override in this importer so rebuilds cannot undo it.
+quality_path=pathlib.Path("data/item-quality-corrections.json")
+quality_overrides=json.loads(quality_path.read_text(encoding="utf-8"))["byItemId"] if quality_path.exists() else {}
+assert len(quality_overrides)==32, "Expected 32 verified Epic quality corrections"
 items={row["id"]:row for row in snapshot["items"] if isinstance(row,dict) and "id" in row}
 all_recipes=[r for r in snapshot["recipes"] if r.get("professionId")==165 or 165 in r.get("professionIds",[])]
 result=[]
@@ -49,6 +54,8 @@ for r in all_recipes:
             item=items.get(reagent.get("itemId"),{})
             mats.append([item.get("name") or "Unknown item #"+str(reagent.get("itemId")),reagent.get("quantity")])
     quality=QUALITY.get(raw_quality,"unknown")
+    if str(output_id) in quality_overrides:
+        quality=quality_overrides[str(output_id)]
     result.append({
         "id":str(r["id"]),
         "name":r.get("name") or (output or {}).get("name") or "Unnamed recipe",

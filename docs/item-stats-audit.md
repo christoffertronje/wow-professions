@@ -26,3 +26,24 @@ Compare sampled or full 201-item stat records against a second independent Forev
 ## Presentation
 
 The expandable recipe row now renders an Item stats section before the existing materials, with character level distinct from Leatherworking skill. Equipment attributes, resistances and special effects are preserved without replacing the source tooltip. The recipe requirements and reagent amounts remain unchanged.
+
+## Independent 201-item field audit — 2026-11-09
+
+The script `scripts/audit-rare-second-source.py` fetches all **201 produced rare item IDs** from [Bind on Forever](https://bindonforever.com/items), whose records use WoW Forever client build `1.60.1.70862`. It compares the structured item level, required character level, binding, slot/type, armor, primary attributes, resistances and text effects against the earlier `data/item-stats.json` imported from Forever Talent.
+
+Result: **199 complete matches**, **zero unresolved numerical disagreements in comparable fields**, and **two inconclusive Armor Kit effect tooltips** because Bind on Forever exposes raw parameter placeholders (`0c1`, `0c2`, `0cim`). The comparison deliberately treats these undecoded placeholders as *unknown* rather than equal to (or corrections of) our actual values. All 201 item IDs were found; no names remain unmatched.
+
+### Reviewed and fixed
+
+- **Swift Flight Bracers**, item `18508`: added missing `Equip: +41 Ranged Attack Power.`, independently corroborated by ForeverDB and Wowhead Forever. This correction is persistent in `data/item-stats-corrections.json`.
+- **Wild Leather Armor Kit**, item `279258`: corrected `+0 Stamina` to **`+10 Stamina`**, and `items level 0+` to **`items level 45+`**, corroborated by Wowhead Forever, Forever Mastery and ForeverDB. Its new-client template remains undecoded in Bind on Forever; therefore it is source-resolved but not counted among the 199 exact comparative matches.
+- **Dragonscale Breastplate**, item `8367`: the newer source's `+13 to All Resistances` is equivalent to the five explicit resistances (`Arcane, Fire, Frost, Nature, Shadow`) in our tooltip. No change necessary.
+- **Skulker's Leather Shoulders**, item `252535`: the newer source uses singular “Shoulder”. Exact item ID and stat values agree; accepted as a spelling alias.
+- **Core Armor Kit**, item `18251`: still **disputed**. Wowhead Forever's item description gives **+4 Defense and item level 0+**; Forever Mastery and ForeverDB give **+3 Defense and item level 45+**; Bind on Forever displays unresolved spell-template parameters. The app retains the sourced original value with a visible warning. **Only an in-game verification can definitively settle this.**
+
+### Guardrails
+
+- `scripts/validate-item-stats.py` now checks all 201 item/recipe relationships, the verified Swift Flight Bracers and Wild Leather Armor Kit bonuses, and the unresolved Core Armor Kit warning.
+- `scripts/build-item-stats.py` reapplies `data/item-stats-corrections.json` after every import, so old data cannot silently restore the wrong effect text.
+- `docs/rare-stats-second-source-audit.json` records the per-item field comparison and evidence links. Re-run the audit after a newer client build or an in-game correction.
+- No source is a substitute for item stats checked directly inside live WoW Forever.

@@ -1,1 +1,1 @@
-{'totalUncommon': 213, 'match': 191, 'difference': 15, 'inconclusive': 6, 'source-unavailable': 0, 'identity-mismatch': 1, 'sourcesFetched': 206, 'fullyMatching': 191, 'disagreements': 15, 'fieldsWithDisagreements': {'armorType': 11, 'effects': 4}}
+{'totalUncommon': 213, 'match': 203, 'difference': 4, 'inconclusive': 6, 'source-unavailable': 0, 'identity-mismatch': 0, 'sourcesFetched': 207, 'fullyMatching': 203, 'disagreements': 4, 'fieldsWithDisagreements': {'effects': 4}}

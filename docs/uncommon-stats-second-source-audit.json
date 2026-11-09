@@ -8,16 +8,15 @@
   },
   "summary": {
     "totalUncommon": 213,
-    "match": 191,
-    "difference": 15,
+    "match": 203,
+    "difference": 4,
     "inconclusive": 6,
     "source-unavailable": 0,
-    "identity-mismatch": 1,
-    "sourcesFetched": 206,
-    "fullyMatching": 191,
-    "disagreements": 15,
+    "identity-mismatch": 0,
+    "sourcesFetched": 207,
+    "fullyMatching": 203,
+    "disagreements": 4,
     "fieldsWithDisagreements": {
-      "armorType": 11,
       "effects": 4
     }
   },
@@ -129,7 +128,7 @@
       "itemId": "2308",
       "name": "Fine Leather Cloak",
       "url": "https://bindonforever.com/item/2308",
-      "status": "difference",
+      "status": "match",
       "checkedFields": [
         "itemLevel",
         "requiredCharacterLevel",
@@ -139,13 +138,7 @@
         "stats",
         "resistances"
       ],
-      "differences": [
-        {
-          "field": "armorType",
-          "ours": "Cloaks",
-          "source": null
-        }
-      ],
+      "differences": [],
       "unresolvedEffectTemplate": false,
       "source": {
         "name": "Fine Leather Cloak",
@@ -205,7 +198,7 @@
       "itemId": "2310",
       "name": "Embossed Leather Cloak",
       "url": "https://bindonforever.com/item/2310",
-      "status": "difference",
+      "status": "match",
       "checkedFields": [
         "itemLevel",
         "requiredCharacterLevel",
@@ -215,13 +208,7 @@
         "stats",
         "resistances"
       ],
-      "differences": [
-        {
-          "field": "armorType",
-          "ours": "Cloaks",
-          "source": null
-        }
-      ],
+      "differences": [],
       "unresolvedEffectTemplate": false,
       "source": {
         "name": "Embossed Leather Cloak",
@@ -352,7 +339,7 @@
       "itemId": "2316",
       "name": "Dark Leather Cloak",
       "url": "https://bindonforever.com/item/2316",
-      "status": "difference",
+      "status": "match",
       "checkedFields": [
         "itemLevel",
         "requiredCharacterLevel",
@@ -362,13 +349,7 @@
         "stats",
         "resistances"
       ],
-      "differences": [
-        {
-          "field": "armorType",
-          "ours": "Cloaks",
-          "source": null
-        }
-      ],
+      "differences": [],
       "unresolvedEffectTemplate": false,
       "source": {
         "name": "Dark Leather Cloak",
@@ -426,7 +407,7 @@
       "itemId": "3719",
       "name": "Hillman's Cloak",
       "url": "https://bindonforever.com/item/3719",
-      "status": "difference",
+      "status": "match",
       "checkedFields": [
         "itemLevel",
         "requiredCharacterLevel",
@@ -437,13 +418,7 @@
         "resistances",
         "effects"
       ],
-      "differences": [
-        {
-          "field": "armorType",
-          "ours": "Cloaks",
-          "source": null
-        }
-      ],
+      "differences": [],
       "unresolvedEffectTemplate": false,
       "source": {
         "name": "Hillman's Cloak",
@@ -1640,7 +1615,7 @@
       "itemId": "5965",
       "name": "Guardian Cloak",
       "url": "https://bindonforever.com/item/5965",
-      "status": "difference",
+      "status": "match",
       "checkedFields": [
         "itemLevel",
         "requiredCharacterLevel",
@@ -1651,13 +1626,7 @@
         "resistances",
         "effects"
       ],
-      "differences": [
-        {
-          "field": "armorType",
-          "ours": "Cloaks",
-          "source": null
-        }
-      ],
+      "differences": [],
       "unresolvedEffectTemplate": false,
       "source": {
         "name": "Guardian Cloak",
@@ -1719,7 +1688,7 @@
       "itemId": "6466",
       "name": "Deviate Scale Cloak",
       "url": "https://bindonforever.com/item/6466",
-      "status": "difference",
+      "status": "match",
       "checkedFields": [
         "itemLevel",
         "requiredCharacterLevel",
@@ -1729,13 +1698,7 @@
         "stats",
         "resistances"
       ],
-      "differences": [
-        {
-          "field": "armorType",
-          "ours": "Cloaks",
-          "source": null
-        }
-      ],
+      "differences": [],
       "unresolvedEffectTemplate": false,
       "source": {
         "name": "Deviate Scale Cloak",
@@ -1935,7 +1898,7 @@
       "itemId": "7283",
       "name": "Black Whelp Cloak",
       "url": "https://bindonforever.com/item/7283",
-      "status": "difference",
+      "status": "match",
       "checkedFields": [
         "itemLevel",
         "requiredCharacterLevel",
@@ -1946,13 +1909,7 @@
         "resistances",
         "effects"
       ],
-      "differences": [
-        {
-          "field": "armorType",
-          "ours": "Cloaks",
-          "source": null
-        }
-      ],
+      "differences": [],
       "unresolvedEffectTemplate": false,
       "source": {
         "name": "Black Whelp Cloak",
@@ -2420,7 +2377,7 @@
       "itemId": "7377",
       "name": "Frost Leather Cloak",
       "url": "https://bindonforever.com/item/7377",
-      "status": "difference",
+      "status": "match",
       "checkedFields": [
         "itemLevel",
         "requiredCharacterLevel",
@@ -2431,13 +2388,7 @@
         "resistances",
         "effects"
       ],
-      "differences": [
-        {
-          "field": "armorType",
-          "ours": "Cloaks",
-          "source": null
-        }
-      ],
+      "differences": [],
       "unresolvedEffectTemplate": false,
       "source": {
         "name": "Frost Leather Cloak",
@@ -2967,7 +2918,7 @@
       "itemId": "8195",
       "name": "Nightscape Cloak",
       "url": "https://bindonforever.com/item/8195",
-      "status": "difference",
+      "status": "match",
       "checkedFields": [
         "itemLevel",
         "requiredCharacterLevel",
@@ -2977,13 +2928,7 @@
         "stats",
         "resistances"
       ],
-      "differences": [
-        {
-          "field": "armorType",
-          "ours": "Cloaks",
-          "source": null
-        }
-      ],
+      "differences": [],
       "unresolvedEffectTemplate": false,
       "source": {
         "name": "Nightscape Cloak",
@@ -3608,7 +3553,7 @@
       "itemId": "8215",
       "name": "Wild Leather Cloak",
       "url": "https://bindonforever.com/item/8215",
-      "status": "difference",
+      "status": "match",
       "checkedFields": [
         "itemLevel",
         "requiredCharacterLevel",
@@ -3618,13 +3563,7 @@
         "stats",
         "resistances"
       ],
-      "differences": [
-        {
-          "field": "armorType",
-          "ours": "Cloaks",
-          "source": null
-        }
-      ],
+      "differences": [],
       "unresolvedEffectTemplate": false,
       "source": {
         "name": "Wild Leather Cloak",
@@ -3645,7 +3584,7 @@
       "itemId": "8216",
       "name": "Big Voodoo Cloak",
       "url": "https://bindonforever.com/item/8216",
-      "status": "difference",
+      "status": "match",
       "checkedFields": [
         "itemLevel",
         "requiredCharacterLevel",
@@ -3656,13 +3595,7 @@
         "resistances",
         "effects"
       ],
-      "differences": [
-        {
-          "field": "armorType",
-          "ours": "Cloaks",
-          "source": null
-        }
-      ],
+      "differences": [],
       "unresolvedEffectTemplate": false,
       "source": {
         "name": "Big Voodoo Cloak",
@@ -4225,8 +4158,36 @@
       "itemId": "15078",
       "name": "Heavy Scorpid Gauntlets",
       "url": "https://bindonforever.com/item/15078",
-      "status": "identity-mismatch",
-      "sourceName": "Heavy Scorpid Gauntlet"
+      "status": "match",
+      "checkedFields": [
+        "itemLevel",
+        "requiredCharacterLevel",
+        "slot",
+        "armorType",
+        "armor",
+        "binding",
+        "stats",
+        "resistances"
+      ],
+      "differences": [],
+      "unresolvedEffectTemplate": false,
+      "source": {
+        "name": "Heavy Scorpid Gauntlet",
+        "itemLevel": 55,
+        "requiredCharacterLevel": 50,
+        "slot": "Hands",
+        "armorType": "Mail",
+        "armor": 186,
+        "binding": "BoE",
+        "stats": {
+          "Agility": 12,
+          "Stamina": 12
+        },
+        "resistances": {},
+        "effects": []
+      },
+      "oldBuild": "2026-10-17",
+      "newBuild": "1.60.1.70862"
     },
     {
       "itemId": "15079",

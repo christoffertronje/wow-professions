@@ -42,13 +42,13 @@ details summary{cursor:pointer;color:#d9bc81}details{margin-top:12px}.hidden{dis
 <section class="panel" aria-labelledby="character-title">
 <h2 id="character-title">Your character</h2>
 <label>Armory character URL<input id="armory" type="url" placeholder="https://armorywowforever.com/c/forever/eu/pvp/Name-Surname"></label>
-<p class="note">Armory import is not connected yet. Saving this link does not fetch your gear. Enter level and current equipment below to compare real values.</p>
+<p class="note">Forgebook can import the public equipment snapshot for Majblomma Tronjesson once Battle.net API credentials are configured on GitHub. Updates run every 6 hours; you can still edit all values manually.</p>
 <div class="grid">
 <label>Character level<input id="level" type="number" min="1" max="60" value="30" inputmode="numeric"></label>
 <label>Leatherworking skill<input id="skill" type="number" min="1" max="300" value="125" inputmode="numeric"></label>
 <label>Class<select id="class"><option value="">Choose class (optional)</option><option>Druid</option><option>Rogue</option><option>Hunter</option><option>Shaman</option><option>Warrior</option><option>Paladin</option><option>Mage</option><option>Priest</option><option>Warlock</option></select></label>
 <label>Preferred armor<select id="armorType"><option value="">All armor types</option><option value="Leather">Leather</option><option value="Mail">Mail</option></select></label>
-</div><div class="actions"><button id="save">Save locally</button><a id="armoryOpen" href="https://armorywowforever.com/" target="_blank" rel="noopener noreferrer">Open Armory ↗</a></div>
+</div><div class="actions"><button id="import" type="button" class="subtle">Import Majblomma from Armory</button><button id="save">Save locally</button><a id="armoryOpen" href="https://armorywowforever.com/" target="_blank" rel="noopener noreferrer">Open Armory ↗</a></div>
 <div id="status" class="status" role="status" aria-live="polite"></div>
 </section>
 <section class="panel"><h2>Choose gear slot</h2><div id="slots" class="slotgrid"></div></section>
@@ -72,12 +72,13 @@ const $=id=>document.getElementById(id);
 const state={slot:"Hands",recipes:[],items:{},equipped:{},level:30,skill:125};
 const known=()=>{try{return JSON.parse(localStorage.getItem(STORAGE)||"{}")}catch{return {}}};
 const saved=known();
-if(saved.armory)$("armory").value=saved.armory;
+$("armory").value=saved.armory||"https://armorywowforever.com/c/forever/eu/pvp/Majblomma-Tronjesson";
 if(Number.isFinite(saved.level))$("level").value=saved.level;
 if(Number.isFinite(saved.skill))$("skill").value=saved.skill;
 if(saved.class)$("class").value=saved.class;
 if(saved.armorType)$("armorType").value=saved.armorType;
 state.equipped=saved.equipped||{};
+let armorySnapshot=null;
 state.slot=slots.includes(saved.slot)?saved.slot:"Hands";
 function validateArmory(value){
   if(!value.trim())return null;
@@ -89,7 +90,7 @@ function save(){
  const payload={armory:url||"",level:Number($("level").value),skill:Number($("skill").value),class:$("class").value,armorType:$("armorType").value,slot:state.slot,equipped:state.equipped};
  localStorage.setItem(STORAGE,JSON.stringify(payload));
  $("armoryOpen").href=url||"https://armorywowforever.com/";
- $("status").textContent="Saved in this browser only. No character information was fetched.";
+ $("status").textContent="Settings and equipment saved in this browser.";
  return true;
 }
 function renderSlots(){
@@ -156,7 +157,48 @@ function showCandidates(){
 $("save").onclick=()=>{captureEquipped();save()};
 $("compare").onclick=()=>{showCandidates();save()};
 $("reset").onclick=()=>{state.equipped[state.slot]={};renderEquipped();showCandidates();save()};
-$("armory").addEventListener("input",()=>{$("status").textContent="Armory URL stored locally only; automatic import is not enabled."});
+$("armory").addEventListener("input",()=>{$("status").textContent="Only Majblomma Tronjesson is supported by the current server snapshot. Other links can be saved for later."});
+// Import a build-time, public Battle.net snapshot. No secrets are sent to the browser.
+const MAJBLOMMA="majblomma-tronjesson";
+function showSyncTime(){
+ if(!armorySnapshot)return;
+ const fetched=new Date(armorySnapshot.fetchedAt);
+ const label=Number.isNaN(fetched.getTime())?"unknown time":fetched.toLocaleString();
+ $("status").textContent="Armory snapshot available · synced "+label+".";
+}
+function importArmory(){
+ const url=validateArmory($("armory").value);
+ if(!url||!url.toLowerCase().includes("/"+MAJBLOMMA)){
+  $("status").textContent="Automatic import currently supports Majblomma-Tronjesson only.";return
+ }
+ if(!armorySnapshot){$("status").textContent="No Armory snapshot published yet. Add BNET_CLIENT_ID and BNET_CLIENT_SECRET to GitHub Actions secrets, then run Deploy GitHub Pages. Manual comparison remains available.";return}
+ const profile=armorySnapshot.character;
+ if(!profile||!Number.isInteger(profile.level)||!armorySnapshot.equipped){$("status").textContent="Armory snapshot is incomplete. Nothing changed.";return}
+ captureEquipped();
+ $("level").value=profile.level;
+ if(Number.isInteger(profile.leatherworkingSkill))$("skill").value=profile.leatherworkingSkill;
+ if(profile.class){
+  const match=[...$("class").options].find(o=>o.value.toLowerCase()===profile.class.toLowerCase());
+  if(match)$("class").value=match.value;
+ }
+ const imported={};
+ for(const [slot,gear] of Object.entries(armorySnapshot.equipped)){
+  if(!slots.includes(slot)||!gear)continue;
+  const item={name:gear.name||"",armor:gear.armor==null?"":String(gear.armor)};
+  for(const stat of attributes)item[stat]=gear.stats&&Object.hasOwn(gear.stats,stat)?String(gear.stats[stat]):"";
+  imported[slot]=item;
+ }
+ if(!Object.keys(imported).length){$("status").textContent="Armory snapshot contains no supported equipment. Nothing changed.";return}
+ state.equipped=imported;renderEquipped();showCandidates();save();showSyncTime();
+}
+$("import").onclick=importArmory;
+fetch("./data/armory-majblomma.json",{cache:"no-store"}).then(response=>{
+ if(!response.ok)throw Error("snapshot not available");
+ return response.json();
+}).then(snapshot=>{
+ if(snapshot.schema!==1||snapshot.slug!==MAJBLOMMA||!snapshot.character||!snapshot.equipped)throw Error("invalid snapshot");
+ armorySnapshot=snapshot;showSyncTime();
+}).catch(()=>{$("status").textContent="Armory import is not configured yet. Manual gear comparison is available."});
 renderSlots();renderEquipped();$("armoryOpen").href=validateArmory($("armory").value)||"https://armorywowforever.com/";
 Promise.all([fetch("./data/leatherworking.json").then(r=>{if(!r.ok)throw Error("Recipes unavailable");return r.json()}),fetch("./data/item-stats.json").then(r=>{if(!r.ok)throw Error("Item stats unavailable");return r.json()})]).then(([recipes,stats])=>{if(recipes.recipes.length!==512||Object.keys(stats.byItemId||{}).length!==512)throw Error("Recipe/stat catalogs are incomplete");state.recipes=recipes.recipes;state.items=stats.byItemId;showCandidates();$("status").textContent="Ready: 512 Forever recipes loaded. Character import is not connected."}).catch(e=>{$("status").textContent="Cannot load recipe data: "+e.message});
 </script></body></html>

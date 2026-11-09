@@ -8,16 +8,16 @@
   },
   "summary": {
     "totalEpic": 70,
-    "match": 69,
-    "difference": 1,
+    "match": 68,
+    "difference": 2,
     "inconclusive": 0,
     "source-unavailable": 0,
     "identity-mismatch": 0,
     "sourcesFetched": 70,
-    "fullyMatching": 69,
-    "disagreements": 1,
+    "fullyMatching": 68,
+    "disagreements": 2,
     "fieldsWithDisagreements": {
-      "effects": 1
+      "effects": 2
     }
   },
   "results": [
@@ -953,7 +953,7 @@
       "itemId": "252603",
       "name": "Red Dragonscale Leggings",
       "url": "https://bindonforever.com/item/252603",
-      "status": "match",
+      "status": "difference",
       "checkedFields": [
         "itemLevel",
         "requiredCharacterLevel",
@@ -965,7 +965,18 @@
         "resistances",
         "effects"
       ],
-      "differences": [],
+      "differences": [
+        {
+          "field": "effects",
+          "ours": [
+            "Equip: +20 Spell Power",
+            "Equip: +20 Healing"
+          ],
+          "source": [
+            "Equip: Increases damage and healing done by magical spells and effects by up to 20."
+          ]
+        }
+      ],
       "unresolvedEffectTemplate": false,
       "source": {
         "name": "Red Dragonscale Leggings",

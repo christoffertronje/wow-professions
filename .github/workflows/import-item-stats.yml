@@ -13,10 +13,11 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - run: python3 -m pip install beautifulsoup4
-      - run: python3 scripts/build-item-stats.py
+      - name: Import and record diagnostics
+        run: python3 scripts/build-item-stats.py > docs/item-stats-import-log.txt 2>&1 || true
       - name: Commit item data
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/item-stats.json
+          git add -A data/item-stats.json docs/item-stats-import-log.txt
           git diff --cached --quiet || (git commit -m "data: import 201 Forever rare item tooltips by item ID" && git push)

@@ -57,12 +57,13 @@ summary={"rareRecipes":len(rare),"sourceRecipeCards":len(source),
   "idMatches":sum(r["foundInReference"] for r in results),
   "skillMatches":sum(r["skillMatch"] for r in results),
   "materialMatches":sum(r["materialsMatch"] for r in results),
-  "skillMismatches":sum(r["foundInReference"] and not r["skillMatch"] for r in results),
+  "skillMismatches":sum(r["foundInReference"] and r["referenceSkill"] is not None and not r["skillMatch"] for r in results),
+  "referenceSkillUnavailable":sum(r["foundInReference"] and r["referenceSkill"] is None for r in results),
   "materialMismatches":sum(r["foundInReference"] and not r["materialsMatch"] for r in results),
   "unmatchedRecipes":sum(not r["foundInReference"] for r in results)}
 report={"meta":{"catalogBuild":catalog["meta"]["build"],"source":URL,
  "comparison":"Exact recipe spell ID; displayed minimum craft skill and reagent name/quantity multiset; not trainer thresholds",
  "caveat":"Source may share game-client data; matching is independent presentation crosscheck, not a live in-game verification."},
- "summary":summary,"problems":[r for r in results if not r["skillMatch"] or not r["materialsMatch"]],"results":results}
+ "summary":summary,"problems":[r for r in results if (r["referenceSkill"] is not None and not r["skillMatch"]) or not r["materialsMatch"]],"results":results}
 OUT.write_text(json.dumps(report,indent=2,ensure_ascii=False)+"\n",encoding="utf-8")
 print(summary)

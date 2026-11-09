@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Build a separate item stats catalog for WoW Forever's Epic, Rare and Uncommon Leatherworking gear.
+"""Build a separate item stats catalog for WoW Forever's all WoW Forever Leatherworking outputs.
 
 Facts are sourced by exact produced item ID from Forever Talent's recorded
 tooltip, not by name or spell-skill band. Preserve original tooltip lines and
@@ -13,8 +13,8 @@ SOURCE_URL="https://wowforevertalent.com/professions/leatherworking/?acquisition
 RECIPES=pathlib.Path("data/leatherworking.json")
 OUTPUT=pathlib.Path("data/item-stats.json")
 r=json.loads(RECIPES.read_text(encoding="utf-8"))
-selected=[entry for entry in r["recipes"] if entry.get("quality") in ("epic","rare","uncommon")]
-assert len(selected)==452, f"Epic/Rare/Uncommon recipe count changed: {len(selected)}"
+selected=r["recipes"]
+assert len(selected)==512, f"Recipe count changed: {len(selected)}"
 request=urllib.request.Request(SOURCE_URL,headers={"User-Agent":"Mozilla/5.0 (compatible; Forgebook item stats importer)"})
 with urllib.request.urlopen(request,timeout=90) as resp:soup=BeautifulSoup(resp.read(),"html.parser")
 
@@ -117,16 +117,16 @@ if correction_path.exists():
             "corroboration":patch.get("corroboration",[]),
             "reason":patch.get("reason")}
 if errors:
-    raise RuntimeError("Epic/Rare/Uncommon item stats import requires full coverage; errors:\n"+"\n".join(errors[:25]))
-assert len(items)==452,f"Expected all 452 Epic, Rare and Uncommon produced items, got {len(items)}"
-payload={"meta":{"scope":"Epic, Rare and Uncommon quality Leatherworking outputs",
- "items":len(items),"epicItems":38,"rareItems":201,"uncommonItems":213,"game":"WoW Forever",
+    raise RuntimeError("WoW Forever item stats import requires full coverage; errors:\n"+"\n".join(errors[:25]))
+assert len(items)==512,f"Expected all 512 produced items, got {len(items)}"
+payload={"meta":{"scope":"All identified WoW Forever Leatherworking outputs, including materials and equipment",
+ "items":len(items),"epicItems":70,"rareItems":201,"uncommonItems":213,"commonItems":28,"game":"WoW Forever",
  "source":SOURCE_URL,"recipeCatalogBuild":r["meta"].get("build"),
  "sourceEvidence":"Forever recorded item tooltip with original text preserved; not guaranteed unchanged on live servers",
  "note":"Unknown item attributes stay null/absent. No values inferred from Classic or skill-up tables."},
  "byItemId":items}
 OUTPUT.write_text(json.dumps(payload,ensure_ascii=False,separators=(",",":"))+"\n",encoding="utf-8")
-print(f"Imported {len(items)} Epic, Rare and Uncommon item stat records; "
+print(f"Imported {len(items)} WoW Forever produced item tooltip records; "
       f"{sum(bool(x['effects']) for x in items.values())} with special effects, "
       f"{sum(bool(x['stats']) for x in items.values())} with primary attributes, "
       f"{sum(bool(x['resistances']) for x in items.values())} with resistances.")

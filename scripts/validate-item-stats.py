@@ -107,7 +107,8 @@ for iid in ("279941","279945","279978"):
 assert "May be placed over a Camp Tent" in " ".join(lookup["279941"]["effects"])
 assert "May be placed over a Camp Tent" in " ".join(lookup["279945"]["effects"])
 assert "Requires a Campfire nearby" in " ".join(lookup["279978"]["effects"])
-assert lookup["7284"].get("statReviewWarning"), "Red Whelp Gloves proc chance conflict must stay flagged"
+assert not lookup["7284"].get("statReviewWarning"), "Red Whelp Gloves confirmed tooltip should not remain flagged"
+assert lookup["7284"].get("reviewedCorrection",{}).get("source"), "Red Whelp Gloves confirmation evidence missing"
 assert "5% chance of dealing 30 to 50 Fire damage" in " ".join(lookup["7284"]["effects"])
 assert "Proc chance: 10%" not in " ".join(lookup["7284"]["effects"]), "Unverified proc metadata leaked into tooltip"
 assert "5% chance of being put to sleep" in " ".join(lookup["7375"]["effects"])

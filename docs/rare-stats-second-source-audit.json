@@ -8,13 +8,14 @@
   },
   "summary": {
     "totalRare": 201,
-    "match": 196,
-    "difference": 4,
+    "match": 197,
+    "difference": 3,
+    "inconclusive": 0,
     "source-unavailable": 0,
     "identity-mismatch": 1,
     "sourcesFetched": 200,
-    "fullyMatching": 196,
-    "disagreements": 4,
+    "fullyMatching": 197,
+    "disagreements": 3,
     "fieldsWithDisagreements": {
       "resistances": 1,
       "effects": 3
@@ -37,6 +38,7 @@
         "resistances"
       ],
       "differences": [],
+      "unresolvedEffectTemplate": false,
       "source": {
         "name": "Toughened Leather Gloves",
         "itemLevel": 27,
@@ -73,6 +75,7 @@
         "effects"
       ],
       "differences": [],
+      "unresolvedEffectTemplate": false,
       "source": {
         "name": "Gem-studded Leather Belt",
         "itemLevel": 37,
@@ -109,6 +112,7 @@
         "resistances"
       ],
       "differences": [],
+      "unresolvedEffectTemplate": false,
       "source": {
         "name": "Deviate Scale Belt",
         "itemLevel": 23,
@@ -145,6 +149,7 @@
         "effects"
       ],
       "differences": [],
+      "unresolvedEffectTemplate": false,
       "source": {
         "name": "Wolfshead Helm",
         "itemLevel": 45,
@@ -181,6 +186,7 @@
         "effects"
       ],
       "differences": [],
+      "unresolvedEffectTemplate": false,
       "source": {
         "name": "Gauntlets of the Sea",
         "itemLevel": 46,
@@ -218,6 +224,7 @@
         "effects"
       ],
       "differences": [],
+      "unresolvedEffectTemplate": false,
       "source": {
         "name": "Dragonscale Gauntlets",
         "itemLevel": 45,
@@ -255,6 +262,7 @@
         "effects"
       ],
       "differences": [],
+      "unresolvedEffectTemplate": false,
       "source": {
         "name": "Helm of Fire",
         "itemLevel": 50,
@@ -294,6 +302,7 @@
         "effects"
       ],
       "differences": [],
+      "unresolvedEffectTemplate": false,
       "source": {
         "name": "Feathered Breastplate",
         "itemLevel": 50,
@@ -340,9 +349,26 @@
             "Nature": 13,
             "Shadow": 13
           },
-          "source": {}
+          "source": {
+            "Fire": 13,
+            "Holy": 13,
+            "Arcane": 13,
+            "Shadow": 13,
+            "Nature": 13,
+            "Frost": 13
+          }
+        },
+        {
+          "field": "effects",
+          "ours": [
+            "Use: Absorbs 600 magical damage. Lasts 2 min. (5 Min Cooldown)"
+          ],
+          "source": [
+            "Use: Absorbs 600 magical damage.  Lasts 2 min. (5 Min Cooldown)"
+          ]
         }
       ],
+      "unresolvedEffectTemplate": false,
       "source": {
         "name": "Dragonscale Breastplate",
         "itemLevel": 51,
@@ -354,7 +380,14 @@
         "stats": {
           "Stamina": 10
         },
-        "resistances": {},
+        "resistances": {
+          "Fire": 13,
+          "Holy": 13,
+          "Arcane": 13,
+          "Shadow": 13,
+          "Nature": 13,
+          "Frost": 13
+        },
         "effects": [
           "Use: Absorbs 600 magical damage.  Lasts 2 min. (5 Min Cooldown)"
         ]
@@ -379,6 +412,7 @@
         "effects"
       ],
       "differences": [],
+      "unresolvedEffectTemplate": false,
       "source": {
         "name": "Wildthorn Mail",
         "itemLevel": 54,
@@ -416,6 +450,7 @@
         "effects"
       ],
       "differences": [],
+      "unresolvedEffectTemplate": false,
       "source": {
         "name": "Storm Gauntlets",
         "itemLevel": 59,
@@ -454,6 +489,7 @@
         "effects"
       ],
       "differences": [],
+      "unresolvedEffectTemplate": false,
       "source": {
         "name": "Helm of the Great Chief",
         "itemLevel": 61,
@@ -490,6 +526,7 @@
         "effects"
       ],
       "differences": [],
+      "unresolvedEffectTemplate": false,
       "source": {
         "name": "Green Dragonscale Breastplate",
         "itemLevel": 52,
@@ -528,6 +565,7 @@
         "effects"
       ],
       "differences": [],
+      "unresolvedEffectTemplate": false,
       "source": {
         "name": "Green Dragonscale Leggings",
         "itemLevel": 54,
@@ -566,6 +604,7 @@
         "effects"
       ],
       "differences": [],
+      "unresolvedEffectTemplate": false,
       "source": {
         "name": "Red Dragonscale Breastplate",
         "itemLevel": 61,
@@ -602,6 +641,7 @@
         "effects"
       ],
       "differences": [],
+      "unresolvedEffectTemplate": false,
       "source": {
         "name": "Blue Dragonscale Breastplate",
         "itemLevel": 57,
@@ -640,6 +680,7 @@
         "effects"
       ],
       "differences": [],
+      "unresolvedEffectTemplate": false,
       "source": {
         "name": "Blue Dragonscale Shoulders",
         "itemLevel": 59,
@@ -678,6 +719,7 @@
         "effects"
       ],
       "differences": [],
+      "unresolvedEffectTemplate": false,
       "source": {
         "name": "Black Dragonscale Breastplate",
         "itemLevel": 58,
@@ -716,6 +758,7 @@
         "effects"
       ],
       "differences": [],
+      "unresolvedEffectTemplate": false,
       "source": {
         "name": "Black Dragonscale Shoulders",
         "itemLevel": 60,
@@ -754,6 +797,7 @@
         "effects"
       ],
       "differences": [],
+      "unresolvedEffectTemplate": false,
       "source": {
         "name": "Black Dragonscale Leggings",
         "itemLevel": 62,
@@ -792,6 +836,7 @@
         "effects"
       ],
       "differences": [],
+      "unresolvedEffectTemplate": false,
       "source": {
         "name": "Stormshroud Armor",
         "itemLevel": 57,
@@ -827,6 +872,7 @@
         "effects"
       ],
       "differences": [],
+      "unresolvedEffectTemplate": false,
       "source": {
         "name": "Stormshroud Pants",
         "itemLevel": 55,
@@ -862,6 +908,7 @@
         "effects"
       ],
       "differences": [],
+      "unresolvedEffectTemplate": false,
       "source": {
         "name": "Stormshroud Shoulders",
         "itemLevel": 59,
@@ -899,6 +946,7 @@
         "effects"
       ],
       "differences": [],
+      "unresolvedEffectTemplate": false,
       "source": {
         "name": "Living Breastplate",
         "itemLevel": 60,
@@ -938,6 +986,7 @@
         "effects"
       ],
       "differences": [],
+      "unresolvedEffectTemplate": false,
       "source": {
         "name": "Living Leggings",
         "itemLevel": 57,
@@ -977,6 +1026,7 @@
         "effects"
       ],
       "differences": [],
+      "unresolvedEffectTemplate": false,
       "source": {
         "name": "Living Shoulders",
         "itemLevel": 54,
@@ -1016,6 +1066,7 @@
         "effects"
       ],
       "differences": [],
+      "unresolvedEffectTemplate": false,
       "source": {
         "name": "Devilsaur Leggings",
         "itemLevel": 60,
@@ -1053,6 +1104,7 @@
         "effects"
       ],
       "differences": [],
+      "unresolvedEffectTemplate": false,
       "source": {
         "name": "Devilsaur Gauntlets",
         "itemLevel": 58,
@@ -1089,6 +1141,7 @@
         "resistances"
       ],
       "differences": [],
+      "unresolvedEffectTemplate": false,
       "source": {
         "name": "Warbear Harness",
         "itemLevel": 55,
@@ -1124,6 +1177,7 @@
         "resistances"
       ],
       "differences": [],
+      "unresolvedEffectTemplate": false,
       "source": {
         "name": "Warbear Woolies",
         "itemLevel": 57,
@@ -1160,6 +1214,7 @@
         "effects"
       ],
       "differences": [],
+      "unresolvedEffectTemplate": false,
       "source": {
         "name": "Ironfeather Breastplate",
         "itemLevel": 58,
@@ -1197,6 +1252,7 @@
         "effects"
       ],
       "differences": [],
+      "unresolvedEffectTemplate": false,
       "source": {
         "name": "Ironfeather Shoulders",
         "itemLevel": 54,
@@ -1233,6 +1289,7 @@
         "effects"
       ],
       "differences": [],
+      "unresolvedEffectTemplate": false,
       "source": {
         "name": "Onyxia Scale Cloak",
         "itemLevel": 60,
@@ -1271,6 +1328,7 @@
         "effects"
       ],
       "differences": [],
+      "unresolvedEffectTemplate": false,
       "source": {
         "name": "Shadowskin Gloves",
         "itemLevel": 40,
@@ -1314,6 +1372,7 @@
           ]
         }
       ],
+      "unresolvedEffectTemplate": false,
       "source": {
         "name": "Core Armor Kit",
         "itemLevel": 60,
@@ -1348,6 +1407,7 @@
         "effects"
       ],
       "differences": [],
+      "unresolvedEffectTemplate": false,
       "source": {
         "name": "Girdle of Insight",
         "itemLevel": 62,
@@ -1384,6 +1444,7 @@
         "resistances"
       ],
       "differences": [],
+      "unresolvedEffectTemplate": false,
       "source": {
         "name": "Mongoose Boots",
         "itemLevel": 62,
@@ -1406,7 +1467,7 @@
       "itemId": "18508",
       "name": "Swift Flight Bracers",
       "url": "https://bindonforever.com/item/18508",
-      "status": "difference",
+      "status": "match",
       "checkedFields": [
         "itemLevel",
         "requiredCharacterLevel",
@@ -1418,15 +1479,8 @@
         "resistances",
         "effects"
       ],
-      "differences": [
-        {
-          "field": "effects",
-          "ours": [],
-          "source": [
-            "Equip: +41 Ranged Attack Power."
-          ]
-        }
-      ],
+      "differences": [],
+      "unresolvedEffectTemplate": false,
       "source": {
         "name": "Swift Flight Bracers",
         "itemLevel": 62,
@@ -1462,6 +1516,7 @@
         "resistances"
       ],
       "differences": [],
+      "unresolvedEffectTemplate": false,
       "source": {
         "name": "Barbaric Bracers",
         "itemLevel": 32,
@@ -1498,6 +1553,7 @@
         "effects"
       ],
       "differences": [],
+      "unresolvedEffectTemplate": false,
       "source": {
         "name": "Heavy Timbermaw Belt",
         "itemLevel": 58,
@@ -1533,6 +1589,7 @@
         "resistances"
       ],
       "differences": [],
+      "unresolvedEffectTemplate": false,
       "source": {
         "name": "Might of the Timbermaw",
         "itemLevel": 58,
@@ -1569,6 +1626,7 @@
         "effects"
       ],
       "differences": [],
+      "unresolvedEffectTemplate": false,
       "source": {
         "name": "Heavy Timbermaw Boots",
         "itemLevel": 61,
@@ -1604,6 +1662,7 @@
         "resistances"
       ],
       "differences": [],
+      "unresolvedEffectTemplate": false,
       "source": {
         "name": "Timbermaw Brawlers",
         "itemLevel": 61,
@@ -1639,6 +1698,7 @@
         "resistances"
       ],
       "differences": [],
+      "unresolvedEffectTemplate": false,
       "source": {
         "name": "Dawn Treaders",
         "itemLevel": 58,
@@ -1674,6 +1734,7 @@
         "resistances"
       ],
       "differences": [],
+      "unresolvedEffectTemplate": false,
       "source": {
         "name": "Golden Mantle of the Dawn",
         "itemLevel": 61,
@@ -1710,6 +1771,7 @@
         "effects"
       ],
       "differences": [],
+      "unresolvedEffectTemplate": false,
       "source": {
         "name": "Primal Batskin Jerkin",
         "itemLevel": 65,
@@ -1747,6 +1809,7 @@
         "effects"
       ],
       "differences": [],
+      "unresolvedEffectTemplate": false,
       "source": {
         "name": "Primal Batskin Gloves",
         "itemLevel": 65,
@@ -1784,6 +1847,7 @@
         "effects"
       ],
       "differences": [],
+      "unresolvedEffectTemplate": false,
       "source": {
         "name": "Primal Batskin Bracers",
         "itemLevel": 65,
@@ -1820,6 +1884,7 @@
         "resistances"
       ],
       "differences": [],
+      "unresolvedEffectTemplate": false,
       "source": {
         "name": "Blood Tiger Breastplate",
         "itemLevel": 65,
@@ -1856,6 +1921,7 @@
         "resistances"
       ],
       "differences": [],
+      "unresolvedEffectTemplate": false,
       "source": {
         "name": "Blood Tiger Shoulders",
         "itemLevel": 65,
@@ -1893,6 +1959,7 @@
         "effects"
       ],
       "differences": [],
+      "unresolvedEffectTemplate": false,
       "source": {
         "name": "Blue Dragonscale Leggings",
         "itemLevel": 60,
@@ -1931,6 +1998,7 @@
         "effects"
       ],
       "differences": [],
+      "unresolvedEffectTemplate": false,
       "source": {
         "name": "Green Dragonscale Gauntlets",
         "itemLevel": 56,
@@ -1968,6 +2036,7 @@
         "resistances"
       ],
       "differences": [],
+      "unresolvedEffectTemplate": false,
       "source": {
         "name": "Sandstalker Bracers",
         "itemLevel": 62,
@@ -2003,6 +2072,7 @@
         "resistances"
       ],
       "differences": [],
+      "unresolvedEffectTemplate": false,
       "source": {
         "name": "Sandstalker Gauntlets",
         "itemLevel": 62,
@@ -2038,6 +2108,7 @@
         "resistances"
       ],
       "differences": [],
+      "unresolvedEffectTemplate": false,
       "source": {
         "name": "Sandstalker Breastplate",
         "itemLevel": 62,
@@ -2074,6 +2145,7 @@
         "effects"
       ],
       "differences": [],
+      "unresolvedEffectTemplate": false,
       "source": {
         "name": "Spitfire Breastplate",
         "itemLevel": 62,
@@ -2112,6 +2184,7 @@
         "effects"
       ],
       "differences": [],
+      "unresolvedEffectTemplate": false,
       "source": {
         "name": "Spitfire Gauntlets",
         "itemLevel": 62,
@@ -2150,6 +2223,7 @@
         "effects"
       ],
       "differences": [],
+      "unresolvedEffectTemplate": false,
       "source": {
         "name": "Spitfire Bracers",
         "itemLevel": 62,
@@ -2188,6 +2262,7 @@
         "effects"
       ],
       "differences": [],
+      "unresolvedEffectTemplate": false,
       "source": {
         "name": "Stormshroud Gloves",
         "itemLevel": 62,
@@ -2222,6 +2297,7 @@
         "resistances"
       ],
       "differences": [],
+      "unresolvedEffectTemplate": false,
       "source": {
         "name": "Bramblewood Helm",
         "itemLevel": 70,
@@ -2257,6 +2333,7 @@
         "resistances"
       ],
       "differences": [],
+      "unresolvedEffectTemplate": false,
       "source": {
         "name": "Bramblewood Boots",
         "itemLevel": 70,
@@ -2292,6 +2369,7 @@
         "resistances"
       ],
       "differences": [],
+      "unresolvedEffectTemplate": false,
       "source": {
         "name": "Bramblewood Belt",
         "itemLevel": 70,
@@ -2328,6 +2406,7 @@
         "effects"
       ],
       "differences": [],
+      "unresolvedEffectTemplate": false,
       "source": {
         "name": "Black Whelp Slippers",
         "itemLevel": 15,
@@ -2363,6 +2442,7 @@
         "resistances"
       ],
       "differences": [],
+      "unresolvedEffectTemplate": false,
       "source": {
         "name": "Dark Leather Boots",
         "itemLevel": 15,
@@ -2397,6 +2477,7 @@
         "resistances"
       ],
       "differences": [],
+      "unresolvedEffectTemplate": false,
       "source": {
         "name": "Murloc Scale Shoes",
         "itemLevel": 15,
@@ -2432,6 +2513,7 @@
         "effects"
       ],
       "differences": [],
+      "unresolvedEffectTemplate": false,
       "source": {
         "name": "Moonglow Boots",
         "itemLevel": 15,
@@ -2467,6 +2549,7 @@
         "resistances"
       ],
       "differences": [],
+      "unresolvedEffectTemplate": false,
       "source": {
         "name": "Brawler's Leather Belt",
         "itemLevel": 17,
@@ -2502,6 +2585,7 @@
         "resistances"
       ],
       "differences": [],
+      "unresolvedEffectTemplate": false,
       "source": {
         "name": "Trapper's Leather Belt",
         "itemLevel": 17,
@@ -2537,6 +2621,7 @@
         "resistances"
       ],
       "differences": [],
+      "unresolvedEffectTemplate": false,
       "source": {
         "name": "Defender's Leather Belt",
         "itemLevel": 17,
@@ -2572,6 +2657,7 @@
         "effects"
       ],
       "differences": [],
+      "unresolvedEffectTemplate": false,
       "source": {
         "name": "Totemic Leather Belt",
         "itemLevel": 17,
@@ -2609,6 +2695,7 @@
         "effects"
       ],
       "differences": [],
+      "unresolvedEffectTemplate": false,
       "source": {
         "name": "Stormrider's Leather Belt",
         "itemLevel": 17,
@@ -2646,6 +2733,7 @@
         "effects"
       ],
       "differences": [],
+      "unresolvedEffectTemplate": false,
       "source": {
         "name": "Wisdom's Leather Belt",
         "itemLevel": 17,
@@ -2682,6 +2770,7 @@
         "resistances"
       ],
       "differences": [],
+      "unresolvedEffectTemplate": false,
       "source": {
         "name": "Defender's Leather Armor",
         "itemLevel": 20,
@@ -2718,6 +2807,7 @@
         "effects"
       ],
       "differences": [],
+      "unresolvedEffectTemplate": false,
       "source": {
         "name": "Totemic Leather Armor",
         "itemLevel": 20,
@@ -2755,6 +2845,7 @@
         "resistances"
       ],
       "differences": [],
+      "unresolvedEffectTemplate": false,
       "source": {
         "name": "Brawler's Leather Boots",
         "itemLevel": 22,
@@ -2790,6 +2881,7 @@
         "resistances"
       ],
       "differences": [],
+      "unresolvedEffectTemplate": false,
       "source": {
         "name": "Trapper's Leather Boots",
         "itemLevel": 22,
@@ -2825,6 +2917,7 @@
         "resistances"
       ],
       "differences": [],
+      "unresolvedEffectTemplate": false,
       "source": {
         "name": "Defender's Leather Boots",
         "itemLevel": 22,
@@ -2860,6 +2953,7 @@
         "effects"
       ],
       "differences": [],
+      "unresolvedEffectTemplate": false,
       "source": {
         "name": "Totemic Leather Boots",
         "itemLevel": 22,
@@ -2897,6 +2991,7 @@
         "effects"
       ],
       "differences": [],
+      "unresolvedEffectTemplate": false,
       "source": {
         "name": "Stormrider's Leather Boots",
         "itemLevel": 22,
@@ -2934,6 +3029,7 @@
         "effects"
       ],
       "differences": [],
+      "unresolvedEffectTemplate": false,
       "source": {
         "name": "Wisdom's Leather Boots",
         "itemLevel": 22,
@@ -2970,6 +3066,7 @@
         "resistances"
       ],
       "differences": [],
+      "unresolvedEffectTemplate": false,
       "source": {
         "name": "Defender's Leather Pants",
         "itemLevel": 25,
@@ -3006,6 +3103,7 @@
         "effects"
       ],
       "differences": [],
+      "unresolvedEffectTemplate": false,
       "source": {
         "name": "Totemic Leather Pants",
         "itemLevel": 25,
@@ -3043,6 +3141,7 @@
         "resistances"
       ],
       "differences": [],
+      "unresolvedEffectTemplate": false,
       "source": {
         "name": "Defender's Leather Hood",
         "itemLevel": 25,
@@ -3078,6 +3177,7 @@
         "effects"
       ],
       "differences": [],
+      "unresolvedEffectTemplate": false,
       "source": {
         "name": "Totemic Leather Hood",
         "itemLevel": 25,
@@ -3113,6 +3213,7 @@
         "resistances"
       ],
       "differences": [],
+      "unresolvedEffectTemplate": false,
       "source": {
         "name": "Defender's Leather Tunic",
         "itemLevel": 27,
@@ -3149,6 +3250,7 @@
         "effects"
       ],
       "differences": [],
+      "unresolvedEffectTemplate": false,
       "source": {
         "name": "Totemic Leather Tunic",
         "itemLevel": 27,
@@ -3186,6 +3288,7 @@
         "resistances"
       ],
       "differences": [],
+      "unresolvedEffectTemplate": false,
       "source": {
         "name": "Defender's Leather Helm",
         "itemLevel": 30,
@@ -3221,6 +3324,7 @@
         "effects"
       ],
       "differences": [],
+      "unresolvedEffectTemplate": false,
       "source": {
         "name": "Totemic Leather Helm",
         "itemLevel": 30,
@@ -3256,6 +3360,7 @@
         "resistances"
       ],
       "differences": [],
+      "unresolvedEffectTemplate": false,
       "source": {
         "name": "Defender's Leather Kilt",
         "itemLevel": 30,
@@ -3292,6 +3397,7 @@
         "effects"
       ],
       "differences": [],
+      "unresolvedEffectTemplate": false,
       "source": {
         "name": "Totemic Leather Leggings",
         "itemLevel": 30,
@@ -3329,6 +3435,7 @@
         "resistances"
       ],
       "differences": [],
+      "unresolvedEffectTemplate": false,
       "source": {
         "name": "Prowler's Leather Belt",
         "itemLevel": 35,
@@ -3365,6 +3472,7 @@
         "resistances"
       ],
       "differences": [],
+      "unresolvedEffectTemplate": false,
       "source": {
         "name": "Warden's Leather Belt",
         "itemLevel": 35,
@@ -3401,6 +3509,7 @@
         "effects"
       ],
       "differences": [],
+      "unresolvedEffectTemplate": false,
       "source": {
         "name": "Skirmisher's Leather Belt",
         "itemLevel": 35,
@@ -3438,6 +3547,7 @@
         "resistances"
       ],
       "differences": [],
+      "unresolvedEffectTemplate": false,
       "source": {
         "name": "Prowler's Leather Shoes",
         "itemLevel": 45,
@@ -3474,6 +3584,7 @@
         "resistances"
       ],
       "differences": [],
+      "unresolvedEffectTemplate": false,
       "source": {
         "name": "Warden's Leather Shoes",
         "itemLevel": 45,
@@ -3509,6 +3620,7 @@
         "resistances"
       ],
       "differences": [],
+      "unresolvedEffectTemplate": false,
       "source": {
         "name": "Prowler's Leather Boots",
         "itemLevel": 52,
@@ -3544,6 +3656,7 @@
         "resistances"
       ],
       "differences": [],
+      "unresolvedEffectTemplate": false,
       "source": {
         "name": "Skulker's Leather Boots",
         "itemLevel": 52,
@@ -3579,6 +3692,7 @@
         "resistances"
       ],
       "differences": [],
+      "unresolvedEffectTemplate": false,
       "source": {
         "name": "Warden's Leather Boots",
         "itemLevel": 52,
@@ -3614,6 +3728,7 @@
         "effects"
       ],
       "differences": [],
+      "unresolvedEffectTemplate": false,
       "source": {
         "name": "Skycaller's Leather Boots",
         "itemLevel": 52,
@@ -3651,6 +3766,7 @@
         "effects"
       ],
       "differences": [],
+      "unresolvedEffectTemplate": false,
       "source": {
         "name": "Mender's Leather Boots",
         "itemLevel": 52,
@@ -3687,6 +3803,7 @@
         "resistances"
       ],
       "differences": [],
+      "unresolvedEffectTemplate": false,
       "source": {
         "name": "Prowler's Leather Waistguard",
         "itemLevel": 55,
@@ -3722,6 +3839,7 @@
         "resistances"
       ],
       "differences": [],
+      "unresolvedEffectTemplate": false,
       "source": {
         "name": "Skulker's Leather Waistguard",
         "itemLevel": 55,
@@ -3757,6 +3875,7 @@
         "resistances"
       ],
       "differences": [],
+      "unresolvedEffectTemplate": false,
       "source": {
         "name": "Warden's Leather Waistguard",
         "itemLevel": 55,
@@ -3792,6 +3911,7 @@
         "effects"
       ],
       "differences": [],
+      "unresolvedEffectTemplate": false,
       "source": {
         "name": "Skycaller's Leather Waistguard",
         "itemLevel": 55,
@@ -3829,6 +3949,7 @@
         "effects"
       ],
       "differences": [],
+      "unresolvedEffectTemplate": false,
       "source": {
         "name": "Mender's Leather Waistguard",
         "itemLevel": 55,
@@ -3865,6 +3986,7 @@
         "resistances"
       ],
       "differences": [],
+      "unresolvedEffectTemplate": false,
       "source": {
         "name": "Brawler's Leather Armor",
         "itemLevel": 20,
@@ -3901,6 +4023,7 @@
         "resistances"
       ],
       "differences": [],
+      "unresolvedEffectTemplate": false,
       "source": {
         "name": "Trapper's Leather Armor",
         "itemLevel": 20,
@@ -3938,6 +4061,7 @@
         "effects"
       ],
       "differences": [],
+      "unresolvedEffectTemplate": false,
       "source": {
         "name": "Stormrider's Leather Armor",
         "itemLevel": 20,
@@ -3976,6 +4100,7 @@
         "effects"
       ],
       "differences": [],
+      "unresolvedEffectTemplate": false,
       "source": {
         "name": "Wisdom's Leather Armor",
         "itemLevel": 20,
@@ -4013,6 +4138,7 @@
         "resistances"
       ],
       "differences": [],
+      "unresolvedEffectTemplate": false,
       "source": {
         "name": "Brawler's Leather Gloves",
         "itemLevel": 20,
@@ -4048,6 +4174,7 @@
         "resistances"
       ],
       "differences": [],
+      "unresolvedEffectTemplate": false,
       "source": {
         "name": "Trapper's Leather Gloves",
         "itemLevel": 20,
@@ -4083,6 +4210,7 @@
         "resistances"
       ],
       "differences": [],
+      "unresolvedEffectTemplate": false,
       "source": {
         "name": "Defender's Leather Gloves",
         "itemLevel": 20,
@@ -4118,6 +4246,7 @@
         "effects"
       ],
       "differences": [],
+      "unresolvedEffectTemplate": false,
       "source": {
         "name": "Totemic Leather Gloves",
         "itemLevel": 20,
@@ -4155,6 +4284,7 @@
         "effects"
       ],
       "differences": [],
+      "unresolvedEffectTemplate": false,
       "source": {
         "name": "Stormrider's Leather Gloves",
         "itemLevel": 20,
@@ -4192,6 +4322,7 @@
         "effects"
       ],
       "differences": [],
+      "unresolvedEffectTemplate": false,
       "source": {
         "name": "Wisdom's Leather Gloves",
         "itemLevel": 20,
@@ -4228,6 +4359,7 @@
         "resistances"
       ],
       "differences": [],
+      "unresolvedEffectTemplate": false,
       "source": {
         "name": "Brawler's Leather Pants",
         "itemLevel": 25,
@@ -4264,6 +4396,7 @@
         "resistances"
       ],
       "differences": [],
+      "unresolvedEffectTemplate": false,
       "source": {
         "name": "Trapper's Leather Pants",
         "itemLevel": 25,
@@ -4301,6 +4434,7 @@
         "effects"
       ],
       "differences": [],
+      "unresolvedEffectTemplate": false,
       "source": {
         "name": "Stormrider's Leather Pants",
         "itemLevel": 25,
@@ -4339,6 +4473,7 @@
         "effects"
       ],
       "differences": [],
+      "unresolvedEffectTemplate": false,
       "source": {
         "name": "Wisdom's Leather Pants",
         "itemLevel": 25,
@@ -4376,6 +4511,7 @@
         "resistances"
       ],
       "differences": [],
+      "unresolvedEffectTemplate": false,
       "source": {
         "name": "Brawler's Leather Hood",
         "itemLevel": 25,
@@ -4410,6 +4546,7 @@
         "resistances"
       ],
       "differences": [],
+      "unresolvedEffectTemplate": false,
       "source": {
         "name": "Trapper's Leather Hood",
         "itemLevel": 25,
@@ -4444,6 +4581,7 @@
         "resistances"
       ],
       "differences": [],
+      "unresolvedEffectTemplate": false,
       "source": {
         "name": "Stormrider's Leather Hood",
         "itemLevel": 25,
@@ -4479,6 +4617,7 @@
         "effects"
       ],
       "differences": [],
+      "unresolvedEffectTemplate": false,
       "source": {
         "name": "Wisdom's Leather Hood",
         "itemLevel": 25,
@@ -4514,6 +4653,7 @@
         "resistances"
       ],
       "differences": [],
+      "unresolvedEffectTemplate": false,
       "source": {
         "name": "Brawler's Leather Tunic",
         "itemLevel": 27,
@@ -4550,6 +4690,7 @@
         "resistances"
       ],
       "differences": [],
+      "unresolvedEffectTemplate": false,
       "source": {
         "name": "Trapper's Leather Tunic",
         "itemLevel": 27,
@@ -4587,6 +4728,7 @@
         "effects"
       ],
       "differences": [],
+      "unresolvedEffectTemplate": false,
       "source": {
         "name": "Stormrider's Leather Tunic",
         "itemLevel": 27,
@@ -4625,6 +4767,7 @@
         "effects"
       ],
       "differences": [],
+      "unresolvedEffectTemplate": false,
       "source": {
         "name": "Wisdom's Leather Tunic",
         "itemLevel": 27,
@@ -4662,6 +4805,7 @@
         "resistances"
       ],
       "differences": [],
+      "unresolvedEffectTemplate": false,
       "source": {
         "name": "Brawler's Leather Helm",
         "itemLevel": 30,
@@ -4696,6 +4840,7 @@
         "resistances"
       ],
       "differences": [],
+      "unresolvedEffectTemplate": false,
       "source": {
         "name": "Trapper's Leather Helm",
         "itemLevel": 30,
@@ -4730,6 +4875,7 @@
         "resistances"
       ],
       "differences": [],
+      "unresolvedEffectTemplate": false,
       "source": {
         "name": "Stormrider's Leather Helm",
         "itemLevel": 30,
@@ -4765,6 +4911,7 @@
         "effects"
       ],
       "differences": [],
+      "unresolvedEffectTemplate": false,
       "source": {
         "name": "Wisdom's Leather Helm",
         "itemLevel": 30,
@@ -4800,6 +4947,7 @@
         "resistances"
       ],
       "differences": [],
+      "unresolvedEffectTemplate": false,
       "source": {
         "name": "Brawler's Leather Legguards",
         "itemLevel": 30,
@@ -4836,6 +4984,7 @@
         "resistances"
       ],
       "differences": [],
+      "unresolvedEffectTemplate": false,
       "source": {
         "name": "Trapper's Leather Legguards",
         "itemLevel": 30,
@@ -4872,6 +5021,7 @@
         "resistances"
       ],
       "differences": [],
+      "unresolvedEffectTemplate": false,
       "source": {
         "name": "Stormrider's Leather Kilt",
         "itemLevel": 30,
@@ -4909,6 +5059,7 @@
         "effects"
       ],
       "differences": [],
+      "unresolvedEffectTemplate": false,
       "source": {
         "name": "Wisdom's Leather Leggings",
         "itemLevel": 30,
@@ -4946,6 +5097,7 @@
         "resistances"
       ],
       "differences": [],
+      "unresolvedEffectTemplate": false,
       "source": {
         "name": "Skulker's Leather Belt",
         "itemLevel": 35,
@@ -4982,6 +5134,7 @@
         "resistances"
       ],
       "differences": [],
+      "unresolvedEffectTemplate": false,
       "source": {
         "name": "Stalker's Leather Belt",
         "itemLevel": 35,
@@ -5019,6 +5172,7 @@
         "effects"
       ],
       "differences": [],
+      "unresolvedEffectTemplate": false,
       "source": {
         "name": "Skycaller's Leather Belt",
         "itemLevel": 35,
@@ -5057,6 +5211,7 @@
         "effects"
       ],
       "differences": [],
+      "unresolvedEffectTemplate": false,
       "source": {
         "name": "Mender's Leather Belt",
         "itemLevel": 35,
@@ -5094,6 +5249,7 @@
         "resistances"
       ],
       "differences": [],
+      "unresolvedEffectTemplate": false,
       "source": {
         "name": "Prowler's Leather Gloves",
         "itemLevel": 40,
@@ -5129,6 +5285,7 @@
         "resistances"
       ],
       "differences": [],
+      "unresolvedEffectTemplate": false,
       "source": {
         "name": "Skulker's Leather Gloves",
         "itemLevel": 40,
@@ -5164,6 +5321,7 @@
         "resistances"
       ],
       "differences": [],
+      "unresolvedEffectTemplate": false,
       "source": {
         "name": "Stalker's Leather Gloves",
         "itemLevel": 40,
@@ -5199,6 +5357,7 @@
         "resistances"
       ],
       "differences": [],
+      "unresolvedEffectTemplate": false,
       "source": {
         "name": "Warden's Leather Gloves",
         "itemLevel": 40,
@@ -5234,6 +5393,7 @@
         "effects"
       ],
       "differences": [],
+      "unresolvedEffectTemplate": false,
       "source": {
         "name": "Skirmisher's Leather Gloves",
         "itemLevel": 40,
@@ -5271,6 +5431,7 @@
         "effects"
       ],
       "differences": [],
+      "unresolvedEffectTemplate": false,
       "source": {
         "name": "Skycaller's Leather Gloves",
         "itemLevel": 40,
@@ -5308,6 +5469,7 @@
         "effects"
       ],
       "differences": [],
+      "unresolvedEffectTemplate": false,
       "source": {
         "name": "Mender's Leather Gloves",
         "itemLevel": 40,
@@ -5344,6 +5506,7 @@
         "resistances"
       ],
       "differences": [],
+      "unresolvedEffectTemplate": false,
       "source": {
         "name": "Skulker's Leather Shoes",
         "itemLevel": 45,
@@ -5381,6 +5544,7 @@
         "effects"
       ],
       "differences": [],
+      "unresolvedEffectTemplate": false,
       "source": {
         "name": "Skycaller's Leather Shoes",
         "itemLevel": 45,
@@ -5419,6 +5583,7 @@
         "effects"
       ],
       "differences": [],
+      "unresolvedEffectTemplate": false,
       "source": {
         "name": "Mender's Leather Shoes",
         "itemLevel": 45,
@@ -5456,6 +5621,7 @@
         "resistances"
       ],
       "differences": [],
+      "unresolvedEffectTemplate": false,
       "source": {
         "name": "Prowler's Leather Shoulders",
         "itemLevel": 47,
@@ -5499,6 +5665,7 @@
         "resistances"
       ],
       "differences": [],
+      "unresolvedEffectTemplate": false,
       "source": {
         "name": "Warden's Leather Shoulders",
         "itemLevel": 47,
@@ -5535,6 +5702,7 @@
         "effects"
       ],
       "differences": [],
+      "unresolvedEffectTemplate": false,
       "source": {
         "name": "Skycaller's Leather Shoulders",
         "itemLevel": 47,
@@ -5573,6 +5741,7 @@
         "effects"
       ],
       "differences": [],
+      "unresolvedEffectTemplate": false,
       "source": {
         "name": "Mender's Leather Shoulders",
         "itemLevel": 47,
@@ -5610,6 +5779,7 @@
         "resistances"
       ],
       "differences": [],
+      "unresolvedEffectTemplate": false,
       "source": {
         "name": "Prowler's Leather Bracers",
         "itemLevel": 50,
@@ -5646,6 +5816,7 @@
         "resistances"
       ],
       "differences": [],
+      "unresolvedEffectTemplate": false,
       "source": {
         "name": "Skulker's Leather Bracers",
         "itemLevel": 50,
@@ -5682,6 +5853,7 @@
         "resistances"
       ],
       "differences": [],
+      "unresolvedEffectTemplate": false,
       "source": {
         "name": "Warden's Leather Bracers",
         "itemLevel": 50,
@@ -5718,6 +5890,7 @@
         "effects"
       ],
       "differences": [],
+      "unresolvedEffectTemplate": false,
       "source": {
         "name": "Skycaller's Leather Bracers",
         "itemLevel": 50,
@@ -5756,6 +5929,7 @@
         "effects"
       ],
       "differences": [],
+      "unresolvedEffectTemplate": false,
       "source": {
         "name": "Mender's Leather Bracers",
         "itemLevel": 50,
@@ -5793,6 +5967,7 @@
         "resistances"
       ],
       "differences": [],
+      "unresolvedEffectTemplate": false,
       "source": {
         "name": "Prowler's Leather Gauntlets",
         "itemLevel": 55,
@@ -5829,6 +6004,7 @@
         "resistances"
       ],
       "differences": [],
+      "unresolvedEffectTemplate": false,
       "source": {
         "name": "Skulker's Leather Gauntlets",
         "itemLevel": 55,
@@ -5865,6 +6041,7 @@
         "resistances"
       ],
       "differences": [],
+      "unresolvedEffectTemplate": false,
       "source": {
         "name": "Warden's Leather Gauntlets",
         "itemLevel": 55,
@@ -5901,6 +6078,7 @@
         "effects"
       ],
       "differences": [],
+      "unresolvedEffectTemplate": false,
       "source": {
         "name": "Skycaller's Leather Gauntlets",
         "itemLevel": 55,
@@ -5939,6 +6117,7 @@
         "effects"
       ],
       "differences": [],
+      "unresolvedEffectTemplate": false,
       "source": {
         "name": "Mender's Leather Gauntlets",
         "itemLevel": 55,
@@ -5976,6 +6155,7 @@
         "resistances"
       ],
       "differences": [],
+      "unresolvedEffectTemplate": false,
       "source": {
         "name": "Stalker's Mail Boots",
         "itemLevel": 45,
@@ -6013,6 +6193,7 @@
         "effects"
       ],
       "differences": [],
+      "unresolvedEffectTemplate": false,
       "source": {
         "name": "Skycaller's Mail Boots",
         "itemLevel": 45,
@@ -6051,6 +6232,7 @@
         "effects"
       ],
       "differences": [],
+      "unresolvedEffectTemplate": false,
       "source": {
         "name": "Skirmisher's Mail Boots",
         "itemLevel": 45,
@@ -6089,6 +6271,7 @@
         "effects"
       ],
       "differences": [],
+      "unresolvedEffectTemplate": false,
       "source": {
         "name": "Mender's Mail Boots",
         "itemLevel": 45,
@@ -6126,6 +6309,7 @@
         "resistances"
       ],
       "differences": [],
+      "unresolvedEffectTemplate": false,
       "source": {
         "name": "Stalker's Mail Shoulders",
         "itemLevel": 47,
@@ -6163,6 +6347,7 @@
         "effects"
       ],
       "differences": [],
+      "unresolvedEffectTemplate": false,
       "source": {
         "name": "Skycaller's Mail Shoulders",
         "itemLevel": 47,
@@ -6201,6 +6386,7 @@
         "effects"
       ],
       "differences": [],
+      "unresolvedEffectTemplate": false,
       "source": {
         "name": "Skirmisher's Mail Shoulders",
         "itemLevel": 47,
@@ -6239,6 +6425,7 @@
         "effects"
       ],
       "differences": [],
+      "unresolvedEffectTemplate": false,
       "source": {
         "name": "Mender's Mail Shoulders",
         "itemLevel": 47,
@@ -6276,6 +6463,7 @@
         "resistances"
       ],
       "differences": [],
+      "unresolvedEffectTemplate": false,
       "source": {
         "name": "Stalker's Mail Bracers",
         "itemLevel": 50,
@@ -6313,6 +6501,7 @@
         "effects"
       ],
       "differences": [],
+      "unresolvedEffectTemplate": false,
       "source": {
         "name": "Skycaller's Mail Bracers",
         "itemLevel": 50,
@@ -6351,6 +6540,7 @@
         "effects"
       ],
       "differences": [],
+      "unresolvedEffectTemplate": false,
       "source": {
         "name": "Skirmisher's Mail Bracers",
         "itemLevel": 50,
@@ -6389,6 +6579,7 @@
         "effects"
       ],
       "differences": [],
+      "unresolvedEffectTemplate": false,
       "source": {
         "name": "Mender's Mail Bracers",
         "itemLevel": 50,
@@ -6426,6 +6617,7 @@
         "resistances"
       ],
       "differences": [],
+      "unresolvedEffectTemplate": false,
       "source": {
         "name": "Stalker's Mail Sabatons",
         "itemLevel": 52,
@@ -6462,6 +6654,7 @@
         "effects"
       ],
       "differences": [],
+      "unresolvedEffectTemplate": false,
       "source": {
         "name": "Skycaller's Mail Sabatons",
         "itemLevel": 52,
@@ -6499,6 +6692,7 @@
         "effects"
       ],
       "differences": [],
+      "unresolvedEffectTemplate": false,
       "source": {
         "name": "Skirmisher's Mail Sabatons",
         "itemLevel": 52,
@@ -6536,6 +6730,7 @@
         "effects"
       ],
       "differences": [],
+      "unresolvedEffectTemplate": false,
       "source": {
         "name": "Mender's Mail Sabatons",
         "itemLevel": 52,
@@ -6572,6 +6767,7 @@
         "resistances"
       ],
       "differences": [],
+      "unresolvedEffectTemplate": false,
       "source": {
         "name": "Stalker's Mail Gauntlets",
         "itemLevel": 55,
@@ -6609,6 +6805,7 @@
         "effects"
       ],
       "differences": [],
+      "unresolvedEffectTemplate": false,
       "source": {
         "name": "Skycaller's Mail Gauntlets",
         "itemLevel": 55,
@@ -6647,6 +6844,7 @@
         "effects"
       ],
       "differences": [],
+      "unresolvedEffectTemplate": false,
       "source": {
         "name": "Skirmisher's Mail Gauntlets",
         "itemLevel": 55,
@@ -6685,6 +6883,7 @@
         "effects"
       ],
       "differences": [],
+      "unresolvedEffectTemplate": false,
       "source": {
         "name": "Mender's Mail Gauntlets",
         "itemLevel": 55,
@@ -6722,6 +6921,7 @@
         "resistances"
       ],
       "differences": [],
+      "unresolvedEffectTemplate": false,
       "source": {
         "name": "Stalker's Mail Belt",
         "itemLevel": 55,
@@ -6758,6 +6958,7 @@
         "effects"
       ],
       "differences": [],
+      "unresolvedEffectTemplate": false,
       "source": {
         "name": "Skycaller's Mail Belt",
         "itemLevel": 55,
@@ -6795,6 +6996,7 @@
         "effects"
       ],
       "differences": [],
+      "unresolvedEffectTemplate": false,
       "source": {
         "name": "Skirmisher's Mail Belt",
         "itemLevel": 55,
@@ -6832,6 +7034,7 @@
         "effects"
       ],
       "differences": [],
+      "unresolvedEffectTemplate": false,
       "source": {
         "name": "Mender's Mail Belt",
         "itemLevel": 55,
@@ -6868,6 +7071,7 @@
         "resistances"
       ],
       "differences": [],
+      "unresolvedEffectTemplate": false,
       "source": {
         "name": "Bileblister Claws",
         "itemLevel": 58,
@@ -6904,6 +7108,7 @@
         "resistances"
       ],
       "differences": [],
+      "unresolvedEffectTemplate": false,
       "source": {
         "name": "Bileblister Girdle",
         "itemLevel": 58,
@@ -6941,6 +7146,7 @@
         "effects"
       ],
       "differences": [],
+      "unresolvedEffectTemplate": false,
       "source": {
         "name": "Bileblister Boots",
         "itemLevel": 58,
@@ -6978,6 +7184,7 @@
         "resistances"
       ],
       "differences": [],
+      "unresolvedEffectTemplate": false,
       "source": {
         "name": "Hivethrasher's Claws",
         "itemLevel": 58,
@@ -7014,6 +7221,7 @@
         "resistances"
       ],
       "differences": [],
+      "unresolvedEffectTemplate": false,
       "source": {
         "name": "Hivethrasher's Girdle",
         "itemLevel": 58,
@@ -7050,6 +7258,7 @@
         "resistances"
       ],
       "differences": [],
+      "unresolvedEffectTemplate": false,
       "source": {
         "name": "Hivethrasher's Boots",
         "itemLevel": 58,
@@ -7086,6 +7295,7 @@
         "resistances"
       ],
       "differences": [],
+      "unresolvedEffectTemplate": false,
       "source": {
         "name": "Scalegut Clenchers",
         "itemLevel": 58,
@@ -7122,6 +7332,7 @@
         "resistances"
       ],
       "differences": [],
+      "unresolvedEffectTemplate": false,
       "source": {
         "name": "Scalegut Belt",
         "itemLevel": 58,
@@ -7159,6 +7370,7 @@
         "effects"
       ],
       "differences": [],
+      "unresolvedEffectTemplate": false,
       "source": {
         "name": "Scalegut Treaders",
         "itemLevel": 58,
@@ -7197,6 +7409,7 @@
         "effects"
       ],
       "differences": [],
+      "unresolvedEffectTemplate": false,
       "source": {
         "name": "Broodwatcher's Clenchers",
         "itemLevel": 58,
@@ -7235,6 +7448,7 @@
         "effects"
       ],
       "differences": [],
+      "unresolvedEffectTemplate": false,
       "source": {
         "name": "Broodwatcher's Belt",
         "itemLevel": 58,
@@ -7273,6 +7487,7 @@
         "effects"
       ],
       "differences": [],
+      "unresolvedEffectTemplate": false,
       "source": {
         "name": "Broodwatcher's Treaders",
         "itemLevel": 58,
@@ -7318,6 +7533,7 @@
           ]
         }
       ],
+      "unresolvedEffectTemplate": false,
       "source": {
         "name": "Wild Leather Armor Kit",
         "itemLevel": 65,

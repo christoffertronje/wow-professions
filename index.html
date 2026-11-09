@@ -19,6 +19,7 @@
     .wow-tooltip-line{margin:2px 0}.wow-slot-row{display:flex;justify-content:space-between;gap:10px;margin:2px 0}.wow-slot-row span:last-child{text-align:right}
     .wow-effect{color:#21e421;margin:8px 0 1px;line-height:1.5}
     .wow-sell-price{color:#d1d4da;font-size:13px;margin:12px 0 0}
+    .wow-stat-warning{color:#f0c77a;font-size:12px;line-height:1.55;border-top:1px solid #68532c;margin-top:12px;padding-top:10px}
     .wow-source-link{display:inline-block;color:#9fb6e7;font-size:11px;margin-top:12px;text-decoration:underline;text-underline-offset:3px}
     .wow-source-link:hover{color:#d3e1ff}
     @media(max-width:540px){.wow-tooltip{padding:13px 12px;font-size:14px}.wow-item-level{font-size:14px}}
@@ -102,6 +103,7 @@
         tooltipLine(gear.requiredCharacterLevel==null?null:"Requires Level "+gear.requiredCharacterLevel);
         for(const effect of gear.effects||[])tooltipLine(effect,"wow-effect");
         for(const note of priceLines)tooltipLine(note,"wow-sell-price");
+        if(gear.statReviewWarning)tooltipLine(gear.statReviewWarning,"wow-stat-warning");
         if(gear.source?.itemPage){
           let source=document.createElement("a");
           source.href=gear.source.itemPage;source.target="_blank";source.rel="noopener noreferrer";

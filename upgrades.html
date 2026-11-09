@@ -115,7 +115,7 @@ function showCandidates(){
  const level=num($("level").value,1,60),skill=num($("skill").value,1,300);
  const from=Math.max(1,level-3),to=Math.min(60,level+3),armorFilter=$("armorType").value;
  const current=state.equipped[state.slot]||{},base={};
- if(current.armor!=="")base.Armor=Number(current.armor);
+ if(current.armor!==""&&current.armor!==undefined&&current.armor!==null&&Number.isFinite(Number(current.armor)))base.Armor=Number(current.armor);
  for(const stat of attributes)if(current[stat]!==""&&current[stat]!==undefined)base[stat]=Number(current[stat]);
  const knownKeys=Object.keys(base);
  const options=state.recipes.map(recipe=>({recipe,item:state.items[String(recipe.itemId)]})).filter(({item})=>item&&item.slot===state.slot&&item.requiredCharacterLevel!==null&&item.requiredCharacterLevel!==undefined&&item.requiredCharacterLevel>=from&&item.requiredCharacterLevel<=to&&(!armorFilter||!item.armorType||item.armorType===armorFilter));

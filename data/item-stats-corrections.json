@@ -43,6 +43,27 @@
       ],
       "reason": "Forever Talent's old tooltip omitted this Equip effect, but newer client and independent item pages confirm +41 ranged Attack Power."
     },
+    "20380": {
+      "effects": [
+        "Equip: Restores 4 mana per 5 sec."
+      ],
+      "source": "https://www.wowhead.com/forever/item=20380/dreamscale-breastplate",
+      "corroboration": [
+        "https://senseos.gg/wiki/wow-forever/items/20380/dreamscale-breastplate/",
+        "https://guildloot.de/en/item/forever/20380-dreamscale-breastplate/"
+      ],
+      "reason": "Original imported tooltip omitted the Mana-per-5 Equip effect confirmed in Wowhead Forever and multiple Forever item databases."
+    },
+    "252603": {
+      "reviewFlag": "Intellect-värdet skiljer sig mellan Forever-källor: +31 (bl.a. Wowhead och äldre beräknad tooltip) eller +32 (nyare klientbaserade tabeller). Behåll befintligt värde tills det kan bekräftas i spelet.",
+      "source": "https://www.wowhead.com/forever/spell=1254970/red-dragonscale-leggings",
+      "corroboration": [
+        "https://bindonforever.com/item/252603",
+        "https://metammo.com/wow-forever/items/red-dragonscale-leggings-252603",
+        "https://foreverdiff.com/recipes/red-dragonscale-leggings-55031/"
+      ],
+      "reason": "The data-driven item-budget scaling yields 31 or 32 Intellect depending on the source/build; preserve source value 31 and surface conflict."
+    },
     "279258": {
       "effects": [
         "Use: Permanently increase the Defense Skill by 4 and the Stamina value by 10 of an item worn on the chest, legs, hands, or feet. Only usable on items level 45 and above."

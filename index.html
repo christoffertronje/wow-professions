@@ -42,6 +42,37 @@
     @media(max-width:540px){.controls{padding:13px}.wow-tooltip{padding:13px 12px;font-size:14px}.wow-item-level{font-size:14px}.recipehead{padding:11px 10px;gap:9px}.detail{padding-left:15px;padding-right:15px}.skill-required{min-width:53px}.toolbar{align-items:flex-start;gap:8px;flex-wrap:wrap}.actions{margin-left:auto}}
     @media(min-width:680px){.controls-top{grid-template-columns:minmax(0,2fr) minmax(0,1fr)}}
     @media(prefers-reduced-motion:no-preference){.recipe,.chip,.action{transition:border-color .15s,background .15s}}
+
+    /* Forgebook ornate recipe frame: built from responsive CSS, not screenshot slices. */
+    .recipe{position:relative;isolation:isolate;overflow:hidden;border:2px solid #94723b!important;border-radius:12px;background:linear-gradient(125deg,#19253a,#0c1325 65%,#111b26);box-shadow:inset 0 0 0 2px #2b2319,inset 0 0 26px #000b,0 12px 32px #0008}
+    .recipe::after{content:"";pointer-events:none;position:absolute;inset:4px;border:1px solid #d7a55060;border-radius:8px;z-index:-1}
+    .recipe.open{border-color:#cc9f50!important;box-shadow:inset 0 0 0 2px #5c441f,0 0 0 1px #1a1109,0 15px 40px #000b}
+    .recipehead{background:radial-gradient(ellipse at 20% 10%,var(--quality-bg,#203526),#0a1618 78%)!important;border:0!important;border-bottom:2px solid #a58145!important;padding:16px 20px;min-height:90px;gap:15px;box-shadow:inset 0 2px #e8b76470,inset 0 -6px 19px #0009}
+    .recipehead:hover{filter:brightness(1.09)}
+    .recipe-name{font:700 clamp(18px,2.9vw,29px)/1.16 Georgia,"Times New Roman",serif;color:#ffdf92;text-shadow:1px 2px #000,0 0 16px #cfb66d30}
+    .recipe-sub{font-size:13px;color:#e1d3b8}
+    .quality-label{font:700 15px Georgia,"Times New Roman",serif;text-shadow:0 2px #000}
+    .itemicon{height:54px;width:54px;border:2px solid #d7b56c!important;border-radius:6px;box-shadow:inset 0 0 0 2px #111827,0 0 0 2px #080b10,0 0 16px #ccb46d33}
+    .skill-required{min-width:100px;padding:8px 12px;border-radius:7px;background:linear-gradient(#152829,#071316)!important;border:1px solid #c19951;color:#e7fb91;box-shadow:inset 0 0 0 2px #5c481b,0 4px 14px #0008;font:700 27px/1.05 Georgia,"Times New Roman",serif;text-shadow:0 2px #000}
+    .skill-required small{font:700 10px/1.4 Georgia,"Times New Roman",serif;color:#efdfb9;white-space:nowrap;letter-spacing:.7px}
+    .chevron{color:#edc477;font-size:20px}
+    .detail{padding:18px clamp(13px,3vw,30px) 22px;background:radial-gradient(ellipse at 50% 0,#142947,#090f20 80%);min-width:0}
+    .detail-inner{padding:0;border:0;display:flex;flex-direction:column;gap:18px}
+    .wow-tooltip{order:0;width:100%;max-width:none;margin:0;padding:18px 20px;border:1px solid #7784d2;border-radius:8px;box-shadow:0 0 0 3px #050815,0 0 0 4px #9a7436,0 6px 24px #000b,inset 0 0 22px #11183a}
+    .wow-item-name{font-size:clamp(21px,3vw,28px)}
+    .materials-panel{order:1;min-width:0;padding:0 13px 14px;border:2px solid #b18a45;border-radius:10px;background:linear-gradient(170deg,#0b1d1b 0%,#061014 100%);box-shadow:inset 0 0 0 2px #44391d,inset 0 0 26px #071f14,0 8px 22px #0009}
+    .detail-title{position:relative;width:max-content;max-width:100%;margin:-1px auto 13px;padding:7px clamp(13px,3vw,40px);border:1px solid #c09b55;border-top:0;border-radius:0 0 10px 10px;background:linear-gradient(#17402d,#091e1f);color:#ffdfa0;text-align:center;font:700 clamp(15px,2.2vw,22px)/1.3 Georgia,"Times New Roman",serif;letter-spacing:1.6px;text-shadow:0 2px #000,0 0 12px #f4c76655;box-shadow:inset 0 -2px #6c522f,0 3px 12px #0008;text-transform:uppercase}
+    .materials-list{display:grid;gap:10px}
+    .mat{min-width:0;display:flex;align-items:center;gap:15px;padding:10px 13px;border:1px solid #536e4e;border-radius:7px;background:linear-gradient(110deg,#163728 0%,#071b1c 65%,#0d2721);box-shadow:inset 0 0 0 1px #8eaf6b2d,0 3px 10px #0008}
+    .mat-icon{flex:none;display:grid;place-items:center;width:48px;height:48px;border:2px solid #d4ab5e;border-radius:5px;background:linear-gradient(#26332b,#101a23);color:#c8b780;font-size:24px;box-shadow:0 0 0 2px #081013,0 0 10px #d8b35a30;overflow:hidden}
+    .mat-icon img{display:block;width:100%;height:100%;object-fit:cover}
+    .mat-name{min-width:0;flex:1;color:#f5e7ce!important;font:700 clamp(15px,2vw,22px)/1.25 Georgia,"Times New Roman",serif;overflow-wrap:anywhere;text-shadow:0 2px #000}
+    .mat-count{flex:none;min-width:70px;padding:7px 12px;border:1px solid #a6ba53;border-radius:6px;background:linear-gradient(#173920,#061910);box-shadow:inset 0 0 0 1px #4f7035,0 3px 9px #0008;color:#ffdf8b!important;text-align:center;font:700 clamp(18px,2.7vw,27px)/1.1 Georgia,"Times New Roman",serif;text-shadow:0 2px #000}
+    .materials-missing{color:#f5d49e;padding:15px}
+    .detail-footer{order:2;display:flex;justify-content:center;align-items:center;gap:8px 16px;flex-wrap:wrap;margin:0;padding:11px 14px;border:1px solid #ad8846;border-radius:6px;background:linear-gradient(110deg,#111e31,#080e1a);color:#dcd0b8;text-align:center;font:14px/1.5 Georgia,"Times New Roman",serif;box-shadow:inset 0 0 0 2px #1d2e44,0 4px 12px #0007}
+    .detail-footer strong{color:#ffdc80;font-size:17px}
+    .detail-footer a{color:#98baf9;text-underline-offset:3px}
+    @media(max-width:540px){.recipehead{padding:12px 10px;gap:9px;min-height:76px}.recipe-name{font-size:18px}.recipe-sub{font-size:11px}.quality-label{font-size:12px}.itemicon{height:42px;width:42px}.skill-required{min-width:66px;padding:6px 5px;font-size:20px}.skill-required small{font-size:8px;letter-spacing:0}.detail{padding:14px 11px 17px}.detail-inner{gap:15px}.wow-tooltip{padding:13px}.materials-panel{padding:0 8px 10px}.detail-title{letter-spacing:.8px}.mat{gap:9px;padding:8px}.mat-icon{width:38px;height:38px}.mat-name{font-size:15px}.mat-count{min-width:51px;padding:6px 7px;font-size:18px}.detail-footer{font-size:12px}.detail-footer strong{font-size:14px}}
   </style>
 </head>
 <body>
@@ -68,7 +99,21 @@
     function visible(){return data[state.profession].filter(r=>{let query=state.search.toLocaleLowerCase();let matches=r.name.toLocaleLowerCase().includes(query)||r.mats.some(m=>m[0].toLocaleLowerCase().includes(query));return matches&&(state.filter==="all"||(state.filter==="available"&&Number.isFinite(r.craftSkillRequired)&&state.skill>=r.craftSkillRequired))})}
     function render(){let list=visible();el("count").innerHTML="<strong>"+list.length+"</strong> of "+data[state.profession].length+(state.profession==="leatherworking"?" WoW Forever recipes":" sample recipes");let root=el("recipes");root.replaceChildren();if(!list.length){let empty=document.createElement("div");empty.className="empty";empty.textContent="No matching recipes. Try another skill level or search.";root.append(empty);return}
       for(let r of list){let open=state.expandAll||state.open.has(r.id),article=document.createElement("article");article.className="recipe"+(open?" open":"");const palette={common:["#f0f1f2","#252c38","#627083","#3e4858"],uncommon:["#62e582","#173a27","#3b9962","#235c3d"],rare:["#65a6ff","#17375d","#3c76bf","#264e81"],epic:["#bc85fa","#382451","#8153b2","#513370"],legendary:["#ffb557","#4a3019","#ad7338","#6d4926"],unknown:["#b5c1d0","#222a36","#4a586a","#35404f"]};const colors=palette[r.quality]||palette.unknown;article.style.setProperty("--quality-color",colors[0]);article.style.setProperty("--quality-bg",colors[1]);article.style.setProperty("--quality-border",colors[2]);article.style.setProperty("--quality-badge",colors[3]);let head=document.createElement("button");head.type="button";head.className="recipehead";head.setAttribute("aria-expanded",String(open));head.setAttribute("aria-label",(open?"Collapse ":"Expand ")+r.name);let icon=document.createElement("span");icon.className="itemicon";if(r.iconName){let img=document.createElement("img");img.src="https://render.worldofwarcraft.com/us/icons/56/"+encodeURIComponent(r.iconName)+".jpg";img.alt="";img.loading="lazy";img.decoding="async";img.onerror=()=>{img.remove();icon.textContent="⚒"};icon.append(img)}else{icon.textContent=r.icon||"⚒"}icon.setAttribute("aria-hidden","true");let info=document.createElement("span");info.className="recipe-info";let name=document.createElement("div");name.className="recipe-name";name.textContent=r.name;let sub=document.createElement("div");sub.className="recipe-sub";let rarity=document.createElement("span");rarity.className="quality-label";rarity.textContent=({common:"Common",uncommon:"Uncommon",rare:"Rare",epic:"Epic",legendary:"Legendary"})[r.quality]||"Unknown quality";let mats=document.createElement("span");mats.textContent=r.matsKnown===false?"· Materials unverified":"· "+r.mats.length+" reagents";sub.append(rarity,mats);info.append(name,sub);let required=document.createElement("span");required.className="skill-required";let requiredLabel=document.createElement("small");requiredLabel.textContent="SKILL TO CRAFT";let requiredNumber=document.createElement("span");requiredNumber.textContent=r.craftSkillVerified===true?r.craftSkillRequired:"?";required.title=r.craftSkillVerified===true?"Source-backed minimum skill to craft; open recipe for evidence":"Minimum crafting skill not yet verified";required.append(requiredLabel,requiredNumber);let chev=document.createElement("span");chev.className="chevron";chev.setAttribute("aria-hidden","true");chev.textContent=open?"⌃":"⌄";head.append(icon,info,required,chev);head.addEventListener("click",()=>{if(state.expandAll){state.expandAll=false;state.open=new Set(list.map(x=>x.id));state.open.delete(r.id)}else if(state.open.has(r.id)){state.open.delete(r.id)}else{state.open.add(r.id)}render()});article.append(head);
-      if(open){let detail=document.createElement("div");detail.className="detail";let inner=document.createElement("div");inner.className="detail-inner";let title=document.createElement("div");title.className="detail-title";title.textContent="Required materials";inner.append(title);if(r.matsKnown===false){let missing=document.createElement("div");missing.className="mat";missing.textContent="Materials not resolved in source data";inner.append(missing)}for(let [item,count] of r.mats){let row=document.createElement("div");row.className="mat";let label=document.createElement("span");label.textContent=item;let value=document.createElement("strong");value.textContent=count+" ×";row.append(label,value);inner.append(row)}// Gear facts are separate from recipes, joined by produced item ID.
+      if(open){let detail=document.createElement("div");detail.className="detail";let inner=document.createElement("div");inner.className="detail-inner";let materialsPanel=document.createElement("section");materialsPanel.className="materials-panel";materialsPanel.setAttribute("aria-label","Required materials");
+      let title=document.createElement("h3");title.className="detail-title";title.textContent="Required Materials";materialsPanel.append(title);
+      let materialsList=document.createElement("div");materialsList.className="materials-list";
+      if(r.matsKnown===false){let missing=document.createElement("div");missing.className="materials-missing";missing.textContent="Materials not resolved in source data";materialsList.append(missing)}
+      const reagentIcons={"Light Leather":"inv_misc_leatherscrap_03","Coarse Thread":"inv_fabric_linen_03"};
+      for(let [item,count] of r.mats){
+        let row=document.createElement("div");row.className="mat";let icon=document.createElement("span");icon.className="mat-icon";icon.setAttribute("aria-hidden","true");
+        let iconName=reagentIcons[item];
+        if(iconName){let img=document.createElement("img");img.src="https://render.worldofwarcraft.com/us/icons/56/"+iconName+".jpg";img.alt="";img.loading="lazy";img.onerror=()=>{img.remove();icon.textContent="✦"};icon.append(img)}
+        else icon.textContent="✦";
+        let label=document.createElement("span");label.className="mat-name";label.textContent=item;
+        let value=document.createElement("strong");value.className="mat-count";value.textContent=count+" ×";
+        row.append(icon,label,value);materialsList.append(row);
+      }
+      materialsPanel.append(materialsList);inner.append(materialsPanel);// Gear facts are separate from recipes, joined by produced item ID.
       const gear=data.itemStats[String(r.itemId)];
       if(gear){
         // WoW tooltip-inspired presentation. Only display recorded values;
@@ -122,7 +167,12 @@
         }
         inner.prepend(tooltip);
       }
-      let footer=document.createElement("div");footer.className="detail-footer";footer.textContent="Minimum skill to craft: "+(r.craftSkillVerified===true?r.craftSkillRequired:"Not yet verified")+" · Learning source: "+r.source;if(r.craftSkillReference){let sourceLink=document.createElement("a");sourceLink.href=r.craftSkillReference;sourceLink.target="_blank";sourceLink.rel="noopener noreferrer";sourceLink.textContent=" · Check skill reference";sourceLink.style.color="#8fc9ff";footer.append(sourceLink)}inner.append(footer);detail.append(inner);article.append(detail)}root.append(article)}
+      let footer=document.createElement("div");footer.className="detail-footer";
+      let skillNote=document.createElement("span");skillNote.textContent="Minimum skill to craft: ";
+      let skillValue=document.createElement("strong");skillValue.textContent=r.craftSkillVerified===true?r.craftSkillRequired:"Not yet verified";skillNote.append(skillValue);
+      let sourceNote=document.createElement("span");sourceNote.textContent="Learning source: "+(r.source||"Unknown");
+      footer.append(skillNote,sourceNote);
+      if(r.craftSkillReference){let sourceLink=document.createElement("a");sourceLink.href=r.craftSkillReference;sourceLink.target="_blank";sourceLink.rel="noopener noreferrer";sourceLink.textContent="Check skill reference";footer.append(sourceLink)}inner.append(footer);detail.append(inner);article.append(detail)}root.append(article)}
     }
     el("profession").addEventListener("change",e=>{state.profession=e.target.value;localStorage.setItem("forgebook.profession",state.profession);state.open.clear();state.expandAll=false;render()});
     el("skill").addEventListener("input",e=>{let n=Number(e.target.value);if(!Number.isFinite(n))return;state.skill=Math.max(1,Math.min(300,n));localStorage.setItem("forgebook.skill",String(state.skill));render()});

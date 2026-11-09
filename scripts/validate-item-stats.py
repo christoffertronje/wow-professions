@@ -53,6 +53,10 @@ for r in epic:
     assert entry["name"]==r["name"] and entry["quality"]=="epic", f"Epic identity or quality mismatch: {r['name']}"
     assert isinstance(entry["itemLevel"],int) and entry["itemLevel"]>0
     assert entry["source"]["itemPage"], f"Epic item source missing: {r['name']}"
+# Epic-specific tooltips and reviewed exceptions must survive reimports.
+assert "Restores 4 mana per 5 sec" in " ".join(lookup["20380"]["effects"]), "Dreamscale Breastplate lost its mana regeneration effect"
+assert lookup["252603"].get("statReviewWarning"), "Red Dragonscale Leggings Intellect discrepancy must remain flagged"
+assert lookup["252603"]["stats"].get("Intellect") in (31,32), "Unexpected Red Dragonscale Leggings Intellect value"
 assert "252428" in lookup
 x=lookup["252428"]
 assert x["armor"]==45 and x["stats"].get("Strength")==4 and x["stats"].get("Agility")==4 and x["stats"].get("Stamina")==3

@@ -106,6 +106,8 @@ if correction_path.exists():
         if iid not in items:raise ValueError(f"Item correction references unknown output item {iid}")
         for field in ("stats","resistances","effects","armor","requiredCharacterLevel","binding"):
             if field in patch:items[iid][field]=patch[field]
+        if "reviewFlag" in patch:
+            items[iid]["statReviewWarning"]=patch["reviewFlag"]
         items[iid]["reviewedCorrection"]={
             "source":patch.get("source"),
             "corroboration":patch.get("corroboration",[]),

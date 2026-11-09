@@ -39,7 +39,7 @@ for sid,level in newer_skills.items():
 # tooltips. Keep the override in this importer so rebuilds cannot undo it.
 quality_path=pathlib.Path("data/item-quality-corrections.json")
 quality_overrides=json.loads(quality_path.read_text(encoding="utf-8"))["byItemId"] if quality_path.exists() else {}
-assert len(quality_overrides)==32, "Expected 32 verified Epic quality corrections"
+assert len(quality_overrides)==33, "Expected 32 Epic and 1 Uncommon quality corrections"
 items={row["id"]:row for row in snapshot["items"] if isinstance(row,dict) and "id" in row}
 all_recipes=[r for r in snapshot["recipes"] if r.get("professionId")==165 or 165 in r.get("professionIds",[])]
 result=[]

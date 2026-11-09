@@ -14,11 +14,11 @@ assert all(r.get("category")!="SEASON OF DISCOVERY" and not r["name"].startswith
 assert len(set(row["id"] for row in rows))==len(rows), "Duplicate recipe spell ID"
 # All 32 formerly unknown items have independently confirmed Epic quality.
 assert sum(x["quality"]=="epic" for x in rows)==70, "Epic item count changed"
-assert sum(x["quality"]=="common" for x in rows)==28, "Common item count changed"
+assert sum(x["quality"]=="common" for x in rows)==27, "Common item count changed"
 assert not any(x["quality"]=="unknown" for x in rows), "A sourced output still has unknown quality"
 quality_path=Path("data/item-quality-corrections.json")
 quality_overrides=json.loads(quality_path.read_text(encoding="utf-8"))["byItemId"]
-assert len(quality_overrides)==32, "Missing Epic output-quality review"
+assert len(quality_overrides)==33, "Missing Epic/Uncommon output-quality review"
 for row in rows:
     if str(row["itemId"]) in quality_overrides:
         assert row["quality"]==quality_overrides[str(row["itemId"])], f"Item quality regression: {row['name']}"

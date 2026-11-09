@@ -26,6 +26,12 @@ for path,report in sources.items():
   if current is None:raise RuntimeError("Missing item "+iid)
   kind=classifications.get(iid)
   if kind is None:raise RuntimeError("Unreviewed discrepancy "+iid+" in "+path)
+  # A second source may expose raw 0cN spell placeholders while the item
+  # itself has a reviewed, properly resolved enchant from other sources.
+  # Preserve the historical comparison uncertainty without classifying
+  # those already-corrected items as missing gameplay values.
+  if kind=="source-template-unresolved" and current.get("reviewedCorrection",{}).get("source"):
+   kind="source-template-undecoded-reviewed"
   result={"itemId":int(iid),"name":current["name"],"quality":current["quality"],
      "historicalStatus":item["status"],"classification":kind,
      "currentEffect":current["effects"],"currentStats":current["stats"],
@@ -40,8 +46,10 @@ payload={"meta":{"title":"Legacy cross-source effect reconciliation","scope":"Di
  "warning":"Historical audit reports compare earlier versions and are not automatically rewritten after corrections. Template placeholders are undecodable, not zero.",
  "itemRecords":len(data),"checkedSnapshots":reports},"summary":{"historicalFlaggedItems":len(results),
    "classifications":dict(sorted(counts.items())),"currentlyWarnedRecords":sum(bool(x.get("statReviewWarning")) for x in data.values()),
-   "templateUnresolvedFromSnapshots":sum(x["classification"]=="source-template-unresolved" for x in results)},
+   "templateUnresolvedFromSnapshots":sum(x["classification"].startswith("source-template-") for x in results),
+   "templateUnresolvedWithoutReviewedCorrection":sum(x["classification"]=="source-template-unresolved" for x in results)},
  "items":sorted(results,key=lambda x:x["itemId"])}
-assert payload["summary"]["templateUnresolvedFromSnapshots"]==10 or payload["summary"]["templateUnresolvedFromSnapshots"]==11
+assert payload["summary"]["templateUnresolvedFromSnapshots"] in (10,11)
+assert payload["summary"]["templateUnresolvedWithoutReviewedCorrection"]==0, "Source template still lacks a reviewed effect"
 (root/"docs/effect-reconciliation-report.json").write_text(json.dumps(payload,indent=2,ensure_ascii=False)+"\n",encoding="utf-8")
 print(payload["summary"])

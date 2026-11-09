@@ -7,7 +7,8 @@ items=json.loads(Path("data/item-stats.json").read_text(encoding="utf-8"))
 rare=[r for r in catalog["recipes"] if r["quality"]=="rare"]
 assert len(rare)==201
 lookup=items["byItemId"]
-assert len(lookup)==414
+assert len(lookup)==452
+assert items["meta"]["epicItems"]==38
 uncommon=[r for r in catalog["recipes"] if r["quality"]=="uncommon"]
 assert len(uncommon)==213
 for r in rare:
@@ -42,6 +43,16 @@ for r in uncommon:
 assert lookup["7348"].get("statReviewWarning"), "Fletcher's Gloves disputed Parry sign must remain flagged"
 assert lookup["8197"].get("statReviewWarning"), "Nightscape Boots disputed stealth value must remain flagged"
 assert all(x["armorType"] is None for x in lookup.values() if x["slot"]=="Back" and x["quality"]=="uncommon"), "Cloaks should not be an equipment armor material"
+epic=[r for r in catalog["recipes"] if r["quality"]=="epic"]
+assert len(epic)==38
+for r in epic:
+    iid=str(r["itemId"])
+    assert iid in lookup, f"Missing Epic gear item {r['name']}"
+    entry=lookup[iid]
+    assert entry["itemId"]==int(iid) and entry["recipeSpellId"]==r["id"], f"Epic item ID mismatch: {r['name']}"
+    assert entry["name"]==r["name"] and entry["quality"]=="epic", f"Epic identity or quality mismatch: {r['name']}"
+    assert isinstance(entry["itemLevel"],int) and entry["itemLevel"]>0
+    assert entry["source"]["itemPage"], f"Epic item source missing: {r['name']}"
 assert "252428" in lookup
 x=lookup["252428"]
 assert x["armor"]==45 and x["stats"].get("Strength")==4 and x["stats"].get("Agility")==4 and x["stats"].get("Stamina")==3
@@ -60,4 +71,4 @@ if audit_path.exists():
     assert audit["summary"]["source-unavailable"]==0
     assert audit["summary"]["disagreements"]==0, "Review second-source item stat conflicts before deployment"
     assert audit["summary"]["inconclusive"]==2, "Review changed spell-template coverage and update audit"
-print("PASS: 414 Rare and Uncommon item records joined by produced item ID, with attributes/effects and source provenance")
+print("PASS: 452 Epic, Rare and Uncommon item records joined by produced item ID, with attributes/effects and source provenance")

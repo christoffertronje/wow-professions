@@ -3,6 +3,8 @@ on:
   push:
     branches: [main]
   workflow_dispatch:
+  schedule:
+    - cron: '17 */6 * * *'
 permissions:
   contents: read
   pages: write
@@ -16,6 +18,9 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
+    env:
+      BNET_CLIENT_ID: ${{ secrets.BNET_CLIENT_ID }}
+      BNET_CLIENT_SECRET: ${{ secrets.BNET_CLIENT_SECRET }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -31,6 +36,9 @@ jobs:
         run: python3 scripts/validate-item-stats.py
       - name: Resolve item icons from WoW FileDataIDs
         run: python3 scripts/resolve-icons.py
+      - name: Sync public Forever Armory snapshot
+        if: ${{ env.BNET_CLIENT_ID != '' && env.BNET_CLIENT_SECRET != '' }}
+        run: python3 scripts/sync-armory.py
       - name: Configure Pages
         uses: actions/configure-pages@v5
       - name: Upload static site

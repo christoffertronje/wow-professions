@@ -1,0 +1,7339 @@
+{
+  "meta": {
+    "firstSource": "https://wowforevertalent.com/professions/leatherworking/?acquisition=favor",
+    "secondSource": "https://bindonforever.com/items",
+    "secondSourceClientBuild": "1.60.1.70862",
+    "matchingMethod": "Exact output item ID and name, field-by-field; absent source fields not treated as contradictions",
+    "caveat": "Both references use game client records, not 201 independent live in-game observations. No source conflict automatically changes the published site."
+  },
+  "summary": {
+    "totalRare": 201,
+    "match": 196,
+    "difference": 4,
+    "source-unavailable": 0,
+    "identity-mismatch": 1,
+    "sourcesFetched": 200,
+    "fullyMatching": 196,
+    "disagreements": 4,
+    "fieldsWithDisagreements": {
+      "resistances": 1,
+      "effects": 3
+    }
+  },
+  "results": [
+    {
+      "itemId": "4253",
+      "name": "Toughened Leather Gloves",
+      "url": "https://bindonforever.com/item/4253",
+      "status": "match",
+      "checkedFields": [
+        "itemLevel",
+        "requiredCharacterLevel",
+        "slot",
+        "armorType",
+        "armor",
+        "binding",
+        "stats",
+        "resistances"
+      ],
+      "differences": [],
+      "source": {
+        "name": "Toughened Leather Gloves",
+        "itemLevel": 27,
+        "requiredCharacterLevel": 22,
+        "slot": "Hands",
+        "armorType": "Leather",
+        "armor": 61,
+        "binding": "BoE",
+        "stats": {
+          "Strength": 6,
+          "Agility": 6,
+          "Stamina": 3
+        },
+        "resistances": {},
+        "effects": []
+      },
+      "oldBuild": "2026-10-17",
+      "newBuild": "1.60.1.70862"
+    },
+    {
+      "itemId": "4262",
+      "name": "Gem-studded Leather Belt",
+      "url": "https://bindonforever.com/item/4262",
+      "status": "match",
+      "checkedFields": [
+        "itemLevel",
+        "requiredCharacterLevel",
+        "slot",
+        "armorType",
+        "armor",
+        "binding",
+        "stats",
+        "resistances",
+        "effects"
+      ],
+      "differences": [],
+      "source": {
+        "name": "Gem-studded Leather Belt",
+        "itemLevel": 37,
+        "requiredCharacterLevel": 32,
+        "slot": "Waist",
+        "armorType": "Leather",
+        "armor": 65,
+        "binding": "BoE",
+        "stats": {
+          "Stamina": 8
+        },
+        "resistances": {},
+        "effects": [
+          "Equip: +6 Attack Power.",
+          "Use: Heal yourself for 225 to 375. (5 Min Cooldown)"
+        ]
+      },
+      "oldBuild": "2026-10-17",
+      "newBuild": "1.60.1.70862"
+    },
+    {
+      "itemId": "6468",
+      "name": "Deviate Scale Belt",
+      "url": "https://bindonforever.com/item/6468",
+      "status": "match",
+      "checkedFields": [
+        "itemLevel",
+        "requiredCharacterLevel",
+        "slot",
+        "armorType",
+        "armor",
+        "binding",
+        "stats",
+        "resistances"
+      ],
+      "differences": [],
+      "source": {
+        "name": "Deviate Scale Belt",
+        "itemLevel": 23,
+        "requiredCharacterLevel": 18,
+        "slot": "Waist",
+        "armorType": "Leather",
+        "armor": 51,
+        "binding": "BoE",
+        "stats": {
+          "Strength": 3,
+          "Agility": 5,
+          "Stamina": 6
+        },
+        "resistances": {},
+        "effects": []
+      },
+      "oldBuild": "2026-10-17",
+      "newBuild": "1.60.1.70862"
+    },
+    {
+      "itemId": "8345",
+      "name": "Wolfshead Helm",
+      "url": "https://bindonforever.com/item/8345",
+      "status": "match",
+      "checkedFields": [
+        "itemLevel",
+        "requiredCharacterLevel",
+        "slot",
+        "armorType",
+        "armor",
+        "binding",
+        "stats",
+        "resistances",
+        "effects"
+      ],
+      "differences": [],
+      "source": {
+        "name": "Wolfshead Helm",
+        "itemLevel": 45,
+        "requiredCharacterLevel": 40,
+        "slot": "Head",
+        "armorType": "Leather",
+        "armor": 109,
+        "binding": "BoE",
+        "stats": {
+          "Spirit": 10
+        },
+        "resistances": {},
+        "effects": [
+          "Equip: You gain an additional 5 Rage from activating Enrage and an additional 5 Energy from activating Shifting Power."
+        ]
+      },
+      "oldBuild": "2026-10-17",
+      "newBuild": "1.60.1.70862"
+    },
+    {
+      "itemId": "8346",
+      "name": "Gauntlets of the Sea",
+      "url": "https://bindonforever.com/item/8346",
+      "status": "match",
+      "checkedFields": [
+        "itemLevel",
+        "requiredCharacterLevel",
+        "slot",
+        "armorType",
+        "armor",
+        "binding",
+        "stats",
+        "resistances",
+        "effects"
+      ],
+      "differences": [],
+      "source": {
+        "name": "Gauntlets of the Sea",
+        "itemLevel": 46,
+        "requiredCharacterLevel": 41,
+        "slot": "Hands",
+        "armorType": "Leather",
+        "armor": 85,
+        "binding": "BoE",
+        "stats": {
+          "Agility": 7
+        },
+        "resistances": {},
+        "effects": [
+          "Equip: Increases healing done by up to 6 and damage done by up to 18 for all magical spells and effects.",
+          "Use: Heal friendly target for 300 to 500. (30 Min Cooldown)"
+        ]
+      },
+      "oldBuild": "2026-10-17",
+      "newBuild": "1.60.1.70862"
+    },
+    {
+      "itemId": "8347",
+      "name": "Dragonscale Gauntlets",
+      "url": "https://bindonforever.com/item/8347",
+      "status": "match",
+      "checkedFields": [
+        "itemLevel",
+        "requiredCharacterLevel",
+        "slot",
+        "armorType",
+        "armor",
+        "binding",
+        "stats",
+        "resistances",
+        "effects"
+      ],
+      "differences": [],
+      "source": {
+        "name": "Dragonscale Gauntlets",
+        "itemLevel": 45,
+        "requiredCharacterLevel": 40,
+        "slot": "Hands",
+        "armorType": "Mail",
+        "armor": 171,
+        "binding": "BoE",
+        "stats": {
+          "Agility": 6,
+          "Stamina": 7
+        },
+        "resistances": {},
+        "effects": [
+          "Equip: Improves your chance to get a critical strike by 1.0%."
+        ]
+      },
+      "oldBuild": "2026-10-17",
+      "newBuild": "1.60.1.70862"
+    },
+    {
+      "itemId": "8348",
+      "name": "Helm of Fire",
+      "url": "https://bindonforever.com/item/8348",
+      "status": "match",
+      "checkedFields": [
+        "itemLevel",
+        "requiredCharacterLevel",
+        "slot",
+        "armorType",
+        "armor",
+        "binding",
+        "stats",
+        "resistances",
+        "effects"
+      ],
+      "differences": [],
+      "source": {
+        "name": "Helm of Fire",
+        "itemLevel": 50,
+        "requiredCharacterLevel": 45,
+        "slot": "Head",
+        "armorType": "Leather",
+        "armor": 118,
+        "binding": "BoE",
+        "stats": {
+          "Agility": 17,
+          "Stamina": 10
+        },
+        "resistances": {
+          "Fire": 5
+        },
+        "effects": [
+          "Use: Hurls a fiery ball that causes 286 to 376 Fire damage and an additional 132 damage over 8 sec. (5 Min Cooldown)"
+        ]
+      },
+      "oldBuild": "2026-10-17",
+      "newBuild": "1.60.1.70862"
+    },
+    {
+      "itemId": "8349",
+      "name": "Feathered Breastplate",
+      "url": "https://bindonforever.com/item/8349",
+      "status": "match",
+      "checkedFields": [
+        "itemLevel",
+        "requiredCharacterLevel",
+        "slot",
+        "armorType",
+        "armor",
+        "binding",
+        "stats",
+        "resistances",
+        "effects"
+      ],
+      "differences": [],
+      "source": {
+        "name": "Feathered Breastplate",
+        "itemLevel": 50,
+        "requiredCharacterLevel": 45,
+        "slot": "Chest",
+        "armorType": "Leather",
+        "armor": 146,
+        "binding": "BoE",
+        "stats": {
+          "Intellect": 10,
+          "Spirit": 24
+        },
+        "resistances": {},
+        "effects": [
+          "Equip: Increases damage and healing done by magical spells and effects by up to 19."
+        ]
+      },
+      "oldBuild": "2026-10-17",
+      "newBuild": "1.60.1.70862"
+    },
+    {
+      "itemId": "8367",
+      "name": "Dragonscale Breastplate",
+      "url": "https://bindonforever.com/item/8367",
+      "status": "difference",
+      "checkedFields": [
+        "itemLevel",
+        "requiredCharacterLevel",
+        "slot",
+        "armorType",
+        "armor",
+        "binding",
+        "stats",
+        "resistances",
+        "effects"
+      ],
+      "differences": [
+        {
+          "field": "resistances",
+          "ours": {
+            "Arcane": 13,
+            "Fire": 13,
+            "Frost": 13,
+            "Nature": 13,
+            "Shadow": 13
+          },
+          "source": {}
+        }
+      ],
+      "source": {
+        "name": "Dragonscale Breastplate",
+        "itemLevel": 51,
+        "requiredCharacterLevel": 46,
+        "slot": "Chest",
+        "armorType": "Mail",
+        "armor": 306,
+        "binding": "BoE",
+        "stats": {
+          "Stamina": 10
+        },
+        "resistances": {},
+        "effects": [
+          "Use: Absorbs 600 magical damage.  Lasts 2 min. (5 Min Cooldown)"
+        ]
+      },
+      "oldBuild": "2026-10-17",
+      "newBuild": "1.60.1.70862"
+    },
+    {
+      "itemId": "12624",
+      "name": "Wildthorn Mail",
+      "url": "https://bindonforever.com/item/12624",
+      "status": "match",
+      "checkedFields": [
+        "itemLevel",
+        "requiredCharacterLevel",
+        "slot",
+        "armorType",
+        "armor",
+        "binding",
+        "stats",
+        "resistances",
+        "effects"
+      ],
+      "differences": [],
+      "source": {
+        "name": "Wildthorn Mail",
+        "itemLevel": 54,
+        "requiredCharacterLevel": 49,
+        "slot": "Chest",
+        "armorType": "Mail",
+        "armor": 322,
+        "binding": "BoE",
+        "stats": {
+          "Stamina": 5
+        },
+        "resistances": {},
+        "effects": [
+          "Equip: Improves your chance to hit by 1.0%.",
+          "Equip: Increases damage and healing done by magical spells and effects by up to 11."
+        ]
+      },
+      "oldBuild": "2026-10-17",
+      "newBuild": "1.60.1.70862"
+    },
+    {
+      "itemId": "12632",
+      "name": "Storm Gauntlets",
+      "url": "https://bindonforever.com/item/12632",
+      "status": "match",
+      "checkedFields": [
+        "itemLevel",
+        "requiredCharacterLevel",
+        "slot",
+        "armorType",
+        "armor",
+        "binding",
+        "stats",
+        "resistances",
+        "effects"
+      ],
+      "differences": [],
+      "source": {
+        "name": "Storm Gauntlets",
+        "itemLevel": 59,
+        "requiredCharacterLevel": 54,
+        "slot": "Hands",
+        "armorType": "Mail",
+        "armor": 218,
+        "binding": "BoE",
+        "stats": {
+          "Stamina": 7
+        },
+        "resistances": {},
+        "effects": [
+          "Equip: Improves your chance to hit by 1.0%.",
+          "Equip: Increases damage and healing done by magical spells and effects by up to 18.",
+          "Equip: Adds 3 Lightning damage to your melee attacks."
+        ]
+      },
+      "oldBuild": "2026-10-17",
+      "newBuild": "1.60.1.70862"
+    },
+    {
+      "itemId": "12636",
+      "name": "Helm of the Great Chief",
+      "url": "https://bindonforever.com/item/12636",
+      "status": "match",
+      "checkedFields": [
+        "itemLevel",
+        "requiredCharacterLevel",
+        "slot",
+        "armorType",
+        "armor",
+        "binding",
+        "stats",
+        "resistances",
+        "effects"
+      ],
+      "differences": [],
+      "source": {
+        "name": "Helm of the Great Chief",
+        "itemLevel": 61,
+        "requiredCharacterLevel": 56,
+        "slot": "Head",
+        "armorType": "Mail",
+        "armor": 292,
+        "binding": "BoE",
+        "stats": {
+          "Spirit": 12
+        },
+        "resistances": {},
+        "effects": [
+          "Equip: Increases healing done by up to 30 and damage done by up to 15 for all magical spells and effects."
+        ]
+      },
+      "oldBuild": "2026-10-17",
+      "newBuild": "1.60.1.70862"
+    },
+    {
+      "itemId": "15045",
+      "name": "Green Dragonscale Breastplate",
+      "url": "https://bindonforever.com/item/15045",
+      "status": "match",
+      "checkedFields": [
+        "itemLevel",
+        "requiredCharacterLevel",
+        "slot",
+        "armorType",
+        "armor",
+        "binding",
+        "stats",
+        "resistances",
+        "effects"
+      ],
+      "differences": [],
+      "source": {
+        "name": "Green Dragonscale Breastplate",
+        "itemLevel": 52,
+        "requiredCharacterLevel": 47,
+        "slot": "Chest",
+        "armorType": "Mail",
+        "armor": 311,
+        "binding": "BoE",
+        "stats": {
+          "Stamina": 10
+        },
+        "resistances": {
+          "Nature": 11
+        },
+        "effects": [
+          "Equip: Increases healing done by up to 10 and damage done by up to 21 for all magical spells and effects."
+        ]
+      },
+      "oldBuild": "2026-10-17",
+      "newBuild": "1.60.1.70862"
+    },
+    {
+      "itemId": "15046",
+      "name": "Green Dragonscale Leggings",
+      "url": "https://bindonforever.com/item/15046",
+      "status": "match",
+      "checkedFields": [
+        "itemLevel",
+        "requiredCharacterLevel",
+        "slot",
+        "armorType",
+        "armor",
+        "binding",
+        "stats",
+        "resistances",
+        "effects"
+      ],
+      "differences": [],
+      "source": {
+        "name": "Green Dragonscale Leggings",
+        "itemLevel": 54,
+        "requiredCharacterLevel": 49,
+        "slot": "Legs",
+        "armorType": "Mail",
+        "armor": 282,
+        "binding": "BoE",
+        "stats": {
+          "Stamina": 10
+        },
+        "resistances": {
+          "Nature": 11
+        },
+        "effects": [
+          "Equip: Increases healing done by up to 22 and damage done by up to 17 for all magical spells and effects."
+        ]
+      },
+      "oldBuild": "2026-10-17",
+      "newBuild": "1.60.1.70862"
+    },
+    {
+      "itemId": "15047",
+      "name": "Red Dragonscale Breastplate",
+      "url": "https://bindonforever.com/item/15047",
+      "status": "match",
+      "checkedFields": [
+        "itemLevel",
+        "requiredCharacterLevel",
+        "slot",
+        "armorType",
+        "armor",
+        "binding",
+        "stats",
+        "resistances",
+        "effects"
+      ],
+      "differences": [],
+      "source": {
+        "name": "Red Dragonscale Breastplate",
+        "itemLevel": 61,
+        "requiredCharacterLevel": 56,
+        "slot": "Chest",
+        "armorType": "Mail",
+        "armor": 360,
+        "binding": "BoE",
+        "stats": {},
+        "resistances": {
+          "Fire": 20
+        },
+        "effects": [
+          "Equip: Increases healing done by up to 57 and damage done by up to 19 for all magical spells and effects."
+        ]
+      },
+      "oldBuild": "2026-10-17",
+      "newBuild": "1.60.1.70862"
+    },
+    {
+      "itemId": "15048",
+      "name": "Blue Dragonscale Breastplate",
+      "url": "https://bindonforever.com/item/15048",
+      "status": "match",
+      "checkedFields": [
+        "itemLevel",
+        "requiredCharacterLevel",
+        "slot",
+        "armorType",
+        "armor",
+        "binding",
+        "stats",
+        "resistances",
+        "effects"
+      ],
+      "differences": [],
+      "source": {
+        "name": "Blue Dragonscale Breastplate",
+        "itemLevel": 57,
+        "requiredCharacterLevel": 52,
+        "slot": "Chest",
+        "armorType": "Mail",
+        "armor": 338,
+        "binding": "BoE",
+        "stats": {
+          "Intellect": 28
+        },
+        "resistances": {
+          "Arcane": 8
+        },
+        "effects": [
+          "Equip: Increases damage and healing done by magical spells and effects by up to 8."
+        ]
+      },
+      "oldBuild": "2026-10-17",
+      "newBuild": "1.60.1.70862"
+    },
+    {
+      "itemId": "15049",
+      "name": "Blue Dragonscale Shoulders",
+      "url": "https://bindonforever.com/item/15049",
+      "status": "match",
+      "checkedFields": [
+        "itemLevel",
+        "requiredCharacterLevel",
+        "slot",
+        "armorType",
+        "armor",
+        "binding",
+        "stats",
+        "resistances",
+        "effects"
+      ],
+      "differences": [],
+      "source": {
+        "name": "Blue Dragonscale Shoulders",
+        "itemLevel": 59,
+        "requiredCharacterLevel": 54,
+        "slot": "Shoulder",
+        "armorType": "Mail",
+        "armor": 262,
+        "binding": "BoE",
+        "stats": {
+          "Intellect": 21
+        },
+        "resistances": {
+          "Arcane": 6
+        },
+        "effects": [
+          "Equip: Increases damage and healing done by magical spells and effects by up to 6."
+        ]
+      },
+      "oldBuild": "2026-10-17",
+      "newBuild": "1.60.1.70862"
+    },
+    {
+      "itemId": "15050",
+      "name": "Black Dragonscale Breastplate",
+      "url": "https://bindonforever.com/item/15050",
+      "status": "match",
+      "checkedFields": [
+        "itemLevel",
+        "requiredCharacterLevel",
+        "slot",
+        "armorType",
+        "armor",
+        "binding",
+        "stats",
+        "resistances",
+        "effects"
+      ],
+      "differences": [],
+      "source": {
+        "name": "Black Dragonscale Breastplate",
+        "itemLevel": 58,
+        "requiredCharacterLevel": 53,
+        "slot": "Chest",
+        "armorType": "Mail",
+        "armor": 344,
+        "binding": "BoE",
+        "stats": {
+          "Stamina": 8
+        },
+        "resistances": {
+          "Fire": 12
+        },
+        "effects": [
+          "Equip: +50 Attack Power."
+        ]
+      },
+      "oldBuild": "2026-10-17",
+      "newBuild": "1.60.1.70862"
+    },
+    {
+      "itemId": "15051",
+      "name": "Black Dragonscale Shoulders",
+      "url": "https://bindonforever.com/item/15051",
+      "status": "match",
+      "checkedFields": [
+        "itemLevel",
+        "requiredCharacterLevel",
+        "slot",
+        "armorType",
+        "armor",
+        "binding",
+        "stats",
+        "resistances",
+        "effects"
+      ],
+      "differences": [],
+      "source": {
+        "name": "Black Dragonscale Shoulders",
+        "itemLevel": 60,
+        "requiredCharacterLevel": 55,
+        "slot": "Shoulder",
+        "armorType": "Mail",
+        "armor": 266,
+        "binding": "BoE",
+        "stats": {
+          "Stamina": 9
+        },
+        "resistances": {
+          "Fire": 6
+        },
+        "effects": [
+          "Equip: +40 Attack Power."
+        ]
+      },
+      "oldBuild": "2026-10-17",
+      "newBuild": "1.60.1.70862"
+    },
+    {
+      "itemId": "15052",
+      "name": "Black Dragonscale Leggings",
+      "url": "https://bindonforever.com/item/15052",
+      "status": "match",
+      "checkedFields": [
+        "itemLevel",
+        "requiredCharacterLevel",
+        "slot",
+        "armorType",
+        "armor",
+        "binding",
+        "stats",
+        "resistances",
+        "effects"
+      ],
+      "differences": [],
+      "source": {
+        "name": "Black Dragonscale Leggings",
+        "itemLevel": 62,
+        "requiredCharacterLevel": 57,
+        "slot": "Legs",
+        "armorType": "Mail",
+        "armor": 320,
+        "binding": "BoE",
+        "stats": {
+          "Stamina": 8
+        },
+        "resistances": {
+          "Fire": 13
+        },
+        "effects": [
+          "Equip: +54 Attack Power."
+        ]
+      },
+      "oldBuild": "2026-10-17",
+      "newBuild": "1.60.1.70862"
+    },
+    {
+      "itemId": "15056",
+      "name": "Stormshroud Armor",
+      "url": "https://bindonforever.com/item/15056",
+      "status": "match",
+      "checkedFields": [
+        "itemLevel",
+        "requiredCharacterLevel",
+        "slot",
+        "armorType",
+        "armor",
+        "binding",
+        "stats",
+        "resistances",
+        "effects"
+      ],
+      "differences": [],
+      "source": {
+        "name": "Stormshroud Armor",
+        "itemLevel": 57,
+        "requiredCharacterLevel": 52,
+        "slot": "Chest",
+        "armorType": "Leather",
+        "armor": 163,
+        "binding": "BoE",
+        "stats": {},
+        "resistances": {},
+        "effects": [
+          "Equip: Increases your chance to Dodge an attack by 1.0%.",
+          "Equip: Improves your chance to get a critical strike by 2.0%."
+        ]
+      },
+      "oldBuild": "2026-10-17",
+      "newBuild": "1.60.1.70862"
+    },
+    {
+      "itemId": "15057",
+      "name": "Stormshroud Pants",
+      "url": "https://bindonforever.com/item/15057",
+      "status": "match",
+      "checkedFields": [
+        "itemLevel",
+        "requiredCharacterLevel",
+        "slot",
+        "armorType",
+        "armor",
+        "binding",
+        "stats",
+        "resistances",
+        "effects"
+      ],
+      "differences": [],
+      "source": {
+        "name": "Stormshroud Pants",
+        "itemLevel": 55,
+        "requiredCharacterLevel": 50,
+        "slot": "Legs",
+        "armorType": "Leather",
+        "armor": 138,
+        "binding": "BoE",
+        "stats": {},
+        "resistances": {},
+        "effects": [
+          "Equip: Increases your chance to Dodge an attack by 1.0%.",
+          "Equip: Improves your chance to get a critical strike by 2.0%."
+        ]
+      },
+      "oldBuild": "2026-10-17",
+      "newBuild": "1.60.1.70862"
+    },
+    {
+      "itemId": "15058",
+      "name": "Stormshroud Shoulders",
+      "url": "https://bindonforever.com/item/15058",
+      "status": "match",
+      "checkedFields": [
+        "itemLevel",
+        "requiredCharacterLevel",
+        "slot",
+        "armorType",
+        "armor",
+        "binding",
+        "stats",
+        "resistances",
+        "effects"
+      ],
+      "differences": [],
+      "source": {
+        "name": "Stormshroud Shoulders",
+        "itemLevel": 59,
+        "requiredCharacterLevel": 54,
+        "slot": "Shoulder",
+        "armorType": "Leather",
+        "armor": 126,
+        "binding": "BoE",
+        "stats": {
+          "Stamina": 12
+        },
+        "resistances": {},
+        "effects": [
+          "Equip: Increases your chance to Dodge an attack by 1.0%.",
+          "Equip: Improves your chance to get a critical strike by 1.0%."
+        ]
+      },
+      "oldBuild": "2026-10-17",
+      "newBuild": "1.60.1.70862"
+    },
+    {
+      "itemId": "15059",
+      "name": "Living Breastplate",
+      "url": "https://bindonforever.com/item/15059",
+      "status": "match",
+      "checkedFields": [
+        "itemLevel",
+        "requiredCharacterLevel",
+        "slot",
+        "armorType",
+        "armor",
+        "binding",
+        "stats",
+        "resistances",
+        "effects"
+      ],
+      "differences": [],
+      "source": {
+        "name": "Living Breastplate",
+        "itemLevel": 60,
+        "requiredCharacterLevel": 55,
+        "slot": "Chest",
+        "armorType": "Leather",
+        "armor": 169,
+        "binding": "BoE",
+        "stats": {
+          "Stamina": 10,
+          "Spirit": 25
+        },
+        "resistances": {
+          "Nature": 5
+        },
+        "effects": [
+          "Equip: Increases healing done by up to 26 and damage done by up to 9 for all magical spells and effects."
+        ]
+      },
+      "oldBuild": "2026-10-17",
+      "newBuild": "1.60.1.70862"
+    },
+    {
+      "itemId": "15060",
+      "name": "Living Leggings",
+      "url": "https://bindonforever.com/item/15060",
+      "status": "match",
+      "checkedFields": [
+        "itemLevel",
+        "requiredCharacterLevel",
+        "slot",
+        "armorType",
+        "armor",
+        "binding",
+        "stats",
+        "resistances",
+        "effects"
+      ],
+      "differences": [],
+      "source": {
+        "name": "Living Leggings",
+        "itemLevel": 57,
+        "requiredCharacterLevel": 52,
+        "slot": "Legs",
+        "armorType": "Leather",
+        "armor": 142,
+        "binding": "BoE",
+        "stats": {
+          "Stamina": 8,
+          "Spirit": 25
+        },
+        "resistances": {
+          "Nature": 5
+        },
+        "effects": [
+          "Equip: Increases healing done by up to 26 and damage done by up to 9 for all magical spells and effects."
+        ]
+      },
+      "oldBuild": "2026-10-17",
+      "newBuild": "1.60.1.70862"
+    },
+    {
+      "itemId": "15061",
+      "name": "Living Shoulders",
+      "url": "https://bindonforever.com/item/15061",
+      "status": "match",
+      "checkedFields": [
+        "itemLevel",
+        "requiredCharacterLevel",
+        "slot",
+        "armorType",
+        "armor",
+        "binding",
+        "stats",
+        "resistances",
+        "effects"
+      ],
+      "differences": [],
+      "source": {
+        "name": "Living Shoulders",
+        "itemLevel": 54,
+        "requiredCharacterLevel": 49,
+        "slot": "Shoulder",
+        "armorType": "Leather",
+        "armor": 117,
+        "binding": "BoE",
+        "stats": {
+          "Stamina": 8,
+          "Spirit": 13
+        },
+        "resistances": {
+          "Nature": 3
+        },
+        "effects": [
+          "Equip: Increases healing done by up to 31 and damage done by up to 10 for all magical spells and effects."
+        ]
+      },
+      "oldBuild": "2026-10-17",
+      "newBuild": "1.60.1.70862"
+    },
+    {
+      "itemId": "15062",
+      "name": "Devilsaur Leggings",
+      "url": "https://bindonforever.com/item/15062",
+      "status": "match",
+      "checkedFields": [
+        "itemLevel",
+        "requiredCharacterLevel",
+        "slot",
+        "armorType",
+        "armor",
+        "binding",
+        "stats",
+        "resistances",
+        "effects"
+      ],
+      "differences": [],
+      "source": {
+        "name": "Devilsaur Leggings",
+        "itemLevel": 60,
+        "requiredCharacterLevel": 55,
+        "slot": "Legs",
+        "armorType": "Leather",
+        "armor": 148,
+        "binding": "BoE",
+        "stats": {
+          "Stamina": 12
+        },
+        "resistances": {},
+        "effects": [
+          "Equip: Improves your chance to get a critical strike by 1.0%.",
+          "Equip: +46 Attack Power."
+        ]
+      },
+      "oldBuild": "2026-10-17",
+      "newBuild": "1.60.1.70862"
+    },
+    {
+      "itemId": "15063",
+      "name": "Devilsaur Gauntlets",
+      "url": "https://bindonforever.com/item/15063",
+      "status": "match",
+      "checkedFields": [
+        "itemLevel",
+        "requiredCharacterLevel",
+        "slot",
+        "armorType",
+        "armor",
+        "binding",
+        "stats",
+        "resistances",
+        "effects"
+      ],
+      "differences": [],
+      "source": {
+        "name": "Devilsaur Gauntlets",
+        "itemLevel": 58,
+        "requiredCharacterLevel": 53,
+        "slot": "Hands",
+        "armorType": "Leather",
+        "armor": 103,
+        "binding": "BoE",
+        "stats": {
+          "Stamina": 9
+        },
+        "resistances": {},
+        "effects": [
+          "Equip: Improves your chance to get a critical strike by 1.0%.",
+          "Equip: +28 Attack Power."
+        ]
+      },
+      "oldBuild": "2026-10-17",
+      "newBuild": "1.60.1.70862"
+    },
+    {
+      "itemId": "15064",
+      "name": "Warbear Harness",
+      "url": "https://bindonforever.com/item/15064",
+      "status": "match",
+      "checkedFields": [
+        "itemLevel",
+        "requiredCharacterLevel",
+        "slot",
+        "armorType",
+        "armor",
+        "binding",
+        "stats",
+        "resistances"
+      ],
+      "differences": [],
+      "source": {
+        "name": "Warbear Harness",
+        "itemLevel": 55,
+        "requiredCharacterLevel": 50,
+        "slot": "Chest",
+        "armorType": "Leather",
+        "armor": 158,
+        "binding": "BoE",
+        "stats": {
+          "Strength": 11,
+          "Agility": 18,
+          "Stamina": 27
+        },
+        "resistances": {},
+        "effects": []
+      },
+      "oldBuild": "2026-10-17",
+      "newBuild": "1.60.1.70862"
+    },
+    {
+      "itemId": "15065",
+      "name": "Warbear Woolies",
+      "url": "https://bindonforever.com/item/15065",
+      "status": "match",
+      "checkedFields": [
+        "itemLevel",
+        "requiredCharacterLevel",
+        "slot",
+        "armorType",
+        "armor",
+        "binding",
+        "stats",
+        "resistances"
+      ],
+      "differences": [],
+      "source": {
+        "name": "Warbear Woolies",
+        "itemLevel": 57,
+        "requiredCharacterLevel": 52,
+        "slot": "Legs",
+        "armorType": "Leather",
+        "armor": 142,
+        "binding": "BoE",
+        "stats": {
+          "Strength": 28,
+          "Agility": 18,
+          "Stamina": 12
+        },
+        "resistances": {},
+        "effects": []
+      },
+      "oldBuild": "2026-10-17",
+      "newBuild": "1.60.1.70862"
+    },
+    {
+      "itemId": "15066",
+      "name": "Ironfeather Breastplate",
+      "url": "https://bindonforever.com/item/15066",
+      "status": "match",
+      "checkedFields": [
+        "itemLevel",
+        "requiredCharacterLevel",
+        "slot",
+        "armorType",
+        "armor",
+        "binding",
+        "stats",
+        "resistances",
+        "effects"
+      ],
+      "differences": [],
+      "source": {
+        "name": "Ironfeather Breastplate",
+        "itemLevel": 58,
+        "requiredCharacterLevel": 53,
+        "slot": "Chest",
+        "armorType": "Leather",
+        "armor": 165,
+        "binding": "BoE",
+        "stats": {
+          "Intellect": 12,
+          "Spirit": 28
+        },
+        "resistances": {},
+        "effects": [
+          "Equip: Increases damage and healing done by magical spells and effects by up to 21."
+        ]
+      },
+      "oldBuild": "2026-10-17",
+      "newBuild": "1.60.1.70862"
+    },
+    {
+      "itemId": "15067",
+      "name": "Ironfeather Shoulders",
+      "url": "https://bindonforever.com/item/15067",
+      "status": "match",
+      "checkedFields": [
+        "itemLevel",
+        "requiredCharacterLevel",
+        "slot",
+        "armorType",
+        "armor",
+        "binding",
+        "stats",
+        "resistances",
+        "effects"
+      ],
+      "differences": [],
+      "source": {
+        "name": "Ironfeather Shoulders",
+        "itemLevel": 54,
+        "requiredCharacterLevel": 49,
+        "slot": "Shoulder",
+        "armorType": "Leather",
+        "armor": 117,
+        "binding": "BoE",
+        "stats": {
+          "Intellect": 20,
+          "Spirit": 8
+        },
+        "resistances": {},
+        "effects": [
+          "Equip: Increases damage and healing done by magical spells and effects by up to 15."
+        ]
+      },
+      "oldBuild": "2026-10-17",
+      "newBuild": "1.60.1.70862"
+    },
+    {
+      "itemId": "15138",
+      "name": "Onyxia Scale Cloak",
+      "url": "https://bindonforever.com/item/15138",
+      "status": "match",
+      "checkedFields": [
+        "itemLevel",
+        "requiredCharacterLevel",
+        "armorType",
+        "armor",
+        "binding",
+        "stats",
+        "resistances",
+        "effects"
+      ],
+      "differences": [],
+      "source": {
+        "name": "Onyxia Scale Cloak",
+        "itemLevel": 60,
+        "requiredCharacterLevel": 55,
+        "slot": null,
+        "armorType": null,
+        "armor": 43,
+        "binding": "BoE",
+        "stats": {
+          "Stamina": 7
+        },
+        "resistances": {
+          "Fire": 16
+        },
+        "effects": [
+          "Equip: Protects the wearer from being fully engulfed by Shadow Flame."
+        ]
+      },
+      "oldBuild": "2026-10-17",
+      "newBuild": "1.60.1.70862"
+    },
+    {
+      "itemId": "18238",
+      "name": "Shadowskin Gloves",
+      "url": "https://bindonforever.com/item/18238",
+      "status": "match",
+      "checkedFields": [
+        "itemLevel",
+        "requiredCharacterLevel",
+        "slot",
+        "armorType",
+        "armor",
+        "binding",
+        "stats",
+        "resistances",
+        "effects"
+      ],
+      "differences": [],
+      "source": {
+        "name": "Shadowskin Gloves",
+        "itemLevel": 40,
+        "requiredCharacterLevel": 35,
+        "slot": "Hands",
+        "armorType": "Leather",
+        "armor": 76,
+        "binding": "BoE",
+        "stats": {
+          "Stamina": 6
+        },
+        "resistances": {},
+        "effects": [
+          "Equip: Improves your chance to get a critical strike by 1.0%."
+        ]
+      },
+      "oldBuild": "2026-10-17",
+      "newBuild": "1.60.1.70862"
+    },
+    {
+      "itemId": "18251",
+      "name": "Core Armor Kit",
+      "url": "https://bindonforever.com/item/18251",
+      "status": "difference",
+      "checkedFields": [
+        "itemLevel",
+        "requiredCharacterLevel",
+        "armorType",
+        "stats",
+        "resistances",
+        "effects"
+      ],
+      "differences": [
+        {
+          "field": "effects",
+          "ours": [
+            "Use: Permanently increase the defense value of an item worn on the chest, legs, hands or feet by 4. Only usable on items level 0 and above."
+          ],
+          "source": [
+            "Use: Permanently increase the defense value of an item worn on the chest, legs, hands or feet by 0c1. Only usable on items level 0cim and above. (1 Sec Cooldown)"
+          ]
+        }
+      ],
+      "source": {
+        "name": "Core Armor Kit",
+        "itemLevel": 60,
+        "requiredCharacterLevel": 50,
+        "slot": null,
+        "armorType": null,
+        "armor": null,
+        "binding": null,
+        "stats": {},
+        "resistances": {},
+        "effects": [
+          "Use: Permanently increase the defense value of an item worn on the chest, legs, hands or feet by 0c1. Only usable on items level 0cim and above. (1 Sec Cooldown)"
+        ]
+      },
+      "oldBuild": "2026-10-17",
+      "newBuild": "1.60.1.70862"
+    },
+    {
+      "itemId": "18504",
+      "name": "Girdle of Insight",
+      "url": "https://bindonforever.com/item/18504",
+      "status": "match",
+      "checkedFields": [
+        "itemLevel",
+        "requiredCharacterLevel",
+        "slot",
+        "armorType",
+        "armor",
+        "binding",
+        "stats",
+        "resistances",
+        "effects"
+      ],
+      "differences": [],
+      "source": {
+        "name": "Girdle of Insight",
+        "itemLevel": 62,
+        "requiredCharacterLevel": 57,
+        "slot": "Waist",
+        "armorType": "Leather",
+        "armor": 98,
+        "binding": "BoE",
+        "stats": {
+          "Intellect": 23,
+          "Stamina": 9
+        },
+        "resistances": {},
+        "effects": [
+          "Equip: Increases damage and healing done by magical spells and effects by up to 15."
+        ]
+      },
+      "oldBuild": "2026-10-17",
+      "newBuild": "1.60.1.70862"
+    },
+    {
+      "itemId": "18506",
+      "name": "Mongoose Boots",
+      "url": "https://bindonforever.com/item/18506",
+      "status": "match",
+      "checkedFields": [
+        "itemLevel",
+        "requiredCharacterLevel",
+        "slot",
+        "armorType",
+        "armor",
+        "binding",
+        "stats",
+        "resistances"
+      ],
+      "differences": [],
+      "source": {
+        "name": "Mongoose Boots",
+        "itemLevel": 62,
+        "requiredCharacterLevel": 57,
+        "slot": "Feet",
+        "armorType": "Leather",
+        "armor": 120,
+        "binding": "BoE",
+        "stats": {
+          "Agility": 23,
+          "Stamina": 9
+        },
+        "resistances": {},
+        "effects": []
+      },
+      "oldBuild": "2026-10-17",
+      "newBuild": "1.60.1.70862"
+    },
+    {
+      "itemId": "18508",
+      "name": "Swift Flight Bracers",
+      "url": "https://bindonforever.com/item/18508",
+      "status": "difference",
+      "checkedFields": [
+        "itemLevel",
+        "requiredCharacterLevel",
+        "slot",
+        "armorType",
+        "armor",
+        "binding",
+        "stats",
+        "resistances",
+        "effects"
+      ],
+      "differences": [
+        {
+          "field": "effects",
+          "ours": [],
+          "source": [
+            "Equip: +41 Ranged Attack Power."
+          ]
+        }
+      ],
+      "source": {
+        "name": "Swift Flight Bracers",
+        "itemLevel": 62,
+        "requiredCharacterLevel": 57,
+        "slot": "Wrist",
+        "armorType": "Mail",
+        "armor": 160,
+        "binding": "BoE",
+        "stats": {
+          "Stamina": 7
+        },
+        "resistances": {},
+        "effects": [
+          "Equip: +41 Ranged Attack Power."
+        ]
+      },
+      "oldBuild": "2026-10-17",
+      "newBuild": "1.60.1.70862"
+    },
+    {
+      "itemId": "18948",
+      "name": "Barbaric Bracers",
+      "url": "https://bindonforever.com/item/18948",
+      "status": "match",
+      "checkedFields": [
+        "itemLevel",
+        "requiredCharacterLevel",
+        "slot",
+        "armorType",
+        "armor",
+        "binding",
+        "stats",
+        "resistances"
+      ],
+      "differences": [],
+      "source": {
+        "name": "Barbaric Bracers",
+        "itemLevel": 32,
+        "requiredCharacterLevel": 27,
+        "slot": "Wrist",
+        "armorType": "Leather",
+        "armor": 47,
+        "binding": "BoE",
+        "stats": {
+          "Strength": 4,
+          "Agility": 4,
+          "Stamina": 6
+        },
+        "resistances": {},
+        "effects": []
+      },
+      "oldBuild": "2026-10-17",
+      "newBuild": "1.60.1.70862"
+    },
+    {
+      "itemId": "19043",
+      "name": "Heavy Timbermaw Belt",
+      "url": "https://bindonforever.com/item/19043",
+      "status": "match",
+      "checkedFields": [
+        "itemLevel",
+        "requiredCharacterLevel",
+        "slot",
+        "armorType",
+        "armor",
+        "binding",
+        "stats",
+        "resistances",
+        "effects"
+      ],
+      "differences": [],
+      "source": {
+        "name": "Heavy Timbermaw Belt",
+        "itemLevel": 58,
+        "requiredCharacterLevel": 53,
+        "slot": "Waist",
+        "armorType": "Mail",
+        "armor": 193,
+        "binding": "BoE",
+        "stats": {
+          "Stamina": 9
+        },
+        "resistances": {},
+        "effects": [
+          "Equip: +42 Attack Power."
+        ]
+      },
+      "oldBuild": "2026-10-17",
+      "newBuild": "1.60.1.70862"
+    },
+    {
+      "itemId": "19044",
+      "name": "Might of the Timbermaw",
+      "url": "https://bindonforever.com/item/19044",
+      "status": "match",
+      "checkedFields": [
+        "itemLevel",
+        "requiredCharacterLevel",
+        "slot",
+        "armorType",
+        "armor",
+        "binding",
+        "stats",
+        "resistances"
+      ],
+      "differences": [],
+      "source": {
+        "name": "Might of the Timbermaw",
+        "itemLevel": 58,
+        "requiredCharacterLevel": 53,
+        "slot": "Waist",
+        "armorType": "Leather",
+        "armor": 93,
+        "binding": "BoE",
+        "stats": {
+          "Strength": 21,
+          "Agility": 14,
+          "Stamina": 9
+        },
+        "resistances": {},
+        "effects": []
+      },
+      "oldBuild": "2026-10-17",
+      "newBuild": "1.60.1.70862"
+    },
+    {
+      "itemId": "19048",
+      "name": "Heavy Timbermaw Boots",
+      "url": "https://bindonforever.com/item/19048",
+      "status": "match",
+      "checkedFields": [
+        "itemLevel",
+        "requiredCharacterLevel",
+        "slot",
+        "armorType",
+        "armor",
+        "binding",
+        "stats",
+        "resistances",
+        "effects"
+      ],
+      "differences": [],
+      "source": {
+        "name": "Heavy Timbermaw Boots",
+        "itemLevel": 61,
+        "requiredCharacterLevel": 56,
+        "slot": "Feet",
+        "armorType": "Mail",
+        "armor": 247,
+        "binding": "BoE",
+        "stats": {
+          "Stamina": 21
+        },
+        "resistances": {},
+        "effects": [
+          "Equip: +20 Attack Power."
+        ]
+      },
+      "oldBuild": "2026-10-17",
+      "newBuild": "1.60.1.70862"
+    },
+    {
+      "itemId": "19049",
+      "name": "Timbermaw Brawlers",
+      "url": "https://bindonforever.com/item/19049",
+      "status": "match",
+      "checkedFields": [
+        "itemLevel",
+        "requiredCharacterLevel",
+        "slot",
+        "armorType",
+        "armor",
+        "binding",
+        "stats",
+        "resistances"
+      ],
+      "differences": [],
+      "source": {
+        "name": "Timbermaw Brawlers",
+        "itemLevel": 61,
+        "requiredCharacterLevel": 56,
+        "slot": "Hands",
+        "armorType": "Leather",
+        "armor": 107,
+        "binding": "BoE",
+        "stats": {
+          "Strength": 21,
+          "Agility": 14,
+          "Stamina": 9
+        },
+        "resistances": {},
+        "effects": []
+      },
+      "oldBuild": "2026-10-17",
+      "newBuild": "1.60.1.70862"
+    },
+    {
+      "itemId": "19052",
+      "name": "Dawn Treaders",
+      "url": "https://bindonforever.com/item/19052",
+      "status": "match",
+      "checkedFields": [
+        "itemLevel",
+        "requiredCharacterLevel",
+        "slot",
+        "armorType",
+        "armor",
+        "binding",
+        "stats",
+        "resistances"
+      ],
+      "differences": [],
+      "source": {
+        "name": "Dawn Treaders",
+        "itemLevel": 58,
+        "requiredCharacterLevel": 53,
+        "slot": "Feet",
+        "armorType": "Leather",
+        "armor": 114,
+        "binding": "BoE",
+        "stats": {
+          "Strength": 9,
+          "Agility": 14,
+          "Stamina": 18
+        },
+        "resistances": {},
+        "effects": []
+      },
+      "oldBuild": "2026-10-17",
+      "newBuild": "1.60.1.70862"
+    },
+    {
+      "itemId": "19058",
+      "name": "Golden Mantle of the Dawn",
+      "url": "https://bindonforever.com/item/19058",
+      "status": "match",
+      "checkedFields": [
+        "itemLevel",
+        "requiredCharacterLevel",
+        "slot",
+        "armorType",
+        "armor",
+        "binding",
+        "stats",
+        "resistances"
+      ],
+      "differences": [],
+      "source": {
+        "name": "Golden Mantle of the Dawn",
+        "itemLevel": 61,
+        "requiredCharacterLevel": 56,
+        "slot": "Shoulder",
+        "armorType": "Leather",
+        "armor": 129,
+        "binding": "BoE",
+        "stats": {
+          "Strength": 13,
+          "Agility": 11,
+          "Stamina": 20
+        },
+        "resistances": {},
+        "effects": []
+      },
+      "oldBuild": "2026-10-17",
+      "newBuild": "1.60.1.70862"
+    },
+    {
+      "itemId": "19685",
+      "name": "Primal Batskin Jerkin",
+      "url": "https://bindonforever.com/item/19685",
+      "status": "match",
+      "checkedFields": [
+        "itemLevel",
+        "requiredCharacterLevel",
+        "slot",
+        "armorType",
+        "armor",
+        "binding",
+        "stats",
+        "resistances",
+        "effects"
+      ],
+      "differences": [],
+      "source": {
+        "name": "Primal Batskin Jerkin",
+        "itemLevel": 65,
+        "requiredCharacterLevel": 60,
+        "slot": "Chest",
+        "armorType": "Leather",
+        "armor": 181,
+        "binding": "BoE",
+        "stats": {
+          "Agility": 32,
+          "Stamina": 6
+        },
+        "resistances": {},
+        "effects": [
+          "Equip: Improves your chance to hit by 1.0%."
+        ]
+      },
+      "oldBuild": "2026-10-17",
+      "newBuild": "1.60.1.70862"
+    },
+    {
+      "itemId": "19686",
+      "name": "Primal Batskin Gloves",
+      "url": "https://bindonforever.com/item/19686",
+      "status": "match",
+      "checkedFields": [
+        "itemLevel",
+        "requiredCharacterLevel",
+        "slot",
+        "armorType",
+        "armor",
+        "binding",
+        "stats",
+        "resistances",
+        "effects"
+      ],
+      "differences": [],
+      "source": {
+        "name": "Primal Batskin Gloves",
+        "itemLevel": 65,
+        "requiredCharacterLevel": 60,
+        "slot": "Hands",
+        "armorType": "Leather",
+        "armor": 113,
+        "binding": "BoE",
+        "stats": {
+          "Agility": 10,
+          "Stamina": 9
+        },
+        "resistances": {},
+        "effects": [
+          "Equip: Improves your chance to hit by 2.0%."
+        ]
+      },
+      "oldBuild": "2026-10-17",
+      "newBuild": "1.60.1.70862"
+    },
+    {
+      "itemId": "19687",
+      "name": "Primal Batskin Bracers",
+      "url": "https://bindonforever.com/item/19687",
+      "status": "match",
+      "checkedFields": [
+        "itemLevel",
+        "requiredCharacterLevel",
+        "slot",
+        "armorType",
+        "armor",
+        "binding",
+        "stats",
+        "resistances",
+        "effects"
+      ],
+      "differences": [],
+      "source": {
+        "name": "Primal Batskin Bracers",
+        "itemLevel": 65,
+        "requiredCharacterLevel": 60,
+        "slot": "Wrist",
+        "armorType": "Leather",
+        "armor": 79,
+        "binding": "BoE",
+        "stats": {
+          "Agility": 14,
+          "Stamina": 7
+        },
+        "resistances": {},
+        "effects": [
+          "Equip: Improves your chance to hit by 1.0%."
+        ]
+      },
+      "oldBuild": "2026-10-17",
+      "newBuild": "1.60.1.70862"
+    },
+    {
+      "itemId": "19688",
+      "name": "Blood Tiger Breastplate",
+      "url": "https://bindonforever.com/item/19688",
+      "status": "match",
+      "checkedFields": [
+        "itemLevel",
+        "requiredCharacterLevel",
+        "slot",
+        "armorType",
+        "armor",
+        "binding",
+        "stats",
+        "resistances"
+      ],
+      "differences": [],
+      "source": {
+        "name": "Blood Tiger Breastplate",
+        "itemLevel": 65,
+        "requiredCharacterLevel": 60,
+        "slot": "Chest",
+        "armorType": "Leather",
+        "armor": 181,
+        "binding": "BoE",
+        "stats": {
+          "Strength": 17,
+          "Stamina": 17,
+          "Intellect": 16,
+          "Spirit": 13
+        },
+        "resistances": {},
+        "effects": []
+      },
+      "oldBuild": "2026-10-17",
+      "newBuild": "1.60.1.70862"
+    },
+    {
+      "itemId": "19689",
+      "name": "Blood Tiger Shoulders",
+      "url": "https://bindonforever.com/item/19689",
+      "status": "match",
+      "checkedFields": [
+        "itemLevel",
+        "requiredCharacterLevel",
+        "slot",
+        "armorType",
+        "armor",
+        "binding",
+        "stats",
+        "resistances"
+      ],
+      "differences": [],
+      "source": {
+        "name": "Blood Tiger Shoulders",
+        "itemLevel": 65,
+        "requiredCharacterLevel": 60,
+        "slot": "Shoulder",
+        "armorType": "Leather",
+        "armor": 136,
+        "binding": "BoE",
+        "stats": {
+          "Strength": 13,
+          "Stamina": 13,
+          "Intellect": 12,
+          "Spirit": 10
+        },
+        "resistances": {},
+        "effects": []
+      },
+      "oldBuild": "2026-10-17",
+      "newBuild": "1.60.1.70862"
+    },
+    {
+      "itemId": "20295",
+      "name": "Blue Dragonscale Leggings",
+      "url": "https://bindonforever.com/item/20295",
+      "status": "match",
+      "checkedFields": [
+        "itemLevel",
+        "requiredCharacterLevel",
+        "slot",
+        "armorType",
+        "armor",
+        "binding",
+        "stats",
+        "resistances",
+        "effects"
+      ],
+      "differences": [],
+      "source": {
+        "name": "Blue Dragonscale Leggings",
+        "itemLevel": 60,
+        "requiredCharacterLevel": 55,
+        "slot": "Legs",
+        "armorType": "Mail",
+        "armor": 310,
+        "binding": "BoE",
+        "stats": {
+          "Intellect": 20
+        },
+        "resistances": {
+          "Arcane": 12
+        },
+        "effects": [
+          "Equip: Increases damage and healing done by magical spells and effects by up to 19."
+        ]
+      },
+      "oldBuild": "2026-10-17",
+      "newBuild": "1.60.1.70862"
+    },
+    {
+      "itemId": "20296",
+      "name": "Green Dragonscale Gauntlets",
+      "url": "https://bindonforever.com/item/20296",
+      "status": "match",
+      "checkedFields": [
+        "itemLevel",
+        "requiredCharacterLevel",
+        "slot",
+        "armorType",
+        "armor",
+        "binding",
+        "stats",
+        "resistances",
+        "effects"
+      ],
+      "differences": [],
+      "source": {
+        "name": "Green Dragonscale Gauntlets",
+        "itemLevel": 56,
+        "requiredCharacterLevel": 51,
+        "slot": "Hands",
+        "armorType": "Mail",
+        "armor": 208,
+        "binding": "BoE",
+        "stats": {
+          "Stamina": 5
+        },
+        "resistances": {
+          "Nature": 18
+        },
+        "effects": [
+          "Equip: Increases healing done by up to 40 and damage done by up to 14 for all magical spells and effects."
+        ]
+      },
+      "oldBuild": "2026-10-17",
+      "newBuild": "1.60.1.70862"
+    },
+    {
+      "itemId": "20476",
+      "name": "Sandstalker Bracers",
+      "url": "https://bindonforever.com/item/20476",
+      "status": "match",
+      "checkedFields": [
+        "itemLevel",
+        "requiredCharacterLevel",
+        "slot",
+        "armorType",
+        "armor",
+        "binding",
+        "stats",
+        "resistances"
+      ],
+      "differences": [],
+      "source": {
+        "name": "Sandstalker Bracers",
+        "itemLevel": 62,
+        "requiredCharacterLevel": 57,
+        "slot": "Wrist",
+        "armorType": "Mail",
+        "armor": 160,
+        "binding": "BoE",
+        "stats": {
+          "Stamina": 7
+        },
+        "resistances": {
+          "Nature": 15
+        },
+        "effects": []
+      },
+      "oldBuild": "2026-10-17",
+      "newBuild": "1.60.1.70862"
+    },
+    {
+      "itemId": "20477",
+      "name": "Sandstalker Gauntlets",
+      "url": "https://bindonforever.com/item/20477",
+      "status": "match",
+      "checkedFields": [
+        "itemLevel",
+        "requiredCharacterLevel",
+        "slot",
+        "armorType",
+        "armor",
+        "binding",
+        "stats",
+        "resistances"
+      ],
+      "differences": [],
+      "source": {
+        "name": "Sandstalker Gauntlets",
+        "itemLevel": 62,
+        "requiredCharacterLevel": 57,
+        "slot": "Hands",
+        "armorType": "Mail",
+        "armor": 228,
+        "binding": "BoE",
+        "stats": {
+          "Stamina": 9
+        },
+        "resistances": {
+          "Nature": 20
+        },
+        "effects": []
+      },
+      "oldBuild": "2026-10-17",
+      "newBuild": "1.60.1.70862"
+    },
+    {
+      "itemId": "20478",
+      "name": "Sandstalker Breastplate",
+      "url": "https://bindonforever.com/item/20478",
+      "status": "match",
+      "checkedFields": [
+        "itemLevel",
+        "requiredCharacterLevel",
+        "slot",
+        "armorType",
+        "armor",
+        "binding",
+        "stats",
+        "resistances"
+      ],
+      "differences": [],
+      "source": {
+        "name": "Sandstalker Breastplate",
+        "itemLevel": 62,
+        "requiredCharacterLevel": 57,
+        "slot": "Chest",
+        "armorType": "Mail",
+        "armor": 365,
+        "binding": "BoE",
+        "stats": {
+          "Stamina": 13
+        },
+        "resistances": {
+          "Nature": 25
+        },
+        "effects": []
+      },
+      "oldBuild": "2026-10-17",
+      "newBuild": "1.60.1.70862"
+    },
+    {
+      "itemId": "20479",
+      "name": "Spitfire Breastplate",
+      "url": "https://bindonforever.com/item/20479",
+      "status": "match",
+      "checkedFields": [
+        "itemLevel",
+        "requiredCharacterLevel",
+        "slot",
+        "armorType",
+        "armor",
+        "binding",
+        "stats",
+        "resistances",
+        "effects"
+      ],
+      "differences": [],
+      "source": {
+        "name": "Spitfire Breastplate",
+        "itemLevel": 62,
+        "requiredCharacterLevel": 57,
+        "slot": "Chest",
+        "armorType": "Mail",
+        "armor": 365,
+        "binding": "BoE",
+        "stats": {
+          "Agility": 16,
+          "Intellect": 16,
+          "Spirit": 15
+        },
+        "resistances": {},
+        "effects": [
+          "Equip: Increases damage and healing done by magical spells and effects by up to 15."
+        ]
+      },
+      "oldBuild": "2026-10-17",
+      "newBuild": "1.60.1.70862"
+    },
+    {
+      "itemId": "20480",
+      "name": "Spitfire Gauntlets",
+      "url": "https://bindonforever.com/item/20480",
+      "status": "match",
+      "checkedFields": [
+        "itemLevel",
+        "requiredCharacterLevel",
+        "slot",
+        "armorType",
+        "armor",
+        "binding",
+        "stats",
+        "resistances",
+        "effects"
+      ],
+      "differences": [],
+      "source": {
+        "name": "Spitfire Gauntlets",
+        "itemLevel": 62,
+        "requiredCharacterLevel": 57,
+        "slot": "Hands",
+        "armorType": "Mail",
+        "armor": 228,
+        "binding": "BoE",
+        "stats": {
+          "Agility": 12,
+          "Intellect": 12,
+          "Spirit": 12
+        },
+        "resistances": {},
+        "effects": [
+          "Equip: Increases damage and healing done by magical spells and effects by up to 11."
+        ]
+      },
+      "oldBuild": "2026-10-17",
+      "newBuild": "1.60.1.70862"
+    },
+    {
+      "itemId": "20481",
+      "name": "Spitfire Bracers",
+      "url": "https://bindonforever.com/item/20481",
+      "status": "match",
+      "checkedFields": [
+        "itemLevel",
+        "requiredCharacterLevel",
+        "slot",
+        "armorType",
+        "armor",
+        "binding",
+        "stats",
+        "resistances",
+        "effects"
+      ],
+      "differences": [],
+      "source": {
+        "name": "Spitfire Bracers",
+        "itemLevel": 62,
+        "requiredCharacterLevel": 57,
+        "slot": "Wrist",
+        "armorType": "Mail",
+        "armor": 160,
+        "binding": "BoE",
+        "stats": {
+          "Agility": 9,
+          "Intellect": 9,
+          "Spirit": 9
+        },
+        "resistances": {},
+        "effects": [
+          "Equip: Increases damage and healing done by magical spells and effects by up to 8."
+        ]
+      },
+      "oldBuild": "2026-10-17",
+      "newBuild": "1.60.1.70862"
+    },
+    {
+      "itemId": "21278",
+      "name": "Stormshroud Gloves",
+      "url": "https://bindonforever.com/item/21278",
+      "status": "match",
+      "checkedFields": [
+        "itemLevel",
+        "requiredCharacterLevel",
+        "slot",
+        "armorType",
+        "armor",
+        "binding",
+        "stats",
+        "resistances",
+        "effects"
+      ],
+      "differences": [],
+      "source": {
+        "name": "Stormshroud Gloves",
+        "itemLevel": 62,
+        "requiredCharacterLevel": 57,
+        "slot": "Hands",
+        "armorType": "Leather",
+        "armor": 109,
+        "binding": "BoE",
+        "stats": {},
+        "resistances": {},
+        "effects": [
+          "Equip: Improves your chance to hit by 1.0%.",
+          "Equip: Improves your chance to get a critical strike by 1.0%."
+        ]
+      },
+      "oldBuild": "2026-10-17",
+      "newBuild": "1.60.1.70862"
+    },
+    {
+      "itemId": "22759",
+      "name": "Bramblewood Helm",
+      "url": "https://bindonforever.com/item/22759",
+      "status": "match",
+      "checkedFields": [
+        "itemLevel",
+        "requiredCharacterLevel",
+        "slot",
+        "armorType",
+        "armor",
+        "binding",
+        "stats",
+        "resistances"
+      ],
+      "differences": [],
+      "source": {
+        "name": "Bramblewood Helm",
+        "itemLevel": 70,
+        "requiredCharacterLevel": 60,
+        "slot": "Head",
+        "armorType": "Leather",
+        "armor": 156,
+        "binding": "BoE",
+        "stats": {
+          "Stamina": 20
+        },
+        "resistances": {
+          "Nature": 30
+        },
+        "effects": []
+      },
+      "oldBuild": "2026-10-17",
+      "newBuild": "1.60.1.70862"
+    },
+    {
+      "itemId": "22760",
+      "name": "Bramblewood Boots",
+      "url": "https://bindonforever.com/item/22760",
+      "status": "match",
+      "checkedFields": [
+        "itemLevel",
+        "requiredCharacterLevel",
+        "slot",
+        "armorType",
+        "armor",
+        "binding",
+        "stats",
+        "resistances"
+      ],
+      "differences": [],
+      "source": {
+        "name": "Bramblewood Boots",
+        "itemLevel": 70,
+        "requiredCharacterLevel": 60,
+        "slot": "Feet",
+        "armorType": "Leather",
+        "armor": 132,
+        "binding": "BoE",
+        "stats": {
+          "Stamina": 12
+        },
+        "resistances": {
+          "Nature": 25
+        },
+        "effects": []
+      },
+      "oldBuild": "2026-10-17",
+      "newBuild": "1.60.1.70862"
+    },
+    {
+      "itemId": "22761",
+      "name": "Bramblewood Belt",
+      "url": "https://bindonforever.com/item/22761",
+      "status": "match",
+      "checkedFields": [
+        "itemLevel",
+        "requiredCharacterLevel",
+        "slot",
+        "armorType",
+        "armor",
+        "binding",
+        "stats",
+        "resistances"
+      ],
+      "differences": [],
+      "source": {
+        "name": "Bramblewood Belt",
+        "itemLevel": 70,
+        "requiredCharacterLevel": 60,
+        "slot": "Waist",
+        "armorType": "Leather",
+        "armor": 108,
+        "binding": "BoE",
+        "stats": {
+          "Stamina": 14
+        },
+        "resistances": {
+          "Nature": 15
+        },
+        "effects": []
+      },
+      "oldBuild": "2026-10-17",
+      "newBuild": "1.60.1.70862"
+    },
+    {
+      "itemId": "252424",
+      "name": "Black Whelp Slippers",
+      "url": "https://bindonforever.com/item/252424",
+      "status": "match",
+      "checkedFields": [
+        "itemLevel",
+        "requiredCharacterLevel",
+        "slot",
+        "armorType",
+        "armor",
+        "binding",
+        "stats",
+        "resistances",
+        "effects"
+      ],
+      "differences": [],
+      "source": {
+        "name": "Black Whelp Slippers",
+        "itemLevel": 15,
+        "requiredCharacterLevel": 10,
+        "slot": "Feet",
+        "armorType": "Leather",
+        "armor": 53,
+        "binding": "BoP",
+        "stats": {
+          "Intellect": 4
+        },
+        "resistances": {},
+        "effects": [
+          "Equip: Increases healing done by up to 9 and damage done by up to 3 for all magical spells and effects."
+        ]
+      },
+      "oldBuild": "2026-10-17",
+      "newBuild": "1.60.1.70862"
+    },
+    {
+      "itemId": "252425",
+      "name": "Dark Leather Boots",
+      "url": "https://bindonforever.com/item/252425",
+      "status": "match",
+      "checkedFields": [
+        "itemLevel",
+        "requiredCharacterLevel",
+        "slot",
+        "armorType",
+        "armor",
+        "binding",
+        "stats",
+        "resistances"
+      ],
+      "differences": [],
+      "source": {
+        "name": "Dark Leather Boots",
+        "itemLevel": 15,
+        "requiredCharacterLevel": 10,
+        "slot": "Feet",
+        "armorType": "Leather",
+        "armor": 53,
+        "binding": "BoP",
+        "stats": {
+          "Agility": 4,
+          "Stamina": 4
+        },
+        "resistances": {},
+        "effects": []
+      },
+      "oldBuild": "2026-10-17",
+      "newBuild": "1.60.1.70862"
+    },
+    {
+      "itemId": "252426",
+      "name": "Murloc Scale Shoes",
+      "url": "https://bindonforever.com/item/252426",
+      "status": "match",
+      "checkedFields": [
+        "itemLevel",
+        "requiredCharacterLevel",
+        "slot",
+        "armorType",
+        "armor",
+        "binding",
+        "stats",
+        "resistances"
+      ],
+      "differences": [],
+      "source": {
+        "name": "Murloc Scale Shoes",
+        "itemLevel": 15,
+        "requiredCharacterLevel": 10,
+        "slot": "Feet",
+        "armorType": "Leather",
+        "armor": 53,
+        "binding": "BoP",
+        "stats": {
+          "Strength": 4,
+          "Stamina": 4
+        },
+        "resistances": {},
+        "effects": []
+      },
+      "oldBuild": "2026-10-17",
+      "newBuild": "1.60.1.70862"
+    },
+    {
+      "itemId": "252427",
+      "name": "Moonglow Boots",
+      "url": "https://bindonforever.com/item/252427",
+      "status": "match",
+      "checkedFields": [
+        "itemLevel",
+        "requiredCharacterLevel",
+        "slot",
+        "armorType",
+        "armor",
+        "binding",
+        "stats",
+        "resistances",
+        "effects"
+      ],
+      "differences": [],
+      "source": {
+        "name": "Moonglow Boots",
+        "itemLevel": 15,
+        "requiredCharacterLevel": 10,
+        "slot": "Feet",
+        "armorType": "Leather",
+        "armor": 53,
+        "binding": "BoP",
+        "stats": {
+          "Stamina": 4
+        },
+        "resistances": {},
+        "effects": [
+          "Equip: Increases damage and healing done by magical spells and effects by up to 5."
+        ]
+      },
+      "oldBuild": "2026-10-17",
+      "newBuild": "1.60.1.70862"
+    },
+    {
+      "itemId": "252428",
+      "name": "Brawler's Leather Belt",
+      "url": "https://bindonforever.com/item/252428",
+      "status": "match",
+      "checkedFields": [
+        "itemLevel",
+        "requiredCharacterLevel",
+        "slot",
+        "armorType",
+        "armor",
+        "binding",
+        "stats",
+        "resistances"
+      ],
+      "differences": [],
+      "source": {
+        "name": "Brawler's Leather Belt",
+        "itemLevel": 17,
+        "requiredCharacterLevel": 12,
+        "slot": "Waist",
+        "armorType": "Leather",
+        "armor": 45,
+        "binding": "BoP",
+        "stats": {
+          "Strength": 4,
+          "Agility": 4,
+          "Stamina": 3
+        },
+        "resistances": {},
+        "effects": []
+      },
+      "oldBuild": "2026-10-17",
+      "newBuild": "1.60.1.70862"
+    },
+    {
+      "itemId": "252429",
+      "name": "Trapper's Leather Belt",
+      "url": "https://bindonforever.com/item/252429",
+      "status": "match",
+      "checkedFields": [
+        "itemLevel",
+        "requiredCharacterLevel",
+        "slot",
+        "armorType",
+        "armor",
+        "binding",
+        "stats",
+        "resistances"
+      ],
+      "differences": [],
+      "source": {
+        "name": "Trapper's Leather Belt",
+        "itemLevel": 17,
+        "requiredCharacterLevel": 12,
+        "slot": "Waist",
+        "armorType": "Leather",
+        "armor": 45,
+        "binding": "BoP",
+        "stats": {
+          "Agility": 4,
+          "Stamina": 4,
+          "Intellect": 3
+        },
+        "resistances": {},
+        "effects": []
+      },
+      "oldBuild": "2026-10-17",
+      "newBuild": "1.60.1.70862"
+    },
+    {
+      "itemId": "252430",
+      "name": "Defender's Leather Belt",
+      "url": "https://bindonforever.com/item/252430",
+      "status": "match",
+      "checkedFields": [
+        "itemLevel",
+        "requiredCharacterLevel",
+        "slot",
+        "armorType",
+        "armor",
+        "binding",
+        "stats",
+        "resistances"
+      ],
+      "differences": [],
+      "source": {
+        "name": "Defender's Leather Belt",
+        "itemLevel": 17,
+        "requiredCharacterLevel": 12,
+        "slot": "Waist",
+        "armorType": "Leather",
+        "armor": 45,
+        "binding": "BoP",
+        "stats": {
+          "Strength": 4,
+          "Stamina": 4
+        },
+        "resistances": {},
+        "effects": []
+      },
+      "oldBuild": "2026-10-17",
+      "newBuild": "1.60.1.70862"
+    },
+    {
+      "itemId": "252431",
+      "name": "Totemic Leather Belt",
+      "url": "https://bindonforever.com/item/252431",
+      "status": "match",
+      "checkedFields": [
+        "itemLevel",
+        "requiredCharacterLevel",
+        "slot",
+        "armorType",
+        "armor",
+        "binding",
+        "stats",
+        "resistances",
+        "effects"
+      ],
+      "differences": [],
+      "source": {
+        "name": "Totemic Leather Belt",
+        "itemLevel": 17,
+        "requiredCharacterLevel": 12,
+        "slot": "Waist",
+        "armorType": "Leather",
+        "armor": 45,
+        "binding": "BoP",
+        "stats": {
+          "Strength": 4,
+          "Stamina": 3
+        },
+        "resistances": {},
+        "effects": [
+          "Equip: Increases damage and healing done by magical spells and effects by up to 4."
+        ]
+      },
+      "oldBuild": "2026-10-17",
+      "newBuild": "1.60.1.70862"
+    },
+    {
+      "itemId": "252432",
+      "name": "Stormrider's Leather Belt",
+      "url": "https://bindonforever.com/item/252432",
+      "status": "match",
+      "checkedFields": [
+        "itemLevel",
+        "requiredCharacterLevel",
+        "slot",
+        "armorType",
+        "armor",
+        "binding",
+        "stats",
+        "resistances",
+        "effects"
+      ],
+      "differences": [],
+      "source": {
+        "name": "Stormrider's Leather Belt",
+        "itemLevel": 17,
+        "requiredCharacterLevel": 12,
+        "slot": "Waist",
+        "armorType": "Leather",
+        "armor": 45,
+        "binding": "BoP",
+        "stats": {
+          "Intellect": 4,
+          "Stamina": 3
+        },
+        "resistances": {},
+        "effects": [
+          "Equip: Increases damage and healing done by magical spells and effects by up to 4."
+        ]
+      },
+      "oldBuild": "2026-10-17",
+      "newBuild": "1.60.1.70862"
+    },
+    {
+      "itemId": "252433",
+      "name": "Wisdom's Leather Belt",
+      "url": "https://bindonforever.com/item/252433",
+      "status": "match",
+      "checkedFields": [
+        "itemLevel",
+        "requiredCharacterLevel",
+        "slot",
+        "armorType",
+        "armor",
+        "binding",
+        "stats",
+        "resistances",
+        "effects"
+      ],
+      "differences": [],
+      "source": {
+        "name": "Wisdom's Leather Belt",
+        "itemLevel": 17,
+        "requiredCharacterLevel": 12,
+        "slot": "Waist",
+        "armorType": "Leather",
+        "armor": 45,
+        "binding": "BoP",
+        "stats": {
+          "Intellect": 4,
+          "Stamina": 3
+        },
+        "resistances": {},
+        "effects": [
+          "Equip: Increases healing done by up to 8 and damage done by up to 3 for all magical spells and effects."
+        ]
+      },
+      "oldBuild": "2026-10-17",
+      "newBuild": "1.60.1.70862"
+    },
+    {
+      "itemId": "252434",
+      "name": "Defender's Leather Armor",
+      "url": "https://bindonforever.com/item/252434",
+      "status": "match",
+      "checkedFields": [
+        "itemLevel",
+        "requiredCharacterLevel",
+        "slot",
+        "armorType",
+        "armor",
+        "binding",
+        "stats",
+        "resistances"
+      ],
+      "differences": [],
+      "source": {
+        "name": "Defender's Leather Armor",
+        "itemLevel": 20,
+        "requiredCharacterLevel": 15,
+        "slot": "Chest",
+        "armorType": "Leather",
+        "armor": 85,
+        "binding": "BoP",
+        "stats": {
+          "Strength": 7,
+          "Agility": 3,
+          "Stamina": 5
+        },
+        "resistances": {},
+        "effects": []
+      },
+      "oldBuild": "2026-10-17",
+      "newBuild": "1.60.1.70862"
+    },
+    {
+      "itemId": "252435",
+      "name": "Totemic Leather Armor",
+      "url": "https://bindonforever.com/item/252435",
+      "status": "match",
+      "checkedFields": [
+        "itemLevel",
+        "requiredCharacterLevel",
+        "slot",
+        "armorType",
+        "armor",
+        "binding",
+        "stats",
+        "resistances",
+        "effects"
+      ],
+      "differences": [],
+      "source": {
+        "name": "Totemic Leather Armor",
+        "itemLevel": 20,
+        "requiredCharacterLevel": 15,
+        "slot": "Chest",
+        "armorType": "Leather",
+        "armor": 85,
+        "binding": "BoP",
+        "stats": {
+          "Strength": 7,
+          "Stamina": 3,
+          "Intellect": 3
+        },
+        "resistances": {},
+        "effects": [
+          "Equip: Increases damage and healing done by magical spells and effects by up to 6."
+        ]
+      },
+      "oldBuild": "2026-10-17",
+      "newBuild": "1.60.1.70862"
+    },
+    {
+      "itemId": "252439",
+      "name": "Brawler's Leather Boots",
+      "url": "https://bindonforever.com/item/252439",
+      "status": "match",
+      "checkedFields": [
+        "itemLevel",
+        "requiredCharacterLevel",
+        "slot",
+        "armorType",
+        "armor",
+        "binding",
+        "stats",
+        "resistances"
+      ],
+      "differences": [],
+      "source": {
+        "name": "Brawler's Leather Boots",
+        "itemLevel": 22,
+        "requiredCharacterLevel": 17,
+        "slot": "Feet",
+        "armorType": "Leather",
+        "armor": 61,
+        "binding": "BoP",
+        "stats": {
+          "Strength": 5,
+          "Agility": 5,
+          "Stamina": 4
+        },
+        "resistances": {},
+        "effects": []
+      },
+      "oldBuild": "2026-10-17",
+      "newBuild": "1.60.1.70862"
+    },
+    {
+      "itemId": "252440",
+      "name": "Trapper's Leather Boots",
+      "url": "https://bindonforever.com/item/252440",
+      "status": "match",
+      "checkedFields": [
+        "itemLevel",
+        "requiredCharacterLevel",
+        "slot",
+        "armorType",
+        "armor",
+        "binding",
+        "stats",
+        "resistances"
+      ],
+      "differences": [],
+      "source": {
+        "name": "Trapper's Leather Boots",
+        "itemLevel": 22,
+        "requiredCharacterLevel": 17,
+        "slot": "Feet",
+        "armorType": "Leather",
+        "armor": 61,
+        "binding": "BoP",
+        "stats": {
+          "Agility": 5,
+          "Stamina": 5,
+          "Intellect": 4
+        },
+        "resistances": {},
+        "effects": []
+      },
+      "oldBuild": "2026-10-17",
+      "newBuild": "1.60.1.70862"
+    },
+    {
+      "itemId": "252441",
+      "name": "Defender's Leather Boots",
+      "url": "https://bindonforever.com/item/252441",
+      "status": "match",
+      "checkedFields": [
+        "itemLevel",
+        "requiredCharacterLevel",
+        "slot",
+        "armorType",
+        "armor",
+        "binding",
+        "stats",
+        "resistances"
+      ],
+      "differences": [],
+      "source": {
+        "name": "Defender's Leather Boots",
+        "itemLevel": 22,
+        "requiredCharacterLevel": 17,
+        "slot": "Feet",
+        "armorType": "Leather",
+        "armor": 61,
+        "binding": "BoP",
+        "stats": {
+          "Strength": 5,
+          "Stamina": 5
+        },
+        "resistances": {},
+        "effects": []
+      },
+      "oldBuild": "2026-10-17",
+      "newBuild": "1.60.1.70862"
+    },
+    {
+      "itemId": "252442",
+      "name": "Totemic Leather Boots",
+      "url": "https://bindonforever.com/item/252442",
+      "status": "match",
+      "checkedFields": [
+        "itemLevel",
+        "requiredCharacterLevel",
+        "slot",
+        "armorType",
+        "armor",
+        "binding",
+        "stats",
+        "resistances",
+        "effects"
+      ],
+      "differences": [],
+      "source": {
+        "name": "Totemic Leather Boots",
+        "itemLevel": 22,
+        "requiredCharacterLevel": 17,
+        "slot": "Feet",
+        "armorType": "Leather",
+        "armor": 61,
+        "binding": "BoP",
+        "stats": {
+          "Strength": 5,
+          "Stamina": 4
+        },
+        "resistances": {},
+        "effects": [
+          "Equip: Increases damage and healing done by magical spells and effects by up to 6."
+        ]
+      },
+      "oldBuild": "2026-10-17",
+      "newBuild": "1.60.1.70862"
+    },
+    {
+      "itemId": "252443",
+      "name": "Stormrider's Leather Boots",
+      "url": "https://bindonforever.com/item/252443",
+      "status": "match",
+      "checkedFields": [
+        "itemLevel",
+        "requiredCharacterLevel",
+        "slot",
+        "armorType",
+        "armor",
+        "binding",
+        "stats",
+        "resistances",
+        "effects"
+      ],
+      "differences": [],
+      "source": {
+        "name": "Stormrider's Leather Boots",
+        "itemLevel": 22,
+        "requiredCharacterLevel": 17,
+        "slot": "Feet",
+        "armorType": "Leather",
+        "armor": 61,
+        "binding": "BoP",
+        "stats": {
+          "Intellect": 5,
+          "Stamina": 4
+        },
+        "resistances": {},
+        "effects": [
+          "Equip: Increases damage and healing done by magical spells and effects by up to 6."
+        ]
+      },
+      "oldBuild": "2026-10-17",
+      "newBuild": "1.60.1.70862"
+    },
+    {
+      "itemId": "252444",
+      "name": "Wisdom's Leather Boots",
+      "url": "https://bindonforever.com/item/252444",
+      "status": "match",
+      "checkedFields": [
+        "itemLevel",
+        "requiredCharacterLevel",
+        "slot",
+        "armorType",
+        "armor",
+        "binding",
+        "stats",
+        "resistances",
+        "effects"
+      ],
+      "differences": [],
+      "source": {
+        "name": "Wisdom's Leather Boots",
+        "itemLevel": 22,
+        "requiredCharacterLevel": 17,
+        "slot": "Feet",
+        "armorType": "Leather",
+        "armor": 61,
+        "binding": "BoP",
+        "stats": {
+          "Intellect": 5,
+          "Stamina": 4
+        },
+        "resistances": {},
+        "effects": [
+          "Equip: Increases healing done by up to 11 and damage done by up to 4 for all magical spells and effects."
+        ]
+      },
+      "oldBuild": "2026-10-17",
+      "newBuild": "1.60.1.70862"
+    },
+    {
+      "itemId": "252445",
+      "name": "Defender's Leather Pants",
+      "url": "https://bindonforever.com/item/252445",
+      "status": "match",
+      "checkedFields": [
+        "itemLevel",
+        "requiredCharacterLevel",
+        "slot",
+        "armorType",
+        "armor",
+        "binding",
+        "stats",
+        "resistances"
+      ],
+      "differences": [],
+      "source": {
+        "name": "Defender's Leather Pants",
+        "itemLevel": 25,
+        "requiredCharacterLevel": 20,
+        "slot": "Legs",
+        "armorType": "Leather",
+        "armor": 82,
+        "binding": "BoP",
+        "stats": {
+          "Strength": 9,
+          "Agility": 4,
+          "Stamina": 6
+        },
+        "resistances": {},
+        "effects": []
+      },
+      "oldBuild": "2026-10-17",
+      "newBuild": "1.60.1.70862"
+    },
+    {
+      "itemId": "252446",
+      "name": "Totemic Leather Pants",
+      "url": "https://bindonforever.com/item/252446",
+      "status": "match",
+      "checkedFields": [
+        "itemLevel",
+        "requiredCharacterLevel",
+        "slot",
+        "armorType",
+        "armor",
+        "binding",
+        "stats",
+        "resistances",
+        "effects"
+      ],
+      "differences": [],
+      "source": {
+        "name": "Totemic Leather Pants",
+        "itemLevel": 25,
+        "requiredCharacterLevel": 20,
+        "slot": "Legs",
+        "armorType": "Leather",
+        "armor": 82,
+        "binding": "BoP",
+        "stats": {
+          "Strength": 9,
+          "Stamina": 4,
+          "Intellect": 4
+        },
+        "resistances": {},
+        "effects": [
+          "Equip: Increases damage and healing done by magical spells and effects by up to 7."
+        ]
+      },
+      "oldBuild": "2026-10-17",
+      "newBuild": "1.60.1.70862"
+    },
+    {
+      "itemId": "252447",
+      "name": "Defender's Leather Hood",
+      "url": "https://bindonforever.com/item/252447",
+      "status": "match",
+      "checkedFields": [
+        "itemLevel",
+        "requiredCharacterLevel",
+        "slot",
+        "armorType",
+        "armor",
+        "binding",
+        "stats",
+        "resistances"
+      ],
+      "differences": [],
+      "source": {
+        "name": "Defender's Leather Hood",
+        "itemLevel": 25,
+        "requiredCharacterLevel": 20,
+        "slot": "Head",
+        "armorType": "Leather",
+        "armor": 76,
+        "binding": "BoP",
+        "stats": {
+          "Strength": 8,
+          "Stamina": 10
+        },
+        "resistances": {},
+        "effects": []
+      },
+      "oldBuild": "2026-10-17",
+      "newBuild": "1.60.1.70862"
+    },
+    {
+      "itemId": "252448",
+      "name": "Totemic Leather Hood",
+      "url": "https://bindonforever.com/item/252448",
+      "status": "match",
+      "checkedFields": [
+        "itemLevel",
+        "requiredCharacterLevel",
+        "slot",
+        "armorType",
+        "armor",
+        "binding",
+        "stats",
+        "resistances",
+        "effects"
+      ],
+      "differences": [],
+      "source": {
+        "name": "Totemic Leather Hood",
+        "itemLevel": 25,
+        "requiredCharacterLevel": 20,
+        "slot": "Head",
+        "armorType": "Leather",
+        "armor": 76,
+        "binding": "BoP",
+        "stats": {
+          "Stamina": 10
+        },
+        "resistances": {},
+        "effects": [
+          "Equip: Increases damage and healing done by magical spells and effects by up to 9."
+        ]
+      },
+      "oldBuild": "2026-10-17",
+      "newBuild": "1.60.1.70862"
+    },
+    {
+      "itemId": "252450",
+      "name": "Defender's Leather Tunic",
+      "url": "https://bindonforever.com/item/252450",
+      "status": "match",
+      "checkedFields": [
+        "itemLevel",
+        "requiredCharacterLevel",
+        "slot",
+        "armorType",
+        "armor",
+        "binding",
+        "stats",
+        "resistances"
+      ],
+      "differences": [],
+      "source": {
+        "name": "Defender's Leather Tunic",
+        "itemLevel": 27,
+        "requiredCharacterLevel": 22,
+        "slot": "Chest",
+        "armorType": "Leather",
+        "armor": 98,
+        "binding": "BoP",
+        "stats": {
+          "Strength": 6,
+          "Agility": 6,
+          "Stamina": 8
+        },
+        "resistances": {},
+        "effects": []
+      },
+      "oldBuild": "2026-10-17",
+      "newBuild": "1.60.1.70862"
+    },
+    {
+      "itemId": "252451",
+      "name": "Totemic Leather Tunic",
+      "url": "https://bindonforever.com/item/252451",
+      "status": "match",
+      "checkedFields": [
+        "itemLevel",
+        "requiredCharacterLevel",
+        "slot",
+        "armorType",
+        "armor",
+        "binding",
+        "stats",
+        "resistances",
+        "effects"
+      ],
+      "differences": [],
+      "source": {
+        "name": "Totemic Leather Tunic",
+        "itemLevel": 27,
+        "requiredCharacterLevel": 22,
+        "slot": "Chest",
+        "armorType": "Leather",
+        "armor": 98,
+        "binding": "BoP",
+        "stats": {
+          "Strength": 8,
+          "Stamina": 6,
+          "Intellect": 5
+        },
+        "resistances": {},
+        "effects": [
+          "Equip: Increases damage and healing done by magical spells and effects by up to 7."
+        ]
+      },
+      "oldBuild": "2026-10-17",
+      "newBuild": "1.60.1.70862"
+    },
+    {
+      "itemId": "252455",
+      "name": "Defender's Leather Helm",
+      "url": "https://bindonforever.com/item/252455",
+      "status": "match",
+      "checkedFields": [
+        "itemLevel",
+        "requiredCharacterLevel",
+        "slot",
+        "armorType",
+        "armor",
+        "binding",
+        "stats",
+        "resistances"
+      ],
+      "differences": [],
+      "source": {
+        "name": "Defender's Leather Helm",
+        "itemLevel": 30,
+        "requiredCharacterLevel": 25,
+        "slot": "Head",
+        "armorType": "Leather",
+        "armor": 84,
+        "binding": "BoP",
+        "stats": {
+          "Strength": 12,
+          "Stamina": 13
+        },
+        "resistances": {},
+        "effects": []
+      },
+      "oldBuild": "2026-10-17",
+      "newBuild": "1.60.1.70862"
+    },
+    {
+      "itemId": "252456",
+      "name": "Totemic Leather Helm",
+      "url": "https://bindonforever.com/item/252456",
+      "status": "match",
+      "checkedFields": [
+        "itemLevel",
+        "requiredCharacterLevel",
+        "slot",
+        "armorType",
+        "armor",
+        "binding",
+        "stats",
+        "resistances",
+        "effects"
+      ],
+      "differences": [],
+      "source": {
+        "name": "Totemic Leather Helm",
+        "itemLevel": 30,
+        "requiredCharacterLevel": 25,
+        "slot": "Head",
+        "armorType": "Leather",
+        "armor": 84,
+        "binding": "BoP",
+        "stats": {
+          "Stamina": 13
+        },
+        "resistances": {},
+        "effects": [
+          "Equip: Increases damage and healing done by magical spells and effects by up to 12."
+        ]
+      },
+      "oldBuild": "2026-10-17",
+      "newBuild": "1.60.1.70862"
+    },
+    {
+      "itemId": "252457",
+      "name": "Defender's Leather Kilt",
+      "url": "https://bindonforever.com/item/252457",
+      "status": "match",
+      "checkedFields": [
+        "itemLevel",
+        "requiredCharacterLevel",
+        "slot",
+        "armorType",
+        "armor",
+        "binding",
+        "stats",
+        "resistances"
+      ],
+      "differences": [],
+      "source": {
+        "name": "Defender's Leather Kilt",
+        "itemLevel": 30,
+        "requiredCharacterLevel": 25,
+        "slot": "Legs",
+        "armorType": "Leather",
+        "armor": 90,
+        "binding": "BoP",
+        "stats": {
+          "Strength": 7,
+          "Agility": 7,
+          "Stamina": 9
+        },
+        "resistances": {},
+        "effects": []
+      },
+      "oldBuild": "2026-10-17",
+      "newBuild": "1.60.1.70862"
+    },
+    {
+      "itemId": "252458",
+      "name": "Totemic Leather Leggings",
+      "url": "https://bindonforever.com/item/252458",
+      "status": "match",
+      "checkedFields": [
+        "itemLevel",
+        "requiredCharacterLevel",
+        "slot",
+        "armorType",
+        "armor",
+        "binding",
+        "stats",
+        "resistances",
+        "effects"
+      ],
+      "differences": [],
+      "source": {
+        "name": "Totemic Leather Leggings",
+        "itemLevel": 30,
+        "requiredCharacterLevel": 25,
+        "slot": "Legs",
+        "armorType": "Leather",
+        "armor": 90,
+        "binding": "BoP",
+        "stats": {
+          "Strength": 9,
+          "Stamina": 7,
+          "Intellect": 6
+        },
+        "resistances": {},
+        "effects": [
+          "Equip: Increases damage and healing done by magical spells and effects by up to 8."
+        ]
+      },
+      "oldBuild": "2026-10-17",
+      "newBuild": "1.60.1.70862"
+    },
+    {
+      "itemId": "252459",
+      "name": "Prowler's Leather Belt",
+      "url": "https://bindonforever.com/item/252459",
+      "status": "match",
+      "checkedFields": [
+        "itemLevel",
+        "requiredCharacterLevel",
+        "slot",
+        "armorType",
+        "armor",
+        "binding",
+        "stats",
+        "resistances"
+      ],
+      "differences": [],
+      "source": {
+        "name": "Prowler's Leather Belt",
+        "itemLevel": 35,
+        "requiredCharacterLevel": 30,
+        "slot": "Waist",
+        "armorType": "Leather",
+        "armor": 63,
+        "binding": "BoP",
+        "stats": {
+          "Strength": 9,
+          "Agility": 6,
+          "Stamina": 6,
+          "Intellect": 4
+        },
+        "resistances": {},
+        "effects": []
+      },
+      "oldBuild": "2026-10-17",
+      "newBuild": "1.60.1.70862"
+    },
+    {
+      "itemId": "252460",
+      "name": "Warden's Leather Belt",
+      "url": "https://bindonforever.com/item/252460",
+      "status": "match",
+      "checkedFields": [
+        "itemLevel",
+        "requiredCharacterLevel",
+        "slot",
+        "armorType",
+        "armor",
+        "binding",
+        "stats",
+        "resistances"
+      ],
+      "differences": [],
+      "source": {
+        "name": "Warden's Leather Belt",
+        "itemLevel": 35,
+        "requiredCharacterLevel": 30,
+        "slot": "Waist",
+        "armorType": "Leather",
+        "armor": 63,
+        "binding": "BoP",
+        "stats": {
+          "Strength": 6,
+          "Agility": 6,
+          "Stamina": 9
+        },
+        "resistances": {},
+        "effects": []
+      },
+      "oldBuild": "2026-10-17",
+      "newBuild": "1.60.1.70862"
+    },
+    {
+      "itemId": "252461",
+      "name": "Skirmisher's Leather Belt",
+      "url": "https://bindonforever.com/item/252461",
+      "status": "match",
+      "checkedFields": [
+        "itemLevel",
+        "requiredCharacterLevel",
+        "slot",
+        "armorType",
+        "armor",
+        "binding",
+        "stats",
+        "resistances",
+        "effects"
+      ],
+      "differences": [],
+      "source": {
+        "name": "Skirmisher's Leather Belt",
+        "itemLevel": 35,
+        "requiredCharacterLevel": 30,
+        "slot": "Waist",
+        "armorType": "Leather",
+        "armor": 63,
+        "binding": "BoP",
+        "stats": {
+          "Strength": 9,
+          "Stamina": 6,
+          "Intellect": 4
+        },
+        "resistances": {},
+        "effects": [
+          "Equip: Increases damage and healing done by magical spells and effects by up to 7."
+        ]
+      },
+      "oldBuild": "2026-10-17",
+      "newBuild": "1.60.1.70862"
+    },
+    {
+      "itemId": "252465",
+      "name": "Prowler's Leather Shoes",
+      "url": "https://bindonforever.com/item/252465",
+      "status": "match",
+      "checkedFields": [
+        "itemLevel",
+        "requiredCharacterLevel",
+        "slot",
+        "armorType",
+        "armor",
+        "binding",
+        "stats",
+        "resistances"
+      ],
+      "differences": [],
+      "source": {
+        "name": "Prowler's Leather Shoes",
+        "itemLevel": 45,
+        "requiredCharacterLevel": 40,
+        "slot": "Feet",
+        "armorType": "Leather",
+        "armor": 92,
+        "binding": "BoP",
+        "stats": {
+          "Strength": 11,
+          "Agility": 7,
+          "Stamina": 7,
+          "Intellect": 5
+        },
+        "resistances": {},
+        "effects": []
+      },
+      "oldBuild": "2026-10-17",
+      "newBuild": "1.60.1.70862"
+    },
+    {
+      "itemId": "252466",
+      "name": "Warden's Leather Shoes",
+      "url": "https://bindonforever.com/item/252466",
+      "status": "match",
+      "checkedFields": [
+        "itemLevel",
+        "requiredCharacterLevel",
+        "slot",
+        "armorType",
+        "armor",
+        "binding",
+        "stats",
+        "resistances"
+      ],
+      "differences": [],
+      "source": {
+        "name": "Warden's Leather Shoes",
+        "itemLevel": 45,
+        "requiredCharacterLevel": 40,
+        "slot": "Feet",
+        "armorType": "Leather",
+        "armor": 92,
+        "binding": "BoP",
+        "stats": {
+          "Strength": 7,
+          "Agility": 7,
+          "Stamina": 11
+        },
+        "resistances": {},
+        "effects": []
+      },
+      "oldBuild": "2026-10-17",
+      "newBuild": "1.60.1.70862"
+    },
+    {
+      "itemId": "252468",
+      "name": "Prowler's Leather Boots",
+      "url": "https://bindonforever.com/item/252468",
+      "status": "match",
+      "checkedFields": [
+        "itemLevel",
+        "requiredCharacterLevel",
+        "slot",
+        "armorType",
+        "armor",
+        "binding",
+        "stats",
+        "resistances"
+      ],
+      "differences": [],
+      "source": {
+        "name": "Prowler's Leather Boots",
+        "itemLevel": 52,
+        "requiredCharacterLevel": 47,
+        "slot": "Feet",
+        "armorType": "Leather",
+        "armor": 104,
+        "binding": "BoP",
+        "stats": {
+          "Strength": 13,
+          "Agility": 11,
+          "Stamina": 9
+        },
+        "resistances": {},
+        "effects": []
+      },
+      "oldBuild": "2026-10-17",
+      "newBuild": "1.60.1.70862"
+    },
+    {
+      "itemId": "252469",
+      "name": "Skulker's Leather Boots",
+      "url": "https://bindonforever.com/item/252469",
+      "status": "match",
+      "checkedFields": [
+        "itemLevel",
+        "requiredCharacterLevel",
+        "slot",
+        "armorType",
+        "armor",
+        "binding",
+        "stats",
+        "resistances"
+      ],
+      "differences": [],
+      "source": {
+        "name": "Skulker's Leather Boots",
+        "itemLevel": 52,
+        "requiredCharacterLevel": 47,
+        "slot": "Feet",
+        "armorType": "Leather",
+        "armor": 104,
+        "binding": "BoP",
+        "stats": {
+          "Strength": 11,
+          "Agility": 13,
+          "Stamina": 9
+        },
+        "resistances": {},
+        "effects": []
+      },
+      "oldBuild": "2026-10-17",
+      "newBuild": "1.60.1.70862"
+    },
+    {
+      "itemId": "252470",
+      "name": "Warden's Leather Boots",
+      "url": "https://bindonforever.com/item/252470",
+      "status": "match",
+      "checkedFields": [
+        "itemLevel",
+        "requiredCharacterLevel",
+        "slot",
+        "armorType",
+        "armor",
+        "binding",
+        "stats",
+        "resistances"
+      ],
+      "differences": [],
+      "source": {
+        "name": "Warden's Leather Boots",
+        "itemLevel": 52,
+        "requiredCharacterLevel": 47,
+        "slot": "Feet",
+        "armorType": "Leather",
+        "armor": 104,
+        "binding": "BoP",
+        "stats": {
+          "Strength": 11,
+          "Stamina": 13
+        },
+        "resistances": {},
+        "effects": []
+      },
+      "oldBuild": "2026-10-17",
+      "newBuild": "1.60.1.70862"
+    },
+    {
+      "itemId": "252471",
+      "name": "Skycaller's Leather Boots",
+      "url": "https://bindonforever.com/item/252471",
+      "status": "match",
+      "checkedFields": [
+        "itemLevel",
+        "requiredCharacterLevel",
+        "slot",
+        "armorType",
+        "armor",
+        "binding",
+        "stats",
+        "resistances",
+        "effects"
+      ],
+      "differences": [],
+      "source": {
+        "name": "Skycaller's Leather Boots",
+        "itemLevel": 52,
+        "requiredCharacterLevel": 47,
+        "slot": "Feet",
+        "armorType": "Leather",
+        "armor": 104,
+        "binding": "BoP",
+        "stats": {
+          "Intellect": 11,
+          "Stamina": 9
+        },
+        "resistances": {},
+        "effects": [
+          "Equip: Increases damage and healing done by magical spells and effects by up to 15."
+        ]
+      },
+      "oldBuild": "2026-10-17",
+      "newBuild": "1.60.1.70862"
+    },
+    {
+      "itemId": "252472",
+      "name": "Mender's Leather Boots",
+      "url": "https://bindonforever.com/item/252472",
+      "status": "match",
+      "checkedFields": [
+        "itemLevel",
+        "requiredCharacterLevel",
+        "slot",
+        "armorType",
+        "armor",
+        "binding",
+        "stats",
+        "resistances",
+        "effects"
+      ],
+      "differences": [],
+      "source": {
+        "name": "Mender's Leather Boots",
+        "itemLevel": 52,
+        "requiredCharacterLevel": 47,
+        "slot": "Feet",
+        "armorType": "Leather",
+        "armor": 104,
+        "binding": "BoP",
+        "stats": {
+          "Intellect": 11,
+          "Stamina": 9
+        },
+        "resistances": {},
+        "effects": [
+          "Equip: Increases healing done by up to 28 and damage done by up to 9 for all magical spells and effects."
+        ]
+      },
+      "oldBuild": "2026-10-17",
+      "newBuild": "1.60.1.70862"
+    },
+    {
+      "itemId": "252473",
+      "name": "Prowler's Leather Waistguard",
+      "url": "https://bindonforever.com/item/252473",
+      "status": "match",
+      "checkedFields": [
+        "itemLevel",
+        "requiredCharacterLevel",
+        "slot",
+        "armorType",
+        "armor",
+        "binding",
+        "stats",
+        "resistances"
+      ],
+      "differences": [],
+      "source": {
+        "name": "Prowler's Leather Waistguard",
+        "itemLevel": 55,
+        "requiredCharacterLevel": 50,
+        "slot": "Waist",
+        "armorType": "Leather",
+        "armor": 89,
+        "binding": "BoP",
+        "stats": {
+          "Strength": 14,
+          "Agility": 12,
+          "Stamina": 10
+        },
+        "resistances": {},
+        "effects": []
+      },
+      "oldBuild": "2026-10-17",
+      "newBuild": "1.60.1.70862"
+    },
+    {
+      "itemId": "252474",
+      "name": "Skulker's Leather Waistguard",
+      "url": "https://bindonforever.com/item/252474",
+      "status": "match",
+      "checkedFields": [
+        "itemLevel",
+        "requiredCharacterLevel",
+        "slot",
+        "armorType",
+        "armor",
+        "binding",
+        "stats",
+        "resistances"
+      ],
+      "differences": [],
+      "source": {
+        "name": "Skulker's Leather Waistguard",
+        "itemLevel": 55,
+        "requiredCharacterLevel": 50,
+        "slot": "Waist",
+        "armorType": "Leather",
+        "armor": 89,
+        "binding": "BoP",
+        "stats": {
+          "Strength": 12,
+          "Agility": 14,
+          "Stamina": 10
+        },
+        "resistances": {},
+        "effects": []
+      },
+      "oldBuild": "2026-10-17",
+      "newBuild": "1.60.1.70862"
+    },
+    {
+      "itemId": "252475",
+      "name": "Warden's Leather Waistguard",
+      "url": "https://bindonforever.com/item/252475",
+      "status": "match",
+      "checkedFields": [
+        "itemLevel",
+        "requiredCharacterLevel",
+        "slot",
+        "armorType",
+        "armor",
+        "binding",
+        "stats",
+        "resistances"
+      ],
+      "differences": [],
+      "source": {
+        "name": "Warden's Leather Waistguard",
+        "itemLevel": 55,
+        "requiredCharacterLevel": 50,
+        "slot": "Waist",
+        "armorType": "Leather",
+        "armor": 89,
+        "binding": "BoP",
+        "stats": {
+          "Strength": 12,
+          "Stamina": 14
+        },
+        "resistances": {},
+        "effects": []
+      },
+      "oldBuild": "2026-10-17",
+      "newBuild": "1.60.1.70862"
+    },
+    {
+      "itemId": "252476",
+      "name": "Skycaller's Leather Waistguard",
+      "url": "https://bindonforever.com/item/252476",
+      "status": "match",
+      "checkedFields": [
+        "itemLevel",
+        "requiredCharacterLevel",
+        "slot",
+        "armorType",
+        "armor",
+        "binding",
+        "stats",
+        "resistances",
+        "effects"
+      ],
+      "differences": [],
+      "source": {
+        "name": "Skycaller's Leather Waistguard",
+        "itemLevel": 55,
+        "requiredCharacterLevel": 50,
+        "slot": "Waist",
+        "armorType": "Leather",
+        "armor": 89,
+        "binding": "BoP",
+        "stats": {
+          "Intellect": 12,
+          "Stamina": 10
+        },
+        "resistances": {},
+        "effects": [
+          "Equip: Increases damage and healing done by magical spells and effects by up to 16."
+        ]
+      },
+      "oldBuild": "2026-10-17",
+      "newBuild": "1.60.1.70862"
+    },
+    {
+      "itemId": "252477",
+      "name": "Mender's Leather Waistguard",
+      "url": "https://bindonforever.com/item/252477",
+      "status": "match",
+      "checkedFields": [
+        "itemLevel",
+        "requiredCharacterLevel",
+        "slot",
+        "armorType",
+        "armor",
+        "binding",
+        "stats",
+        "resistances",
+        "effects"
+      ],
+      "differences": [],
+      "source": {
+        "name": "Mender's Leather Waistguard",
+        "itemLevel": 55,
+        "requiredCharacterLevel": 50,
+        "slot": "Waist",
+        "armorType": "Leather",
+        "armor": 89,
+        "binding": "BoP",
+        "stats": {
+          "Intellect": 12,
+          "Stamina": 10
+        },
+        "resistances": {},
+        "effects": [
+          "Equip: Increases healing done by up to 30 and damage done by up to 10 for all magical spells and effects."
+        ]
+      },
+      "oldBuild": "2026-10-17",
+      "newBuild": "1.60.1.70862"
+    },
+    {
+      "itemId": "252490",
+      "name": "Brawler's Leather Armor",
+      "url": "https://bindonforever.com/item/252490",
+      "status": "match",
+      "checkedFields": [
+        "itemLevel",
+        "requiredCharacterLevel",
+        "slot",
+        "armorType",
+        "armor",
+        "binding",
+        "stats",
+        "resistances"
+      ],
+      "differences": [],
+      "source": {
+        "name": "Brawler's Leather Armor",
+        "itemLevel": 20,
+        "requiredCharacterLevel": 15,
+        "slot": "Chest",
+        "armorType": "Leather",
+        "armor": 85,
+        "binding": "BoP",
+        "stats": {
+          "Strength": 5,
+          "Agility": 7,
+          "Stamina": 3,
+          "Spirit": 3
+        },
+        "resistances": {},
+        "effects": []
+      },
+      "oldBuild": "2026-10-17",
+      "newBuild": "1.60.1.70862"
+    },
+    {
+      "itemId": "252491",
+      "name": "Trapper's Leather Armor",
+      "url": "https://bindonforever.com/item/252491",
+      "status": "match",
+      "checkedFields": [
+        "itemLevel",
+        "requiredCharacterLevel",
+        "slot",
+        "armorType",
+        "armor",
+        "binding",
+        "stats",
+        "resistances"
+      ],
+      "differences": [],
+      "source": {
+        "name": "Trapper's Leather Armor",
+        "itemLevel": 20,
+        "requiredCharacterLevel": 15,
+        "slot": "Chest",
+        "armorType": "Leather",
+        "armor": 85,
+        "binding": "BoP",
+        "stats": {
+          "Agility": 7,
+          "Stamina": 5,
+          "Intellect": 3,
+          "Spirit": 3
+        },
+        "resistances": {},
+        "effects": []
+      },
+      "oldBuild": "2026-10-17",
+      "newBuild": "1.60.1.70862"
+    },
+    {
+      "itemId": "252492",
+      "name": "Stormrider's Leather Armor",
+      "url": "https://bindonforever.com/item/252492",
+      "status": "match",
+      "checkedFields": [
+        "itemLevel",
+        "requiredCharacterLevel",
+        "slot",
+        "armorType",
+        "armor",
+        "binding",
+        "stats",
+        "resistances",
+        "effects"
+      ],
+      "differences": [],
+      "source": {
+        "name": "Stormrider's Leather Armor",
+        "itemLevel": 20,
+        "requiredCharacterLevel": 15,
+        "slot": "Chest",
+        "armorType": "Leather",
+        "armor": 85,
+        "binding": "BoP",
+        "stats": {
+          "Intellect": 5,
+          "Stamina": 3,
+          "Spirit": 3
+        },
+        "resistances": {},
+        "effects": [
+          "Equip: Increases damage and healing done by magical spells and effects by up to 8."
+        ]
+      },
+      "oldBuild": "2026-10-17",
+      "newBuild": "1.60.1.70862"
+    },
+    {
+      "itemId": "252493",
+      "name": "Wisdom's Leather Armor",
+      "url": "https://bindonforever.com/item/252493",
+      "status": "match",
+      "checkedFields": [
+        "itemLevel",
+        "requiredCharacterLevel",
+        "slot",
+        "armorType",
+        "armor",
+        "binding",
+        "stats",
+        "resistances",
+        "effects"
+      ],
+      "differences": [],
+      "source": {
+        "name": "Wisdom's Leather Armor",
+        "itemLevel": 20,
+        "requiredCharacterLevel": 15,
+        "slot": "Chest",
+        "armorType": "Leather",
+        "armor": 85,
+        "binding": "BoP",
+        "stats": {
+          "Intellect": 5,
+          "Stamina": 3,
+          "Spirit": 3
+        },
+        "resistances": {},
+        "effects": [
+          "Equip: Increases healing done by up to 15 and damage done by up to 5 for all magical spells and effects."
+        ]
+      },
+      "oldBuild": "2026-10-17",
+      "newBuild": "1.60.1.70862"
+    },
+    {
+      "itemId": "252494",
+      "name": "Brawler's Leather Gloves",
+      "url": "https://bindonforever.com/item/252494",
+      "status": "match",
+      "checkedFields": [
+        "itemLevel",
+        "requiredCharacterLevel",
+        "slot",
+        "armorType",
+        "armor",
+        "binding",
+        "stats",
+        "resistances"
+      ],
+      "differences": [],
+      "source": {
+        "name": "Brawler's Leather Gloves",
+        "itemLevel": 20,
+        "requiredCharacterLevel": 15,
+        "slot": "Hands",
+        "armorType": "Leather",
+        "armor": 53,
+        "binding": "BoP",
+        "stats": {
+          "Strength": 4,
+          "Agility": 4,
+          "Stamina": 3
+        },
+        "resistances": {},
+        "effects": []
+      },
+      "oldBuild": "2026-10-17",
+      "newBuild": "1.60.1.70862"
+    },
+    {
+      "itemId": "252495",
+      "name": "Trapper's Leather Gloves",
+      "url": "https://bindonforever.com/item/252495",
+      "status": "match",
+      "checkedFields": [
+        "itemLevel",
+        "requiredCharacterLevel",
+        "slot",
+        "armorType",
+        "armor",
+        "binding",
+        "stats",
+        "resistances"
+      ],
+      "differences": [],
+      "source": {
+        "name": "Trapper's Leather Gloves",
+        "itemLevel": 20,
+        "requiredCharacterLevel": 15,
+        "slot": "Hands",
+        "armorType": "Leather",
+        "armor": 53,
+        "binding": "BoP",
+        "stats": {
+          "Agility": 4,
+          "Stamina": 4,
+          "Intellect": 3
+        },
+        "resistances": {},
+        "effects": []
+      },
+      "oldBuild": "2026-10-17",
+      "newBuild": "1.60.1.70862"
+    },
+    {
+      "itemId": "252496",
+      "name": "Defender's Leather Gloves",
+      "url": "https://bindonforever.com/item/252496",
+      "status": "match",
+      "checkedFields": [
+        "itemLevel",
+        "requiredCharacterLevel",
+        "slot",
+        "armorType",
+        "armor",
+        "binding",
+        "stats",
+        "resistances"
+      ],
+      "differences": [],
+      "source": {
+        "name": "Defender's Leather Gloves",
+        "itemLevel": 20,
+        "requiredCharacterLevel": 15,
+        "slot": "Hands",
+        "armorType": "Leather",
+        "armor": 53,
+        "binding": "BoP",
+        "stats": {
+          "Strength": 4,
+          "Stamina": 4
+        },
+        "resistances": {},
+        "effects": []
+      },
+      "oldBuild": "2026-10-17",
+      "newBuild": "1.60.1.70862"
+    },
+    {
+      "itemId": "252497",
+      "name": "Totemic Leather Gloves",
+      "url": "https://bindonforever.com/item/252497",
+      "status": "match",
+      "checkedFields": [
+        "itemLevel",
+        "requiredCharacterLevel",
+        "slot",
+        "armorType",
+        "armor",
+        "binding",
+        "stats",
+        "resistances",
+        "effects"
+      ],
+      "differences": [],
+      "source": {
+        "name": "Totemic Leather Gloves",
+        "itemLevel": 20,
+        "requiredCharacterLevel": 15,
+        "slot": "Hands",
+        "armorType": "Leather",
+        "armor": 53,
+        "binding": "BoP",
+        "stats": {
+          "Strength": 4,
+          "Stamina": 3
+        },
+        "resistances": {},
+        "effects": [
+          "Equip: Increases damage and healing done by magical spells and effects by up to 5."
+        ]
+      },
+      "oldBuild": "2026-10-17",
+      "newBuild": "1.60.1.70862"
+    },
+    {
+      "itemId": "252498",
+      "name": "Stormrider's Leather Gloves",
+      "url": "https://bindonforever.com/item/252498",
+      "status": "match",
+      "checkedFields": [
+        "itemLevel",
+        "requiredCharacterLevel",
+        "slot",
+        "armorType",
+        "armor",
+        "binding",
+        "stats",
+        "resistances",
+        "effects"
+      ],
+      "differences": [],
+      "source": {
+        "name": "Stormrider's Leather Gloves",
+        "itemLevel": 20,
+        "requiredCharacterLevel": 15,
+        "slot": "Hands",
+        "armorType": "Leather",
+        "armor": 53,
+        "binding": "BoP",
+        "stats": {
+          "Intellect": 4,
+          "Stamina": 3
+        },
+        "resistances": {},
+        "effects": [
+          "Equip: Increases damage and healing done by magical spells and effects by up to 5."
+        ]
+      },
+      "oldBuild": "2026-10-17",
+      "newBuild": "1.60.1.70862"
+    },
+    {
+      "itemId": "252499",
+      "name": "Wisdom's Leather Gloves",
+      "url": "https://bindonforever.com/item/252499",
+      "status": "match",
+      "checkedFields": [
+        "itemLevel",
+        "requiredCharacterLevel",
+        "slot",
+        "armorType",
+        "armor",
+        "binding",
+        "stats",
+        "resistances",
+        "effects"
+      ],
+      "differences": [],
+      "source": {
+        "name": "Wisdom's Leather Gloves",
+        "itemLevel": 20,
+        "requiredCharacterLevel": 15,
+        "slot": "Hands",
+        "armorType": "Leather",
+        "armor": 53,
+        "binding": "BoP",
+        "stats": {
+          "Intellect": 4,
+          "Stamina": 3
+        },
+        "resistances": {},
+        "effects": [
+          "Equip: Increases healing done by up to 10 and damage done by up to 3 for all magical spells and effects."
+        ]
+      },
+      "oldBuild": "2026-10-17",
+      "newBuild": "1.60.1.70862"
+    },
+    {
+      "itemId": "252500",
+      "name": "Brawler's Leather Pants",
+      "url": "https://bindonforever.com/item/252500",
+      "status": "match",
+      "checkedFields": [
+        "itemLevel",
+        "requiredCharacterLevel",
+        "slot",
+        "armorType",
+        "armor",
+        "binding",
+        "stats",
+        "resistances"
+      ],
+      "differences": [],
+      "source": {
+        "name": "Brawler's Leather Pants",
+        "itemLevel": 25,
+        "requiredCharacterLevel": 20,
+        "slot": "Legs",
+        "armorType": "Leather",
+        "armor": 82,
+        "binding": "BoP",
+        "stats": {
+          "Strength": 6,
+          "Agility": 9,
+          "Stamina": 4,
+          "Spirit": 4
+        },
+        "resistances": {},
+        "effects": []
+      },
+      "oldBuild": "2026-10-17",
+      "newBuild": "1.60.1.70862"
+    },
+    {
+      "itemId": "252501",
+      "name": "Trapper's Leather Pants",
+      "url": "https://bindonforever.com/item/252501",
+      "status": "match",
+      "checkedFields": [
+        "itemLevel",
+        "requiredCharacterLevel",
+        "slot",
+        "armorType",
+        "armor",
+        "binding",
+        "stats",
+        "resistances"
+      ],
+      "differences": [],
+      "source": {
+        "name": "Trapper's Leather Pants",
+        "itemLevel": 25,
+        "requiredCharacterLevel": 20,
+        "slot": "Legs",
+        "armorType": "Leather",
+        "armor": 82,
+        "binding": "BoP",
+        "stats": {
+          "Strength": 6,
+          "Agility": 9,
+          "Intellect": 4,
+          "Spirit": 4
+        },
+        "resistances": {},
+        "effects": []
+      },
+      "oldBuild": "2026-10-17",
+      "newBuild": "1.60.1.70862"
+    },
+    {
+      "itemId": "252502",
+      "name": "Stormrider's Leather Pants",
+      "url": "https://bindonforever.com/item/252502",
+      "status": "match",
+      "checkedFields": [
+        "itemLevel",
+        "requiredCharacterLevel",
+        "slot",
+        "armorType",
+        "armor",
+        "binding",
+        "stats",
+        "resistances",
+        "effects"
+      ],
+      "differences": [],
+      "source": {
+        "name": "Stormrider's Leather Pants",
+        "itemLevel": 25,
+        "requiredCharacterLevel": 20,
+        "slot": "Legs",
+        "armorType": "Leather",
+        "armor": 82,
+        "binding": "BoP",
+        "stats": {
+          "Intellect": 6,
+          "Stamina": 4,
+          "Spirit": 4
+        },
+        "resistances": {},
+        "effects": [
+          "Equip: Increases damage and healing done by magical spells and effects by up to 10."
+        ]
+      },
+      "oldBuild": "2026-10-17",
+      "newBuild": "1.60.1.70862"
+    },
+    {
+      "itemId": "252503",
+      "name": "Wisdom's Leather Pants",
+      "url": "https://bindonforever.com/item/252503",
+      "status": "match",
+      "checkedFields": [
+        "itemLevel",
+        "requiredCharacterLevel",
+        "slot",
+        "armorType",
+        "armor",
+        "binding",
+        "stats",
+        "resistances",
+        "effects"
+      ],
+      "differences": [],
+      "source": {
+        "name": "Wisdom's Leather Pants",
+        "itemLevel": 25,
+        "requiredCharacterLevel": 20,
+        "slot": "Legs",
+        "armorType": "Leather",
+        "armor": 82,
+        "binding": "BoP",
+        "stats": {
+          "Intellect": 6,
+          "Stamina": 4,
+          "Spirit": 4
+        },
+        "resistances": {},
+        "effects": [
+          "Equip: Increases healing done by up to 20 and damage done by up to 7 for all magical spells and effects."
+        ]
+      },
+      "oldBuild": "2026-10-17",
+      "newBuild": "1.60.1.70862"
+    },
+    {
+      "itemId": "252504",
+      "name": "Brawler's Leather Hood",
+      "url": "https://bindonforever.com/item/252504",
+      "status": "match",
+      "checkedFields": [
+        "itemLevel",
+        "requiredCharacterLevel",
+        "slot",
+        "armorType",
+        "armor",
+        "binding",
+        "stats",
+        "resistances"
+      ],
+      "differences": [],
+      "source": {
+        "name": "Brawler's Leather Hood",
+        "itemLevel": 25,
+        "requiredCharacterLevel": 20,
+        "slot": "Head",
+        "armorType": "Leather",
+        "armor": 76,
+        "binding": "BoP",
+        "stats": {
+          "Agility": 8,
+          "Stamina": 10
+        },
+        "resistances": {},
+        "effects": []
+      },
+      "oldBuild": "2026-10-17",
+      "newBuild": "1.60.1.70862"
+    },
+    {
+      "itemId": "252505",
+      "name": "Trapper's Leather Hood",
+      "url": "https://bindonforever.com/item/252505",
+      "status": "match",
+      "checkedFields": [
+        "itemLevel",
+        "requiredCharacterLevel",
+        "slot",
+        "armorType",
+        "armor",
+        "binding",
+        "stats",
+        "resistances"
+      ],
+      "differences": [],
+      "source": {
+        "name": "Trapper's Leather Hood",
+        "itemLevel": 25,
+        "requiredCharacterLevel": 20,
+        "slot": "Head",
+        "armorType": "Leather",
+        "armor": 76,
+        "binding": "BoP",
+        "stats": {
+          "Intellect": 8,
+          "Stamina": 10
+        },
+        "resistances": {},
+        "effects": []
+      },
+      "oldBuild": "2026-10-17",
+      "newBuild": "1.60.1.70862"
+    },
+    {
+      "itemId": "252506",
+      "name": "Stormrider's Leather Hood",
+      "url": "https://bindonforever.com/item/252506",
+      "status": "match",
+      "checkedFields": [
+        "itemLevel",
+        "requiredCharacterLevel",
+        "slot",
+        "armorType",
+        "armor",
+        "binding",
+        "stats",
+        "resistances"
+      ],
+      "differences": [],
+      "source": {
+        "name": "Stormrider's Leather Hood",
+        "itemLevel": 25,
+        "requiredCharacterLevel": 20,
+        "slot": "Head",
+        "armorType": "Leather",
+        "armor": 76,
+        "binding": "BoP",
+        "stats": {
+          "Stamina": 10,
+          "Spirit": 9
+        },
+        "resistances": {},
+        "effects": []
+      },
+      "oldBuild": "2026-10-17",
+      "newBuild": "1.60.1.70862"
+    },
+    {
+      "itemId": "252507",
+      "name": "Wisdom's Leather Hood",
+      "url": "https://bindonforever.com/item/252507",
+      "status": "match",
+      "checkedFields": [
+        "itemLevel",
+        "requiredCharacterLevel",
+        "slot",
+        "armorType",
+        "armor",
+        "binding",
+        "stats",
+        "resistances",
+        "effects"
+      ],
+      "differences": [],
+      "source": {
+        "name": "Wisdom's Leather Hood",
+        "itemLevel": 25,
+        "requiredCharacterLevel": 20,
+        "slot": "Head",
+        "armorType": "Leather",
+        "armor": 76,
+        "binding": "BoP",
+        "stats": {
+          "Stamina": 10
+        },
+        "resistances": {},
+        "effects": [
+          "Equip: Increases healing done by up to 17 and damage done by up to 6 for all magical spells and effects."
+        ]
+      },
+      "oldBuild": "2026-10-17",
+      "newBuild": "1.60.1.70862"
+    },
+    {
+      "itemId": "252508",
+      "name": "Brawler's Leather Tunic",
+      "url": "https://bindonforever.com/item/252508",
+      "status": "match",
+      "checkedFields": [
+        "itemLevel",
+        "requiredCharacterLevel",
+        "slot",
+        "armorType",
+        "armor",
+        "binding",
+        "stats",
+        "resistances"
+      ],
+      "differences": [],
+      "source": {
+        "name": "Brawler's Leather Tunic",
+        "itemLevel": 27,
+        "requiredCharacterLevel": 22,
+        "slot": "Chest",
+        "armorType": "Leather",
+        "armor": 98,
+        "binding": "BoP",
+        "stats": {
+          "Strength": 6,
+          "Agility": 8,
+          "Stamina": 6,
+          "Spirit": 5
+        },
+        "resistances": {},
+        "effects": []
+      },
+      "oldBuild": "2026-10-17",
+      "newBuild": "1.60.1.70862"
+    },
+    {
+      "itemId": "252509",
+      "name": "Trapper's Leather Tunic",
+      "url": "https://bindonforever.com/item/252509",
+      "status": "match",
+      "checkedFields": [
+        "itemLevel",
+        "requiredCharacterLevel",
+        "slot",
+        "armorType",
+        "armor",
+        "binding",
+        "stats",
+        "resistances"
+      ],
+      "differences": [],
+      "source": {
+        "name": "Trapper's Leather Tunic",
+        "itemLevel": 27,
+        "requiredCharacterLevel": 22,
+        "slot": "Chest",
+        "armorType": "Leather",
+        "armor": 98,
+        "binding": "BoP",
+        "stats": {
+          "Agility": 8,
+          "Stamina": 6,
+          "Intellect": 6,
+          "Spirit": 5
+        },
+        "resistances": {},
+        "effects": []
+      },
+      "oldBuild": "2026-10-17",
+      "newBuild": "1.60.1.70862"
+    },
+    {
+      "itemId": "252510",
+      "name": "Stormrider's Leather Tunic",
+      "url": "https://bindonforever.com/item/252510",
+      "status": "match",
+      "checkedFields": [
+        "itemLevel",
+        "requiredCharacterLevel",
+        "slot",
+        "armorType",
+        "armor",
+        "binding",
+        "stats",
+        "resistances",
+        "effects"
+      ],
+      "differences": [],
+      "source": {
+        "name": "Stormrider's Leather Tunic",
+        "itemLevel": 27,
+        "requiredCharacterLevel": 22,
+        "slot": "Chest",
+        "armorType": "Leather",
+        "armor": 98,
+        "binding": "BoP",
+        "stats": {
+          "Intellect": 6,
+          "Stamina": 6,
+          "Spirit": 5
+        },
+        "resistances": {},
+        "effects": [
+          "Equip: Increases damage and healing done by magical spells and effects by up to 10."
+        ]
+      },
+      "oldBuild": "2026-10-17",
+      "newBuild": "1.60.1.70862"
+    },
+    {
+      "itemId": "252511",
+      "name": "Wisdom's Leather Tunic",
+      "url": "https://bindonforever.com/item/252511",
+      "status": "match",
+      "checkedFields": [
+        "itemLevel",
+        "requiredCharacterLevel",
+        "slot",
+        "armorType",
+        "armor",
+        "binding",
+        "stats",
+        "resistances",
+        "effects"
+      ],
+      "differences": [],
+      "source": {
+        "name": "Wisdom's Leather Tunic",
+        "itemLevel": 27,
+        "requiredCharacterLevel": 22,
+        "slot": "Chest",
+        "armorType": "Leather",
+        "armor": 98,
+        "binding": "BoP",
+        "stats": {
+          "Intellect": 6,
+          "Stamina": 5,
+          "Spirit": 6
+        },
+        "resistances": {},
+        "effects": [
+          "Equip: Increases healing done by up to 18 and damage done by up to 6 for all magical spells and effects."
+        ]
+      },
+      "oldBuild": "2026-10-17",
+      "newBuild": "1.60.1.70862"
+    },
+    {
+      "itemId": "252512",
+      "name": "Brawler's Leather Helm",
+      "url": "https://bindonforever.com/item/252512",
+      "status": "match",
+      "checkedFields": [
+        "itemLevel",
+        "requiredCharacterLevel",
+        "slot",
+        "armorType",
+        "armor",
+        "binding",
+        "stats",
+        "resistances"
+      ],
+      "differences": [],
+      "source": {
+        "name": "Brawler's Leather Helm",
+        "itemLevel": 30,
+        "requiredCharacterLevel": 25,
+        "slot": "Head",
+        "armorType": "Leather",
+        "armor": 84,
+        "binding": "BoP",
+        "stats": {
+          "Agility": 10,
+          "Stamina": 13
+        },
+        "resistances": {},
+        "effects": []
+      },
+      "oldBuild": "2026-10-17",
+      "newBuild": "1.60.1.70862"
+    },
+    {
+      "itemId": "252513",
+      "name": "Trapper's Leather Helm",
+      "url": "https://bindonforever.com/item/252513",
+      "status": "match",
+      "checkedFields": [
+        "itemLevel",
+        "requiredCharacterLevel",
+        "slot",
+        "armorType",
+        "armor",
+        "binding",
+        "stats",
+        "resistances"
+      ],
+      "differences": [],
+      "source": {
+        "name": "Trapper's Leather Helm",
+        "itemLevel": 30,
+        "requiredCharacterLevel": 25,
+        "slot": "Head",
+        "armorType": "Leather",
+        "armor": 84,
+        "binding": "BoP",
+        "stats": {
+          "Intellect": 10,
+          "Stamina": 13
+        },
+        "resistances": {},
+        "effects": []
+      },
+      "oldBuild": "2026-10-17",
+      "newBuild": "1.60.1.70862"
+    },
+    {
+      "itemId": "252514",
+      "name": "Stormrider's Leather Helm",
+      "url": "https://bindonforever.com/item/252514",
+      "status": "match",
+      "checkedFields": [
+        "itemLevel",
+        "requiredCharacterLevel",
+        "slot",
+        "armorType",
+        "armor",
+        "binding",
+        "stats",
+        "resistances"
+      ],
+      "differences": [],
+      "source": {
+        "name": "Stormrider's Leather Helm",
+        "itemLevel": 30,
+        "requiredCharacterLevel": 25,
+        "slot": "Head",
+        "armorType": "Leather",
+        "armor": 84,
+        "binding": "BoP",
+        "stats": {
+          "Stamina": 13,
+          "Spirit": 10
+        },
+        "resistances": {},
+        "effects": []
+      },
+      "oldBuild": "2026-10-17",
+      "newBuild": "1.60.1.70862"
+    },
+    {
+      "itemId": "252515",
+      "name": "Wisdom's Leather Helm",
+      "url": "https://bindonforever.com/item/252515",
+      "status": "match",
+      "checkedFields": [
+        "itemLevel",
+        "requiredCharacterLevel",
+        "slot",
+        "armorType",
+        "armor",
+        "binding",
+        "stats",
+        "resistances",
+        "effects"
+      ],
+      "differences": [],
+      "source": {
+        "name": "Wisdom's Leather Helm",
+        "itemLevel": 30,
+        "requiredCharacterLevel": 25,
+        "slot": "Head",
+        "armorType": "Leather",
+        "armor": 84,
+        "binding": "BoP",
+        "stats": {
+          "Stamina": 13
+        },
+        "resistances": {},
+        "effects": [
+          "Equip: Increases healing done by up to 21 and damage done by up to 7 for all magical spells and effects."
+        ]
+      },
+      "oldBuild": "2026-10-17",
+      "newBuild": "1.60.1.70862"
+    },
+    {
+      "itemId": "252516",
+      "name": "Brawler's Leather Legguards",
+      "url": "https://bindonforever.com/item/252516",
+      "status": "match",
+      "checkedFields": [
+        "itemLevel",
+        "requiredCharacterLevel",
+        "slot",
+        "armorType",
+        "armor",
+        "binding",
+        "stats",
+        "resistances"
+      ],
+      "differences": [],
+      "source": {
+        "name": "Brawler's Leather Legguards",
+        "itemLevel": 30,
+        "requiredCharacterLevel": 25,
+        "slot": "Legs",
+        "armorType": "Leather",
+        "armor": 90,
+        "binding": "BoP",
+        "stats": {
+          "Strength": 7,
+          "Agility": 9,
+          "Stamina": 7,
+          "Spirit": 6
+        },
+        "resistances": {},
+        "effects": []
+      },
+      "oldBuild": "2026-10-17",
+      "newBuild": "1.60.1.70862"
+    },
+    {
+      "itemId": "252517",
+      "name": "Trapper's Leather Legguards",
+      "url": "https://bindonforever.com/item/252517",
+      "status": "match",
+      "checkedFields": [
+        "itemLevel",
+        "requiredCharacterLevel",
+        "slot",
+        "armorType",
+        "armor",
+        "binding",
+        "stats",
+        "resistances"
+      ],
+      "differences": [],
+      "source": {
+        "name": "Trapper's Leather Legguards",
+        "itemLevel": 30,
+        "requiredCharacterLevel": 25,
+        "slot": "Legs",
+        "armorType": "Leather",
+        "armor": 90,
+        "binding": "BoP",
+        "stats": {
+          "Agility": 9,
+          "Stamina": 7,
+          "Intellect": 7,
+          "Spirit": 6
+        },
+        "resistances": {},
+        "effects": []
+      },
+      "oldBuild": "2026-10-17",
+      "newBuild": "1.60.1.70862"
+    },
+    {
+      "itemId": "252518",
+      "name": "Stormrider's Leather Kilt",
+      "url": "https://bindonforever.com/item/252518",
+      "status": "match",
+      "checkedFields": [
+        "itemLevel",
+        "requiredCharacterLevel",
+        "slot",
+        "armorType",
+        "armor",
+        "binding",
+        "stats",
+        "resistances"
+      ],
+      "differences": [],
+      "source": {
+        "name": "Stormrider's Leather Kilt",
+        "itemLevel": 30,
+        "requiredCharacterLevel": 25,
+        "slot": "Legs",
+        "armorType": "Leather",
+        "armor": 90,
+        "binding": "BoP",
+        "stats": {
+          "Strength": 7,
+          "Stamina": 6,
+          "Intellect": 7,
+          "Spirit": 11
+        },
+        "resistances": {},
+        "effects": []
+      },
+      "oldBuild": "2026-10-17",
+      "newBuild": "1.60.1.70862"
+    },
+    {
+      "itemId": "252519",
+      "name": "Wisdom's Leather Leggings",
+      "url": "https://bindonforever.com/item/252519",
+      "status": "match",
+      "checkedFields": [
+        "itemLevel",
+        "requiredCharacterLevel",
+        "slot",
+        "armorType",
+        "armor",
+        "binding",
+        "stats",
+        "resistances",
+        "effects"
+      ],
+      "differences": [],
+      "source": {
+        "name": "Wisdom's Leather Leggings",
+        "itemLevel": 30,
+        "requiredCharacterLevel": 25,
+        "slot": "Legs",
+        "armorType": "Leather",
+        "armor": 90,
+        "binding": "BoP",
+        "stats": {
+          "Intellect": 7,
+          "Stamina": 6,
+          "Spirit": 7
+        },
+        "resistances": {},
+        "effects": [
+          "Equip: Increases healing done by up to 21 and damage done by up to 7 for all magical spells and effects."
+        ]
+      },
+      "oldBuild": "2026-10-17",
+      "newBuild": "1.60.1.70862"
+    },
+    {
+      "itemId": "252520",
+      "name": "Skulker's Leather Belt",
+      "url": "https://bindonforever.com/item/252520",
+      "status": "match",
+      "checkedFields": [
+        "itemLevel",
+        "requiredCharacterLevel",
+        "slot",
+        "armorType",
+        "armor",
+        "binding",
+        "stats",
+        "resistances"
+      ],
+      "differences": [],
+      "source": {
+        "name": "Skulker's Leather Belt",
+        "itemLevel": 35,
+        "requiredCharacterLevel": 30,
+        "slot": "Waist",
+        "armorType": "Leather",
+        "armor": 63,
+        "binding": "BoP",
+        "stats": {
+          "Strength": 6,
+          "Agility": 9,
+          "Stamina": 6,
+          "Spirit": 4
+        },
+        "resistances": {},
+        "effects": []
+      },
+      "oldBuild": "2026-10-17",
+      "newBuild": "1.60.1.70862"
+    },
+    {
+      "itemId": "252521",
+      "name": "Stalker's Leather Belt",
+      "url": "https://bindonforever.com/item/252521",
+      "status": "match",
+      "checkedFields": [
+        "itemLevel",
+        "requiredCharacterLevel",
+        "slot",
+        "armorType",
+        "armor",
+        "binding",
+        "stats",
+        "resistances"
+      ],
+      "differences": [],
+      "source": {
+        "name": "Stalker's Leather Belt",
+        "itemLevel": 35,
+        "requiredCharacterLevel": 30,
+        "slot": "Waist",
+        "armorType": "Leather",
+        "armor": 63,
+        "binding": "BoP",
+        "stats": {
+          "Agility": 9,
+          "Stamina": 6,
+          "Intellect": 6,
+          "Spirit": 4
+        },
+        "resistances": {},
+        "effects": []
+      },
+      "oldBuild": "2026-10-17",
+      "newBuild": "1.60.1.70862"
+    },
+    {
+      "itemId": "252522",
+      "name": "Skycaller's Leather Belt",
+      "url": "https://bindonforever.com/item/252522",
+      "status": "match",
+      "checkedFields": [
+        "itemLevel",
+        "requiredCharacterLevel",
+        "slot",
+        "armorType",
+        "armor",
+        "binding",
+        "stats",
+        "resistances",
+        "effects"
+      ],
+      "differences": [],
+      "source": {
+        "name": "Skycaller's Leather Belt",
+        "itemLevel": 35,
+        "requiredCharacterLevel": 30,
+        "slot": "Waist",
+        "armorType": "Leather",
+        "armor": 63,
+        "binding": "BoP",
+        "stats": {
+          "Intellect": 6,
+          "Stamina": 6,
+          "Spirit": 4
+        },
+        "resistances": {},
+        "effects": [
+          "Equip: Increases damage and healing done by magical spells and effects by up to 10."
+        ]
+      },
+      "oldBuild": "2026-10-17",
+      "newBuild": "1.60.1.70862"
+    },
+    {
+      "itemId": "252523",
+      "name": "Mender's Leather Belt",
+      "url": "https://bindonforever.com/item/252523",
+      "status": "match",
+      "checkedFields": [
+        "itemLevel",
+        "requiredCharacterLevel",
+        "slot",
+        "armorType",
+        "armor",
+        "binding",
+        "stats",
+        "resistances",
+        "effects"
+      ],
+      "differences": [],
+      "source": {
+        "name": "Mender's Leather Belt",
+        "itemLevel": 35,
+        "requiredCharacterLevel": 30,
+        "slot": "Waist",
+        "armorType": "Leather",
+        "armor": 63,
+        "binding": "BoP",
+        "stats": {
+          "Intellect": 6,
+          "Stamina": 4,
+          "Spirit": 6
+        },
+        "resistances": {},
+        "effects": [
+          "Equip: Increases healing done by up to 19 and damage done by up to 6 for all magical spells and effects."
+        ]
+      },
+      "oldBuild": "2026-10-17",
+      "newBuild": "1.60.1.70862"
+    },
+    {
+      "itemId": "252524",
+      "name": "Prowler's Leather Gloves",
+      "url": "https://bindonforever.com/item/252524",
+      "status": "match",
+      "checkedFields": [
+        "itemLevel",
+        "requiredCharacterLevel",
+        "slot",
+        "armorType",
+        "armor",
+        "binding",
+        "stats",
+        "resistances"
+      ],
+      "differences": [],
+      "source": {
+        "name": "Prowler's Leather Gloves",
+        "itemLevel": 40,
+        "requiredCharacterLevel": 35,
+        "slot": "Hands",
+        "armorType": "Leather",
+        "armor": 76,
+        "binding": "BoP",
+        "stats": {
+          "Strength": 10,
+          "Agility": 9,
+          "Stamina": 7
+        },
+        "resistances": {},
+        "effects": []
+      },
+      "oldBuild": "2026-10-17",
+      "newBuild": "1.60.1.70862"
+    },
+    {
+      "itemId": "252525",
+      "name": "Skulker's Leather Gloves",
+      "url": "https://bindonforever.com/item/252525",
+      "status": "match",
+      "checkedFields": [
+        "itemLevel",
+        "requiredCharacterLevel",
+        "slot",
+        "armorType",
+        "armor",
+        "binding",
+        "stats",
+        "resistances"
+      ],
+      "differences": [],
+      "source": {
+        "name": "Skulker's Leather Gloves",
+        "itemLevel": 40,
+        "requiredCharacterLevel": 35,
+        "slot": "Hands",
+        "armorType": "Leather",
+        "armor": 76,
+        "binding": "BoP",
+        "stats": {
+          "Strength": 9,
+          "Agility": 10,
+          "Stamina": 7
+        },
+        "resistances": {},
+        "effects": []
+      },
+      "oldBuild": "2026-10-17",
+      "newBuild": "1.60.1.70862"
+    },
+    {
+      "itemId": "252526",
+      "name": "Stalker's Leather Gloves",
+      "url": "https://bindonforever.com/item/252526",
+      "status": "match",
+      "checkedFields": [
+        "itemLevel",
+        "requiredCharacterLevel",
+        "slot",
+        "armorType",
+        "armor",
+        "binding",
+        "stats",
+        "resistances"
+      ],
+      "differences": [],
+      "source": {
+        "name": "Stalker's Leather Gloves",
+        "itemLevel": 40,
+        "requiredCharacterLevel": 35,
+        "slot": "Hands",
+        "armorType": "Leather",
+        "armor": 76,
+        "binding": "BoP",
+        "stats": {
+          "Agility": 10,
+          "Stamina": 9,
+          "Intellect": 7
+        },
+        "resistances": {},
+        "effects": []
+      },
+      "oldBuild": "2026-10-17",
+      "newBuild": "1.60.1.70862"
+    },
+    {
+      "itemId": "252527",
+      "name": "Warden's Leather Gloves",
+      "url": "https://bindonforever.com/item/252527",
+      "status": "match",
+      "checkedFields": [
+        "itemLevel",
+        "requiredCharacterLevel",
+        "slot",
+        "armorType",
+        "armor",
+        "binding",
+        "stats",
+        "resistances"
+      ],
+      "differences": [],
+      "source": {
+        "name": "Warden's Leather Gloves",
+        "itemLevel": 40,
+        "requiredCharacterLevel": 35,
+        "slot": "Hands",
+        "armorType": "Leather",
+        "armor": 76,
+        "binding": "BoP",
+        "stats": {
+          "Strength": 9,
+          "Stamina": 10
+        },
+        "resistances": {},
+        "effects": []
+      },
+      "oldBuild": "2026-10-17",
+      "newBuild": "1.60.1.70862"
+    },
+    {
+      "itemId": "252528",
+      "name": "Skirmisher's Leather Gloves",
+      "url": "https://bindonforever.com/item/252528",
+      "status": "match",
+      "checkedFields": [
+        "itemLevel",
+        "requiredCharacterLevel",
+        "slot",
+        "armorType",
+        "armor",
+        "binding",
+        "stats",
+        "resistances",
+        "effects"
+      ],
+      "differences": [],
+      "source": {
+        "name": "Skirmisher's Leather Gloves",
+        "itemLevel": 40,
+        "requiredCharacterLevel": 35,
+        "slot": "Hands",
+        "armorType": "Leather",
+        "armor": 76,
+        "binding": "BoP",
+        "stats": {
+          "Strength": 10,
+          "Stamina": 7
+        },
+        "resistances": {},
+        "effects": [
+          "Equip: Increases damage and healing done by magical spells and effects by up to 10."
+        ]
+      },
+      "oldBuild": "2026-10-17",
+      "newBuild": "1.60.1.70862"
+    },
+    {
+      "itemId": "252529",
+      "name": "Skycaller's Leather Gloves",
+      "url": "https://bindonforever.com/item/252529",
+      "status": "match",
+      "checkedFields": [
+        "itemLevel",
+        "requiredCharacterLevel",
+        "slot",
+        "armorType",
+        "armor",
+        "binding",
+        "stats",
+        "resistances",
+        "effects"
+      ],
+      "differences": [],
+      "source": {
+        "name": "Skycaller's Leather Gloves",
+        "itemLevel": 40,
+        "requiredCharacterLevel": 35,
+        "slot": "Hands",
+        "armorType": "Leather",
+        "armor": 76,
+        "binding": "BoP",
+        "stats": {
+          "Intellect": 9,
+          "Stamina": 7
+        },
+        "resistances": {},
+        "effects": [
+          "Equip: Increases damage and healing done by magical spells and effects by up to 11."
+        ]
+      },
+      "oldBuild": "2026-10-17",
+      "newBuild": "1.60.1.70862"
+    },
+    {
+      "itemId": "252530",
+      "name": "Mender's Leather Gloves",
+      "url": "https://bindonforever.com/item/252530",
+      "status": "match",
+      "checkedFields": [
+        "itemLevel",
+        "requiredCharacterLevel",
+        "slot",
+        "armorType",
+        "armor",
+        "binding",
+        "stats",
+        "resistances",
+        "effects"
+      ],
+      "differences": [],
+      "source": {
+        "name": "Mender's Leather Gloves",
+        "itemLevel": 40,
+        "requiredCharacterLevel": 35,
+        "slot": "Hands",
+        "armorType": "Leather",
+        "armor": 76,
+        "binding": "BoP",
+        "stats": {
+          "Intellect": 9,
+          "Stamina": 7
+        },
+        "resistances": {},
+        "effects": [
+          "Equip: Increases healing done by up to 21 and damage done by up to 7 for all magical spells and effects."
+        ]
+      },
+      "oldBuild": "2026-10-17",
+      "newBuild": "1.60.1.70862"
+    },
+    {
+      "itemId": "252531",
+      "name": "Skulker's Leather Shoes",
+      "url": "https://bindonforever.com/item/252531",
+      "status": "match",
+      "checkedFields": [
+        "itemLevel",
+        "requiredCharacterLevel",
+        "slot",
+        "armorType",
+        "armor",
+        "binding",
+        "stats",
+        "resistances"
+      ],
+      "differences": [],
+      "source": {
+        "name": "Skulker's Leather Shoes",
+        "itemLevel": 45,
+        "requiredCharacterLevel": 40,
+        "slot": "Feet",
+        "armorType": "Leather",
+        "armor": 92,
+        "binding": "BoP",
+        "stats": {
+          "Strength": 7,
+          "Agility": 11,
+          "Stamina": 7,
+          "Spirit": 5
+        },
+        "resistances": {},
+        "effects": []
+      },
+      "oldBuild": "2026-10-17",
+      "newBuild": "1.60.1.70862"
+    },
+    {
+      "itemId": "252532",
+      "name": "Skycaller's Leather Shoes",
+      "url": "https://bindonforever.com/item/252532",
+      "status": "match",
+      "checkedFields": [
+        "itemLevel",
+        "requiredCharacterLevel",
+        "slot",
+        "armorType",
+        "armor",
+        "binding",
+        "stats",
+        "resistances",
+        "effects"
+      ],
+      "differences": [],
+      "source": {
+        "name": "Skycaller's Leather Shoes",
+        "itemLevel": 45,
+        "requiredCharacterLevel": 40,
+        "slot": "Feet",
+        "armorType": "Leather",
+        "armor": 92,
+        "binding": "BoP",
+        "stats": {
+          "Intellect": 7,
+          "Stamina": 7,
+          "Spirit": 5
+        },
+        "resistances": {},
+        "effects": [
+          "Equip: Increases damage and healing done by magical spells and effects by up to 13."
+        ]
+      },
+      "oldBuild": "2026-10-17",
+      "newBuild": "1.60.1.70862"
+    },
+    {
+      "itemId": "252533",
+      "name": "Mender's Leather Shoes",
+      "url": "https://bindonforever.com/item/252533",
+      "status": "match",
+      "checkedFields": [
+        "itemLevel",
+        "requiredCharacterLevel",
+        "slot",
+        "armorType",
+        "armor",
+        "binding",
+        "stats",
+        "resistances",
+        "effects"
+      ],
+      "differences": [],
+      "source": {
+        "name": "Mender's Leather Shoes",
+        "itemLevel": 45,
+        "requiredCharacterLevel": 40,
+        "slot": "Feet",
+        "armorType": "Leather",
+        "armor": 92,
+        "binding": "BoP",
+        "stats": {
+          "Intellect": 7,
+          "Stamina": 5,
+          "Spirit": 7
+        },
+        "resistances": {},
+        "effects": [
+          "Equip: Increases healing done by up to 24 and damage done by up to 8 for all magical spells and effects."
+        ]
+      },
+      "oldBuild": "2026-10-17",
+      "newBuild": "1.60.1.70862"
+    },
+    {
+      "itemId": "252534",
+      "name": "Prowler's Leather Shoulders",
+      "url": "https://bindonforever.com/item/252534",
+      "status": "match",
+      "checkedFields": [
+        "itemLevel",
+        "requiredCharacterLevel",
+        "slot",
+        "armorType",
+        "armor",
+        "binding",
+        "stats",
+        "resistances"
+      ],
+      "differences": [],
+      "source": {
+        "name": "Prowler's Leather Shoulders",
+        "itemLevel": 47,
+        "requiredCharacterLevel": 42,
+        "slot": "Shoulder",
+        "armorType": "Leather",
+        "armor": 104,
+        "binding": "BoP",
+        "stats": {
+          "Strength": 11,
+          "Agility": 9,
+          "Stamina": 7,
+          "Intellect": 6
+        },
+        "resistances": {},
+        "effects": []
+      },
+      "oldBuild": "2026-10-17",
+      "newBuild": "1.60.1.70862"
+    },
+    {
+      "itemId": "252535",
+      "name": "Skulker's Leather Shoulders",
+      "url": "https://bindonforever.com/item/252535",
+      "status": "identity-mismatch",
+      "sourceName": "Skulker's Leather Shoulder"
+    },
+    {
+      "itemId": "252536",
+      "name": "Warden's Leather Shoulders",
+      "url": "https://bindonforever.com/item/252536",
+      "status": "match",
+      "checkedFields": [
+        "itemLevel",
+        "requiredCharacterLevel",
+        "slot",
+        "armorType",
+        "armor",
+        "binding",
+        "stats",
+        "resistances"
+      ],
+      "differences": [],
+      "source": {
+        "name": "Warden's Leather Shoulders",
+        "itemLevel": 47,
+        "requiredCharacterLevel": 42,
+        "slot": "Shoulder",
+        "armorType": "Leather",
+        "armor": 104,
+        "binding": "BoP",
+        "stats": {
+          "Strength": 9,
+          "Agility": 7,
+          "Stamina": 11
+        },
+        "resistances": {},
+        "effects": []
+      },
+      "oldBuild": "2026-10-17",
+      "newBuild": "1.60.1.70862"
+    },
+    {
+      "itemId": "252537",
+      "name": "Skycaller's Leather Shoulders",
+      "url": "https://bindonforever.com/item/252537",
+      "status": "match",
+      "checkedFields": [
+        "itemLevel",
+        "requiredCharacterLevel",
+        "slot",
+        "armorType",
+        "armor",
+        "binding",
+        "stats",
+        "resistances",
+        "effects"
+      ],
+      "differences": [],
+      "source": {
+        "name": "Skycaller's Leather Shoulders",
+        "itemLevel": 47,
+        "requiredCharacterLevel": 42,
+        "slot": "Shoulder",
+        "armorType": "Leather",
+        "armor": 104,
+        "binding": "BoP",
+        "stats": {
+          "Intellect": 9,
+          "Stamina": 7,
+          "Spirit": 6
+        },
+        "resistances": {},
+        "effects": [
+          "Equip: Increases damage and healing done by magical spells and effects by up to 13."
+        ]
+      },
+      "oldBuild": "2026-10-17",
+      "newBuild": "1.60.1.70862"
+    },
+    {
+      "itemId": "252538",
+      "name": "Mender's Leather Shoulders",
+      "url": "https://bindonforever.com/item/252538",
+      "status": "match",
+      "checkedFields": [
+        "itemLevel",
+        "requiredCharacterLevel",
+        "slot",
+        "armorType",
+        "armor",
+        "binding",
+        "stats",
+        "resistances",
+        "effects"
+      ],
+      "differences": [],
+      "source": {
+        "name": "Mender's Leather Shoulders",
+        "itemLevel": 47,
+        "requiredCharacterLevel": 42,
+        "slot": "Shoulder",
+        "armorType": "Leather",
+        "armor": 104,
+        "binding": "BoP",
+        "stats": {
+          "Intellect": 9,
+          "Stamina": 6,
+          "Spirit": 7
+        },
+        "resistances": {},
+        "effects": [
+          "Equip: Increases healing done by up to 24 and damage done by up to 8 for all magical spells and effects."
+        ]
+      },
+      "oldBuild": "2026-10-17",
+      "newBuild": "1.60.1.70862"
+    },
+    {
+      "itemId": "252539",
+      "name": "Prowler's Leather Bracers",
+      "url": "https://bindonforever.com/item/252539",
+      "status": "match",
+      "checkedFields": [
+        "itemLevel",
+        "requiredCharacterLevel",
+        "slot",
+        "armorType",
+        "armor",
+        "binding",
+        "stats",
+        "resistances"
+      ],
+      "differences": [],
+      "source": {
+        "name": "Prowler's Leather Bracers",
+        "itemLevel": 50,
+        "requiredCharacterLevel": 45,
+        "slot": "Wrist",
+        "armorType": "Leather",
+        "armor": 64,
+        "binding": "BoP",
+        "stats": {
+          "Strength": 9,
+          "Agility": 7,
+          "Stamina": 6,
+          "Intellect": 5
+        },
+        "resistances": {},
+        "effects": []
+      },
+      "oldBuild": "2026-10-17",
+      "newBuild": "1.60.1.70862"
+    },
+    {
+      "itemId": "252540",
+      "name": "Skulker's Leather Bracers",
+      "url": "https://bindonforever.com/item/252540",
+      "status": "match",
+      "checkedFields": [
+        "itemLevel",
+        "requiredCharacterLevel",
+        "slot",
+        "armorType",
+        "armor",
+        "binding",
+        "stats",
+        "resistances"
+      ],
+      "differences": [],
+      "source": {
+        "name": "Skulker's Leather Bracers",
+        "itemLevel": 50,
+        "requiredCharacterLevel": 45,
+        "slot": "Wrist",
+        "armorType": "Leather",
+        "armor": 64,
+        "binding": "BoP",
+        "stats": {
+          "Strength": 7,
+          "Agility": 9,
+          "Stamina": 6,
+          "Spirit": 5
+        },
+        "resistances": {},
+        "effects": []
+      },
+      "oldBuild": "2026-10-17",
+      "newBuild": "1.60.1.70862"
+    },
+    {
+      "itemId": "252541",
+      "name": "Warden's Leather Bracers",
+      "url": "https://bindonforever.com/item/252541",
+      "status": "match",
+      "checkedFields": [
+        "itemLevel",
+        "requiredCharacterLevel",
+        "slot",
+        "armorType",
+        "armor",
+        "binding",
+        "stats",
+        "resistances"
+      ],
+      "differences": [],
+      "source": {
+        "name": "Warden's Leather Bracers",
+        "itemLevel": 50,
+        "requiredCharacterLevel": 45,
+        "slot": "Wrist",
+        "armorType": "Leather",
+        "armor": 64,
+        "binding": "BoP",
+        "stats": {
+          "Strength": 7,
+          "Agility": 6,
+          "Stamina": 9
+        },
+        "resistances": {},
+        "effects": []
+      },
+      "oldBuild": "2026-10-17",
+      "newBuild": "1.60.1.70862"
+    },
+    {
+      "itemId": "252542",
+      "name": "Skycaller's Leather Bracers",
+      "url": "https://bindonforever.com/item/252542",
+      "status": "match",
+      "checkedFields": [
+        "itemLevel",
+        "requiredCharacterLevel",
+        "slot",
+        "armorType",
+        "armor",
+        "binding",
+        "stats",
+        "resistances",
+        "effects"
+      ],
+      "differences": [],
+      "source": {
+        "name": "Skycaller's Leather Bracers",
+        "itemLevel": 50,
+        "requiredCharacterLevel": 45,
+        "slot": "Wrist",
+        "armorType": "Leather",
+        "armor": 64,
+        "binding": "BoP",
+        "stats": {
+          "Intellect": 7,
+          "Stamina": 6,
+          "Spirit": 5
+        },
+        "resistances": {},
+        "effects": [
+          "Equip: Increases damage and healing done by magical spells and effects by up to 10."
+        ]
+      },
+      "oldBuild": "2026-10-17",
+      "newBuild": "1.60.1.70862"
+    },
+    {
+      "itemId": "252543",
+      "name": "Mender's Leather Bracers",
+      "url": "https://bindonforever.com/item/252543",
+      "status": "match",
+      "checkedFields": [
+        "itemLevel",
+        "requiredCharacterLevel",
+        "slot",
+        "armorType",
+        "armor",
+        "binding",
+        "stats",
+        "resistances",
+        "effects"
+      ],
+      "differences": [],
+      "source": {
+        "name": "Mender's Leather Bracers",
+        "itemLevel": 50,
+        "requiredCharacterLevel": 45,
+        "slot": "Wrist",
+        "armorType": "Leather",
+        "armor": 64,
+        "binding": "BoP",
+        "stats": {
+          "Intellect": 7,
+          "Stamina": 5,
+          "Spirit": 6
+        },
+        "resistances": {},
+        "effects": [
+          "Equip: Increases healing done by up to 19 and damage done by up to 6 for all magical spells and effects."
+        ]
+      },
+      "oldBuild": "2026-10-17",
+      "newBuild": "1.60.1.70862"
+    },
+    {
+      "itemId": "252547",
+      "name": "Prowler's Leather Gauntlets",
+      "url": "https://bindonforever.com/item/252547",
+      "status": "match",
+      "checkedFields": [
+        "itemLevel",
+        "requiredCharacterLevel",
+        "slot",
+        "armorType",
+        "armor",
+        "binding",
+        "stats",
+        "resistances"
+      ],
+      "differences": [],
+      "source": {
+        "name": "Prowler's Leather Gauntlets",
+        "itemLevel": 55,
+        "requiredCharacterLevel": 50,
+        "slot": "Hands",
+        "armorType": "Leather",
+        "armor": 99,
+        "binding": "BoP",
+        "stats": {
+          "Strength": 14,
+          "Agility": 9,
+          "Stamina": 9,
+          "Intellect": 6
+        },
+        "resistances": {},
+        "effects": []
+      },
+      "oldBuild": "2026-10-17",
+      "newBuild": "1.60.1.70862"
+    },
+    {
+      "itemId": "252548",
+      "name": "Skulker's Leather Gauntlets",
+      "url": "https://bindonforever.com/item/252548",
+      "status": "match",
+      "checkedFields": [
+        "itemLevel",
+        "requiredCharacterLevel",
+        "slot",
+        "armorType",
+        "armor",
+        "binding",
+        "stats",
+        "resistances"
+      ],
+      "differences": [],
+      "source": {
+        "name": "Skulker's Leather Gauntlets",
+        "itemLevel": 55,
+        "requiredCharacterLevel": 50,
+        "slot": "Hands",
+        "armorType": "Leather",
+        "armor": 99,
+        "binding": "BoP",
+        "stats": {
+          "Strength": 9,
+          "Agility": 14,
+          "Stamina": 9,
+          "Spirit": 6
+        },
+        "resistances": {},
+        "effects": []
+      },
+      "oldBuild": "2026-10-17",
+      "newBuild": "1.60.1.70862"
+    },
+    {
+      "itemId": "252549",
+      "name": "Warden's Leather Gauntlets",
+      "url": "https://bindonforever.com/item/252549",
+      "status": "match",
+      "checkedFields": [
+        "itemLevel",
+        "requiredCharacterLevel",
+        "slot",
+        "armorType",
+        "armor",
+        "binding",
+        "stats",
+        "resistances"
+      ],
+      "differences": [],
+      "source": {
+        "name": "Warden's Leather Gauntlets",
+        "itemLevel": 55,
+        "requiredCharacterLevel": 50,
+        "slot": "Hands",
+        "armorType": "Leather",
+        "armor": 99,
+        "binding": "BoP",
+        "stats": {
+          "Strength": 9,
+          "Agility": 9,
+          "Stamina": 14
+        },
+        "resistances": {},
+        "effects": []
+      },
+      "oldBuild": "2026-10-17",
+      "newBuild": "1.60.1.70862"
+    },
+    {
+      "itemId": "252550",
+      "name": "Skycaller's Leather Gauntlets",
+      "url": "https://bindonforever.com/item/252550",
+      "status": "match",
+      "checkedFields": [
+        "itemLevel",
+        "requiredCharacterLevel",
+        "slot",
+        "armorType",
+        "armor",
+        "binding",
+        "stats",
+        "resistances",
+        "effects"
+      ],
+      "differences": [],
+      "source": {
+        "name": "Skycaller's Leather Gauntlets",
+        "itemLevel": 55,
+        "requiredCharacterLevel": 50,
+        "slot": "Hands",
+        "armorType": "Leather",
+        "armor": 99,
+        "binding": "BoP",
+        "stats": {
+          "Intellect": 9,
+          "Stamina": 9,
+          "Spirit": 6
+        },
+        "resistances": {},
+        "effects": [
+          "Equip: Increases damage and healing done by magical spells and effects by up to 16."
+        ]
+      },
+      "oldBuild": "2026-10-17",
+      "newBuild": "1.60.1.70862"
+    },
+    {
+      "itemId": "252551",
+      "name": "Mender's Leather Gauntlets",
+      "url": "https://bindonforever.com/item/252551",
+      "status": "match",
+      "checkedFields": [
+        "itemLevel",
+        "requiredCharacterLevel",
+        "slot",
+        "armorType",
+        "armor",
+        "binding",
+        "stats",
+        "resistances",
+        "effects"
+      ],
+      "differences": [],
+      "source": {
+        "name": "Mender's Leather Gauntlets",
+        "itemLevel": 55,
+        "requiredCharacterLevel": 50,
+        "slot": "Hands",
+        "armorType": "Leather",
+        "armor": 99,
+        "binding": "BoP",
+        "stats": {
+          "Intellect": 9,
+          "Stamina": 6,
+          "Spirit": 9
+        },
+        "resistances": {},
+        "effects": [
+          "Equip: Increases healing done by up to 31 and damage done by up to 10 for all magical spells and effects."
+        ]
+      },
+      "oldBuild": "2026-10-17",
+      "newBuild": "1.60.1.70862"
+    },
+    {
+      "itemId": "252562",
+      "name": "Stalker's Mail Boots",
+      "url": "https://bindonforever.com/item/252562",
+      "status": "match",
+      "checkedFields": [
+        "itemLevel",
+        "requiredCharacterLevel",
+        "slot",
+        "armorType",
+        "armor",
+        "binding",
+        "stats",
+        "resistances"
+      ],
+      "differences": [],
+      "source": {
+        "name": "Stalker's Mail Boots",
+        "itemLevel": 45,
+        "requiredCharacterLevel": 40,
+        "slot": "Feet",
+        "armorType": "Mail",
+        "armor": 188,
+        "binding": "BoP",
+        "stats": {
+          "Agility": 11,
+          "Stamina": 7,
+          "Intellect": 7,
+          "Spirit": 5
+        },
+        "resistances": {},
+        "effects": []
+      },
+      "oldBuild": "2026-10-17",
+      "newBuild": "1.60.1.70862"
+    },
+    {
+      "itemId": "252563",
+      "name": "Skycaller's Mail Boots",
+      "url": "https://bindonforever.com/item/252563",
+      "status": "match",
+      "checkedFields": [
+        "itemLevel",
+        "requiredCharacterLevel",
+        "slot",
+        "armorType",
+        "armor",
+        "binding",
+        "stats",
+        "resistances",
+        "effects"
+      ],
+      "differences": [],
+      "source": {
+        "name": "Skycaller's Mail Boots",
+        "itemLevel": 45,
+        "requiredCharacterLevel": 40,
+        "slot": "Feet",
+        "armorType": "Mail",
+        "armor": 188,
+        "binding": "BoP",
+        "stats": {
+          "Intellect": 7,
+          "Stamina": 7,
+          "Spirit": 5
+        },
+        "resistances": {},
+        "effects": [
+          "Equip: Increases damage and healing done by magical spells and effects by up to 13."
+        ]
+      },
+      "oldBuild": "2026-10-17",
+      "newBuild": "1.60.1.70862"
+    },
+    {
+      "itemId": "252564",
+      "name": "Skirmisher's Mail Boots",
+      "url": "https://bindonforever.com/item/252564",
+      "status": "match",
+      "checkedFields": [
+        "itemLevel",
+        "requiredCharacterLevel",
+        "slot",
+        "armorType",
+        "armor",
+        "binding",
+        "stats",
+        "resistances",
+        "effects"
+      ],
+      "differences": [],
+      "source": {
+        "name": "Skirmisher's Mail Boots",
+        "itemLevel": 45,
+        "requiredCharacterLevel": 40,
+        "slot": "Feet",
+        "armorType": "Mail",
+        "armor": 188,
+        "binding": "BoP",
+        "stats": {
+          "Strength": 11,
+          "Stamina": 7,
+          "Intellect": 5
+        },
+        "resistances": {},
+        "effects": [
+          "Equip: Increases damage and healing done by magical spells and effects by up to 9."
+        ]
+      },
+      "oldBuild": "2026-10-17",
+      "newBuild": "1.60.1.70862"
+    },
+    {
+      "itemId": "252565",
+      "name": "Mender's Mail Boots",
+      "url": "https://bindonforever.com/item/252565",
+      "status": "match",
+      "checkedFields": [
+        "itemLevel",
+        "requiredCharacterLevel",
+        "slot",
+        "armorType",
+        "armor",
+        "binding",
+        "stats",
+        "resistances",
+        "effects"
+      ],
+      "differences": [],
+      "source": {
+        "name": "Mender's Mail Boots",
+        "itemLevel": 45,
+        "requiredCharacterLevel": 40,
+        "slot": "Feet",
+        "armorType": "Mail",
+        "armor": 188,
+        "binding": "BoP",
+        "stats": {
+          "Intellect": 7,
+          "Stamina": 5,
+          "Spirit": 7
+        },
+        "resistances": {},
+        "effects": [
+          "Equip: Increases healing done by up to 24 and damage done by up to 8 for all magical spells and effects."
+        ]
+      },
+      "oldBuild": "2026-10-17",
+      "newBuild": "1.60.1.70862"
+    },
+    {
+      "itemId": "252566",
+      "name": "Stalker's Mail Shoulders",
+      "url": "https://bindonforever.com/item/252566",
+      "status": "match",
+      "checkedFields": [
+        "itemLevel",
+        "requiredCharacterLevel",
+        "slot",
+        "armorType",
+        "armor",
+        "binding",
+        "stats",
+        "resistances"
+      ],
+      "differences": [],
+      "source": {
+        "name": "Stalker's Mail Shoulders",
+        "itemLevel": 47,
+        "requiredCharacterLevel": 42,
+        "slot": "Shoulder",
+        "armorType": "Mail",
+        "armor": 213,
+        "binding": "BoP",
+        "stats": {
+          "Agility": 11,
+          "Stamina": 9,
+          "Intellect": 7,
+          "Spirit": 6
+        },
+        "resistances": {},
+        "effects": []
+      },
+      "oldBuild": "2026-10-17",
+      "newBuild": "1.60.1.70862"
+    },
+    {
+      "itemId": "252567",
+      "name": "Skycaller's Mail Shoulders",
+      "url": "https://bindonforever.com/item/252567",
+      "status": "match",
+      "checkedFields": [
+        "itemLevel",
+        "requiredCharacterLevel",
+        "slot",
+        "armorType",
+        "armor",
+        "binding",
+        "stats",
+        "resistances",
+        "effects"
+      ],
+      "differences": [],
+      "source": {
+        "name": "Skycaller's Mail Shoulders",
+        "itemLevel": 47,
+        "requiredCharacterLevel": 42,
+        "slot": "Shoulder",
+        "armorType": "Mail",
+        "armor": 213,
+        "binding": "BoP",
+        "stats": {
+          "Intellect": 9,
+          "Stamina": 7,
+          "Spirit": 6
+        },
+        "resistances": {},
+        "effects": [
+          "Equip: Increases damage and healing done by magical spells and effects by up to 13."
+        ]
+      },
+      "oldBuild": "2026-10-17",
+      "newBuild": "1.60.1.70862"
+    },
+    {
+      "itemId": "252568",
+      "name": "Skirmisher's Mail Shoulders",
+      "url": "https://bindonforever.com/item/252568",
+      "status": "match",
+      "checkedFields": [
+        "itemLevel",
+        "requiredCharacterLevel",
+        "slot",
+        "armorType",
+        "armor",
+        "binding",
+        "stats",
+        "resistances",
+        "effects"
+      ],
+      "differences": [],
+      "source": {
+        "name": "Skirmisher's Mail Shoulders",
+        "itemLevel": 47,
+        "requiredCharacterLevel": 42,
+        "slot": "Shoulder",
+        "armorType": "Mail",
+        "armor": 213,
+        "binding": "BoP",
+        "stats": {
+          "Strength": 11,
+          "Stamina": 7,
+          "Intellect": 6
+        },
+        "resistances": {},
+        "effects": [
+          "Equip: Increases damage and healing done by magical spells and effects by up to 10."
+        ]
+      },
+      "oldBuild": "2026-10-17",
+      "newBuild": "1.60.1.70862"
+    },
+    {
+      "itemId": "252569",
+      "name": "Mender's Mail Shoulders",
+      "url": "https://bindonforever.com/item/252569",
+      "status": "match",
+      "checkedFields": [
+        "itemLevel",
+        "requiredCharacterLevel",
+        "slot",
+        "armorType",
+        "armor",
+        "binding",
+        "stats",
+        "resistances",
+        "effects"
+      ],
+      "differences": [],
+      "source": {
+        "name": "Mender's Mail Shoulders",
+        "itemLevel": 47,
+        "requiredCharacterLevel": 42,
+        "slot": "Shoulder",
+        "armorType": "Mail",
+        "armor": 213,
+        "binding": "BoP",
+        "stats": {
+          "Intellect": 9,
+          "Stamina": 6,
+          "Spirit": 7
+        },
+        "resistances": {},
+        "effects": [
+          "Equip: Increases healing done by up to 24 and damage done by up to 8 for all magical spells and effects."
+        ]
+      },
+      "oldBuild": "2026-10-17",
+      "newBuild": "1.60.1.70862"
+    },
+    {
+      "itemId": "252570",
+      "name": "Stalker's Mail Bracers",
+      "url": "https://bindonforever.com/item/252570",
+      "status": "match",
+      "checkedFields": [
+        "itemLevel",
+        "requiredCharacterLevel",
+        "slot",
+        "armorType",
+        "armor",
+        "binding",
+        "stats",
+        "resistances"
+      ],
+      "differences": [],
+      "source": {
+        "name": "Stalker's Mail Bracers",
+        "itemLevel": 50,
+        "requiredCharacterLevel": 45,
+        "slot": "Wrist",
+        "armorType": "Mail",
+        "armor": 131,
+        "binding": "BoP",
+        "stats": {
+          "Agility": 9,
+          "Stamina": 7,
+          "Intellect": 6,
+          "Spirit": 5
+        },
+        "resistances": {},
+        "effects": []
+      },
+      "oldBuild": "2026-10-17",
+      "newBuild": "1.60.1.70862"
+    },
+    {
+      "itemId": "252571",
+      "name": "Skycaller's Mail Bracers",
+      "url": "https://bindonforever.com/item/252571",
+      "status": "match",
+      "checkedFields": [
+        "itemLevel",
+        "requiredCharacterLevel",
+        "slot",
+        "armorType",
+        "armor",
+        "binding",
+        "stats",
+        "resistances",
+        "effects"
+      ],
+      "differences": [],
+      "source": {
+        "name": "Skycaller's Mail Bracers",
+        "itemLevel": 50,
+        "requiredCharacterLevel": 45,
+        "slot": "Wrist",
+        "armorType": "Mail",
+        "armor": 131,
+        "binding": "BoP",
+        "stats": {
+          "Intellect": 7,
+          "Stamina": 6,
+          "Spirit": 5
+        },
+        "resistances": {},
+        "effects": [
+          "Equip: Increases damage and healing done by magical spells and effects by up to 10."
+        ]
+      },
+      "oldBuild": "2026-10-17",
+      "newBuild": "1.60.1.70862"
+    },
+    {
+      "itemId": "252572",
+      "name": "Skirmisher's Mail Bracers",
+      "url": "https://bindonforever.com/item/252572",
+      "status": "match",
+      "checkedFields": [
+        "itemLevel",
+        "requiredCharacterLevel",
+        "slot",
+        "armorType",
+        "armor",
+        "binding",
+        "stats",
+        "resistances",
+        "effects"
+      ],
+      "differences": [],
+      "source": {
+        "name": "Skirmisher's Mail Bracers",
+        "itemLevel": 50,
+        "requiredCharacterLevel": 45,
+        "slot": "Wrist",
+        "armorType": "Mail",
+        "armor": 131,
+        "binding": "BoP",
+        "stats": {
+          "Strength": 9,
+          "Stamina": 6,
+          "Intellect": 5
+        },
+        "resistances": {},
+        "effects": [
+          "Equip: Increases damage and healing done by magical spells and effects by up to 8."
+        ]
+      },
+      "oldBuild": "2026-10-17",
+      "newBuild": "1.60.1.70862"
+    },
+    {
+      "itemId": "252573",
+      "name": "Mender's Mail Bracers",
+      "url": "https://bindonforever.com/item/252573",
+      "status": "match",
+      "checkedFields": [
+        "itemLevel",
+        "requiredCharacterLevel",
+        "slot",
+        "armorType",
+        "armor",
+        "binding",
+        "stats",
+        "resistances",
+        "effects"
+      ],
+      "differences": [],
+      "source": {
+        "name": "Mender's Mail Bracers",
+        "itemLevel": 50,
+        "requiredCharacterLevel": 45,
+        "slot": "Wrist",
+        "armorType": "Mail",
+        "armor": 131,
+        "binding": "BoP",
+        "stats": {
+          "Intellect": 7,
+          "Stamina": 5,
+          "Spirit": 6
+        },
+        "resistances": {},
+        "effects": [
+          "Equip: Increases healing done by up to 19 and damage done by up to 6 for all magical spells and effects."
+        ]
+      },
+      "oldBuild": "2026-10-17",
+      "newBuild": "1.60.1.70862"
+    },
+    {
+      "itemId": "252576",
+      "name": "Stalker's Mail Sabatons",
+      "url": "https://bindonforever.com/item/252576",
+      "status": "match",
+      "checkedFields": [
+        "itemLevel",
+        "requiredCharacterLevel",
+        "slot",
+        "armorType",
+        "armor",
+        "binding",
+        "stats",
+        "resistances"
+      ],
+      "differences": [],
+      "source": {
+        "name": "Stalker's Mail Sabatons",
+        "itemLevel": 52,
+        "requiredCharacterLevel": 47,
+        "slot": "Feet",
+        "armorType": "Mail",
+        "armor": 214,
+        "binding": "BoP",
+        "stats": {
+          "Agility": 13,
+          "Stamina": 11,
+          "Intellect": 9
+        },
+        "resistances": {},
+        "effects": []
+      },
+      "oldBuild": "2026-10-17",
+      "newBuild": "1.60.1.70862"
+    },
+    {
+      "itemId": "252577",
+      "name": "Skycaller's Mail Sabatons",
+      "url": "https://bindonforever.com/item/252577",
+      "status": "match",
+      "checkedFields": [
+        "itemLevel",
+        "requiredCharacterLevel",
+        "slot",
+        "armorType",
+        "armor",
+        "binding",
+        "stats",
+        "resistances",
+        "effects"
+      ],
+      "differences": [],
+      "source": {
+        "name": "Skycaller's Mail Sabatons",
+        "itemLevel": 52,
+        "requiredCharacterLevel": 47,
+        "slot": "Feet",
+        "armorType": "Mail",
+        "armor": 214,
+        "binding": "BoP",
+        "stats": {
+          "Intellect": 11,
+          "Stamina": 9
+        },
+        "resistances": {},
+        "effects": [
+          "Equip: Increases damage and healing done by magical spells and effects by up to 15."
+        ]
+      },
+      "oldBuild": "2026-10-17",
+      "newBuild": "1.60.1.70862"
+    },
+    {
+      "itemId": "252578",
+      "name": "Skirmisher's Mail Sabatons",
+      "url": "https://bindonforever.com/item/252578",
+      "status": "match",
+      "checkedFields": [
+        "itemLevel",
+        "requiredCharacterLevel",
+        "slot",
+        "armorType",
+        "armor",
+        "binding",
+        "stats",
+        "resistances",
+        "effects"
+      ],
+      "differences": [],
+      "source": {
+        "name": "Skirmisher's Mail Sabatons",
+        "itemLevel": 52,
+        "requiredCharacterLevel": 47,
+        "slot": "Feet",
+        "armorType": "Mail",
+        "armor": 214,
+        "binding": "BoP",
+        "stats": {
+          "Strength": 13,
+          "Stamina": 9
+        },
+        "resistances": {},
+        "effects": [
+          "Equip: Increases damage and healing done by magical spells and effects by up to 13."
+        ]
+      },
+      "oldBuild": "2026-10-17",
+      "newBuild": "1.60.1.70862"
+    },
+    {
+      "itemId": "252579",
+      "name": "Mender's Mail Sabatons",
+      "url": "https://bindonforever.com/item/252579",
+      "status": "match",
+      "checkedFields": [
+        "itemLevel",
+        "requiredCharacterLevel",
+        "slot",
+        "armorType",
+        "armor",
+        "binding",
+        "stats",
+        "resistances",
+        "effects"
+      ],
+      "differences": [],
+      "source": {
+        "name": "Mender's Mail Sabatons",
+        "itemLevel": 52,
+        "requiredCharacterLevel": 47,
+        "slot": "Feet",
+        "armorType": "Mail",
+        "armor": 214,
+        "binding": "BoP",
+        "stats": {
+          "Intellect": 11,
+          "Stamina": 9
+        },
+        "resistances": {},
+        "effects": [
+          "Equip: Increases healing done by up to 28 and damage done by up to 9 for all magical spells and effects."
+        ]
+      },
+      "oldBuild": "2026-10-17",
+      "newBuild": "1.60.1.70862"
+    },
+    {
+      "itemId": "252584",
+      "name": "Stalker's Mail Gauntlets",
+      "url": "https://bindonforever.com/item/252584",
+      "status": "match",
+      "checkedFields": [
+        "itemLevel",
+        "requiredCharacterLevel",
+        "slot",
+        "armorType",
+        "armor",
+        "binding",
+        "stats",
+        "resistances"
+      ],
+      "differences": [],
+      "source": {
+        "name": "Stalker's Mail Gauntlets",
+        "itemLevel": 55,
+        "requiredCharacterLevel": 50,
+        "slot": "Hands",
+        "armorType": "Mail",
+        "armor": 205,
+        "binding": "BoP",
+        "stats": {
+          "Agility": 14,
+          "Stamina": 9,
+          "Intellect": 9,
+          "Spirit": 6
+        },
+        "resistances": {},
+        "effects": []
+      },
+      "oldBuild": "2026-10-17",
+      "newBuild": "1.60.1.70862"
+    },
+    {
+      "itemId": "252585",
+      "name": "Skycaller's Mail Gauntlets",
+      "url": "https://bindonforever.com/item/252585",
+      "status": "match",
+      "checkedFields": [
+        "itemLevel",
+        "requiredCharacterLevel",
+        "slot",
+        "armorType",
+        "armor",
+        "binding",
+        "stats",
+        "resistances",
+        "effects"
+      ],
+      "differences": [],
+      "source": {
+        "name": "Skycaller's Mail Gauntlets",
+        "itemLevel": 55,
+        "requiredCharacterLevel": 50,
+        "slot": "Hands",
+        "armorType": "Mail",
+        "armor": 205,
+        "binding": "BoP",
+        "stats": {
+          "Intellect": 9,
+          "Stamina": 9,
+          "Spirit": 6
+        },
+        "resistances": {},
+        "effects": [
+          "Equip: Increases damage and healing done by magical spells and effects by up to 16."
+        ]
+      },
+      "oldBuild": "2026-10-17",
+      "newBuild": "1.60.1.70862"
+    },
+    {
+      "itemId": "252586",
+      "name": "Skirmisher's Mail Gauntlets",
+      "url": "https://bindonforever.com/item/252586",
+      "status": "match",
+      "checkedFields": [
+        "itemLevel",
+        "requiredCharacterLevel",
+        "slot",
+        "armorType",
+        "armor",
+        "binding",
+        "stats",
+        "resistances",
+        "effects"
+      ],
+      "differences": [],
+      "source": {
+        "name": "Skirmisher's Mail Gauntlets",
+        "itemLevel": 55,
+        "requiredCharacterLevel": 50,
+        "slot": "Hands",
+        "armorType": "Mail",
+        "armor": 205,
+        "binding": "BoP",
+        "stats": {
+          "Strength": 14,
+          "Stamina": 9,
+          "Intellect": 6
+        },
+        "resistances": {},
+        "effects": [
+          "Equip: Increases damage and healing done by magical spells and effects by up to 11."
+        ]
+      },
+      "oldBuild": "2026-10-17",
+      "newBuild": "1.60.1.70862"
+    },
+    {
+      "itemId": "252587",
+      "name": "Mender's Mail Gauntlets",
+      "url": "https://bindonforever.com/item/252587",
+      "status": "match",
+      "checkedFields": [
+        "itemLevel",
+        "requiredCharacterLevel",
+        "slot",
+        "armorType",
+        "armor",
+        "binding",
+        "stats",
+        "resistances",
+        "effects"
+      ],
+      "differences": [],
+      "source": {
+        "name": "Mender's Mail Gauntlets",
+        "itemLevel": 55,
+        "requiredCharacterLevel": 50,
+        "slot": "Hands",
+        "armorType": "Mail",
+        "armor": 205,
+        "binding": "BoP",
+        "stats": {
+          "Intellect": 9,
+          "Stamina": 6,
+          "Spirit": 9
+        },
+        "resistances": {},
+        "effects": [
+          "Equip: Increases healing done by up to 31 and damage done by up to 10 for all magical spells and effects."
+        ]
+      },
+      "oldBuild": "2026-10-17",
+      "newBuild": "1.60.1.70862"
+    },
+    {
+      "itemId": "252588",
+      "name": "Stalker's Mail Belt",
+      "url": "https://bindonforever.com/item/252588",
+      "status": "match",
+      "checkedFields": [
+        "itemLevel",
+        "requiredCharacterLevel",
+        "slot",
+        "armorType",
+        "armor",
+        "binding",
+        "stats",
+        "resistances"
+      ],
+      "differences": [],
+      "source": {
+        "name": "Stalker's Mail Belt",
+        "itemLevel": 55,
+        "requiredCharacterLevel": 50,
+        "slot": "Waist",
+        "armorType": "Mail",
+        "armor": 184,
+        "binding": "BoP",
+        "stats": {
+          "Agility": 14,
+          "Stamina": 12,
+          "Intellect": 10
+        },
+        "resistances": {},
+        "effects": []
+      },
+      "oldBuild": "2026-10-17",
+      "newBuild": "1.60.1.70862"
+    },
+    {
+      "itemId": "252589",
+      "name": "Skycaller's Mail Belt",
+      "url": "https://bindonforever.com/item/252589",
+      "status": "match",
+      "checkedFields": [
+        "itemLevel",
+        "requiredCharacterLevel",
+        "slot",
+        "armorType",
+        "armor",
+        "binding",
+        "stats",
+        "resistances",
+        "effects"
+      ],
+      "differences": [],
+      "source": {
+        "name": "Skycaller's Mail Belt",
+        "itemLevel": 55,
+        "requiredCharacterLevel": 50,
+        "slot": "Waist",
+        "armorType": "Mail",
+        "armor": 184,
+        "binding": "BoP",
+        "stats": {
+          "Intellect": 12,
+          "Stamina": 10
+        },
+        "resistances": {},
+        "effects": [
+          "Equip: Increases damage and healing done by magical spells and effects by up to 16."
+        ]
+      },
+      "oldBuild": "2026-10-17",
+      "newBuild": "1.60.1.70862"
+    },
+    {
+      "itemId": "252590",
+      "name": "Skirmisher's Mail Belt",
+      "url": "https://bindonforever.com/item/252590",
+      "status": "match",
+      "checkedFields": [
+        "itemLevel",
+        "requiredCharacterLevel",
+        "slot",
+        "armorType",
+        "armor",
+        "binding",
+        "stats",
+        "resistances",
+        "effects"
+      ],
+      "differences": [],
+      "source": {
+        "name": "Skirmisher's Mail Belt",
+        "itemLevel": 55,
+        "requiredCharacterLevel": 50,
+        "slot": "Waist",
+        "armorType": "Mail",
+        "armor": 184,
+        "binding": "BoP",
+        "stats": {
+          "Strength": 14,
+          "Stamina": 10
+        },
+        "resistances": {},
+        "effects": [
+          "Equip: Increases damage and healing done by magical spells and effects by up to 15."
+        ]
+      },
+      "oldBuild": "2026-10-17",
+      "newBuild": "1.60.1.70862"
+    },
+    {
+      "itemId": "252591",
+      "name": "Mender's Mail Belt",
+      "url": "https://bindonforever.com/item/252591",
+      "status": "match",
+      "checkedFields": [
+        "itemLevel",
+        "requiredCharacterLevel",
+        "slot",
+        "armorType",
+        "armor",
+        "binding",
+        "stats",
+        "resistances",
+        "effects"
+      ],
+      "differences": [],
+      "source": {
+        "name": "Mender's Mail Belt",
+        "itemLevel": 55,
+        "requiredCharacterLevel": 50,
+        "slot": "Waist",
+        "armorType": "Mail",
+        "armor": 184,
+        "binding": "BoP",
+        "stats": {
+          "Intellect": 12,
+          "Stamina": 10
+        },
+        "resistances": {},
+        "effects": [
+          "Equip: Increases healing done by up to 30 and damage done by up to 10 for all magical spells and effects."
+        ]
+      },
+      "oldBuild": "2026-10-17",
+      "newBuild": "1.60.1.70862"
+    },
+    {
+      "itemId": "275610",
+      "name": "Bileblister Claws",
+      "url": "https://bindonforever.com/item/275610",
+      "status": "match",
+      "checkedFields": [
+        "itemLevel",
+        "requiredCharacterLevel",
+        "slot",
+        "armorType",
+        "armor",
+        "binding",
+        "stats",
+        "resistances"
+      ],
+      "differences": [],
+      "source": {
+        "name": "Bileblister Claws",
+        "itemLevel": 58,
+        "requiredCharacterLevel": 53,
+        "slot": "Hands",
+        "armorType": "Leather",
+        "armor": 103,
+        "binding": "BoE",
+        "stats": {
+          "Intellect": 11,
+          "Stamina": 19
+        },
+        "resistances": {
+          "Nature": 5
+        },
+        "effects": []
+      },
+      "oldBuild": "2026-10-17",
+      "newBuild": "1.60.1.70862"
+    },
+    {
+      "itemId": "275611",
+      "name": "Bileblister Girdle",
+      "url": "https://bindonforever.com/item/275611",
+      "status": "match",
+      "checkedFields": [
+        "itemLevel",
+        "requiredCharacterLevel",
+        "slot",
+        "armorType",
+        "armor",
+        "binding",
+        "stats",
+        "resistances"
+      ],
+      "differences": [],
+      "source": {
+        "name": "Bileblister Girdle",
+        "itemLevel": 58,
+        "requiredCharacterLevel": 53,
+        "slot": "Waist",
+        "armorType": "Leather",
+        "armor": 93,
+        "binding": "BoE",
+        "stats": {
+          "Intellect": 14,
+          "Stamina": 17
+        },
+        "resistances": {
+          "Nature": 6
+        },
+        "effects": []
+      },
+      "oldBuild": "2026-10-17",
+      "newBuild": "1.60.1.70862"
+    },
+    {
+      "itemId": "275612",
+      "name": "Bileblister Boots",
+      "url": "https://bindonforever.com/item/275612",
+      "status": "match",
+      "checkedFields": [
+        "itemLevel",
+        "requiredCharacterLevel",
+        "slot",
+        "armorType",
+        "armor",
+        "binding",
+        "stats",
+        "resistances",
+        "effects"
+      ],
+      "differences": [],
+      "source": {
+        "name": "Bileblister Boots",
+        "itemLevel": 58,
+        "requiredCharacterLevel": 53,
+        "slot": "Feet",
+        "armorType": "Leather",
+        "armor": 114,
+        "binding": "BoE",
+        "stats": {
+          "Spirit": 8
+        },
+        "resistances": {
+          "Nature": 8
+        },
+        "effects": [
+          "Equip: Increases damage and healing done by magical spells and effects by up to 22."
+        ]
+      },
+      "oldBuild": "2026-10-17",
+      "newBuild": "1.60.1.70862"
+    },
+    {
+      "itemId": "275613",
+      "name": "Hivethrasher's Claws",
+      "url": "https://bindonforever.com/item/275613",
+      "status": "match",
+      "checkedFields": [
+        "itemLevel",
+        "requiredCharacterLevel",
+        "slot",
+        "armorType",
+        "armor",
+        "binding",
+        "stats",
+        "resistances"
+      ],
+      "differences": [],
+      "source": {
+        "name": "Hivethrasher's Claws",
+        "itemLevel": 58,
+        "requiredCharacterLevel": 53,
+        "slot": "Hands",
+        "armorType": "Leather",
+        "armor": 103,
+        "binding": "BoE",
+        "stats": {
+          "Agility": 7,
+          "Stamina": 20
+        },
+        "resistances": {
+          "Nature": 7
+        },
+        "effects": []
+      },
+      "oldBuild": "2026-10-17",
+      "newBuild": "1.60.1.70862"
+    },
+    {
+      "itemId": "275614",
+      "name": "Hivethrasher's Girdle",
+      "url": "https://bindonforever.com/item/275614",
+      "status": "match",
+      "checkedFields": [
+        "itemLevel",
+        "requiredCharacterLevel",
+        "slot",
+        "armorType",
+        "armor",
+        "binding",
+        "stats",
+        "resistances"
+      ],
+      "differences": [],
+      "source": {
+        "name": "Hivethrasher's Girdle",
+        "itemLevel": 58,
+        "requiredCharacterLevel": 53,
+        "slot": "Waist",
+        "armorType": "Leather",
+        "armor": 93,
+        "binding": "BoE",
+        "stats": {
+          "Agility": 7,
+          "Stamina": 21
+        },
+        "resistances": {
+          "Nature": 4
+        },
+        "effects": []
+      },
+      "oldBuild": "2026-10-17",
+      "newBuild": "1.60.1.70862"
+    },
+    {
+      "itemId": "275615",
+      "name": "Hivethrasher's Boots",
+      "url": "https://bindonforever.com/item/275615",
+      "status": "match",
+      "checkedFields": [
+        "itemLevel",
+        "requiredCharacterLevel",
+        "slot",
+        "armorType",
+        "armor",
+        "binding",
+        "stats",
+        "resistances"
+      ],
+      "differences": [],
+      "source": {
+        "name": "Hivethrasher's Boots",
+        "itemLevel": 58,
+        "requiredCharacterLevel": 53,
+        "slot": "Feet",
+        "armorType": "Leather",
+        "armor": 114,
+        "binding": "BoE",
+        "stats": {
+          "Agility": 19,
+          "Stamina": 10
+        },
+        "resistances": {
+          "Nature": 4
+        },
+        "effects": []
+      },
+      "oldBuild": "2026-10-17",
+      "newBuild": "1.60.1.70862"
+    },
+    {
+      "itemId": "275616",
+      "name": "Scalegut Clenchers",
+      "url": "https://bindonforever.com/item/275616",
+      "status": "match",
+      "checkedFields": [
+        "itemLevel",
+        "requiredCharacterLevel",
+        "slot",
+        "armorType",
+        "armor",
+        "binding",
+        "stats",
+        "resistances"
+      ],
+      "differences": [],
+      "source": {
+        "name": "Scalegut Clenchers",
+        "itemLevel": 58,
+        "requiredCharacterLevel": 53,
+        "slot": "Hands",
+        "armorType": "Mail",
+        "armor": 215,
+        "binding": "BoE",
+        "stats": {
+          "Agility": 11,
+          "Stamina": 19
+        },
+        "resistances": {
+          "Nature": 5
+        },
+        "effects": []
+      },
+      "oldBuild": "2026-10-17",
+      "newBuild": "1.60.1.70862"
+    },
+    {
+      "itemId": "275617",
+      "name": "Scalegut Belt",
+      "url": "https://bindonforever.com/item/275617",
+      "status": "match",
+      "checkedFields": [
+        "itemLevel",
+        "requiredCharacterLevel",
+        "slot",
+        "armorType",
+        "armor",
+        "binding",
+        "stats",
+        "resistances"
+      ],
+      "differences": [],
+      "source": {
+        "name": "Scalegut Belt",
+        "itemLevel": 58,
+        "requiredCharacterLevel": 53,
+        "slot": "Waist",
+        "armorType": "Mail",
+        "armor": 193,
+        "binding": "BoE",
+        "stats": {
+          "Agility": 14,
+          "Stamina": 17
+        },
+        "resistances": {
+          "Nature": 6
+        },
+        "effects": []
+      },
+      "oldBuild": "2026-10-17",
+      "newBuild": "1.60.1.70862"
+    },
+    {
+      "itemId": "275618",
+      "name": "Scalegut Treaders",
+      "url": "https://bindonforever.com/item/275618",
+      "status": "match",
+      "checkedFields": [
+        "itemLevel",
+        "requiredCharacterLevel",
+        "slot",
+        "armorType",
+        "armor",
+        "binding",
+        "stats",
+        "resistances",
+        "effects"
+      ],
+      "differences": [],
+      "source": {
+        "name": "Scalegut Treaders",
+        "itemLevel": 58,
+        "requiredCharacterLevel": 53,
+        "slot": "Feet",
+        "armorType": "Mail",
+        "armor": 236,
+        "binding": "BoE",
+        "stats": {
+          "Agility": 8
+        },
+        "resistances": {
+          "Nature": 8
+        },
+        "effects": [
+          "Equip: +38 Attack Power."
+        ]
+      },
+      "oldBuild": "2026-10-17",
+      "newBuild": "1.60.1.70862"
+    },
+    {
+      "itemId": "275619",
+      "name": "Broodwatcher's Clenchers",
+      "url": "https://bindonforever.com/item/275619",
+      "status": "match",
+      "checkedFields": [
+        "itemLevel",
+        "requiredCharacterLevel",
+        "slot",
+        "armorType",
+        "armor",
+        "binding",
+        "stats",
+        "resistances",
+        "effects"
+      ],
+      "differences": [],
+      "source": {
+        "name": "Broodwatcher's Clenchers",
+        "itemLevel": 58,
+        "requiredCharacterLevel": 53,
+        "slot": "Hands",
+        "armorType": "Mail",
+        "armor": 215,
+        "binding": "BoE",
+        "stats": {
+          "Spirit": 20
+        },
+        "resistances": {
+          "Nature": 7
+        },
+        "effects": [
+          "Equip: Increases healing done by up to 16 and damage done by up to 5 for all magical spells and effects."
+        ]
+      },
+      "oldBuild": "2026-10-17",
+      "newBuild": "1.60.1.70862"
+    },
+    {
+      "itemId": "275620",
+      "name": "Broodwatcher's Belt",
+      "url": "https://bindonforever.com/item/275620",
+      "status": "match",
+      "checkedFields": [
+        "itemLevel",
+        "requiredCharacterLevel",
+        "slot",
+        "armorType",
+        "armor",
+        "binding",
+        "stats",
+        "resistances",
+        "effects"
+      ],
+      "differences": [],
+      "source": {
+        "name": "Broodwatcher's Belt",
+        "itemLevel": 58,
+        "requiredCharacterLevel": 53,
+        "slot": "Waist",
+        "armorType": "Mail",
+        "armor": 193,
+        "binding": "BoE",
+        "stats": {
+          "Stamina": 21
+        },
+        "resistances": {
+          "Nature": 4
+        },
+        "effects": [
+          "Equip: Increases healing done by up to 16 and damage done by up to 5 for all magical spells and effects."
+        ]
+      },
+      "oldBuild": "2026-10-17",
+      "newBuild": "1.60.1.70862"
+    },
+    {
+      "itemId": "275621",
+      "name": "Broodwatcher's Treaders",
+      "url": "https://bindonforever.com/item/275621",
+      "status": "match",
+      "checkedFields": [
+        "itemLevel",
+        "requiredCharacterLevel",
+        "slot",
+        "armorType",
+        "armor",
+        "binding",
+        "stats",
+        "resistances",
+        "effects"
+      ],
+      "differences": [],
+      "source": {
+        "name": "Broodwatcher's Treaders",
+        "itemLevel": 58,
+        "requiredCharacterLevel": 53,
+        "slot": "Feet",
+        "armorType": "Mail",
+        "armor": 236,
+        "binding": "BoE",
+        "stats": {
+          "Stamina": 10
+        },
+        "resistances": {
+          "Nature": 4
+        },
+        "effects": [
+          "Equip: Increases healing done by up to 43 and damage done by up to 14 for all magical spells and effects."
+        ]
+      },
+      "oldBuild": "2026-10-17",
+      "newBuild": "1.60.1.70862"
+    },
+    {
+      "itemId": "279258",
+      "name": "Wild Leather Armor Kit",
+      "url": "https://bindonforever.com/item/279258",
+      "status": "difference",
+      "checkedFields": [
+        "itemLevel",
+        "requiredCharacterLevel",
+        "armorType",
+        "stats",
+        "resistances",
+        "effects"
+      ],
+      "differences": [
+        {
+          "field": "effects",
+          "ours": [
+            "Use: Permanently increase the Defense Skill by 4 and the Stamina value by 0 of an item worn on the chest, legs, hands, or feet. Only usable on items level 0 and above."
+          ],
+          "source": [
+            "Use: Permanently increase the Defense Skill by 0c1 and the Stamina value by 0c2 of an item worn on the chest, legs, hands, or feet. Only usable on items level 0cim and above. (1 Sec Cooldown)"
+          ]
+        }
+      ],
+      "source": {
+        "name": "Wild Leather Armor Kit",
+        "itemLevel": 65,
+        "requiredCharacterLevel": 60,
+        "slot": null,
+        "armorType": null,
+        "armor": null,
+        "binding": null,
+        "stats": {},
+        "resistances": {},
+        "effects": [
+          "Use: Permanently increase the Defense Skill by 0c1 and the Stamina value by 0c2 of an item worn on the chest, legs, hands, or feet. Only usable on items level 0cim and above. (1 Sec Cooldown)"
+        ]
+      },
+      "oldBuild": "2026-10-17",
+      "newBuild": "1.60.1.70862"
+    }
+  ]
+}

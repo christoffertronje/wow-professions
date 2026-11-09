@@ -7,8 +7,8 @@ items=json.loads(Path("data/item-stats.json").read_text(encoding="utf-8"))
 rare=[r for r in catalog["recipes"] if r["quality"]=="rare"]
 assert len(rare)==201
 lookup=items["byItemId"]
-assert len(lookup)==452
-assert items["meta"]["epicItems"]==38
+assert len(lookup)==512
+assert items["meta"]["epicItems"]==70 and items["meta"]["commonItems"]==28
 uncommon=[r for r in catalog["recipes"] if r["quality"]=="uncommon"]
 assert len(uncommon)==213
 for r in rare:
@@ -44,7 +44,7 @@ assert lookup["7348"].get("statReviewWarning"), "Fletcher's Gloves disputed Parr
 assert lookup["8197"].get("statReviewWarning"), "Nightscape Boots disputed stealth value must remain flagged"
 assert all(x["armorType"] is None for x in lookup.values() if x["slot"]=="Back" and x["quality"]=="uncommon"), "Cloaks should not be an equipment armor material"
 epic=[r for r in catalog["recipes"] if r["quality"]=="epic"]
-assert len(epic)==38
+assert len(epic)==70
 for r in epic:
     iid=str(r["itemId"])
     assert iid in lookup, f"Missing Epic gear item {r['name']}"
@@ -53,6 +53,19 @@ for r in epic:
     assert entry["name"]==r["name"] and entry["quality"]=="epic", f"Epic identity or quality mismatch: {r['name']}"
     assert isinstance(entry["itemLevel"],int) and entry["itemLevel"]>0
     assert entry["source"]["itemPage"], f"Epic item source missing: {r['name']}"
+# White/Common recipes include reagent items and other non-equipment.
+# Require their true item tooltip and exact identity, NOT a fake gear slot.
+common=[r for r in catalog["recipes"] if r["quality"]=="common"]
+assert len(common)==28
+for r in common:
+    iid=str(r["itemId"])
+    assert iid in lookup, f"Missing Common output tooltip {r['name']}"
+    entry=lookup[iid]
+    assert entry["itemId"]==int(iid) and entry["recipeSpellId"]==r["id"]
+    assert entry["name"]==r["name"] and entry["quality"]=="common"
+    assert isinstance(entry["itemLevel"],int) and entry["itemLevel"]>0
+    assert entry["source"].get("itemPage")
+assert all(entry["quality"]!="unknown" for entry in lookup.values())
 # Epic-specific tooltips and reviewed exceptions must survive reimports.
 assert "Restores 4 mana per 5 sec" in " ".join(lookup["20380"]["effects"]), "Dreamscale Breastplate lost its mana regeneration effect"
 assert lookup["252603"].get("statReviewWarning"), "Red Dragonscale Leggings Intellect discrepancy must remain flagged"
@@ -75,4 +88,4 @@ if audit_path.exists():
     assert audit["summary"]["source-unavailable"]==0
     assert audit["summary"]["disagreements"]==0, "Review second-source item stat conflicts before deployment"
     assert audit["summary"]["inconclusive"]==2, "Review changed spell-template coverage and update audit"
-print("PASS: 452 Epic, Rare and Uncommon item records joined by produced item ID, with attributes/effects and source provenance")
+print("PASS: 512 item tooltip records joined by produced item ID, with attributes/effects and source provenance")

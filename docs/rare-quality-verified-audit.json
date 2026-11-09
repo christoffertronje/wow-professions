@@ -1,0 +1,6805 @@
+{
+  "meta": {
+    "scope": "Rare-quality WoW Forever Leatherworking recipes; static beta/client references, not independently tested in-game",
+    "sourceCatalog": "data/leatherworking.json",
+    "materialReferences": [
+      "https://questing.wiki/wow-forever/professions/leatherworking/",
+      "https://wowforevertalent.com/professions/leatherworking/?acquisition=favor"
+    ],
+    "skillReferences": [
+      "https://questing.wiki/wow-forever/professions/leatherworking/",
+      "https://wowforevertalent.com/professions/leatherworking/?acquisition=favor"
+    ],
+    "warning": "Do not treat missing source learning requirements as mismatches, nor yellow/green/grey thresholds as minimum craft skills."
+  },
+  "summary": {
+    "totalRare": 201,
+    "materialsMatchingBothSources": 201,
+    "skillConfirmedByAtLeastOneCurrentCrosscheck": 182,
+    "skillsSupportedByPriorEvidenceOnly": 19,
+    "skillConflicts": 0,
+    "materialConflicts": 0
+  },
+  "entries": [
+    {
+      "spellId": "1255146",
+      "name": "Black Whelp Slippers",
+      "craftingSkillRequired": 35,
+      "materials": [
+        [
+          "Light Leather",
+          12
+        ],
+        [
+          "Cured Light Hide",
+          2
+        ],
+        [
+          "Black Whelp Scale",
+          2
+        ]
+      ],
+      "materialsVerifiedAgainst": [
+        "Questing.wiki",
+        "Forever Talent"
+      ],
+      "skillAudit": "confirmed-by-recipe-reference",
+      "priorSkillSource": "guildloot-forever-required-skill",
+      "priorSkillReference": "https://guildloot.de/en/beruf/forever/leatherworking/",
+      "questingSkill": 35,
+      "foreverTalentLearningRank": 35
+    },
+    {
+      "spellId": "1255145",
+      "name": "Dark Leather Boots",
+      "craftingSkillRequired": 35,
+      "materials": [
+        [
+          "Light Leather",
+          24
+        ],
+        [
+          "Cured Light Hide",
+          2
+        ],
+        [
+          "Gray Dye",
+          1
+        ]
+      ],
+      "materialsVerifiedAgainst": [
+        "Questing.wiki",
+        "Forever Talent"
+      ],
+      "skillAudit": "confirmed-by-recipe-reference",
+      "priorSkillSource": "guildloot-forever-required-skill",
+      "priorSkillReference": "https://guildloot.de/en/beruf/forever/leatherworking/",
+      "questingSkill": 35,
+      "foreverTalentLearningRank": 35
+    },
+    {
+      "spellId": "1255143",
+      "name": "Moonglow Boots",
+      "craftingSkillRequired": 35,
+      "materials": [
+        [
+          "Light Leather",
+          12
+        ],
+        [
+          "Cured Light Hide",
+          2
+        ],
+        [
+          "Small Lustrous Pearl",
+          1
+        ]
+      ],
+      "materialsVerifiedAgainst": [
+        "Questing.wiki",
+        "Forever Talent"
+      ],
+      "skillAudit": "confirmed-by-recipe-reference",
+      "priorSkillSource": "guildloot-forever-required-skill",
+      "priorSkillReference": "https://guildloot.de/en/beruf/forever/leatherworking/",
+      "questingSkill": 35,
+      "foreverTalentLearningRank": 35
+    },
+    {
+      "spellId": "1255144",
+      "name": "Murloc Scale Shoes",
+      "craftingSkillRequired": 35,
+      "materials": [
+        [
+          "Light Leather",
+          12
+        ],
+        [
+          "Cured Light Hide",
+          2
+        ],
+        [
+          "Slimy Murloc Scale",
+          4
+        ]
+      ],
+      "materialsVerifiedAgainst": [
+        "Questing.wiki",
+        "Forever Talent"
+      ],
+      "skillAudit": "confirmed-by-recipe-reference",
+      "priorSkillSource": "guildloot-forever-required-skill",
+      "priorSkillReference": "https://guildloot.de/en/beruf/forever/leatherworking/",
+      "questingSkill": 35,
+      "foreverTalentLearningRank": 35
+    },
+    {
+      "spellId": "1255142",
+      "name": "Brawler's Leather Belt",
+      "craftingSkillRequired": 60,
+      "materials": [
+        [
+          "Shadowgem",
+          1
+        ],
+        [
+          "Light Leather",
+          10
+        ],
+        [
+          "Coarse Thread",
+          1
+        ],
+        [
+          "Cured Light Hide",
+          2
+        ],
+        [
+          "Pristine Leather",
+          2
+        ]
+      ],
+      "materialsVerifiedAgainst": [
+        "Questing.wiki",
+        "Forever Talent"
+      ],
+      "skillAudit": "confirmed-by-recipe-reference",
+      "priorSkillSource": "guildloot-forever-required-skill",
+      "priorSkillReference": "https://guildloot.de/en/beruf/forever/leatherworking/",
+      "questingSkill": 60,
+      "foreverTalentLearningRank": 60
+    },
+    {
+      "spellId": "1255140",
+      "name": "Defender's Leather Belt",
+      "craftingSkillRequired": 60,
+      "materials": [
+        [
+          "Light Leather",
+          10
+        ],
+        [
+          "Coarse Thread",
+          1
+        ],
+        [
+          "Elixir of Minor Fortitude",
+          1
+        ],
+        [
+          "Cured Light Hide",
+          2
+        ],
+        [
+          "Pristine Leather",
+          2
+        ]
+      ],
+      "materialsVerifiedAgainst": [
+        "Questing.wiki",
+        "Forever Talent"
+      ],
+      "skillAudit": "confirmed-by-recipe-reference",
+      "priorSkillSource": "guildloot-forever-required-skill",
+      "priorSkillReference": "https://guildloot.de/en/beruf/forever/leatherworking/",
+      "questingSkill": 60,
+      "foreverTalentLearningRank": 60
+    },
+    {
+      "spellId": "1255138",
+      "name": "Stormrider's Leather Belt",
+      "craftingSkillRequired": 60,
+      "materials": [
+        [
+          "Light Leather",
+          10
+        ],
+        [
+          "Coarse Thread",
+          1
+        ],
+        [
+          "Cured Light Hide",
+          2
+        ],
+        [
+          "Cerulean Dye",
+          1
+        ],
+        [
+          "Pristine Leather",
+          2
+        ]
+      ],
+      "materialsVerifiedAgainst": [
+        "Questing.wiki",
+        "Forever Talent"
+      ],
+      "skillAudit": "confirmed-by-recipe-reference",
+      "priorSkillSource": "guildloot-forever-required-skill",
+      "priorSkillReference": "https://guildloot.de/en/beruf/forever/leatherworking/",
+      "questingSkill": 60,
+      "foreverTalentLearningRank": 60
+    },
+    {
+      "spellId": "1255139",
+      "name": "Totemic Leather Belt",
+      "craftingSkillRequired": 60,
+      "materials": [
+        [
+          "Light Leather",
+          10
+        ],
+        [
+          "Coarse Thread",
+          1
+        ],
+        [
+          "Cured Light Hide",
+          2
+        ],
+        [
+          "Sulfuric Acid",
+          1
+        ],
+        [
+          "Pristine Leather",
+          2
+        ]
+      ],
+      "materialsVerifiedAgainst": [
+        "Questing.wiki",
+        "Forever Talent"
+      ],
+      "skillAudit": "confirmed-by-recipe-reference",
+      "priorSkillSource": "guildloot-forever-required-skill",
+      "priorSkillReference": "https://guildloot.de/en/beruf/forever/leatherworking/",
+      "questingSkill": 60,
+      "foreverTalentLearningRank": 60
+    },
+    {
+      "spellId": "1255141",
+      "name": "Trapper's Leather Belt",
+      "craftingSkillRequired": 60,
+      "materials": [
+        [
+          "Light Leather",
+          10
+        ],
+        [
+          "Coarse Thread",
+          1
+        ],
+        [
+          "Cured Light Hide",
+          2
+        ],
+        [
+          "Deviate Scale",
+          1
+        ],
+        [
+          "Pristine Leather",
+          2
+        ]
+      ],
+      "materialsVerifiedAgainst": [
+        "Questing.wiki",
+        "Forever Talent"
+      ],
+      "skillAudit": "confirmed-by-recipe-reference",
+      "priorSkillSource": "guildloot-forever-required-skill",
+      "priorSkillReference": "https://guildloot.de/en/beruf/forever/leatherworking/",
+      "questingSkill": 60,
+      "foreverTalentLearningRank": 60
+    },
+    {
+      "spellId": "1255137",
+      "name": "Wisdom's Leather Belt",
+      "craftingSkillRequired": 60,
+      "materials": [
+        [
+          "Light Leather",
+          10
+        ],
+        [
+          "Coarse Thread",
+          1
+        ],
+        [
+          "Cured Light Hide",
+          2
+        ],
+        [
+          "Small Lustrous Pearl",
+          1
+        ],
+        [
+          "Pristine Leather",
+          2
+        ]
+      ],
+      "materialsVerifiedAgainst": [
+        "Questing.wiki",
+        "Forever Talent"
+      ],
+      "skillAudit": "confirmed-by-recipe-reference",
+      "priorSkillSource": "guildloot-forever-required-skill",
+      "priorSkillReference": "https://guildloot.de/en/beruf/forever/leatherworking/",
+      "questingSkill": 60,
+      "foreverTalentLearningRank": 60
+    },
+    {
+      "spellId": "1255136",
+      "name": "Brawler's Leather Armor",
+      "craftingSkillRequired": 75,
+      "materials": [
+        [
+          "Shadowgem",
+          1
+        ],
+        [
+          "Light Leather",
+          16
+        ],
+        [
+          "Cured Light Hide",
+          2
+        ]
+      ],
+      "materialsVerifiedAgainst": [
+        "Questing.wiki",
+        "Forever Talent"
+      ],
+      "skillAudit": "confirmed-by-recipe-reference",
+      "priorSkillSource": "pattern-item-and-wclbox-minimum",
+      "priorSkillReference": "https://wowforevertalent.com/professions/leatherworking/",
+      "questingSkill": null,
+      "foreverTalentLearningRank": 75
+    },
+    {
+      "spellId": "1255130",
+      "name": "Brawler's Leather Gloves",
+      "craftingSkillRequired": 75,
+      "materials": [
+        [
+          "Shadowgem",
+          2
+        ],
+        [
+          "Light Leather",
+          12
+        ],
+        [
+          "Fine Thread",
+          1
+        ],
+        [
+          "Cured Light Hide",
+          3
+        ],
+        [
+          "Pristine Leather",
+          2
+        ]
+      ],
+      "materialsVerifiedAgainst": [
+        "Questing.wiki",
+        "Forever Talent"
+      ],
+      "skillAudit": "confirmed-by-recipe-reference",
+      "priorSkillSource": "guildloot-forever-required-skill",
+      "priorSkillReference": "https://guildloot.de/en/beruf/forever/leatherworking/",
+      "questingSkill": 75,
+      "foreverTalentLearningRank": 75
+    },
+    {
+      "spellId": "1255134",
+      "name": "Defender's Leather Armor",
+      "craftingSkillRequired": 75,
+      "materials": [
+        [
+          "Light Leather",
+          16
+        ],
+        [
+          "Elixir of Minor Fortitude",
+          1
+        ],
+        [
+          "Cured Light Hide",
+          2
+        ]
+      ],
+      "materialsVerifiedAgainst": [
+        "Questing.wiki",
+        "Forever Talent"
+      ],
+      "skillAudit": "confirmed-by-recipe-reference",
+      "priorSkillSource": "pattern-item-and-wclbox-minimum",
+      "priorSkillReference": "https://wowforevertalent.com/professions/leatherworking/",
+      "questingSkill": null,
+      "foreverTalentLearningRank": 75
+    },
+    {
+      "spellId": "1255128",
+      "name": "Defender's Leather Gloves",
+      "craftingSkillRequired": 75,
+      "materials": [
+        [
+          "Light Leather",
+          12
+        ],
+        [
+          "Fine Thread",
+          1
+        ],
+        [
+          "Elixir of Minor Fortitude",
+          2
+        ],
+        [
+          "Cured Light Hide",
+          3
+        ],
+        [
+          "Pristine Leather",
+          2
+        ]
+      ],
+      "materialsVerifiedAgainst": [
+        "Questing.wiki",
+        "Forever Talent"
+      ],
+      "skillAudit": "confirmed-by-recipe-reference",
+      "priorSkillSource": "guildloot-forever-required-skill",
+      "priorSkillReference": "https://guildloot.de/en/beruf/forever/leatherworking/",
+      "questingSkill": 75,
+      "foreverTalentLearningRank": 75
+    },
+    {
+      "spellId": "1255132",
+      "name": "Stormrider's Leather Armor",
+      "craftingSkillRequired": 75,
+      "materials": [
+        [
+          "Light Leather",
+          16
+        ],
+        [
+          "Cured Light Hide",
+          2
+        ],
+        [
+          "Cerulean Dye",
+          1
+        ]
+      ],
+      "materialsVerifiedAgainst": [
+        "Questing.wiki",
+        "Forever Talent"
+      ],
+      "skillAudit": "confirmed-by-recipe-reference",
+      "priorSkillSource": "pattern-item-and-wclbox-minimum",
+      "priorSkillReference": "https://wowforevertalent.com/professions/leatherworking/",
+      "questingSkill": null,
+      "foreverTalentLearningRank": 75
+    },
+    {
+      "spellId": "1255126",
+      "name": "Stormrider's Leather Gloves",
+      "craftingSkillRequired": 75,
+      "materials": [
+        [
+          "Light Leather",
+          12
+        ],
+        [
+          "Fine Thread",
+          1
+        ],
+        [
+          "Cured Light Hide",
+          3
+        ],
+        [
+          "Cerulean Dye",
+          2
+        ],
+        [
+          "Pristine Leather",
+          2
+        ]
+      ],
+      "materialsVerifiedAgainst": [
+        "Questing.wiki",
+        "Forever Talent"
+      ],
+      "skillAudit": "confirmed-by-recipe-reference",
+      "priorSkillSource": "guildloot-forever-required-skill",
+      "priorSkillReference": "https://guildloot.de/en/beruf/forever/leatherworking/",
+      "questingSkill": 75,
+      "foreverTalentLearningRank": 75
+    },
+    {
+      "spellId": "1255133",
+      "name": "Totemic Leather Armor",
+      "craftingSkillRequired": 75,
+      "materials": [
+        [
+          "Light Leather",
+          16
+        ],
+        [
+          "Cured Light Hide",
+          2
+        ],
+        [
+          "Sulfuric Acid",
+          1
+        ]
+      ],
+      "materialsVerifiedAgainst": [
+        "Questing.wiki",
+        "Forever Talent"
+      ],
+      "skillAudit": "confirmed-by-recipe-reference",
+      "priorSkillSource": "pattern-item-and-wclbox-minimum",
+      "priorSkillReference": "https://wowforevertalent.com/professions/leatherworking/",
+      "questingSkill": null,
+      "foreverTalentLearningRank": 75
+    },
+    {
+      "spellId": "1255127",
+      "name": "Totemic Leather Gloves",
+      "craftingSkillRequired": 75,
+      "materials": [
+        [
+          "Light Leather",
+          12
+        ],
+        [
+          "Fine Thread",
+          1
+        ],
+        [
+          "Cured Light Hide",
+          3
+        ],
+        [
+          "Sulfuric Acid",
+          2
+        ],
+        [
+          "Pristine Leather",
+          2
+        ]
+      ],
+      "materialsVerifiedAgainst": [
+        "Questing.wiki",
+        "Forever Talent"
+      ],
+      "skillAudit": "confirmed-by-recipe-reference",
+      "priorSkillSource": "guildloot-forever-required-skill",
+      "priorSkillReference": "https://guildloot.de/en/beruf/forever/leatherworking/",
+      "questingSkill": 75,
+      "foreverTalentLearningRank": 75
+    },
+    {
+      "spellId": "1255135",
+      "name": "Trapper's Leather Armor",
+      "craftingSkillRequired": 75,
+      "materials": [
+        [
+          "Light Leather",
+          16
+        ],
+        [
+          "Cured Light Hide",
+          2
+        ],
+        [
+          "Deviate Scale",
+          1
+        ]
+      ],
+      "materialsVerifiedAgainst": [
+        "Questing.wiki",
+        "Forever Talent"
+      ],
+      "skillAudit": "confirmed-by-recipe-reference",
+      "priorSkillSource": "pattern-item-and-wclbox-minimum",
+      "priorSkillReference": "https://wowforevertalent.com/professions/leatherworking/",
+      "questingSkill": null,
+      "foreverTalentLearningRank": 75
+    },
+    {
+      "spellId": "1255129",
+      "name": "Trapper's Leather Gloves",
+      "craftingSkillRequired": 75,
+      "materials": [
+        [
+          "Light Leather",
+          12
+        ],
+        [
+          "Fine Thread",
+          1
+        ],
+        [
+          "Cured Light Hide",
+          3
+        ],
+        [
+          "Deviate Scale",
+          2
+        ],
+        [
+          "Pristine Leather",
+          2
+        ]
+      ],
+      "materialsVerifiedAgainst": [
+        "Questing.wiki",
+        "Forever Talent"
+      ],
+      "skillAudit": "confirmed-by-recipe-reference",
+      "priorSkillSource": "guildloot-forever-required-skill",
+      "priorSkillReference": "https://guildloot.de/en/beruf/forever/leatherworking/",
+      "questingSkill": 75,
+      "foreverTalentLearningRank": 75
+    },
+    {
+      "spellId": "1255131",
+      "name": "Wisdom's Leather Armor",
+      "craftingSkillRequired": 75,
+      "materials": [
+        [
+          "Light Leather",
+          16
+        ],
+        [
+          "Cured Light Hide",
+          2
+        ],
+        [
+          "Small Lustrous Pearl",
+          1
+        ]
+      ],
+      "materialsVerifiedAgainst": [
+        "Questing.wiki",
+        "Forever Talent"
+      ],
+      "skillAudit": "confirmed-by-recipe-reference",
+      "priorSkillSource": "pattern-item-and-wclbox-minimum",
+      "priorSkillReference": "https://wowforevertalent.com/professions/leatherworking/",
+      "questingSkill": null,
+      "foreverTalentLearningRank": 75
+    },
+    {
+      "spellId": "1255125",
+      "name": "Wisdom's Leather Gloves",
+      "craftingSkillRequired": 75,
+      "materials": [
+        [
+          "Light Leather",
+          12
+        ],
+        [
+          "Fine Thread",
+          1
+        ],
+        [
+          "Cured Light Hide",
+          3
+        ],
+        [
+          "Small Lustrous Pearl",
+          2
+        ],
+        [
+          "Pristine Leather",
+          2
+        ]
+      ],
+      "materialsVerifiedAgainst": [
+        "Questing.wiki",
+        "Forever Talent"
+      ],
+      "skillAudit": "confirmed-by-recipe-reference",
+      "priorSkillSource": "guildloot-forever-required-skill",
+      "priorSkillReference": "https://guildloot.de/en/beruf/forever/leatherworking/",
+      "questingSkill": 75,
+      "foreverTalentLearningRank": 75
+    },
+    {
+      "spellId": "1255121",
+      "name": "Brawler's Leather Boots",
+      "craftingSkillRequired": 85,
+      "materials": [
+        [
+          "Shadowgem",
+          3
+        ],
+        [
+          "Light Leather",
+          14
+        ],
+        [
+          "Fine Thread",
+          1
+        ],
+        [
+          "Cured Light Hide",
+          4
+        ],
+        [
+          "Pristine Leather",
+          3
+        ]
+      ],
+      "materialsVerifiedAgainst": [
+        "Questing.wiki",
+        "Forever Talent"
+      ],
+      "skillAudit": "confirmed-by-recipe-reference",
+      "priorSkillSource": "guildloot-forever-required-skill",
+      "priorSkillReference": "https://guildloot.de/en/beruf/forever/leatherworking/",
+      "questingSkill": 85,
+      "foreverTalentLearningRank": 85
+    },
+    {
+      "spellId": "1255119",
+      "name": "Defender's Leather Boots",
+      "craftingSkillRequired": 85,
+      "materials": [
+        [
+          "Light Leather",
+          14
+        ],
+        [
+          "Fine Thread",
+          1
+        ],
+        [
+          "Elixir of Minor Fortitude",
+          3
+        ],
+        [
+          "Cured Light Hide",
+          4
+        ],
+        [
+          "Pristine Leather",
+          3
+        ]
+      ],
+      "materialsVerifiedAgainst": [
+        "Questing.wiki",
+        "Forever Talent"
+      ],
+      "skillAudit": "confirmed-by-recipe-reference",
+      "priorSkillSource": "guildloot-forever-required-skill",
+      "priorSkillReference": "https://guildloot.de/en/beruf/forever/leatherworking/",
+      "questingSkill": 85,
+      "foreverTalentLearningRank": 85
+    },
+    {
+      "spellId": "1255117",
+      "name": "Stormrider's Leather Boots",
+      "craftingSkillRequired": 85,
+      "materials": [
+        [
+          "Light Leather",
+          14
+        ],
+        [
+          "Fine Thread",
+          1
+        ],
+        [
+          "Cured Light Hide",
+          4
+        ],
+        [
+          "Cerulean Dye",
+          3
+        ],
+        [
+          "Pristine Leather",
+          3
+        ]
+      ],
+      "materialsVerifiedAgainst": [
+        "Questing.wiki",
+        "Forever Talent"
+      ],
+      "skillAudit": "confirmed-by-recipe-reference",
+      "priorSkillSource": "guildloot-forever-required-skill",
+      "priorSkillReference": "https://guildloot.de/en/beruf/forever/leatherworking/",
+      "questingSkill": 85,
+      "foreverTalentLearningRank": 85
+    },
+    {
+      "spellId": "1255118",
+      "name": "Totemic Leather Boots",
+      "craftingSkillRequired": 85,
+      "materials": [
+        [
+          "Light Leather",
+          14
+        ],
+        [
+          "Fine Thread",
+          1
+        ],
+        [
+          "Cured Light Hide",
+          4
+        ],
+        [
+          "Sulfuric Acid",
+          3
+        ],
+        [
+          "Pristine Leather",
+          3
+        ]
+      ],
+      "materialsVerifiedAgainst": [
+        "Questing.wiki",
+        "Forever Talent"
+      ],
+      "skillAudit": "confirmed-by-recipe-reference",
+      "priorSkillSource": "guildloot-forever-required-skill",
+      "priorSkillReference": "https://guildloot.de/en/beruf/forever/leatherworking/",
+      "questingSkill": 85,
+      "foreverTalentLearningRank": 85
+    },
+    {
+      "spellId": "1255120",
+      "name": "Trapper's Leather Boots",
+      "craftingSkillRequired": 85,
+      "materials": [
+        [
+          "Light Leather",
+          14
+        ],
+        [
+          "Fine Thread",
+          1
+        ],
+        [
+          "Cured Light Hide",
+          4
+        ],
+        [
+          "Deviate Scale",
+          3
+        ],
+        [
+          "Pristine Leather",
+          3
+        ]
+      ],
+      "materialsVerifiedAgainst": [
+        "Questing.wiki",
+        "Forever Talent"
+      ],
+      "skillAudit": "confirmed-by-recipe-reference",
+      "priorSkillSource": "guildloot-forever-required-skill",
+      "priorSkillReference": "https://guildloot.de/en/beruf/forever/leatherworking/",
+      "questingSkill": 85,
+      "foreverTalentLearningRank": 85
+    },
+    {
+      "spellId": "1255116",
+      "name": "Wisdom's Leather Boots",
+      "craftingSkillRequired": 85,
+      "materials": [
+        [
+          "Light Leather",
+          14
+        ],
+        [
+          "Fine Thread",
+          1
+        ],
+        [
+          "Cured Light Hide",
+          4
+        ],
+        [
+          "Small Lustrous Pearl",
+          3
+        ],
+        [
+          "Pristine Leather",
+          3
+        ]
+      ],
+      "materialsVerifiedAgainst": [
+        "Questing.wiki",
+        "Forever Talent"
+      ],
+      "skillAudit": "confirmed-by-recipe-reference",
+      "priorSkillSource": "guildloot-forever-required-skill",
+      "priorSkillReference": "https://guildloot.de/en/beruf/forever/leatherworking/",
+      "questingSkill": 85,
+      "foreverTalentLearningRank": 85
+    },
+    {
+      "spellId": "7955",
+      "name": "Deviate Scale Belt",
+      "craftingSkillRequired": 90,
+      "materials": [
+        [
+          "Fine Thread",
+          2
+        ],
+        [
+          "Deviate Scale",
+          10
+        ],
+        [
+          "Perfect Deviate Scale",
+          10
+        ]
+      ],
+      "materialsVerifiedAgainst": [
+        "Questing.wiki",
+        "Forever Talent"
+      ],
+      "skillAudit": "confirmed-by-recipe-reference",
+      "priorSkillSource": "guildloot-forever-required-skill",
+      "priorSkillReference": "https://guildloot.de/en/beruf/forever/leatherworking/",
+      "questingSkill": 90,
+      "foreverTalentLearningRank": 90
+    },
+    {
+      "spellId": "1255109",
+      "name": "Brawler's Leather Hood",
+      "craftingSkillRequired": 100,
+      "materials": [
+        [
+          "Shadowgem",
+          4
+        ],
+        [
+          "Medium Leather",
+          8
+        ],
+        [
+          "Fine Thread",
+          2
+        ],
+        [
+          "Cured Medium Hide",
+          2
+        ],
+        [
+          "Pristine Leather",
+          4
+        ]
+      ],
+      "materialsVerifiedAgainst": [
+        "Questing.wiki",
+        "Forever Talent"
+      ],
+      "skillAudit": "confirmed-by-recipe-reference",
+      "priorSkillSource": "guildloot-forever-required-skill",
+      "priorSkillReference": "https://guildloot.de/en/beruf/forever/leatherworking/",
+      "questingSkill": 100,
+      "foreverTalentLearningRank": 100
+    },
+    {
+      "spellId": "1255115",
+      "name": "Brawler's Leather Pants",
+      "craftingSkillRequired": 100,
+      "materials": [
+        [
+          "Shadowgem",
+          2
+        ],
+        [
+          "Medium Leather",
+          8
+        ],
+        [
+          "Cured Light Hide",
+          4
+        ]
+      ],
+      "materialsVerifiedAgainst": [
+        "Questing.wiki",
+        "Forever Talent"
+      ],
+      "skillAudit": "confirmed-by-recipe-reference",
+      "priorSkillSource": "pattern-item-and-wclbox-minimum",
+      "priorSkillReference": "https://wowforevertalent.com/professions/leatherworking/",
+      "questingSkill": null,
+      "foreverTalentLearningRank": 100
+    },
+    {
+      "spellId": "1255107",
+      "name": "Defender's Leather Hood",
+      "craftingSkillRequired": 100,
+      "materials": [
+        [
+          "Medium Leather",
+          8
+        ],
+        [
+          "Fine Thread",
+          2
+        ],
+        [
+          "Elixir of Minor Fortitude",
+          4
+        ],
+        [
+          "Cured Medium Hide",
+          2
+        ],
+        [
+          "Pristine Leather",
+          4
+        ]
+      ],
+      "materialsVerifiedAgainst": [
+        "Questing.wiki",
+        "Forever Talent"
+      ],
+      "skillAudit": "confirmed-by-recipe-reference",
+      "priorSkillSource": "guildloot-forever-required-skill",
+      "priorSkillReference": "https://guildloot.de/en/beruf/forever/leatherworking/",
+      "questingSkill": 100,
+      "foreverTalentLearningRank": 100
+    },
+    {
+      "spellId": "1255113",
+      "name": "Defender's Leather Pants",
+      "craftingSkillRequired": 100,
+      "materials": [
+        [
+          "Medium Leather",
+          8
+        ],
+        [
+          "Elixir of Minor Fortitude",
+          2
+        ],
+        [
+          "Cured Light Hide",
+          4
+        ]
+      ],
+      "materialsVerifiedAgainst": [
+        "Questing.wiki",
+        "Forever Talent"
+      ],
+      "skillAudit": "confirmed-by-recipe-reference",
+      "priorSkillSource": "pattern-item-and-wclbox-minimum",
+      "priorSkillReference": "https://wowforevertalent.com/professions/leatherworking/",
+      "questingSkill": null,
+      "foreverTalentLearningRank": 100
+    },
+    {
+      "spellId": "1255105",
+      "name": "Stormrider's Leather Hood",
+      "craftingSkillRequired": 100,
+      "materials": [
+        [
+          "Medium Leather",
+          8
+        ],
+        [
+          "Fine Thread",
+          2
+        ],
+        [
+          "Cured Medium Hide",
+          2
+        ],
+        [
+          "Cerulean Dye",
+          4
+        ],
+        [
+          "Pristine Leather",
+          4
+        ]
+      ],
+      "materialsVerifiedAgainst": [
+        "Questing.wiki",
+        "Forever Talent"
+      ],
+      "skillAudit": "confirmed-by-recipe-reference",
+      "priorSkillSource": "guildloot-forever-required-skill",
+      "priorSkillReference": "https://guildloot.de/en/beruf/forever/leatherworking/",
+      "questingSkill": 100,
+      "foreverTalentLearningRank": 100
+    },
+    {
+      "spellId": "1255111",
+      "name": "Stormrider's Leather Pants",
+      "craftingSkillRequired": 100,
+      "materials": [
+        [
+          "Medium Leather",
+          8
+        ],
+        [
+          "Cured Light Hide",
+          4
+        ],
+        [
+          "Cerulean Dye",
+          2
+        ]
+      ],
+      "materialsVerifiedAgainst": [
+        "Questing.wiki",
+        "Forever Talent"
+      ],
+      "skillAudit": "confirmed-by-recipe-reference",
+      "priorSkillSource": "pattern-item-and-wclbox-minimum",
+      "priorSkillReference": "https://wowforevertalent.com/professions/leatherworking/",
+      "questingSkill": null,
+      "foreverTalentLearningRank": 100
+    },
+    {
+      "spellId": "1255106",
+      "name": "Totemic Leather Hood",
+      "craftingSkillRequired": 100,
+      "materials": [
+        [
+          "Medium Leather",
+          8
+        ],
+        [
+          "Fine Thread",
+          2
+        ],
+        [
+          "Cured Medium Hide",
+          2
+        ],
+        [
+          "Sulfuric Acid",
+          4
+        ],
+        [
+          "Pristine Leather",
+          4
+        ]
+      ],
+      "materialsVerifiedAgainst": [
+        "Questing.wiki",
+        "Forever Talent"
+      ],
+      "skillAudit": "confirmed-by-recipe-reference",
+      "priorSkillSource": "guildloot-forever-required-skill",
+      "priorSkillReference": "https://guildloot.de/en/beruf/forever/leatherworking/",
+      "questingSkill": 100,
+      "foreverTalentLearningRank": 100
+    },
+    {
+      "spellId": "1255112",
+      "name": "Totemic Leather Pants",
+      "craftingSkillRequired": 100,
+      "materials": [
+        [
+          "Medium Leather",
+          8
+        ],
+        [
+          "Cured Light Hide",
+          4
+        ],
+        [
+          "Sulfuric Acid",
+          2
+        ]
+      ],
+      "materialsVerifiedAgainst": [
+        "Questing.wiki",
+        "Forever Talent"
+      ],
+      "skillAudit": "confirmed-by-recipe-reference",
+      "priorSkillSource": "pattern-item-and-wclbox-minimum",
+      "priorSkillReference": "https://wowforevertalent.com/professions/leatherworking/",
+      "questingSkill": null,
+      "foreverTalentLearningRank": 100
+    },
+    {
+      "spellId": "1255108",
+      "name": "Trapper's Leather Hood",
+      "craftingSkillRequired": 100,
+      "materials": [
+        [
+          "Medium Leather",
+          8
+        ],
+        [
+          "Fine Thread",
+          2
+        ],
+        [
+          "Cured Medium Hide",
+          2
+        ],
+        [
+          "Deviate Scale",
+          4
+        ],
+        [
+          "Pristine Leather",
+          4
+        ]
+      ],
+      "materialsVerifiedAgainst": [
+        "Questing.wiki",
+        "Forever Talent"
+      ],
+      "skillAudit": "confirmed-by-recipe-reference",
+      "priorSkillSource": "guildloot-forever-required-skill",
+      "priorSkillReference": "https://guildloot.de/en/beruf/forever/leatherworking/",
+      "questingSkill": 100,
+      "foreverTalentLearningRank": 100
+    },
+    {
+      "spellId": "1255114",
+      "name": "Trapper's Leather Pants",
+      "craftingSkillRequired": 100,
+      "materials": [
+        [
+          "Medium Leather",
+          8
+        ],
+        [
+          "Cured Light Hide",
+          4
+        ],
+        [
+          "Deviate Scale",
+          2
+        ]
+      ],
+      "materialsVerifiedAgainst": [
+        "Questing.wiki",
+        "Forever Talent"
+      ],
+      "skillAudit": "confirmed-by-recipe-reference",
+      "priorSkillSource": "pattern-item-and-wclbox-minimum",
+      "priorSkillReference": "https://wowforevertalent.com/professions/leatherworking/",
+      "questingSkill": null,
+      "foreverTalentLearningRank": 100
+    },
+    {
+      "spellId": "1255104",
+      "name": "Wisdom's Leather Hood",
+      "craftingSkillRequired": 100,
+      "materials": [
+        [
+          "Medium Leather",
+          8
+        ],
+        [
+          "Fine Thread",
+          2
+        ],
+        [
+          "Cured Medium Hide",
+          2
+        ],
+        [
+          "Small Lustrous Pearl",
+          4
+        ],
+        [
+          "Pristine Leather",
+          4
+        ]
+      ],
+      "materialsVerifiedAgainst": [
+        "Questing.wiki",
+        "Forever Talent"
+      ],
+      "skillAudit": "confirmed-by-recipe-reference",
+      "priorSkillSource": "guildloot-forever-required-skill",
+      "priorSkillReference": "https://guildloot.de/en/beruf/forever/leatherworking/",
+      "questingSkill": 100,
+      "foreverTalentLearningRank": 100
+    },
+    {
+      "spellId": "1255110",
+      "name": "Wisdom's Leather Pants",
+      "craftingSkillRequired": 100,
+      "materials": [
+        [
+          "Medium Leather",
+          8
+        ],
+        [
+          "Cured Light Hide",
+          4
+        ],
+        [
+          "Small Lustrous Pearl",
+          2
+        ]
+      ],
+      "materialsVerifiedAgainst": [
+        "Questing.wiki",
+        "Forever Talent"
+      ],
+      "skillAudit": "confirmed-by-recipe-reference",
+      "priorSkillSource": "pattern-item-and-wclbox-minimum",
+      "priorSkillReference": "https://wowforevertalent.com/professions/leatherworking/",
+      "questingSkill": null,
+      "foreverTalentLearningRank": 100
+    },
+    {
+      "spellId": "1255102",
+      "name": "Brawler's Leather Tunic",
+      "craftingSkillRequired": 110,
+      "materials": [
+        [
+          "Shadowgem",
+          6
+        ],
+        [
+          "Medium Leather",
+          10
+        ],
+        [
+          "Fine Thread",
+          3
+        ],
+        [
+          "Cured Medium Hide",
+          3
+        ],
+        [
+          "Pristine Leather",
+          6
+        ]
+      ],
+      "materialsVerifiedAgainst": [
+        "Questing.wiki",
+        "Forever Talent"
+      ],
+      "skillAudit": "confirmed-by-recipe-reference",
+      "priorSkillSource": "guildloot-forever-required-skill",
+      "priorSkillReference": "https://guildloot.de/en/beruf/forever/leatherworking/",
+      "questingSkill": 110,
+      "foreverTalentLearningRank": 110
+    },
+    {
+      "spellId": "1255100",
+      "name": "Defender's Leather Tunic",
+      "craftingSkillRequired": 110,
+      "materials": [
+        [
+          "Medium Leather",
+          10
+        ],
+        [
+          "Fine Thread",
+          3
+        ],
+        [
+          "Elixir of Minor Fortitude",
+          6
+        ],
+        [
+          "Cured Medium Hide",
+          3
+        ],
+        [
+          "Pristine Leather",
+          6
+        ]
+      ],
+      "materialsVerifiedAgainst": [
+        "Questing.wiki",
+        "Forever Talent"
+      ],
+      "skillAudit": "confirmed-by-recipe-reference",
+      "priorSkillSource": "guildloot-forever-required-skill",
+      "priorSkillReference": "https://guildloot.de/en/beruf/forever/leatherworking/",
+      "questingSkill": 110,
+      "foreverTalentLearningRank": 110
+    },
+    {
+      "spellId": "1255098",
+      "name": "Stormrider's Leather Tunic",
+      "craftingSkillRequired": 110,
+      "materials": [
+        [
+          "Medium Leather",
+          10
+        ],
+        [
+          "Fine Thread",
+          3
+        ],
+        [
+          "Cured Medium Hide",
+          3
+        ],
+        [
+          "Cerulean Dye",
+          6
+        ],
+        [
+          "Pristine Leather",
+          6
+        ]
+      ],
+      "materialsVerifiedAgainst": [
+        "Questing.wiki",
+        "Forever Talent"
+      ],
+      "skillAudit": "confirmed-by-recipe-reference",
+      "priorSkillSource": "guildloot-forever-required-skill",
+      "priorSkillReference": "https://guildloot.de/en/beruf/forever/leatherworking/",
+      "questingSkill": 110,
+      "foreverTalentLearningRank": 110
+    },
+    {
+      "spellId": "1255099",
+      "name": "Totemic Leather Tunic",
+      "craftingSkillRequired": 110,
+      "materials": [
+        [
+          "Medium Leather",
+          10
+        ],
+        [
+          "Fine Thread",
+          3
+        ],
+        [
+          "Cured Medium Hide",
+          3
+        ],
+        [
+          "Sulfuric Acid",
+          6
+        ],
+        [
+          "Pristine Leather",
+          6
+        ]
+      ],
+      "materialsVerifiedAgainst": [
+        "Questing.wiki",
+        "Forever Talent"
+      ],
+      "skillAudit": "confirmed-by-recipe-reference",
+      "priorSkillSource": "guildloot-forever-required-skill",
+      "priorSkillReference": "https://guildloot.de/en/beruf/forever/leatherworking/",
+      "questingSkill": 110,
+      "foreverTalentLearningRank": 110
+    },
+    {
+      "spellId": "3770",
+      "name": "Toughened Leather Gloves",
+      "craftingSkillRequired": 110,
+      "materials": [
+        [
+          "Medium Leather",
+          4
+        ],
+        [
+          "Fine Thread",
+          2
+        ],
+        [
+          "Spider's Silk",
+          2
+        ],
+        [
+          "Elixir of Lesser Defense",
+          2
+        ],
+        [
+          "Cured Medium Hide",
+          2
+        ]
+      ],
+      "materialsVerifiedAgainst": [
+        "Questing.wiki",
+        "Forever Talent"
+      ],
+      "skillAudit": "supported-by-earlier-evidence",
+      "priorSkillSource": "checked-forever-correction",
+      "priorSkillReference": "https://warcraft.wiki.gg/wiki/Forever_leatherworking_patterns",
+      "questingSkill": null,
+      "foreverTalentLearningRank": null
+    },
+    {
+      "spellId": "1255101",
+      "name": "Trapper's Leather Tunic",
+      "craftingSkillRequired": 110,
+      "materials": [
+        [
+          "Medium Leather",
+          10
+        ],
+        [
+          "Fine Thread",
+          3
+        ],
+        [
+          "Cured Medium Hide",
+          3
+        ],
+        [
+          "Deviate Scale",
+          6
+        ],
+        [
+          "Pristine Leather",
+          6
+        ]
+      ],
+      "materialsVerifiedAgainst": [
+        "Questing.wiki",
+        "Forever Talent"
+      ],
+      "skillAudit": "confirmed-by-recipe-reference",
+      "priorSkillSource": "guildloot-forever-required-skill",
+      "priorSkillReference": "https://guildloot.de/en/beruf/forever/leatherworking/",
+      "questingSkill": 110,
+      "foreverTalentLearningRank": 110
+    },
+    {
+      "spellId": "1255097",
+      "name": "Wisdom's Leather Tunic",
+      "craftingSkillRequired": 110,
+      "materials": [
+        [
+          "Medium Leather",
+          10
+        ],
+        [
+          "Fine Thread",
+          3
+        ],
+        [
+          "Cured Medium Hide",
+          3
+        ],
+        [
+          "Small Lustrous Pearl",
+          6
+        ],
+        [
+          "Pristine Leather",
+          6
+        ]
+      ],
+      "materialsVerifiedAgainst": [
+        "Questing.wiki",
+        "Forever Talent"
+      ],
+      "skillAudit": "confirmed-by-recipe-reference",
+      "priorSkillSource": "guildloot-forever-required-skill",
+      "priorSkillReference": "https://guildloot.de/en/beruf/forever/leatherworking/",
+      "questingSkill": 110,
+      "foreverTalentLearningRank": 110
+    },
+    {
+      "spellId": "1255093",
+      "name": "Brawler's Leather Helm",
+      "craftingSkillRequired": 125,
+      "materials": [
+        [
+          "Shadowgem",
+          3
+        ],
+        [
+          "Medium Leather",
+          12
+        ],
+        [
+          "Cured Medium Hide",
+          2
+        ]
+      ],
+      "materialsVerifiedAgainst": [
+        "Questing.wiki",
+        "Forever Talent"
+      ],
+      "skillAudit": "confirmed-by-recipe-reference",
+      "priorSkillSource": "pattern-item-and-wclbox-minimum",
+      "priorSkillReference": "https://wowforevertalent.com/professions/leatherworking/",
+      "questingSkill": null,
+      "foreverTalentLearningRank": 125
+    },
+    {
+      "spellId": "1255087",
+      "name": "Brawler's Leather Legguards",
+      "craftingSkillRequired": 125,
+      "materials": [
+        [
+          "Shadowgem",
+          8
+        ],
+        [
+          "Medium Leather",
+          12
+        ],
+        [
+          "Fine Thread",
+          3
+        ],
+        [
+          "Cured Medium Hide",
+          4
+        ],
+        [
+          "Pristine Leather",
+          8
+        ]
+      ],
+      "materialsVerifiedAgainst": [
+        "Questing.wiki",
+        "Forever Talent"
+      ],
+      "skillAudit": "confirmed-by-recipe-reference",
+      "priorSkillSource": "guildloot-forever-required-skill",
+      "priorSkillReference": "https://guildloot.de/en/beruf/forever/leatherworking/",
+      "questingSkill": 125,
+      "foreverTalentLearningRank": 125
+    },
+    {
+      "spellId": "1255091",
+      "name": "Defender's Leather Helm",
+      "craftingSkillRequired": 125,
+      "materials": [
+        [
+          "Medium Leather",
+          12
+        ],
+        [
+          "Elixir of Minor Fortitude",
+          3
+        ],
+        [
+          "Cured Medium Hide",
+          2
+        ]
+      ],
+      "materialsVerifiedAgainst": [
+        "Questing.wiki",
+        "Forever Talent"
+      ],
+      "skillAudit": "confirmed-by-recipe-reference",
+      "priorSkillSource": "pattern-item-and-wclbox-minimum",
+      "priorSkillReference": "https://wowforevertalent.com/professions/leatherworking/",
+      "questingSkill": null,
+      "foreverTalentLearningRank": 125
+    },
+    {
+      "spellId": "1255085",
+      "name": "Defender's Leather Kilt",
+      "craftingSkillRequired": 125,
+      "materials": [
+        [
+          "Medium Leather",
+          12
+        ],
+        [
+          "Fine Thread",
+          3
+        ],
+        [
+          "Elixir of Minor Fortitude",
+          8
+        ],
+        [
+          "Cured Medium Hide",
+          4
+        ],
+        [
+          "Pristine Leather",
+          8
+        ]
+      ],
+      "materialsVerifiedAgainst": [
+        "Questing.wiki",
+        "Forever Talent"
+      ],
+      "skillAudit": "confirmed-by-recipe-reference",
+      "priorSkillSource": "guildloot-forever-required-skill",
+      "priorSkillReference": "https://guildloot.de/en/beruf/forever/leatherworking/",
+      "questingSkill": 125,
+      "foreverTalentLearningRank": 125
+    },
+    {
+      "spellId": "1255089",
+      "name": "Stormrider's Leather Helm",
+      "craftingSkillRequired": 125,
+      "materials": [
+        [
+          "Medium Leather",
+          12
+        ],
+        [
+          "Cured Medium Hide",
+          2
+        ],
+        [
+          "Cerulean Dye",
+          3
+        ]
+      ],
+      "materialsVerifiedAgainst": [
+        "Questing.wiki",
+        "Forever Talent"
+      ],
+      "skillAudit": "confirmed-by-recipe-reference",
+      "priorSkillSource": "pattern-item-and-wclbox-minimum",
+      "priorSkillReference": "https://wowforevertalent.com/professions/leatherworking/",
+      "questingSkill": null,
+      "foreverTalentLearningRank": 125
+    },
+    {
+      "spellId": "1255083",
+      "name": "Stormrider's Leather Kilt",
+      "craftingSkillRequired": 125,
+      "materials": [
+        [
+          "Medium Leather",
+          12
+        ],
+        [
+          "Fine Thread",
+          3
+        ],
+        [
+          "Cured Medium Hide",
+          4
+        ],
+        [
+          "Cerulean Dye",
+          8
+        ],
+        [
+          "Pristine Leather",
+          8
+        ]
+      ],
+      "materialsVerifiedAgainst": [
+        "Questing.wiki",
+        "Forever Talent"
+      ],
+      "skillAudit": "confirmed-by-recipe-reference",
+      "priorSkillSource": "guildloot-forever-required-skill",
+      "priorSkillReference": "https://guildloot.de/en/beruf/forever/leatherworking/",
+      "questingSkill": 125,
+      "foreverTalentLearningRank": 125
+    },
+    {
+      "spellId": "1255090",
+      "name": "Totemic Leather Helm",
+      "craftingSkillRequired": 125,
+      "materials": [
+        [
+          "Medium Leather",
+          12
+        ],
+        [
+          "Cured Medium Hide",
+          2
+        ],
+        [
+          "Sulfuric Acid",
+          3
+        ]
+      ],
+      "materialsVerifiedAgainst": [
+        "Questing.wiki",
+        "Forever Talent"
+      ],
+      "skillAudit": "confirmed-by-recipe-reference",
+      "priorSkillSource": "pattern-item-and-wclbox-minimum",
+      "priorSkillReference": "https://wowforevertalent.com/professions/leatherworking/",
+      "questingSkill": null,
+      "foreverTalentLearningRank": 125
+    },
+    {
+      "spellId": "1255084",
+      "name": "Totemic Leather Leggings",
+      "craftingSkillRequired": 125,
+      "materials": [
+        [
+          "Medium Leather",
+          12
+        ],
+        [
+          "Fine Thread",
+          3
+        ],
+        [
+          "Cured Medium Hide",
+          4
+        ],
+        [
+          "Sulfuric Acid",
+          8
+        ],
+        [
+          "Pristine Leather",
+          8
+        ]
+      ],
+      "materialsVerifiedAgainst": [
+        "Questing.wiki",
+        "Forever Talent"
+      ],
+      "skillAudit": "confirmed-by-recipe-reference",
+      "priorSkillSource": "guildloot-forever-required-skill",
+      "priorSkillReference": "https://guildloot.de/en/beruf/forever/leatherworking/",
+      "questingSkill": 125,
+      "foreverTalentLearningRank": 125
+    },
+    {
+      "spellId": "1255092",
+      "name": "Trapper's Leather Helm",
+      "craftingSkillRequired": 125,
+      "materials": [
+        [
+          "Medium Leather",
+          12
+        ],
+        [
+          "Cured Medium Hide",
+          2
+        ],
+        [
+          "Deviate Scale",
+          3
+        ]
+      ],
+      "materialsVerifiedAgainst": [
+        "Questing.wiki",
+        "Forever Talent"
+      ],
+      "skillAudit": "confirmed-by-recipe-reference",
+      "priorSkillSource": "pattern-item-and-wclbox-minimum",
+      "priorSkillReference": "https://wowforevertalent.com/professions/leatherworking/",
+      "questingSkill": null,
+      "foreverTalentLearningRank": 125
+    },
+    {
+      "spellId": "1255086",
+      "name": "Trapper's Leather Legguards",
+      "craftingSkillRequired": 125,
+      "materials": [
+        [
+          "Medium Leather",
+          12
+        ],
+        [
+          "Fine Thread",
+          3
+        ],
+        [
+          "Cured Medium Hide",
+          4
+        ],
+        [
+          "Deviate Scale",
+          8
+        ],
+        [
+          "Pristine Leather",
+          8
+        ]
+      ],
+      "materialsVerifiedAgainst": [
+        "Questing.wiki",
+        "Forever Talent"
+      ],
+      "skillAudit": "confirmed-by-recipe-reference",
+      "priorSkillSource": "guildloot-forever-required-skill",
+      "priorSkillReference": "https://guildloot.de/en/beruf/forever/leatherworking/",
+      "questingSkill": 125,
+      "foreverTalentLearningRank": 125
+    },
+    {
+      "spellId": "1255088",
+      "name": "Wisdom's Leather Helm",
+      "craftingSkillRequired": 125,
+      "materials": [
+        [
+          "Medium Leather",
+          12
+        ],
+        [
+          "Cured Medium Hide",
+          2
+        ],
+        [
+          "Small Lustrous Pearl",
+          3
+        ]
+      ],
+      "materialsVerifiedAgainst": [
+        "Questing.wiki",
+        "Forever Talent"
+      ],
+      "skillAudit": "confirmed-by-recipe-reference",
+      "priorSkillSource": "pattern-item-and-wclbox-minimum",
+      "priorSkillReference": "https://wowforevertalent.com/professions/leatherworking/",
+      "questingSkill": null,
+      "foreverTalentLearningRank": 125
+    },
+    {
+      "spellId": "1255082",
+      "name": "Wisdom's Leather Leggings",
+      "craftingSkillRequired": 125,
+      "materials": [
+        [
+          "Medium Leather",
+          12
+        ],
+        [
+          "Fine Thread",
+          3
+        ],
+        [
+          "Cured Medium Hide",
+          4
+        ],
+        [
+          "Small Lustrous Pearl",
+          8
+        ],
+        [
+          "Pristine Leather",
+          8
+        ]
+      ],
+      "materialsVerifiedAgainst": [
+        "Questing.wiki",
+        "Forever Talent"
+      ],
+      "skillAudit": "confirmed-by-recipe-reference",
+      "priorSkillSource": "guildloot-forever-required-skill",
+      "priorSkillReference": "https://guildloot.de/en/beruf/forever/leatherworking/",
+      "questingSkill": 125,
+      "foreverTalentLearningRank": 125
+    },
+    {
+      "spellId": "23399",
+      "name": "Barbaric Bracers",
+      "craftingSkillRequired": 130,
+      "materials": [
+        [
+          "Heavy Leather",
+          8
+        ],
+        [
+          "Cured Heavy Hide",
+          2
+        ],
+        [
+          "Raptor Hide",
+          1
+        ],
+        [
+          "Small Lustrous Pearl",
+          4
+        ],
+        [
+          "Large Fang",
+          4
+        ]
+      ],
+      "materialsVerifiedAgainst": [
+        "Questing.wiki",
+        "Forever Talent"
+      ],
+      "skillAudit": "confirmed-by-recipe-reference",
+      "priorSkillSource": "guildloot-forever-required-skill",
+      "priorSkillReference": "https://guildloot.de/en/beruf/forever/leatherworking/",
+      "questingSkill": 130,
+      "foreverTalentLearningRank": 130
+    },
+    {
+      "spellId": "1255075",
+      "name": "Mender's Leather Belt",
+      "craftingSkillRequired": 150,
+      "materials": [
+        [
+          "Cured Medium Hide",
+          2
+        ],
+        [
+          "Heavy Leather",
+          8
+        ],
+        [
+          "Iridescent Pearl",
+          1
+        ]
+      ],
+      "materialsVerifiedAgainst": [
+        "Questing.wiki",
+        "Forever Talent"
+      ],
+      "skillAudit": "confirmed-by-recipe-reference",
+      "priorSkillSource": "guildloot-forever-required-skill",
+      "priorSkillReference": "https://guildloot.de/en/beruf/forever/leatherworking/",
+      "questingSkill": 150,
+      "foreverTalentLearningRank": 150
+    },
+    {
+      "spellId": "1255081",
+      "name": "Prowler's Leather Belt",
+      "craftingSkillRequired": 150,
+      "materials": [
+        [
+          "Jade",
+          1
+        ],
+        [
+          "Cured Medium Hide",
+          2
+        ],
+        [
+          "Heavy Leather",
+          8
+        ]
+      ],
+      "materialsVerifiedAgainst": [
+        "Questing.wiki",
+        "Forever Talent"
+      ],
+      "skillAudit": "confirmed-by-recipe-reference",
+      "priorSkillSource": "guildloot-forever-required-skill",
+      "priorSkillReference": "https://guildloot.de/en/beruf/forever/leatherworking/",
+      "questingSkill": 150,
+      "foreverTalentLearningRank": 150
+    },
+    {
+      "spellId": "1255077",
+      "name": "Skirmisher's Leather Belt",
+      "craftingSkillRequired": 150,
+      "materials": [
+        [
+          "Citrine",
+          1
+        ],
+        [
+          "Cured Medium Hide",
+          2
+        ],
+        [
+          "Heavy Leather",
+          8
+        ]
+      ],
+      "materialsVerifiedAgainst": [
+        "Questing.wiki",
+        "Forever Talent"
+      ],
+      "skillAudit": "confirmed-by-recipe-reference",
+      "priorSkillSource": "guildloot-forever-required-skill",
+      "priorSkillReference": "https://guildloot.de/en/beruf/forever/leatherworking/",
+      "questingSkill": 150,
+      "foreverTalentLearningRank": 150
+    },
+    {
+      "spellId": "1255080",
+      "name": "Skulker's Leather Belt",
+      "craftingSkillRequired": 150,
+      "materials": [
+        [
+          "Spider's Silk",
+          1
+        ],
+        [
+          "Cured Medium Hide",
+          2
+        ],
+        [
+          "Heavy Leather",
+          8
+        ]
+      ],
+      "materialsVerifiedAgainst": [
+        "Questing.wiki",
+        "Forever Talent"
+      ],
+      "skillAudit": "confirmed-by-recipe-reference",
+      "priorSkillSource": "guildloot-forever-required-skill",
+      "priorSkillReference": "https://guildloot.de/en/beruf/forever/leatherworking/",
+      "questingSkill": 150,
+      "foreverTalentLearningRank": 150
+    },
+    {
+      "spellId": "1255076",
+      "name": "Skycaller's Leather Belt",
+      "craftingSkillRequired": 150,
+      "materials": [
+        [
+          "Cured Medium Hide",
+          2
+        ],
+        [
+          "Heavy Leather",
+          8
+        ],
+        [
+          "Elemental Water",
+          1
+        ]
+      ],
+      "materialsVerifiedAgainst": [
+        "Questing.wiki",
+        "Forever Talent"
+      ],
+      "skillAudit": "confirmed-by-recipe-reference",
+      "priorSkillSource": "guildloot-forever-required-skill",
+      "priorSkillReference": "https://guildloot.de/en/beruf/forever/leatherworking/",
+      "questingSkill": 150,
+      "foreverTalentLearningRank": 150
+    },
+    {
+      "spellId": "1255079",
+      "name": "Stalker's Leather Belt",
+      "craftingSkillRequired": 150,
+      "materials": [
+        [
+          "Cured Medium Hide",
+          2
+        ],
+        [
+          "Heavy Leather",
+          8
+        ],
+        [
+          "Elemental Air",
+          1
+        ]
+      ],
+      "materialsVerifiedAgainst": [
+        "Questing.wiki",
+        "Forever Talent"
+      ],
+      "skillAudit": "confirmed-by-recipe-reference",
+      "priorSkillSource": "guildloot-forever-required-skill",
+      "priorSkillReference": "https://guildloot.de/en/beruf/forever/leatherworking/",
+      "questingSkill": 150,
+      "foreverTalentLearningRank": 150
+    },
+    {
+      "spellId": "1255078",
+      "name": "Warden's Leather Belt",
+      "craftingSkillRequired": 150,
+      "materials": [
+        [
+          "Cured Medium Hide",
+          2
+        ],
+        [
+          "Heavy Leather",
+          8
+        ],
+        [
+          "Elemental Earth",
+          1
+        ]
+      ],
+      "materialsVerifiedAgainst": [
+        "Questing.wiki",
+        "Forever Talent"
+      ],
+      "skillAudit": "confirmed-by-recipe-reference",
+      "priorSkillSource": "guildloot-forever-required-skill",
+      "priorSkillReference": "https://guildloot.de/en/beruf/forever/leatherworking/",
+      "questingSkill": 150,
+      "foreverTalentLearningRank": 150
+    },
+    {
+      "spellId": "3778",
+      "name": "Gem-studded Leather Belt",
+      "craftingSkillRequired": 160,
+      "materials": [
+        [
+          "Jade",
+          2
+        ],
+        [
+          "Fine Thread",
+          1
+        ],
+        [
+          "Citrine",
+          1
+        ],
+        [
+          "Cured Heavy Hide",
+          4
+        ],
+        [
+          "Iridescent Pearl",
+          2
+        ]
+      ],
+      "materialsVerifiedAgainst": [
+        "Questing.wiki",
+        "Forever Talent"
+      ],
+      "skillAudit": "confirmed-by-recipe-reference",
+      "priorSkillSource": "guildloot-forever-required-skill",
+      "priorSkillReference": "https://guildloot.de/en/beruf/forever/leatherworking/",
+      "questingSkill": 160,
+      "foreverTalentLearningRank": 160
+    },
+    {
+      "spellId": "1255065",
+      "name": "Mender's Leather Gloves",
+      "craftingSkillRequired": 175,
+      "materials": [
+        [
+          "Heavy Leather",
+          16
+        ],
+        [
+          "Cured Heavy Hide",
+          2
+        ],
+        [
+          "Silken Thread",
+          2
+        ],
+        [
+          "Iridescent Pearl",
+          2
+        ],
+        [
+          "Pristine Leather",
+          1
+        ],
+        [
+          "Pristine Hide",
+          2
+        ]
+      ],
+      "materialsVerifiedAgainst": [
+        "Questing.wiki",
+        "Forever Talent"
+      ],
+      "skillAudit": "confirmed-by-recipe-reference",
+      "priorSkillSource": "guildloot-forever-required-skill",
+      "priorSkillReference": "https://guildloot.de/en/beruf/forever/leatherworking/",
+      "questingSkill": 175,
+      "foreverTalentLearningRank": 175
+    },
+    {
+      "spellId": "1255071",
+      "name": "Prowler's Leather Gloves",
+      "craftingSkillRequired": 175,
+      "materials": [
+        [
+          "Jade",
+          2
+        ],
+        [
+          "Heavy Leather",
+          16
+        ],
+        [
+          "Cured Heavy Hide",
+          2
+        ],
+        [
+          "Silken Thread",
+          2
+        ],
+        [
+          "Pristine Leather",
+          1
+        ],
+        [
+          "Pristine Hide",
+          2
+        ]
+      ],
+      "materialsVerifiedAgainst": [
+        "Questing.wiki",
+        "Forever Talent"
+      ],
+      "skillAudit": "confirmed-by-recipe-reference",
+      "priorSkillSource": "guildloot-forever-required-skill",
+      "priorSkillReference": "https://guildloot.de/en/beruf/forever/leatherworking/",
+      "questingSkill": 175,
+      "foreverTalentLearningRank": 175
+    },
+    {
+      "spellId": "22711",
+      "name": "Shadowskin Gloves",
+      "craftingSkillRequired": 175,
+      "materials": [
+        [
+          "Shadowgem",
+          4
+        ],
+        [
+          "Cured Heavy Hide",
+          2
+        ],
+        [
+          "Thick Leather",
+          6
+        ],
+        [
+          "Shadowcat Hide",
+          8
+        ],
+        [
+          "Black Pearl",
+          2
+        ],
+        [
+          "Heavy Silken Thread",
+          1
+        ]
+      ],
+      "materialsVerifiedAgainst": [
+        "Questing.wiki",
+        "Forever Talent"
+      ],
+      "skillAudit": "confirmed-by-recipe-reference",
+      "priorSkillSource": "guildloot-forever-required-skill",
+      "priorSkillReference": "https://guildloot.de/en/beruf/forever/leatherworking/",
+      "questingSkill": 175,
+      "foreverTalentLearningRank": 175
+    },
+    {
+      "spellId": "1255067",
+      "name": "Skirmisher's Leather Gloves",
+      "craftingSkillRequired": 175,
+      "materials": [
+        [
+          "Citrine",
+          2
+        ],
+        [
+          "Heavy Leather",
+          16
+        ],
+        [
+          "Cured Heavy Hide",
+          2
+        ],
+        [
+          "Silken Thread",
+          2
+        ],
+        [
+          "Pristine Leather",
+          1
+        ],
+        [
+          "Pristine Hide",
+          2
+        ]
+      ],
+      "materialsVerifiedAgainst": [
+        "Questing.wiki",
+        "Forever Talent"
+      ],
+      "skillAudit": "confirmed-by-recipe-reference",
+      "priorSkillSource": "guildloot-forever-required-skill",
+      "priorSkillReference": "https://guildloot.de/en/beruf/forever/leatherworking/",
+      "questingSkill": 175,
+      "foreverTalentLearningRank": 175
+    },
+    {
+      "spellId": "1255070",
+      "name": "Skulker's Leather Gloves",
+      "craftingSkillRequired": 175,
+      "materials": [
+        [
+          "Spider's Silk",
+          2
+        ],
+        [
+          "Heavy Leather",
+          16
+        ],
+        [
+          "Cured Heavy Hide",
+          2
+        ],
+        [
+          "Silken Thread",
+          2
+        ],
+        [
+          "Pristine Leather",
+          1
+        ],
+        [
+          "Pristine Hide",
+          2
+        ]
+      ],
+      "materialsVerifiedAgainst": [
+        "Questing.wiki",
+        "Forever Talent"
+      ],
+      "skillAudit": "confirmed-by-recipe-reference",
+      "priorSkillSource": "guildloot-forever-required-skill",
+      "priorSkillReference": "https://guildloot.de/en/beruf/forever/leatherworking/",
+      "questingSkill": 175,
+      "foreverTalentLearningRank": 175
+    },
+    {
+      "spellId": "1255066",
+      "name": "Skycaller's Leather Gloves",
+      "craftingSkillRequired": 175,
+      "materials": [
+        [
+          "Heavy Leather",
+          16
+        ],
+        [
+          "Cured Heavy Hide",
+          2
+        ],
+        [
+          "Silken Thread",
+          2
+        ],
+        [
+          "Elemental Water",
+          2
+        ],
+        [
+          "Pristine Leather",
+          1
+        ],
+        [
+          "Pristine Hide",
+          2
+        ]
+      ],
+      "materialsVerifiedAgainst": [
+        "Questing.wiki",
+        "Forever Talent"
+      ],
+      "skillAudit": "confirmed-by-recipe-reference",
+      "priorSkillSource": "guildloot-forever-required-skill",
+      "priorSkillReference": "https://guildloot.de/en/beruf/forever/leatherworking/",
+      "questingSkill": 175,
+      "foreverTalentLearningRank": 175
+    },
+    {
+      "spellId": "1255069",
+      "name": "Stalker's Leather Gloves",
+      "craftingSkillRequired": 175,
+      "materials": [
+        [
+          "Heavy Leather",
+          16
+        ],
+        [
+          "Cured Heavy Hide",
+          2
+        ],
+        [
+          "Silken Thread",
+          2
+        ],
+        [
+          "Elemental Air",
+          2
+        ],
+        [
+          "Pristine Leather",
+          1
+        ],
+        [
+          "Pristine Hide",
+          2
+        ]
+      ],
+      "materialsVerifiedAgainst": [
+        "Questing.wiki",
+        "Forever Talent"
+      ],
+      "skillAudit": "confirmed-by-recipe-reference",
+      "priorSkillSource": "guildloot-forever-required-skill",
+      "priorSkillReference": "https://guildloot.de/en/beruf/forever/leatherworking/",
+      "questingSkill": 175,
+      "foreverTalentLearningRank": 175
+    },
+    {
+      "spellId": "1255068",
+      "name": "Warden's Leather Gloves",
+      "craftingSkillRequired": 175,
+      "materials": [
+        [
+          "Heavy Leather",
+          16
+        ],
+        [
+          "Cured Heavy Hide",
+          2
+        ],
+        [
+          "Silken Thread",
+          2
+        ],
+        [
+          "Elemental Earth",
+          2
+        ],
+        [
+          "Pristine Leather",
+          1
+        ],
+        [
+          "Pristine Hide",
+          2
+        ]
+      ],
+      "materialsVerifiedAgainst": [
+        "Questing.wiki",
+        "Forever Talent"
+      ],
+      "skillAudit": "confirmed-by-recipe-reference",
+      "priorSkillSource": "guildloot-forever-required-skill",
+      "priorSkillReference": "https://guildloot.de/en/beruf/forever/leatherworking/",
+      "questingSkill": 175,
+      "foreverTalentLearningRank": 175
+    },
+    {
+      "spellId": "10619",
+      "name": "Dragonscale Gauntlets",
+      "craftingSkillRequired": 200,
+      "materials": [
+        [
+          "Thick Leather",
+          24
+        ],
+        [
+          "Worn Dragonscale",
+          12
+        ],
+        [
+          "Cured Thick Hide",
+          2
+        ],
+        [
+          "Heavy Silken Thread",
+          4
+        ]
+      ],
+      "materialsVerifiedAgainst": [
+        "Questing.wiki",
+        "Forever Talent"
+      ],
+      "skillAudit": "supported-by-earlier-evidence",
+      "priorSkillSource": "forever-ninja-wclbox-crosscheck",
+      "priorSkillReference": "https://wowforever.ninja/professions/leatherworking/10619-dragonscale-gauntlets/",
+      "questingSkill": null,
+      "foreverTalentLearningRank": null
+    },
+    {
+      "spellId": "1255060",
+      "name": "Mender's Leather Shoes",
+      "craftingSkillRequired": 200,
+      "materials": [
+        [
+          "Cured Medium Hide",
+          2
+        ],
+        [
+          "Heavy Leather",
+          8
+        ],
+        [
+          "Iridescent Pearl",
+          2
+        ]
+      ],
+      "materialsVerifiedAgainst": [
+        "Questing.wiki",
+        "Forever Talent"
+      ],
+      "skillAudit": "confirmed-by-recipe-reference",
+      "priorSkillSource": "guildloot-forever-required-skill",
+      "priorSkillReference": "https://guildloot.de/en/beruf/forever/leatherworking/",
+      "questingSkill": 200,
+      "foreverTalentLearningRank": 200
+    },
+    {
+      "spellId": "1255008",
+      "name": "Mender's Mail Boots",
+      "craftingSkillRequired": 200,
+      "materials": [
+        [
+          "Cured Medium Hide",
+          2
+        ],
+        [
+          "Heavy Leather",
+          8
+        ],
+        [
+          "Iridescent Pearl",
+          2
+        ]
+      ],
+      "materialsVerifiedAgainst": [
+        "Questing.wiki",
+        "Forever Talent"
+      ],
+      "skillAudit": "confirmed-by-recipe-reference",
+      "priorSkillSource": "guildloot-forever-required-skill",
+      "priorSkillReference": "https://guildloot.de/en/beruf/forever/leatherworking/",
+      "questingSkill": 200,
+      "foreverTalentLearningRank": 200
+    },
+    {
+      "spellId": "1255064",
+      "name": "Prowler's Leather Shoes",
+      "craftingSkillRequired": 200,
+      "materials": [
+        [
+          "Jade",
+          2
+        ],
+        [
+          "Cured Medium Hide",
+          2
+        ],
+        [
+          "Heavy Leather",
+          8
+        ]
+      ],
+      "materialsVerifiedAgainst": [
+        "Questing.wiki",
+        "Forever Talent"
+      ],
+      "skillAudit": "confirmed-by-recipe-reference",
+      "priorSkillSource": "guildloot-forever-required-skill",
+      "priorSkillReference": "https://guildloot.de/en/beruf/forever/leatherworking/",
+      "questingSkill": 200,
+      "foreverTalentLearningRank": 200
+    },
+    {
+      "spellId": "1255009",
+      "name": "Skirmisher's Mail Boots",
+      "craftingSkillRequired": 200,
+      "materials": [
+        [
+          "Citrine",
+          2
+        ],
+        [
+          "Cured Medium Hide",
+          2
+        ],
+        [
+          "Heavy Leather",
+          8
+        ]
+      ],
+      "materialsVerifiedAgainst": [
+        "Questing.wiki",
+        "Forever Talent"
+      ],
+      "skillAudit": "confirmed-by-recipe-reference",
+      "priorSkillSource": "guildloot-forever-required-skill",
+      "priorSkillReference": "https://guildloot.de/en/beruf/forever/leatherworking/",
+      "questingSkill": 200,
+      "foreverTalentLearningRank": 200
+    },
+    {
+      "spellId": "1255063",
+      "name": "Skulker's Leather Shoes",
+      "craftingSkillRequired": 200,
+      "materials": [
+        [
+          "Spider's Silk",
+          2
+        ],
+        [
+          "Cured Medium Hide",
+          2
+        ],
+        [
+          "Heavy Leather",
+          8
+        ]
+      ],
+      "materialsVerifiedAgainst": [
+        "Questing.wiki",
+        "Forever Talent"
+      ],
+      "skillAudit": "confirmed-by-recipe-reference",
+      "priorSkillSource": "guildloot-forever-required-skill",
+      "priorSkillReference": "https://guildloot.de/en/beruf/forever/leatherworking/",
+      "questingSkill": 200,
+      "foreverTalentLearningRank": 200
+    },
+    {
+      "spellId": "1255061",
+      "name": "Skycaller's Leather Shoes",
+      "craftingSkillRequired": 200,
+      "materials": [
+        [
+          "Cured Medium Hide",
+          2
+        ],
+        [
+          "Heavy Leather",
+          8
+        ],
+        [
+          "Elemental Water",
+          2
+        ]
+      ],
+      "materialsVerifiedAgainst": [
+        "Questing.wiki",
+        "Forever Talent"
+      ],
+      "skillAudit": "confirmed-by-recipe-reference",
+      "priorSkillSource": "guildloot-forever-required-skill",
+      "priorSkillReference": "https://guildloot.de/en/beruf/forever/leatherworking/",
+      "questingSkill": 200,
+      "foreverTalentLearningRank": 200
+    },
+    {
+      "spellId": "1255010",
+      "name": "Skycaller's Mail Boots",
+      "craftingSkillRequired": 200,
+      "materials": [
+        [
+          "Cured Medium Hide",
+          2
+        ],
+        [
+          "Heavy Leather",
+          8
+        ],
+        [
+          "Elemental Water",
+          2
+        ]
+      ],
+      "materialsVerifiedAgainst": [
+        "Questing.wiki",
+        "Forever Talent"
+      ],
+      "skillAudit": "confirmed-by-recipe-reference",
+      "priorSkillSource": "guildloot-forever-required-skill",
+      "priorSkillReference": "https://guildloot.de/en/beruf/forever/leatherworking/",
+      "questingSkill": 200,
+      "foreverTalentLearningRank": 200
+    },
+    {
+      "spellId": "1255011",
+      "name": "Stalker's Mail Boots",
+      "craftingSkillRequired": 200,
+      "materials": [
+        [
+          "Cured Medium Hide",
+          2
+        ],
+        [
+          "Heavy Leather",
+          8
+        ],
+        [
+          "Elemental Air",
+          2
+        ]
+      ],
+      "materialsVerifiedAgainst": [
+        "Questing.wiki",
+        "Forever Talent"
+      ],
+      "skillAudit": "confirmed-by-recipe-reference",
+      "priorSkillSource": "guildloot-forever-required-skill",
+      "priorSkillReference": "https://guildloot.de/en/beruf/forever/leatherworking/",
+      "questingSkill": 200,
+      "foreverTalentLearningRank": 200
+    },
+    {
+      "spellId": "1255062",
+      "name": "Warden's Leather Shoes",
+      "craftingSkillRequired": 200,
+      "materials": [
+        [
+          "Cured Medium Hide",
+          2
+        ],
+        [
+          "Heavy Leather",
+          8
+        ],
+        [
+          "Elemental Earth",
+          2
+        ]
+      ],
+      "materialsVerifiedAgainst": [
+        "Questing.wiki",
+        "Forever Talent"
+      ],
+      "skillAudit": "confirmed-by-recipe-reference",
+      "priorSkillSource": "guildloot-forever-required-skill",
+      "priorSkillReference": "https://guildloot.de/en/beruf/forever/leatherworking/",
+      "questingSkill": 200,
+      "foreverTalentLearningRank": 200
+    },
+    {
+      "spellId": "10621",
+      "name": "Wolfshead Helm",
+      "craftingSkillRequired": 200,
+      "materials": [
+        [
+          "Thick Leather",
+          18
+        ],
+        [
+          "Wicked Claw",
+          8
+        ],
+        [
+          "Cured Thick Hide",
+          2
+        ],
+        [
+          "Heavy Silken Thread",
+          4
+        ],
+        [
+          "Thick Wolfhide",
+          2
+        ]
+      ],
+      "materialsVerifiedAgainst": [
+        "Questing.wiki",
+        "Forever Talent"
+      ],
+      "skillAudit": "supported-by-earlier-evidence",
+      "priorSkillSource": "forever-ninja-wclbox-crosscheck",
+      "priorSkillReference": "https://wowforever.ninja/professions/leatherworking/10621-wolfshead-helm/",
+      "questingSkill": null,
+      "foreverTalentLearningRank": null
+    },
+    {
+      "spellId": "10630",
+      "name": "Gauntlets of the Sea",
+      "craftingSkillRequired": 205,
+      "materials": [
+        [
+          "Thick Leather",
+          20
+        ],
+        [
+          "Core of Earth",
+          2
+        ],
+        [
+          "Globe of Water",
+          8
+        ],
+        [
+          "Cured Thick Hide",
+          1
+        ],
+        [
+          "Heavy Silken Thread",
+          4
+        ]
+      ],
+      "materialsVerifiedAgainst": [
+        "Questing.wiki",
+        "Forever Talent"
+      ],
+      "skillAudit": "supported-by-earlier-evidence",
+      "priorSkillSource": "forever-ninja-wclbox-crosscheck",
+      "priorSkillReference": "https://wowforever.ninja/professions/leatherworking/10630-gauntlets-of-the-sea/",
+      "questingSkill": null,
+      "foreverTalentLearningRank": null
+    },
+    {
+      "spellId": "1255055",
+      "name": "Mender's Leather Shoulders",
+      "craftingSkillRequired": 210,
+      "materials": [
+        [
+          "Cured Heavy Hide",
+          3
+        ],
+        [
+          "Silken Thread",
+          2
+        ],
+        [
+          "Thick Leather",
+          10
+        ],
+        [
+          "Iridescent Pearl",
+          3
+        ],
+        [
+          "Pristine Leather",
+          2
+        ],
+        [
+          "Pristine Hide",
+          4
+        ]
+      ],
+      "materialsVerifiedAgainst": [
+        "Questing.wiki",
+        "Forever Talent"
+      ],
+      "skillAudit": "confirmed-by-recipe-reference",
+      "priorSkillSource": "guildloot-forever-required-skill",
+      "priorSkillReference": "https://guildloot.de/en/beruf/forever/leatherworking/",
+      "questingSkill": 210,
+      "foreverTalentLearningRank": 210
+    },
+    {
+      "spellId": "1255004",
+      "name": "Mender's Mail Shoulders",
+      "craftingSkillRequired": 210,
+      "materials": [
+        [
+          "Cured Heavy Hide",
+          3
+        ],
+        [
+          "Silken Thread",
+          2
+        ],
+        [
+          "Thick Leather",
+          10
+        ],
+        [
+          "Iridescent Pearl",
+          3
+        ],
+        [
+          "Pristine Leather",
+          2
+        ],
+        [
+          "Pristine Hide",
+          4
+        ]
+      ],
+      "materialsVerifiedAgainst": [
+        "Questing.wiki",
+        "Forever Talent"
+      ],
+      "skillAudit": "confirmed-by-recipe-reference",
+      "priorSkillSource": "guildloot-forever-required-skill",
+      "priorSkillReference": "https://guildloot.de/en/beruf/forever/leatherworking/",
+      "questingSkill": 210,
+      "foreverTalentLearningRank": 210
+    },
+    {
+      "spellId": "1255059",
+      "name": "Prowler's Leather Shoulders",
+      "craftingSkillRequired": 210,
+      "materials": [
+        [
+          "Jade",
+          3
+        ],
+        [
+          "Cured Heavy Hide",
+          3
+        ],
+        [
+          "Silken Thread",
+          2
+        ],
+        [
+          "Thick Leather",
+          10
+        ],
+        [
+          "Pristine Leather",
+          2
+        ],
+        [
+          "Pristine Hide",
+          4
+        ]
+      ],
+      "materialsVerifiedAgainst": [
+        "Questing.wiki",
+        "Forever Talent"
+      ],
+      "skillAudit": "confirmed-by-recipe-reference",
+      "priorSkillSource": "guildloot-forever-required-skill",
+      "priorSkillReference": "https://guildloot.de/en/beruf/forever/leatherworking/",
+      "questingSkill": 210,
+      "foreverTalentLearningRank": 210
+    },
+    {
+      "spellId": "1255005",
+      "name": "Skirmisher's Mail Shoulders",
+      "craftingSkillRequired": 210,
+      "materials": [
+        [
+          "Citrine",
+          3
+        ],
+        [
+          "Cured Heavy Hide",
+          3
+        ],
+        [
+          "Silken Thread",
+          2
+        ],
+        [
+          "Thick Leather",
+          10
+        ],
+        [
+          "Pristine Leather",
+          2
+        ],
+        [
+          "Pristine Hide",
+          4
+        ]
+      ],
+      "materialsVerifiedAgainst": [
+        "Questing.wiki",
+        "Forever Talent"
+      ],
+      "skillAudit": "confirmed-by-recipe-reference",
+      "priorSkillSource": "guildloot-forever-required-skill",
+      "priorSkillReference": "https://guildloot.de/en/beruf/forever/leatherworking/",
+      "questingSkill": 210,
+      "foreverTalentLearningRank": 210
+    },
+    {
+      "spellId": "1255058",
+      "name": "Skulker's Leather Shoulders",
+      "craftingSkillRequired": 210,
+      "materials": [
+        [
+          "Spider's Silk",
+          3
+        ],
+        [
+          "Cured Heavy Hide",
+          3
+        ],
+        [
+          "Silken Thread",
+          2
+        ],
+        [
+          "Thick Leather",
+          10
+        ],
+        [
+          "Pristine Leather",
+          2
+        ],
+        [
+          "Pristine Hide",
+          4
+        ]
+      ],
+      "materialsVerifiedAgainst": [
+        "Questing.wiki",
+        "Forever Talent"
+      ],
+      "skillAudit": "confirmed-by-recipe-reference",
+      "priorSkillSource": "crosschecked-pattern-craft-minimum",
+      "priorSkillReference": "https://warcraft.wiki.gg/wiki/Forever_leatherworking_patterns",
+      "questingSkill": 210,
+      "foreverTalentLearningRank": 210
+    },
+    {
+      "spellId": "1255056",
+      "name": "Skycaller's Leather Shoulders",
+      "craftingSkillRequired": 210,
+      "materials": [
+        [
+          "Cured Heavy Hide",
+          3
+        ],
+        [
+          "Silken Thread",
+          2
+        ],
+        [
+          "Thick Leather",
+          10
+        ],
+        [
+          "Elemental Water",
+          3
+        ],
+        [
+          "Pristine Leather",
+          2
+        ],
+        [
+          "Pristine Hide",
+          4
+        ]
+      ],
+      "materialsVerifiedAgainst": [
+        "Questing.wiki",
+        "Forever Talent"
+      ],
+      "skillAudit": "confirmed-by-recipe-reference",
+      "priorSkillSource": "guildloot-forever-required-skill",
+      "priorSkillReference": "https://guildloot.de/en/beruf/forever/leatherworking/",
+      "questingSkill": 210,
+      "foreverTalentLearningRank": 210
+    },
+    {
+      "spellId": "1255006",
+      "name": "Skycaller's Mail Shoulders",
+      "craftingSkillRequired": 210,
+      "materials": [
+        [
+          "Cured Heavy Hide",
+          3
+        ],
+        [
+          "Silken Thread",
+          2
+        ],
+        [
+          "Thick Leather",
+          10
+        ],
+        [
+          "Elemental Water",
+          3
+        ],
+        [
+          "Pristine Leather",
+          2
+        ],
+        [
+          "Pristine Hide",
+          4
+        ]
+      ],
+      "materialsVerifiedAgainst": [
+        "Questing.wiki",
+        "Forever Talent"
+      ],
+      "skillAudit": "confirmed-by-recipe-reference",
+      "priorSkillSource": "guildloot-forever-required-skill",
+      "priorSkillReference": "https://guildloot.de/en/beruf/forever/leatherworking/",
+      "questingSkill": 210,
+      "foreverTalentLearningRank": 210
+    },
+    {
+      "spellId": "1255007",
+      "name": "Stalker's Mail Shoulders",
+      "craftingSkillRequired": 210,
+      "materials": [
+        [
+          "Cured Heavy Hide",
+          3
+        ],
+        [
+          "Silken Thread",
+          2
+        ],
+        [
+          "Thick Leather",
+          10
+        ],
+        [
+          "Elemental Air",
+          3
+        ],
+        [
+          "Pristine Leather",
+          2
+        ],
+        [
+          "Pristine Hide",
+          4
+        ]
+      ],
+      "materialsVerifiedAgainst": [
+        "Questing.wiki",
+        "Forever Talent"
+      ],
+      "skillAudit": "confirmed-by-recipe-reference",
+      "priorSkillSource": "guildloot-forever-required-skill",
+      "priorSkillReference": "https://guildloot.de/en/beruf/forever/leatherworking/",
+      "questingSkill": 210,
+      "foreverTalentLearningRank": 210
+    },
+    {
+      "spellId": "1255057",
+      "name": "Warden's Leather Shoulders",
+      "craftingSkillRequired": 210,
+      "materials": [
+        [
+          "Cured Heavy Hide",
+          3
+        ],
+        [
+          "Silken Thread",
+          2
+        ],
+        [
+          "Thick Leather",
+          10
+        ],
+        [
+          "Elemental Earth",
+          3
+        ],
+        [
+          "Pristine Leather",
+          2
+        ],
+        [
+          "Pristine Hide",
+          4
+        ]
+      ],
+      "materialsVerifiedAgainst": [
+        "Questing.wiki",
+        "Forever Talent"
+      ],
+      "skillAudit": "confirmed-by-recipe-reference",
+      "priorSkillSource": "guildloot-forever-required-skill",
+      "priorSkillReference": "https://guildloot.de/en/beruf/forever/leatherworking/",
+      "questingSkill": 210,
+      "foreverTalentLearningRank": 210
+    },
+    {
+      "spellId": "10647",
+      "name": "Feathered Breastplate",
+      "craftingSkillRequired": 225,
+      "materials": [
+        [
+          "Thick Leather",
+          40
+        ],
+        [
+          "Black Pearl",
+          2
+        ],
+        [
+          "Jet Black Feather",
+          40
+        ],
+        [
+          "Cured Thick Hide",
+          4
+        ],
+        [
+          "Heavy Silken Thread",
+          4
+        ]
+      ],
+      "materialsVerifiedAgainst": [
+        "Questing.wiki",
+        "Forever Talent"
+      ],
+      "skillAudit": "supported-by-earlier-evidence",
+      "priorSkillSource": "forever-ninja-wclbox-crosscheck",
+      "priorSkillReference": "https://wowforever.ninja/professions/leatherworking/10647-feathered-breastplate/",
+      "questingSkill": null,
+      "foreverTalentLearningRank": null
+    },
+    {
+      "spellId": "10632",
+      "name": "Helm of Fire",
+      "craftingSkillRequired": 225,
+      "materials": [
+        [
+          "Thick Leather",
+          40
+        ],
+        [
+          "Core of Earth",
+          4
+        ],
+        [
+          "Heart of Fire",
+          8
+        ],
+        [
+          "Cured Thick Hide",
+          2
+        ],
+        [
+          "Heavy Silken Thread",
+          4
+        ]
+      ],
+      "materialsVerifiedAgainst": [
+        "Questing.wiki",
+        "Forever Talent"
+      ],
+      "skillAudit": "supported-by-earlier-evidence",
+      "priorSkillSource": "forever-ninja-wclbox-crosscheck",
+      "priorSkillReference": "https://wowforever.ninja/professions/leatherworking/10632-helm-of-fire/",
+      "questingSkill": null,
+      "foreverTalentLearningRank": null
+    },
+    {
+      "spellId": "1255050",
+      "name": "Mender's Leather Bracers",
+      "craftingSkillRequired": 225,
+      "materials": [
+        [
+          "Cured Heavy Hide",
+          4
+        ],
+        [
+          "Thick Leather",
+          12
+        ],
+        [
+          "Iridescent Pearl",
+          4
+        ],
+        [
+          "Heavy Silken Thread",
+          2
+        ],
+        [
+          "Pristine Leather",
+          3
+        ],
+        [
+          "Pristine Hide",
+          6
+        ]
+      ],
+      "materialsVerifiedAgainst": [
+        "Questing.wiki",
+        "Forever Talent"
+      ],
+      "skillAudit": "confirmed-by-recipe-reference",
+      "priorSkillSource": "guildloot-forever-required-skill",
+      "priorSkillReference": "https://guildloot.de/en/beruf/forever/leatherworking/",
+      "questingSkill": 225,
+      "foreverTalentLearningRank": 225
+    },
+    {
+      "spellId": "1255000",
+      "name": "Mender's Mail Bracers",
+      "craftingSkillRequired": 225,
+      "materials": [
+        [
+          "Cured Heavy Hide",
+          4
+        ],
+        [
+          "Thick Leather",
+          12
+        ],
+        [
+          "Iridescent Pearl",
+          4
+        ],
+        [
+          "Heavy Silken Thread",
+          2
+        ],
+        [
+          "Pristine Leather",
+          3
+        ],
+        [
+          "Pristine Hide",
+          6
+        ]
+      ],
+      "materialsVerifiedAgainst": [
+        "Questing.wiki",
+        "Forever Talent"
+      ],
+      "skillAudit": "confirmed-by-recipe-reference",
+      "priorSkillSource": "guildloot-forever-required-skill",
+      "priorSkillReference": "https://guildloot.de/en/beruf/forever/leatherworking/",
+      "questingSkill": 225,
+      "foreverTalentLearningRank": 225
+    },
+    {
+      "spellId": "1255054",
+      "name": "Prowler's Leather Bracers",
+      "craftingSkillRequired": 225,
+      "materials": [
+        [
+          "Jade",
+          4
+        ],
+        [
+          "Cured Heavy Hide",
+          4
+        ],
+        [
+          "Thick Leather",
+          12
+        ],
+        [
+          "Heavy Silken Thread",
+          2
+        ],
+        [
+          "Pristine Leather",
+          3
+        ],
+        [
+          "Pristine Hide",
+          6
+        ]
+      ],
+      "materialsVerifiedAgainst": [
+        "Questing.wiki",
+        "Forever Talent"
+      ],
+      "skillAudit": "confirmed-by-recipe-reference",
+      "priorSkillSource": "guildloot-forever-required-skill",
+      "priorSkillReference": "https://guildloot.de/en/beruf/forever/leatherworking/",
+      "questingSkill": 225,
+      "foreverTalentLearningRank": 225
+    },
+    {
+      "spellId": "1255001",
+      "name": "Skirmisher's Mail Bracers",
+      "craftingSkillRequired": 225,
+      "materials": [
+        [
+          "Citrine",
+          4
+        ],
+        [
+          "Cured Heavy Hide",
+          4
+        ],
+        [
+          "Thick Leather",
+          12
+        ],
+        [
+          "Heavy Silken Thread",
+          2
+        ],
+        [
+          "Pristine Leather",
+          3
+        ],
+        [
+          "Pristine Hide",
+          6
+        ]
+      ],
+      "materialsVerifiedAgainst": [
+        "Questing.wiki",
+        "Forever Talent"
+      ],
+      "skillAudit": "confirmed-by-recipe-reference",
+      "priorSkillSource": "guildloot-forever-required-skill",
+      "priorSkillReference": "https://guildloot.de/en/beruf/forever/leatherworking/",
+      "questingSkill": 225,
+      "foreverTalentLearningRank": 225
+    },
+    {
+      "spellId": "1255053",
+      "name": "Skulker's Leather Bracers",
+      "craftingSkillRequired": 225,
+      "materials": [
+        [
+          "Spider's Silk",
+          4
+        ],
+        [
+          "Cured Heavy Hide",
+          4
+        ],
+        [
+          "Thick Leather",
+          12
+        ],
+        [
+          "Heavy Silken Thread",
+          2
+        ],
+        [
+          "Pristine Leather",
+          3
+        ],
+        [
+          "Pristine Hide",
+          6
+        ]
+      ],
+      "materialsVerifiedAgainst": [
+        "Questing.wiki",
+        "Forever Talent"
+      ],
+      "skillAudit": "confirmed-by-recipe-reference",
+      "priorSkillSource": "guildloot-forever-required-skill",
+      "priorSkillReference": "https://guildloot.de/en/beruf/forever/leatherworking/",
+      "questingSkill": 225,
+      "foreverTalentLearningRank": 225
+    },
+    {
+      "spellId": "1255051",
+      "name": "Skycaller's Leather Bracers",
+      "craftingSkillRequired": 225,
+      "materials": [
+        [
+          "Cured Heavy Hide",
+          4
+        ],
+        [
+          "Thick Leather",
+          12
+        ],
+        [
+          "Elemental Water",
+          4
+        ],
+        [
+          "Heavy Silken Thread",
+          2
+        ],
+        [
+          "Pristine Leather",
+          3
+        ],
+        [
+          "Pristine Hide",
+          6
+        ]
+      ],
+      "materialsVerifiedAgainst": [
+        "Questing.wiki",
+        "Forever Talent"
+      ],
+      "skillAudit": "confirmed-by-recipe-reference",
+      "priorSkillSource": "guildloot-forever-required-skill",
+      "priorSkillReference": "https://guildloot.de/en/beruf/forever/leatherworking/",
+      "questingSkill": 225,
+      "foreverTalentLearningRank": 225
+    },
+    {
+      "spellId": "1255002",
+      "name": "Skycaller's Mail Bracers",
+      "craftingSkillRequired": 225,
+      "materials": [
+        [
+          "Cured Heavy Hide",
+          4
+        ],
+        [
+          "Thick Leather",
+          12
+        ],
+        [
+          "Elemental Water",
+          4
+        ],
+        [
+          "Heavy Silken Thread",
+          2
+        ],
+        [
+          "Pristine Leather",
+          3
+        ],
+        [
+          "Pristine Hide",
+          6
+        ]
+      ],
+      "materialsVerifiedAgainst": [
+        "Questing.wiki",
+        "Forever Talent"
+      ],
+      "skillAudit": "confirmed-by-recipe-reference",
+      "priorSkillSource": "guildloot-forever-required-skill",
+      "priorSkillReference": "https://guildloot.de/en/beruf/forever/leatherworking/",
+      "questingSkill": 225,
+      "foreverTalentLearningRank": 225
+    },
+    {
+      "spellId": "1255003",
+      "name": "Stalker's Mail Bracers",
+      "craftingSkillRequired": 225,
+      "materials": [
+        [
+          "Cured Heavy Hide",
+          4
+        ],
+        [
+          "Thick Leather",
+          12
+        ],
+        [
+          "Elemental Air",
+          4
+        ],
+        [
+          "Heavy Silken Thread",
+          2
+        ],
+        [
+          "Pristine Leather",
+          3
+        ],
+        [
+          "Pristine Hide",
+          6
+        ]
+      ],
+      "materialsVerifiedAgainst": [
+        "Questing.wiki",
+        "Forever Talent"
+      ],
+      "skillAudit": "confirmed-by-recipe-reference",
+      "priorSkillSource": "guildloot-forever-required-skill",
+      "priorSkillReference": "https://guildloot.de/en/beruf/forever/leatherworking/",
+      "questingSkill": 225,
+      "foreverTalentLearningRank": 225
+    },
+    {
+      "spellId": "1255052",
+      "name": "Warden's Leather Bracers",
+      "craftingSkillRequired": 225,
+      "materials": [
+        [
+          "Cured Heavy Hide",
+          4
+        ],
+        [
+          "Thick Leather",
+          12
+        ],
+        [
+          "Elemental Earth",
+          4
+        ],
+        [
+          "Heavy Silken Thread",
+          2
+        ],
+        [
+          "Pristine Leather",
+          3
+        ],
+        [
+          "Pristine Hide",
+          6
+        ]
+      ],
+      "materialsVerifiedAgainst": [
+        "Questing.wiki",
+        "Forever Talent"
+      ],
+      "skillAudit": "confirmed-by-recipe-reference",
+      "priorSkillSource": "guildloot-forever-required-skill",
+      "priorSkillReference": "https://guildloot.de/en/beruf/forever/leatherworking/",
+      "questingSkill": 225,
+      "foreverTalentLearningRank": 225
+    },
+    {
+      "spellId": "10650",
+      "name": "Dragonscale Breastplate",
+      "craftingSkillRequired": 230,
+      "materials": [
+        [
+          "Thick Leather",
+          40
+        ],
+        [
+          "Worn Dragonscale",
+          30
+        ],
+        [
+          "Cured Thick Hide",
+          4
+        ],
+        [
+          "Heavy Silken Thread",
+          4
+        ]
+      ],
+      "materialsVerifiedAgainst": [
+        "Questing.wiki",
+        "Forever Talent"
+      ],
+      "skillAudit": "supported-by-earlier-evidence",
+      "priorSkillSource": "forever-ninja-wclbox-crosscheck",
+      "priorSkillReference": "https://wowforever.ninja/professions/leatherworking/10650-dragonscale-breastplate/",
+      "questingSkill": null,
+      "foreverTalentLearningRank": null
+    },
+    {
+      "spellId": "19050",
+      "name": "Green Dragonscale Breastplate",
+      "craftingSkillRequired": 235,
+      "materials": [
+        [
+          "Rugged Leather",
+          20
+        ],
+        [
+          "Rune Thread",
+          2
+        ],
+        [
+          "Green Dragonscale",
+          25
+        ]
+      ],
+      "materialsVerifiedAgainst": [
+        "Questing.wiki",
+        "Forever Talent"
+      ],
+      "skillAudit": "confirmed-by-recipe-reference",
+      "priorSkillSource": "guildloot-forever-required-skill",
+      "priorSkillReference": "https://guildloot.de/en/beruf/forever/leatherworking/",
+      "questingSkill": 235,
+      "foreverTalentLearningRank": 235
+    },
+    {
+      "spellId": "1255043",
+      "name": "Mender's Leather Boots",
+      "craftingSkillRequired": 235,
+      "materials": [
+        [
+          "Thick Leather",
+          16
+        ],
+        [
+          "Iridescent Pearl",
+          6
+        ],
+        [
+          "Cured Thick Hide",
+          2
+        ],
+        [
+          "Heavy Silken Thread",
+          2
+        ],
+        [
+          "Pristine Leather",
+          4
+        ],
+        [
+          "Pristine Hide",
+          8
+        ]
+      ],
+      "materialsVerifiedAgainst": [
+        "Questing.wiki",
+        "Forever Talent"
+      ],
+      "skillAudit": "confirmed-by-recipe-reference",
+      "priorSkillSource": "guildloot-forever-required-skill",
+      "priorSkillReference": "https://guildloot.de/en/beruf/forever/leatherworking/",
+      "questingSkill": 235,
+      "foreverTalentLearningRank": 235
+    },
+    {
+      "spellId": "1254994",
+      "name": "Mender's Mail Sabatons",
+      "craftingSkillRequired": 235,
+      "materials": [
+        [
+          "Thick Leather",
+          16
+        ],
+        [
+          "Iridescent Pearl",
+          6
+        ],
+        [
+          "Cured Thick Hide",
+          2
+        ],
+        [
+          "Heavy Silken Thread",
+          2
+        ],
+        [
+          "Pristine Leather",
+          4
+        ],
+        [
+          "Pristine Hide",
+          8
+        ]
+      ],
+      "materialsVerifiedAgainst": [
+        "Questing.wiki",
+        "Forever Talent"
+      ],
+      "skillAudit": "confirmed-by-recipe-reference",
+      "priorSkillSource": "guildloot-forever-required-skill",
+      "priorSkillReference": "https://guildloot.de/en/beruf/forever/leatherworking/",
+      "questingSkill": 235,
+      "foreverTalentLearningRank": 235
+    },
+    {
+      "spellId": "1255047",
+      "name": "Prowler's Leather Boots",
+      "craftingSkillRequired": 235,
+      "materials": [
+        [
+          "Jade",
+          6
+        ],
+        [
+          "Thick Leather",
+          16
+        ],
+        [
+          "Cured Thick Hide",
+          2
+        ],
+        [
+          "Heavy Silken Thread",
+          2
+        ],
+        [
+          "Pristine Leather",
+          4
+        ],
+        [
+          "Pristine Hide",
+          8
+        ]
+      ],
+      "materialsVerifiedAgainst": [
+        "Questing.wiki",
+        "Forever Talent"
+      ],
+      "skillAudit": "confirmed-by-recipe-reference",
+      "priorSkillSource": "guildloot-forever-required-skill",
+      "priorSkillReference": "https://guildloot.de/en/beruf/forever/leatherworking/",
+      "questingSkill": 235,
+      "foreverTalentLearningRank": 235
+    },
+    {
+      "spellId": "1254995",
+      "name": "Skirmisher's Mail Sabatons",
+      "craftingSkillRequired": 235,
+      "materials": [
+        [
+          "Citrine",
+          6
+        ],
+        [
+          "Thick Leather",
+          16
+        ],
+        [
+          "Cured Thick Hide",
+          2
+        ],
+        [
+          "Heavy Silken Thread",
+          2
+        ],
+        [
+          "Pristine Leather",
+          4
+        ],
+        [
+          "Pristine Hide",
+          8
+        ]
+      ],
+      "materialsVerifiedAgainst": [
+        "Questing.wiki",
+        "Forever Talent"
+      ],
+      "skillAudit": "confirmed-by-recipe-reference",
+      "priorSkillSource": "guildloot-forever-required-skill",
+      "priorSkillReference": "https://guildloot.de/en/beruf/forever/leatherworking/",
+      "questingSkill": 235,
+      "foreverTalentLearningRank": 235
+    },
+    {
+      "spellId": "1255046",
+      "name": "Skulker's Leather Boots",
+      "craftingSkillRequired": 235,
+      "materials": [
+        [
+          "Spider's Silk",
+          6
+        ],
+        [
+          "Thick Leather",
+          16
+        ],
+        [
+          "Cured Thick Hide",
+          2
+        ],
+        [
+          "Heavy Silken Thread",
+          2
+        ],
+        [
+          "Pristine Leather",
+          4
+        ],
+        [
+          "Pristine Hide",
+          8
+        ]
+      ],
+      "materialsVerifiedAgainst": [
+        "Questing.wiki",
+        "Forever Talent"
+      ],
+      "skillAudit": "confirmed-by-recipe-reference",
+      "priorSkillSource": "guildloot-forever-required-skill",
+      "priorSkillReference": "https://guildloot.de/en/beruf/forever/leatherworking/",
+      "questingSkill": 235,
+      "foreverTalentLearningRank": 235
+    },
+    {
+      "spellId": "1255044",
+      "name": "Skycaller's Leather Boots",
+      "craftingSkillRequired": 235,
+      "materials": [
+        [
+          "Thick Leather",
+          16
+        ],
+        [
+          "Elemental Water",
+          6
+        ],
+        [
+          "Cured Thick Hide",
+          2
+        ],
+        [
+          "Heavy Silken Thread",
+          2
+        ],
+        [
+          "Pristine Leather",
+          4
+        ],
+        [
+          "Pristine Hide",
+          8
+        ]
+      ],
+      "materialsVerifiedAgainst": [
+        "Questing.wiki",
+        "Forever Talent"
+      ],
+      "skillAudit": "confirmed-by-recipe-reference",
+      "priorSkillSource": "guildloot-forever-required-skill",
+      "priorSkillReference": "https://guildloot.de/en/beruf/forever/leatherworking/",
+      "questingSkill": 235,
+      "foreverTalentLearningRank": 235
+    },
+    {
+      "spellId": "1254996",
+      "name": "Skycaller's Mail Sabatons",
+      "craftingSkillRequired": 235,
+      "materials": [
+        [
+          "Thick Leather",
+          16
+        ],
+        [
+          "Elemental Water",
+          6
+        ],
+        [
+          "Cured Thick Hide",
+          2
+        ],
+        [
+          "Heavy Silken Thread",
+          2
+        ],
+        [
+          "Pristine Leather",
+          4
+        ],
+        [
+          "Pristine Hide",
+          8
+        ]
+      ],
+      "materialsVerifiedAgainst": [
+        "Questing.wiki",
+        "Forever Talent"
+      ],
+      "skillAudit": "confirmed-by-recipe-reference",
+      "priorSkillSource": "guildloot-forever-required-skill",
+      "priorSkillReference": "https://guildloot.de/en/beruf/forever/leatherworking/",
+      "questingSkill": 235,
+      "foreverTalentLearningRank": 235
+    },
+    {
+      "spellId": "1254997",
+      "name": "Stalker's Mail Sabatons",
+      "craftingSkillRequired": 235,
+      "materials": [
+        [
+          "Thick Leather",
+          16
+        ],
+        [
+          "Elemental Air",
+          6
+        ],
+        [
+          "Cured Thick Hide",
+          2
+        ],
+        [
+          "Heavy Silken Thread",
+          2
+        ],
+        [
+          "Pristine Leather",
+          4
+        ],
+        [
+          "Pristine Hide",
+          8
+        ]
+      ],
+      "materialsVerifiedAgainst": [
+        "Questing.wiki",
+        "Forever Talent"
+      ],
+      "skillAudit": "confirmed-by-recipe-reference",
+      "priorSkillSource": "guildloot-forever-required-skill",
+      "priorSkillReference": "https://guildloot.de/en/beruf/forever/leatherworking/",
+      "questingSkill": 235,
+      "foreverTalentLearningRank": 235
+    },
+    {
+      "spellId": "1255045",
+      "name": "Warden's Leather Boots",
+      "craftingSkillRequired": 235,
+      "materials": [
+        [
+          "Thick Leather",
+          16
+        ],
+        [
+          "Elemental Earth",
+          6
+        ],
+        [
+          "Cured Thick Hide",
+          2
+        ],
+        [
+          "Heavy Silken Thread",
+          2
+        ],
+        [
+          "Pristine Leather",
+          4
+        ],
+        [
+          "Pristine Hide",
+          8
+        ]
+      ],
+      "materialsVerifiedAgainst": [
+        "Questing.wiki",
+        "Forever Talent"
+      ],
+      "skillAudit": "confirmed-by-recipe-reference",
+      "priorSkillSource": "guildloot-forever-required-skill",
+      "priorSkillReference": "https://guildloot.de/en/beruf/forever/leatherworking/",
+      "questingSkill": 235,
+      "foreverTalentLearningRank": 235
+    },
+    {
+      "spellId": "19060",
+      "name": "Green Dragonscale Leggings",
+      "craftingSkillRequired": 245,
+      "materials": [
+        [
+          "Rugged Leather",
+          20
+        ],
+        [
+          "Rune Thread",
+          1
+        ],
+        [
+          "Green Dragonscale",
+          25
+        ]
+      ],
+      "materialsVerifiedAgainst": [
+        "Questing.wiki",
+        "Forever Talent"
+      ],
+      "skillAudit": "confirmed-by-recipe-reference",
+      "priorSkillSource": "guildloot-forever-required-skill",
+      "priorSkillReference": "https://guildloot.de/en/beruf/forever/leatherworking/",
+      "questingSkill": 245,
+      "foreverTalentLearningRank": 245
+    },
+    {
+      "spellId": "19062",
+      "name": "Ironfeather Shoulders",
+      "craftingSkillRequired": 245,
+      "materials": [
+        [
+          "Jade",
+          2
+        ],
+        [
+          "Rugged Leather",
+          24
+        ],
+        [
+          "Rune Thread",
+          1
+        ],
+        [
+          "Ironfeather",
+          80
+        ]
+      ],
+      "materialsVerifiedAgainst": [
+        "Questing.wiki",
+        "Forever Talent"
+      ],
+      "skillAudit": "confirmed-by-recipe-reference",
+      "priorSkillSource": "guildloot-forever-required-skill",
+      "priorSkillReference": "https://guildloot.de/en/beruf/forever/leatherworking/",
+      "questingSkill": 245,
+      "foreverTalentLearningRank": 245
+    },
+    {
+      "spellId": "19061",
+      "name": "Living Shoulders",
+      "craftingSkillRequired": 245,
+      "materials": [
+        [
+          "Rugged Leather",
+          12
+        ],
+        [
+          "Living Essence",
+          4
+        ],
+        [
+          "Rune Thread",
+          1
+        ]
+      ],
+      "materialsVerifiedAgainst": [
+        "Questing.wiki",
+        "Forever Talent"
+      ],
+      "skillAudit": "confirmed-by-recipe-reference",
+      "priorSkillSource": "guildloot-forever-required-skill",
+      "priorSkillReference": "https://guildloot.de/en/beruf/forever/leatherworking/",
+      "questingSkill": 245,
+      "foreverTalentLearningRank": 245
+    },
+    {
+      "spellId": "16650",
+      "name": "Wildthorn Mail",
+      "craftingSkillRequired": 245,
+      "materials": [
+        [
+          "Wildvine",
+          4
+        ],
+        [
+          "Rugged Leather",
+          40
+        ],
+        [
+          "Huge Emerald",
+          1
+        ],
+        [
+          "Living Essence",
+          4
+        ],
+        [
+          "Enchanted Leather",
+          2
+        ],
+        [
+          "Rune Thread",
+          1
+        ]
+      ],
+      "materialsVerifiedAgainst": [
+        "Questing.wiki",
+        "Forever Talent"
+      ],
+      "skillAudit": "confirmed-by-recipe-reference",
+      "priorSkillSource": "guildloot-forever-required-skill",
+      "priorSkillReference": "https://guildloot.de/en/beruf/forever/leatherworking/",
+      "questingSkill": 245,
+      "foreverTalentLearningRank": 245
+    },
+    {
+      "spellId": "1255036",
+      "name": "Mender's Leather Gauntlets",
+      "craftingSkillRequired": 250,
+      "materials": [
+        [
+          "Thick Leather",
+          16
+        ],
+        [
+          "Iridescent Pearl",
+          4
+        ],
+        [
+          "Cured Thick Hide",
+          2
+        ]
+      ],
+      "materialsVerifiedAgainst": [
+        "Questing.wiki",
+        "Forever Talent"
+      ],
+      "skillAudit": "confirmed-by-recipe-reference",
+      "priorSkillSource": "guildloot-forever-required-skill",
+      "priorSkillReference": "https://guildloot.de/en/beruf/forever/leatherworking/",
+      "questingSkill": 250,
+      "foreverTalentLearningRank": 250
+    },
+    {
+      "spellId": "1255031",
+      "name": "Mender's Leather Waistguard",
+      "craftingSkillRequired": 250,
+      "materials": [
+        [
+          "Iridescent Pearl",
+          8
+        ],
+        [
+          "Rugged Leather",
+          12
+        ],
+        [
+          "Cured Thick Hide",
+          4
+        ],
+        [
+          "Heavy Silken Thread",
+          2
+        ],
+        [
+          "Pristine Leather",
+          5
+        ],
+        [
+          "Pristine Hide",
+          10
+        ]
+      ],
+      "materialsVerifiedAgainst": [
+        "Questing.wiki",
+        "Forever Talent"
+      ],
+      "skillAudit": "confirmed-by-recipe-reference",
+      "priorSkillSource": "guildloot-forever-required-skill",
+      "priorSkillReference": "https://guildloot.de/en/beruf/forever/leatherworking/",
+      "questingSkill": 250,
+      "foreverTalentLearningRank": 250
+    },
+    {
+      "spellId": "1254982",
+      "name": "Mender's Mail Belt",
+      "craftingSkillRequired": 250,
+      "materials": [
+        [
+          "Iridescent Pearl",
+          8
+        ],
+        [
+          "Rugged Leather",
+          12
+        ],
+        [
+          "Cured Thick Hide",
+          4
+        ],
+        [
+          "Heavy Silken Thread",
+          2
+        ],
+        [
+          "Pristine Leather",
+          5
+        ],
+        [
+          "Pristine Hide",
+          10
+        ]
+      ],
+      "materialsVerifiedAgainst": [
+        "Questing.wiki",
+        "Forever Talent"
+      ],
+      "skillAudit": "confirmed-by-recipe-reference",
+      "priorSkillSource": "guildloot-forever-required-skill",
+      "priorSkillReference": "https://guildloot.de/en/beruf/forever/leatherworking/",
+      "questingSkill": 250,
+      "foreverTalentLearningRank": 250
+    },
+    {
+      "spellId": "1254986",
+      "name": "Mender's Mail Gauntlets",
+      "craftingSkillRequired": 250,
+      "materials": [
+        [
+          "Thick Leather",
+          16
+        ],
+        [
+          "Iridescent Pearl",
+          4
+        ],
+        [
+          "Cured Thick Hide",
+          2
+        ]
+      ],
+      "materialsVerifiedAgainst": [
+        "Questing.wiki",
+        "Forever Talent"
+      ],
+      "skillAudit": "confirmed-by-recipe-reference",
+      "priorSkillSource": "guildloot-forever-required-skill",
+      "priorSkillReference": "https://guildloot.de/en/beruf/forever/leatherworking/",
+      "questingSkill": 250,
+      "foreverTalentLearningRank": 250
+    },
+    {
+      "spellId": "1255040",
+      "name": "Prowler's Leather Gauntlets",
+      "craftingSkillRequired": 250,
+      "materials": [
+        [
+          "Jade",
+          4
+        ],
+        [
+          "Thick Leather",
+          16
+        ],
+        [
+          "Cured Thick Hide",
+          2
+        ]
+      ],
+      "materialsVerifiedAgainst": [
+        "Questing.wiki",
+        "Forever Talent"
+      ],
+      "skillAudit": "confirmed-by-recipe-reference",
+      "priorSkillSource": "guildloot-forever-required-skill",
+      "priorSkillReference": "https://guildloot.de/en/beruf/forever/leatherworking/",
+      "questingSkill": 250,
+      "foreverTalentLearningRank": 250
+    },
+    {
+      "spellId": "1255035",
+      "name": "Prowler's Leather Waistguard",
+      "craftingSkillRequired": 250,
+      "materials": [
+        [
+          "Jade",
+          8
+        ],
+        [
+          "Rugged Leather",
+          12
+        ],
+        [
+          "Cured Thick Hide",
+          4
+        ],
+        [
+          "Heavy Silken Thread",
+          2
+        ],
+        [
+          "Pristine Leather",
+          5
+        ],
+        [
+          "Pristine Hide",
+          10
+        ]
+      ],
+      "materialsVerifiedAgainst": [
+        "Questing.wiki",
+        "Forever Talent"
+      ],
+      "skillAudit": "confirmed-by-recipe-reference",
+      "priorSkillSource": "guildloot-forever-required-skill",
+      "priorSkillReference": "https://guildloot.de/en/beruf/forever/leatherworking/",
+      "questingSkill": 250,
+      "foreverTalentLearningRank": 250
+    },
+    {
+      "spellId": "1254983",
+      "name": "Skirmisher's Mail Belt",
+      "craftingSkillRequired": 250,
+      "materials": [
+        [
+          "Citrine",
+          8
+        ],
+        [
+          "Rugged Leather",
+          12
+        ],
+        [
+          "Cured Thick Hide",
+          4
+        ],
+        [
+          "Heavy Silken Thread",
+          2
+        ],
+        [
+          "Pristine Leather",
+          5
+        ],
+        [
+          "Pristine Hide",
+          10
+        ]
+      ],
+      "materialsVerifiedAgainst": [
+        "Questing.wiki",
+        "Forever Talent"
+      ],
+      "skillAudit": "confirmed-by-recipe-reference",
+      "priorSkillSource": "guildloot-forever-required-skill",
+      "priorSkillReference": "https://guildloot.de/en/beruf/forever/leatherworking/",
+      "questingSkill": 250,
+      "foreverTalentLearningRank": 250
+    },
+    {
+      "spellId": "1254987",
+      "name": "Skirmisher's Mail Gauntlets",
+      "craftingSkillRequired": 250,
+      "materials": [
+        [
+          "Citrine",
+          4
+        ],
+        [
+          "Thick Leather",
+          16
+        ],
+        [
+          "Cured Thick Hide",
+          2
+        ]
+      ],
+      "materialsVerifiedAgainst": [
+        "Questing.wiki",
+        "Forever Talent"
+      ],
+      "skillAudit": "confirmed-by-recipe-reference",
+      "priorSkillSource": "guildloot-forever-required-skill",
+      "priorSkillReference": "https://guildloot.de/en/beruf/forever/leatherworking/",
+      "questingSkill": 250,
+      "foreverTalentLearningRank": 250
+    },
+    {
+      "spellId": "1255039",
+      "name": "Skulker's Leather Gauntlets",
+      "craftingSkillRequired": 250,
+      "materials": [
+        [
+          "Spider's Silk",
+          4
+        ],
+        [
+          "Thick Leather",
+          16
+        ],
+        [
+          "Cured Thick Hide",
+          2
+        ]
+      ],
+      "materialsVerifiedAgainst": [
+        "Questing.wiki",
+        "Forever Talent"
+      ],
+      "skillAudit": "confirmed-by-recipe-reference",
+      "priorSkillSource": "guildloot-forever-required-skill",
+      "priorSkillReference": "https://guildloot.de/en/beruf/forever/leatherworking/",
+      "questingSkill": 250,
+      "foreverTalentLearningRank": 250
+    },
+    {
+      "spellId": "1255034",
+      "name": "Skulker's Leather Waistguard",
+      "craftingSkillRequired": 250,
+      "materials": [
+        [
+          "Spider's Silk",
+          8
+        ],
+        [
+          "Rugged Leather",
+          12
+        ],
+        [
+          "Cured Thick Hide",
+          4
+        ],
+        [
+          "Heavy Silken Thread",
+          2
+        ],
+        [
+          "Pristine Leather",
+          5
+        ],
+        [
+          "Pristine Hide",
+          10
+        ]
+      ],
+      "materialsVerifiedAgainst": [
+        "Questing.wiki",
+        "Forever Talent"
+      ],
+      "skillAudit": "confirmed-by-recipe-reference",
+      "priorSkillSource": "guildloot-forever-required-skill",
+      "priorSkillReference": "https://guildloot.de/en/beruf/forever/leatherworking/",
+      "questingSkill": 250,
+      "foreverTalentLearningRank": 250
+    },
+    {
+      "spellId": "1255037",
+      "name": "Skycaller's Leather Gauntlets",
+      "craftingSkillRequired": 250,
+      "materials": [
+        [
+          "Thick Leather",
+          16
+        ],
+        [
+          "Elemental Water",
+          4
+        ],
+        [
+          "Cured Thick Hide",
+          2
+        ]
+      ],
+      "materialsVerifiedAgainst": [
+        "Questing.wiki",
+        "Forever Talent"
+      ],
+      "skillAudit": "confirmed-by-recipe-reference",
+      "priorSkillSource": "guildloot-forever-required-skill",
+      "priorSkillReference": "https://guildloot.de/en/beruf/forever/leatherworking/",
+      "questingSkill": 250,
+      "foreverTalentLearningRank": 250
+    },
+    {
+      "spellId": "1255032",
+      "name": "Skycaller's Leather Waistguard",
+      "craftingSkillRequired": 250,
+      "materials": [
+        [
+          "Elemental Water",
+          8
+        ],
+        [
+          "Rugged Leather",
+          12
+        ],
+        [
+          "Cured Thick Hide",
+          4
+        ],
+        [
+          "Heavy Silken Thread",
+          2
+        ],
+        [
+          "Pristine Leather",
+          5
+        ],
+        [
+          "Pristine Hide",
+          10
+        ]
+      ],
+      "materialsVerifiedAgainst": [
+        "Questing.wiki",
+        "Forever Talent"
+      ],
+      "skillAudit": "confirmed-by-recipe-reference",
+      "priorSkillSource": "guildloot-forever-required-skill",
+      "priorSkillReference": "https://guildloot.de/en/beruf/forever/leatherworking/",
+      "questingSkill": 250,
+      "foreverTalentLearningRank": 250
+    },
+    {
+      "spellId": "1254984",
+      "name": "Skycaller's Mail Belt",
+      "craftingSkillRequired": 250,
+      "materials": [
+        [
+          "Elemental Water",
+          8
+        ],
+        [
+          "Rugged Leather",
+          12
+        ],
+        [
+          "Cured Thick Hide",
+          4
+        ],
+        [
+          "Heavy Silken Thread",
+          2
+        ],
+        [
+          "Pristine Leather",
+          5
+        ],
+        [
+          "Pristine Hide",
+          10
+        ]
+      ],
+      "materialsVerifiedAgainst": [
+        "Questing.wiki",
+        "Forever Talent"
+      ],
+      "skillAudit": "confirmed-by-recipe-reference",
+      "priorSkillSource": "guildloot-forever-required-skill",
+      "priorSkillReference": "https://guildloot.de/en/beruf/forever/leatherworking/",
+      "questingSkill": 250,
+      "foreverTalentLearningRank": 250
+    },
+    {
+      "spellId": "1254988",
+      "name": "Skycaller's Mail Gauntlets",
+      "craftingSkillRequired": 250,
+      "materials": [
+        [
+          "Thick Leather",
+          16
+        ],
+        [
+          "Elemental Water",
+          4
+        ],
+        [
+          "Cured Thick Hide",
+          2
+        ]
+      ],
+      "materialsVerifiedAgainst": [
+        "Questing.wiki",
+        "Forever Talent"
+      ],
+      "skillAudit": "confirmed-by-recipe-reference",
+      "priorSkillSource": "guildloot-forever-required-skill",
+      "priorSkillReference": "https://guildloot.de/en/beruf/forever/leatherworking/",
+      "questingSkill": 250,
+      "foreverTalentLearningRank": 250
+    },
+    {
+      "spellId": "1254985",
+      "name": "Stalker's Mail Belt",
+      "craftingSkillRequired": 250,
+      "materials": [
+        [
+          "Elemental Air",
+          8
+        ],
+        [
+          "Rugged Leather",
+          12
+        ],
+        [
+          "Cured Thick Hide",
+          4
+        ],
+        [
+          "Heavy Silken Thread",
+          2
+        ],
+        [
+          "Pristine Leather",
+          5
+        ],
+        [
+          "Pristine Hide",
+          10
+        ]
+      ],
+      "materialsVerifiedAgainst": [
+        "Questing.wiki",
+        "Forever Talent"
+      ],
+      "skillAudit": "confirmed-by-recipe-reference",
+      "priorSkillSource": "guildloot-forever-required-skill",
+      "priorSkillReference": "https://guildloot.de/en/beruf/forever/leatherworking/",
+      "questingSkill": 250,
+      "foreverTalentLearningRank": 250
+    },
+    {
+      "spellId": "1254989",
+      "name": "Stalker's Mail Gauntlets",
+      "craftingSkillRequired": 250,
+      "materials": [
+        [
+          "Thick Leather",
+          16
+        ],
+        [
+          "Elemental Air",
+          4
+        ],
+        [
+          "Cured Thick Hide",
+          2
+        ]
+      ],
+      "materialsVerifiedAgainst": [
+        "Questing.wiki",
+        "Forever Talent"
+      ],
+      "skillAudit": "confirmed-by-recipe-reference",
+      "priorSkillSource": "guildloot-forever-required-skill",
+      "priorSkillReference": "https://guildloot.de/en/beruf/forever/leatherworking/",
+      "questingSkill": 250,
+      "foreverTalentLearningRank": 250
+    },
+    {
+      "spellId": "19067",
+      "name": "Stormshroud Pants",
+      "craftingSkillRequired": 250,
+      "materials": [
+        [
+          "Essence of Water",
+          2
+        ],
+        [
+          "Essence of Air",
+          2
+        ],
+        [
+          "Rugged Leather",
+          16
+        ],
+        [
+          "Rune Thread",
+          1
+        ]
+      ],
+      "materialsVerifiedAgainst": [
+        "Questing.wiki",
+        "Forever Talent"
+      ],
+      "skillAudit": "confirmed-by-recipe-reference",
+      "priorSkillSource": "guildloot-forever-required-skill",
+      "priorSkillReference": "https://guildloot.de/en/beruf/forever/leatherworking/",
+      "questingSkill": 250,
+      "foreverTalentLearningRank": 250
+    },
+    {
+      "spellId": "19068",
+      "name": "Warbear Harness",
+      "craftingSkillRequired": 250,
+      "materials": [
+        [
+          "Rugged Leather",
+          28
+        ],
+        [
+          "Rune Thread",
+          1
+        ],
+        [
+          "Warbear Leather",
+          12
+        ]
+      ],
+      "materialsVerifiedAgainst": [
+        "Questing.wiki",
+        "Forever Talent"
+      ],
+      "skillAudit": "confirmed-by-recipe-reference",
+      "priorSkillSource": "guildloot-forever-required-skill",
+      "priorSkillReference": "https://guildloot.de/en/beruf/forever/leatherworking/",
+      "questingSkill": 250,
+      "foreverTalentLearningRank": 250
+    },
+    {
+      "spellId": "1255038",
+      "name": "Warden's Leather Gauntlets",
+      "craftingSkillRequired": 250,
+      "materials": [
+        [
+          "Thick Leather",
+          16
+        ],
+        [
+          "Elemental Earth",
+          4
+        ],
+        [
+          "Cured Thick Hide",
+          2
+        ]
+      ],
+      "materialsVerifiedAgainst": [
+        "Questing.wiki",
+        "Forever Talent"
+      ],
+      "skillAudit": "confirmed-by-recipe-reference",
+      "priorSkillSource": "guildloot-forever-required-skill",
+      "priorSkillReference": "https://guildloot.de/en/beruf/forever/leatherworking/",
+      "questingSkill": 250,
+      "foreverTalentLearningRank": 250
+    },
+    {
+      "spellId": "1255033",
+      "name": "Warden's Leather Waistguard",
+      "craftingSkillRequired": 250,
+      "materials": [
+        [
+          "Elemental Earth",
+          8
+        ],
+        [
+          "Rugged Leather",
+          12
+        ],
+        [
+          "Cured Thick Hide",
+          4
+        ],
+        [
+          "Heavy Silken Thread",
+          2
+        ],
+        [
+          "Pristine Leather",
+          5
+        ],
+        [
+          "Pristine Hide",
+          10
+        ]
+      ],
+      "materialsVerifiedAgainst": [
+        "Questing.wiki",
+        "Forever Talent"
+      ],
+      "skillAudit": "confirmed-by-recipe-reference",
+      "priorSkillSource": "guildloot-forever-required-skill",
+      "priorSkillReference": "https://guildloot.de/en/beruf/forever/leatherworking/",
+      "questingSkill": 250,
+      "foreverTalentLearningRank": 250
+    },
+    {
+      "spellId": "24655",
+      "name": "Green Dragonscale Gauntlets",
+      "craftingSkillRequired": 255,
+      "materials": [
+        [
+          "Rugged Leather",
+          20
+        ],
+        [
+          "Rune Thread",
+          2
+        ],
+        [
+          "Cured Rugged Hide",
+          1
+        ],
+        [
+          "Green Dragonscale",
+          30
+        ]
+      ],
+      "materialsVerifiedAgainst": [
+        "Questing.wiki",
+        "Forever Talent"
+      ],
+      "skillAudit": "supported-by-earlier-evidence",
+      "priorSkillSource": "forever-ninja-wclbox-crosscheck",
+      "priorSkillReference": "https://wowforever.ninja/professions/leatherworking/24655-green-dragonscale-gauntlets/",
+      "questingSkill": null,
+      "foreverTalentLearningRank": null
+    },
+    {
+      "spellId": "19077",
+      "name": "Blue Dragonscale Breastplate",
+      "craftingSkillRequired": 260,
+      "materials": [
+        [
+          "Rugged Leather",
+          28
+        ],
+        [
+          "Rune Thread",
+          1
+        ],
+        [
+          "Cured Rugged Hide",
+          1
+        ],
+        [
+          "Blue Dragonscale",
+          30
+        ]
+      ],
+      "materialsVerifiedAgainst": [
+        "Questing.wiki",
+        "Forever Talent"
+      ],
+      "skillAudit": "confirmed-by-recipe-reference",
+      "priorSkillSource": "guildloot-forever-required-skill",
+      "priorSkillReference": "https://guildloot.de/en/beruf/forever/leatherworking/",
+      "questingSkill": 260,
+      "foreverTalentLearningRank": 260
+    },
+    {
+      "spellId": "19078",
+      "name": "Living Leggings",
+      "craftingSkillRequired": 260,
+      "materials": [
+        [
+          "Rugged Leather",
+          16
+        ],
+        [
+          "Living Essence",
+          6
+        ],
+        [
+          "Rune Thread",
+          1
+        ],
+        [
+          "Cured Rugged Hide",
+          1
+        ]
+      ],
+      "materialsVerifiedAgainst": [
+        "Questing.wiki",
+        "Forever Talent"
+      ],
+      "skillAudit": "confirmed-by-recipe-reference",
+      "priorSkillSource": "guildloot-forever-required-skill",
+      "priorSkillReference": "https://guildloot.de/en/beruf/forever/leatherworking/",
+      "questingSkill": 260,
+      "foreverTalentLearningRank": 260
+    },
+    {
+      "spellId": "19079",
+      "name": "Stormshroud Armor",
+      "craftingSkillRequired": 260,
+      "materials": [
+        [
+          "Essence of Water",
+          3
+        ],
+        [
+          "Essence of Air",
+          3
+        ],
+        [
+          "Rugged Leather",
+          16
+        ],
+        [
+          "Rune Thread",
+          1
+        ],
+        [
+          "Cured Rugged Hide",
+          1
+        ]
+      ],
+      "materialsVerifiedAgainst": [
+        "Questing.wiki",
+        "Forever Talent"
+      ],
+      "skillAudit": "confirmed-by-recipe-reference",
+      "priorSkillSource": "guildloot-forever-required-skill",
+      "priorSkillReference": "https://guildloot.de/en/beruf/forever/leatherworking/",
+      "questingSkill": 260,
+      "foreverTalentLearningRank": 260
+    },
+    {
+      "spellId": "19080",
+      "name": "Warbear Woolies",
+      "craftingSkillRequired": 260,
+      "materials": [
+        [
+          "Rugged Leather",
+          24
+        ],
+        [
+          "Rune Thread",
+          1
+        ],
+        [
+          "Warbear Leather",
+          14
+        ]
+      ],
+      "materialsVerifiedAgainst": [
+        "Questing.wiki",
+        "Forever Talent"
+      ],
+      "skillAudit": "confirmed-by-recipe-reference",
+      "priorSkillSource": "guildloot-forever-required-skill",
+      "priorSkillReference": "https://guildloot.de/en/beruf/forever/leatherworking/",
+      "questingSkill": 260,
+      "foreverTalentLearningRank": 260
+    },
+    {
+      "spellId": "19085",
+      "name": "Black Dragonscale Breastplate",
+      "craftingSkillRequired": 265,
+      "materials": [
+        [
+          "Rugged Leather",
+          40
+        ],
+        [
+          "Rune Thread",
+          2
+        ],
+        [
+          "Cured Rugged Hide",
+          1
+        ],
+        [
+          "Black Dragonscale",
+          60
+        ]
+      ],
+      "materialsVerifiedAgainst": [
+        "Questing.wiki",
+        "Forever Talent"
+      ],
+      "skillAudit": "confirmed-by-recipe-reference",
+      "priorSkillSource": "guildloot-forever-required-skill",
+      "priorSkillReference": "https://guildloot.de/en/beruf/forever/leatherworking/",
+      "questingSkill": 265,
+      "foreverTalentLearningRank": 265
+    },
+    {
+      "spellId": "23705",
+      "name": "Dawn Treaders",
+      "craftingSkillRequired": 265,
+      "materials": [
+        [
+          "Essence of Water",
+          4
+        ],
+        [
+          "Rugged Leather",
+          30
+        ],
+        [
+          "Guardian Stone",
+          2
+        ],
+        [
+          "Rune Thread",
+          2
+        ],
+        [
+          "Cured Rugged Hide",
+          2
+        ]
+      ],
+      "materialsVerifiedAgainst": [
+        "Questing.wiki",
+        "Forever Talent"
+      ],
+      "skillAudit": "confirmed-by-recipe-reference",
+      "priorSkillSource": "guildloot-forever-required-skill",
+      "priorSkillReference": "https://guildloot.de/en/beruf/forever/leatherworking/",
+      "questingSkill": 265,
+      "foreverTalentLearningRank": null
+    },
+    {
+      "spellId": "19084",
+      "name": "Devilsaur Gauntlets",
+      "craftingSkillRequired": 265,
+      "materials": [
+        [
+          "Rugged Leather",
+          30
+        ],
+        [
+          "Rune Thread",
+          1
+        ],
+        [
+          "Devilsaur Leather",
+          8
+        ]
+      ],
+      "materialsVerifiedAgainst": [
+        "Questing.wiki",
+        "Forever Talent"
+      ],
+      "skillAudit": "confirmed-by-recipe-reference",
+      "priorSkillSource": "guildloot-forever-required-skill",
+      "priorSkillReference": "https://guildloot.de/en/beruf/forever/leatherworking/",
+      "questingSkill": 265,
+      "foreverTalentLearningRank": 265
+    },
+    {
+      "spellId": "23628",
+      "name": "Heavy Timbermaw Belt",
+      "craftingSkillRequired": 265,
+      "materials": [
+        [
+          "Essence of Earth",
+          3
+        ],
+        [
+          "Rugged Leather",
+          12
+        ],
+        [
+          "Living Essence",
+          3
+        ],
+        [
+          "Rune Thread",
+          1
+        ]
+      ],
+      "materialsVerifiedAgainst": [
+        "Questing.wiki",
+        "Forever Talent"
+      ],
+      "skillAudit": "confirmed-by-recipe-reference",
+      "priorSkillSource": "guildloot-forever-required-skill",
+      "priorSkillReference": "https://guildloot.de/en/beruf/forever/leatherworking/",
+      "questingSkill": 265,
+      "foreverTalentLearningRank": 265
+    },
+    {
+      "spellId": "19086",
+      "name": "Ironfeather Breastplate",
+      "craftingSkillRequired": 265,
+      "materials": [
+        [
+          "Jade",
+          1
+        ],
+        [
+          "Rugged Leather",
+          40
+        ],
+        [
+          "Rune Thread",
+          1
+        ],
+        [
+          "Cured Rugged Hide",
+          1
+        ],
+        [
+          "Ironfeather",
+          120
+        ]
+      ],
+      "materialsVerifiedAgainst": [
+        "Questing.wiki",
+        "Forever Talent"
+      ],
+      "skillAudit": "confirmed-by-recipe-reference",
+      "priorSkillSource": "guildloot-forever-required-skill",
+      "priorSkillReference": "https://guildloot.de/en/beruf/forever/leatherworking/",
+      "questingSkill": 265,
+      "foreverTalentLearningRank": 265
+    },
+    {
+      "spellId": "23703",
+      "name": "Might of the Timbermaw",
+      "craftingSkillRequired": 265,
+      "materials": [
+        [
+          "Rugged Leather",
+          30
+        ],
+        [
+          "Living Essence",
+          4
+        ],
+        [
+          "Powerful Mojo",
+          2
+        ],
+        [
+          "Rune Thread",
+          2
+        ],
+        [
+          "Cured Rugged Hide",
+          2
+        ]
+      ],
+      "materialsVerifiedAgainst": [
+        "Questing.wiki",
+        "Forever Talent"
+      ],
+      "skillAudit": "confirmed-by-recipe-reference",
+      "priorSkillSource": "guildloot-forever-required-skill",
+      "priorSkillReference": "https://guildloot.de/en/beruf/forever/leatherworking/",
+      "questingSkill": 265,
+      "foreverTalentLearningRank": 265
+    },
+    {
+      "spellId": "19094",
+      "name": "Black Dragonscale Shoulders",
+      "craftingSkillRequired": 270,
+      "materials": [
+        [
+          "Rugged Leather",
+          44
+        ],
+        [
+          "Enchanted Leather",
+          2
+        ],
+        [
+          "Rune Thread",
+          1
+        ],
+        [
+          "Cured Rugged Hide",
+          1
+        ],
+        [
+          "Black Dragonscale",
+          45
+        ]
+      ],
+      "materialsVerifiedAgainst": [
+        "Questing.wiki",
+        "Forever Talent"
+      ],
+      "skillAudit": "confirmed-by-recipe-reference",
+      "priorSkillSource": "guildloot-forever-required-skill",
+      "priorSkillReference": "https://guildloot.de/en/beruf/forever/leatherworking/",
+      "questingSkill": 270,
+      "foreverTalentLearningRank": 270
+    },
+    {
+      "spellId": "19089",
+      "name": "Blue Dragonscale Shoulders",
+      "craftingSkillRequired": 270,
+      "materials": [
+        [
+          "Rugged Leather",
+          28
+        ],
+        [
+          "Enchanted Leather",
+          2
+        ],
+        [
+          "Rune Thread",
+          1
+        ],
+        [
+          "Cured Rugged Hide",
+          1
+        ],
+        [
+          "Blue Dragonscale",
+          30
+        ]
+      ],
+      "materialsVerifiedAgainst": [
+        "Questing.wiki",
+        "Forever Talent"
+      ],
+      "skillAudit": "confirmed-by-recipe-reference",
+      "priorSkillSource": "guildloot-forever-required-skill",
+      "priorSkillReference": "https://guildloot.de/en/beruf/forever/leatherworking/",
+      "questingSkill": 270,
+      "foreverTalentLearningRank": 270
+    },
+    {
+      "spellId": "16661",
+      "name": "Storm Gauntlets",
+      "craftingSkillRequired": 270,
+      "materials": [
+        [
+          "Essence of Water",
+          4
+        ],
+        [
+          "Rugged Leather",
+          20
+        ],
+        [
+          "Blue Sapphire",
+          4
+        ],
+        [
+          "Enchanted Leather",
+          4
+        ],
+        [
+          "Rune Thread",
+          1
+        ]
+      ],
+      "materialsVerifiedAgainst": [
+        "Questing.wiki",
+        "Forever Talent"
+      ],
+      "skillAudit": "confirmed-by-recipe-reference",
+      "priorSkillSource": "guildloot-forever-required-skill",
+      "priorSkillReference": "https://guildloot.de/en/beruf/forever/leatherworking/",
+      "questingSkill": 270,
+      "foreverTalentLearningRank": 270
+    },
+    {
+      "spellId": "19090",
+      "name": "Stormshroud Shoulders",
+      "craftingSkillRequired": 270,
+      "materials": [
+        [
+          "Essence of Water",
+          3
+        ],
+        [
+          "Essence of Air",
+          3
+        ],
+        [
+          "Rugged Leather",
+          12
+        ],
+        [
+          "Enchanted Leather",
+          2
+        ],
+        [
+          "Rune Thread",
+          1
+        ]
+      ],
+      "materialsVerifiedAgainst": [
+        "Questing.wiki",
+        "Forever Talent"
+      ],
+      "skillAudit": "confirmed-by-recipe-reference",
+      "priorSkillSource": "guildloot-forever-required-skill",
+      "priorSkillReference": "https://guildloot.de/en/beruf/forever/leatherworking/",
+      "questingSkill": 270,
+      "foreverTalentLearningRank": 270
+    },
+    {
+      "spellId": "1297126",
+      "name": "Bileblister Claws",
+      "craftingSkillRequired": 285,
+      "materials": [
+        [
+          "Essence of Air",
+          3
+        ],
+        [
+          "Rugged Leather",
+          12
+        ],
+        [
+          "Enchanted Leather",
+          3
+        ],
+        [
+          "Rune Thread",
+          6
+        ]
+      ],
+      "materialsVerifiedAgainst": [
+        "Questing.wiki",
+        "Forever Talent"
+      ],
+      "skillAudit": "confirmed-by-recipe-reference",
+      "priorSkillSource": "guildloot-forever-required-skill",
+      "priorSkillReference": "https://guildloot.de/en/beruf/forever/leatherworking/",
+      "questingSkill": 285,
+      "foreverTalentLearningRank": 285
+    },
+    {
+      "spellId": "1297135",
+      "name": "Broodwatcher's Clenchers",
+      "craftingSkillRequired": 285,
+      "materials": [
+        [
+          "Essence of Water",
+          3
+        ],
+        [
+          "Enchanted Leather",
+          3
+        ],
+        [
+          "Rune Thread",
+          6
+        ],
+        [
+          "Heavy Scorpid Scale",
+          5
+        ]
+      ],
+      "materialsVerifiedAgainst": [
+        "Questing.wiki",
+        "Forever Talent"
+      ],
+      "skillAudit": "confirmed-by-recipe-reference",
+      "priorSkillSource": "guildloot-forever-required-skill",
+      "priorSkillReference": "https://guildloot.de/en/beruf/forever/leatherworking/",
+      "questingSkill": 285,
+      "foreverTalentLearningRank": 285
+    },
+    {
+      "spellId": "1297129",
+      "name": "Hivethrasher's Claws",
+      "craftingSkillRequired": 285,
+      "materials": [
+        [
+          "Essence of Earth",
+          3
+        ],
+        [
+          "Rugged Leather",
+          12
+        ],
+        [
+          "Enchanted Leather",
+          3
+        ],
+        [
+          "Rune Thread",
+          6
+        ]
+      ],
+      "materialsVerifiedAgainst": [
+        "Questing.wiki",
+        "Forever Talent"
+      ],
+      "skillAudit": "confirmed-by-recipe-reference",
+      "priorSkillSource": "guildloot-forever-required-skill",
+      "priorSkillReference": "https://guildloot.de/en/beruf/forever/leatherworking/",
+      "questingSkill": 285,
+      "foreverTalentLearningRank": 285
+    },
+    {
+      "spellId": "1297132",
+      "name": "Scalegut Clenchers",
+      "craftingSkillRequired": 285,
+      "materials": [
+        [
+          "Essence of Fire",
+          3
+        ],
+        [
+          "Enchanted Leather",
+          3
+        ],
+        [
+          "Rune Thread",
+          6
+        ],
+        [
+          "Heavy Scorpid Scale",
+          5
+        ]
+      ],
+      "materialsVerifiedAgainst": [
+        "Questing.wiki",
+        "Forever Talent"
+      ],
+      "skillAudit": "confirmed-by-recipe-reference",
+      "priorSkillSource": "guildloot-forever-required-skill",
+      "priorSkillReference": "https://guildloot.de/en/beruf/forever/leatherworking/",
+      "questingSkill": 285,
+      "foreverTalentLearningRank": 285
+    },
+    {
+      "spellId": "1297127",
+      "name": "Bileblister Girdle",
+      "craftingSkillRequired": 290,
+      "materials": [
+        [
+          "Essence of Air",
+          3
+        ],
+        [
+          "Rugged Leather",
+          18
+        ],
+        [
+          "Enchanted Leather",
+          3
+        ],
+        [
+          "Rune Thread",
+          6
+        ]
+      ],
+      "materialsVerifiedAgainst": [
+        "Questing.wiki",
+        "Forever Talent"
+      ],
+      "skillAudit": "confirmed-by-recipe-reference",
+      "priorSkillSource": "guildloot-forever-required-skill",
+      "priorSkillReference": "https://guildloot.de/en/beruf/forever/leatherworking/",
+      "questingSkill": 290,
+      "foreverTalentLearningRank": 290
+    },
+    {
+      "spellId": "19107",
+      "name": "Black Dragonscale Leggings",
+      "craftingSkillRequired": 290,
+      "materials": [
+        [
+          "Rugged Leather",
+          40
+        ],
+        [
+          "Enchanted Leather",
+          4
+        ],
+        [
+          "Rune Thread",
+          2
+        ],
+        [
+          "Cured Rugged Hide",
+          1
+        ],
+        [
+          "Black Dragonscale",
+          60
+        ]
+      ],
+      "materialsVerifiedAgainst": [
+        "Questing.wiki",
+        "Forever Talent"
+      ],
+      "skillAudit": "confirmed-by-recipe-reference",
+      "priorSkillSource": "guildloot-forever-required-skill",
+      "priorSkillReference": "https://guildloot.de/en/beruf/forever/leatherworking/",
+      "questingSkill": 290,
+      "foreverTalentLearningRank": 290
+    },
+    {
+      "spellId": "24654",
+      "name": "Blue Dragonscale Leggings",
+      "craftingSkillRequired": 290,
+      "materials": [
+        [
+          "Rugged Leather",
+          28
+        ],
+        [
+          "Rune Thread",
+          2
+        ],
+        [
+          "Cured Rugged Hide",
+          2
+        ],
+        [
+          "Blue Dragonscale",
+          36
+        ]
+      ],
+      "materialsVerifiedAgainst": [
+        "Questing.wiki",
+        "Forever Talent"
+      ],
+      "skillAudit": "supported-by-earlier-evidence",
+      "priorSkillSource": "forever-ninja-wclbox-crosscheck",
+      "priorSkillReference": "https://wowforever.ninja/professions/leatherworking/24654-blue-dragonscale-leggings/",
+      "questingSkill": null,
+      "foreverTalentLearningRank": null
+    },
+    {
+      "spellId": "1297136",
+      "name": "Broodwatcher's Belt",
+      "craftingSkillRequired": 290,
+      "materials": [
+        [
+          "Essence of Water",
+          3
+        ],
+        [
+          "Enchanted Leather",
+          3
+        ],
+        [
+          "Rune Thread",
+          6
+        ],
+        [
+          "Heavy Scorpid Scale",
+          7
+        ]
+      ],
+      "materialsVerifiedAgainst": [
+        "Questing.wiki",
+        "Forever Talent"
+      ],
+      "skillAudit": "confirmed-by-recipe-reference",
+      "priorSkillSource": "guildloot-forever-required-skill",
+      "priorSkillReference": "https://guildloot.de/en/beruf/forever/leatherworking/",
+      "questingSkill": 290,
+      "foreverTalentLearningRank": 290
+    },
+    {
+      "spellId": "19097",
+      "name": "Devilsaur Leggings",
+      "craftingSkillRequired": 290,
+      "materials": [
+        [
+          "Rugged Leather",
+          30
+        ],
+        [
+          "Rune Thread",
+          1
+        ],
+        [
+          "Cured Rugged Hide",
+          1
+        ],
+        [
+          "Devilsaur Leather",
+          14
+        ]
+      ],
+      "materialsVerifiedAgainst": [
+        "Questing.wiki",
+        "Forever Talent"
+      ],
+      "skillAudit": "confirmed-by-recipe-reference",
+      "priorSkillSource": "guildloot-forever-required-skill",
+      "priorSkillReference": "https://guildloot.de/en/beruf/forever/leatherworking/",
+      "questingSkill": 290,
+      "foreverTalentLearningRank": 290
+    },
+    {
+      "spellId": "22921",
+      "name": "Girdle of Insight",
+      "craftingSkillRequired": 290,
+      "materials": [
+        [
+          "Rugged Leather",
+          12
+        ],
+        [
+          "Powerful Mojo",
+          12
+        ],
+        [
+          "Rune Thread",
+          4
+        ],
+        [
+          "Cured Rugged Hide",
+          2
+        ]
+      ],
+      "materialsVerifiedAgainst": [
+        "Questing.wiki",
+        "Forever Talent"
+      ],
+      "skillAudit": "confirmed-by-recipe-reference",
+      "priorSkillSource": "guildloot-forever-required-skill",
+      "priorSkillReference": "https://guildloot.de/en/beruf/forever/leatherworking/",
+      "questingSkill": 290,
+      "foreverTalentLearningRank": 290
+    },
+    {
+      "spellId": "16728",
+      "name": "Helm of the Great Chief",
+      "craftingSkillRequired": 290,
+      "materials": [
+        [
+          "Jet Black Feather",
+          60
+        ],
+        [
+          "Rugged Leather",
+          40
+        ],
+        [
+          "Huge Emerald",
+          2
+        ],
+        [
+          "Large Opal",
+          6
+        ],
+        [
+          "Enchanted Leather",
+          4
+        ],
+        [
+          "Rune Thread",
+          1
+        ]
+      ],
+      "materialsVerifiedAgainst": [
+        "Questing.wiki",
+        "Forever Talent"
+      ],
+      "skillAudit": "confirmed-by-recipe-reference",
+      "priorSkillSource": "guildloot-forever-required-skill",
+      "priorSkillReference": "https://guildloot.de/en/beruf/forever/leatherworking/",
+      "questingSkill": 290,
+      "foreverTalentLearningRank": 290
+    },
+    {
+      "spellId": "1297130",
+      "name": "Hivethrasher's Girdle",
+      "craftingSkillRequired": 290,
+      "materials": [
+        [
+          "Essence of Earth",
+          3
+        ],
+        [
+          "Rugged Leather",
+          18
+        ],
+        [
+          "Enchanted Leather",
+          3
+        ],
+        [
+          "Rune Thread",
+          6
+        ]
+      ],
+      "materialsVerifiedAgainst": [
+        "Questing.wiki",
+        "Forever Talent"
+      ],
+      "skillAudit": "confirmed-by-recipe-reference",
+      "priorSkillSource": "guildloot-forever-required-skill",
+      "priorSkillReference": "https://guildloot.de/en/beruf/forever/leatherworking/",
+      "questingSkill": 290,
+      "foreverTalentLearningRank": 290
+    },
+    {
+      "spellId": "19095",
+      "name": "Living Breastplate",
+      "craftingSkillRequired": 290,
+      "materials": [
+        [
+          "Rugged Leather",
+          16
+        ],
+        [
+          "Living Essence",
+          8
+        ],
+        [
+          "Rune Thread",
+          2
+        ],
+        [
+          "Mooncloth",
+          2
+        ],
+        [
+          "Cured Rugged Hide",
+          1
+        ]
+      ],
+      "materialsVerifiedAgainst": [
+        "Questing.wiki",
+        "Forever Talent"
+      ],
+      "skillAudit": "confirmed-by-recipe-reference",
+      "priorSkillSource": "guildloot-forever-required-skill",
+      "priorSkillReference": "https://guildloot.de/en/beruf/forever/leatherworking/",
+      "questingSkill": 290,
+      "foreverTalentLearningRank": 290
+    },
+    {
+      "spellId": "22922",
+      "name": "Mongoose Boots",
+      "craftingSkillRequired": 290,
+      "materials": [
+        [
+          "Essence of Air",
+          6
+        ],
+        [
+          "Rugged Leather",
+          12
+        ],
+        [
+          "Black Diamond",
+          4
+        ],
+        [
+          "Rune Thread",
+          4
+        ],
+        [
+          "Cured Rugged Hide",
+          2
+        ]
+      ],
+      "materialsVerifiedAgainst": [
+        "Questing.wiki",
+        "Forever Talent"
+      ],
+      "skillAudit": "confirmed-by-recipe-reference",
+      "priorSkillSource": "guildloot-forever-required-skill",
+      "priorSkillReference": "https://guildloot.de/en/beruf/forever/leatherworking/",
+      "questingSkill": 290,
+      "foreverTalentLearningRank": 290
+    },
+    {
+      "spellId": "19054",
+      "name": "Red Dragonscale Breastplate",
+      "craftingSkillRequired": 290,
+      "materials": [
+        [
+          "Rugged Leather",
+          40
+        ],
+        [
+          "Rune Thread",
+          1
+        ],
+        [
+          "Red Dragonscale",
+          30
+        ]
+      ],
+      "materialsVerifiedAgainst": [
+        "Questing.wiki",
+        "Forever Talent"
+      ],
+      "skillAudit": "confirmed-by-recipe-reference",
+      "priorSkillSource": "guildloot-forever-required-skill",
+      "priorSkillReference": "https://guildloot.de/en/beruf/forever/leatherworking/",
+      "questingSkill": 290,
+      "foreverTalentLearningRank": 290
+    },
+    {
+      "spellId": "1297133",
+      "name": "Scalegut Belt",
+      "craftingSkillRequired": 290,
+      "materials": [
+        [
+          "Essence of Fire",
+          3
+        ],
+        [
+          "Enchanted Leather",
+          3
+        ],
+        [
+          "Rune Thread",
+          6
+        ],
+        [
+          "Heavy Scorpid Scale",
+          7
+        ]
+      ],
+      "materialsVerifiedAgainst": [
+        "Questing.wiki",
+        "Forever Talent"
+      ],
+      "skillAudit": "confirmed-by-recipe-reference",
+      "priorSkillSource": "guildloot-forever-required-skill",
+      "priorSkillReference": "https://guildloot.de/en/beruf/forever/leatherworking/",
+      "questingSkill": 290,
+      "foreverTalentLearningRank": 290
+    },
+    {
+      "spellId": "26279",
+      "name": "Stormshroud Gloves",
+      "craftingSkillRequired": 290,
+      "materials": [
+        [
+          "Essence of Water",
+          4
+        ],
+        [
+          "Essence of Air",
+          4
+        ],
+        [
+          "Enchanted Leather",
+          6
+        ],
+        [
+          "Ironweb Spider Silk",
+          2
+        ],
+        [
+          "Cured Rugged Hide",
+          2
+        ]
+      ],
+      "materialsVerifiedAgainst": [
+        "Questing.wiki",
+        "Forever Talent"
+      ],
+      "skillAudit": "confirmed-by-recipe-reference",
+      "priorSkillSource": "guildloot-forever-required-skill",
+      "priorSkillReference": "https://guildloot.de/en/beruf/forever/leatherworking/",
+      "questingSkill": 290,
+      "foreverTalentLearningRank": 290
+    },
+    {
+      "spellId": "22923",
+      "name": "Swift Flight Bracers",
+      "craftingSkillRequired": 290,
+      "materials": [
+        [
+          "Rugged Leather",
+          12
+        ],
+        [
+          "Rune Thread",
+          4
+        ],
+        [
+          "Cured Rugged Hide",
+          4
+        ],
+        [
+          "Ironfeather",
+          60
+        ],
+        [
+          "Larval Acid",
+          8
+        ]
+      ],
+      "materialsVerifiedAgainst": [
+        "Questing.wiki",
+        "Forever Talent"
+      ],
+      "skillAudit": "confirmed-by-recipe-reference",
+      "priorSkillSource": "guildloot-forever-required-skill",
+      "priorSkillReference": "https://guildloot.de/en/beruf/forever/leatherworking/",
+      "questingSkill": 290,
+      "foreverTalentLearningRank": 290
+    },
+    {
+      "spellId": "1297128",
+      "name": "Bileblister Boots",
+      "craftingSkillRequired": 295,
+      "materials": [
+        [
+          "Essence of Air",
+          3
+        ],
+        [
+          "Rugged Leather",
+          15
+        ],
+        [
+          "Enchanted Leather",
+          3
+        ],
+        [
+          "Rune Thread",
+          6
+        ]
+      ],
+      "materialsVerifiedAgainst": [
+        "Questing.wiki",
+        "Forever Talent"
+      ],
+      "skillAudit": "confirmed-by-recipe-reference",
+      "priorSkillSource": "guildloot-forever-required-skill",
+      "priorSkillReference": "https://guildloot.de/en/beruf/forever/leatherworking/",
+      "questingSkill": 295,
+      "foreverTalentLearningRank": 295
+    },
+    {
+      "spellId": "1297137",
+      "name": "Broodwatcher's Treaders",
+      "craftingSkillRequired": 295,
+      "materials": [
+        [
+          "Essence of Water",
+          3
+        ],
+        [
+          "Enchanted Leather",
+          3
+        ],
+        [
+          "Rune Thread",
+          6
+        ],
+        [
+          "Heavy Scorpid Scale",
+          6
+        ]
+      ],
+      "materialsVerifiedAgainst": [
+        "Questing.wiki",
+        "Forever Talent"
+      ],
+      "skillAudit": "confirmed-by-recipe-reference",
+      "priorSkillSource": "guildloot-forever-required-skill",
+      "priorSkillReference": "https://guildloot.de/en/beruf/forever/leatherworking/",
+      "questingSkill": 295,
+      "foreverTalentLearningRank": 295
+    },
+    {
+      "spellId": "23706",
+      "name": "Golden Mantle of the Dawn",
+      "craftingSkillRequired": 295,
+      "materials": [
+        [
+          "Living Essence",
+          4
+        ],
+        [
+          "Guardian Stone",
+          4
+        ],
+        [
+          "Enchanted Leather",
+          8
+        ],
+        [
+          "Rune Thread",
+          2
+        ],
+        [
+          "Cured Rugged Hide",
+          2
+        ]
+      ],
+      "materialsVerifiedAgainst": [
+        "Questing.wiki",
+        "Forever Talent"
+      ],
+      "skillAudit": "confirmed-by-recipe-reference",
+      "priorSkillSource": "guildloot-forever-required-skill",
+      "priorSkillReference": "https://guildloot.de/en/beruf/forever/leatherworking/",
+      "questingSkill": 295,
+      "foreverTalentLearningRank": null
+    },
+    {
+      "spellId": "23629",
+      "name": "Heavy Timbermaw Boots",
+      "craftingSkillRequired": 295,
+      "materials": [
+        [
+          "Essence of Earth",
+          6
+        ],
+        [
+          "Rugged Leather",
+          20
+        ],
+        [
+          "Living Essence",
+          6
+        ],
+        [
+          "Rune Thread",
+          1
+        ]
+      ],
+      "materialsVerifiedAgainst": [
+        "Questing.wiki",
+        "Forever Talent"
+      ],
+      "skillAudit": "confirmed-by-recipe-reference",
+      "priorSkillSource": "guildloot-forever-required-skill",
+      "priorSkillReference": "https://guildloot.de/en/beruf/forever/leatherworking/",
+      "questingSkill": 295,
+      "foreverTalentLearningRank": 295
+    },
+    {
+      "spellId": "1297131",
+      "name": "Hivethrasher's Boots",
+      "craftingSkillRequired": 295,
+      "materials": [
+        [
+          "Essence of Earth",
+          3
+        ],
+        [
+          "Rugged Leather",
+          15
+        ],
+        [
+          "Enchanted Leather",
+          3
+        ],
+        [
+          "Rune Thread",
+          6
+        ]
+      ],
+      "materialsVerifiedAgainst": [
+        "Questing.wiki",
+        "Forever Talent"
+      ],
+      "skillAudit": "confirmed-by-recipe-reference",
+      "priorSkillSource": "guildloot-forever-required-skill",
+      "priorSkillReference": "https://guildloot.de/en/beruf/forever/leatherworking/",
+      "questingSkill": 295,
+      "foreverTalentLearningRank": 295
+    },
+    {
+      "spellId": "1297134",
+      "name": "Scalegut Treaders",
+      "craftingSkillRequired": 295,
+      "materials": [
+        [
+          "Essence of Fire",
+          3
+        ],
+        [
+          "Enchanted Leather",
+          3
+        ],
+        [
+          "Rune Thread",
+          6
+        ],
+        [
+          "Heavy Scorpid Scale",
+          6
+        ]
+      ],
+      "materialsVerifiedAgainst": [
+        "Questing.wiki",
+        "Forever Talent"
+      ],
+      "skillAudit": "confirmed-by-recipe-reference",
+      "priorSkillSource": "guildloot-forever-required-skill",
+      "priorSkillReference": "https://guildloot.de/en/beruf/forever/leatherworking/",
+      "questingSkill": 295,
+      "foreverTalentLearningRank": 295
+    },
+    {
+      "spellId": "23704",
+      "name": "Timbermaw Brawlers",
+      "craftingSkillRequired": 295,
+      "materials": [
+        [
+          "Living Essence",
+          6
+        ],
+        [
+          "Powerful Mojo",
+          6
+        ],
+        [
+          "Enchanted Leather",
+          8
+        ],
+        [
+          "Ironweb Spider Silk",
+          2
+        ],
+        [
+          "Cured Rugged Hide",
+          2
+        ]
+      ],
+      "materialsVerifiedAgainst": [
+        "Questing.wiki",
+        "Forever Talent"
+      ],
+      "skillAudit": "confirmed-by-recipe-reference",
+      "priorSkillSource": "guildloot-forever-required-skill",
+      "priorSkillReference": "https://guildloot.de/en/beruf/forever/leatherworking/",
+      "questingSkill": 295,
+      "foreverTalentLearningRank": 295
+    },
+    {
+      "spellId": "24124",
+      "name": "Blood Tiger Breastplate",
+      "craftingSkillRequired": 300,
+      "materials": [
+        [
+          "Rune Thread",
+          3
+        ],
+        [
+          "Cured Rugged Hide",
+          3
+        ],
+        [
+          "Bloodvine",
+          2
+        ],
+        [
+          "Primal Tiger Leather",
+          35
+        ]
+      ],
+      "materialsVerifiedAgainst": [
+        "Questing.wiki",
+        "Forever Talent"
+      ],
+      "skillAudit": "confirmed-by-recipe-reference",
+      "priorSkillSource": "guildloot-forever-required-skill",
+      "priorSkillReference": "https://guildloot.de/en/beruf/forever/leatherworking/",
+      "questingSkill": 300,
+      "foreverTalentLearningRank": 300
+    },
+    {
+      "spellId": "24125",
+      "name": "Blood Tiger Shoulders",
+      "craftingSkillRequired": 300,
+      "materials": [
+        [
+          "Rune Thread",
+          3
+        ],
+        [
+          "Cured Rugged Hide",
+          3
+        ],
+        [
+          "Bloodvine",
+          2
+        ],
+        [
+          "Primal Tiger Leather",
+          25
+        ]
+      ],
+      "materialsVerifiedAgainst": [
+        "Questing.wiki",
+        "Forever Talent"
+      ],
+      "skillAudit": "confirmed-by-recipe-reference",
+      "priorSkillSource": "guildloot-forever-required-skill",
+      "priorSkillReference": "https://guildloot.de/en/beruf/forever/leatherworking/",
+      "questingSkill": 300,
+      "foreverTalentLearningRank": 300
+    },
+    {
+      "spellId": "28474",
+      "name": "Bramblewood Belt",
+      "craftingSkillRequired": 300,
+      "materials": [
+        [
+          "Living Essence",
+          2
+        ],
+        [
+          "Enchanted Leather",
+          4
+        ],
+        [
+          "Cured Rugged Hide",
+          1
+        ]
+      ],
+      "materialsVerifiedAgainst": [
+        "Questing.wiki",
+        "Forever Talent"
+      ],
+      "skillAudit": "supported-by-earlier-evidence",
+      "priorSkillSource": "checked-forever-correction",
+      "priorSkillReference": "https://metabot.gg/en/wow-forever/items/bramblewood-belt",
+      "questingSkill": null,
+      "foreverTalentLearningRank": null
+    },
+    {
+      "spellId": "28473",
+      "name": "Bramblewood Boots",
+      "craftingSkillRequired": 300,
+      "materials": [
+        [
+          "Living Essence",
+          2
+        ],
+        [
+          "Enchanted Leather",
+          6
+        ],
+        [
+          "Cured Rugged Hide",
+          2
+        ],
+        [
+          "Larval Acid",
+          2
+        ]
+      ],
+      "materialsVerifiedAgainst": [
+        "Questing.wiki",
+        "Forever Talent"
+      ],
+      "skillAudit": "supported-by-earlier-evidence",
+      "priorSkillSource": "checked-forever-correction",
+      "priorSkillReference": "https://metabot.gg/en/wow-forever/items/bramblewood-boots",
+      "questingSkill": null,
+      "foreverTalentLearningRank": null
+    },
+    {
+      "spellId": "28472",
+      "name": "Bramblewood Helm",
+      "craftingSkillRequired": 300,
+      "materials": [
+        [
+          "Living Essence",
+          2
+        ],
+        [
+          "Enchanted Leather",
+          12
+        ],
+        [
+          "Cured Rugged Hide",
+          2
+        ],
+        [
+          "Bloodvine",
+          2
+        ]
+      ],
+      "materialsVerifiedAgainst": [
+        "Questing.wiki",
+        "Forever Talent"
+      ],
+      "skillAudit": "supported-by-earlier-evidence",
+      "priorSkillSource": "checked-forever-correction",
+      "priorSkillReference": "https://metabot.gg/en/wow-forever/items/bramblewood-helm",
+      "questingSkill": null,
+      "foreverTalentLearningRank": null
+    },
+    {
+      "spellId": "22727",
+      "name": "Core Armor Kit",
+      "craftingSkillRequired": 300,
+      "materials": [
+        [
+          "Rune Thread",
+          2
+        ],
+        [
+          "Core Leather",
+          3
+        ]
+      ],
+      "materialsVerifiedAgainst": [
+        "Questing.wiki",
+        "Forever Talent"
+      ],
+      "skillAudit": "confirmed-by-recipe-reference",
+      "priorSkillSource": "guildloot-forever-required-skill",
+      "priorSkillReference": "https://guildloot.de/en/beruf/forever/leatherworking/",
+      "questingSkill": 300,
+      "foreverTalentLearningRank": 300
+    },
+    {
+      "spellId": "19093",
+      "name": "Onyxia Scale Cloak",
+      "craftingSkillRequired": 300,
+      "materials": [
+        [
+          "Cindercloth Cloak",
+          1
+        ],
+        [
+          "Rune Thread",
+          1
+        ],
+        [
+          "Scale of Onyxia",
+          1
+        ]
+      ],
+      "materialsVerifiedAgainst": [
+        "Questing.wiki",
+        "Forever Talent"
+      ],
+      "skillAudit": "supported-by-earlier-evidence",
+      "priorSkillSource": "guildloot-forever-required-skill",
+      "priorSkillReference": "https://guildloot.de/en/beruf/forever/leatherworking/",
+      "questingSkill": null,
+      "foreverTalentLearningRank": null
+    },
+    {
+      "spellId": "24123",
+      "name": "Primal Batskin Bracers",
+      "craftingSkillRequired": 300,
+      "materials": [
+        [
+          "Living Essence",
+          4
+        ],
+        [
+          "Rune Thread",
+          3
+        ],
+        [
+          "Cured Rugged Hide",
+          3
+        ],
+        [
+          "Primal Bat Leather",
+          8
+        ]
+      ],
+      "materialsVerifiedAgainst": [
+        "Questing.wiki",
+        "Forever Talent"
+      ],
+      "skillAudit": "confirmed-by-recipe-reference",
+      "priorSkillSource": "guildloot-forever-required-skill",
+      "priorSkillReference": "https://guildloot.de/en/beruf/forever/leatherworking/",
+      "questingSkill": 300,
+      "foreverTalentLearningRank": 300
+    },
+    {
+      "spellId": "24122",
+      "name": "Primal Batskin Gloves",
+      "craftingSkillRequired": 300,
+      "materials": [
+        [
+          "Living Essence",
+          4
+        ],
+        [
+          "Rune Thread",
+          3
+        ],
+        [
+          "Cured Rugged Hide",
+          4
+        ],
+        [
+          "Primal Bat Leather",
+          10
+        ]
+      ],
+      "materialsVerifiedAgainst": [
+        "Questing.wiki",
+        "Forever Talent"
+      ],
+      "skillAudit": "confirmed-by-recipe-reference",
+      "priorSkillSource": "guildloot-forever-required-skill",
+      "priorSkillReference": "https://guildloot.de/en/beruf/forever/leatherworking/",
+      "questingSkill": 300,
+      "foreverTalentLearningRank": 300
+    },
+    {
+      "spellId": "24121",
+      "name": "Primal Batskin Jerkin",
+      "craftingSkillRequired": 300,
+      "materials": [
+        [
+          "Living Essence",
+          4
+        ],
+        [
+          "Rune Thread",
+          4
+        ],
+        [
+          "Cured Rugged Hide",
+          5
+        ],
+        [
+          "Primal Bat Leather",
+          14
+        ]
+      ],
+      "materialsVerifiedAgainst": [
+        "Questing.wiki",
+        "Forever Talent"
+      ],
+      "skillAudit": "confirmed-by-recipe-reference",
+      "priorSkillSource": "guildloot-forever-required-skill",
+      "priorSkillReference": "https://guildloot.de/en/beruf/forever/leatherworking/",
+      "questingSkill": 300,
+      "foreverTalentLearningRank": 300
+    },
+    {
+      "spellId": "24849",
+      "name": "Sandstalker Bracers",
+      "craftingSkillRequired": 300,
+      "materials": [
+        [
+          "Larval Acid",
+          2
+        ],
+        [
+          "Silithid Chitin",
+          20
+        ],
+        [
+          "Heavy Silithid Carapace",
+          1
+        ]
+      ],
+      "materialsVerifiedAgainst": [
+        "Questing.wiki",
+        "Forever Talent"
+      ],
+      "skillAudit": "supported-by-earlier-evidence",
+      "priorSkillSource": "checked-forever-correction",
+      "priorSkillReference": "https://senseos.gg/wiki/wow-forever/items/20509/pattern-sandstalker-bracers/",
+      "questingSkill": null,
+      "foreverTalentLearningRank": null
+    },
+    {
+      "spellId": "24851",
+      "name": "Sandstalker Breastplate",
+      "craftingSkillRequired": 300,
+      "materials": [
+        [
+          "Cured Rugged Hide",
+          2
+        ],
+        [
+          "Larval Acid",
+          2
+        ],
+        [
+          "Silithid Chitin",
+          40
+        ],
+        [
+          "Heavy Silithid Carapace",
+          3
+        ]
+      ],
+      "materialsVerifiedAgainst": [
+        "Questing.wiki",
+        "Forever Talent"
+      ],
+      "skillAudit": "supported-by-earlier-evidence",
+      "priorSkillSource": "checked-forever-correction",
+      "priorSkillReference": "https://www.wowhead.com/forever/item=20511/pattern-sandstalker-breastplate",
+      "questingSkill": null,
+      "foreverTalentLearningRank": null
+    },
+    {
+      "spellId": "24850",
+      "name": "Sandstalker Gauntlets",
+      "craftingSkillRequired": 300,
+      "materials": [
+        [
+          "Cured Rugged Hide",
+          1
+        ],
+        [
+          "Larval Acid",
+          2
+        ],
+        [
+          "Silithid Chitin",
+          30
+        ],
+        [
+          "Heavy Silithid Carapace",
+          2
+        ]
+      ],
+      "materialsVerifiedAgainst": [
+        "Questing.wiki",
+        "Forever Talent"
+      ],
+      "skillAudit": "supported-by-earlier-evidence",
+      "priorSkillSource": "checked-forever-correction",
+      "priorSkillReference": "https://www.wowhead.com/forever/item=20510/pattern-sandstalker-gauntlets",
+      "questingSkill": null,
+      "foreverTalentLearningRank": null
+    },
+    {
+      "spellId": "24846",
+      "name": "Spitfire Bracers",
+      "craftingSkillRequired": 300,
+      "materials": [
+        [
+          "Essence of Fire",
+          2
+        ],
+        [
+          "Silithid Chitin",
+          20
+        ],
+        [
+          "Light Silithid Carapace",
+          1
+        ]
+      ],
+      "materialsVerifiedAgainst": [
+        "Questing.wiki",
+        "Forever Talent"
+      ],
+      "skillAudit": "supported-by-earlier-evidence",
+      "priorSkillSource": "checked-forever-correction",
+      "priorSkillReference": "https://www.wowhead.com/forever/item=20506/pattern-spitfire-bracers",
+      "questingSkill": null,
+      "foreverTalentLearningRank": null
+    },
+    {
+      "spellId": "24848",
+      "name": "Spitfire Breastplate",
+      "craftingSkillRequired": 300,
+      "materials": [
+        [
+          "Essence of Fire",
+          2
+        ],
+        [
+          "Cured Rugged Hide",
+          2
+        ],
+        [
+          "Silithid Chitin",
+          40
+        ],
+        [
+          "Light Silithid Carapace",
+          3
+        ]
+      ],
+      "materialsVerifiedAgainst": [
+        "Questing.wiki",
+        "Forever Talent"
+      ],
+      "skillAudit": "supported-by-earlier-evidence",
+      "priorSkillSource": "checked-forever-correction",
+      "priorSkillReference": "https://www.wowhead.com/forever/item=20508/pattern-spitfire-breastplate",
+      "questingSkill": null,
+      "foreverTalentLearningRank": null
+    },
+    {
+      "spellId": "24847",
+      "name": "Spitfire Gauntlets",
+      "craftingSkillRequired": 300,
+      "materials": [
+        [
+          "Essence of Fire",
+          2
+        ],
+        [
+          "Cured Rugged Hide",
+          1
+        ],
+        [
+          "Silithid Chitin",
+          30
+        ],
+        [
+          "Light Silithid Carapace",
+          2
+        ]
+      ],
+      "materialsVerifiedAgainst": [
+        "Questing.wiki",
+        "Forever Talent"
+      ],
+      "skillAudit": "supported-by-earlier-evidence",
+      "priorSkillSource": "checked-forever-correction",
+      "priorSkillReference": "https://www.wowhead.com/forever/item=20507/pattern-spitfire-gauntlets",
+      "questingSkill": null,
+      "foreverTalentLearningRank": null
+    },
+    {
+      "spellId": "1306532",
+      "name": "Wild Leather Armor Kit",
+      "craftingSkillRequired": 300,
+      "materials": [
+        [
+          "Rune Thread",
+          3
+        ],
+        [
+          "Fel Leather",
+          22
+        ]
+      ],
+      "materialsVerifiedAgainst": [
+        "Questing.wiki",
+        "Forever Talent"
+      ],
+      "skillAudit": "confirmed-by-recipe-reference",
+      "priorSkillSource": "guildloot-forever-required-skill",
+      "priorSkillReference": "https://guildloot.de/en/beruf/forever/leatherworking/",
+      "questingSkill": 300,
+      "foreverTalentLearningRank": 300
+    }
+  ]
+}

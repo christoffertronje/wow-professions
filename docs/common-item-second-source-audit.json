@@ -7,21 +7,17 @@
     "caveat": "Both references use game client records, not 201 independent live in-game observations. No source conflict automatically changes the published site."
   },
   "summary": {
-    "totalCommon": 28,
-    "match": 17,
-    "difference": 10,
-    "inconclusive": 1,
+    "totalCommon": 27,
+    "match": 18,
+    "difference": 6,
+    "inconclusive": 3,
     "source-unavailable": 0,
     "identity-mismatch": 0,
-    "sourcesFetched": 27,
-    "fullyMatching": 17,
-    "disagreements": 10,
+    "sourcesFetched": 24,
+    "fullyMatching": 18,
+    "disagreements": 6,
     "fieldsWithDisagreements": {
-      "stats": 5,
-      "effects": 6,
-      "armor": 1,
-      "binding": 1,
-      "armorType": 1
+      "effects": 6
     }
   },
   "results": [
@@ -70,13 +66,6 @@
       ],
       "differences": [
         {
-          "field": "stats",
-          "ours": {
-            "Stamina": 1
-          },
-          "source": {}
-        },
-        {
           "field": "effects",
           "ours": [
             "Use: Permanently increase the Stamina value by 1 and the Armor value by 8 of an item worn on the chest, legs, hands or feet."
@@ -119,13 +108,6 @@
       ],
       "differences": [
         {
-          "field": "stats",
-          "ours": {
-            "Stamina": 2
-          },
-          "source": {}
-        },
-        {
           "field": "effects",
           "ours": [
             "Use: Permanently increase the Stamina value by 2 and the armor value by 16 of an item worn on the chest, legs, hands or feet."
@@ -149,60 +131,6 @@
         "effects": [
           "Use: Permanently increase the Stamina value by 2 and the armor value by 16 of an item worn on the chest, legs, hands or feet. (1 Sec Cooldown)"
         ]
-      },
-      "oldBuild": "2026-10-17",
-      "newBuild": "1.60.1.70862"
-    },
-    {
-      "itemId": "2314",
-      "name": "Toughened Leather Armor",
-      "url": "https://bindonforever.com/item/2314",
-      "status": "difference",
-      "checkedFields": [
-        "itemLevel",
-        "requiredCharacterLevel",
-        "slot",
-        "armorType",
-        "armor",
-        "binding",
-        "stats",
-        "resistances"
-      ],
-      "differences": [
-        {
-          "field": "armor",
-          "ours": 80,
-          "source": 84
-        },
-        {
-          "field": "binding",
-          "ours": null,
-          "source": "BoE"
-        },
-        {
-          "field": "stats",
-          "ours": {},
-          "source": {
-            "Stamina": 2,
-            "Spirit": 7
-          }
-        }
-      ],
-      "unresolvedEffectTemplate": false,
-      "source": {
-        "name": "Toughened Leather Armor",
-        "itemLevel": 24,
-        "requiredCharacterLevel": 19,
-        "slot": "Chest",
-        "armorType": "Leather",
-        "armor": 84,
-        "binding": "BoE",
-        "stats": {
-          "Stamina": 2,
-          "Spirit": 7
-        },
-        "resistances": {},
-        "effects": []
       },
       "oldBuild": "2026-10-17",
       "newBuild": "1.60.1.70862"
@@ -379,7 +307,7 @@
       "itemId": "4265",
       "name": "Heavy Armor Kit",
       "url": "https://bindonforever.com/item/4265",
-      "status": "difference",
+      "status": "inconclusive",
       "checkedFields": [
         "itemLevel",
         "requiredCharacterLevel",
@@ -388,15 +316,7 @@
         "resistances",
         "effects (unresolved source template)"
       ],
-      "differences": [
-        {
-          "field": "stats",
-          "ours": {
-            "Stamina": 3
-          },
-          "source": {}
-        }
-      ],
+      "differences": [],
       "unresolvedEffectTemplate": true,
       "source": {
         "name": "Heavy Armor Kit",
@@ -447,20 +367,14 @@
       "itemId": "5081",
       "name": "Kodo Hide Bag",
       "url": "https://bindonforever.com/item/5081",
-      "status": "difference",
+      "status": "match",
       "checkedFields": [
         "itemLevel",
         "armorType",
         "stats",
         "resistances"
       ],
-      "differences": [
-        {
-          "field": "armorType",
-          "ours": "Bags",
-          "source": null
-        }
-      ],
+      "differences": [],
       "unresolvedEffectTemplate": false,
       "source": {
         "name": "Kodo Hide Bag",
@@ -660,7 +574,7 @@
       "itemId": "8173",
       "name": "Thick Armor Kit",
       "url": "https://bindonforever.com/item/8173",
-      "status": "difference",
+      "status": "inconclusive",
       "checkedFields": [
         "itemLevel",
         "requiredCharacterLevel",
@@ -669,15 +583,7 @@
         "resistances",
         "effects (unresolved source template)"
       ],
-      "differences": [
-        {
-          "field": "stats",
-          "ours": {
-            "Stamina": 4
-          },
-          "source": {}
-        }
-      ],
+      "differences": [],
       "unresolvedEffectTemplate": true,
       "source": {
         "name": "Thick Armor Kit",

@@ -8,16 +8,16 @@
   },
   "summary": {
     "totalEpic": 38,
-    "match": 35,
-    "difference": 3,
+    "match": 36,
+    "difference": 2,
     "inconclusive": 0,
     "source-unavailable": 0,
     "identity-mismatch": 0,
     "sourcesFetched": 38,
-    "fullyMatching": 35,
-    "disagreements": 3,
+    "fullyMatching": 36,
+    "disagreements": 2,
     "fieldsWithDisagreements": {
-      "effects": 2,
+      "effects": 1,
       "stats": 1
     }
   },
@@ -497,7 +497,7 @@
       "itemId": "20380",
       "name": "Dreamscale Breastplate",
       "url": "https://bindonforever.com/item/20380",
-      "status": "difference",
+      "status": "match",
       "checkedFields": [
         "itemLevel",
         "requiredCharacterLevel",
@@ -509,15 +509,7 @@
         "resistances",
         "effects"
       ],
-      "differences": [
-        {
-          "field": "effects",
-          "ours": [],
-          "source": [
-            "Equip: Restores 4 Mana per 5 sec."
-          ]
-        }
-      ],
+      "differences": [],
       "unresolvedEffectTemplate": false,
       "source": {
         "name": "Dreamscale Breastplate",

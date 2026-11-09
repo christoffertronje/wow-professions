@@ -8,9 +8,9 @@ rare=[r for r in catalog["recipes"] if r["quality"]=="rare"]
 assert len(rare)==201
 lookup=items["byItemId"]
 assert len(lookup)==512
-assert items["meta"]["epicItems"]==70 and items["meta"]["commonItems"]==28
+assert items["meta"]["epicItems"]==70 and items["meta"]["commonItems"]==27 and items["meta"]["uncommonItems"]==214
 uncommon=[r for r in catalog["recipes"] if r["quality"]=="uncommon"]
-assert len(uncommon)==213
+assert len(uncommon)==214
 for r in rare:
     iid=str(r["itemId"])
     assert iid in lookup, f"Missing rare item stats: {r['name']} (item {iid})"
@@ -56,7 +56,7 @@ for r in epic:
 # White/Common recipes include reagent items and other non-equipment.
 # Require their true item tooltip and exact identity, NOT a fake gear slot.
 common=[r for r in catalog["recipes"] if r["quality"]=="common"]
-assert len(common)==28
+assert len(common)==27
 for r in common:
     iid=str(r["itemId"])
     assert iid in lookup, f"Missing Common output tooltip {r['name']}"
@@ -70,6 +70,10 @@ assert all(entry["quality"]!="unknown" for entry in lookup.values())
 assert "Restores 4 mana per 5 sec" in " ".join(lookup["20380"]["effects"]), "Dreamscale Breastplate lost its mana regeneration effect"
 assert lookup["252603"].get("statReviewWarning"), "Red Dragonscale Leggings Intellect discrepancy must remain flagged"
 assert lookup["252603"]["stats"].get("Intellect") in (31,32), "Unexpected Red Dragonscale Leggings Intellect value"
+assert lookup["2314"]["quality"]=="uncommon" and lookup["2314"]["armor"]==84
+assert lookup["2314"]["stats"]=={"Stamina":2,"Spirit":7}
+assert lookup["2314"]["binding"]=="BoE"
+assert all(entry["stats"]=={} and entry["armor"] is None for entry in lookup.values() if entry["name"].endswith("Armor Kit")), "Armor-kit target enchantments must not render as wearable stats"
 assert "252428" in lookup
 x=lookup["252428"]
 assert x["armor"]==45 and x["stats"].get("Strength")==4 and x["stats"].get("Agility")==4 and x["stats"].get("Stamina")==3

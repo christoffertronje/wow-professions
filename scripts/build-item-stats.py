@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Build a separate item stats catalog for WoW Forever's Rare Leatherworking gear.
+"""Build a separate item stats catalog for WoW Forever's Rare and Uncommon Leatherworking gear.
 
 Facts are sourced by exact produced item ID from Forever Talent's recorded
 tooltip, not by name or spell-skill band. Preserve original tooltip lines and
@@ -13,8 +13,8 @@ SOURCE_URL="https://wowforevertalent.com/professions/leatherworking/?acquisition
 RECIPES=pathlib.Path("data/leatherworking.json")
 OUTPUT=pathlib.Path("data/item-stats.json")
 r=json.loads(RECIPES.read_text(encoding="utf-8"))
-rare=[entry for entry in r["recipes"] if entry.get("quality")=="rare"]
-assert len(rare)==201, f"Rare recipe count changed: {len(rare)}"
+selected=[entry for entry in r["recipes"] if entry.get("quality") in ("rare","uncommon")]
+assert len(selected)==414, f"Rare/Uncommon recipe count changed: {len(selected)}"
 request=urllib.request.Request(SOURCE_URL,headers={"User-Agent":"Mozilla/5.0 (compatible; Forgebook item stats importer)"})
 with urllib.request.urlopen(request,timeout=90) as resp:soup=BeautifulSoup(resp.read(),"html.parser")
 
@@ -40,7 +40,7 @@ bind_names={"Binds when picked up":"BoP","Binds when equipped":"BoE","Binds when
 primary_stat_names={"Strength","Agility","Stamina","Intellect","Spirit"}
 items={}
 errors=[]
-for recipe in rare:
+for recipe in selected:
     spell_id=recipe["id"]
     item_id=str(recipe["itemId"])
     x=source.get(spell_id)
@@ -48,8 +48,8 @@ for recipe in rare:
         errors.append(f"Missing source or mismatched output ID: {recipe['name']} ({spell_id} -> {item_id})")
         continue
     lines=x["lines"]
-    if "Rare" not in lines:
-        errors.append(f"Tooltip quality isn't Rare: {recipe['name']}: {lines[:4]}")
+    if recipe["quality"].title() not in lines:
+        errors.append(f"Tooltip quality mismatch for {recipe['name']}: expected {recipe['quality']}: {lines[:4]}")
         continue
     stats={}
     resistances={}
@@ -88,7 +88,7 @@ for recipe in rare:
     if item_id in items:raise ValueError(f"Duplicate output item ID {item_id}")
     items[item_id]={
         "itemId":int(item_id),"recipeSpellId":spell_id,"name":recipe["name"],
-        "quality":"rare","itemLevel":item_level,"requiredCharacterLevel":character_level,
+        "quality":recipe["quality"],"itemLevel":item_level,"requiredCharacterLevel":character_level,
         "slot":slot,"armorType":armor_type,"armor":armor,
         "binding":binding,"stats":stats,"resistances":resistances,
         "effects":x["effects"],"otherTooltipLines":other_lines,
@@ -113,16 +113,16 @@ if correction_path.exists():
             "corroboration":patch.get("corroboration",[]),
             "reason":patch.get("reason")}
 if errors:
-    raise RuntimeError("Rare item stats import requires full coverage; errors:\n"+"\n".join(errors[:25]))
-assert len(items)==201,f"Expected all 201 rare produced items, got {len(items)}"
-payload={"meta":{"scope":"Rare quality produced Leatherworking gear only",
- "items":len(items),"game":"WoW Forever",
+    raise RuntimeError("Rare/Uncommon item stats import requires full coverage; errors:\n"+"\n".join(errors[:25]))
+assert len(items)==414,f"Expected all 414 Rare and Uncommon produced items, got {len(items)}"
+payload={"meta":{"scope":"Rare and Uncommon quality Leatherworking outputs",
+ "items":len(items),"rareItems":201,"uncommonItems":213,"game":"WoW Forever",
  "source":SOURCE_URL,"recipeCatalogBuild":r["meta"].get("build"),
  "sourceEvidence":"Forever recorded item tooltip with original text preserved; not guaranteed unchanged on live servers",
  "note":"Unknown item attributes stay null/absent. No values inferred from Classic or skill-up tables."},
  "byItemId":items}
 OUTPUT.write_text(json.dumps(payload,ensure_ascii=False,separators=(",",":"))+"\n",encoding="utf-8")
-print(f"Imported {len(items)} rare item stat records; "
+print(f"Imported {len(items)} Rare and Uncommon item stat records; "
       f"{sum(bool(x['effects']) for x in items.values())} with special effects, "
       f"{sum(bool(x['stats']) for x in items.values())} with primary attributes, "
       f"{sum(bool(x['resistances']) for x in items.values())} with resistances.")

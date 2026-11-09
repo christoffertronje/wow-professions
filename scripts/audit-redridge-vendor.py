@@ -16,7 +16,7 @@ soup=BeautifulSoup(html,"html.parser")
 # Older vendor item tooltips use singular 'Shoulder'; the newer recipe
 # spell and crafted item name uses plural 'Shoulders'. Match this known
 # naming evolution without treating it as a missing recipe.
-normalize=lambda x:re.sub(r"[^a-z0-9]+","",re.sub(r"\\bshoulder\\b","shoulders",x.casefold()))
+normalize=lambda x:re.sub(r"[^a-z0-9]+","",re.sub(r"\bshoulder\b","shoulders",x.casefold()))
 catalog=json.loads(pathlib.Path("data/leatherworking.json").read_text())["recipes"]
 byname=collections.defaultdict(list)
 for recipe in catalog:byname[normalize(recipe["name"])].append(recipe)

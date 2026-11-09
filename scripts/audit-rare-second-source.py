@@ -19,7 +19,7 @@ ATTR={"Strength","Agility","Stamina","Intellect","Spirit"}
 SCHOOLS={"Arcane","Fire","Frost","Nature","Shadow","Holy"}
 SLOTS={"Head","Neck","Shoulder","Chest","Waist","Legs","Feet","Wrist","Hands","Finger","Trinket","Back","Main Hand","One-Hand","Two-Hand","Off Hand","Held In Off-hand","Ranged","Shirt","Tabard"}
 def norm(value):
-    return re.sub(r"\\s+"," ",str(value or "").strip()).casefold().rstrip(".")
+    return re.sub(r"\s+"," ",str(value or "").strip()).casefold().rstrip(".")
 def fetch_one(pair):
     iid,old=pair
     url=BASE+iid
@@ -88,7 +88,7 @@ def fetch_one(pair):
         newer={norm(e) for e in fields["effects"]}
         # Some client spell templates still contain raw 0c1/0c2/0cim
         # placeholders. These are UNRESOLVED, not literal stat changes.
-        undecoded_effect=any(re.search(r"\\b0c(?:\\d+|im)\\b",e,re.I) for e in fields["effects"])
+        undecoded_effect=any(re.search(r"\b0c(?:\d+|im)\b",e,re.I) for e in fields["effects"])
         if ours or newer:
             if undecoded_effect:
                 checked.append("effects (unresolved source template)")

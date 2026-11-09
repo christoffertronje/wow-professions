@@ -1,0 +1,307 @@
+{
+  "meta": {
+    "title": "Legacy cross-source effect reconciliation",
+    "scope": "Differences visible in retained second-source audit snapshots, not fresh live item inspection",
+    "warning": "Historical audit reports compare earlier versions and are not automatically rewritten after corrections. Template placeholders are undecodable, not zero.",
+    "itemRecords": 512,
+    "checkedSnapshots": [
+      "docs/common-item-second-source-audit.json",
+      "docs/uncommon-stats-second-source-audit.json",
+      "docs/rare-stats-second-source-audit.json",
+      "docs/epic-stats-second-source-audit.json"
+    ]
+  },
+  "summary": {
+    "historicalFlaggedItems": 16,
+    "classifications": {
+      "conflicting-proc-metadata": 1,
+      "gameplay-source-conflict": 3,
+      "redundant-proc-annotation": 1,
+      "source-template-unresolved": 10,
+      "wording-only": 1
+    },
+    "currentlyWarnedRecords": 5,
+    "templateUnresolvedFromSnapshots": 10
+  },
+  "items": [
+    {
+      "itemId": 4265,
+      "name": "Heavy Armor Kit",
+      "quality": "common",
+      "historicalStatus": "inconclusive",
+      "classification": "source-template-unresolved",
+      "currentEffect": [
+        "Use: Permanently increase the Stamina value by 3 and armor value by 24 of an item worn on the chest, legs, hands or feet. Only usable on items level 15 and above."
+      ],
+      "currentStats": {},
+      "sourceItemUrl": "https://bindonforever.com/item/4265",
+      "currentHasWarning": false,
+      "notes": "Recorded older tooltip contained unresolved zeros; client build 70862 resolves +3 Stamina/+24 armor, item level 15+.",
+      "sourceValues": [
+        "Use: Permanently increase the Stamina value by 0c2 and armor value by 0c1 of an item worn on the chest, legs, hands or feet. Only usable on items level 0cim and above. (1 Sec Cooldown)"
+      ]
+    },
+    {
+      "itemId": 7284,
+      "name": "Red Whelp Gloves",
+      "quality": "uncommon",
+      "historicalStatus": "difference",
+      "classification": "conflicting-proc-metadata",
+      "currentEffect": [
+        "Equip: 5% chance of dealing 30 to 50 Fire damage on a successful melee attack."
+      ],
+      "currentStats": {},
+      "sourceItemUrl": "https://bindonforever.com/item/7284",
+      "currentHasWarning": true,
+      "notes": "Multiple independently displayed Forever tooltips agree on 5% effect wording; the original '(Proc chance: 10%)' appendix conflicts with that tooltip and is not confirmed as the same chance.",
+      "sourceValues": [
+        "Equip: 5% chance of dealing 30 to 50 Fire damage on a successful melee attack."
+      ]
+    },
+    {
+      "itemId": 7348,
+      "name": "Fletcher's Gloves",
+      "quality": "uncommon",
+      "historicalStatus": "difference",
+      "classification": "gameplay-source-conflict",
+      "currentEffect": [
+        "Equip: Increases your parry by -15."
+      ],
+      "currentStats": {},
+      "sourceItemUrl": "https://bindonforever.com/item/7348",
+      "currentHasWarning": true,
+      "notes": "Independent Forever client records give +14 Critical Strike and -15 Parry rating; the +14 Crit already exists in the raw tooltip's other lines. Avoid double-counting.",
+      "sourceValues": [
+        "Equip: Increases your chance to Parry an attack by 1.0%.",
+        "Equip: Improves your chance to get a critical strike by 1.0%."
+      ]
+    },
+    {
+      "itemId": 7375,
+      "name": "Green Whelp Armor",
+      "quality": "uncommon",
+      "historicalStatus": "difference",
+      "classification": "redundant-proc-annotation",
+      "currentEffect": [
+        "Equip: When struck by a melee attacker, that attacker has a 5% chance of being put to sleep for 10 sec. Only affects enemies level 50 and below."
+      ],
+      "currentStats": {
+        "Stamina": 11
+      },
+      "sourceItemUrl": "https://bindonforever.com/item/7375",
+      "currentHasWarning": false,
+      "notes": "The extra '(Proc chance: 5%)' repeats the same value in the tooltip; removed only redundant metadata.",
+      "sourceValues": [
+        "Equip: When struck by a melee attacker, that attacker has a 5% chance of being put to sleep for 10 sec.  Only affects enemies level 50 and below."
+      ]
+    },
+    {
+      "itemId": 8173,
+      "name": "Thick Armor Kit",
+      "quality": "common",
+      "historicalStatus": "inconclusive",
+      "classification": "source-template-unresolved",
+      "currentEffect": [
+        "Use: Permanently increase the Stamina value by 4 and armor value by 32 of an item worn on the chest, legs, hands or feet. Only usable on items level 25 and above."
+      ],
+      "currentStats": {},
+      "sourceItemUrl": "https://bindonforever.com/item/8173",
+      "currentHasWarning": false,
+      "notes": "Client build 70862 resolves +4 Stamina/+32 armor on item level 25+.",
+      "sourceValues": [
+        "Use: Permanently increase the Stamina value by 0c2 and armor value by 0c1 of an item worn on the chest, legs, hands or feet. Only usable on items level 0cim and above. (1 Sec Cooldown)"
+      ]
+    },
+    {
+      "itemId": 8197,
+      "name": "Nightscape Boots",
+      "quality": "uncommon",
+      "historicalStatus": "difference",
+      "classification": "gameplay-source-conflict",
+      "currentEffect": [
+        "Equip: Increases your effective stealth level by 1.2."
+      ],
+      "currentStats": {
+        "Agility": 12
+      },
+      "sourceItemUrl": "https://bindonforever.com/item/8197",
+      "currentHasWarning": true,
+      "notes": "Client build 70790 and independent Forever pages agree +1.2 Stealth; older source build 70707 had +1.",
+      "sourceValues": [
+        "Equip: Increases your effective stealth level by 1.2."
+      ]
+    },
+    {
+      "itemId": 12641,
+      "name": "Invulnerable Mail",
+      "quality": "epic",
+      "historicalStatus": "difference",
+      "classification": "wording-only",
+      "currentEffect": [
+        "Equip: When struck in combat has a 5% chance to make you invulnerable to melee damage for 3 sec. This effect can only occur once every 10 sec. (Proc chance: 5%, 10s cooldown)"
+      ],
+      "currentStats": {
+        "Stamina": 20
+      },
+      "sourceItemUrl": "https://bindonforever.com/item/12641",
+      "currentHasWarning": false,
+      "notes": null,
+      "sourceValues": [
+        "Equip: When struck in combat has a 5% chance to make you invulnerable to melee damage for 3 sec. This effect can only occur once every 10 sec sec."
+      ]
+    },
+    {
+      "itemId": 15564,
+      "name": "Rugged Armor Kit",
+      "quality": "common",
+      "historicalStatus": "inconclusive",
+      "classification": "source-template-unresolved",
+      "currentEffect": [
+        "Use: Permanently increase the Stamina value by 5 and armor value by 40 of an item worn on the chest, legs, hands or feet. Only usable on items level 35 and above."
+      ],
+      "currentStats": {},
+      "sourceItemUrl": "https://bindonforever.com/item/15564",
+      "currentHasWarning": false,
+      "notes": "Client build 70862 resolves +5 Stamina/+40 armor on item level 35+.",
+      "sourceValues": [
+        "Use: Permanently increase the Stamina value by 0c2 and armor value by 0c1 of an item worn on the chest, legs, hands or feet. Only usable on items level 0cim and above. (1 Sec Cooldown)"
+      ]
+    },
+    {
+      "itemId": 18251,
+      "name": "Core Armor Kit",
+      "quality": "rare",
+      "historicalStatus": "inconclusive",
+      "classification": "gameplay-source-conflict",
+      "currentEffect": [
+        "Use: Permanently increase the defense value of an item worn on the chest, legs, hands or feet by 3. Only usable on items level 45 and above."
+      ],
+      "currentStats": {},
+      "sourceItemUrl": "https://bindonforever.com/item/18251",
+      "currentHasWarning": true,
+      "notes": "Several Forever tooltip sources and item diff resolve +3 Defense / item level 45+, while Wowhead Forever says +4 / item level 0+. Genuine conflict retained prominently.",
+      "sourceValues": [
+        "Use: Permanently increase the defense value of an item worn on the chest, legs, hands or feet by 0c1. Only usable on items level 0cim and above. (1 Sec Cooldown)"
+      ]
+    },
+    {
+      "itemId": 252452,
+      "name": "Mystic Heavy Armor Kit",
+      "quality": "uncommon",
+      "historicalStatus": "inconclusive",
+      "classification": "source-template-unresolved",
+      "currentEffect": [
+        "Use: Permanently increase the Spell Power value by 75 and armor value by 0 of an item worn on the chest, legs, hands, or feet. Only usable on items level 0 and above."
+      ],
+      "currentStats": {},
+      "sourceItemUrl": "https://bindonforever.com/item/252452",
+      "currentHasWarning": false,
+      "notes": null,
+      "sourceValues": [
+        "Use: Permanently increase the Spell Power value by 0c2 and armor value by 0c1 of an item worn on the chest, legs, hands, or feet. Only usable on items level 0cim and above."
+      ]
+    },
+    {
+      "itemId": 252453,
+      "name": "Forceful Heavy Armor Kit",
+      "quality": "uncommon",
+      "historicalStatus": "inconclusive",
+      "classification": "source-template-unresolved",
+      "currentEffect": [
+        "Use: Permanently increase the Attack Power value by 0 and armor value by 0 of an item worn on the chest, legs, hands, or feet. Only usable on items level 0 and above."
+      ],
+      "currentStats": {},
+      "sourceItemUrl": "https://bindonforever.com/item/252453",
+      "currentHasWarning": false,
+      "notes": null,
+      "sourceValues": [
+        "Use: Permanently increase the Attack Power value by 0c2 and armor value by 0c1 of an item worn on the chest, legs, hands, or feet. Only usable on items level 0cim and above."
+      ]
+    },
+    {
+      "itemId": 252462,
+      "name": "Mystic Thick Armor Kit",
+      "quality": "uncommon",
+      "historicalStatus": "inconclusive",
+      "classification": "source-template-unresolved",
+      "currentEffect": [
+        "Use: Permanently increase the Spell Power value by 75 and armor value by 0 of an item worn on the chest, legs, hands, or feet. Only usable on items level 0 and above."
+      ],
+      "currentStats": {},
+      "sourceItemUrl": "https://bindonforever.com/item/252462",
+      "currentHasWarning": false,
+      "notes": null,
+      "sourceValues": [
+        "Use: Permanently increase the Spell Power value by 0c2 and armor value by 0c1 of an item worn on the chest, legs, hands, or feet. Only usable on items level 0cim and above."
+      ]
+    },
+    {
+      "itemId": 252463,
+      "name": "Forceful Thick Armor Kit",
+      "quality": "uncommon",
+      "historicalStatus": "inconclusive",
+      "classification": "source-template-unresolved",
+      "currentEffect": [
+        "Use: Permanently increase the Attack Power value by 0 and armor value by 0 of an item worn on the chest, legs, hands, or feet. Only usable on items level 0 and above."
+      ],
+      "currentStats": {},
+      "sourceItemUrl": "https://bindonforever.com/item/252463",
+      "currentHasWarning": false,
+      "notes": null,
+      "sourceValues": [
+        "Use: Permanently increase the Attack Power value by 0c2 and armor value by 0c1 of an item worn on the chest, legs, hands, or feet. Only usable on items level 0cim and above."
+      ]
+    },
+    {
+      "itemId": 252487,
+      "name": "Mystic Rugged Armor Kit",
+      "quality": "uncommon",
+      "historicalStatus": "inconclusive",
+      "classification": "source-template-unresolved",
+      "currentEffect": [
+        "Use: Permanently increase the Spell Power value by 75 and armor value by 0 of an item worn on the chest, legs, hands, or feet. Only usable on items level 0 and above."
+      ],
+      "currentStats": {},
+      "sourceItemUrl": "https://bindonforever.com/item/252487",
+      "currentHasWarning": false,
+      "notes": null,
+      "sourceValues": [
+        "Use: Permanently increase the Spell Power value by 0c2 and armor value by 0c1 of an item worn on the chest, legs, hands, or feet. Only usable on items level 0cim and above."
+      ]
+    },
+    {
+      "itemId": 252488,
+      "name": "Forceful Rugged Armor Kit",
+      "quality": "uncommon",
+      "historicalStatus": "inconclusive",
+      "classification": "source-template-unresolved",
+      "currentEffect": [
+        "Use: Permanently increase the Attack Power value by 0 and armor value by 0 of an item worn on the chest, legs, hands, or feet. Only usable on items level 0 and above."
+      ],
+      "currentStats": {},
+      "sourceItemUrl": "https://bindonforever.com/item/252488",
+      "currentHasWarning": false,
+      "notes": null,
+      "sourceValues": [
+        "Use: Permanently increase the Attack Power value by 0c2 and armor value by 0c1 of an item worn on the chest, legs, hands, or feet. Only usable on items level 0cim and above."
+      ]
+    },
+    {
+      "itemId": 279258,
+      "name": "Wild Leather Armor Kit",
+      "quality": "rare",
+      "historicalStatus": "inconclusive",
+      "classification": "source-template-unresolved",
+      "currentEffect": [
+        "Use: Permanently increase the Defense Skill by 4 and the Stamina value by 10 of an item worn on the chest, legs, hands, or feet. Only usable on items level 45 and above."
+      ],
+      "currentStats": {},
+      "sourceItemUrl": "https://bindonforever.com/item/279258",
+      "currentHasWarning": false,
+      "notes": "Old source incorrectly resolves dynamic stamina as 0 and item threshold as 0; item and spell effects specify +4 defense skill, +10 stamina, usable at item level 45+.",
+      "sourceValues": [
+        "Use: Permanently increase the Defense Skill by 0c1 and the Stamina value by 0c2 of an item worn on the chest, legs, hands, or feet. Only usable on items level 0cim and above. (1 Sec Cooldown)"
+      ]
+    }
+  ]
+}

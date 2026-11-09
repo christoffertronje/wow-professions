@@ -8,17 +8,15 @@
   },
   "summary": {
     "totalRare": 201,
-    "match": 198,
-    "difference": 1,
+    "match": 199,
+    "difference": 0,
     "inconclusive": 2,
     "source-unavailable": 0,
     "identity-mismatch": 0,
     "sourcesFetched": 199,
-    "fullyMatching": 198,
-    "disagreements": 1,
-    "fieldsWithDisagreements": {
-      "resistances": 1
-    }
+    "fullyMatching": 199,
+    "disagreements": 0,
+    "fieldsWithDisagreements": {}
   },
   "results": [
     {
@@ -326,7 +324,7 @@
       "itemId": "8367",
       "name": "Dragonscale Breastplate",
       "url": "https://bindonforever.com/item/8367",
-      "status": "difference",
+      "status": "match",
       "checkedFields": [
         "itemLevel",
         "requiredCharacterLevel",
@@ -338,26 +336,7 @@
         "resistances",
         "effects"
       ],
-      "differences": [
-        {
-          "field": "resistances",
-          "ours": {
-            "Arcane": 13,
-            "Fire": 13,
-            "Frost": 13,
-            "Nature": 13,
-            "Shadow": 13
-          },
-          "source": {
-            "Nature": 13,
-            "Arcane": 13,
-            "Holy": 13,
-            "Shadow": 13,
-            "Frost": 13,
-            "Fire": 13
-          }
-        }
-      ],
+      "differences": [],
       "unresolvedEffectTemplate": false,
       "source": {
         "name": "Dragonscale Breastplate",
@@ -371,12 +350,11 @@
           "Stamina": 10
         },
         "resistances": {
+          "Fire": 13,
           "Nature": 13,
-          "Arcane": 13,
-          "Holy": 13,
           "Shadow": 13,
           "Frost": 13,
-          "Fire": 13
+          "Arcane": 13
         },
         "effects": [
           "Use: Absorbs 600 magical damage.  Lasts 2 min. (5 Min Cooldown)"

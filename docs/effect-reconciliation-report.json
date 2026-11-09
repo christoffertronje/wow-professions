@@ -12,15 +12,15 @@
     ]
   },
   "summary": {
-    "historicalFlaggedItems": 16,
+    "historicalFlaggedItems": 17,
     "classifications": {
       "conflicting-proc-metadata": 1,
-      "gameplay-source-conflict": 3,
+      "gameplay-source-conflict": 4,
       "redundant-proc-annotation": 1,
       "source-template-undecoded-reviewed": 10,
       "wording-only": 1
     },
-    "currentlyWarnedRecords": 5,
+    "currentlyWarnedRecords": 4,
     "templateUnresolvedFromSnapshots": 10,
     "templateUnresolvedWithoutReviewedCorrection": 0
   },
@@ -53,8 +53,8 @@
       ],
       "currentStats": {},
       "sourceItemUrl": "https://bindonforever.com/item/7284",
-      "currentHasWarning": true,
-      "notes": "Multiple independently displayed Forever tooltips agree on 5% effect wording; the original '(Proc chance: 10%)' appendix conflicts with that tooltip and is not confirmed as the same chance.",
+      "currentHasWarning": false,
+      "notes": "ForeverChanges marks this item Confirmed in game and displays 5% chance for 30–50 Fire damage in Forever build 70790. The older isolated 10% proc field is not the confirmed tooltip effect.",
       "sourceValues": [
         "Equip: 5% chance of dealing 30 to 50 Fire damage on a successful melee attack."
       ]
@@ -285,6 +285,26 @@
       "notes": "Client-recorded spell effect resolves 10 Attack Power, 40 Armor and target item level 35+. Older imported tooltip showed raw or misresolved placeholders, including 75/0 and 0/0.",
       "sourceValues": [
         "Use: Permanently increase the Attack Power value by 0c2 and armor value by 0c1 of an item worn on the chest, legs, hands, or feet. Only usable on items level 0cim and above."
+      ]
+    },
+    {
+      "itemId": 252603,
+      "name": "Red Dragonscale Leggings",
+      "quality": "epic",
+      "historicalStatus": "difference",
+      "classification": "gameplay-source-conflict",
+      "currentEffect": [
+        "Equip: +20 Spell Power",
+        "Equip: +20 Healing"
+      ],
+      "currentStats": {
+        "Intellect": 32
+      },
+      "sourceItemUrl": "https://bindonforever.com/item/252603",
+      "currentHasWarning": true,
+      "notes": "Later Forever build 70790 and independent client-derived recipes agree on +32 Intellect, +20 Spell Power and +20 Healing; earlier tooltipLines contained stale +31.",
+      "sourceValues": [
+        "Equip: Increases damage and healing done by magical spells and effects by up to 20."
       ]
     },
     {

@@ -73,6 +73,8 @@ for recipe in selected:
             continue
         if " · " in text and slot is None:
             slot,armor_type=(p.strip() for p in text.split(" · ",1))
+            if armor_type in ("Leather Armor","Mail Armor","Plate Armor","Cloth Armor"):
+                armor_type=armor_type.removesuffix(" Armor")
             # Tooltip categorization sometimes says "Back · Cloaks", but
             # Cloaks is a category, NOT an equippable armor material.
             if slot=="Back" and armor_type in ("Cloak","Cloaks"):
@@ -80,7 +82,7 @@ for recipe in selected:
             if slot in ("Bag","Quiver","Ammo Pouch") and armor_type in ("Bag","Bags","Quivers","Ammo Pouches"):
                 armor_type=None
             continue
-        if text in {"Back","Trinket","Finger","Neck","Ranged","Shirt","Tabard","Held In Off-hand","Main Hand","Off Hand","Two-Hand","One-Hand"} and slot is None:
+        if text in {"Back","Feet","Head","Hands","Chest","Waist","Legs","Wrist","Shoulder","Trinket","Finger","Neck","Ranged","Shirt","Tabard","Held In Off-hand","Main Hand","Off Hand","Two-Hand","One-Hand"} and slot is None:
             slot=text
             continue
         m=re.fullmatch(r"Item Level\s+(\d+)",text)

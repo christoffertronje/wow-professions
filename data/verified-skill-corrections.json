@@ -106,6 +106,16 @@
     ],
     "note": "Forever spell Quick Facts directly states Requires Leatherworking (250); separate skill-up thresholds must not replace this."
   },
+  "19093": {
+    "required": 300,
+    "source": "Pattern",
+    "requirementEvidence": "verified-forever-pattern-item",
+    "referenceUrls": [
+      "https://www.wowhead.com/forever/item=15769/pattern-onyxia-scale-cloak",
+      "https://theforeverera.com/en/recipes/leatherworking/onyxia-scale-cloak/"
+    ],
+    "note": "Pattern explicitly requires Leatherworking 300; 320 is a yellow skill-up threshold, not the crafting minimum."
+  },
   "24703": {
     "required": 300,
     "source": "Pattern",

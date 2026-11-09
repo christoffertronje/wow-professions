@@ -39,6 +39,9 @@ for r in uncommon:
     assert entry["source"].get("itemPage")
     assert isinstance(entry["stats"],dict) and isinstance(entry["resistances"],dict)
     assert isinstance(entry["effects"],list) and isinstance(entry["tooltipLines"],list)
+assert lookup["7348"].get("statReviewWarning"), "Fletcher's Gloves disputed Parry sign must remain flagged"
+assert lookup["8197"].get("statReviewWarning"), "Nightscape Boots disputed stealth value must remain flagged"
+assert all(x["armorType"] is None for x in lookup.values() if x["slot"]=="Back" and x["quality"]=="uncommon"), "Cloaks should not be an equipment armor material"
 assert "252428" in lookup
 x=lookup["252428"]
 assert x["armor"]==45 and x["stats"].get("Strength")==4 and x["stats"].get("Agility")==4 and x["stats"].get("Stamina")==3

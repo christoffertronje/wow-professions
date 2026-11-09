@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Forgebook · Gear Upgrade Planner</title>
+<meta name="description" content="Compare your WoW Forever gear with Leatherworking crafts near your character's level.">
+<style>
+:root{color-scheme:dark;font-family:Inter,system-ui,sans-serif;color:#eee3d1;background:#0c111a}
+*{box-sizing:border-box}body{margin:0;background:radial-gradient(ellipse at top,#243329,#0c111a 70%);min-height:100vh}
+main{max-width:980px;margin:auto;padding:24px 17px 70px}a{color:#acc7ff}a:hover{color:#e7d199}
+header{display:flex;align-items:center;justify-content:space-between;gap:15px;margin-bottom:27px}
+.brand{font:700 23px Georgia,serif;color:#f4d99a;text-decoration:none}.brand span{font:11px system-ui;color:#a3aebd;display:block;letter-spacing:1.5px;text-transform:uppercase}
+h1,h2,h3{font-family:Georgia,serif;color:#f6db9d}h1{font-size:clamp(28px,5vw,41px);margin:8px 0}h2{margin:0 0 16px;font-size:23px}h3{margin:0 0 7px;font-size:20px}
+p{color:#b5c1cb;line-height:1.55}small,.muted{color:#acb9c9}
+.panel{background:linear-gradient(155deg,#182528,#111923);border:1px solid #7b6540;border-radius:10px;padding:20px;margin-top:18px;box-shadow:0 8px 24px #0005}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:14px}
+label{display:block;font-size:12px;color:#c5cfcc;font-weight:650}
+input,select,textarea{display:block;width:100%;margin-top:7px;padding:12px;background:#090f18;color:#f6ebd4;border:1px solid #536052;border-radius:6px;font:inherit}
+input:focus,select:focus,textarea:focus,button:focus-visible{outline:2px solid #dfb65f;outline-offset:2px}
+button{padding:12px 17px;border:1px solid #cba65c;border-radius:6px;background:linear-gradient(#6f5129,#49351e);color:#f8e3b2;font:700 14px system-ui;cursor:pointer}button:hover{filter:brightness(1.15)}
+.subtle{border-color:#5a6b68;background:#1a2d2d;color:#d6e8df}
+.actions{display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin-top:16px}
+.note{font-size:12px;color:#d7bc87;margin:12px 0}.status{min-height:24px;font-size:13px;color:#bddcc9}
+.slotgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(110px,1fr));gap:9px}
+.slot{background:#111d29;border:1px solid #596474;color:#d5deed;min-height:58px}
+.slot[aria-pressed=true]{border:2px solid #e1b15c;background:#253c32;color:#ffe6ae}
+.current{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:11px}
+.list{display:grid;gap:11px}.candidate{border:1px solid #465f58;border-radius:8px;padding:14px;background:#0c1921}
+.candidate h3{color:var(--rarity,#a2d0a0);font-size:18px}
+.tag{display:inline-block;border:1px solid #54775a;color:#bfefcb;border-radius:20px;padding:4px 8px;font-size:11px}
+.tag.neutral{border-color:#756348;color:#ecd19a}.compare{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:8px;margin:10px 0}
+.delta{color:#7fe7a4}.minus{color:#f6a4a4}.meta{color:#c5cdd5;font-size:12px}
+.candidate footer{display:flex;gap:13px;flex-wrap:wrap;margin-top:12px;font-size:12px}
+details summary{cursor:pointer;color:#d9bc81}details{margin-top:12px}.hidden{display:none}
+@media(max-width:520px){.panel{padding:14px}.slotgrid{grid-template-columns:repeat(3,1fr)}}
+</style></head>
+<body><main>
+<header><a class="brand" href="./index.html">⚒ Forgebook<span>WoW Forever professions</span></a><a href="./index.html">← All recipes</a></header>
+<p style="color:#d6ad68;letter-spacing:2px;font-size:11px;text-transform:uppercase">Character · Crafting · Upgrades</p>
+<h1>Gear Upgrade Planner</h1>
+<p>Choose an equipped slot and discover Leatherworking recipes around your character's level. Likely upgrades are shown first; every eligible option remains visible.</p>
+<section class="panel" aria-labelledby="character-title">
+<h2 id="character-title">Your character</h2>
+<label>Armory character URL<input id="armory" type="url" placeholder="https://armorywowforever.com/c/forever/eu/pvp/Name-Surname"></label>
+<p class="note">Armory import is not connected yet. Saving this link does not fetch your gear. Enter level and current equipment below to compare real values.</p>
+<div class="grid">
+<label>Character level<input id="level" type="number" min="1" max="60" value="30" inputmode="numeric"></label>
+<label>Leatherworking skill<input id="skill" type="number" min="1" max="300" value="125" inputmode="numeric"></label>
+<label>Class<select id="class"><option value="">Choose class (optional)</option><option>Druid</option><option>Rogue</option><option>Hunter</option><option>Shaman</option><option>Warrior</option><option>Paladin</option><option>Mage</option><option>Priest</option><option>Warlock</option></select></label>
+<label>Preferred armor<select id="armorType"><option value="">All armor types</option><option value="Leather">Leather</option><option value="Mail">Mail</option></select></label>
+</div><div class="actions"><button id="save">Save locally</button><a id="armoryOpen" href="https://armorywowforever.com/" target="_blank" rel="noopener noreferrer">Open Armory ↗</a></div>
+<div id="status" class="status" role="status" aria-live="polite"></div>
+</section>
+<section class="panel"><h2>Choose gear slot</h2><div id="slots" class="slotgrid"></div></section>
+<section class="panel">
+<h2 id="equipped-heading">Your equipped item</h2>
+<p class="note">Enter current item's values to get transparent stat comparisons. Empty fields mean unknown, not zero.</p>
+<div class="grid">
+<label>Item name<input id="equippedName" placeholder="Your equipped item"></label>
+<label>Armor<input id="armor" type="number" min="0" inputmode="numeric" placeholder="Unknown"></label>
+</div><div class="current" id="stats"></div>
+<div class="actions"><button id="compare">Find upgrades</button><button id="reset" class="subtle">Clear equipped stats</button></div>
+</section>
+<section class="panel"><h2>Possible crafts <span id="resultCount" class="muted"></span></h2><div id="summary" class="status"></div><div id="results" class="list"></div></section>
+<p class="muted" style="font-size:12px">Candidates are not guaranteed upgrades. Differences in effects, sockets, attack speed, spec, armor proficiency and stat weights require your judgment. Only the recorded crafting and tooltip data is used. No Season of Discovery recipes.</p>
+</main><script>
+"use strict";
+const STORAGE="forgebook.upgradePlanner.v1";
+const slots=["Head","Shoulder","Chest","Wrist","Hands","Waist","Legs","Feet","Back"];
+const attributes=["Strength","Agility","Stamina","Intellect","Spirit"];
+const $=id=>document.getElementById(id);
+const state={slot:"Hands",recipes:[],items:{},equipped:{},level:30,skill:125};
+const known=()=>{try{return JSON.parse(localStorage.getItem(STORAGE)||"{}")}catch{return {}}};
+const saved=known();
+if(saved.armory)$("armory").value=saved.armory;
+if(Number.isFinite(saved.level))$("level").value=saved.level;
+if(Number.isFinite(saved.skill))$("skill").value=saved.skill;
+if(saved.class)$("class").value=saved.class;
+if(saved.armorType)$("armorType").value=saved.armorType;
+state.equipped=saved.equipped||{};
+state.slot=slots.includes(saved.slot)?saved.slot:"Hands";
+function validateArmory(value){
+  if(!value.trim())return null;
+  try{const url=new URL(value);if(url.protocol!=="https:"||url.hostname!=="armorywowforever.com"||!/^\/c\/forever\/(eu|us|kr|tw)\/(pvp|pve|rp|rppvp)\/[a-zA-ZÀ-ž'-]+-[a-zA-ZÀ-ž'-]+\/?$/.test(url.pathname))return null;return url.href}catch{return null}
+}
+function save(){
+ const armory=$("armory").value.trim(),url=validateArmory(armory);
+ if(armory&&!url){$("status").textContent="Check the Armory URL. Use a direct WoW Forever character link.";return false}
+ const payload={armory:url||"",level:Number($("level").value),skill:Number($("skill").value),class:$("class").value,armorType:$("armorType").value,slot:state.slot,equipped:state.equipped};
+ localStorage.setItem(STORAGE,JSON.stringify(payload));
+ $("armoryOpen").href=url||"https://armorywowforever.com/";
+ $("status").textContent="Saved in this browser only. No character information was fetched.";
+ return true;
+}
+function renderSlots(){
+ const wrap=$("slots");wrap.replaceChildren();
+ for(const slot of slots){const b=document.createElement("button");b.type="button";b.className="slot";b.textContent=slot;b.setAttribute("aria-pressed",String(state.slot===slot));b.onclick=()=>{captureEquipped();state.slot=slot;renderSlots();renderEquipped();showCandidates();save()};wrap.append(b)}
+}
+function captureEquipped(){
+ const obj={name:$("equippedName").value.trim(),armor:$("armor").value};
+ for(const stat of attributes)obj[stat]=$(stat).value;
+ state.equipped[state.slot]=obj;
+}
+function renderEquipped(){
+ const item=state.equipped[state.slot]||{};
+ $("equipped-heading").textContent="Your equipped "+state.slot;
+ $("equippedName").value=item.name||"";
+ $("armor").value=item.armor??"";
+ const wrap=$("stats");wrap.replaceChildren();
+ for(const stat of attributes){const label=document.createElement("label");label.textContent=stat;const i=document.createElement("input");i.type="number";i.inputMode="numeric";i.id=stat;i.placeholder="Unknown";i.value=item[stat]??"";label.append(i);wrap.append(label)}
+}
+const num=(value,min,max)=>Number.isFinite(Number(value))?Math.min(max,Math.max(min,Number(value))):min;
+function showCandidates(){
+ captureEquipped();
+ const level=num($("level").value,1,60),skill=num($("skill").value,1,300);
+ const from=Math.max(1,level-3),to=Math.min(60,level+3),armorFilter=$("armorType").value;
+ const current=state.equipped[state.slot]||{},base={};
+ if(current.armor!=="")base.Armor=Number(current.armor);
+ for(const stat of attributes)if(current[stat]!==""&&current[stat]!==undefined)base[stat]=Number(current[stat]);
+ const knownKeys=Object.keys(base);
+ const options=state.recipes.map(recipe=>({recipe,item:state.items[String(recipe.itemId)]})).filter(({item})=>item&&item.slot===state.slot&&item.requiredCharacterLevel!==null&&item.requiredCharacterLevel!==undefined&&item.requiredCharacterLevel>=from&&item.requiredCharacterLevel<=to&&(!armorFilter||!item.armorType||item.armorType===armorFilter));
+ const annotated=options.map(({recipe,item})=>{
+  let plus=0,minus=0,score=0,compared=0;
+  for(const key of knownKeys){const candidate=key==="Armor"?item.armor:item.stats?.[key];if(candidate===null||candidate===undefined)continue;compared++;const delta=Number(candidate)-base[key];if(delta>0)plus++;if(delta<0)minus++;score+=Math.sign(delta)}
+  const likely=compared>0&&plus>0&&minus===0;
+  return {recipe,item,plus,minus,score,compared,likely}
+ });
+ annotated.sort((a,b)=>Number(b.likely)-Number(a.likely)||Number(b.item.requiredCharacterLevel<=level)-Number(a.item.requiredCharacterLevel<=level)||b.score-a.score||b.item.itemLevel-a.item.itemLevel);
+ $("summary").textContent="Level "+level+" ±3 · "+state.slot+" · "+annotated.filter(x=>x.likely).length+" potentially better on compared attributes · "+(knownKeys.length?"Compare missing effects manually.":"Enter current stats to detect candidate improvements.");
+ $("resultCount").textContent="("+annotated.length+")";
+ const list=$("results");list.replaceChildren();
+ if(!annotated.length){const p=document.createElement("p");p.textContent="No matching craftable item in this level window. Try another slot, level or armor filter.";list.append(p);return}
+ for(const {recipe,item,likely,compared} of annotated){
+  const card=document.createElement("article");card.className="candidate";
+  const title=document.createElement("h3");title.textContent=item.name||recipe.name;title.style.setProperty("--rarity",({epic:"#bf89f2",rare:"#7cb0ff",uncommon:"#69d86c",common:"#eee"}[item.quality]||"#d4dfd8"));card.append(title);
+  const badge=document.createElement("span");badge.className="tag"+(likely?"":" neutral");badge.textContent=likely?"Potential stat upgrade":compared?"Review trade-offs":"Stats not compared";card.append(badge);
+  const meta=document.createElement("p");meta.className="meta";meta.textContent="Requires level "+item.requiredCharacterLevel+" · Crafting skill "+recipe.craftSkillRequired+(recipe.craftSkillRequired<=skill?" · Can craft now":" · Need "+(recipe.craftSkillRequired-skill)+" more skill")+(item.armorType?" · "+item.armorType:"");card.append(meta);
+  const cmp=document.createElement("div");cmp.className="compare";
+  const keys=["Armor",...attributes];
+  for(const key of keys){
+   const value=key==="Armor"?item.armor:item.stats?.[key];
+   if(value===undefined||value===null)continue;
+   const span=document.createElement("div");span.className="meta";
+   const diff=Object.prototype.hasOwnProperty.call(base,key)?Number(value)-base[key]:null;
+   span.textContent=key+": "+(value>=0?"+":"")+value+(diff===null?"":(" ("+(diff>0?"+":"")+diff+")"));
+   if(diff!==null)span.classList.add(diff>0?"delta":diff<0?"minus":"muted");
+   cmp.append(span)
+  }
+  card.append(cmp);
+  if(item.effects?.length||item.resistances&&Object.keys(item.resistances).length){const p=document.createElement("p");p.className="meta";p.textContent=[...(item.effects||[]),...Object.entries(item.resistances||{}).map(([k,v])=>"+"+v+" "+k+" Resistance")].join(" · ");card.append(p)}
+  const details=document.createElement("details"),summary=document.createElement("summary");summary.textContent="Required materials";details.append(summary);const p=document.createElement("p");p.className="meta";p.textContent=recipe.mats.map(([name,n])=>n+" × "+name).join(" · ");details.append(p);card.append(details);
+  const footer=document.createElement("footer");const source=document.createElement("a");source.href=item.source?.itemPage||"https://www.wowhead.com/forever/item="+item.itemId;source.target="_blank";source.rel="noopener noreferrer";source.textContent="View item source ↗";footer.append(source);card.append(footer);
+  list.append(card)
+ }
+}
+$("save").onclick=()=>{captureEquipped();save()};
+$("compare").onclick=()=>{showCandidates();save()};
+$("reset").onclick=()=>{state.equipped[state.slot]={};renderEquipped();showCandidates();save()};
+$("armory").addEventListener("input",()=>{$("status").textContent="Armory URL stored locally only; automatic import is not enabled."});
+renderSlots();renderEquipped();$("armoryOpen").href=validateArmory($("armory").value)||"https://armorywowforever.com/";
+Promise.all([fetch("./data/leatherworking.json").then(r=>{if(!r.ok)throw Error("Recipes unavailable");return r.json()}),fetch("./data/item-stats.json").then(r=>{if(!r.ok)throw Error("Item stats unavailable");return r.json()})]).then(([recipes,stats])=>{if(recipes.recipes.length!==512||Object.keys(stats.byItemId||{}).length!==512)throw Error("Recipe/stat catalogs are incomplete");state.recipes=recipes.recipes;state.items=stats.byItemId;showCandidates();$("status").textContent="Ready: 512 Forever recipes loaded. Character import is not connected."}).catch(e=>{$("status").textContent="Cannot load recipe data: "+e.message});
+</script></body></html>

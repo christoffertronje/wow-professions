@@ -5,6 +5,15 @@
     "notes": "Tooltip text from the newer Forever client takes precedence over missing old tooltip effects."
   },
   "byItemId": {
+    "18251": {
+      "reviewFlag": "Source conflict: Core Armor Kit's exact Defense bonus and minimum item level differ between Forever item databases. Verify the in-game tooltip before using this effect value.",
+      "source": "https://www.wowhead.com/forever/item=18251",
+      "corroboration": [
+        "https://forevermastery.com/en/items/18251-core-armor-kit",
+        "https://foreverdb.net/item/18251"
+      ],
+      "reason": "Wowhead Forever presents +4 Defense and item level 0+, whereas Forever Mastery/ForeverDB show +3 Defense and item level 45+. No reliable live observation to settle this conflict; do not guess."
+    },
     "18508": {
       "effects": [
         "Equip: +41 Ranged Attack Power."

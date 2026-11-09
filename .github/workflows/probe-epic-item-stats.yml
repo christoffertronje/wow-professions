@@ -1,0 +1,21 @@
+name: Verify Epic tooltip import coverage
+on:
+  push:
+    paths:
+      - scripts/probe-epic-item-stats.py
+      - .github/workflows/probe-epic-item-stats.yml
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: python3 -m pip install beautifulsoup4
+      - run: python3 scripts/probe-epic-item-stats.py
+      - run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs/epic-stats-source-probe.json
+          git diff --cached --quiet || (git commit -m "docs: verify all Epic output tooltips" && git push)

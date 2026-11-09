@@ -66,7 +66,7 @@ def fetch_one(pair):
         # The exact item ID is authoritative. One updated client tooltip spells
         # "Skulker's Leather Shoulder" instead of "Shoulders" (same item).
         def normal_name(name):
-            return re.sub(r"\\bshoulder\\b","shoulders",norm(name))
+            return re.sub(r"\bshoulder\b","shoulders",norm(name))
         if source_name is None or normal_name(source_name)!=normal_name(old["name"]):
             return {"itemId":iid,"name":old["name"],"url":url,"status":"identity-mismatch","sourceName":source_name}
         problems=[]

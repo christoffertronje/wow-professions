@@ -1,0 +1,21 @@
+name: Cross-check rare reagents against Forever Talent
+on:
+  push:
+    paths:
+      - scripts/crosscheck-rare-talent.py
+      - .github/workflows/crosscheck-rare-talent.yml
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: python3 -m pip install beautifulsoup4
+      - run: python3 scripts/crosscheck-rare-talent.py
+      - run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs/rare-talent-crosscheck.json
+          git diff --cached --quiet || (git commit -m "docs: audit rare reagents against independent Forever Talent table" && git push)

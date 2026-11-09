@@ -25,6 +25,29 @@ GitHub Pages deploys on pushes to `main` via `.github/workflows/deploy.yml`.
 - WoW-inspired item tooltips, including armor, stats, effects and required character level when supported by item data
 - Responsive layout; no build step or external JS dependencies (open `index.html`)
 
+
+## Gear Upgrade Planner and optional Armory sync
+
+Open [Gear Upgrade Planner](https://christoffertronje.github.io/wow-professions/upgrades.html) from the Forgebook header.
+
+- Choose a gear slot (for example Hands) and compare Leatherworking outputs whose **required character level** is within ±3 of your level.
+- All eligible options are shown. Results are sorted using a conservative comparison of known armor and five main attributes; this is not a class/spec simulator, and unknown effects are never assumed to be zero.
+- Enter level, crafting skill and your equipped stats manually, or use the optional public character snapshot import.
+- The initial automated character is **Majblomma Tronjesson (EU, PvP)**. Entering a different Armory link does *not* automatically import that character.
+- The gear planner saves manual inputs in your browser's localStorage.
+
+### Enable automatic import (requires repo administrator)
+
+1. Create a Battle.net developer application at https://develop.battle.net/ and obtain a client ID and client secret for the WoW Profile API.
+2. In GitHub repo settings, open **Secrets and variables → Actions** and add repository secrets named `BNET_CLIENT_ID` and `BNET_CLIENT_SECRET`. Never paste those values into repository files, browser JavaScript, or chat.
+3. In GitHub **Actions → Deploy GitHub Pages**, choose **Run workflow**. It runs the offline parser tests, requests an app-access token using client credentials, then fetches Forever character profile, equipment, and (when available) professions using the `profile-forever-eu` namespace.
+4. Once the deployment succeeds, the public generated `data/armory-majblomma.json` is included in the Pages artifact. Open Gear Upgrade Planner and click **Import Majblomma from Armory** to apply the published snapshot to the comparison.
+5. The deployment workflow also runs every six hours (`17 */6 * * *`, UTC). Source changes continue to deploy normally even before credentials are configured.
+
+**Privacy:** The generated snapshot is public (character name, level, class, equipment, selected stats and crafting skill). Tokens and API secrets are never written to the snapshot. The import is not instant and can lag the game until logout plus the next scheduled refresh. If the Blizzard API fails, the sync step fails rather than publishing invented or empty character information; manual comparison continues to work.
+
+The profile API is currently evolving and may require parser adjustments for newer Forever client responses. These changes have not been live-tested with a Battle.net application token.
+
 ## Outstanding manual verification
 
 Four item tooltip records have explicit `statReviewWarning` entries pending independent in-game confirmation:

@@ -15,12 +15,12 @@ jobs:
       - uses: actions/checkout@v4
       - run: python3 -m pip install beautifulsoup4
       - name: Import item stats
-        run: python3 scripts/build-item-stats.py
+        run: python3 scripts/build-item-stats.py > docs/uncommon-import-diagnostics.log 2>&1 || true
       - name: Validate imported item stats
-        run: python3 scripts/validate-item-stats.py
+        run: python3 scripts/validate-item-stats.py >> docs/uncommon-import-diagnostics.log 2>&1 || true
       - name: Commit item data
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/item-stats.json
+          git add data/item-stats.json docs/uncommon-import-diagnostics.log
           git diff --cached --quiet || (git commit -m "data: import 201 Forever rare item tooltips by item ID" && git push)

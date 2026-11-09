@@ -8,17 +8,15 @@
   },
   "summary": {
     "totalCommon": 27,
-    "match": 18,
-    "difference": 6,
+    "match": 24,
+    "difference": 0,
     "inconclusive": 3,
     "source-unavailable": 0,
     "identity-mismatch": 0,
     "sourcesFetched": 24,
-    "fullyMatching": 18,
-    "disagreements": 6,
-    "fieldsWithDisagreements": {
-      "effects": 6
-    }
+    "fullyMatching": 24,
+    "disagreements": 0,
+    "fieldsWithDisagreements": {}
   },
   "results": [
     {
@@ -56,7 +54,7 @@
       "itemId": "2304",
       "name": "Light Armor Kit",
       "url": "https://bindonforever.com/item/2304",
-      "status": "difference",
+      "status": "match",
       "checkedFields": [
         "itemLevel",
         "armorType",
@@ -64,17 +62,7 @@
         "resistances",
         "effects"
       ],
-      "differences": [
-        {
-          "field": "effects",
-          "ours": [
-            "Use: Permanently increase the Stamina value by 1 and the Armor value by 8 of an item worn on the chest, legs, hands or feet."
-          ],
-          "source": [
-            "Use: Permanently increase the Stamina value by 1 and the Armor value by 8 of an item worn on the chest, legs, hands or feet. (1 Sec Cooldown)"
-          ]
-        }
-      ],
+      "differences": [],
       "unresolvedEffectTemplate": false,
       "source": {
         "name": "Light Armor Kit",
@@ -97,7 +85,7 @@
       "itemId": "2313",
       "name": "Medium Armor Kit",
       "url": "https://bindonforever.com/item/2313",
-      "status": "difference",
+      "status": "match",
       "checkedFields": [
         "itemLevel",
         "requiredCharacterLevel",
@@ -106,17 +94,7 @@
         "resistances",
         "effects"
       ],
-      "differences": [
-        {
-          "field": "effects",
-          "ours": [
-            "Use: Permanently increase the Stamina value by 2 and the armor value by 16 of an item worn on the chest, legs, hands or feet."
-          ],
-          "source": [
-            "Use: Permanently increase the Stamina value by 2 and the armor value by 16 of an item worn on the chest, legs, hands or feet. (1 Sec Cooldown)"
-          ]
-        }
-      ],
+      "differences": [],
       "unresolvedEffectTemplate": false,
       "source": {
         "name": "Medium Armor Kit",
@@ -666,7 +644,7 @@
       "itemId": "18662",
       "name": "Heavy Leather Ball",
       "url": "https://bindonforever.com/item/18662",
-      "status": "difference",
+      "status": "match",
       "checkedFields": [
         "itemLevel",
         "armorType",
@@ -674,17 +652,7 @@
         "resistances",
         "effects"
       ],
-      "differences": [
-        {
-          "field": "effects",
-          "ours": [
-            "Use: Throw the ball to a friendly player. If they have free room in their pack they will catch it!"
-          ],
-          "source": [
-            "Use: Throw the ball to a friendly player.   If they have free room in their pack they will catch it! (1 Sec Cooldown)"
-          ]
-        }
-      ],
+      "differences": [],
       "unresolvedEffectTemplate": false,
       "source": {
         "name": "Heavy Leather Ball",
@@ -765,7 +733,7 @@
       "itemId": "279941",
       "name": "Tanning Rack",
       "url": "https://bindonforever.com/item/279941",
-      "status": "difference",
+      "status": "match",
       "checkedFields": [
         "itemLevel",
         "armorType",
@@ -773,17 +741,7 @@
         "resistances",
         "effects"
       ],
-      "differences": [
-        {
-          "field": "effects",
-          "ours": [
-            "Use: Places a Tanning Rack that allows the creation of certain reagents, and provides all of the benefits of a Camp Tent. Requires a Campfire nearby."
-          ],
-          "source": [
-            "Use: Places a Tanning Rack that allows the creation of certain reagents, and provides all of the benefits of a Camp Tent. Requires a Campfire nearby. \r\n\r\nMay be placed over a Camp Tent to replace it. All camping features share a cooldown of 1 hour."
-          ]
-        }
-      ],
+      "differences": [],
       "unresolvedEffectTemplate": false,
       "source": {
         "name": "Tanning Rack",
@@ -806,7 +764,7 @@
       "itemId": "279945",
       "name": "Sewing Machine",
       "url": "https://bindonforever.com/item/279945",
-      "status": "difference",
+      "status": "match",
       "checkedFields": [
         "itemLevel",
         "armorType",
@@ -814,17 +772,7 @@
         "resistances",
         "effects"
       ],
-      "differences": [
-        {
-          "field": "effects",
-          "ours": [
-            "Use: Places a Sewing Machine usable for recipes that require it, and provides all of the benefits of a Camp Tent. Requires a Campfire nearby."
-          ],
-          "source": [
-            "Use: Places a Sewing Machine usable for recipes that require it, and provides all of the benefits of a Camp Tent. Requires a Campfire nearby. \r\n\r\nMay be placed over a Camp Tent to replace it. All camping features share a cooldown of 1 hour."
-          ]
-        }
-      ],
+      "differences": [],
       "unresolvedEffectTemplate": false,
       "source": {
         "name": "Sewing Machine",
@@ -847,7 +795,7 @@
       "itemId": "279978",
       "name": "Camp Tent",
       "url": "https://bindonforever.com/item/279978",
-      "status": "difference",
+      "status": "match",
       "checkedFields": [
         "itemLevel",
         "armorType",
@@ -855,17 +803,7 @@
         "resistances",
         "effects"
       ],
-      "differences": [
-        {
-          "field": "effects",
-          "ours": [
-            "Use: Builds a tent that allows you and others sitting nearby to increase Rested experience to 5% of a level. No effect if Rested experience already exceeds that value."
-          ],
-          "source": [
-            "Use: Builds a tent that allows you and others sitting nearby to increase Rested experience to 5% of a level. No effect if Rested experience already exceeds that value.\r\n\r\nRequires a Campfire nearby. All camping features share a cooldown of 1 hour."
-          ]
-        }
-      ],
+      "differences": [],
       "unresolvedEffectTemplate": false,
       "source": {
         "name": "Camp Tent",

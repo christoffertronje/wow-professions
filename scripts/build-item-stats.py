@@ -68,6 +68,9 @@ for recipe in rare:
         if " · " in text and slot is None:
             slot,armor_type=(p.strip() for p in text.split(" · ",1))
             continue
+        if text in {"Back","Trinket","Finger","Neck","Ranged","Shirt","Tabard","Held In Off-hand","Main Hand","Off Hand","Two-Hand","One-Hand"} and slot is None:
+            slot=text
+            continue
         m=re.fullmatch(r"Item Level\s+(\d+)",text)
         if m:item_level=int(m.group(1));continue
         m=re.fullmatch(r"Requires Level\s+(\d+)",text)
@@ -79,8 +82,8 @@ for recipe in rare:
         m=re.fullmatch(r"([+-]?\d+) (Arcane|Fire|Frost|Nature|Shadow|Holy) Resistance",text)
         if m:resistances[m.group(2)]=int(m.group(1));continue
         other_lines.append(text)
-    if item_level is None or slot is None:
-        errors.append(f"Essential item level/slot missing for {recipe['name']}: {lines}")
+    if item_level is None:
+        errors.append(f"Essential item level missing for {recipe['name']}: {lines}")
         continue
     if item_id in items:raise ValueError(f"Duplicate output item ID {item_id}")
     items[item_id]={

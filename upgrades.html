@@ -23,7 +23,7 @@ button{padding:12px 17px;border:1px solid #cba65c;border-radius:6px;background:l
 .note{font-size:12px;color:#d7bc87;margin:12px 0}.status{min-height:24px;font-size:13px;color:#bddcc9}
 .slotgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(110px,1fr));gap:9px}
 .slot{background:#111d29;border:1px solid #596474;color:#d5deed;min-height:58px}
-.slot[aria-pressed=true]{border:2px solid #e1b15c;background:#253c32;color:#ffe6ae}
+.slot[aria-pressed=true]{border:2px solid #e1b15c;background:#253c32;color:#ffe6ae}\n.equipped-slot-name{display:block;font-size:10px;font-weight:400;margin-top:5px;color:#b9c9cf;overflow-wrap:anywhere;line-height:1.25}
 .current{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:11px}
 .list{display:grid;gap:11px}.candidate{border:1px solid #465f58;border-radius:8px;padding:14px;background:#0c1921}
 .candidate h3{color:var(--rarity,#a2d0a0);font-size:18px}
@@ -95,7 +95,7 @@ function save(){
 }
 function renderSlots(){
  const wrap=$("slots");wrap.replaceChildren();
- for(const slot of slots){const b=document.createElement("button");b.type="button";b.className="slot";b.textContent=slot;b.setAttribute("aria-pressed",String(state.slot===slot));b.onclick=()=>{captureEquipped();state.slot=slot;renderSlots();renderEquipped();showCandidates();save()};wrap.append(b)}
+ for(const slot of slots){const b=document.createElement("button");b.type="button";b.className="slot";b.textContent=slot;const equipped=state.equipped[slot];if(equipped?.name){const label=document.createElement("small");label.textContent=equipped.name;label.className="equipped-slot-name";b.append(label)}b.setAttribute("aria-pressed",String(state.slot===slot));b.onclick=()=>{captureEquipped();state.slot=slot;renderSlots();renderEquipped();showCandidates();save()};wrap.append(b)}
 }
 function captureEquipped(){
  const obj={name:$("equippedName").value.trim(),armor:$("armor").value};
@@ -189,7 +189,7 @@ function importArmory(){
   imported[slot]=item;
  }
  if(!Object.keys(imported).length){$("status").textContent="Armory snapshot contains no supported equipment. Nothing changed.";return}
- state.equipped=imported;renderEquipped();showCandidates();save();showSyncTime();
+ state.equipped=imported;renderSlots();renderEquipped();showCandidates();save();showSyncTime();
 }
 $("import").onclick=importArmory;
 fetch("./data/armory-majblomma.json",{cache:"no-store"}).then(response=>{

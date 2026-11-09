@@ -15,6 +15,17 @@
         "https://www.wowhead.com/forever/item=18508"
       ],
       "reason": "Forever Talent's old tooltip omitted this Equip effect, but newer client and independent item pages confirm +41 ranged Attack Power."
+    },
+    "279258": {
+      "effects": [
+        "Use: Permanently increase the Defense Skill by 4 and the Stamina value by 10 of an item worn on the chest, legs, hands, or feet. Only usable on items level 45 and above."
+      ],
+      "source": "https://www.wowhead.com/forever/item=279258",
+      "corroboration": [
+        "https://forevermastery.com/en/items/279258-wild-leather-armor-kit",
+        "https://foreverdb.net/item/279258"
+      ],
+      "reason": "Old source incorrectly resolves dynamic stamina as 0 and item threshold as 0; item and spell effects specify +4 defense skill, +10 stamina, usable at item level 45+."
     }
   }
 }

@@ -112,4 +112,23 @@ assert "5% chance of dealing 30 to 50 Fire damage" in " ".join(lookup["7284"]["e
 assert "Proc chance: 10%" not in " ".join(lookup["7284"]["effects"]), "Unverified proc metadata leaked into tooltip"
 assert "5% chance of being put to sleep" in " ".join(lookup["7375"]["effects"])
 assert "Proc chance:" not in " ".join(lookup["7375"]["effects"])
+# Forever client spell placeholders (0c1/0c2/0cim) were NOT literal zero
+# values. Guard all six upgraded Mystic / Forceful armor-kit bonuses.
+armor_kit_bonus={
+    "252452":("Spell Power",4,24,15),
+    "252453":("Attack Power",6,24,15),
+    "252462":("Spell Power",5,32,25),
+    "252463":("Attack Power",8,32,25),
+    "252487":("Spell Power",6,40,35),
+    "252488":("Attack Power",10,40,35),
+}
+for iid,(stat,bonus,armor,minlevel) in armor_kit_bonus.items():
+    item=lookup[iid]
+    text=" ".join(item["effects"])
+    assert f"{stat} value by {bonus}" in text, f"Wrong power bonus for {item['name']}"
+    assert f"armor value by {armor}" in text, f"Wrong armor bonus for {item['name']}"
+    assert f"items level {minlevel} and above" in text, f"Wrong target item level for {item['name']}"
+    assert item["armor"] is None and not item["stats"], f"Kit bonus treated as equipped item stats: {item['name']}"
+    assert not any(x in text for x in ("0c1","0c2","0cim","value by 75")), f"Unresolved spell placeholder leaked: {item['name']}"
+    assert item.get("reviewedCorrection",{}).get("source"), f"Lost reviewed correction evidence: {item['name']}"
 print("PASS: 512 item tooltip records joined by produced item ID, with attributes/effects and source provenance")

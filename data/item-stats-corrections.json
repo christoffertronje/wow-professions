@@ -30,13 +30,16 @@
       "reason": "Recorded older tooltip contained unresolved zeros; client build 70862 resolves +3 Stamina/+24 armor, item level 15+."
     },
     "7348": {
-      "reviewFlag": "Parry-effekten skiljer sig mellan Forever-källor. Wowhead och vissa databaser anger -1% Parry, medan en nyare klientdatabas återger +1%. Kontrollera mot item-tooltip i spelet.",
-      "source": "https://www.wowhead.com/forever/item=7348/fletchers-gloves",
-      "corroboration": [
-        "https://bindonforever.com/item/7348",
-        "https://theforeverera.com/en/recipes/leatherworking/fletchers-gloves/"
+      "effects": [
+        "Equip: Increases your parry by -15."
       ],
-      "reason": "Sign and wording of the parry effect disagree between client-based databases; keep previous sourced effect until in-game confirmation."
+      "reviewFlag": "Forever-klientdata visar +14 Critical Strike och -15 Parry rating. Äldre Wowhead-text visar procentvärden; aktuella servervärden är inte verifierade i spelet.",
+      "source": "https://raiddex.com/en/wow-forever/items/fletchers-gloves",
+      "corroboration": [
+        "https://senseos.gg/wiki/wow-forever/items/7348/fletchers-gloves/",
+        "https://kovarel.com/wow-forever/items/7348-fletchers-gloves"
+      ],
+      "reason": "Independent Forever client records give +14 Critical Strike and -15 Parry rating; the +14 Crit already exists in the raw tooltip's other lines. Avoid double-counting."
     },
     "8173": {
       "effects": [
@@ -47,13 +50,17 @@
       "reason": "Client build 70862 resolves +4 Stamina/+32 armor on item level 25+."
     },
     "8197": {
-      "reviewFlag": "Stealth-effekten har olika värden i Forever-källor: +1 respektive +1.2. Nuvarande värde kommer från vår ursprungliga tooltipkälla; verifiera gärna i spelet.",
-      "source": "https://www.wowhead.com/forever/item=8197/nightscape-boots",
+      "effects": [
+        "Equip: Increases your effective stealth level by 1.2."
+      ],
+      "reviewFlag": "Den nyare Forever-klienten visar +1.2 Stealth; äldre källor visar +1. Värdet är ännu inte kontrollerat direkt i spelet.",
+      "source": "https://foreverchanges.pro/item/8197/nightscape-boots",
       "corroboration": [
         "https://bindonforever.com/item/8197",
+        "https://forevermastery.com/en/items/8197-nightscape-boots",
         "https://senseos.gg/wiki/wow-forever/items/8197/nightscape-boots/"
       ],
-      "reason": "Second client source displays +1.2 stealth where other Forever item sources show +1; no automatic replacement."
+      "reason": "Client build 70790 and independent Forever pages agree +1.2 Stealth; older source build 70707 had +1."
     },
     "15564": {
       "effects": [
@@ -64,13 +71,18 @@
       "reason": "Client build 70862 resolves +5 Stamina/+40 armor on item level 35+."
     },
     "18251": {
-      "reviewFlag": "Source conflict: Core Armor Kit's exact Defense bonus and minimum item level differ between Forever item databases. Verify the in-game tooltip before using this effect value.",
-      "source": "https://www.wowhead.com/forever/item=18251",
-      "corroboration": [
-        "https://forevermastery.com/en/items/18251-core-armor-kit",
-        "https://foreverdb.net/item/18251"
+      "effects": [
+        "Use: Permanently increase the defense value of an item worn on the chest, legs, hands or feet by 3. Only usable on items level 45 and above."
       ],
-      "reason": "Wowhead Forever presents +4 Defense and item level 0+, whereas Forever Mastery/ForeverDB show +3 Defense and item level 45+. No reliable live observation to settle this conflict; do not guess."
+      "reviewFlag": "Core Armor Kit: flera Forever-källor visar +3 Defense för item level 45+, men Wowhead visar +4 och 0+. Använd det nyare, vanligare värdet med reservation tills speltooltipen kan kontrolleras.",
+      "source": "https://foreverdiff.com/items/core-armor-kit-18251/",
+      "corroboration": [
+        "https://questcorehq.com/wowdb/forever/item/18251/core-armor-kit",
+        "https://forevermastery.com/en/items/18251-core-armor-kit",
+        "https://guildloot.de/en/item/forever/18251-core-armor-kit/",
+        "https://www.wowhead.com/forever/item=18251/core-armor-kit"
+      ],
+      "reason": "Several Forever tooltip sources and item diff resolve +3 Defense / item level 45+, while Wowhead Forever says +4 / item level 0+. Genuine conflict retained prominently."
     },
     "18508": {
       "effects": [
@@ -95,14 +107,16 @@
       "reason": "Original imported tooltip omitted the Mana-per-5 Equip effect confirmed in Wowhead Forever and multiple Forever item databases."
     },
     "252603": {
-      "reviewFlag": "Intellect-värdet skiljer sig mellan Forever-källor: +31 (bl.a. Wowhead och äldre beräknad tooltip) eller +32 (nyare klientbaserade tabeller). Behåll befintligt värde tills det kan bekräftas i spelet.",
-      "source": "https://www.wowhead.com/forever/spell=1254970/red-dragonscale-leggings",
+      "stats": {
+        "Intellect": 32
+      },
+      "reviewFlag": "Nyare Forever-klientdata visar +32 Intellect; äldre databaser räknar fram +31. Inte bekräftat med en tooltip från spelet.",
+      "source": "https://metammo.com/wow-forever/items/red-dragonscale-leggings-252603",
       "corroboration": [
         "https://bindonforever.com/item/252603",
-        "https://metammo.com/wow-forever/items/red-dragonscale-leggings-252603",
         "https://foreverdiff.com/recipes/red-dragonscale-leggings-55031/"
       ],
-      "reason": "The data-driven item-budget scaling yields 31 or 32 Intellect depending on the source/build; preserve source value 31 and surface conflict."
+      "reason": "Client build 70790 and newer independent item source show 32; older budget calculation and Wowhead derived records show 31."
     },
     "279258": {
       "effects": [

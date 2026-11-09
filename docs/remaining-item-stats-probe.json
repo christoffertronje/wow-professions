@@ -1,0 +1,1213 @@
+{
+  "summary": {
+    "total": 60,
+    "itemIdMatches": 60,
+    "sourceQuality": {
+      "common": 28,
+      "epic": 32
+    },
+    "knownItemLevel": 60,
+    "withEquipmentSlot": 37
+  },
+  "entries": [
+    {
+      "name": "Handstitched Leather Boots",
+      "spellId": "2149",
+      "itemId": 2302,
+      "catalogQuality": "common",
+      "sourceQuality": "common",
+      "itemIdMatch": true,
+      "itemLevel": "Item Level 8",
+      "lines": [
+        "Common",
+        "Feet · Leather Armor",
+        "Item Level 8",
+        "Requires Level 3",
+        "31 Armor",
+        "Sell Price 29c"
+      ],
+      "hasGearSlot": true,
+      "effects": []
+    },
+    {
+      "name": "Handstitched Leather Bracers",
+      "spellId": "9059",
+      "itemId": 7277,
+      "catalogQuality": "common",
+      "sourceQuality": "common",
+      "itemIdMatch": true,
+      "itemLevel": "Item Level 9",
+      "lines": [
+        "Common",
+        "Wrist · Leather Armor",
+        "Item Level 9",
+        "Requires Level 4",
+        "21 Armor",
+        "Sell Price 28c"
+      ],
+      "hasGearSlot": true,
+      "effects": []
+    },
+    {
+      "name": "Handstitched Leather Cloak",
+      "spellId": "9058",
+      "itemId": 7276,
+      "catalogQuality": "common",
+      "sourceQuality": "common",
+      "itemIdMatch": true,
+      "itemLevel": "Item Level 9",
+      "lines": [
+        "Common",
+        "Back · Cloaks",
+        "Item Level 9",
+        "Requires Level 4",
+        "8 Armor",
+        "Sell Price 34c"
+      ],
+      "hasGearSlot": true,
+      "effects": []
+    },
+    {
+      "name": "Light Armor Kit",
+      "spellId": "2152",
+      "itemId": 2304,
+      "catalogQuality": "common",
+      "sourceQuality": "common",
+      "itemIdMatch": true,
+      "itemLevel": "Item Level 5",
+      "lines": [
+        "Common",
+        "Item Enhancements (Permanent)",
+        "Item Level 5",
+        "8 Armor",
+        "+1 Stamina",
+        "Sell Price 15c"
+      ],
+      "hasGearSlot": false,
+      "effects": [
+        "Use: Permanently increase the Stamina value by 1 and the Armor value by 8 of an item worn on the chest, legs, hands or feet."
+      ]
+    },
+    {
+      "name": "Light Leather",
+      "spellId": "2881",
+      "itemId": 2318,
+      "catalogQuality": "common",
+      "sourceQuality": "common",
+      "itemIdMatch": true,
+      "itemLevel": "Item Level 10",
+      "lines": [
+        "Common",
+        "Leather",
+        "Item Level 10",
+        "Sell Price 15c"
+      ],
+      "hasGearSlot": false,
+      "effects": []
+    },
+    {
+      "name": "Camp Tent",
+      "spellId": "1229432",
+      "itemId": 279978,
+      "catalogQuality": "common",
+      "sourceQuality": "common",
+      "itemIdMatch": true,
+      "itemLevel": "Item Level 4",
+      "lines": [
+        "Common",
+        "Item Level 4"
+      ],
+      "hasGearSlot": false,
+      "effects": [
+        "Use: Builds a tent that allows you and others sitting nearby to increase Rested experience to 5% of a level. No effect if Rested experience already exceeds that value."
+      ]
+    },
+    {
+      "name": "Light Leather Quiver",
+      "spellId": "9060",
+      "itemId": 7278,
+      "catalogQuality": "common",
+      "sourceQuality": "common",
+      "itemIdMatch": true,
+      "itemLevel": "Item Level 5",
+      "lines": [
+        "Common",
+        "Bag",
+        "Item Level 5",
+        "8 Slot Bag",
+        "Sell Price 25c"
+      ],
+      "hasGearSlot": false,
+      "effects": [
+        "Equip: Increases ranged attack speed by 10%."
+      ]
+    },
+    {
+      "name": "Small Leather Ammo Pouch",
+      "spellId": "9062",
+      "itemId": 7279,
+      "catalogQuality": "common",
+      "sourceQuality": "common",
+      "itemIdMatch": true,
+      "itemLevel": "Item Level 5",
+      "lines": [
+        "Common",
+        "Bag",
+        "Item Level 5",
+        "8 Slot Bag",
+        "Sell Price 25c"
+      ],
+      "hasGearSlot": false,
+      "effects": [
+        "Equip: Increases ranged attack speed by 10%."
+      ]
+    },
+    {
+      "name": "Cured Light Hide",
+      "spellId": "3816",
+      "itemId": 4231,
+      "catalogQuality": "common",
+      "sourceQuality": "common",
+      "itemIdMatch": true,
+      "itemLevel": "Item Level 10",
+      "lines": [
+        "Common",
+        "Leather",
+        "Item Level 10",
+        "Sell Price 1s 10c"
+      ],
+      "hasGearSlot": false,
+      "effects": []
+    },
+    {
+      "name": "Light Leather Reagent Bag",
+      "spellId": "1302604",
+      "itemId": 277715,
+      "catalogQuality": "common",
+      "sourceQuality": "common",
+      "itemIdMatch": true,
+      "itemLevel": "Item Level 5",
+      "lines": [
+        "Common",
+        "Item Level 5",
+        "Binds when equipped",
+        "Sell Price 1s"
+      ],
+      "hasGearSlot": false,
+      "effects": []
+    },
+    {
+      "name": "Kodo Hide Bag",
+      "spellId": "5244",
+      "itemId": 5081,
+      "catalogQuality": "common",
+      "sourceQuality": "common",
+      "itemIdMatch": true,
+      "itemLevel": "Item Level 5",
+      "lines": [
+        "Common",
+        "Bag · Bags",
+        "Item Level 5",
+        "6 Slot Bag",
+        "Sell Price 2s 50c"
+      ],
+      "hasGearSlot": true,
+      "effects": []
+    },
+    {
+      "name": "Cured Medium Hide",
+      "spellId": "3817",
+      "itemId": 4233,
+      "catalogQuality": "common",
+      "sourceQuality": "common",
+      "itemIdMatch": true,
+      "itemLevel": "Item Level 20",
+      "lines": [
+        "Common",
+        "Leather",
+        "Item Level 20",
+        "Sell Price 2s"
+      ],
+      "hasGearSlot": false,
+      "effects": []
+    },
+    {
+      "name": "Medium Armor Kit",
+      "spellId": "2165",
+      "itemId": 2313,
+      "catalogQuality": "common",
+      "sourceQuality": "common",
+      "itemIdMatch": true,
+      "itemLevel": "Item Level 15",
+      "lines": [
+        "Common",
+        "Item Enhancements (Permanent)",
+        "Item Level 15",
+        "Requires Level 5",
+        "16 Armor",
+        "+2 Stamina",
+        "Sell Price 2s"
+      ],
+      "hasGearSlot": false,
+      "effects": [
+        "Use: Permanently increase the Stamina value by 2 and the armor value by 16 of an item worn on the chest, legs, hands or feet."
+      ]
+    },
+    {
+      "name": "Medium Leather",
+      "spellId": "20648",
+      "itemId": 2319,
+      "catalogQuality": "common",
+      "sourceQuality": "common",
+      "itemIdMatch": true,
+      "itemLevel": "Item Level 20",
+      "lines": [
+        "Common",
+        "Leather",
+        "Item Level 20",
+        "Sell Price 50c"
+      ],
+      "hasGearSlot": false,
+      "effects": []
+    },
+    {
+      "name": "Toughened Leather Armor",
+      "spellId": "2166",
+      "itemId": 2314,
+      "catalogQuality": "common",
+      "sourceQuality": "common",
+      "itemIdMatch": true,
+      "itemLevel": "Item Level 24",
+      "lines": [
+        "Common",
+        "Chest · Leather Armor",
+        "Item Level 24",
+        "Requires Level 19",
+        "80 Armor",
+        "Sell Price 7s 43c"
+      ],
+      "hasGearSlot": true,
+      "effects": []
+    },
+    {
+      "name": "Cured Heavy Hide",
+      "spellId": "3818",
+      "itemId": 4236,
+      "catalogQuality": "common",
+      "sourceQuality": "common",
+      "itemIdMatch": true,
+      "itemLevel": "Item Level 30",
+      "lines": [
+        "Common",
+        "Leather",
+        "Item Level 30",
+        "Sell Price 2s 25c"
+      ],
+      "hasGearSlot": false,
+      "effects": []
+    },
+    {
+      "name": "Heavy Leather",
+      "spellId": "20649",
+      "itemId": 4234,
+      "catalogQuality": "common",
+      "sourceQuality": "common",
+      "itemIdMatch": true,
+      "itemLevel": "Item Level 30",
+      "lines": [
+        "Common",
+        "Leather",
+        "Item Level 30",
+        "Sell Price 1s 50c"
+      ],
+      "hasGearSlot": false,
+      "effects": []
+    },
+    {
+      "name": "Heavy Leather Ball",
+      "spellId": "23190",
+      "itemId": 18662,
+      "catalogQuality": "common",
+      "sourceQuality": "common",
+      "itemIdMatch": true,
+      "itemLevel": "Item Level 1",
+      "lines": [
+        "Common",
+        "Item Level 1",
+        "Unique",
+        "Sell Price 5c"
+      ],
+      "hasGearSlot": false,
+      "effects": [
+        "Use: Throw the ball to a friendly player. If they have free room in their pack they will catch it!"
+      ]
+    },
+    {
+      "name": "Tanning Rack",
+      "spellId": "1263031",
+      "itemId": 279941,
+      "catalogQuality": "common",
+      "sourceQuality": "common",
+      "itemIdMatch": true,
+      "itemLevel": "Item Level 28",
+      "lines": [
+        "Common",
+        "Item Level 28"
+      ],
+      "hasGearSlot": false,
+      "effects": [
+        "Use: Places a Tanning Rack that allows the creation of certain reagents, and provides all of the benefits of a Camp Tent. Requires a Campfire nearby."
+      ]
+    },
+    {
+      "name": "Heavy Armor Kit",
+      "spellId": "3780",
+      "itemId": 4265,
+      "catalogQuality": "common",
+      "sourceQuality": "common",
+      "itemIdMatch": true,
+      "itemLevel": "Item Level 30",
+      "lines": [
+        "Common",
+        "Item Enhancements (Permanent)",
+        "Item Level 30",
+        "Requires Level 20",
+        "24 Armor",
+        "+3 Stamina",
+        "Sell Price 6s 50c"
+      ],
+      "hasGearSlot": false,
+      "effects": [
+        "Use: Permanently increase the Stamina value by 0 and armor value by 0 of an item worn on the chest, legs, hands or feet. Only usable on items level 0 and above."
+      ]
+    },
+    {
+      "name": "Cured Thick Hide",
+      "spellId": "10482",
+      "itemId": 8172,
+      "catalogQuality": "common",
+      "sourceQuality": "common",
+      "itemIdMatch": true,
+      "itemLevel": "Item Level 40",
+      "lines": [
+        "Common",
+        "Leather",
+        "Item Level 40",
+        "Sell Price 5s"
+      ],
+      "hasGearSlot": false,
+      "effects": []
+    },
+    {
+      "name": "Thick Leather",
+      "spellId": "20650",
+      "itemId": 4304,
+      "catalogQuality": "common",
+      "sourceQuality": "common",
+      "itemIdMatch": true,
+      "itemLevel": "Item Level 40",
+      "lines": [
+        "Common",
+        "Leather",
+        "Item Level 40",
+        "Sell Price 3s"
+      ],
+      "hasGearSlot": false,
+      "effects": []
+    },
+    {
+      "name": "Thick Armor Kit",
+      "spellId": "10487",
+      "itemId": 8173,
+      "catalogQuality": "common",
+      "sourceQuality": "common",
+      "itemIdMatch": true,
+      "itemLevel": "Item Level 40",
+      "lines": [
+        "Common",
+        "Item Enhancements (Permanent)",
+        "Item Level 40",
+        "Requires Level 30",
+        "32 Armor",
+        "+4 Stamina",
+        "Sell Price 10s"
+      ],
+      "hasGearSlot": false,
+      "effects": [
+        "Use: Permanently increase the Stamina value by 0 and armor value by 0 of an item worn on the chest, legs, hands or feet. Only usable on items level 0 and above."
+      ]
+    },
+    {
+      "name": "Rugged Armor Kit",
+      "spellId": "19058",
+      "itemId": 15564,
+      "catalogQuality": "common",
+      "sourceQuality": "common",
+      "itemIdMatch": true,
+      "itemLevel": "Item Level 50",
+      "lines": [
+        "Common",
+        "Item Level 50",
+        "Requires Level 40",
+        "40 Armor",
+        "Sell Price 10s"
+      ],
+      "hasGearSlot": false,
+      "effects": [
+        "Use: Permanently increase the Stamina value by 0 and armor value by 0 of an item worn on the chest, legs, hands or feet. Only usable on items level 0 and above."
+      ]
+    },
+    {
+      "name": "Rugged Leather",
+      "spellId": "22331",
+      "itemId": 8170,
+      "catalogQuality": "common",
+      "sourceQuality": "common",
+      "itemIdMatch": true,
+      "itemLevel": "Item Level 50",
+      "lines": [
+        "Common",
+        "Leather",
+        "Item Level 50",
+        "Sell Price 5s"
+      ],
+      "hasGearSlot": false,
+      "effects": []
+    },
+    {
+      "name": "Cured Rugged Hide",
+      "spellId": "19047",
+      "itemId": 15407,
+      "catalogQuality": "common",
+      "sourceQuality": "common",
+      "itemIdMatch": true,
+      "itemLevel": "Item Level 50",
+      "lines": [
+        "Common",
+        "Item Level 50",
+        "Sell Price 5s"
+      ],
+      "hasGearSlot": false,
+      "effects": []
+    },
+    {
+      "name": "Winter Boots",
+      "spellId": "44953",
+      "itemId": 34086,
+      "catalogQuality": "common",
+      "sourceQuality": "common",
+      "itemIdMatch": true,
+      "itemLevel": "Item Level 1",
+      "lines": [
+        "Common",
+        "Feet",
+        "Item Level 1",
+        "Binds when equipped",
+        "Sell Price 1c"
+      ],
+      "hasGearSlot": false,
+      "effects": []
+    },
+    {
+      "name": "Grimstitch Boots",
+      "spellId": "1292968",
+      "itemId": 273931,
+      "catalogQuality": "unknown",
+      "sourceQuality": "epic",
+      "itemIdMatch": true,
+      "itemLevel": "Item Level 61",
+      "lines": [
+        "Epic",
+        "Feet · Leather",
+        "Item Level 61",
+        "Requires Level 60",
+        "Binds when equipped",
+        "Unique",
+        "129 Armor",
+        "+36 Attack Power",
+        "Sell Price 2g 63s 57c"
+      ],
+      "hasGearSlot": true,
+      "effects": []
+    },
+    {
+      "name": "Grimstitch Gloves",
+      "spellId": "1292966",
+      "itemId": 273929,
+      "catalogQuality": "unknown",
+      "sourceQuality": "epic",
+      "itemIdMatch": true,
+      "itemLevel": "Item Level 61",
+      "lines": [
+        "Epic",
+        "Hands · Leather",
+        "Item Level 61",
+        "Requires Level 60",
+        "Binds when equipped",
+        "Unique",
+        "117 Armor",
+        "+36 Attack Power",
+        "Sell Price 1g 75s 34c"
+      ],
+      "hasGearSlot": true,
+      "effects": []
+    },
+    {
+      "name": "Grimstitch Pants",
+      "spellId": "1292965",
+      "itemId": 273928,
+      "catalogQuality": "unknown",
+      "sourceQuality": "epic",
+      "itemIdMatch": true,
+      "itemLevel": "Item Level 61",
+      "lines": [
+        "Epic",
+        "Legs · Leather",
+        "Item Level 61",
+        "Requires Level 60",
+        "Binds when equipped",
+        "Unique",
+        "164 Armor",
+        "+36 Attack Power",
+        "Sell Price 3g 46s 66c"
+      ],
+      "hasGearSlot": true,
+      "effects": []
+    },
+    {
+      "name": "Grimstitch Spaulders",
+      "spellId": "1292967",
+      "itemId": 273930,
+      "catalogQuality": "unknown",
+      "sourceQuality": "epic",
+      "itemIdMatch": true,
+      "itemLevel": "Item Level 61",
+      "lines": [
+        "Epic",
+        "Shoulder · Leather",
+        "Item Level 61",
+        "Requires Level 60",
+        "Binds when equipped",
+        "Unique",
+        "140 Armor",
+        "+36 Attack Power",
+        "Sell Price 2g 62s 60c"
+      ],
+      "hasGearSlot": true,
+      "effects": []
+    },
+    {
+      "name": "Grovekeeper Boots",
+      "spellId": "1292932",
+      "itemId": 273895,
+      "catalogQuality": "unknown",
+      "sourceQuality": "epic",
+      "itemIdMatch": true,
+      "itemLevel": "Item Level 61",
+      "lines": [
+        "Epic",
+        "Feet · Leather",
+        "Item Level 61",
+        "Requires Level 60",
+        "Binds when equipped",
+        "Unique",
+        "129 Armor",
+        "Sell Price 2g 60s 53c"
+      ],
+      "hasGearSlot": true,
+      "effects": []
+    },
+    {
+      "name": "Grovekeeper Gauntlets",
+      "spellId": "1292934",
+      "itemId": 273897,
+      "catalogQuality": "unknown",
+      "sourceQuality": "epic",
+      "itemIdMatch": true,
+      "itemLevel": "Item Level 61",
+      "lines": [
+        "Epic",
+        "Hands · Leather",
+        "Item Level 61",
+        "Requires Level 60",
+        "Binds when equipped",
+        "Unique",
+        "117 Armor",
+        "Sell Price 1g 80s 56c"
+      ],
+      "hasGearSlot": true,
+      "effects": []
+    },
+    {
+      "name": "Grovekeeper Grips",
+      "spellId": "1292921",
+      "itemId": 273885,
+      "catalogQuality": "unknown",
+      "sourceQuality": "epic",
+      "itemIdMatch": true,
+      "itemLevel": "Item Level 61",
+      "lines": [
+        "Epic",
+        "Hands · Leather",
+        "Item Level 61",
+        "Requires Level 60",
+        "Binds when equipped",
+        "Unique",
+        "117 Armor",
+        "Sell Price 1g 68s 17c"
+      ],
+      "hasGearSlot": true,
+      "effects": []
+    },
+    {
+      "name": "Grovekeeper Handguards",
+      "spellId": "1292930",
+      "itemId": 273893,
+      "catalogQuality": "unknown",
+      "sourceQuality": "epic",
+      "itemIdMatch": true,
+      "itemLevel": "Item Level 61",
+      "lines": [
+        "Epic",
+        "Hands · Leather",
+        "Item Level 61",
+        "Requires Level 60",
+        "Binds when equipped",
+        "Unique",
+        "117 Armor",
+        "Sell Price 1g 73s 33c"
+      ],
+      "hasGearSlot": true,
+      "effects": []
+    },
+    {
+      "name": "Grovekeeper Kilt",
+      "spellId": "1292925",
+      "itemId": 273888,
+      "catalogQuality": "unknown",
+      "sourceQuality": "epic",
+      "itemIdMatch": true,
+      "itemLevel": "Item Level 61",
+      "lines": [
+        "Epic",
+        "Legs · Leather",
+        "Item Level 61",
+        "Requires Level 60",
+        "Binds when equipped",
+        "Unique",
+        "164 Armor",
+        "Sell Price 3g 37s 50c"
+      ],
+      "hasGearSlot": true,
+      "effects": []
+    },
+    {
+      "name": "Grovekeeper Leggings",
+      "spellId": "1292933",
+      "itemId": 273896,
+      "catalogQuality": "unknown",
+      "sourceQuality": "epic",
+      "itemIdMatch": true,
+      "itemLevel": "Item Level 61",
+      "lines": [
+        "Epic",
+        "Legs · Leather",
+        "Item Level 61",
+        "Requires Level 60",
+        "Binds when equipped",
+        "Unique",
+        "164 Armor",
+        "Sell Price 3g 56s 96c"
+      ],
+      "hasGearSlot": true,
+      "effects": []
+    },
+    {
+      "name": "Grovekeeper Legguards",
+      "spellId": "1292929",
+      "itemId": 273892,
+      "catalogQuality": "unknown",
+      "sourceQuality": "epic",
+      "itemIdMatch": true,
+      "itemLevel": "Item Level 61",
+      "lines": [
+        "Epic",
+        "Legs · Leather",
+        "Item Level 61",
+        "Requires Level 60",
+        "Binds when equipped",
+        "Unique",
+        "164 Armor",
+        "Sell Price 3g 42s 62c"
+      ],
+      "hasGearSlot": true,
+      "effects": []
+    },
+    {
+      "name": "Grovekeeper Mantle",
+      "spellId": "1292927",
+      "itemId": 273890,
+      "catalogQuality": "unknown",
+      "sourceQuality": "epic",
+      "itemIdMatch": true,
+      "itemLevel": "Item Level 61",
+      "lines": [
+        "Epic",
+        "Shoulder · Leather",
+        "Item Level 61",
+        "Requires Level 60",
+        "Binds when equipped",
+        "Unique",
+        "140 Armor",
+        "Sell Price 2g 55s 74c"
+      ],
+      "hasGearSlot": true,
+      "effects": []
+    },
+    {
+      "name": "Grovekeeper Mitts",
+      "spellId": "1292926",
+      "itemId": 273889,
+      "catalogQuality": "unknown",
+      "sourceQuality": "epic",
+      "itemIdMatch": true,
+      "itemLevel": "Item Level 61",
+      "lines": [
+        "Epic",
+        "Hands · Leather",
+        "Item Level 61",
+        "Requires Level 60",
+        "Binds when equipped",
+        "Unique",
+        "117 Armor",
+        "Sell Price 1g 70s 75c"
+      ],
+      "hasGearSlot": true,
+      "effects": []
+    },
+    {
+      "name": "Grovekeeper Pauldrons",
+      "spellId": "1292931",
+      "itemId": 273894,
+      "catalogQuality": "unknown",
+      "sourceQuality": "epic",
+      "itemIdMatch": true,
+      "itemLevel": "Item Level 61",
+      "lines": [
+        "Epic",
+        "Shoulder · Leather",
+        "Item Level 61",
+        "Requires Level 60",
+        "Binds when equipped",
+        "Unique",
+        "140 Armor",
+        "Sell Price 2g 59s 59c"
+      ],
+      "hasGearSlot": true,
+      "effects": []
+    },
+    {
+      "name": "Grovekeeper Sandals",
+      "spellId": "1292928",
+      "itemId": 273891,
+      "catalogQuality": "unknown",
+      "sourceQuality": "epic",
+      "itemIdMatch": true,
+      "itemLevel": "Item Level 61",
+      "lines": [
+        "Epic",
+        "Feet · Leather",
+        "Item Level 61",
+        "Requires Level 60",
+        "Binds when equipped",
+        "Unique",
+        "129 Armor",
+        "Sell Price 2g 56s 68c"
+      ],
+      "hasGearSlot": true,
+      "effects": []
+    },
+    {
+      "name": "Grovekeeper Shoulderpads",
+      "spellId": "1292923",
+      "itemId": 273886,
+      "catalogQuality": "unknown",
+      "sourceQuality": "epic",
+      "itemIdMatch": true,
+      "itemLevel": "Item Level 61",
+      "lines": [
+        "Epic",
+        "Shoulder · Leather",
+        "Item Level 61",
+        "Requires Level 60",
+        "Binds when equipped",
+        "Unique",
+        "140 Armor",
+        "Sell Price 2g 51s 89c"
+      ],
+      "hasGearSlot": true,
+      "effects": []
+    },
+    {
+      "name": "Grovekeeper Spaulders",
+      "spellId": "1292935",
+      "itemId": 273898,
+      "catalogQuality": "unknown",
+      "sourceQuality": "epic",
+      "itemIdMatch": true,
+      "itemLevel": "Item Level 61",
+      "lines": [
+        "Epic",
+        "Shoulder · Leather",
+        "Item Level 61",
+        "Requires Level 60",
+        "Binds when equipped",
+        "Unique",
+        "140 Armor",
+        "Sell Price 2g 70s 37c"
+      ],
+      "hasGearSlot": true,
+      "effects": []
+    },
+    {
+      "name": "Grovekeeper Stompers",
+      "spellId": "1292924",
+      "itemId": 273887,
+      "catalogQuality": "unknown",
+      "sourceQuality": "epic",
+      "itemIdMatch": true,
+      "itemLevel": "Item Level 61",
+      "lines": [
+        "Epic",
+        "Feet · Leather",
+        "Item Level 61",
+        "Requires Level 60",
+        "Binds when equipped",
+        "Unique",
+        "129 Armor",
+        "Sell Price 2g 52s 83c"
+      ],
+      "hasGearSlot": true,
+      "effects": []
+    },
+    {
+      "name": "Grovekeeper Treads",
+      "spellId": "1292936",
+      "itemId": 273899,
+      "catalogQuality": "unknown",
+      "sourceQuality": "epic",
+      "itemIdMatch": true,
+      "itemLevel": "Item Level 61",
+      "lines": [
+        "Epic",
+        "Feet · Leather",
+        "Item Level 61",
+        "Requires Level 60",
+        "Binds when equipped",
+        "Unique",
+        "129 Armor",
+        "Sell Price 2g 71s 32c"
+      ],
+      "hasGearSlot": true,
+      "effects": []
+    },
+    {
+      "name": "Grovekeeper Trousers",
+      "spellId": "1292920",
+      "itemId": 273884,
+      "catalogQuality": "unknown",
+      "sourceQuality": "epic",
+      "itemIdMatch": true,
+      "itemLevel": "Item Level 61",
+      "lines": [
+        "Epic",
+        "Legs · Leather",
+        "Item Level 61",
+        "Requires Level 60",
+        "Binds when equipped",
+        "Unique",
+        "164 Armor",
+        "Sell Price 3g 32s 38c"
+      ],
+      "hasGearSlot": true,
+      "effects": []
+    },
+    {
+      "name": "Sewing Machine",
+      "spellId": "1263079",
+      "itemId": 279945,
+      "catalogQuality": "common",
+      "sourceQuality": "common",
+      "itemIdMatch": true,
+      "itemLevel": "Item Level 60",
+      "lines": [
+        "Common",
+        "Item Level 60"
+      ],
+      "hasGearSlot": false,
+      "effects": [
+        "Use: Places a Sewing Machine usable for recipes that require it, and provides all of the benefits of a Camp Tent. Requires a Campfire nearby."
+      ]
+    },
+    {
+      "name": "Spiritcaller Epaulets",
+      "spellId": "1292975",
+      "itemId": 273938,
+      "catalogQuality": "unknown",
+      "sourceQuality": "epic",
+      "itemIdMatch": true,
+      "itemLevel": "Item Level 61",
+      "lines": [
+        "Epic",
+        "Shoulder · Mail",
+        "Item Level 61",
+        "Requires Level 60",
+        "Binds when equipped",
+        "Unique",
+        "294 Armor",
+        "Sell Price 3g 24s 93c"
+      ],
+      "hasGearSlot": true,
+      "effects": []
+    },
+    {
+      "name": "Spiritcaller Gauntlets",
+      "spellId": "1292974",
+      "itemId": 273937,
+      "catalogQuality": "unknown",
+      "sourceQuality": "epic",
+      "itemIdMatch": true,
+      "itemLevel": "Item Level 61",
+      "lines": [
+        "Epic",
+        "Hands · Mail",
+        "Item Level 61",
+        "Requires Level 60",
+        "Binds when equipped",
+        "Unique",
+        "245 Armor",
+        "Sell Price 2g 14s 89c"
+      ],
+      "hasGearSlot": true,
+      "effects": []
+    },
+    {
+      "name": "Spiritcaller Greaves",
+      "spellId": "1292976",
+      "itemId": 273939,
+      "catalogQuality": "unknown",
+      "sourceQuality": "epic",
+      "itemIdMatch": true,
+      "itemLevel": "Item Level 61",
+      "lines": [
+        "Epic",
+        "Feet · Mail",
+        "Item Level 61",
+        "Requires Level 60",
+        "Binds when equipped",
+        "Unique",
+        "270 Armor",
+        "Sell Price 3g 26s 9c"
+      ],
+      "hasGearSlot": true,
+      "effects": []
+    },
+    {
+      "name": "Spiritcaller Grips",
+      "spellId": "1292970",
+      "itemId": 273933,
+      "catalogQuality": "unknown",
+      "sourceQuality": "epic",
+      "itemIdMatch": true,
+      "itemLevel": "Item Level 61",
+      "lines": [
+        "Epic",
+        "Hands · Mail",
+        "Item Level 61",
+        "Requires Level 60",
+        "Binds when equipped",
+        "Unique",
+        "245 Armor",
+        "+36 Attack Power",
+        "Sell Price 2g 11s 82c"
+      ],
+      "hasGearSlot": true,
+      "effects": []
+    },
+    {
+      "name": "Spiritcaller Leggings",
+      "spellId": "1292969",
+      "itemId": 273932,
+      "catalogQuality": "unknown",
+      "sourceQuality": "epic",
+      "itemIdMatch": true,
+      "itemLevel": "Item Level 61",
+      "lines": [
+        "Epic",
+        "Legs · Mail",
+        "Item Level 61",
+        "Requires Level 60",
+        "Binds when equipped",
+        "Unique",
+        "344 Armor",
+        "+36 Attack Power",
+        "Sell Price 4g 22s 9c"
+      ],
+      "hasGearSlot": true,
+      "effects": []
+    },
+    {
+      "name": "Spiritcaller Pants",
+      "spellId": "1292973",
+      "itemId": 273936,
+      "catalogQuality": "unknown",
+      "sourceQuality": "epic",
+      "itemIdMatch": true,
+      "itemLevel": "Item Level 61",
+      "lines": [
+        "Epic",
+        "Legs · Mail",
+        "Item Level 61",
+        "Requires Level 60",
+        "Binds when equipped",
+        "Unique",
+        "344 Armor",
+        "Sell Price 4g 28s 23c"
+      ],
+      "hasGearSlot": true,
+      "effects": []
+    },
+    {
+      "name": "Spiritcaller Spaulders",
+      "spellId": "1292971",
+      "itemId": 273934,
+      "catalogQuality": "unknown",
+      "sourceQuality": "epic",
+      "itemIdMatch": true,
+      "itemLevel": "Item Level 61",
+      "lines": [
+        "Epic",
+        "Shoulder · Mail",
+        "Item Level 61",
+        "Requires Level 60",
+        "Binds when equipped",
+        "Unique",
+        "294 Armor",
+        "+36 Attack Power",
+        "Sell Price 3g 20s 30c"
+      ],
+      "hasGearSlot": true,
+      "effects": []
+    },
+    {
+      "name": "Spiritcaller Treads",
+      "spellId": "1292972",
+      "itemId": 273935,
+      "catalogQuality": "unknown",
+      "sourceQuality": "epic",
+      "itemIdMatch": true,
+      "itemLevel": "Item Level 61",
+      "lines": [
+        "Epic",
+        "Feet · Mail",
+        "Item Level 61",
+        "Requires Level 60",
+        "Binds when equipped",
+        "Unique",
+        "270 Armor",
+        "+36 Attack Power",
+        "Sell Price 3g 21s 47c"
+      ],
+      "hasGearSlot": true,
+      "effects": []
+    },
+    {
+      "name": "Wildstalker's Gauntlets",
+      "spellId": "1292938",
+      "itemId": 273901,
+      "catalogQuality": "unknown",
+      "sourceQuality": "epic",
+      "itemIdMatch": true,
+      "itemLevel": "Item Level 61",
+      "lines": [
+        "Epic",
+        "Hands · Mail",
+        "Item Level 61",
+        "Requires Level 60",
+        "Binds when equipped",
+        "Unique",
+        "245 Armor",
+        "+36 Attack Power",
+        "Sell Price 2g 18s 2c"
+      ],
+      "hasGearSlot": true,
+      "effects": []
+    },
+    {
+      "name": "Wildstalker's Greaves",
+      "spellId": "1292940",
+      "itemId": 273903,
+      "catalogQuality": "unknown",
+      "sourceQuality": "epic",
+      "itemIdMatch": true,
+      "itemLevel": "Item Level 61",
+      "lines": [
+        "Epic",
+        "Feet · Mail",
+        "Item Level 61",
+        "Requires Level 60",
+        "Binds when equipped",
+        "Unique",
+        "270 Armor",
+        "+36 Attack Power",
+        "Sell Price 2g 99s 28c"
+      ],
+      "hasGearSlot": true,
+      "effects": []
+    },
+    {
+      "name": "Wildstalker's Legguards",
+      "spellId": "1292937",
+      "itemId": 273900,
+      "catalogQuality": "unknown",
+      "sourceQuality": "epic",
+      "itemIdMatch": true,
+      "itemLevel": "Item Level 61",
+      "lines": [
+        "Epic",
+        "Legs · Mail",
+        "Item Level 61",
+        "Requires Level 60",
+        "Binds when equipped",
+        "Unique",
+        "344 Armor",
+        "+36 Attack Power",
+        "Sell Price 4g 34s 50c"
+      ],
+      "hasGearSlot": true,
+      "effects": []
+    },
+    {
+      "name": "Wildstalker's Spaulders",
+      "spellId": "1292939",
+      "itemId": 273902,
+      "catalogQuality": "unknown",
+      "sourceQuality": "epic",
+      "itemIdMatch": true,
+      "itemLevel": "Item Level 61",
+      "lines": [
+        "Epic",
+        "Shoulder · Mail",
+        "Item Level 61",
+        "Requires Level 60",
+        "Binds when equipped",
+        "Unique",
+        "294 Armor",
+        "+36 Attack Power",
+        "Sell Price 3g 29s 62c"
+      ],
+      "hasGearSlot": true,
+      "effects": []
+    }
+  ]
+}

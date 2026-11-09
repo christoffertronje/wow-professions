@@ -1,0 +1,42 @@
+{
+  "meta": {
+    "source": "https://wowforevertalent.com/professions/leatherworking/?acquisition=favor",
+    "method": "Explicit Epic quality label on the output item tooltip, matched by crafting spell ID and item ID",
+    "count": 32,
+    "note": "Corrects unknown quality in ForeverTome snapshot, does not imply in-game obtainability"
+  },
+  "byItemId": {
+    "273884": "epic",
+    "273885": "epic",
+    "273886": "epic",
+    "273887": "epic",
+    "273888": "epic",
+    "273889": "epic",
+    "273890": "epic",
+    "273891": "epic",
+    "273892": "epic",
+    "273893": "epic",
+    "273894": "epic",
+    "273895": "epic",
+    "273896": "epic",
+    "273897": "epic",
+    "273898": "epic",
+    "273899": "epic",
+    "273900": "epic",
+    "273901": "epic",
+    "273902": "epic",
+    "273903": "epic",
+    "273928": "epic",
+    "273929": "epic",
+    "273930": "epic",
+    "273931": "epic",
+    "273932": "epic",
+    "273933": "epic",
+    "273934": "epic",
+    "273935": "epic",
+    "273936": "epic",
+    "273937": "epic",
+    "273938": "epic",
+    "273939": "epic"
+  }
+}

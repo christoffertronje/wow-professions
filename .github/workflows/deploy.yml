@@ -27,6 +27,8 @@ jobs:
         run: python3 scripts/build-data.py
       - name: Validate minimum crafting skills
         run: python3 scripts/validate-crafting-skills.py
+      - name: Validate Rare item stats
+        run: python3 scripts/validate-item-stats.py
       - name: Resolve item icons from WoW FileDataIDs
         run: python3 scripts/resolve-icons.py
       - name: Configure Pages

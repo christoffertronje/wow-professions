@@ -67,6 +67,10 @@ for recipe in selected:
             continue
         if " · " in text and slot is None:
             slot,armor_type=(p.strip() for p in text.split(" · ",1))
+            # Tooltip categorization sometimes says "Back · Cloaks", but
+            # Cloaks is a category, NOT an equippable armor material.
+            if slot=="Back" and armor_type in ("Cloak","Cloaks"):
+                armor_type=None
             continue
         if text in {"Back","Trinket","Finger","Neck","Ranged","Shirt","Tabard","Held In Off-hand","Main Hand","Off Hand","Two-Hand","One-Hand"} and slot is None:
             slot=text

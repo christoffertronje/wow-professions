@@ -14,9 +14,9 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - run: python3 -m pip install beautifulsoup4
-      - run: python3 scripts/audit-uncommon-second-source.py
+      - run: python3 scripts/audit-uncommon-second-source.py > docs/uncommon-audit-run.log 2>&1 || true
       - run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add docs/uncommon-stats-second-source-audit.json
+          git add -A docs/uncommon-audit-run.log docs/uncommon-stats-second-source-audit.json
           git diff --cached --quiet || (git commit -m "docs: compare all 213 Uncommon tooltip fields" && git push)

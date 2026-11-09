@@ -2,10 +2,17 @@
   "meta": {
     "source": "https://wowforevertalent.com/professions/leatherworking/?acquisition=favor",
     "method": "Explicit Epic quality label on the output item tooltip, matched by crafting spell ID and item ID",
-    "count": 32,
-    "note": "Corrects unknown quality in ForeverTome snapshot, does not imply in-game obtainability"
+    "count": 33,
+    "note": "Corrects unknown quality in ForeverTome snapshot, does not imply in-game obtainability",
+    "additionalReview": "Toughened Leather Armor (2314): newer 1.60.1.70862 Forever game files changed from Common to Uncommon, with 84 Armor, +2 Stamina and +7 Spirit.",
+    "corroboration": [
+      "https://foreverchanges.pro/item/2314/toughened-leather-armor",
+      "https://senseos.gg/wiki/wow-forever/items/2314/toughened-leather-armor/",
+      "https://raiddex.com/en/wow-forever/items/toughened-leather-armor"
+    ]
   },
   "byItemId": {
+    "2314": "uncommon",
     "273884": "epic",
     "273885": "epic",
     "273886": "epic",

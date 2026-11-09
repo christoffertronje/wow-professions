@@ -8,17 +8,16 @@
   },
   "summary": {
     "totalEpic": 70,
-    "match": 68,
-    "difference": 2,
+    "match": 69,
+    "difference": 1,
     "inconclusive": 0,
     "source-unavailable": 0,
     "identity-mismatch": 0,
     "sourcesFetched": 70,
-    "fullyMatching": 68,
-    "disagreements": 2,
+    "fullyMatching": 69,
+    "disagreements": 1,
     "fieldsWithDisagreements": {
-      "effects": 1,
-      "stats": 1
+      "effects": 1
     }
   },
   "results": [
@@ -954,7 +953,7 @@
       "itemId": "252603",
       "name": "Red Dragonscale Leggings",
       "url": "https://bindonforever.com/item/252603",
-      "status": "difference",
+      "status": "match",
       "checkedFields": [
         "itemLevel",
         "requiredCharacterLevel",
@@ -966,17 +965,7 @@
         "resistances",
         "effects"
       ],
-      "differences": [
-        {
-          "field": "stats",
-          "ours": {
-            "Intellect": 31
-          },
-          "source": {
-            "Intellect": 32
-          }
-        }
-      ],
+      "differences": [],
       "unresolvedEffectTemplate": false,
       "source": {
         "name": "Red Dragonscale Leggings",

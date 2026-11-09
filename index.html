@@ -123,14 +123,14 @@
     fetch("./data/leatherworking.json").then(response=>{if(!response.ok)throw Error("Recipe data is unavailable (HTTP "+response.status+")");return response.json()}).then(payload=>{
       if(!Array.isArray(payload.recipes)||payload.recipes.length!==512||payload.recipes.some(r=>r.category==="SEASON OF DISCOVERY"||r.name.startsWith("Unresolved recipe #")||r.name==="Unnamed recipe"))throw Error("WoW Forever recipe catalog failed validation");
       data.leatherworking=payload.recipes;
-      // Stats are optional until the full 201-item import passes validation.
+      // Item-ID matched stats for all Rare and Uncommon recipes; never display partial imports.
       fetch("./data/item-stats.json").then(response=>{
         if(!response.ok)throw Error("Item stats data unavailable");
         return response.json();
       }).then(stats=>{
-        if(stats.meta?.items!==201||Object.keys(stats.byItemId||{}).length!==201)throw Error("Incomplete item stats catalog");
-        const rare=payload.recipes.filter(r=>r.quality==="rare");
-        if(rare.length!==201||rare.some(r=>!stats.byItemId[String(r.itemId)]||stats.byItemId[String(r.itemId)].recipeSpellId!==r.id))
+        if(stats.meta?.items!==414||Object.keys(stats.byItemId||{}).length!==414)throw Error("Incomplete item stats catalog");
+        const gearRecipes=payload.recipes.filter(r=>r.quality==="rare"||r.quality==="uncommon");
+        if(gearRecipes.length!==414||gearRecipes.some(r=>!stats.byItemId[String(r.itemId)]||stats.byItemId[String(r.itemId)].recipeSpellId!==r.id||stats.byItemId[String(r.itemId)].quality!==r.quality))
           throw Error("Item stats/recipe ID mismatch");
         data.itemStats=stats.byItemId;
         render();

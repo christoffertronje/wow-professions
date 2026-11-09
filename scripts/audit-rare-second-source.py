@@ -16,7 +16,7 @@ assert len(ITEMS)==201
 BASE="https://bindonforever.com/item/"
 BINDINGS={"Binds when picked up":"BoP","Binds when equipped":"BoE","Binds when used":"BoU","Soulbound":"Soulbound"}
 ATTR={"Strength","Agility","Stamina","Intellect","Spirit"}
-SCHOOLS={"Arcane","Fire","Frost","Nature","Shadow","Holy"}
+SCHOOLS={"Arcane","Fire","Frost","Nature","Shadow"}
 SLOTS={"Head","Neck","Shoulder","Chest","Waist","Legs","Feet","Wrist","Hands","Finger","Trinket","Back","Main Hand","One-Hand","Two-Hand","Off Hand","Held In Off-hand","Ranged","Shirt","Tabard"}
 def norm(value):
     return re.sub(r"\s+"," ",str(value or "").strip()).casefold().rstrip(".")

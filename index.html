@@ -184,7 +184,7 @@
     const data={itemStats:{},leatherworking:[]};
     // Crafted output item-ID overrides verified against individual WoW Forever item/spell icon records.
     // These survive the recipe FileDataID icon resolver used during deployments.
-    const craftedItemIcons={"252424":"inv_boots_leather_05red","252425":"inv_boots_05","252428":"inv_belt_04","252430":"inv_belt_24","277025":"inv_belt_leather_skybornec60_b_01","277027":"inv_boot_leather_skybornec60_b_01"};
+    const craftedItemIcons={"252424":"inv_boots_leather_05red","252425":"inv_boots_05","252426":"inv_boots_cloth_14","252427":"inv_boots_cloth_03","252428":"inv_belt_04","252429":"inv_belt_05","252430":"inv_belt_24","252431":"inv_belt_06","252432":"inv_belt_16","252433":"inv_belt_06","277025":"inv_belt_leather_skybornec60_b_01","277027":"inv_boot_leather_skybornec60_b_01"};
     const el=id=>document.getElementById(id);
     const state={profession:localStorage.getItem("forgebook.profession")||"leatherworking",skill:Number(localStorage.getItem("forgebook.skill")||125),filter:"all",search:"",open:new Set(),expandAll:false};
     if(!data[state.profession])state.profession="leatherworking";

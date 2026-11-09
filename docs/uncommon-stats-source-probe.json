@@ -1,0 +1,99 @@
+{
+  "summary": {
+    "matched": 213
+  },
+  "total": 213,
+  "problems": [],
+  "samples": [
+    {
+      "id": "7126",
+      "name": "Handstitched Leather Vest",
+      "lines": [
+        "Uncommon",
+        "Chest · Leather Armor",
+        "Item Level 10",
+        "Requires Level 3",
+        "Binds when equipped",
+        "55 Armor",
+        "+1 Agility",
+        "Sell Price 40c"
+      ],
+      "effects": []
+    },
+    {
+      "id": "2153",
+      "name": "Handstitched Leather Pants",
+      "lines": [
+        "Uncommon",
+        "Legs · Leather Armor",
+        "Item Level 10",
+        "Requires Level 5",
+        "Binds when equipped",
+        "48 Armor",
+        "+1 Agility",
+        "Sell Price 71c"
+      ],
+      "effects": []
+    },
+    {
+      "id": "3753",
+      "name": "Handstitched Leather Belt",
+      "lines": [
+        "Uncommon",
+        "Waist · Leather Armor",
+        "Item Level 10",
+        "Requires Level 5",
+        "Binds when equipped",
+        "31 Armor",
+        "+1 Strength",
+        "Sell Price 34c"
+      ],
+      "effects": []
+    },
+    {
+      "id": "9064",
+      "name": "Rugged Leather Pants",
+      "lines": [
+        "Uncommon",
+        "Legs · Leather Armor",
+        "Item Level 11",
+        "Requires Level 6",
+        "Binds when equipped",
+        "51 Armor",
+        "+1 Stamina",
+        "Sell Price 1s 62c"
+      ],
+      "effects": []
+    },
+    {
+      "id": "2160",
+      "name": "Embossed Leather Vest",
+      "lines": [
+        "Uncommon",
+        "Chest · Leather Armor",
+        "Item Level 12",
+        "Requires Level 7",
+        "Binds when equipped",
+        "62 Armor",
+        "+2 Stamina",
+        "Sell Price 1s 92c"
+      ],
+      "effects": []
+    },
+    {
+      "id": "2162",
+      "name": "Embossed Leather Cloak",
+      "lines": [
+        "Uncommon",
+        "Back · Cloaks",
+        "Item Level 13",
+        "Requires Level 8",
+        "Binds when equipped",
+        "12 Armor",
+        "+1 Agility",
+        "Sell Price 1s 12c"
+      ],
+      "effects": []
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+name: Resolve Redridge vendor missing recipe IDs
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - scripts/resolve-redridge-missing-spells.py
+      - .github/workflows/resolve-redridge-missing-spells.yml
+permissions:
+  contents: write
+jobs:
+  resolve:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: python3 -m pip install beautifulsoup4
+      - run: python3 scripts/resolve-redridge-missing-spells.py
+      - name: Commit comparison
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs/daniel-stitchsong-missing-spells.json
+          git diff --cached --quiet || (git commit -m "docs: resolve Redridge vendor recipe spell IDs" && git push)

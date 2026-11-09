@@ -5,6 +5,24 @@
     "notes": "Tooltip text from the newer Forever client takes precedence over missing old tooltip effects."
   },
   "byItemId": {
+    "7348": {
+      "reviewFlag": "Parry-effekten skiljer sig mellan Forever-källor. Wowhead och vissa databaser anger -1% Parry, medan en nyare klientdatabas återger +1%. Kontrollera mot item-tooltip i spelet.",
+      "source": "https://www.wowhead.com/forever/item=7348/fletchers-gloves",
+      "corroboration": [
+        "https://bindonforever.com/item/7348",
+        "https://theforeverera.com/en/recipes/leatherworking/fletchers-gloves/"
+      ],
+      "reason": "Sign and wording of the parry effect disagree between client-based databases; keep previous sourced effect until in-game confirmation."
+    },
+    "8197": {
+      "reviewFlag": "Stealth-effekten har olika värden i Forever-källor: +1 respektive +1.2. Nuvarande värde kommer från vår ursprungliga tooltipkälla; verifiera gärna i spelet.",
+      "source": "https://www.wowhead.com/forever/item=8197/nightscape-boots",
+      "corroboration": [
+        "https://bindonforever.com/item/8197",
+        "https://senseos.gg/wiki/wow-forever/items/8197/nightscape-boots/"
+      ],
+      "reason": "Second client source displays +1.2 stealth where other Forever item sources show +1; no automatic replacement."
+    },
     "18251": {
       "reviewFlag": "Source conflict: Core Armor Kit's exact Defense bonus and minimum item level differ between Forever item databases. Verify the in-game tooltip before using this effect value.",
       "source": "https://www.wowhead.com/forever/item=18251",

@@ -71,6 +71,8 @@ for recipe in selected:
             # Cloaks is a category, NOT an equippable armor material.
             if slot=="Back" and armor_type in ("Cloak","Cloaks"):
                 armor_type=None
+            if slot in ("Bag","Quiver","Ammo Pouch") and armor_type in ("Bag","Bags","Quivers","Ammo Pouches"):
+                armor_type=None
             continue
         if text in {"Back","Trinket","Finger","Neck","Ranged","Shirt","Tabard","Held In Off-hand","Main Hand","Off Hand","Two-Hand","One-Hand"} and slot is None:
             slot=text
@@ -86,6 +88,10 @@ for recipe in selected:
         m=re.fullmatch(r"([+-]?\d+) (Arcane|Fire|Frost|Nature|Shadow|Holy) Resistance",text)
         if m:resistances[m.group(2)]=int(m.group(1));continue
         other_lines.append(text)
+    # Armor-kit bonuses apply to TARGET gear, not to the consumable kit.
+    # Display them as Use effects only; do not invent equippable attributes.
+    if recipe["category"]=="Armor Kits":
+        stats={}
     if item_level is None:
         errors.append(f"Essential item level missing for {recipe['name']}: {lines}")
         continue

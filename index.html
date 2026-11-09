@@ -198,10 +198,7 @@
       for(let [item,count] of r.mats){
         let row=document.createElement("div");row.className="mat";let icon=document.createElement("span");icon.className="mat-icon";icon.setAttribute("aria-hidden","true");
         // Prefer source-backed Forever-specific image URLs over guessed icon filenames.
-        const foreverReagentIcons={
-          "Fel Leather":"https://static.icy-veins.com/wp/static/icydb/wowf/icons/134259.webp",
-          "Malleable Essence of Nature":"https://static.icy-veins.com/wp/static/icydb/wowf/icons/132119.webp",
-          "Fel Hide":"https://static.icy-veins.com/wp/static/icydb/wowf/icons/134262.webp"
+        const foreverReagentIcons={"Fel Leather":"https://static.icy-veins.com/wp/static/icydb/wowf/icons/134259.webp","Malleable Essence of Nature":"https://static.icy-veins.com/wp/static/icydb/wowf/icons/132119.webp","Fel Hide":"https://static.icy-veins.com/wp/static/icydb/wowf/icons/134262.webp","Elemental Air":"https://static.icy-veins.com/wp/static/icydb/wowf/icons/136107.webp","Ironweb Spider Silk":"https://static.icy-veins.com/wp/static/icydb/wowf/icons/136113.webp","Jade":"https://static.icy-veins.com/wp/static/icydb/wowf/icons/134134.webp","Black Dye":"https://static.icy-veins.com/wp/static/icydb/wowf/icons/134843.webp","Gray Dye":"https://static.icy-veins.com/wp/static/icydb/wowf/icons/132797.webp","Citrine":"https://static.icy-veins.com/wp/static/icydb/wowf/icons/134117.webp","Shadowgem":"https://static.icy-veins.com/wp/static/icydb/wowf/icons/134074.webp","Spider's Silk":"https://static.icy-veins.com/wp/static/icydb/wowf/icons/136113.webp","Essence of Earth":"https://static.icy-veins.com/wp/static/icydb/wowf/icons/136102.webp","Essence of Air":"https://static.icy-veins.com/wp/static/icydb/wowf/icons/136022.webp","Orange Dye":"https://static.icy-veins.com/wp/static/icydb/wowf/icons/134815.webp","Essence of Fire":"https://static.icy-veins.com/wp/static/icydb/wowf/icons/135830.webp"
         };
         let iconName=reagentIcons[item], iconUrl=foreverReagentIcons[item];
         if(iconName||iconUrl){let img=document.createElement("img");img.src=iconUrl||"https://render.worldofwarcraft.com/us/icons/56/"+iconName+".jpg";img.alt="";img.loading="lazy";img.decoding="async";img.onerror=()=>{img.remove();icon.textContent="✦"};icon.append(img)}

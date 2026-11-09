@@ -1,0 +1,20 @@
+{
+  "meta": {
+    "purpose": "Reviewed exceptions to the recorded Forever Talent tooltip, applied on every item-stats rebuild",
+    "priority": "Only apply corrections backed by newer Forever client and independent item pages; never import malformed spell parameter placeholders",
+    "notes": "Tooltip text from the newer Forever client takes precedence over missing old tooltip effects."
+  },
+  "byItemId": {
+    "18508": {
+      "effects": [
+        "Equip: +41 Ranged Attack Power."
+      ],
+      "source": "https://bindonforever.com/item/18508",
+      "corroboration": [
+        "https://foreverdb.net/item/18508",
+        "https://www.wowhead.com/forever/item=18508"
+      ],
+      "reason": "Forever Talent's old tooltip omitted this Equip effect, but newer client and independent item pages confirm +41 ranged Attack Power."
+    }
+  }
+}

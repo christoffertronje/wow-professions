@@ -96,6 +96,20 @@ for recipe in rare:
         "source":{"type":"forever-item-tooltip","page":SOURCE_URL,"itemPage":x["link"],
           "gameBuild":"client-record-2026-10-17","verification":"client-data; live in-game not verified"}
     }
+# Apply narrowly reviewed item-ID corrections AFTER importing the original
+# tooltip. This prevents future source refreshes from removing confirmed
+# effects (e.g. Swift Flight Bracers +41 Ranged Attack Power).
+correction_path=pathlib.Path("data/item-stats-corrections.json")
+if correction_path.exists():
+    corrections=json.loads(correction_path.read_text(encoding="utf-8"))["byItemId"]
+    for iid,patch in corrections.items():
+        if iid not in items:raise ValueError(f"Item correction references unknown output item {iid}")
+        for field in ("stats","resistances","effects","armor","requiredCharacterLevel","binding"):
+            if field in patch:items[iid][field]=patch[field]
+        items[iid]["reviewedCorrection"]={
+            "source":patch.get("source"),
+            "corroboration":patch.get("corroboration",[]),
+            "reason":patch.get("reason")}
 if errors:
     raise RuntimeError("Rare item stats import requires full coverage; errors:\n"+"\n".join(errors[:25]))
 assert len(items)==201,f"Expected all 201 rare produced items, got {len(items)}"

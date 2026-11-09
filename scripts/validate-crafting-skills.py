@@ -51,4 +51,22 @@ if vendor_report.exists():
         recipe=byid.get(entry["spellId"])
         assert recipe is not None, f"Missing Redridge vendor spell {entry['spellId']}"
         assert recipe["craftSkillRequired"]==entry["vendorRequired"], f"Incorrect Redridge vendor skill for {recipe['name']}"
+# Rare-quality crafts are the user's priority. Their complete reagent lists
+# (including exact quantities) were cross-checked against two Forever sources.
+# Keep these audited 201 recipes stable across automated data refreshes.
+rare_report_path=Path("docs/rare-quality-verified-audit.json")
+if rare_report_path.exists():
+    rare_report=json.loads(rare_report_path.read_text(encoding="utf-8"))
+    rare_entries=rare_report["entries"]
+    actual_rare={r["id"]:r for r in rows if r["quality"]=="rare"}
+    assert len(actual_rare)==len(rare_entries)==201, "Rare recipe count changed: re-audit required"
+    for audited in rare_entries:
+        record=actual_rare.get(audited["spellId"])
+        assert record is not None, f"Rare recipe removed: {audited['name']}"
+        assert record["craftSkillRequired"]==audited["craftingSkillRequired"], f"Rare crafting requirement changed: {record['name']}"
+        present=sorted((str(name).casefold().strip(),int(qty)) for name,qty in record["mats"])
+        expected=sorted((str(name).casefold().strip(),int(qty)) for name,qty in audited["materials"])
+        assert present==expected, f"Rare crafting materials changed: {record['name']}"
+    assert rare_report["summary"]["materialsMatchingBothSources"]==201, "Rare reagent verification incomplete"
+    assert rare_report["summary"]["skillConflicts"]==0, "Rare skill conflicts require manual review"
 print(f"PASS: {len(main)} identified main WoW Forever recipes; {count}/{len(rows)} have source-backed crafting requirements; historical/unnamed entries excluded")

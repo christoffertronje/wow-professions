@@ -40,8 +40,13 @@ for r in uncommon:
     assert entry["source"].get("itemPage")
     assert isinstance(entry["stats"],dict) and isinstance(entry["resistances"],dict)
     assert isinstance(entry["effects"],list) and isinstance(entry["tooltipLines"],list)
+# Reviewed highest-risk client-source discrepancies. Keep the exact data
+# and display the source uncertainty until verified in live gameplay.
+assert lookup["7348"]["effects"]==["Equip: Increases your parry by -15."]
+assert "+14 Critical Strike" in lookup["7348"]["otherTooltipLines"], "Fletcher's Gloves crit rating missing"
 assert lookup["7348"].get("statReviewWarning"), "Fletcher's Gloves disputed Parry sign must remain flagged"
 assert lookup["8197"].get("statReviewWarning"), "Nightscape Boots disputed stealth value must remain flagged"
+assert "stealth level by 1.2" in " ".join(lookup["8197"]["effects"])
 assert all(x["armorType"] is None for x in lookup.values() if x["slot"]=="Back" and x["quality"]=="uncommon"), "Cloaks should not be an equipment armor material"
 epic=[r for r in catalog["recipes"] if r["quality"]=="epic"]
 assert len(epic)==70
@@ -69,7 +74,7 @@ assert all(entry["quality"]!="unknown" for entry in lookup.values())
 # Epic-specific tooltips and reviewed exceptions must survive reimports.
 assert "Restores 4 mana per 5 sec" in " ".join(lookup["20380"]["effects"]), "Dreamscale Breastplate lost its mana regeneration effect"
 assert lookup["252603"].get("statReviewWarning"), "Red Dragonscale Leggings Intellect discrepancy must remain flagged"
-assert lookup["252603"]["stats"].get("Intellect") in (31,32), "Unexpected Red Dragonscale Leggings Intellect value"
+assert lookup["252603"]["stats"].get("Intellect")==32, "Reviewed newer-client Intellect value lost"
 assert lookup["2314"]["quality"]=="uncommon" and lookup["2314"]["armor"]==84
 assert lookup["2314"]["stats"]=={"Stamina":2,"Spirit":7}
 assert lookup["2314"]["binding"]=="BoE"
@@ -83,6 +88,8 @@ assert "41 Ranged Attack Power" in " ".join(lookup["18508"]["effects"]), "Swift 
 assert "Stamina value by 10" in " ".join(lookup["279258"]["effects"]), "Wild Leather Armor Kit lost +10 Stamina"
 assert "items level 45 and above" in " ".join(lookup["279258"]["effects"]), "Wild Leather Armor Kit has wrong item level requirement"
 assert lookup["18251"].get("statReviewWarning"), "Core Armor Kit has unresolved effect-data disagreement; retain warning"
+assert "defense value of an item worn on the chest, legs, hands or feet by 3" in " ".join(lookup["18251"]["effects"])
+assert "items level 45 and above" in " ".join(lookup["18251"]["effects"])
 # The optional second-source audit must never quietly claim unresolved
 # spell-template placeholders are confirmed matches.
 audit_path=Path("docs/rare-stats-second-source-audit.json")

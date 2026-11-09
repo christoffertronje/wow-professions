@@ -4,6 +4,7 @@ on:
   push:
     paths:
       - scripts/build-item-stats.py
+      - data/item-stats-corrections.json
       - .github/workflows/import-item-stats.yml
 permissions:
   contents: write

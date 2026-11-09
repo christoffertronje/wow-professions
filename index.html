@@ -158,6 +158,11 @@
       .mat-count{font-size:17px}
       .detail-footer{padding:13px 4px 2px;gap:6px 12px}
     }
+
+    /* Keep the reference as a quiet text link; remove the redundant metadata panel. */
+    .skill-reference-link{order:2;align-self:flex-start;color:#97baff;font:12px/1.4 Inter,ui-sans-serif,system-ui,sans-serif;text-underline-offset:3px;margin:0 0 0 2px}
+    .skill-reference-link:hover{color:#d0dfff}
+    .skill-reference-link:focus-visible{outline:2px solid #e2b968;outline-offset:3px}
   </style>
 </head>
 <body>
@@ -252,12 +257,7 @@
         }
         inner.prepend(tooltip);
       }
-      let footer=document.createElement("div");footer.className="detail-footer";
-      let skillNote=document.createElement("span");skillNote.textContent="Minimum skill to craft: ";
-      let skillValue=document.createElement("strong");skillValue.textContent=r.craftSkillVerified===true?r.craftSkillRequired:"Not yet verified";skillNote.append(skillValue);
-      let sourceNote=document.createElement("span");sourceNote.textContent="Learning source: "+(r.source||"Unknown");
-      footer.append(skillNote,sourceNote);
-      if(r.craftSkillReference){let sourceLink=document.createElement("a");sourceLink.href=r.craftSkillReference;sourceLink.target="_blank";sourceLink.rel="noopener noreferrer";sourceLink.textContent="Check skill reference";footer.append(sourceLink)}inner.append(footer);detail.append(inner);article.append(detail)}root.append(article)}
+      if(r.craftSkillReference){let sourceLink=document.createElement("a");sourceLink.href=r.craftSkillReference;sourceLink.target="_blank";sourceLink.rel="noopener noreferrer";sourceLink.textContent="Check skill reference";sourceLink.className="skill-reference-link";inner.append(sourceLink)}detail.append(inner);article.append(detail)}root.append(article)}
     }
     el("profession").addEventListener("change",e=>{state.profession=e.target.value;localStorage.setItem("forgebook.profession",state.profession);state.open.clear();state.expandAll=false;render()});
     el("skill").addEventListener("input",e=>{let n=Number(e.target.value);if(!Number.isFinite(n))return;state.skill=Math.max(1,Math.min(300,n));localStorage.setItem("forgebook.skill",String(state.skill));render()});

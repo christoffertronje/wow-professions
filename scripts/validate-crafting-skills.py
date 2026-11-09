@@ -38,4 +38,17 @@ byid={r["id"]:r for r in rows}
 for spell,skill in checks.items():
     assert byid[spell]["craftSkillRequired"]==skill, f"Regression of {byid[spell]['name']}"
 assert byid["7153"]["craftSkillRequired"]==160, "Guardian Cloak vetted Forever skill 160 must survive rebuild"
+# Guard against accidentally dropping or mis-leveling recipes sold by the
+# Redridge Mountains Leatherworking vendor Daniel Stitchsong. The source
+# vendor item tooltip has nine singular "Shoulder" labels; the spell names
+# in modern Forever data use "Shoulders". Spell IDs resolve those aliases.
+vendor_report=Path("docs/daniel-stitchsong-recipe-audit.json")
+if vendor_report.exists():
+    vendor=json.loads(vendor_report.read_text(encoding="utf-8"))
+    assert vendor["tableRowCount"]==81, "Unexpected number of Redridge vendor patterns"
+    assert len(vendor["matches"])==81 and not vendor["missing"] and not vendor["skillMismatches"], "Redridge vendor coverage audit incomplete"
+    for entry in vendor["matches"]:
+        recipe=byid.get(entry["spellId"])
+        assert recipe is not None, f"Missing Redridge vendor spell {entry['spellId']}"
+        assert recipe["craftSkillRequired"]==entry["vendorRequired"], f"Incorrect Redridge vendor skill for {recipe['name']}"
 print(f"PASS: {len(main)} identified main WoW Forever recipes; {count}/{len(rows)} have source-backed crafting requirements; historical/unnamed entries excluded")

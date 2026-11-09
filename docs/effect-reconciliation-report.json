@@ -17,11 +17,12 @@
       "conflicting-proc-metadata": 1,
       "gameplay-source-conflict": 3,
       "redundant-proc-annotation": 1,
-      "source-template-unresolved": 10,
+      "source-template-undecoded-reviewed": 10,
       "wording-only": 1
     },
     "currentlyWarnedRecords": 5,
-    "templateUnresolvedFromSnapshots": 10
+    "templateUnresolvedFromSnapshots": 10,
+    "templateUnresolvedWithoutReviewedCorrection": 0
   },
   "items": [
     {
@@ -29,7 +30,7 @@
       "name": "Heavy Armor Kit",
       "quality": "common",
       "historicalStatus": "inconclusive",
-      "classification": "source-template-unresolved",
+      "classification": "source-template-undecoded-reviewed",
       "currentEffect": [
         "Use: Permanently increase the Stamina value by 3 and armor value by 24 of an item worn on the chest, legs, hands or feet. Only usable on items level 15 and above."
       ],
@@ -100,7 +101,7 @@
       "name": "Thick Armor Kit",
       "quality": "common",
       "historicalStatus": "inconclusive",
-      "classification": "source-template-unresolved",
+      "classification": "source-template-undecoded-reviewed",
       "currentEffect": [
         "Use: Permanently increase the Stamina value by 4 and armor value by 32 of an item worn on the chest, legs, hands or feet. Only usable on items level 25 and above."
       ],
@@ -155,7 +156,7 @@
       "name": "Rugged Armor Kit",
       "quality": "common",
       "historicalStatus": "inconclusive",
-      "classification": "source-template-unresolved",
+      "classification": "source-template-undecoded-reviewed",
       "currentEffect": [
         "Use: Permanently increase the Stamina value by 5 and armor value by 40 of an item worn on the chest, legs, hands or feet. Only usable on items level 35 and above."
       ],
@@ -189,14 +190,14 @@
       "name": "Mystic Heavy Armor Kit",
       "quality": "uncommon",
       "historicalStatus": "inconclusive",
-      "classification": "source-template-unresolved",
+      "classification": "source-template-undecoded-reviewed",
       "currentEffect": [
-        "Use: Permanently increase the Spell Power value by 75 and armor value by 0 of an item worn on the chest, legs, hands, or feet. Only usable on items level 0 and above."
+        "Use: Permanently increase the Spell Power value by 4 and armor value by 24 of an item worn on the chest, legs, hands, or feet. Only usable on items level 15 and above."
       ],
       "currentStats": {},
       "sourceItemUrl": "https://bindonforever.com/item/252452",
       "currentHasWarning": false,
-      "notes": null,
+      "notes": "Client-recorded spell effect resolves 4 Spell Power, 24 Armor and target item level 15+. Older imported tooltip showed raw or misresolved placeholders, including 75/0 and 0/0.",
       "sourceValues": [
         "Use: Permanently increase the Spell Power value by 0c2 and armor value by 0c1 of an item worn on the chest, legs, hands, or feet. Only usable on items level 0cim and above."
       ]
@@ -206,14 +207,14 @@
       "name": "Forceful Heavy Armor Kit",
       "quality": "uncommon",
       "historicalStatus": "inconclusive",
-      "classification": "source-template-unresolved",
+      "classification": "source-template-undecoded-reviewed",
       "currentEffect": [
-        "Use: Permanently increase the Attack Power value by 0 and armor value by 0 of an item worn on the chest, legs, hands, or feet. Only usable on items level 0 and above."
+        "Use: Permanently increase the Attack Power value by 6 and armor value by 24 of an item worn on the chest, legs, hands, or feet. Only usable on items level 15 and above."
       ],
       "currentStats": {},
       "sourceItemUrl": "https://bindonforever.com/item/252453",
       "currentHasWarning": false,
-      "notes": null,
+      "notes": "Client-recorded spell effect resolves 6 Attack Power, 24 Armor and target item level 15+. Older imported tooltip showed raw or misresolved placeholders, including 75/0 and 0/0.",
       "sourceValues": [
         "Use: Permanently increase the Attack Power value by 0c2 and armor value by 0c1 of an item worn on the chest, legs, hands, or feet. Only usable on items level 0cim and above."
       ]
@@ -223,14 +224,14 @@
       "name": "Mystic Thick Armor Kit",
       "quality": "uncommon",
       "historicalStatus": "inconclusive",
-      "classification": "source-template-unresolved",
+      "classification": "source-template-undecoded-reviewed",
       "currentEffect": [
-        "Use: Permanently increase the Spell Power value by 75 and armor value by 0 of an item worn on the chest, legs, hands, or feet. Only usable on items level 0 and above."
+        "Use: Permanently increase the Spell Power value by 5 and armor value by 32 of an item worn on the chest, legs, hands, or feet. Only usable on items level 25 and above."
       ],
       "currentStats": {},
       "sourceItemUrl": "https://bindonforever.com/item/252462",
       "currentHasWarning": false,
-      "notes": null,
+      "notes": "Client-recorded spell effect resolves 5 Spell Power, 32 Armor and target item level 25+. Older imported tooltip showed raw or misresolved placeholders, including 75/0 and 0/0.",
       "sourceValues": [
         "Use: Permanently increase the Spell Power value by 0c2 and armor value by 0c1 of an item worn on the chest, legs, hands, or feet. Only usable on items level 0cim and above."
       ]
@@ -240,14 +241,14 @@
       "name": "Forceful Thick Armor Kit",
       "quality": "uncommon",
       "historicalStatus": "inconclusive",
-      "classification": "source-template-unresolved",
+      "classification": "source-template-undecoded-reviewed",
       "currentEffect": [
-        "Use: Permanently increase the Attack Power value by 0 and armor value by 0 of an item worn on the chest, legs, hands, or feet. Only usable on items level 0 and above."
+        "Use: Permanently increase the Attack Power value by 8 and armor value by 32 of an item worn on the chest, legs, hands, or feet. Only usable on items level 25 and above."
       ],
       "currentStats": {},
       "sourceItemUrl": "https://bindonforever.com/item/252463",
       "currentHasWarning": false,
-      "notes": null,
+      "notes": "Client-recorded spell effect resolves 8 Attack Power, 32 Armor and target item level 25+. Older imported tooltip showed raw or misresolved placeholders, including 75/0 and 0/0.",
       "sourceValues": [
         "Use: Permanently increase the Attack Power value by 0c2 and armor value by 0c1 of an item worn on the chest, legs, hands, or feet. Only usable on items level 0cim and above."
       ]
@@ -257,14 +258,14 @@
       "name": "Mystic Rugged Armor Kit",
       "quality": "uncommon",
       "historicalStatus": "inconclusive",
-      "classification": "source-template-unresolved",
+      "classification": "source-template-undecoded-reviewed",
       "currentEffect": [
-        "Use: Permanently increase the Spell Power value by 75 and armor value by 0 of an item worn on the chest, legs, hands, or feet. Only usable on items level 0 and above."
+        "Use: Permanently increase the Spell Power value by 6 and armor value by 40 of an item worn on the chest, legs, hands, or feet. Only usable on items level 35 and above."
       ],
       "currentStats": {},
       "sourceItemUrl": "https://bindonforever.com/item/252487",
       "currentHasWarning": false,
-      "notes": null,
+      "notes": "Client-recorded spell effect resolves 6 Spell Power, 40 Armor and target item level 35+. Older imported tooltip showed raw or misresolved placeholders, including 75/0 and 0/0.",
       "sourceValues": [
         "Use: Permanently increase the Spell Power value by 0c2 and armor value by 0c1 of an item worn on the chest, legs, hands, or feet. Only usable on items level 0cim and above."
       ]
@@ -274,14 +275,14 @@
       "name": "Forceful Rugged Armor Kit",
       "quality": "uncommon",
       "historicalStatus": "inconclusive",
-      "classification": "source-template-unresolved",
+      "classification": "source-template-undecoded-reviewed",
       "currentEffect": [
-        "Use: Permanently increase the Attack Power value by 0 and armor value by 0 of an item worn on the chest, legs, hands, or feet. Only usable on items level 0 and above."
+        "Use: Permanently increase the Attack Power value by 10 and armor value by 40 of an item worn on the chest, legs, hands, or feet. Only usable on items level 35 and above."
       ],
       "currentStats": {},
       "sourceItemUrl": "https://bindonforever.com/item/252488",
       "currentHasWarning": false,
-      "notes": null,
+      "notes": "Client-recorded spell effect resolves 10 Attack Power, 40 Armor and target item level 35+. Older imported tooltip showed raw or misresolved placeholders, including 75/0 and 0/0.",
       "sourceValues": [
         "Use: Permanently increase the Attack Power value by 0c2 and armor value by 0c1 of an item worn on the chest, legs, hands, or feet. Only usable on items level 0cim and above."
       ]
@@ -291,7 +292,7 @@
       "name": "Wild Leather Armor Kit",
       "quality": "rare",
       "historicalStatus": "inconclusive",
-      "classification": "source-template-unresolved",
+      "classification": "source-template-undecoded-reviewed",
       "currentEffect": [
         "Use: Permanently increase the Defense Skill by 4 and the Stamina value by 10 of an item worn on the chest, legs, hands, or feet. Only usable on items level 45 and above."
       ],

@@ -12,6 +12,7 @@ from bs4 import BeautifulSoup
 SOURCE_URL="https://wowforevertalent.com/professions/leatherworking/?acquisition=favor"
 RECIPES=pathlib.Path("data/leatherworking.json")
 OUTPUT=pathlib.Path("data/item-stats.json")
+quality_reviews=json.loads(pathlib.Path("data/item-quality-corrections.json").read_text(encoding="utf-8"))["byItemId"]
 r=json.loads(RECIPES.read_text(encoding="utf-8"))
 selected=r["recipes"]
 assert len(selected)==512, f"Recipe count changed: {len(selected)}"
@@ -49,8 +50,13 @@ for recipe in selected:
         continue
     lines=x["lines"]
     if recipe["quality"].title() not in lines:
-        errors.append(f"Tooltip quality mismatch for {recipe['name']}: expected {recipe['quality']}: {lines[:4]}")
-        continue
+        # The older Forever Talent record predates the verified patch changing
+        # Toughened Leather Armor from Common to Uncommon. All other records
+        # still require an exact quality match to the source.
+        revised=str(item_id)=="2314" and recipe["quality"]=="uncommon" and "Common" in lines and quality_reviews.get("2314")=="uncommon"
+        if not revised:
+            errors.append(f"Tooltip quality mismatch for {recipe['name']}: expected {recipe['quality']}: {lines[:4]}")
+            continue
     stats={}
     resistances={}
     other_lines=[]

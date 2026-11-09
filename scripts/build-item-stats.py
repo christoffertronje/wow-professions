@@ -133,7 +133,7 @@ if errors:
     raise RuntimeError("WoW Forever item stats import requires full coverage; errors:\n"+"\n".join(errors[:25]))
 assert len(items)==512,f"Expected all 512 produced items, got {len(items)}"
 payload={"meta":{"scope":"All identified WoW Forever Leatherworking outputs, including materials and equipment",
- "items":len(items),"epicItems":70,"rareItems":201,"uncommonItems":213,"commonItems":28,"game":"WoW Forever",
+ "items":len(items),"epicItems":70,"rareItems":201,"uncommonItems":214,"commonItems":27,"game":"WoW Forever",
  "source":SOURCE_URL,"recipeCatalogBuild":r["meta"].get("build"),
  "sourceEvidence":"Forever recorded item tooltip with original text preserved; not guaranteed unchanged on live servers",
  "note":"Unknown item attributes stay null/absent. No values inferred from Classic or skill-up tables."},

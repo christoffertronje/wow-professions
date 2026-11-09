@@ -1,0 +1,21 @@
+name: Inspect Bind on Forever item tooltip structure
+on:
+  push:
+    paths:
+      - scripts/probe-bindonforever-markup.py
+      - .github/workflows/probe-bindonforever-markup.yml
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: python3 -m pip install beautifulsoup4
+      - run: python3 scripts/probe-bindonforever-markup.py
+      - run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs/bindonforever-stat-markup.json
+          git diff --cached --quiet || (git commit -m "docs: inspect Bind on Forever tooltip markup" && git push)

@@ -7,7 +7,9 @@ items=json.loads(Path("data/item-stats.json").read_text(encoding="utf-8"))
 rare=[r for r in catalog["recipes"] if r["quality"]=="rare"]
 assert len(rare)==201
 lookup=items["byItemId"]
-assert len(lookup)==201
+assert len(lookup)==414
+uncommon=[r for r in catalog["recipes"] if r["quality"]=="uncommon"]
+assert len(uncommon)==213
 for r in rare:
     iid=str(r["itemId"])
     assert iid in lookup, f"Missing rare item stats: {r['name']} (item {iid})"
@@ -25,6 +27,18 @@ for r in rare:
     for effect in entry["effects"]:
         assert isinstance(effect,str) and effect.strip()
     assert all(isinstance(line,str) and line.strip() for line in entry["tooltipLines"])
+for r in uncommon:
+    iid=str(r["itemId"])
+    assert iid in lookup, f"Missing Uncommon item stats: {r['name']} (item {iid})"
+    entry=lookup[iid]
+    assert entry["itemId"]==int(iid), f"Uncommon item ID mismatch: {r['name']}"
+    assert entry["recipeSpellId"]==r["id"], f"Uncommon recipe spell mismatch: {r['name']}"
+    assert entry["name"]==r["name"], f"Uncommon item name mismatch: {r['name']}"
+    assert entry["quality"]=="uncommon"
+    assert isinstance(entry["itemLevel"],int) and entry["itemLevel"]>0
+    assert entry["source"].get("itemPage")
+    assert isinstance(entry["stats"],dict) and isinstance(entry["resistances"],dict)
+    assert isinstance(entry["effects"],list) and isinstance(entry["tooltipLines"],list)
 assert "252428" in lookup
 x=lookup["252428"]
 assert x["armor"]==45 and x["stats"].get("Strength")==4 and x["stats"].get("Agility")==4 and x["stats"].get("Stamina")==3
@@ -43,4 +57,4 @@ if audit_path.exists():
     assert audit["summary"]["source-unavailable"]==0
     assert audit["summary"]["disagreements"]==0, "Review second-source item stat conflicts before deployment"
     assert audit["summary"]["inconclusive"]==2, "Review changed spell-template coverage and update audit"
-print("PASS: 201 rare item records joined by produced item ID, with attributes/effects and source provenance")
+print("PASS: 414 Rare and Uncommon item records joined by produced item ID, with attributes/effects and source provenance")

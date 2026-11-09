@@ -13,7 +13,10 @@ OUT=pathlib.Path("docs/daniel-stitchsong-recipe-audit.json")
 req=urllib.request.Request(URL,headers={"User-Agent":"Mozilla/5.0 (compatible; wow-professions-vendor-audit/0.2)","Accept":"text/html"})
 with urllib.request.urlopen(req,timeout=75) as resp:html=resp.read().decode("utf-8","replace")
 soup=BeautifulSoup(html,"html.parser")
-normalize=lambda x:re.sub(r"[^a-z0-9]+","",x.casefold())
+# Older vendor item tooltips use singular 'Shoulder'; the newer recipe
+# spell and crafted item name uses plural 'Shoulders'. Match this known
+# naming evolution without treating it as a missing recipe.
+normalize=lambda x:re.sub(r"[^a-z0-9]+","",re.sub(r"\\bshoulder\\b","shoulders",x.casefold()))
 catalog=json.loads(pathlib.Path("data/leatherworking.json").read_text())["recipes"]
 byname=collections.defaultdict(list)
 for recipe in catalog:byname[normalize(recipe["name"])].append(recipe)
@@ -47,6 +50,11 @@ for row in rows:
         if row["required"]!=recipe.get("craftSkillRequired"):mismatches.append(comparison)
     elif not candidates:missing.append(row)
     else:ambiguous.append(row)
+# Every name should resolve; reject missing/ambiguous vendor rows and any
+# discrepancy between the pattern's professional requirement and the
+# recipe minimum required to craft.
+if len(rows)!=81 or len(matched)!=81 or missing or ambiguous or mismatches:
+    raise RuntimeError(f"Vendor audit failed: rows={len(rows)}, matched={len(matched)}, missing={len(missing)}, ambiguous={len(ambiguous)}, mismatches={len(mismatches)}")
 report={"vendor":"Daniel Stitchsong","location":"Three Corners, Redridge Mountains","source":URL,
     "tableRowCount":len(rows),"uniqueMatches":len(matched),"missingCount":len(missing),"ambiguousCount":len(ambiguous),"skillMismatchCount":len(mismatches),
     "matches":matched,"missing":missing,"ambiguous":ambiguous,"skillMismatches":mismatches,

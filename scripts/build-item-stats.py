@@ -92,6 +92,7 @@ for recipe in selected:
     # Display them as Use effects only; do not invent equippable attributes.
     if recipe["category"]=="Armor Kits":
         stats={}
+        armor=None  # This number is the enhancement applied to target gear.
     if item_level is None:
         errors.append(f"Essential item level missing for {recipe['name']}: {lines}")
         continue

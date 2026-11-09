@@ -12,7 +12,7 @@ ROOT=pathlib.Path(".")
 INPUT=json.loads((ROOT/"data/item-stats.json").read_text(encoding="utf-8"))
 ITEMS={iid:entry for iid,entry in INPUT["byItemId"].items() if entry["quality"]=="uncommon"}
 REPORT=ROOT/"docs/uncommon-stats-second-source-audit.json"
-assert len(ITEMS)==213
+assert len(ITEMS)==214
 BASE="https://bindonforever.com/item/"
 BINDINGS={"Binds when picked up":"BoP","Binds when equipped":"BoE","Binds when used":"BoU","Soulbound":"Soulbound"}
 ATTR={"Strength","Agility","Stamina","Intellect","Spirit"}

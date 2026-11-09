@@ -1,0 +1,233 @@
+{
+  "talent": {
+    "http": 200,
+    "size": 2659631,
+    "tables": [],
+    "headings": [
+      {
+        "depth": 0,
+        "tag": "div",
+        "class": [],
+        "text": "Recipe Brawler's Leather Belt Spell 1255142",
+        "html": "<div><p class=\"eyebrow\">Recipe</p><h3>Brawler's Leather Belt</h3><p class=\"recipe-spell\">Spell 1255142</p></div>"
+      },
+      {
+        "depth": 1,
+        "tag": "div",
+        "class": [
+          "recipe-detail-head"
+        ],
+        "text": "? Recipe Brawler's Leather Belt Spell 1255142",
+        "html": "<div class=\"recipe-detail-head\"><span aria-label=\"Icon not recorded\" class=\"profession-icon profession-icon-lg profession-icon-missing\" data-profession-icon=\"\" role=\"img\" title=\"Icon not recorded\">?</span><div><p class=\"eyebrow\">Recipe</p><h3>Brawler's Leather Belt</h3><p class=\"recipe-spell\">Spell 1255142</p></div></div>"
+      },
+      {
+        "depth": 2,
+        "tag": "article",
+        "class": [
+          "recipe-detail",
+          "tone-grey"
+        ],
+        "text": "? Recipe Brawler's Leather Belt Spell 1255142 How to learn Community Beta report Learning skill: 60 · Recipe item · client 1.60.1.70753 ↗ · checked 2026-11-03 Recipe item evidence Pattern: Brawler's Leather Belt (#252765) ↗ This is the skill required by these recipe items. It does not confirm that you own the recipe, that it is obtainable, or that every trainer or alternative learning route has the same requirement. Reported source: a recipe item sold by Daniel Stitchsong . Reported price 30 Merchant’s Favor Where to look Three Corners, Redridge Mountains WFT Beta merchant log ↗ · Beta observation: 2026-09-20 . Current availability unconfirmed. Merchant’s Favor: earning, depots & prices → Source limits Community-reported recipe stock and prices. Current server availability, recipe-item IDs and learning requirements have not been independently confirmed. The price above is for learning the recipe; crafting materials are a separate cost. Created item ? Brawler's Leather Belt × 1 Recorded item details Rare Waist · Leather Item Level 17 Requires Level 12 Binds when picked up 45 Armor +4 Strength +4 Agility +3 Stamina Sell Price 2s 75c Wowhead Forever · checked 2026-10-17 ↗ Reagents Light Leather × 10 Cured Light Hide × 2 Pristine Leather × 2 Coarse Thread × 1 Shadowgem × 1 Skill colors Orange Below 90 Yellow 90–104 Green 105–119 Grey 120 and above",
+        "html": "<article class=\"recipe-detail tone-grey\" data-recipe-detail=\"55203\" id=\"recipe-55203\"><div class=\"recipe-detail-head\"><span aria-label=\"Icon not recorded\" class=\"profession-icon profession-icon-lg profession-icon-missing\" data-profession-icon=\"\" role=\"img\" title=\"Icon not recorded\">?</span><div><p class=\"eyebrow\">Recipe</p><h3>Brawler's Leather Belt</h3><p class=\"recipe-spell\">Spell 1255142</p></div></div><section aria-label=\"How to learn\" class=\"recipe-acquisition\" data-acquisition-detail=\"favor\"><div class=\"recipe-acquisition-heading\"><h4>How to learn</h4><span>Community Beta report</span></div><p class=\"recipe-learning\" data-learning-requirement=\"60\"><strong>Learning skill: 60</strong> · <a href=\"https://www.wowhead.com/forever/item=252765\">Recipe item · client 1.60.1.70753 ↗</a> · checked 2026-11-03</p><details><summary>Recipe item evidence</summary><ul><li><a href=\"https://www.wowhead.com/forever/item=252765\">Pattern: Brawler's Leather Belt (#252765) ↗</a></li></ul><p>This is the skill required by these recipe items. It does not confirm that you own the recipe, that it is obtainable, or that every trainer or alternative learning route has the same requirement.</p></details><p>Reported source: a recipe item sold by <strong>Daniel Stitchsong</strong>.</p><dl><div><dt>Reported price</dt><dd>30 Merchant’s Favor</dd></div><div><dt>Where to look</dt><dd>Three Corners, Redridge Mountains</dd></div></dl><p class=\"recipe-acquisition-evidence\"><a href=\"https://wowforevertalents.com/professions/merchants-favor/\">WFT Beta merchant log ↗</a> · Beta observation: <time datetime=\"2026-09-20\">2026-09-20</time>. Current availability unconfirmed.</p><p><a href=\"/professions/merchants-favor/\">Merchant’s Favor: earning, depots &amp; prices →</a></p><details><summary>Source limits</summ"
+      },
+      {
+        "depth": 3,
+        "tag": "div",
+        "class": [
+          "profession-nojs-details"
+        ],
+        "text": "Recipe Tanning Rack Spell 1263031 How to learn Community Beta report Learning skill: unknown Blizzard’s 6 November hotfix says the Tanning Rack skill requirement is 125. The recorded blueprint and item tooltips still show 140; the learning and use requirements need confirmation. Blizzard hotfix ↗ The learning requirement is not confirmed. Skill colors do not establish it. Reported source: a blueprint sold by Happy Camper . Reported price 15 silver Where to look Dun Morogh, outside Ironforge (51.6, 40.0) ForeverChanges blueprint guide ↗ · Guide updated: 2026-10-16 . Current availability unconfirmed. The official Camping overview describes skill-140+ features as dungeon or raid drops; this guide also reports a vendor. The difference remains unresolved. Official overview ↗ Camping features & blueprint sources → Source limits Community guide reports a blueprint vendor and skill requirement. Vendor stock, coordinates and price have not been independently confirmed in game. The price above is for learning the recipe; crafting materials are a separate cost. Created item Tanning Rack × 1 Recorded item details Common Item Level 28 Requires Leatherworking (140) Use: Places a Tanning Rack that allows the creation of certain reagents, and provides all of the benefits of a Camp Tent. Requires a Campfire nearby. Wowhead Forever · checked 2026-10-17 ↗ Reagents Medium Leather × 5 Fine Thread × 3 Simple Wood × 2 Skill colors Orange Below 140 Yellow 140–141 Green 142–144 Grey 145 and above Recipe Sewing Machine Spell 1263079 How to learn Learning skill: 300 · Recipe item · client 1.60.1.7075",
+        "html": "<div class=\"profession-nojs-details\"><article class=\"recipe-detail tone-unknown\" data-recipe-detail=\"57015\" id=\"recipe-57015\"><div class=\"recipe-detail-head\"><img alt=\"\" class=\"profession-icon profession-icon-lg\" data-profession-icon=\"\" decoding=\"async\" height=\"44\" loading=\"lazy\" src=\"https://wow.zamimg.com/images/wow/icons/medium/inv_10_skinning_leather_rarehide_color1.jpg\" width=\"44\"/><div><p class=\"eyebrow\">Recipe</p><h3>Tanning Rack</h3><p class=\"recipe-spell\">Spell 1263031</p></div></div><section aria-label=\"How to learn\" class=\"recipe-acquisition\" data-acquisition-detail=\"blueprint\"><div class=\"recipe-acquisition-heading\"><h4>How to learn</h4><span>Community Beta report</span></div><p class=\"recipe-learning\"><strong>Learning skill: unknown</strong></p><p class=\"recipe-acquisition-conflict\">Blizzard’s 6 November hotfix says the Tanning Rack skill requirement is 125. The recorded blueprint and item tooltips still show 140; the learning and use requirements need confirmation. <a href=\"https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-6-2026/2403040\">Blizzard hotfix ↗</a></p><p>The learning requirement is not confirmed. Skill colors do not establish it.</p><p>Reported source: a blueprint sold by <strong>Happy Camper</strong>.</p><dl><div><dt>Reported price</dt><dd>15 silver</dd></div><div><dt>Where to look</dt><dd>Dun Morogh, outside Ironforge (51.6, 40.0)</dd></div></dl><p class=\"recipe-acquisition-evidence\"><a href=\"https://foreverchanges.pro/tanning-rack\">ForeverChanges blueprint guide ↗</a> · Guide updated: <time datetime=\"2026-10-16\">2026-10-16</time>. Current availability unconfirmed.</p><p class=\"recipe-acquisition-conflict\">The official Camping overview describes skill-140+ features as dungeon or raid drops; this guide also reports a vendor"
+      },
+      {
+        "depth": 4,
+        "tag": "noscript",
+        "class": [],
+        "text": "Recipe Tanning Rack Spell 1263031 How to learn Community Beta report Learning skill: unknown Blizzard’s 6 November hotfix says the Tanning Rack skill requirement is 125. The recorded blueprint and item tooltips still show 140; the learning and use requirements need confirmation. Blizzard hotfix ↗ The learning requirement is not confirmed. Skill colors do not establish it. Reported source: a blueprint sold by Happy Camper . Reported price 15 silver Where to look Dun Morogh, outside Ironforge (51.6, 40.0) ForeverChanges blueprint guide ↗ · Guide updated: 2026-10-16 . Current availability unconfirmed. The official Camping overview describes skill-140+ features as dungeon or raid drops; this guide also reports a vendor. The difference remains unresolved. Official overview ↗ Camping features & blueprint sources → Source limits Community guide reports a blueprint vendor and skill requirement. Vendor stock, coordinates and price have not been independently confirmed in game. The price above is for learning the recipe; crafting materials are a separate cost. Created item Tanning Rack × 1 Recorded item details Common Item Level 28 Requires Leatherworking (140) Use: Places a Tanning Rack that allows the creation of certain reagents, and provides all of the benefits of a Camp Tent. Requires a Campfire nearby. Wowhead Forever · checked 2026-10-17 ↗ Reagents Medium Leather × 5 Fine Thread × 3 Simple Wood × 2 Skill colors Orange Below 140 Yellow 140–141 Green 142–144 Grey 145 and above Recipe Sewing Machine Spell 1263079 How to learn Learning skill: 300 · Recipe item · client 1.60.1.7075",
+        "html": "<noscript data-recipe-archive=\"\"><div class=\"profession-nojs-details\"><article class=\"recipe-detail tone-unknown\" data-recipe-detail=\"57015\" id=\"recipe-57015\"><div class=\"recipe-detail-head\"><img alt=\"\" class=\"profession-icon profession-icon-lg\" data-profession-icon=\"\" decoding=\"async\" height=\"44\" loading=\"lazy\" src=\"https://wow.zamimg.com/images/wow/icons/medium/inv_10_skinning_leather_rarehide_color1.jpg\" width=\"44\"/><div><p class=\"eyebrow\">Recipe</p><h3>Tanning Rack</h3><p class=\"recipe-spell\">Spell 1263031</p></div></div><section aria-label=\"How to learn\" class=\"recipe-acquisition\" data-acquisition-detail=\"blueprint\"><div class=\"recipe-acquisition-heading\"><h4>How to learn</h4><span>Community Beta report</span></div><p class=\"recipe-learning\"><strong>Learning skill: unknown</strong></p><p class=\"recipe-acquisition-conflict\">Blizzard’s 6 November hotfix says the Tanning Rack skill requirement is 125. The recorded blueprint and item tooltips still show 140; the learning and use requirements need confirmation. <a href=\"https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-6-2026/2403040\">Blizzard hotfix ↗</a></p><p>The learning requirement is not confirmed. Skill colors do not establish it.</p><p>Reported source: a blueprint sold by <strong>Happy Camper</strong>.</p><dl><div><dt>Reported price</dt><dd>15 silver</dd></div><div><dt>Where to look</dt><dd>Dun Morogh, outside Ironforge (51.6, 40.0)</dd></div></dl><p class=\"recipe-acquisition-evidence\"><a href=\"https://foreverchanges.pro/tanning-rack\">ForeverChanges blueprint guide ↗</a> · Guide updated: <time datetime=\"2026-10-16\">2026-10-16</time>. Current availability unconfirmed.</p><p class=\"recipe-acquisition-conflict\">The official Camping overview describes skill-140+ features as dungeon or raid drops;"
+      }
+    ]
+  },
+  "builder": {
+    "http": 200,
+    "size": 568319,
+    "tables": [
+      {
+        "class": [],
+        "rows": 11,
+        "sample": [
+          [
+            "Recipe",
+            "Skill",
+            "Yellow / grey",
+            "Creates",
+            "Reagents",
+            "Source"
+          ],
+          [
+            "Light Leather",
+            "~20",
+            "20 / 40",
+            "Light Leather Common · Leather · Item Level 10 · Sell Price 15c",
+            "Ruined Leather Scraps ×3",
+            "—"
+          ],
+          [
+            "Cured Light Hide",
+            "~50",
+            "50 / 70",
+            "Cured Light Hide Common · Leather · Item Level 10 · Sell Price 1s 10c",
+            "Light Hide ×1, Salt ×1",
+            "—"
+          ]
+        ]
+      },
+      {
+        "class": [],
+        "rows": 17,
+        "sample": [
+          [
+            "Recipe",
+            "Skill",
+            "Yellow / grey",
+            "Creates",
+            "Reagents",
+            "Source"
+          ],
+          [
+            "Handstitched Leather Cloak",
+            "~40",
+            "40 / 70",
+            "Handstitched Leather Cloak Common · Back · Cloaks · Item Level 9 · Requires Level 4 · 8 Armor · Sell Price 34c",
+            "Light Leather ×2, Coarse Thread ×1",
+            "—"
+          ],
+          [
+            "Embossed Leather Cloak",
+            "~70",
+            "70 / 100",
+            "Embossed Leather Cloak Uncommon · Back · Cloaks · Item Level 13 · Requires Level 8 · Binds when equipped · 12 Armor · +1 Agility ·",
+            "Light Leather ×5, Coarse Thread ×2",
+            "—"
+          ]
+        ]
+      },
+      {
+        "class": [],
+        "rows": 32,
+        "sample": [
+          [
+            "Recipe",
+            "Skill",
+            "Yellow / grey",
+            "Creates",
+            "Reagents",
+            "Source"
+          ],
+          [
+            "Brawler's Leather Hood",
+            "100",
+            "125 / 150",
+            "Brawler's Leather Hood Rare · Head · Leather · Item Level 25 · Requires Level 20 · Binds when picked up · 76 Armor · +8 Agility · ",
+            "Medium Leather ×8, Cured Medium Hide ×2, Pristine Leather ×4, Fine Thread ×2, Shadowgem ×4",
+            "Merchant's Favor"
+          ],
+          [
+            "Defender's Leather Hood",
+            "100",
+            "125 / 150",
+            "Defender's Leather Hood Rare · Head · Leather · Item Level 25 · Requires Level 20 · Binds when picked up · 76 Armor · +8 Strength ",
+            "Medium Leather ×8, Cured Medium Hide ×2, Pristine Leather ×4, Fine Thread ×2, Elixir of Minor Fortitude ×4",
+            "Merchant's Favor"
+          ]
+        ]
+      },
+      {
+        "class": [],
+        "rows": 31,
+        "sample": [
+          [
+            "Recipe",
+            "Skill",
+            "Yellow / grey",
+            "Creates",
+            "Reagents",
+            "Source"
+          ],
+          [
+            "Hillman's Shoulders",
+            "~130",
+            "130 / 155",
+            "Hillman's Shoulders Uncommon · Shoulder · Leather Armor · Item Level 26 · Requires Level 21 · Binds when equipped · 65 Armor · +5 ",
+            "Cured Medium Hide ×1, Medium Leather ×4, Fine Thread ×1",
+            "—"
+          ],
+          [
+            "Earthen Leather Shoulders",
+            "110",
+            "135 / 160",
+            "Earthen Leather Shoulders Uncommon · Shoulder · Leather Armor · Item Level 27 · Requires Level 22 · Binds when equipped · 67 Armor",
+            "Medium Leather ×6, Elemental Earth ×1, Fine Thread ×2",
+            "Recipe item"
+          ]
+        ]
+      }
+    ],
+    "headings": []
+  },
+  "zockify": {
+    "error": "HTTP Error 403: Forbidden"
+  },
+  "questing": {
+    "http": 200,
+    "size": 5472703,
+    "tables": [],
+    "headings": [
+      {
+        "depth": 0,
+        "tag": "div",
+        "class": [
+          "wow-recipe-heading__text"
+        ],
+        "text": "Brawler's Leather Belt Requires Leatherworking 60",
+        "html": "<div class=\"wow-recipe-heading__text\"><h2><a data-quality=\"3\" data-wow-preview=\"item-252428\" data-wow-recipe-name=\"\" href=\"/wow-forever/items/252428/\">Brawler's Leather Belt</a></h2><small class=\"wow-recipe-required\">Requires Leatherworking 60</small></div>"
+      },
+      {
+        "depth": 1,
+        "tag": "div",
+        "class": [
+          "wow-recipe-heading"
+        ],
+        "text": "Brawler's Leather Belt Requires Leatherworking 60",
+        "html": "<div class=\"wow-recipe-heading\"><a aria-label=\"Brawler's Leather Belt item\" class=\"wow-recipe-art\" data-quality=\"3\" data-wow-preview=\"item-252428\" data-wow-recipe-item=\"\" href=\"/wow-forever/items/252428/\"><span aria-hidden=\"true\" class=\"wow-item-icon\" data-quality=\"3\" data-wow-item-icon=\"252428\"><img alt=\"\" data-wow-reference-icon=\"\" decoding=\"async\" height=\"56\" loading=\"lazy\" src=\"/wow-forever/reference-artwork/items/bf6095b7feef.jpg\" width=\"56\"/></span></a><div class=\"wow-recipe-heading__text\"><h2><a data-quality=\"3\" data-wow-preview=\"item-252428\" data-wow-recipe-name=\"\" href=\"/wow-forever/items/252428/\">Brawler's Leather Belt</a></h2><small class=\"wow-recipe-required\">Requires Leatherworking 60</small></div></div>"
+      },
+      {
+        "depth": 2,
+        "tag": "div",
+        "class": [
+          "wow-recipe-card__header"
+        ],
+        "text": "Brawler's Leather Belt Requires Leatherworking 60 Materials 1 × Coarse Thread 2 × Cured Light Hide Recipe → 10 × Light Leather Recipe → 2 × Pristine Leather 1 × Shadowgem Requires Leatherworking 60 Skill color thresholds Orange 60 Yellow 90 Green 105 Gray 120 Recipe item Save recipe",
+        "html": "<div class=\"wow-recipe-card__header\"><div class=\"wow-recipe-heading\"><a aria-label=\"Brawler's Leather Belt item\" class=\"wow-recipe-art\" data-quality=\"3\" data-wow-preview=\"item-252428\" data-wow-recipe-item=\"\" href=\"/wow-forever/items/252428/\"><span aria-hidden=\"true\" class=\"wow-item-icon\" data-quality=\"3\" data-wow-item-icon=\"252428\"><img alt=\"\" data-wow-reference-icon=\"\" decoding=\"async\" height=\"56\" loading=\"lazy\" src=\"/wow-forever/reference-artwork/items/bf6095b7feef.jpg\" width=\"56\"/></span></a><div class=\"wow-recipe-heading__text\"><h2><a data-quality=\"3\" data-wow-preview=\"item-252428\" data-wow-recipe-name=\"\" href=\"/wow-forever/items/252428/\">Brawler's Leather Belt</a></h2><small class=\"wow-recipe-required\">Requires Leatherworking 60</small></div></div><div class=\"wow-recipe-scan\"><div class=\"wow-recipe-card__materials wow-recipe-materials wow-recipe-materials--scan\"><h3 class=\"wow-recipe-field-label\">Materials</h3><ul aria-label=\"Materials\"><li><a class=\"wow-recipe-material-reference\" data-quality=\"1\" data-wow-preview=\"item-2320\" href=\"/wow-forever/items/2320/\"><span aria-hidden=\"true\" class=\"wow-item-icon\" data-quality=\"1\" data-wow-item-icon=\"2320\"><img alt=\"\" data-wow-reference-icon=\"\" decoding=\"async\" height=\"56\" loading=\"lazy\" src=\"/wow-forever/reference-artwork/items/2e4562f86bab.jpg\" width=\"56\"/></span><span class=\"wow-recipe-quantity\" data-item-id=\"2320\" data-quantity=\"1\" data-wow-craft-material=\"\">1<span aria-hidden=\"true\"> ×</span></span><span class=\"wow-recipe-material-name\">Coarse Thread</span></a></li><li><a class=\"wow-recipe-material-reference\" data-quality=\"1\" data-wow-preview=\"item-4231\" href=\"/wow-forever/items/4231/\"><span aria-hidden=\"true\" class=\"wow-item-icon\" data-quality=\"1\" data-wow-item-icon=\"4231\"><img alt=\"\" data-wow-reference-icon=\"\" decoding"
+      },
+      {
+        "depth": 3,
+        "tag": "li",
+        "class": [
+          "wow-recipe-card"
+        ],
+        "text": "Brawler's Leather Belt Requires Leatherworking 60 Materials 1 × Coarse Thread 2 × Cured Light Hide Recipe → 10 × Light Leather Recipe → 2 × Pristine Leather 1 × Shadowgem Requires Leatherworking 60 Skill color thresholds Orange 60 Yellow 90 Green 105 Gray 120 Recipe item Save recipe Details for Brawler's Leather Belt + Produces 1 × Brawler's Leather Belt Number of crafts − + Add to materials list View list ↑ Copy materials Copy these materials How to learn Learn from: Pattern: Brawler's Leather Belt Community sources These reports include Forever beta and Classic Era. Check the current seller and stock before travelling. Vendor: Daniel Stitchsong Redridge Mountains · Alliance Vendor: Pawani The Barrens · Horde Merchant's Favor: 30 Comments about this recipe · Report an error",
+        "html": "<li class=\"wow-recipe-card\" data-category=\"Armor\" data-learning=\"item\" data-required-skill=\"60\" data-search=\"Brawler's Leather Belt 1255142  60     252765 pattern: brawler's leather belt   252428 brawler's leather belt 2320 coarse thread 4231 cured light hide 2318 light leather 249427 pristine leather 1210 shadowgem \" data-skill-tiers=\"[60,90,105,120]\" data-wow-profession-name=\"Leatherworking\" data-wow-recipe=\"\" id=\"recipe-1255142\"><div class=\"wow-recipe-card__header\"><div class=\"wow-recipe-heading\"><a aria-label=\"Brawler's Leather Belt item\" class=\"wow-recipe-art\" data-quality=\"3\" data-wow-preview=\"item-252428\" data-wow-recipe-item=\"\" href=\"/wow-forever/items/252428/\"><span aria-hidden=\"true\" class=\"wow-item-icon\" data-quality=\"3\" data-wow-item-icon=\"252428\"><img alt=\"\" data-wow-reference-icon=\"\" decoding=\"async\" height=\"56\" loading=\"lazy\" src=\"/wow-forever/reference-artwork/items/bf6095b7feef.jpg\" width=\"56\"/></span></a><div class=\"wow-recipe-heading__text\"><h2><a data-quality=\"3\" data-wow-preview=\"item-252428\" data-wow-recipe-name=\"\" href=\"/wow-forever/items/252428/\">Brawler's Leather Belt</a></h2><small class=\"wow-recipe-required\">Requires Leatherworking 60</small></div></div><div class=\"wow-recipe-scan\"><div class=\"wow-recipe-card__materials wow-recipe-materials wow-recipe-materials--scan\"><h3 class=\"wow-recipe-field-label\">Materials</h3><ul aria-label=\"Materials\"><li><a class=\"wow-recipe-material-reference\" data-quality=\"1\" data-wow-preview=\"item-2320\" href=\"/wow-forever/items/2320/\"><span aria-hidden=\"true\" class=\"wow-item-icon\" data-quality=\"1\" data-wow-item-icon=\"2320\"><img alt=\"\" data-wow-reference-icon=\"\" decoding=\"async\" height=\"56\" loading=\"lazy\" src=\"/wow-forever/reference-artwork/items/2e4562f86bab.jpg\" width=\"56\"/></span><span class=\"wow-recipe-quantity\""
+      },
+      {
+        "depth": 4,
+        "tag": "ul",
+        "class": [
+          "wow-recipe-list"
+        ],
+        "text": "Handstitched Leather Boots Requires Leatherworking 1 Materials 1 × Coarse Thread 2 × Light Leather Recipe → Requires Leatherworking 1 Skill color thresholds Orange 1 Yellow 20 Green 40 Gray 70 With profession training With Leatherworking Save recipe Details for Handstitched Leather Boots + Produces 1 × Handstitched Leather Boots Number of crafts − + Add to materials list View list ↑ Copy materials Copy these materials How to learn Included with profession training; check its skill and rank requirements. Comments about this recipe · Report an error Handstitched Leather Bracers Requires Leatherworking 1 Materials 3 × Coarse Thread 2 × Light Leather Recipe → Requires Leatherworking 1 Skill color thresholds Orange 1 Yellow 20 Green 40 Gray 70 With profession training With Leatherworking Save recipe Details for Handstitched Leather Bracers + Produces 1 × Handstitched Leather Bracers Number of crafts − + Add to materials list View list ↑ Copy materials Copy these materials How to learn Included with profession training; check its skill and rank requirements. Comments about this recipe · Report an error Handstitched Leather Cloak Requires Leatherworking 1 Materials 1 × Coarse Thread 2 × Light Leather Recipe → Requires Leatherworking 1 Skill color thresholds Orange 1 Yellow 20 Green 40 Gray 70 With profession training With Leatherworking Save recipe Details for Handstitched Leather Cloak + Produces 1 × Handstitched Leather Cloak Number of crafts − + Add to materials list View list ↑ Copy materials Copy these materials How to learn Included with profession training; check its skill ",
+        "html": "<ul aria-label=\"Leatherworking recipes\" class=\"wow-recipe-list\"><li class=\"wow-recipe-card\" data-category=\"Armor\" data-learning=\"profession\" data-required-skill=\"1\" data-search=\"Handstitched Leather Boots 2149  1 learned with profession      2302 handstitched leather boots 2320 coarse thread 2318 light leather\" data-skill-tiers=\"[1,20,40,70]\" data-wow-profession-name=\"Leatherworking\" data-wow-recipe=\"\" id=\"recipe-2149\"><div class=\"wow-recipe-card__header\"><div class=\"wow-recipe-heading\"><a aria-label=\"Handstitched Leather Boots item\" class=\"wow-recipe-art\" data-quality=\"1\" data-wow-preview=\"item-2302\" data-wow-recipe-item=\"\" href=\"/wow-forever/items/2302/\"><style>:is(.wow-item-icon,:where(a[data-wow-item-ref])>:first-child){vertical-align:middle;background:linear-gradient(135deg,#252c32,#11171b);border:1px solid #82775d;border-radius:.2rem;flex:0 0 2rem;width:2rem;height:2rem;display:inline-flex;position:relative;overflow:hidden;box-shadow:inset 0 0 0 1px #0008}:is(.wow-item-icon,:where(a[data-wow-item-ref])>:first-child):before{content:\"\";opacity:.55;border:1px solid #8e958d;position:absolute;inset:25% 32%;transform:rotate(35deg)}:is(.wow-item-icon,:where(a[data-wow-item-ref])>:first-child) img{object-fit:contain;width:100%;height:100%;position:relative}:is(.wow-item-icon,:where(a[data-wow-item-ref])>:first-child)[data-quality=\"2\"],.wow-item-reference-link[data-quality=\"2\"]>:is(.wow-item-icon,:where(a[data-wow-item-ref])>:first-child):not([data-quality]){border-color:#69a84e}:is(.wow-item-icon,:where(a[data-wow-item-ref])>:first-child)[data-quality=\"3\"],.wow-item-reference-link[data-quality=\"3\"]>:is(.wow-item-icon,:where(a[data-wow-item-ref])>:first-child):not([data-quality]){border-color:#5991cc}:is(.wow-item-icon,:where(a[data-wow-item-ref])>:first-child)[data-qualit"
+      }
+    ]
+  }
+}

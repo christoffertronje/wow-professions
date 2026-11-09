@@ -1,0 +1,21 @@
+name: Build item effect reconciliation report
+on:
+  push:
+    paths:
+      - scripts/build-effect-reconciliation-report.py
+      - .github/workflows/effect-reconciliation.yml
+      - data/item-stats.json
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  report:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: python3 scripts/build-effect-reconciliation-report.py
+      - run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs/effect-reconciliation-report.json
+          git diff --cached --quiet || (git commit -m "docs: record reviewed effect differences and unresolved client templates" && git push)

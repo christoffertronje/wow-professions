@@ -3,13 +3,14 @@
   "location": "Three Corners, Redridge Mountains",
   "source": "https://www.wow-professions.com/forever/npc/daniel-stitchsong",
   "tableRowCount": 81,
-  "uniqueMatches": 72,
-  "missingCount": 9,
+  "uniqueMatches": 81,
+  "missingCount": 0,
   "ambiguousCount": 0,
   "skillMismatchCount": 0,
   "matches": [
     {
       "name": "Brawler's Leather Belt",
+      "vendorName": "Brawler's Leather Belt",
       "spellId": "1255142",
       "vendorRequired": 60,
       "catalogCraftRequired": 60,
@@ -20,6 +21,7 @@
     },
     {
       "name": "Defender's Leather Belt",
+      "vendorName": "Defender's Leather Belt",
       "spellId": "1255140",
       "vendorRequired": 60,
       "catalogCraftRequired": 60,
@@ -30,6 +32,7 @@
     },
     {
       "name": "Stormrider's Leather Belt",
+      "vendorName": "Stormrider's Leather Belt",
       "spellId": "1255138",
       "vendorRequired": 60,
       "catalogCraftRequired": 60,
@@ -40,6 +43,7 @@
     },
     {
       "name": "Totemic Leather Belt",
+      "vendorName": "Totemic Leather Belt",
       "spellId": "1255139",
       "vendorRequired": 60,
       "catalogCraftRequired": 60,
@@ -50,6 +54,7 @@
     },
     {
       "name": "Trapper's Leather Belt",
+      "vendorName": "Trapper's Leather Belt",
       "spellId": "1255141",
       "vendorRequired": 60,
       "catalogCraftRequired": 60,
@@ -60,6 +65,7 @@
     },
     {
       "name": "Wisdom's Leather Belt",
+      "vendorName": "Wisdom's Leather Belt",
       "spellId": "1255137",
       "vendorRequired": 60,
       "catalogCraftRequired": 60,
@@ -70,6 +76,7 @@
     },
     {
       "name": "Brawler's Leather Gloves",
+      "vendorName": "Brawler's Leather Gloves",
       "spellId": "1255130",
       "vendorRequired": 75,
       "catalogCraftRequired": 75,
@@ -80,6 +87,7 @@
     },
     {
       "name": "Defender's Leather Gloves",
+      "vendorName": "Defender's Leather Gloves",
       "spellId": "1255128",
       "vendorRequired": 75,
       "catalogCraftRequired": 75,
@@ -90,6 +98,7 @@
     },
     {
       "name": "Stormrider's Leather Gloves",
+      "vendorName": "Stormrider's Leather Gloves",
       "spellId": "1255126",
       "vendorRequired": 75,
       "catalogCraftRequired": 75,
@@ -100,6 +109,7 @@
     },
     {
       "name": "Totemic Leather Gloves",
+      "vendorName": "Totemic Leather Gloves",
       "spellId": "1255127",
       "vendorRequired": 75,
       "catalogCraftRequired": 75,
@@ -110,6 +120,7 @@
     },
     {
       "name": "Trapper's Leather Gloves",
+      "vendorName": "Trapper's Leather Gloves",
       "spellId": "1255129",
       "vendorRequired": 75,
       "catalogCraftRequired": 75,
@@ -120,6 +131,7 @@
     },
     {
       "name": "Wisdom's Leather Gloves",
+      "vendorName": "Wisdom's Leather Gloves",
       "spellId": "1255125",
       "vendorRequired": 75,
       "catalogCraftRequired": 75,
@@ -130,6 +142,7 @@
     },
     {
       "name": "Brawler's Leather Boots",
+      "vendorName": "Brawler's Leather Boots",
       "spellId": "1255121",
       "vendorRequired": 85,
       "catalogCraftRequired": 85,
@@ -140,6 +153,7 @@
     },
     {
       "name": "Defender's Leather Boots",
+      "vendorName": "Defender's Leather Boots",
       "spellId": "1255119",
       "vendorRequired": 85,
       "catalogCraftRequired": 85,
@@ -150,6 +164,7 @@
     },
     {
       "name": "Stormrider's Leather Boots",
+      "vendorName": "Stormrider's Leather Boots",
       "spellId": "1255117",
       "vendorRequired": 85,
       "catalogCraftRequired": 85,
@@ -160,6 +175,7 @@
     },
     {
       "name": "Totemic Leather Boots",
+      "vendorName": "Totemic Leather Boots",
       "spellId": "1255118",
       "vendorRequired": 85,
       "catalogCraftRequired": 85,
@@ -170,6 +186,7 @@
     },
     {
       "name": "Trapper's Leather Boots",
+      "vendorName": "Trapper's Leather Boots",
       "spellId": "1255120",
       "vendorRequired": 85,
       "catalogCraftRequired": 85,
@@ -180,6 +197,7 @@
     },
     {
       "name": "Wisdom's Leather Boots",
+      "vendorName": "Wisdom's Leather Boots",
       "spellId": "1255116",
       "vendorRequired": 85,
       "catalogCraftRequired": 85,
@@ -190,6 +208,7 @@
     },
     {
       "name": "Brawler's Leather Hood",
+      "vendorName": "Brawler's Leather Hood",
       "spellId": "1255109",
       "vendorRequired": 100,
       "catalogCraftRequired": 100,
@@ -200,6 +219,7 @@
     },
     {
       "name": "Defender's Leather Hood",
+      "vendorName": "Defender's Leather Hood",
       "spellId": "1255107",
       "vendorRequired": 100,
       "catalogCraftRequired": 100,
@@ -210,6 +230,7 @@
     },
     {
       "name": "Stormrider's Leather Hood",
+      "vendorName": "Stormrider's Leather Hood",
       "spellId": "1255105",
       "vendorRequired": 100,
       "catalogCraftRequired": 100,
@@ -220,6 +241,7 @@
     },
     {
       "name": "Totemic Leather Hood",
+      "vendorName": "Totemic Leather Hood",
       "spellId": "1255106",
       "vendorRequired": 100,
       "catalogCraftRequired": 100,
@@ -230,6 +252,7 @@
     },
     {
       "name": "Trapper's Leather Hood",
+      "vendorName": "Trapper's Leather Hood",
       "spellId": "1255108",
       "vendorRequired": 100,
       "catalogCraftRequired": 100,
@@ -240,6 +263,7 @@
     },
     {
       "name": "Wisdom's Leather Hood",
+      "vendorName": "Wisdom's Leather Hood",
       "spellId": "1255104",
       "vendorRequired": 100,
       "catalogCraftRequired": 100,
@@ -250,6 +274,7 @@
     },
     {
       "name": "Brawler's Leather Tunic",
+      "vendorName": "Brawler's Leather Tunic",
       "spellId": "1255102",
       "vendorRequired": 110,
       "catalogCraftRequired": 110,
@@ -260,6 +285,7 @@
     },
     {
       "name": "Defender's Leather Tunic",
+      "vendorName": "Defender's Leather Tunic",
       "spellId": "1255100",
       "vendorRequired": 110,
       "catalogCraftRequired": 110,
@@ -270,6 +296,7 @@
     },
     {
       "name": "Stormrider's Leather Tunic",
+      "vendorName": "Stormrider's Leather Tunic",
       "spellId": "1255098",
       "vendorRequired": 110,
       "catalogCraftRequired": 110,
@@ -280,6 +307,7 @@
     },
     {
       "name": "Totemic Leather Tunic",
+      "vendorName": "Totemic Leather Tunic",
       "spellId": "1255099",
       "vendorRequired": 110,
       "catalogCraftRequired": 110,
@@ -290,6 +318,7 @@
     },
     {
       "name": "Trapper's Leather Tunic",
+      "vendorName": "Trapper's Leather Tunic",
       "spellId": "1255101",
       "vendorRequired": 110,
       "catalogCraftRequired": 110,
@@ -300,6 +329,7 @@
     },
     {
       "name": "Wisdom's Leather Tunic",
+      "vendorName": "Wisdom's Leather Tunic",
       "spellId": "1255097",
       "vendorRequired": 110,
       "catalogCraftRequired": 110,
@@ -310,6 +340,7 @@
     },
     {
       "name": "Brawler's Leather Legguards",
+      "vendorName": "Brawler's Leather Legguards",
       "spellId": "1255087",
       "vendorRequired": 125,
       "catalogCraftRequired": 125,
@@ -320,6 +351,7 @@
     },
     {
       "name": "Defender's Leather Kilt",
+      "vendorName": "Defender's Leather Kilt",
       "spellId": "1255085",
       "vendorRequired": 125,
       "catalogCraftRequired": 125,
@@ -330,6 +362,7 @@
     },
     {
       "name": "Stormrider's Leather Kilt",
+      "vendorName": "Stormrider's Leather Kilt",
       "spellId": "1255083",
       "vendorRequired": 125,
       "catalogCraftRequired": 125,
@@ -340,6 +373,7 @@
     },
     {
       "name": "Totemic Leather Leggings",
+      "vendorName": "Totemic Leather Leggings",
       "spellId": "1255084",
       "vendorRequired": 125,
       "catalogCraftRequired": 125,
@@ -350,6 +384,7 @@
     },
     {
       "name": "Trapper's Leather Legguards",
+      "vendorName": "Trapper's Leather Legguards",
       "spellId": "1255086",
       "vendorRequired": 125,
       "catalogCraftRequired": 125,
@@ -360,6 +395,7 @@
     },
     {
       "name": "Wisdom's Leather Leggings",
+      "vendorName": "Wisdom's Leather Leggings",
       "spellId": "1255082",
       "vendorRequired": 125,
       "catalogCraftRequired": 125,
@@ -370,6 +406,7 @@
     },
     {
       "name": "Mender's Leather Gloves",
+      "vendorName": "Mender's Leather Gloves",
       "spellId": "1255065",
       "vendorRequired": 175,
       "catalogCraftRequired": 175,
@@ -380,6 +417,7 @@
     },
     {
       "name": "Prowler's Leather Gloves",
+      "vendorName": "Prowler's Leather Gloves",
       "spellId": "1255071",
       "vendorRequired": 175,
       "catalogCraftRequired": 175,
@@ -390,6 +428,7 @@
     },
     {
       "name": "Skirmisher's Leather Gloves",
+      "vendorName": "Skirmisher's Leather Gloves",
       "spellId": "1255067",
       "vendorRequired": 175,
       "catalogCraftRequired": 175,
@@ -400,6 +439,7 @@
     },
     {
       "name": "Skulker's Leather Gloves",
+      "vendorName": "Skulker's Leather Gloves",
       "spellId": "1255070",
       "vendorRequired": 175,
       "catalogCraftRequired": 175,
@@ -410,6 +450,7 @@
     },
     {
       "name": "Skycaller's Leather Gloves",
+      "vendorName": "Skycaller's Leather Gloves",
       "spellId": "1255066",
       "vendorRequired": 175,
       "catalogCraftRequired": 175,
@@ -420,6 +461,7 @@
     },
     {
       "name": "Stalker's Leather Gloves",
+      "vendorName": "Stalker's Leather Gloves",
       "spellId": "1255069",
       "vendorRequired": 175,
       "catalogCraftRequired": 175,
@@ -430,6 +472,7 @@
     },
     {
       "name": "Warden's Leather Gloves",
+      "vendorName": "Warden's Leather Gloves",
       "spellId": "1255068",
       "vendorRequired": 175,
       "catalogCraftRequired": 175,
@@ -440,6 +483,7 @@
     },
     {
       "name": "Forceful Thick Armor Kit",
+      "vendorName": "Forceful Thick Armor Kit",
       "spellId": "1255073",
       "vendorRequired": 185,
       "catalogCraftRequired": 185,
@@ -450,6 +494,7 @@
     },
     {
       "name": "Mender's Leather Bracers",
+      "vendorName": "Mender's Leather Bracers",
       "spellId": "1255050",
       "vendorRequired": 225,
       "catalogCraftRequired": 225,
@@ -460,6 +505,7 @@
     },
     {
       "name": "Mender's Mail Bracers",
+      "vendorName": "Mender's Mail Bracers",
       "spellId": "1255000",
       "vendorRequired": 225,
       "catalogCraftRequired": 225,
@@ -470,6 +516,7 @@
     },
     {
       "name": "Prowler's Leather Bracers",
+      "vendorName": "Prowler's Leather Bracers",
       "spellId": "1255054",
       "vendorRequired": 225,
       "catalogCraftRequired": 225,
@@ -480,6 +527,7 @@
     },
     {
       "name": "Skirmisher's Mail Bracers",
+      "vendorName": "Skirmisher's Mail Bracers",
       "spellId": "1255001",
       "vendorRequired": 225,
       "catalogCraftRequired": 225,
@@ -490,6 +538,7 @@
     },
     {
       "name": "Skulker's Leather Bracers",
+      "vendorName": "Skulker's Leather Bracers",
       "spellId": "1255053",
       "vendorRequired": 225,
       "catalogCraftRequired": 225,
@@ -500,6 +549,7 @@
     },
     {
       "name": "Skycaller's Leather Bracers",
+      "vendorName": "Skycaller's Leather Bracers",
       "spellId": "1255051",
       "vendorRequired": 225,
       "catalogCraftRequired": 225,
@@ -510,6 +560,7 @@
     },
     {
       "name": "Skycaller's Mail Bracers",
+      "vendorName": "Skycaller's Mail Bracers",
       "spellId": "1255002",
       "vendorRequired": 225,
       "catalogCraftRequired": 225,
@@ -520,6 +571,7 @@
     },
     {
       "name": "Stalker's Mail Bracers",
+      "vendorName": "Stalker's Mail Bracers",
       "spellId": "1255003",
       "vendorRequired": 225,
       "catalogCraftRequired": 225,
@@ -530,6 +582,7 @@
     },
     {
       "name": "Warden's Leather Bracers",
+      "vendorName": "Warden's Leather Bracers",
       "spellId": "1255052",
       "vendorRequired": 225,
       "catalogCraftRequired": 225,
@@ -540,6 +593,7 @@
     },
     {
       "name": "Mender's Leather Boots",
+      "vendorName": "Mender's Leather Boots",
       "spellId": "1255043",
       "vendorRequired": 235,
       "catalogCraftRequired": 235,
@@ -550,6 +604,7 @@
     },
     {
       "name": "Mender's Mail Sabatons",
+      "vendorName": "Mender's Mail Sabatons",
       "spellId": "1254994",
       "vendorRequired": 235,
       "catalogCraftRequired": 235,
@@ -560,6 +615,7 @@
     },
     {
       "name": "Mystic Rugged Armor Kit",
+      "vendorName": "Mystic Rugged Armor Kit",
       "spellId": "1254966",
       "vendorRequired": 235,
       "catalogCraftRequired": 235,
@@ -570,6 +626,7 @@
     },
     {
       "name": "Prowler's Leather Boots",
+      "vendorName": "Prowler's Leather Boots",
       "spellId": "1255047",
       "vendorRequired": 235,
       "catalogCraftRequired": 235,
@@ -580,6 +637,7 @@
     },
     {
       "name": "Skirmisher's Mail Sabatons",
+      "vendorName": "Skirmisher's Mail Sabatons",
       "spellId": "1254995",
       "vendorRequired": 235,
       "catalogCraftRequired": 235,
@@ -590,6 +648,7 @@
     },
     {
       "name": "Skulker's Leather Boots",
+      "vendorName": "Skulker's Leather Boots",
       "spellId": "1255046",
       "vendorRequired": 235,
       "catalogCraftRequired": 235,
@@ -600,6 +659,7 @@
     },
     {
       "name": "Skycaller's Leather Boots",
+      "vendorName": "Skycaller's Leather Boots",
       "spellId": "1255044",
       "vendorRequired": 235,
       "catalogCraftRequired": 235,
@@ -610,6 +670,7 @@
     },
     {
       "name": "Skycaller's Mail Sabatons",
+      "vendorName": "Skycaller's Mail Sabatons",
       "spellId": "1254996",
       "vendorRequired": 235,
       "catalogCraftRequired": 235,
@@ -620,6 +681,7 @@
     },
     {
       "name": "Stalker's Mail Sabatons",
+      "vendorName": "Stalker's Mail Sabatons",
       "spellId": "1254997",
       "vendorRequired": 235,
       "catalogCraftRequired": 235,
@@ -630,6 +692,7 @@
     },
     {
       "name": "Warden's Leather Boots",
+      "vendorName": "Warden's Leather Boots",
       "spellId": "1255045",
       "vendorRequired": 235,
       "catalogCraftRequired": 235,
@@ -640,6 +703,7 @@
     },
     {
       "name": "Mender's Leather Waistguard",
+      "vendorName": "Mender's Leather Waistguard",
       "spellId": "1255031",
       "vendorRequired": 250,
       "catalogCraftRequired": 250,
@@ -650,6 +714,7 @@
     },
     {
       "name": "Mender's Mail Belt",
+      "vendorName": "Mender's Mail Belt",
       "spellId": "1254982",
       "vendorRequired": 250,
       "catalogCraftRequired": 250,
@@ -660,6 +725,7 @@
     },
     {
       "name": "Prowler's Leather Waistguard",
+      "vendorName": "Prowler's Leather Waistguard",
       "spellId": "1255035",
       "vendorRequired": 250,
       "catalogCraftRequired": 250,
@@ -670,6 +736,7 @@
     },
     {
       "name": "Skirmisher's Mail Belt",
+      "vendorName": "Skirmisher's Mail Belt",
       "spellId": "1254983",
       "vendorRequired": 250,
       "catalogCraftRequired": 250,
@@ -680,6 +747,7 @@
     },
     {
       "name": "Skulker's Leather Waistguard",
+      "vendorName": "Skulker's Leather Waistguard",
       "spellId": "1255034",
       "vendorRequired": 250,
       "catalogCraftRequired": 250,
@@ -690,6 +758,7 @@
     },
     {
       "name": "Skycaller's Leather Waistguard",
+      "vendorName": "Skycaller's Leather Waistguard",
       "spellId": "1255032",
       "vendorRequired": 250,
       "catalogCraftRequired": 250,
@@ -700,6 +769,7 @@
     },
     {
       "name": "Skycaller's Mail Belt",
+      "vendorName": "Skycaller's Mail Belt",
       "spellId": "1254984",
       "vendorRequired": 250,
       "catalogCraftRequired": 250,
@@ -710,6 +780,7 @@
     },
     {
       "name": "Stalker's Mail Belt",
+      "vendorName": "Stalker's Mail Belt",
       "spellId": "1254985",
       "vendorRequired": 250,
       "catalogCraftRequired": 250,
@@ -720,6 +791,7 @@
     },
     {
       "name": "Warden's Leather Waistguard",
+      "vendorName": "Warden's Leather Waistguard",
       "spellId": "1255033",
       "vendorRequired": 250,
       "catalogCraftRequired": 250,
@@ -727,118 +799,108 @@
         "https://www.wowhead.com/forever/item=252874",
         "https://www.wowhead.com/forever/currency=3402"
       ]
-    }
-  ],
-  "missing": [
+    },
     {
-      "name": "Mender's Leather Shoulder",
-      "required": 210,
-      "merchantFavor": [
-        "60x Merchant"
-      ],
-      "rowText": "Pattern: Mender's Leather Shoulder | Azeroth Commerce Authority Friendly | Leatherworking (210) | 60x Merchant's Favor",
-      "itemUrls": [
+      "name": "Mender's Leather Shoulders",
+      "vendorName": "Mender's Leather Shoulder",
+      "spellId": "1255055",
+      "vendorRequired": 210,
+      "catalogCraftRequired": 210,
+      "references": [
         "https://www.wowhead.com/forever/item=252852",
         "https://www.wowhead.com/forever/currency=3402"
       ]
     },
     {
-      "name": "Mender's Mail Shoulder",
-      "required": 210,
-      "merchantFavor": [
-        "60x Merchant"
-      ],
-      "rowText": "Pattern: Mender's Mail Shoulder | Azeroth Commerce Authority Friendly | Leatherworking (210) | 60x Merchant's Favor",
-      "itemUrls": [
+      "name": "Mender's Mail Shoulders",
+      "vendorName": "Mender's Mail Shoulder",
+      "spellId": "1255004",
+      "vendorRequired": 210,
+      "catalogCraftRequired": 210,
+      "references": [
         "https://www.wowhead.com/forever/item=252903",
         "https://www.wowhead.com/forever/currency=3402"
       ]
     },
     {
-      "name": "Prowler's Leather Shoulder",
-      "required": 210,
-      "merchantFavor": [
-        "60x Merchant"
-      ],
-      "rowText": "Pattern: Prowler's Leather Shoulder | Azeroth Commerce Authority Friendly | Leatherworking (210) | 60x Merchant's Favor",
-      "itemUrls": [
+      "name": "Prowler's Leather Shoulders",
+      "vendorName": "Prowler's Leather Shoulder",
+      "spellId": "1255059",
+      "vendorRequired": 210,
+      "catalogCraftRequired": 210,
+      "references": [
         "https://www.wowhead.com/forever/item=252848",
         "https://www.wowhead.com/forever/currency=3402"
       ]
     },
     {
-      "name": "Skirmisher's Mail Shoulder",
-      "required": 210,
-      "merchantFavor": [
-        "60x Merchant"
-      ],
-      "rowText": "Pattern: Skirmisher's Mail Shoulder | Azeroth Commerce Authority Friendly | Leatherworking (210) | 60x Merchant's Favor",
-      "itemUrls": [
+      "name": "Skirmisher's Mail Shoulders",
+      "vendorName": "Skirmisher's Mail Shoulder",
+      "spellId": "1255005",
+      "vendorRequired": 210,
+      "catalogCraftRequired": 210,
+      "references": [
         "https://www.wowhead.com/forever/item=252902",
         "https://www.wowhead.com/forever/currency=3402"
       ]
     },
     {
-      "name": "Skulker's Leather Shoulder",
-      "required": 210,
-      "merchantFavor": [
-        "60x Merchant"
-      ],
-      "rowText": "Pattern: Skulker's Leather Shoulder | Azeroth Commerce Authority Friendly | Leatherworking (210) | 60x Merchant's Favor",
-      "itemUrls": [
+      "name": "Skulker's Leather Shoulders",
+      "vendorName": "Skulker's Leather Shoulder",
+      "spellId": "1255058",
+      "vendorRequired": 210,
+      "catalogCraftRequired": 210,
+      "references": [
         "https://www.wowhead.com/forever/item=252849",
         "https://www.wowhead.com/forever/currency=3402"
       ]
     },
     {
-      "name": "Skycaller's Leather Shoulder",
-      "required": 210,
-      "merchantFavor": [
-        "60x Merchant"
-      ],
-      "rowText": "Pattern: Skycaller's Leather Shoulder | Azeroth Commerce Authority Friendly | Leatherworking (210) | 60x Merchant's Favor",
-      "itemUrls": [
+      "name": "Skycaller's Leather Shoulders",
+      "vendorName": "Skycaller's Leather Shoulder",
+      "spellId": "1255056",
+      "vendorRequired": 210,
+      "catalogCraftRequired": 210,
+      "references": [
         "https://www.wowhead.com/forever/item=252851",
         "https://www.wowhead.com/forever/currency=3402"
       ]
     },
     {
-      "name": "Skycaller's Mail Shoulder",
-      "required": 210,
-      "merchantFavor": [
-        "60x Merchant"
-      ],
-      "rowText": "Pattern: Skycaller's Mail Shoulder | Azeroth Commerce Authority Friendly | Leatherworking (210) | 60x Merchant's Favor",
-      "itemUrls": [
+      "name": "Skycaller's Mail Shoulders",
+      "vendorName": "Skycaller's Mail Shoulder",
+      "spellId": "1255006",
+      "vendorRequired": 210,
+      "catalogCraftRequired": 210,
+      "references": [
         "https://www.wowhead.com/forever/item=252901",
         "https://www.wowhead.com/forever/currency=3402"
       ]
     },
     {
-      "name": "Stalker's Mail Shoulder",
-      "required": 210,
-      "merchantFavor": [
-        "60x Merchant"
-      ],
-      "rowText": "Pattern: Stalker's Mail Shoulder | Azeroth Commerce Authority Friendly | Leatherworking (210) | 60x Merchant's Favor",
-      "itemUrls": [
+      "name": "Stalker's Mail Shoulders",
+      "vendorName": "Stalker's Mail Shoulder",
+      "spellId": "1255007",
+      "vendorRequired": 210,
+      "catalogCraftRequired": 210,
+      "references": [
         "https://www.wowhead.com/forever/item=252900",
         "https://www.wowhead.com/forever/currency=3402"
       ]
     },
     {
-      "name": "Warden's Leather Shoulder",
-      "required": 210,
-      "merchantFavor": [
-        "60x Merchant"
-      ],
-      "rowText": "Pattern: Warden's Leather Shoulder | Azeroth Commerce Authority Friendly | Leatherworking (210) | 60x Merchant's Favor",
-      "itemUrls": [
+      "name": "Warden's Leather Shoulders",
+      "vendorName": "Warden's Leather Shoulder",
+      "spellId": "1255057",
+      "vendorRequired": 210,
+      "catalogCraftRequired": 210,
+      "references": [
         "https://www.wowhead.com/forever/item=252850",
         "https://www.wowhead.com/forever/currency=3402"
       ]
     }
   ],
+  "missing": [],
   "ambiguous": [],
   "skillMismatches": [],
   "htmlDiagnostics": {
@@ -939,5 +1001,8 @@
         "30x Merchant's Favor"
       ]
     ]
-  }
+  },
+  "nameAliasesMatched": 9,
+  "auditMethod": "81 vendor pattern item rows cross-checked by normalized item name and exact source recipe spell ID. Singular Shoulder matches later plural Shoulders names; skill requirement compared directly.",
+  "status": "PASS"
 }

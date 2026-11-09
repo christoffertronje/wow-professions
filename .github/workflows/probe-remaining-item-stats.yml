@@ -1,0 +1,21 @@
+name: Probe 60 remaining output item tooltips
+on:
+  push:
+    paths:
+      - scripts/probe-remaining-item-stats.py
+      - .github/workflows/probe-remaining-item-stats.yml
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: python3 -m pip install beautifulsoup4
+      - run: python3 scripts/probe-remaining-item-stats.py
+      - run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs/remaining-item-stats-probe.json
+          git diff --cached --quiet || (git commit -m "docs: inspect remaining common and unknown-quality output items" && git push)

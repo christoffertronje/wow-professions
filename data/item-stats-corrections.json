@@ -5,6 +5,22 @@
     "notes": "Tooltip text from the newer Forever client takes precedence over missing old tooltip effects."
   },
   "byItemId": {
+    "2304": {
+      "effects": [
+        "Use: Permanently increase the Stamina value by 1 and the Armor value by 8 of an item worn on the chest, legs, hands or feet. (1 Sec Cooldown)"
+      ],
+      "source": "https://bindonforever.com/item/2304",
+      "corroboration": [],
+      "reason": "One-second Use cooldown is explicit in newer client tooltip; underlying bonus unchanged."
+    },
+    "2313": {
+      "effects": [
+        "Use: Permanently increase the Stamina value by 2 and the armor value by 16 of an item worn on the chest, legs, hands or feet. (1 Sec Cooldown)"
+      ],
+      "source": "https://bindonforever.com/item/2313",
+      "corroboration": [],
+      "reason": "One-second Use cooldown is explicit in newer client tooltip; underlying bonus unchanged."
+    },
     "2314": {
       "armor": 84,
       "binding": "BoE",
@@ -29,6 +45,18 @@
       ],
       "reason": "Recorded older tooltip contained unresolved zeros; client build 70862 resolves +3 Stamina/+24 armor, item level 15+."
     },
+    "7284": {
+      "effects": [
+        "Equip: 5% chance of dealing 30 to 50 Fire damage on a successful melee attack."
+      ],
+      "reviewFlag": "Tooltipen anger 5% chans; en separat databas visar också 'Proc 10%'. Vi visar den belagda tooltiptexten utan att blanda ihop de två uppgifterna. Kontrollera faktisk proc-chans i spelet.",
+      "source": "https://www.foreverdb.app/en/forever/items/7284/red-whelp-gloves",
+      "corroboration": [
+        "https://senseos.gg/wiki/wow-forever/items/7284/red-whelp-gloves/",
+        "https://raiddex.com/en/wow-forever/items/red-whelp-gloves"
+      ],
+      "reason": "Multiple independently displayed Forever tooltips agree on 5% effect wording; the original '(Proc chance: 10%)' appendix conflicts with that tooltip and is not confirmed as the same chance."
+    },
     "7348": {
       "effects": [
         "Equip: Increases your parry by -15."
@@ -40,6 +68,14 @@
         "https://kovarel.com/wow-forever/items/7348-fletchers-gloves"
       ],
       "reason": "Independent Forever client records give +14 Critical Strike and -15 Parry rating; the +14 Crit already exists in the raw tooltip's other lines. Avoid double-counting."
+    },
+    "7375": {
+      "effects": [
+        "Equip: When struck by a melee attacker, that attacker has a 5% chance of being put to sleep for 10 sec. Only affects enemies level 50 and below."
+      ],
+      "source": "https://bindonforever.com/item/7375",
+      "corroboration": [],
+      "reason": "The extra '(Proc chance: 5%)' repeats the same value in the tooltip; removed only redundant metadata."
     },
     "8173": {
       "effects": [
@@ -95,6 +131,14 @@
       ],
       "reason": "Forever Talent's old tooltip omitted this Equip effect, but newer client and independent item pages confirm +41 ranged Attack Power."
     },
+    "18662": {
+      "effects": [
+        "Use: Throw the ball to a friendly player. If they have free room in their pack they will catch it! (1 Sec Cooldown)"
+      ],
+      "source": "https://bindonforever.com/item/18662",
+      "corroboration": [],
+      "reason": "Normalize whitespace and include one-second cooldown from newer client; gameplay effect unchanged."
+    },
     "20380": {
       "effects": [
         "Equip: Restores 4 mana per 5 sec."
@@ -128,6 +172,37 @@
         "https://foreverdb.net/item/279258"
       ],
       "reason": "Old source incorrectly resolves dynamic stamina as 0 and item threshold as 0; item and spell effects specify +4 defense skill, +10 stamina, usable at item level 45+."
+    },
+    "279941": {
+      "effects": [
+        "Use: Places a Tanning Rack that allows the creation of certain reagents, and provides all of the benefits of a Camp Tent. Requires a Campfire nearby. May be placed over a Camp Tent to replace it. All camping features share a cooldown of 1 hour."
+      ],
+      "source": "https://warcraft.wiki.gg/wiki/Tanning_Rack",
+      "corroboration": [
+        "https://bindonforever.com/item/279941",
+        "https://www.wowhead.com/forever/item=279941"
+      ],
+      "reason": "Source previously omitted the tent replacement and shared one-hour camping cooldown. Preserved newer client text."
+    },
+    "279945": {
+      "effects": [
+        "Use: Places a Sewing Machine usable for recipes that require it, and provides all of the benefits of a Camp Tent. Requires a Campfire nearby. May be placed over a Camp Tent to replace it. All camping features share a cooldown of 1 hour."
+      ],
+      "source": "https://warcraft.wiki.gg/wiki/Sewing_Machine",
+      "corroboration": [
+        "https://bindonforever.com/item/279945"
+      ],
+      "reason": "Source previously omitted the tent replacement and shared one-hour camping cooldown."
+    },
+    "279978": {
+      "effects": [
+        "Use: Builds a tent that allows you and others sitting nearby to increase Rested experience to 5% of a level. No effect if Rested experience already exceeds that value. Requires a Campfire nearby. All camping features share a cooldown of 1 hour."
+      ],
+      "source": "https://warcraft.wiki.gg/wiki/Camp_Tent",
+      "corroboration": [
+        "https://bindonforever.com/item/279978"
+      ],
+      "reason": "Source omitted campfire requirement and one-hour shared camping cooldown."
     }
   }
 }

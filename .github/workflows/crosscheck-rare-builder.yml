@@ -1,0 +1,21 @@
+name: Cross-check Rare recipe requirements against ForeverBuilder
+on:
+  push:
+    paths:
+      - scripts/crosscheck-rare-builder.py
+      - .github/workflows/crosscheck-rare-builder.yml
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: python3 -m pip install beautifulsoup4
+      - run: python3 scripts/crosscheck-rare-builder.py
+      - run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs/rare-builder-crosscheck.json
+          git diff --cached --quiet || (git commit -m "docs: compare rare minimum craft skills to ForeverBuilder" && git push)

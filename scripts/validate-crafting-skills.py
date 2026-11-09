@@ -9,7 +9,8 @@ from pathlib import Path
 DATA=json.loads(Path("data/leatherworking.json").read_text(encoding="utf-8"))
 LOOKUP=json.loads(Path("data/verified-crafting-skills.json").read_text(encoding="utf-8"))["skillsBySpellId"]
 rows=DATA["recipes"]
-assert len(rows)==DATA["meta"]["count"] and len(rows)>=605
+assert len(rows)==DATA["meta"]["count"]==512, "Expected only the 512 identified main-catalog recipes"
+assert all(r.get("category")!="SEASON OF DISCOVERY" and not r["name"].startswith("Unresolved recipe #") and r["name"]!="Unnamed recipe" for r in rows), "Historical or unnamed client records leaked into public catalog"
 assert len(set(row["id"] for row in rows))==len(rows), "Duplicate recipe spell ID"
 count=0
 for row in rows:
@@ -24,7 +25,8 @@ for row in rows:
         assert 1<=record["required"]<=450, f"Invalid skill for {row['name']}"
         count+=1
 
-assert count==len(LOOKUP)==DATA["meta"]["craftSkillsVerified"]
+assert count==DATA["meta"]["craftSkillsVerified"], "Wrong published verified count"
+assert set(r["id"] for r in rows).issubset(LOOKUP), "Some published recipes lack a trusted crafting-skill source"
 assert len(rows)-count==DATA["meta"]["craftSkillsUnverified"]
 
 main=[r for r in rows if r.get("category")!="SEASON OF DISCOVERY" and not r["name"].startswith("Unresolved recipe #")]
@@ -36,4 +38,4 @@ byid={r["id"]:r for r in rows}
 for spell,skill in checks.items():
     assert byid[spell]["craftSkillRequired"]==skill, f"Regression of {byid[spell]['name']}"
 assert byid["7153"]["craftSkillRequired"]==160, "Guardian Cloak vetted Forever skill 160 must survive rebuild"
-print(f"PASS: {len(main)} named Forever recipes covered; {count}/{len(rows)} source-backed client records; {len(rows)-count} historical/unnamed unresolved")
+print(f"PASS: {len(main)} identified main WoW Forever recipes; {count}/{len(rows)} have source-backed crafting requirements; historical/unnamed entries excluded")

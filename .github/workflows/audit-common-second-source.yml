@@ -1,0 +1,22 @@
+name: Verify Common outputs and items against newer client
+on:
+  push:
+    paths:
+      - scripts/audit-common-second-source.py
+      - .github/workflows/audit-common-second-source.yml
+      - data/item-stats.json
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: python3 -m pip install beautifulsoup4
+      - run: python3 scripts/audit-common-second-source.py
+      - run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs/common-item-second-source-audit.json
+          git diff --cached --quiet || (git commit -m "docs: audit common item tooltip facts" && git push)

@@ -5,6 +5,7 @@ on:
       - scripts/audit-epic-second-source.py
       - .github/workflows/audit-epic-second-source.yml
       - data/item-stats.json
+      - scripts/validate-item-stats.py
   workflow_dispatch:
 permissions:
   contents: write
